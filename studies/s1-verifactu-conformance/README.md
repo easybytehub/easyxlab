@@ -1,6 +1,6 @@
 # S1 — Conformance of open-source Verifactu implementations
 
-*EasyxLab · study S1 · snapshot 2026-10-02 · status: working draft, not published*
+*EasyxLab · study S1 · snapshot 2026-10-02 · status: working draft, not peer-reviewed*
 
 ## Abstract
 

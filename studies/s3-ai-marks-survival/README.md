@@ -1,6 +1,6 @@
 # S3 — Do AI provenance marks survive common image, video and audio pipelines?
 
-*EasyxLab · study S3 · October 2026*
+*EasyxLab · study S3 · October 2026 · status: working draft, not peer-reviewed*
 
 ## Abstract
 

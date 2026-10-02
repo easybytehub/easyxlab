@@ -1,6 +1,6 @@
 # S4 — Multilingual quality of drug names in Wikidata
 
-EasyxLab · study S4 · snapshot of 2026-10-02 · status: **draft, not published**
+EasyxLab · study S4 · snapshot of 2026-10-02 · status: working draft, not peer-reviewed
 
 ## Abstract
 

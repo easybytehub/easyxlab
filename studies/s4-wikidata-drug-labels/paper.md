@@ -1,6 +1,6 @@
 # How reliable are drug names in Wikidata across languages? A frozen-snapshot audit of 34,207 labels
 
-*EasyxLab, study S4 — draft of 2026-10-02, not peer-reviewed, not published.*
+*EasyxLab, study S4 — working draft, 2026-10-02. Not peer-reviewed.*
 
 ## Abstract
 
