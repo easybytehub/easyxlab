@@ -1,0 +1,3 @@
+package,reviewed_legitimacy,review_note
+spotify-audio-element,legitimate-likely,"Moved from a personal repository into the muxinc/media-elements monorepo, which already publishes the sibling custom-media-element; the rule cannot see this because the owners differ and the old repository does not redirect."
+@orpc/standard-server,undetermined,"unnoq/orpc -> middleapi/orpc. Different owner and no redirect on the old URL at collection time. Same project name, but nothing in the data we collected confirms it."

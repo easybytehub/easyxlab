@@ -1,0 +1,212 @@
+{
+ "fetched_at": "2026-10-02T18:58:40Z",
+ "sources": {
+  "pep740": {
+   "url": "https://peps.python.org/pep-0740/",
+   "final_url": "https://peps.python.org/pep-0740/",
+   "status": 200,
+   "excerpts": [
+    "testations as attestation objects ; Changes to the HTML and JSON “simple” APIs , allowing clients to retrieve both digital attestations and Trusted Publishing metadata for individual release files as provenance objects .",
+    "Additionally, this proposal identifies the following motivations: Verifiable provenance for Python package distributions: many Python packages currently contain unauthenticated provenance metadata, such as URLs for source hosts.",
+    "This PEP overcomes this limitation by ensuring that provenance objects contain all of the metadata needed by the index to verify an attestation’s validity.",
+    "ttestations uploaded to the index (preventing, for example, users from accidentally uploading incorrect or invalid attestations) and also enables UI and UX refinements on the index itself (such as a “provenance” view for each uploaded package).",
+    "Index changes Simple Index The following changes are made to the simple repository API : When an uploaded file has one or more attestations, the index MAY provide a provenance file containing attestations associated with a given distribution.",
+    "The format of the provenance file SHALL be a JSON-encoded provenance object , which SHALL contain the file’s attestations.",
+    "The location of the provenance file is signaled by the index via the data-provenance attribute.",
+    "When a provenance file is present, the index MAY include a data-provenance attribute on its file link.",
+    "The value of the data-provenance attribute SHALL be a fully qualified URL, signaling the the file’s provenance can be found at that URL.",
+    "The following table provides examples of release file URLs, data-provenance values, and their resulting provenance file URLs.",
+    "File URL data-provenance Provenance URL https://example.",
+    "provenance https://example.",
+    "gz/provenance https://other.",
+    "gz/provenance https://example.",
+    "com/provenance (invalid: not a secure origin) The index MAY choose to modify the provenance file.",
+    "See Changes to provenance objects for an additional discussion of reasons why a file’s provenance may change.",
+    "JSON-based Simple API The following changes are made to the JSON simple API : When an uploaded file has one or more attestations, the index MAY include a provenance key in the file dictionary for that file.",
+    "The value of the provenance key SHALL be either a JSON string or null .",
+    "If provenance is not null , it SHALL be a URL to the associated provenance file.",
+    "See Appendix 3: Simple JSON API size considerations for an explanation of the technical decision to embed the SHA-256 digest in the JSON API, rather than the full provenance object .",
+    "The following predicateType values are supported: SLSA Provenance : https://slsa.",
+    "dev/provenance/v1 PyPI Publish Attestation : https://docs.",
+    "Provenance objects The index will serve uploaded attestations along with metadata that can assist in verifying them in the form of JSON serialized objects.",
+    "\"\"\" @dataclass class Provenance : version : Literal [ 1 ] \"\"\" The provenance object's version, which is always 1.",
+    "Like attestation objects, provenance objects are versioned, and this PEP only defines version 1 .",
+    "ach array of attestation objects is a superset of the attestations array supplied by the uploaded through the attestations field at upload time, as described in Upload endpoint changes and Changes to provenance objects .",
+    "Changes to provenance objects Provenance objects are not immutable, and may change over time.",
+    "These attestations may be performed asynchronously, requiring the index to insert them into the provenance object post facto .",
+    "provenance listing: \"publisher\" : { \"kind\" : \"GitHub\" , \"claims\" : { \"ref\" : \"refs/tags/v1.",
+    "\"\"\" Appendix 3: Simple JSON API size considerations A previous draft of this PEP required embedding each provenance object directly into its appropriate part of the JSON Simple API.",
+    "The current version of this PEP embeds the SHA-256 digest of the provenance object instead.",
+    "9 KB of JSON per combined provenance object."
+   ]
+  },
+  "pep691": {
+   "url": "https://peps.python.org/pep-0691/",
+   "final_url": "https://peps.python.org/pep-0691/",
+   "status": 200,
+   "excerpts": [
+    "0 API, the content types would be: JSON: application/vnd.pypi.simple.v1+json HTML: application/vnd.",
+    "x response should have a Content-Type of application/vnd.pypi.simple.v1+json ).",
+    "CONTENT_TYPES = [ \"application/vnd.pypi.simple.v1+json\" , \"application/vnd.",
+    "get ( \"content-type\" , \"\" )) match content_type : case \"application/vnd.pypi.simple.v1+json\" : handle_v1_json ( resp ) case \"application/vnd.",
+    "Should application/json preserve backwards compatibility and continue to be an alias for application/vnd.pypi.simple.v1+json , or should it be updated to be an alias for application/vnd.",
+    "in example of this being GitHub Pages, which the lack of application/json support in this PEP means that static repositories will no longer be able to be hosted on GitHub Pages unless GitHub adds the application/vnd.pypi.simple.v1+json content type."
+   ]
+  },
+  "pep700": {
+   "url": "https://peps.python.org/pep-0700/",
+   "final_url": "https://peps.python.org/pep-0700/",
+   "status": 200,
+   "excerpts": [
+    "Two new “file information” keys, size and upload-time , are added to the files data.",
+    "The upload-time key is optional.",
+    "upload-time : This field is optional.",
+    "If a server does not record upload time information for a file, it MAY omit the upload-time key."
+   ]
+  },
+  "pypi_attestations": {
+   "url": "https://docs.pypi.org/attestations/",
+   "final_url": "https://docs.pypi.org/attestations/",
+   "status": 200,
+   "excerpts": [
+    ") Security Model and Considerations Project Metadata APIs and Datasets APIs and Datasets Introduction Index API JSON API Upload API Integrity API Stats API BigQuery Datasets RSS Feeds Secret reporting API Table of contents Quick background Supported attestations Introduction These pages document PyPI's implementation of digital attestations ( PEP 740 ), including in-toto attestation predicates specific to PyPI itself.",
+    "Quick background Digital attestations enable package maintainers as well as third parties (such as the index itself, external auditors, etc.",
+    "These attestations can take multiple forms, including publish attestations for publicly verifiable proof that a package was published via a specific Trusted Publisher , or more general SLSA Provenance attesting to a package's original source location.",
+    "Supported attestations PyPI uses the in-toto Attestation Framework for the attestations it accepts.",
+    "Currently, PyPI allows the following attestation predicates: SLSA Provenance PyPI Publish Each file can be uploaded along with its attestations.",
+    "Currently PyPI supports two attestations per uploaded release file: one for each of the allowed predicates.",
+    "Uploads with more than two attestations per file, and uploads with attestations with repeated predicates will be rejected."
+   ]
+  },
+  "pypi_producing": {
+   "url": "https://docs.pypi.org/attestations/producing-attestations/",
+   "final_url": "https://docs.pypi.org/attestations/producing-attestations/",
+   "status": 200,
+   "excerpts": [
+    "Producing attestations GitHub Actions GitLab CI/CD Google Cloud The easy way If you publish to PyPI with pypa/gh-action-pypi-publish (the official PyPA action), attestations are generated and uploaded automatically by default, with no additional configuration necessary.",
+    "Set up Trusted Publishing with a supported CI/CD provider.",
+    "Note Support for other Trusted Publishers is planned.",
+    ", Trusted Publishers).",
+    "The examples below can be used to sign with a Trusted Publisher or with other identities, but PyPI will reject non-Trusted Publisher attestations at upload time.",
+    ", the ordinary context for Trusted Publishing), it will use the ambient identity of the GitHub Actions workflow that invoked it.",
+    "First, a GitLab workflow that uses Trusted Publishing to upload should already be set up."
+   ]
+  },
+  "pypi_integrity_api": {
+   "url": "https://docs.pypi.org/api/integrity/",
+   "final_url": "https://docs.pypi.org/api/integrity/",
+   "status": 200,
+   "excerpts": [
+    "Consuming attestations PyPI Publish Attestation (v1) Security Model and Considerations Project Metadata APIs and Datasets APIs and Datasets Introduction Index API JSON API Upload API Integrity API Integrity API Table of contents Concepts Routes Get provenance for file Status codes Stats API BigQuery Datasets RSS Feeds Secret reporting API Table of contents Concepts Routes Get provenance for file Status codes Integrity API The Integrity API provides access to PyPI's implementation of PEP 740 .",
+    "Concepts The concepts and objects in the Integrity API closely mirror PEP 740 : Attestation objects encapsulate a single \"attestation\" for a single file, such as a publish attestation or SLSA Provenance .",
+    "Provenance objects encapsulate one or more attestations for a given file, bundling them with the identity that produced them.",
+    "The Integrity API deals in provenance objects; users should extract and verify individual attestations from a file's provenance, as appropriate.",
+    "Routes Get provenance for file Route: GET /integrity/<project>/<version>/<filename>/provenance Get the provenance object for the given <filename> .",
+    "gz/provenance HTTP / 1.",
+    "v1+json Example JSON response This is an example response, demonstrating a provenance object containing one attestation and its Trusted Publishing identity.",
+    "1\" }, \"logId\" : { \"keyId\" : \"wNI9atQGlz+VWfO6LRygH4QUfY/8W4RFwiT5i5WRgB0=\" }, \"logIndex\" : \"147137139\" } ] }, \"version\" : 1 } ], \"publisher\" : { \"claims\" : null , \"environment\" : \"\" , \"kind\" : \"GitHub\" , \"repository\" : \"pypa/sampleproject\" , \"workflow\" : \"release."
+   ]
+  },
+  "npm_generating_provenance": {
+   "url": "https://docs.npmjs.com/generating-provenance-statements",
+   "final_url": "https://docs.npmjs.com/generating-provenance-statements/",
+   "status": 200,
+   "excerpts": [
+    "Generating provenance statements | npm Docs Skip to search Skip to content npm Docs npmjs.",
+    "nts Table of contents About npm provenance About Sigstore Provenance limitations Prerequisites Publishing packages with provenance via GitHub Actions Example GitHub Actions workflow Using third-party package publishing tools Publishing packages with provenance via GitLab CI/CD Example GitLab CI job Verifying provenance attestations You can generate provenance statements for the packages you publish.",
+    "About npm provenance npm provenance includes two types of attestations: Provenance attestation Publish attestation The provenance attestation is established by publicly providing a link to a package's source code and build instructions from the build environment.",
+    "When an npm package is published with provenance, it is signed by Sigstore public good servers and logged in a public transparency ledger, where users can view this information.",
+    "Provenance limitations To publish a package with provenance, you must build your package with a supported cloud CI/CD provider using a cloud-hosted runner.",
+    "When a package in the npm registry has established provenance, it does not guarantee the package has no malicious code.",
+    "Instead, npm provenance provides a verifiable link to the package's source code and build instructions, which developers can then audit and determine whether to trust it or not.",
+    "\" Prerequisites Before you can publish your packages with provenance, you must: Review the Linux Foundation Immutable Record notice , which applies to the public transparency log.",
+    "0+ as older versions don't support npm provenance).",
+    "json is configured with a public repository that matches (case-sensitive) where you are publishing with provenance from.",
+    "For more information, see \" Publishing packages with provenance via GitHub Actions .",
+    "For more information, see \" Publishing packages with provenance via GitLab CI/CD .",
+    "\" Note: If you use trusted publishing , provenance attestations are automatically generated for your packages without requiring the --provenance flag.",
+    "Publishing packages with provenance via GitHub Actions In order to establish provenance, you must use a supported cloud CI/CD provider and a cloud-hosted runner to publish your packages.",
+    "on a GitHub-hosted runner : runs-on : ubuntu - latest Add the --provenance flag to your publish command: npm publish --provenance If you are publishing a package for the first time you will also need to explicitly set access to public: npm publish --provenance --access public Example GitHub Actions workflow This example workflow publishes a package to the npm registry with provenance.",
+    "org' package-manager-cache : false # never use caching in release builds - run : npm ci - run : npm publish - - provenance - - access public env : NODE_AUTH_TOKEN : $ { { secrets.",
+    "NPM_TOKEN } } Using third-party package publishing tools If you publish your packages with tools that do not directly invoke the npm publish command, you can do one of the following in your GitHub Actions workflow to publish your packages with provenance.",
+    "Configure environment variables: In your GitHub Actions workflow, you can use an environment variable called NPM_CONFIG_PROVENANCE , and set it to true .",
+    "json file: \"publishConfig\" : { \"provenance\" : true } , Add an .",
+    "npmrc file to your project with the following entry: provenance=true Note: To publish packages with provenance using Yarn, v4.",
+    "Publishing packages with provenance via GitLab CI/CD In order to establish provenance, you must use a supported cloud CI/CD provider and a cloud-hosted runner to publish your packages.",
+    "For more information, see Generating provenance in GitLab CI/CD in the GitLab documentation.",
+    "Example GitLab CI job This example job publishes a package to the npm registry with provenance when a git tag is pushed.",
+    "ple response showing the count of verified registry signatures and verified attestations for all of the packages in a project: audited 1267 packages in 6s 1267 packages have verified registry signatures 74 packages have verified attestations Because provenance attestations are such a new feature, security features may be added to (or changed in) the attestation format over time."
+   ]
+  },
+  "npm_trusted_publishers": {
+   "url": "https://docs.npmjs.com/trusted-publishers",
+   "final_url": "https://docs.npmjs.com/trusted-publishers/",
+   "status": 200,
+   "excerpts": [
+    "Automatic provenance generation When you publish using trusted publishing from GitHub Actions or GitLab CI/CD, npm automatically generates and publishes provenance attestations for your package.",
+    "This happens by default—you don't need to add the --provenance flag to your publish command.",
+    "Note: Provenance generation is not currently supported for CircleCI.",
+    "Packages published via CircleCI trusted publishing will not include provenance attestations.",
+    "Provenance provides cryptographic proof of where and how your package was built, allowing users to verify its authenticity.",
+    "This automatic generation only applies when all of these conditions are met: Publishing via trusted publishing (OIDC) Publishing from a public repository Publishing a public package Note: Provenance generation is not supported for private repositories , even when publishing public packages.",
+    "Disabling provenance generation While we strongly recommend keeping provenance enabled, you can disable it if needed.",
+    "Set the provenance option to false in any of these ways: Using environment variable: NPM_CONFIG_PROVENANCE = false npm publish In your .",
+    "npmrc file: provenance=false In your package.",
+    "json : { \"publishConfig\" : { \"provenance\" : false } } Security best practices Prefer trusted publishing over tokens When trusted publishing is available for your workflow, always prefer it over long-lived tokens.",
+    "For packages in private repositories, provenance will not be generated even though you're using trusted publishing."
+   ]
+  },
+  "tob_are_we_pep740_yet": {
+   "url": "https://trailofbits.github.io/are-we-pep740-yet/",
+   "final_url": "https://trailofbits.github.io/are-we-pep740-yet/",
+   "status": 200,
+   "excerpts": [
+    "Are we PEP 740 yet? 🔏 Are we PEP 740 yet? 🔏 What is PEP 740? PEP 740 is a Python standard for defining cryptographically verifiable attestations hosted by indices like PyPI.",
+    "What are attestations? Attestations are digitally signed, publicly verifiable statements about Python packages, including their provenance (e.",
+    "Attestations are built on top of Sigstore and use short-lived signing keys bound to trusted identities (like Trusted Publishers ), making them misuse-resistant and less susceptible to key loss and theft.",
+    "What is this list? This site shows the top 360 most-downloaded packages on PyPI showing which have been uploaded with attestations.",
+    "Green packages with a 🔏 offer attestations for their latest release Uncolored packages with a ⏰ were last uploaded before attestations were available Yellow packages come from supported hosts, but have no attestations uploaded (yet!) Magenta packages come from source hosts that can't generate PEP 740 attestations (yet!) Packages that are known to be deprecated are not included (for example, distribute).",
+    "I'm a user of Python packages.",
+    "What can I do? We're currently working on integrating attestation verification into installers like pip and uv .",
+    "Once this happens, you won't need to do anything special to consume or verify attestations — it will just work! In the mean time, you can manually consume and verify attestations for a project by retrieving them from PyPI's Integrity API .",
+    "See the documentation on consuming attestations for additional information on using this API and verifying its responses.",
+    "What can I do? Using a Trusted Publisher is the easiest way to enable attestations, since they come baked in! See the PyPI user docs and official PyPA publishing action to get started.",
+    "0 or later to automatically enable attestations for the next release of the project.",
+    "The top 360 list comes from Top PyPI Packages .",
+    "com requires javascript to be enabled to display the list of packages."
+   ]
+  },
+  "gh_action_pypi_publish_readme": {
+   "url": "https://raw.githubusercontent.com/pypa/gh-action-pypi-publish/unstable/v1/README.md",
+   "final_url": "https://raw.githubusercontent.com/pypa/gh-action-pypi-publish/unstable/v1/README.md",
+   "status": 200,
+   "excerpts": [
+    "ref, 'refs/tags') ``` ### Generating and uploading attestations > [!IMPORTANT] > Support for generating and uploading [digital attestations] is currently > limited to Trusted Publishing flows using PyPI or TestPyPI.",
+    "> [!NOTE] > Generating and uploading digital attestations currently requires > authentication with a [trusted publisher].",
+    "Generating signed [digital attestations] for all the distribution files and uploading them all together is now on by default for all projects using Trusted Publishing.",
+    "To disable it, set `attestations` as follows: ```yml with: attestations: false ``` The attestation objects are created using [Sigstore] for each distribution package, signing them with the identity provided by GitHub's OIDC token associated with the current workflow.",
+    "This means both the trusted publishing authentication and the attestations are tied to the same identity.",
+    "org/trusted-publishers/adding-a-publisher/ [how to specify username and password]: #specifying-a-different-username [digital attestations]: https://peps."
+   ]
+  },
+  "uv_publish_guide": {
+   "url": "https://docs.astral.sh/uv/guides/package/",
+   "final_url": "https://docs.astral.sh/uv/guides/package/",
+   "status": 200,
+   "excerpts": [
+    "ures Reproducible examples Contributing Internals Internals Resolver Workspace Metadata Benchmarks Policies Policies Versioning Platform support Python support Rust support License Table of contents Preparing your project Building your package Updating your version Publishing your package Uploading attestations with your package Installing your package Next steps Introduction Guides Building and publishing a package uv supports building Python packages into source and binary distributions via uv build and uploading them to a registry with uv publish .",
+    "For publishing to PyPI from GitHub Actions or another Trusted Publisher, you don't need to set any credentials.",
+    "Instead, add a trusted publisher to the PyPI project .",
+    "When using trusted publishing, uv will attempt to invalidate the short-lived PyPI token after publishing, even if publishing fails.",
+    "Uploading attestations with your package Note Some third-party package indexes may not support attestations, and may reject uploads that include them (rather than silently ignoring them).",
+    "If you encounter issues when uploading, you can use --no-attestations or UV_PUBLISH_NO_ATTESTATIONS to disable uv's default behavior.",
+    "Tip uv publish does not currently generate attestations; attestations must be created separately before publishing.",
+    "uv publish supports uploading attestations to registries that support them, like PyPI.",
+    "uv will automatically discover and match attestations.",
+    "For example, given the following dist/ directory, uv publish will upload the attestations along with their corresponding distributions: $ ls dist/ hello_world-1.",
+    "attestation hello_world-1.",
+    "attestation Installing your package Test that the package can be installed and imported with uv run : $ uv run --with <PACKAGE> --no-project -- python -c \"import <PACKAGE>\" The --no-project flag is used to avoid installing the package from your local project directory."
+   ]
+  }
+ }
+}

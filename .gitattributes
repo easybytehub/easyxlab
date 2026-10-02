@@ -1,0 +1,2 @@
+# data files are compared byte-for-byte with what the scripts write (Python csv writes CRLF): keep them as they are
+*.csv -text

@@ -1,0 +1,288 @@
+{
+ "searched": "2026-10-02T22:22:54Z",
+ "arxiv": {
+  "all:\"PEP 740\"": [],
+  "all:attestations AND all:PyPI": [
+   [
+    "2609.28862v1",
+    "2026-09-24",
+    "pytest-gpu-proof: Enabling Cloud-CPU Continuous Integration for GPU Code with Local GPU Attestation"
+   ],
+   [
+    "2406.15596v4",
+    "2024-06-21",
+    "Context-Aware Trust Verification for Identity-Based Software Signing"
+   ],
+   [
+    "2210.14884v2",
+    "2022-10-20",
+    "Do Software Security Practices Yield Fewer Vulnerabilities?"
+   ],
+   [
+    "2206.14606v1",
+    "2022-06-28",
+    "Building a Secure Software Supply Chain with GNU Guix"
+   ]
+  ],
+  "all:\"trusted publishing\" AND all:PyPI": [],
+  "all:provenance AND all:npm AND all:sigstore": [
+   [
+    "2406.15596v4",
+    "2024-06-21",
+    "Context-Aware Trust Verification for Identity-Based Software Signing"
+   ]
+  ],
+  "all:sigstore AND all:adoption": [
+   [
+    "2503.00271v6",
+    "2025-03-01",
+    "Why Johnny Adopts Identity-Based Software Signing: A Usability Case Study of Sigstore"
+   ],
+   [
+    "2603.17133v1",
+    "2026-03-17",
+    "A Longitudinal Study of Usability in Identity-Based Software Signing"
+   ]
+  ],
+  "all:\"software signing\" AND all:registries": [
+   [
+    "2406.15596v4",
+    "2024-06-21",
+    "Context-Aware Trust Verification for Identity-Based Software Signing"
+   ],
+   [
+    "2510.04964v1",
+    "2025-10-06",
+    "Why Software Signing (Still) Matters: Trust Boundaries in the Software Supply Chain"
+   ],
+   [
+    "2401.14635v2",
+    "2024-01-26",
+    "Signing in Four Public Software Package Registries: Quantity, Quality, and Influencing Factors"
+   ]
+  ],
+  "all:\"package registries\" AND all:signing": [
+   [
+    "2401.14635v2",
+    "2024-01-26",
+    "Signing in Four Public Software Package Registries: Quantity, Quality, and Influencing Factors"
+   ],
+   [
+    "2406.15596v4",
+    "2024-06-21",
+    "Context-Aware Trust Verification for Identity-Based Software Signing"
+   ]
+  ],
+  "all:\"trusted publishing\"": [
+   [
+    "1912.04602v1",
+    "2019-12-10",
+    "How far can we trust published TESS periods?"
+   ],
+   [
+    "2311.06697v1",
+    "2023-11-12",
+    "Trusted Source Alignment in Large Language Models"
+   ],
+   [
+    "2511.12626v3",
+    "2025-11-16",
+    "Prrr: Personal Random Rewards for Blockchain Reporting"
+   ]
+  ],
+  "all:\"build provenance\" AND all:npm": []
+ },
+ "crossref": {
+  "PEP 740 attestations PyPI": [
+   [
+    "10.1163/1874-6772_seg_a61_230",
+    "Peloponnesos. Institutions: Epigraphic attestations of hellanodikai.",
+    null
+   ],
+   [
+    "10.36227/techrxiv.24712455.v1",
+    "Data Cooperatives for Identity Attestations",
+    2023
+   ],
+   [
+    "10.3406/roma.1976.7229",
+    "Finte «petite alose » : deux attestations médiévales",
+    1976
+   ],
+   [
+    "10.36227/techrxiv.24712455",
+    "Data Cooperatives for Identity Attestations",
+    2023
+   ],
+   [
+    "10.5194/gmd-2020-279-rc2",
+    "Review of \"pyPI (v1.3): Tropical Cyclone Potential Intensity Calculations in Python\"",
+    2020
+   ],
+   [
+    "10.36227/techrxiv.172963029.93000953/v1",
+    "Integrating Device Attestations with OpenID-Connect",
+    2024
+   ]
+  ],
+  "Sigstore adoption package registries": [
+   [
+    "10.32614/cran.package.registry",
+    "registry: Infrastructure for R Package Registries",
+    2009
+   ],
+   [
+    "10.1080/10926755.2012.699912",
+    "Ethical Issues in the Use of Putative Father Registries in Infant Adoption: Implications for Administrators an",
+    2012
+   ],
+   [
+    "10.21236/ada353172",
+    "Transition Packages for Expediting Technology Adoption: The Prototype Requirements Management Transition Packa",
+    1998
+   ],
+   [
+    "10.1093/jamiaopen/ooac109",
+    "StoryboardR: an R package and Shiny application designed to visualize real-world data from clinical patient re",
+    2023
+   ],
+   [
+    "10.1037/e416482005-013",
+    "Training &amp; adoption: NCTSN Breakthrough Series Collaborative Information Package - AVAILABLE NOW!",
+    2005
+   ],
+   [
+    "10.1109/sp46215.2023.10179332",
+    "Investigating Package Related Security Threats in Software Registries",
+    2023
+   ]
+  ],
+  "npm provenance adoption": [
+   [
+    "10.1163/1874-6772_seg_a53_1039",
+    "Sicily. Unknown provenance. Dedication or adoption of Ariston’s three daughters, late 4th cent. B.C.",
+    null
+   ],
+   [
+    "10.7202/1083849ar",
+    "NPM et post-NPM dans les métropoles européennes : le défaut de communication, outil de résilience de l’élu",
+    2021
+   ],
+   [
+    "10.24135/rangahau-aranga.v2i3.172",
+    "Discipline and Punish: A Study Exploring the Adoption of NPM-Inspired Accounting Reforms in the Provincial Gov",
+    2023
+   ],
+   [
+    "10.5553/benm/138900692015042001009",
+    "NPM is dood, lang leve NPM!",
+    2015
+   ],
+   [
+    "10.1007/s10664-021-09951-x",
+    "Lags in the release, adoption, and propagation of npm vulnerability fixes",
+    2021
+   ],
+   [
+    "10.1007/978-3-540-47648-1_4133",
+    "NPM",
+    null
+   ]
+  ],
+  "PyPI trusted publishing": "ERR HTTP Error 429: Too Many Requests",
+  "PyPI trusted publishing attestations": [
+   [
+    "10.1145/3805690.3805732",
+    "Mind the Gap: Where TEE Attestations Fall Short and Why We Need Proof of Cloud",
+    2026
+   ],
+   [
+    "10.1163/1874-6772_seg_a61_230",
+    "Peloponnesos. Institutions: Epigraphic attestations of hellanodikai.",
+    null
+   ],
+   [
+    "10.31579/2693-4787/002",
+    "Green Growth Is Trusted To Fix Climate Change",
+    2020
+   ],
+   [
+    "10.36227/techrxiv.24712455.v1",
+    "Data Cooperatives for Identity Attestations",
+    2023
+   ],
+   [
+    "10.5194/gmd-2020-279-rc2",
+    "Review of \"pyPI (v1.3): Tropical Cyclone Potential Intensity Calculations in Python\"",
+    2020
+   ],
+   [
+    "10.36227/techrxiv.24712455",
+    "Data Cooperatives for Identity Attestations",
+    2023
+   ]
+  ],
+  "software signing package registries": [
+   [
+    "10.1109/sp54263.2024.00215",
+    "Signing in Four Public Software Package Registries: Quantity, Quality, and Influencing Factors",
+    2024
+   ],
+   [
+    "10.59350/bzxqq-thk59",
+    "ADORE.software is ready for signing",
+    2023
+   ],
+   [
+    "10.32614/cran.package.registry",
+    "registry: Infrastructure for R Package Registries",
+    2009
+   ],
+   [
+    "10.59350/819pt-es440",
+    "ADORE.software is ready for signing",
+    2023
+   ],
+   [
+    "10.1109/sp46215.2023.10179332",
+    "Investigating Package Related Security Threats in Software Registries",
+    2023
+   ],
+   [
+    "10.3724/sp.j.1001.2012.04024",
+    "Multiplex Contract Signing Protocol",
+    2012
+   ]
+  ]
+ },
+ "s2": {
+  "PEP 740 attestations": "ERR HTTP Error 429: ",
+  "Sigstore adoption PyPI npm": "ERR HTTP Error 429: ",
+  "npm provenance attestations adoption": "ERR HTTP Error 429: ",
+  "trusted publishing PyPI": "ERR HTTP Error 429: ",
+  "software signing package registries": "ERR HTTP Error 429: "
+ },
+ "github": {
+  "PEP 740 attestations adoption": [],
+  "pypi attestations regression": [],
+  "are-we-pep740-yet": [
+   [
+    "trailofbits/are-we-pep740-yet",
+    11,
+    "Are we PEP 740 yet?"
+   ]
+  ],
+  "npm provenance adoption statistics": []
+ },
+ "arxiv_abstracts": {
+  "2609.28862v1": "GPU acceleration is now routine across robotics, but cloud-hosted GPU continuous integration (CI) runners are expensive, resulting in severe under-testing of GPU-accelerated code. We present pytest-gpu-proof, an open-source pytest plugin offering a practical middle ground. Tests can be run on a local machine, signed with a receipt of exactly what ran and what it produced, and integrated into standard CPU CI workflows (e.g., GitHub Actions). The tool is open source and on PyPI, and we are actively integrating it across our lab's software stack.",
+  "2401.14635v2": "Many software applications incorporate open-source third-party packages distributed by public package registries. Guaranteeing authorship along this supply chain is a challenge. Package maintainers can guarantee package authorship through software signing. However, it is unclear how common this practice is, and whether the resulting signatures are created properly. Prior work has provided raw data on registry signing practices, but only measured single platforms, did not consider quality, did not consider time, and did not assess factors that may influence signing. We do not have up-to-date measurements of signing practices nor do we know the quality of existing signatures. Furthermore, we lack a comprehensive understanding of factors that influence signing adoption. This study addresses this gap. We provide measurements across three kinds of package registries: traditional software (Maven, PyPI), container images (DockerHub), and machine learning models (Hugging Face). For each registry, we describe the nature of the signed artifacts as well as the current quantity and quality of signatures. Then, we examine longitudinal trends in signing practices. Finally, we use a quasi-experiment to estimate the effect that various factors had on software signing practices. To summarize our findings: (1) mandating signature adoption improves the quantity of signatures; (2) providing dedicated tooling improves the quality of signing; (3) getting started is the hard part -- once a maintainer begins to sign, they tend to continue doing so; and (4) although many supply chain attacks are mitigable via signing, signing adoption is primarily affected by registry policy rather than by public knowledge of attacks, new engineering standards, etc. These findings highlight the importance of software package registry managers and signing infrastructure.",
+  "2503.00271v6": "Software signing is the most robust method for ensuring the integrity and authenticity of components in a software supply chain. Legacy key-managed signing tools (e.g., OpenPGP) burdened practitioners with key management and signer identification, creating both usability challenges and security risks. A new class of identity-based signing tools automate many of these concerns, but little is known about their usability and its effect on their adoption and effectiveness in practice. A usability evaluation can clarify the extent to which identity-based designs succeed and highlight priorities for improvement. To fill this gap, we conducted the first usability study of Sigstore, a pioneering and widely adopted exemplar of identity-based signing. Through interviews with 17 industry experts, we examined (1) the problems and advantages associated with practitioners' tooling choices, (2) how and why their signing-tool usage has evolved over time, and (3) the contexts that cause usability concerns. Our findings illuminate the usability factors of identity-based signing tools and yield recommendations for toolmakers, adopting organizations, and the research community. Notably, components of identity-based tooling exhibit different levels of maturity and readiness for adoption, and integration flexibility is a common pain point but potentially mitigable through plugins and APIs. Our results will help identity-based signing toolmakers further strengthen software supply chain security."
+ },
+ "note": "Semantic Scholar API answered HTTP 429 to every query on 2026-10-02/03 (no results obtained). Crossref free-text search returns mostly unrelated records; relevant hits are listed in 'relevant'.",
+ "relevant": [
+  "10.1109/sp54263.2024.00215 = arXiv 2401.14635 (Signing in Four Public Software Package Registries)",
+  "arXiv 2503.00271 (A Longitudinal Study of Usability in Identity-Based Software Signing)",
+  "github trailofbits/are-we-pep740-yet"
+ ]
+}

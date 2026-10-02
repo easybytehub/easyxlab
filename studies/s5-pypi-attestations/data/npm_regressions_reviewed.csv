@@ -1,0 +1,8 @@
+package,reviewed_class,review_note
+why-is-node-running,isolated_upload,3.2.2 (2025-01-08) has no provenance; the publish workflow at HEAD still passes --provenance with id-token: write and no later commit touches it: one release outside the workflow. Confirmed.
+@vercel/next,indeterminate,"Provenance stopped; release.yml at HEAD still sets NPM_CONFIG_PROVENANCE. Only timing links it to the July 2026 workflow restructuring, which is not evidence: cause unknown."
+@vercel/h3,indeterminate,"Provenance stopped; release.yml at HEAD still sets NPM_CONFIG_PROVENANCE. Only timing links it to the July 2026 workflow restructuring, which is not evidence: cause unknown."
+@vercel/hydrogen,indeterminate,"Provenance stopped; release.yml at HEAD still sets NPM_CONFIG_PROVENANCE. Only timing links it to the July 2026 workflow restructuring, which is not evidence: cause unknown."
+express,not_a_regression,"latest 5.2.1 was published 2025-12-01, before express adopted provenance; the attested 4.22.3 is a later 4.x maintenance release. The 5.x line has not released since."
+body-parser,not_a_regression,Same pattern as express: 2.3.0 (2026-06-15) predates provenance; attested 1.20.8 (2026-09-08) is a maintenance release published after a workflow switch to reusable npm-publish.
+@tailwindcss/aspect-ratio,not_a_regression,latest 0.4.2 is from 2022; the only attested versions are 2026 insiders pre-releases.

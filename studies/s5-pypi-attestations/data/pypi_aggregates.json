@@ -1,0 +1,229 @@
+{
+ "list": "hugovk top-pypi-packages, last_update 2026-10-01 12:40:51 (30-day downloads); fetched at a pinned commit, not redistributed",
+ "snapshot_cutoff": "2026-10-01T12:40:51+00:00",
+ "projects_in_list": 15000,
+ "projects_analysed": 14995,
+ "not_analysed": {
+  "aaaaaaaaa": "simple index HTTP 404",
+  "types-pkg-resources": "all files yanked or unparseable",
+  "pikobs": "no files uploaded by the list date",
+  "vnai": "no files in the index",
+  "vnstock": "no files in the index"
+ },
+ "earliest_attested_file": "2024-10-03T15:21:10.448703+00:00",
+ "eligibility_cutoff": "2024-10-01",
+ "eligible_definition": "latest (highest stable) version first uploaded on or after 2024-10-01",
+ "latest_attested_all": {
+  "n": 14995,
+  "yes": 3479
+ },
+ "latest_fully_attested_all": {
+  "n": 14995,
+  "yes": 3466
+ },
+ "ever_attested_all": {
+  "n": 14995,
+  "yes": 3659
+ },
+ "latest_attested_eligible": {
+  "n": 11176,
+  "yes": 3478
+ },
+ "mixed_latest": 13,
+ "stopped_newest": 148,
+ "stopped_pip_default": 138,
+ "stopped_pip_default_incl_backports": 140,
+ "stopped_union": 148,
+ "stopped_newest_only_prereleases_attested": 4,
+ "stopped_pip_default_single_attested_stable": 21,
+ "bands": [
+  {
+   "band": "1-100",
+   "latest_attested": {
+    "n": 100,
+    "yes": 59
+   },
+   "eligible_latest_attested": {
+    "n": 97,
+    "yes": 59
+   },
+   "ever_attested": {
+    "n": 100,
+    "yes": 62
+   },
+   "stopped_pip_default": {
+    "n": 100,
+    "yes": 3
+   },
+   "stopped_newest": {
+    "n": 100,
+    "yes": 3
+   }
+  },
+  {
+   "band": "101-500",
+   "latest_attested": {
+    "n": 400,
+    "yes": 151
+   },
+   "eligible_latest_attested": {
+    "n": 356,
+    "yes": 151
+   },
+   "ever_attested": {
+    "n": 400,
+    "yes": 164
+   },
+   "stopped_pip_default": {
+    "n": 400,
+    "yes": 9
+   },
+   "stopped_newest": {
+    "n": 400,
+    "yes": 10
+   }
+  },
+  {
+   "band": "501-1000",
+   "latest_attested": {
+    "n": 500,
+    "yes": 163
+   },
+   "eligible_latest_attested": {
+    "n": 414,
+    "yes": 163
+   },
+   "ever_attested": {
+    "n": 500,
+    "yes": 176
+   },
+   "stopped_pip_default": {
+    "n": 500,
+    "yes": 10
+   },
+   "stopped_newest": {
+    "n": 500,
+    "yes": 10
+   }
+  },
+  {
+   "band": "1001-2500",
+   "latest_attested": {
+    "n": 1500,
+    "yes": 399
+   },
+   "eligible_latest_attested": {
+    "n": 1231,
+    "yes": 399
+   },
+   "ever_attested": {
+    "n": 1500,
+    "yes": 429
+   },
+   "stopped_pip_default": {
+    "n": 1500,
+    "yes": 22
+   },
+   "stopped_newest": {
+    "n": 1500,
+    "yes": 26
+   }
+  },
+  {
+   "band": "2501-5000",
+   "latest_attested": {
+    "n": 2499,
+    "yes": 632
+   },
+   "eligible_latest_attested": {
+    "n": 1861,
+    "yes": 631
+   },
+   "ever_attested": {
+    "n": 2499,
+    "yes": 669
+   },
+   "stopped_pip_default": {
+    "n": 2499,
+    "yes": 28
+   },
+   "stopped_newest": {
+    "n": 2499,
+    "yes": 30
+   }
+  },
+  {
+   "band": "5001-10000",
+   "latest_attested": {
+    "n": 4999,
+    "yes": 1063
+   },
+   "eligible_latest_attested": {
+    "n": 3644,
+    "yes": 1063
+   },
+   "ever_attested": {
+    "n": 4999,
+    "yes": 1106
+   },
+   "stopped_pip_default": {
+    "n": 4999,
+    "yes": 29
+   },
+   "stopped_newest": {
+    "n": 4999,
+    "yes": 31
+   }
+  },
+  {
+   "band": "10001-15000",
+   "latest_attested": {
+    "n": 4997,
+    "yes": 1012
+   },
+   "eligible_latest_attested": {
+    "n": 3573,
+    "yes": 1012
+   },
+   "ever_attested": {
+    "n": 4997,
+    "yes": 1053
+   },
+   "stopped_pip_default": {
+    "n": 4997,
+    "yes": 37
+   },
+   "stopped_newest": {
+    "n": 4997,
+    "yes": 38
+   }
+  }
+ ],
+ "stops_by_half": [
+  {
+   "half": "2024H2",
+   "stops": 14,
+   "projects_with_attested_stable_by_end": 758
+  },
+  {
+   "half": "2025H1",
+   "stops": 26,
+   "projects_with_attested_stable_by_end": 1613
+  },
+  {
+   "half": "2025H2",
+   "stops": 43,
+   "projects_with_attested_stable_by_end": 2227
+  },
+  {
+   "half": "2026H1",
+   "stops": 40,
+   "projects_with_attested_stable_by_end": 3234
+  },
+  {
+   "half": "2026H2*",
+   "stops": 14,
+   "projects_with_attested_stable_by_end": 3616
+  }
+ ]
+}

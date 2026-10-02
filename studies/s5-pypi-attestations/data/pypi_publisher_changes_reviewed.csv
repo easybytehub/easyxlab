@@ -1,0 +1,6 @@
+project,reviewed_legitimacy,review_note
+matrx-ai,unknown,"Old and new repositories do not resolve today and the metadata match was a substring false positive in the earlier rule; nothing public confirms or contradicts the change."
+pipecatcloud,unknown,"Same repository name under a second organisation of the same product; neither redirect nor declared metadata confirms it. Not evidence of anything wrong."
+powerbot-client,unknown,"Same repository name (punctuation differs) under a new company organisation; not confirmed by redirect or metadata."
+qiskit-connector,unknown,"Personal account to organisation, same repository name; not confirmed by redirect or metadata."
+stonefish-license-manager,unknown,"Several changes in one year among organisations sharing the repository name; public data cannot distinguish a multi-organisation setup from anything else. Not evidence of compromise."

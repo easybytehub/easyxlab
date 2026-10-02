@@ -1,0 +1,110 @@
+{
+ "sample": "npm-high-impact 1.13.0 top-download: ranks 1-1000 + 500 random from 1001-15916 (seed 20261002)",
+ "n": 1500,
+ "latest_attested_top1000": {
+  "n": 1000,
+  "yes": 308,
+  "share": 0.308
+ },
+ "latest_attested_tail_sample": {
+  "n": 500,
+  "yes": 137,
+  "share": 0.274
+ },
+ "ever_attested_top1000": {
+  "n": 1000,
+  "yes": 314,
+  "share": 0.314
+ },
+ "bands": [
+  {
+   "band": "1-100",
+   "latest_attested": {
+    "n": 100,
+    "yes": 22,
+    "share": 0.22
+   },
+   "ever_attested": {
+    "n": 100,
+    "yes": 23,
+    "share": 0.23
+   },
+   "regression": {
+    "n": 100,
+    "yes": 0,
+    "share": 0.0
+   }
+  },
+  {
+   "band": "101-500",
+   "latest_attested": {
+    "n": 400,
+    "yes": 122,
+    "share": 0.305
+   },
+   "ever_attested": {
+    "n": 400,
+    "yes": 126,
+    "share": 0.315
+   },
+   "regression": {
+    "n": 400,
+    "yes": 0,
+    "share": 0.0
+   }
+  },
+  {
+   "band": "501-1000",
+   "latest_attested": {
+    "n": 500,
+    "yes": 164,
+    "share": 0.328
+   },
+   "ever_attested": {
+    "n": 500,
+    "yes": 165,
+    "share": 0.33
+   },
+   "regression": {
+    "n": 500,
+    "yes": 1,
+    "share": 0.002
+   }
+  },
+  {
+   "band": "1001-15916",
+   "latest_attested": {
+    "n": 500,
+    "yes": 137,
+    "share": 0.274
+   },
+   "ever_attested": {
+    "n": 500,
+    "yes": 145,
+    "share": 0.29
+   },
+   "regression": {
+    "n": 500,
+    "yes": 3,
+    "share": 0.006
+   }
+  }
+ ],
+ "regression_semver": 7,
+ "regression_time_confirmed": 4,
+ "regression": 4,
+ "repo_change_rules": {
+  "same owner": 7,
+  "old repository redirects to new (rename/transfer)": 4,
+  "not verifiable from public metadata": 2
+ },
+ "rule_classes": {
+  "not_regression_attested_line_published_later": 3,
+  "isolated_upload": 1,
+  "indeterminate": 3
+ },
+ "secondary_channel_unattested": 4,
+ "repo_changed": 13,
+ "workflow_changed_same_repo": 46,
+ "attested_packages": 459
+}

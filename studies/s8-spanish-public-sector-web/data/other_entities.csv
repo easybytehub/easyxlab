@@ -1,0 +1,144 @@
+entity_id,entity_type,name,region,url
+CCAA01,regional_government,Junta de Andalucía,Andalucía,www.juntadeandalucia.es
+CCAA02,regional_government,Gobierno de Aragón,Aragón,www.aragon.es
+CCAA03,regional_government,Principado de Asturias,"Asturias, Principado de",www.asturias.es
+CCAA04,regional_government,Govern de les Illes Balears,"Balears, Illes",www.caib.es
+CCAA05,regional_government,Gobierno de Canarias,Canarias,www.gobiernodecanarias.org
+CCAA06,regional_government,Gobierno de Cantabria,Cantabria,www.cantabria.es
+CCAA07,regional_government,Junta de Castilla y León,Castilla y León,www.jcyl.es
+CCAA08,regional_government,Junta de Comunidades de Castilla-La Mancha,Castilla-La Mancha,www.castillalamancha.es
+CCAA09,regional_government,Generalitat de Catalunya,Cataluña,web.gencat.cat
+CCAA10,regional_government,Generalitat Valenciana,Comunitat Valenciana,www.gva.es
+CCAA11,regional_government,Junta de Extremadura,Extremadura,www.juntaex.es
+CCAA12,regional_government,Xunta de Galicia,Galicia,www.xunta.gal
+CCAA13,regional_government,Comunidad de Madrid,"Madrid, Comunidad de",www.comunidad.madrid
+CCAA14,regional_government,Región de Murcia,"Murcia, Región de",www.carm.es
+CCAA15,regional_government,Gobierno de Navarra,"Navarra, Comunidad Foral de",www.navarra.es
+CCAA16,regional_government,Gobierno Vasco,País Vasco,www.euskadi.eus
+CCAA17,regional_government,Gobierno de La Rioja,"Rioja, La",www.larioja.org
+CCAA18,regional_government,Ciudad Autónoma de Ceuta,Ciudad de Ceuta,www.ceuta.es
+CCAA19,regional_government,Ciudad Autónoma de Melilla,Ciudad de Melilla,www.melilla.es
+DIP01,provincial_council,Diputación de Almería,Andalucía,www.dipalme.org
+DIP02,provincial_council,Diputación de Cádiz,Andalucía,www.dipucadiz.es
+DIP03,provincial_council,Diputación de Córdoba,Andalucía,www.dipucordoba.es
+DIP04,provincial_council,Diputación de Granada,Andalucía,www.dipgra.es
+DIP05,provincial_council,Diputación de Huelva,Andalucía,www.diphuelva.es
+DIP06,provincial_council,Diputación de Jaén,Andalucía,www.dipujaen.es
+DIP07,provincial_council,Diputación de Málaga,Andalucía,www.malaga.es
+DIP08,provincial_council,Diputación de Sevilla,Andalucía,www.dipusevilla.es
+DIP09,provincial_council,Diputación de Huesca,Aragón,www.dphuesca.es
+DIP10,provincial_council,Diputación de Teruel,Aragón,www.dpteruel.es
+DIP11,provincial_council,Diputación de Zaragoza,Aragón,www.dpz.es
+DIP12,provincial_council,Diputación de Albacete,Castilla-La Mancha,www.dipualba.es
+DIP13,provincial_council,Diputación de Ciudad Real,Castilla-La Mancha,www.dipucr.es
+DIP14,provincial_council,Diputación de Cuenca,Castilla-La Mancha,www.dipucuenca.es
+DIP15,provincial_council,Diputación de Guadalajara,Castilla-La Mancha,www.dguadalajara.es
+DIP16,provincial_council,Diputación de Toledo,Castilla-La Mancha,www.diputoledo.es
+DIP17,provincial_council,Diputación de Ávila,Castilla y León,www.diputacionavila.es
+DIP18,provincial_council,Diputación de Burgos,Castilla y León,www.diputaciondeburgos.es
+DIP19,provincial_council,Diputación de León,Castilla y León,www.dipuleon.es
+DIP20,provincial_council,Diputación de Palencia,Castilla y León,www.diputaciondepalencia.es
+DIP21,provincial_council,Diputación de Salamanca,Castilla y León,www.lasalina.es
+DIP22,provincial_council,Diputación de Segovia,Castilla y León,www.dipsegovia.es
+DIP23,provincial_council,Diputación de Soria,Castilla y León,www.dipsoria.es
+DIP24,provincial_council,Diputación de Valladolid,Castilla y León,www.diputaciondevalladolid.es
+DIP25,provincial_council,Diputación de Zamora,Castilla y León,www.diputaciondezamora.es
+DIP26,provincial_council,Diputació de Barcelona,Cataluña,www.diba.cat
+DIP27,provincial_council,Diputació de Girona,Cataluña,www.ddgi.cat
+DIP28,provincial_council,Diputació de Lleida,Cataluña,www.diputaciolleida.cat
+DIP29,provincial_council,Diputació de Tarragona,Cataluña,www.dipta.cat
+DIP30,provincial_council,Diputación de Alicante,Comunitat Valenciana,www.diputacionalicante.es
+DIP31,provincial_council,Diputación de Castellón,Comunitat Valenciana,www.dipcas.es
+DIP32,provincial_council,Diputación de Valencia,Comunitat Valenciana,www.dival.es
+DIP33,provincial_council,Diputación de Badajoz,Extremadura,www.dip-badajoz.es
+DIP34,provincial_council,Diputación de Cáceres,Extremadura,www.dip-caceres.es
+DIP35,provincial_council,Deputación da Coruña,Galicia,www.dacoruna.gal
+DIP36,provincial_council,Deputación de Lugo,Galicia,www.deputacionlugo.gal
+DIP37,provincial_council,Deputación de Ourense,Galicia,www.depourense.es
+DIP38,provincial_council,Deputación de Pontevedra,Galicia,www.depo.gal
+DIP39,provincial_council,Diputación Foral de Álava,País Vasco,web.araba.eus
+DIP40,provincial_council,Diputación Foral de Bizkaia,País Vasco,www.bizkaia.eus
+DIP41,provincial_council,Diputación Foral de Gipuzkoa,País Vasco,www.gipuzkoa.eus
+DIP42,provincial_council,Cabildo de Gran Canaria,Canarias,cabildo.grancanaria.com
+DIP43,provincial_council,Cabildo de Lanzarote,Canarias,www.cabildodelanzarote.com
+DIP44,provincial_council,Cabildo de Fuerteventura,Canarias,www.cabildofuer.es
+DIP45,provincial_council,Cabildo de Tenerife,Canarias,www.tenerife.es
+DIP46,provincial_council,Cabildo de La Palma,Canarias,www.cabildodelapalma.es
+DIP47,provincial_council,Cabildo de La Gomera,Canarias,www.lagomera.es
+DIP48,provincial_council,Cabildo de El Hierro,Canarias,www.elhierro.es
+DIP49,provincial_council,Consell de Mallorca,"Balears, Illes",www.conselldemallorca.cat
+DIP50,provincial_council,Consell Insular de Menorca,"Balears, Illes",www.cime.es
+DIP51,provincial_council,Consell d'Eivissa,"Balears, Illes",www.conselldeivissa.es
+DIP52,provincial_council,Consell de Formentera,"Balears, Illes",www.consellinsulardeformentera.cat
+UNI01,public_university,Universidad de Almería,Andalucía,www.ual.es
+UNI02,public_university,Universidad de Cádiz,Andalucía,www.uca.es
+UNI03,public_university,Universidad de Córdoba,Andalucía,www.uco.es
+UNI04,public_university,Universidad de Granada,Andalucía,www.ugr.es
+UNI05,public_university,Universidad de Huelva,Andalucía,www.uhu.es
+UNI06,public_university,Universidad de Jaén,Andalucía,www.ujaen.es
+UNI07,public_university,Universidad de Málaga,Andalucía,www.uma.es
+UNI08,public_university,Universidad Pablo de Olavide,Andalucía,www.upo.es
+UNI09,public_university,Universidad de Sevilla,Andalucía,www.us.es
+UNI10,public_university,Universidad Internacional de Andalucía,Andalucía,www.unia.es
+UNI11,public_university,Universidad de Zaragoza,Aragón,www.unizar.es
+UNI12,public_university,Universidad de Oviedo,"Asturias, Principado de",www.uniovi.es
+UNI13,public_university,Universitat de les Illes Balears,"Balears, Illes",www.uib.es
+UNI14,public_university,Universidad de Las Palmas de Gran Canaria,Canarias,www.ulpgc.es
+UNI15,public_university,Universidad de La Laguna,Canarias,www.ull.es
+UNI16,public_university,Universidad de Cantabria,Cantabria,www.unican.es
+UNI17,public_university,Universidad de Burgos,Castilla y León,www.ubu.es
+UNI18,public_university,Universidad de León,Castilla y León,www.unileon.es
+UNI19,public_university,Universidad de Salamanca,Castilla y León,www.usal.es
+UNI20,public_university,Universidad de Valladolid,Castilla y León,www.uva.es
+UNI21,public_university,Universidad de Castilla-La Mancha,Castilla-La Mancha,www.uclm.es
+UNI22,public_university,Universitat de Barcelona,Cataluña,www.ub.edu
+UNI23,public_university,Universitat Autònoma de Barcelona,Cataluña,www.uab.cat
+UNI24,public_university,Universitat Politècnica de Catalunya,Cataluña,www.upc.edu
+UNI25,public_university,Universitat Pompeu Fabra,Cataluña,www.upf.edu
+UNI26,public_university,Universitat de Girona,Cataluña,www.udg.edu
+UNI27,public_university,Universitat de Lleida,Cataluña,www.udl.cat
+UNI28,public_university,Universitat Rovira i Virgili,Cataluña,www.urv.cat
+UNI29,public_university,Universitat de València,Comunitat Valenciana,www.uv.es
+UNI30,public_university,Universitat Politècnica de València,Comunitat Valenciana,www.upv.es
+UNI31,public_university,Universidad de Alicante,Comunitat Valenciana,www.ua.es
+UNI32,public_university,Universitat Jaume I,Comunitat Valenciana,www.uji.es
+UNI33,public_university,Universidad Miguel Hernández,Comunitat Valenciana,www.umh.es
+UNI34,public_university,Universidad de Extremadura,Extremadura,www.unex.es
+UNI35,public_university,Universidade da Coruña,Galicia,www.udc.es
+UNI36,public_university,Universidade de Santiago de Compostela,Galicia,www.usc.gal
+UNI37,public_university,Universidade de Vigo,Galicia,www.uvigo.gal
+UNI38,public_university,Universidad de Alcalá,"Madrid, Comunidad de",www.uah.es
+UNI39,public_university,Universidad Autónoma de Madrid,"Madrid, Comunidad de",www.uam.es
+UNI40,public_university,Universidad Carlos III de Madrid,"Madrid, Comunidad de",www.uc3m.es
+UNI41,public_university,Universidad Complutense de Madrid,"Madrid, Comunidad de",www.ucm.es
+UNI42,public_university,Universidad Politécnica de Madrid,"Madrid, Comunidad de",www.upm.es
+UNI43,public_university,Universidad Rey Juan Carlos,"Madrid, Comunidad de",www.urjc.es
+UNI44,public_university,Universidad de Murcia,"Murcia, Región de",www.um.es
+UNI45,public_university,Universidad Politécnica de Cartagena,"Murcia, Región de",www.upct.es
+UNI46,public_university,Universidad Pública de Navarra,"Navarra, Comunidad Foral de",www.unavarra.es
+UNI47,public_university,Universidad del País Vasco / EHU,País Vasco,www.ehu.eus
+UNI48,public_university,Universidad de La Rioja,"Rioja, La",www.unirioja.es
+UNI49,public_university,UNED,State,www.uned.es
+UNI50,public_university,Universidad Internacional Menéndez Pelayo,State,www.uimp.es
+MIN01,ministry,"Ministerio de Asuntos Exteriores, UE y Cooperación",State,www.exteriores.gob.es
+MIN02,ministry,"Ministerio de la Presidencia, Justicia y Relaciones con las Cortes",State,www.mpr.gob.es
+MIN03,ministry,Ministerio de Defensa,State,www.defensa.gob.es
+MIN04,ministry,Ministerio de Hacienda,State,www.hacienda.gob.es
+MIN05,ministry,Ministerio del Interior,State,www.interior.gob.es
+MIN06,ministry,Ministerio de Transportes y Movilidad Sostenible,State,www.transportes.gob.es
+MIN07,ministry,"Ministerio de Educación, Formación Profesional y Deportes",State,www.educacionfpydeportes.gob.es
+MIN08,ministry,Ministerio de Trabajo y Economía Social,State,www.mites.gob.es
+MIN09,ministry,Ministerio de Industria y Turismo,State,www.mintur.gob.es
+MIN10,ministry,"Ministerio de Agricultura, Pesca y Alimentación",State,www.mapa.gob.es
+MIN11,ministry,Ministerio de Política Territorial y Memoria Democrática,State,www.mpt.gob.es
+MIN12,ministry,Ministerio para la Transición Ecológica y el Reto Demográfico,State,www.miteco.gob.es
+MIN13,ministry,Ministerio de Cultura,State,www.cultura.gob.es
+MIN14,ministry,"Ministerio de Economía, Comercio y Empresa",State,www.mineco.gob.es
+MIN15,ministry,Ministerio de Sanidad,State,www.sanidad.gob.es
+MIN16,ministry,"Ministerio de Derechos Sociales, Consumo y Agenda 2030",State,www.dsca.gob.es
+MIN17,ministry,"Ministerio de Ciencia, Innovación y Universidades",State,www.ciencia.gob.es
+MIN18,ministry,Ministerio de Igualdad,State,www.igualdad.gob.es
+MIN19,ministry,"Ministerio de Inclusión, Seguridad Social y Migraciones",State,www.inclusion.gob.es
+MIN20,ministry,Ministerio de Vivienda y Agenda Urbana,State,www.mivau.gob.es
+MIN21,ministry,Ministerio para la Transformación Digital y de la Función Pública,State,digital.gob.es
+MIN22,ministry,Ministerio de Juventud e Infancia,State,www.juventudeinfancia.gob.es

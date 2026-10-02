@@ -1,0 +1,383 @@
+rank,project,from_version,to_version,date,from,to,change,rule
+46,uvicorn,0.35.0,0.36.0,2025-09-20,GitHub|encode/uvicorn|publish.yml,GitHub|kludex/uvicorn|publish.yml,repository_changed,confirmed: same repository after GitHub redirects
+55,propcache,0.1.0,0.2.0,2024-10-07,GitHub|bluetooth-devices/propcache|ci-cd.yml,GitHub|aio-libs/propcache|ci-cd.yml,repository_changed,consistent with the project's own metadata
+104,coverage,7.11.2,7.11.3,2025-11-10,GitHub|nedbat/coveragepy|publish.yml,GitHub|coveragepy/coveragepy|publish.yml,repository_changed,confirmed: same repository after GitHub redirects
+150,scikit-learn,1.9.0,1.9.1,2026-09-10,GitHub|scikit-learn/scikit-learn|publish_pypi.yml,GitHub|scikit-learn/scikit-learn-release|wheels.yml,repository_changed,confirmed: same owner
+169,matplotlib,3.10.7,3.10.8,2025-12-10,GitHub|matplotlib/matplotlib|cibuildwheel.yml,GitHub|matplotlib/matplotlib-release|wheels.yml,repository_changed,confirmed: same owner
+253,authlib,1.5.2,1.6.0,2025-05-23,GitHub|lepture/authlib|pypi.yml,GitHub|authlib/authlib|pypi.yml,repository_changed,confirmed: same repository after GitHub redirects
+311,mcp-types,0.0.1,0.2.0,2025-09-02,GitHub|kludex/mcp-types|main.yml,GitHub|kludex/mcp|publish.yml,repository_changed,confirmed: same owner
+311,mcp-types,0.2.0,2.0.0a3,2026-06-26,GitHub|kludex/mcp|publish.yml,GitHub|modelcontextprotocol/python-sdk|publish-pypi.yml,repository_changed,consistent with the project's own metadata
+506,altair,6.2.0.dev20260601,6.2.1,2026-06-05,GitHub|vega/altair|weekly.yml,GitHub|vega/altair|publish-release.yml,workflow_changed_same_repo,confirmed: same repository
+519,strands-agents,1.41.0,1.42.0,2026-06-01,GitHub|strands-agents/sdk-python|pypi-publish-on-release.yml,GitHub|strands-agents/sdk-python|python-pypi-publish-on-release.yml,workflow_changed_same_repo,confirmed: same repository
+519,strands-agents,1.42.0,1.43.0,2026-06-12,GitHub|strands-agents/sdk-python|python-pypi-publish-on-release.yml,GitHub|strands-agents/harness-sdk|python-pypi-publish-on-release.yml,repository_changed,confirmed: same owner
+519,strands-agents,1.45.0,1.46.0,2026-07-08,GitHub|strands-agents/harness-sdk|python-pypi-publish-on-release.yml,GitHub|strands-agents/harness-sdk|release-python.yml,workflow_changed_same_repo,confirmed: same repository
+566,cuda-pathfinder,1.3.5,1.4.0,2026-02-25,GitHub|nvidia/cuda-python|release.yml,GitHub|nvidia/cuda-python|release-cuda-pathfinder.yml,workflow_changed_same_repo,confirmed: same repository
+600,msgspec,0.21.1,0.22.0,2026-09-29,GitHub|jcrist/msgspec|ci.yml,GitHub|msgspec/msgspec|ci.yml,repository_changed,confirmed: same repository after GitHub redirects
+633,omegaconf,2.4.0.dev4,2.4.0.dev8,2026-04-23,GitHub|omry/omegaconf|publish.yml,GitHub|omry/omegaconf|publish_dev.yml,workflow_changed_same_repo,confirmed: same repository
+633,omegaconf,2.4.0.dev15,2.4.0rc1,2026-09-28,GitHub|omry/omegaconf|publish_dev.yml,GitHub|hydra-ecosystem/omegaconf|publish_dev.yml,repository_changed,confirmed: same repository after GitHub redirects
+637,holidays,0.102,0.103.dev20260805161211,2026-08-05,GitHub|vacanza/holidays|ci-cd.yml,GitHub|vacanza/holidays|publish-pre-release.yml,workflow_changed_same_repo,confirmed: same repository
+660,dbt-adapters,1.10.4,1.12.0,2024-12-18,GitHub|dbt-labs/dbt-adapters|release.yml,GitHub|dbt-labs/dbt-adapters|publish.yml,workflow_changed_same_repo,confirmed: same repository
+660,dbt-adapters,1.14.0,1.14.1,2025-03-04,GitHub|dbt-labs/dbt-adapters|publish.yml,GitHub|dbt-labs/dbt-adapters|publish-oss.yml,workflow_changed_same_repo,confirmed: same repository
+745,spacy,3.8.13,3.8.14,2026-03-29,GitHub|explosion/spacy|publish_pypi.yml,GitHub|explosion/wheelmonger|publish.yml,repository_changed,confirmed: same owner
+763,srsly,2.5.3,2.5.4,2026-09-27,GitHub|explosion/srsly|publish_pypi.yml,GitHub|explosion/wheelmonger|publish.yml,repository_changed,confirmed: same owner
+792,confection,1.3.2,1.3.3,2026-03-24,GitHub|explosion/confection|publish_pypi.yml,GitHub|explosion/wheelmonger|publish.yml,repository_changed,confirmed: same owner
+805,great-expectations,1.18.1,1.18.2,2026-06-26,GitHub|great-expectations/great_expectations|ci.yml,GitHub|fivetran/great_expectations|ci.yml,repository_changed,confirmed: same repository after GitHub redirects
+815,semgrep,1.161.0,1.162.0,2026-05-07,GitHub|semgrep/semgrep-proprietary|pypi-release.yml,GitHub|semgrep/semgrep-proprietary|pro-release.yml,workflow_changed_same_repo,confirmed: same repository
+935,pyathena,3.27.1,3.27.2,2026-02-15,GitHub|laughingman7743/pyathena|release.yaml,GitHub|pyathena-dev/pyathena|release.yaml,repository_changed,confirmed: same repository after GitHub redirects
+975,aws-lambda-powertools,3.23.1a11,3.24.0,2026-01-05,GitHub|aws-powertools/powertools-lambda-python|pre-release.yml,GitHub|aws-powertools/powertools-lambda-python|release-v3.yml,workflow_changed_same_repo,confirmed: same repository
+976,datamodel-code-generator,0.27.2,0.27.3,2025-02-11,GitHub|koxudaxi/datamodel-code-generator|publish.yml,GitHub|koxudaxi/datamodel-code-generator|publish.yaml,workflow_changed_same_repo,confirmed: same repository
+976,datamodel-code-generator,0.76.2,0.77.0,2026-09-08,GitHub|koxudaxi/datamodel-code-generator|publish.yaml,GitHub|datamodel-code-generator/datamodel-code-generator|publish.yaml,repository_changed,confirmed: same repository after GitHub redirects
+1005,hydra-core,1.3.5,1.3.6,2026-08-29,GitHub|facebookresearch/hydra|publish.yml,GitHub|hydra-ecosystem/hydra|publish.yml,repository_changed,confirmed: same repository after GitHub redirects
+1033,pyrfc3339,2.0.1,2.1.0,2025-08-23,GitHub|kurtraschke/pyrfc3339|pypi-publish.yml,GitHub|kurtraschke/pyrfc3339|python.yml,workflow_changed_same_repo,confirmed: same repository
+1068,faiss-cpu,1.12.0,1.13.0,2025-11-17,GitHub|kyamagu/faiss-wheels|build.yml,GitHub|faiss-wheels/faiss-wheels|build.yml,repository_changed,confirmed: same repository after GitHub redirects
+1116,a2a-sdk,0.2.4,0.2.5,2025-05-27,GitHub|google/a2a-python|python-publish.yml,GitHub|google-a2a/a2a-python|python-publish.yml,repository_changed,confirmed: same repository after GitHub redirects
+1116,a2a-sdk,0.2.8,0.2.9,2025-06-24,GitHub|google-a2a/a2a-python|python-publish.yml,GitHub|a2aproject/a2a-python|python-publish.yml,repository_changed,confirmed: same repository after GitHub redirects
+1165,pyroscope-io,1.0.4,1.0.5,2026-04-13,GitHub|grafana/pyroscope-rs|publish.yml,GitHub|grafana/pyroscope-python|publish.yml,repository_changed,confirmed: same owner
+1165,pyroscope-io,1.0.9,1.0.10,2026-06-01,GitHub|grafana/pyroscope-python|publish.yml,GitHub|grafana/pyroscope-python|release-please.yml,workflow_changed_same_repo,confirmed: same repository
+1187,pikepdf,10.2.0,10.3.0,2026-01-30,GitHub|pikepdf/pikepdf|build.yml,GitHub|pikepdf/pikepdf|release.yml,workflow_changed_same_repo,confirmed: same repository
+1325,rtree,1.4.0,1.4.1b2,2025-08-11,GitHub|toblerity/rtree|deploy.yml,GitHub|toblerity/rtree|test.yml,workflow_changed_same_repo,confirmed: same repository
+1390,sentinels,1.1.0,1.1.1,2025-08-12,GitHub|vmalloc/sentinels|pypi-publish.yml,GitHub|vmalloc/sentinels|ci.yml,workflow_changed_same_repo,confirmed: same repository
+1466,braintrust,0.5.6,0.6.0,2026-02-25,GitHub|braintrustdata/braintrust-sdk|publish-py-sdk.yaml,GitHub|braintrustdata/braintrust-sdk-python|publish-py-sdk.yaml,repository_changed,confirmed: same owner
+1505,django-phonenumber-field,8.4.0,8.5.0,2026-07-23,GitHub|stefanfoulis/django-phonenumber-field|release.yml,GitHub|django-phonenumber-field/django-phonenumber-field|release.yml,repository_changed,confirmed: same repository after GitHub redirects
+1548,livekit-protocol,1.1.4,1.1.5,2026-04-08,GitHub|livekit/python-sdks|build-protocol.yml,GitHub|livekit/python-sdks|publish.yml,workflow_changed_same_repo,confirmed: same repository
+1572,livekit-api,1.1.0,1.1.1,2026-06-24,GitHub|livekit/python-sdks|build-api.yml,GitHub|livekit/python-sdks|publish.yml,workflow_changed_same_repo,confirmed: same repository
+1631,livekit,1.1.5,1.1.6,2026-04-16,GitHub|livekit/python-sdks|build-rtc.yml,GitHub|livekit/python-sdks|publish.yml,workflow_changed_same_repo,confirmed: same repository
+1650,presidio-analyzer,2.2.362,2.2.363,2026-06-28,GitHub|microsoft/presidio|release.yml,GitHub|data-privacy-stack/presidio|release.yml,repository_changed,confirmed: same repository after GitHub redirects
+1771,pyhanko-certvalidator,0.26.8,0.27.0,2025-05-24,GitHub|matthiasvalvekens/certvalidator|release.yml,GitHub|matthiasvalvekens/pyhanko|release.yml,repository_changed,confirmed: same owner
+1831,html-to-markdown,1.2.0,1.2.1,2025-03-27,GitHub|goldziher/html_to_markdown|release.yaml,GitHub|goldziher/html-to-markdown|release.yaml,repository_changed,confirmed: same owner
+1831,html-to-markdown,1.16.0,2.0.0,2025-10-10,GitHub|goldziher/html-to-markdown|release.yaml,GitHub|goldziher/html-to-markdown|publish.yaml,workflow_changed_same_repo,confirmed: same repository
+1831,html-to-markdown,2.16.1,2.18.0,2025-12-29,GitHub|goldziher/html-to-markdown|publish.yaml,GitHub|kreuzberg-dev/html-to-markdown|publish.yaml,repository_changed,confirmed: same repository after GitHub redirects
+1858,dependency-groups,1.3.0,1.3.1,2025-05-02,GitHub|sirosen/dependency-groups|publish_to_pypi.yaml,GitHub|pypa/dependency-groups|publish_to_pypi.yaml,repository_changed,consistent with the project's own metadata
+1875,xgrammar,0.1.13,0.1.17,2025-03-25,GitHub|mlc-ai/xgrammar|wheel_mac.yaml,GitHub|mlc-ai/xgrammar|build_and_release.yaml,workflow_changed_same_repo,confirmed: same repository
+1939,llguidance,1.7.3,1.7.5,2026-04-29,GitHub|guidance-ai/llguidance|wheels.yml,GitHub|guidance-ai/llguidance|release.yml,workflow_changed_same_repo,confirmed: same repository
+1940,dbt-postgres,1.9.0,1.9.1,2025-09-05,GitHub|dbt-labs/dbt-postgres|release.yml,GitHub|dbt-labs/dbt-adapters|publish-oss.yml,repository_changed,confirmed: same owner
+1949,tree-sitter-language-pack,0.13.0,1.0.0,2026-03-21,GitHub|goldziher/tree-sitter-language-pack|build_and_publish.yaml,GitHub|kreuzberg-dev/tree-sitter-language-pack|publish.yaml,repository_changed,confirmed: same repository after GitHub redirects
+1978,compressed-tensors,0.15.0.1,0.15.1a20260413,2026-04-14,GitHub|neuralmagic/llm-compressor-testing|compressed-tensors-upload.yml,GitHub|neuralmagic/llm-compressor-testing|upload.yml,workflow_changed_same_repo,confirmed: same repository
+2010,pinecone,9.0.1rc1,9.0.1,2026-05-19,GitHub|pinecone-io/python-sdk|release-rc.yaml,GitHub|pinecone-io/python-sdk|release-prod.yaml,workflow_changed_same_repo,confirmed: same repository
+2031,patchright,1.56.0,1.57.0,2025-12-29,GitHub|kaliiiiiiiiii-vinyzu/patchright-python|patchright_workflow.yml,GitHub|kaliiiiiiiiii-vinyzu/patchright-python|patchright_release.yml,workflow_changed_same_repo,confirmed: same repository
+2048,presidio-anonymizer,2.2.362,2.2.363,2026-06-28,GitHub|microsoft/presidio|release.yml,GitHub|data-privacy-stack/presidio|release.yml,repository_changed,confirmed: same repository after GitHub redirects
+2050,django-prometheus,2.4.0.dev28,2.4.0,2025-06-18,GitHub|korfuri/django-prometheus|pre-release.yml,GitHub|django-commons/django-prometheus|release.yml,repository_changed,confirmed: same repository after GitHub redirects
+2050,django-prometheus,2.4.0,2.5.0.dev3,2025-06-18,GitHub|django-commons/django-prometheus|release.yml,GitHub|django-commons/django-prometheus|pre-release.yml,workflow_changed_same_repo,confirmed: same repository
+2114,ibis-framework,11.0.1.dev133,12.0.0,2026-02-07,GitHub|ibis-project/ibis|pre-release.yml,GitHub|ibis-project/ibis|release.yml,workflow_changed_same_repo,confirmed: same repository
+2139,pycep-parser,0.7.1.dev11,0.7.1,2026-08-09,GitHub|gruebel/pycep|main.yml,GitHub|gruebel/pycep|release.yml,workflow_changed_same_repo,confirmed: same repository
+2148,django-health-check,3.20.4,3.20.5,2025-12-20,GitHub|revsys/django-health-check|release.yml,GitHub|codingjoe/django-health-check|release.yml,repository_changed,confirmed: same repository after GitHub redirects
+2177,shtab,1.8.0,1.8.1,2026-07-03,GitHub|iterative/shtab|test.yml,GitHub|tqdm/shtab|test.yml,repository_changed,confirmed: same repository after GitHub redirects
+2179,jupytext,1.19.3,1.19.4,2026-06-21,GitHub|mwouts/jupytext|publish.yml,GitHub|jupytext/jupytext|publish.yml,repository_changed,confirmed: same repository after GitHub redirects
+2188,scipy-stubs,1.15.1.0,1.15.2.0,2025-02-17,GitHub|jorenham/scipy-stubs|publish-pypi.yml,GitHub|scipy/scipy-stubs|publish-pypi.yml,repository_changed,confirmed: same repository after GitHub redirects
+2238,connectrpc,0.10.1,0.11.0,2026-06-25,GitHub|connectrpc/connect-python|release.yaml,GitHub|connectrpc/connect-py|release.yaml,repository_changed,confirmed: same owner
+2257,gdown,6.1.0,6.1.1,2026-09-04,GitHub|wkentaro/gdown|publish.yml,GitHub|wkentaro/gdown|release.yml,workflow_changed_same_repo,confirmed: same repository
+2373,pydantic-ai-harness,0.36.0,0.52.0,2026-09-30,GitHub|pydantic/pydantic-ai-harness|main.yml,GitHub|pydantic/pydantic-ai|ci.yml,repository_changed,confirmed: same owner
+2378,alembic-postgresql-enum,1.6.1,1.7.0,2025-02-20,GitHub|pogchamp-company/alembic-postgresql-enum|publish-to-test-pypi.yml,GitHub|pogchamp-company/alembic-postgresql-enum|publish-to-pypi.yml,workflow_changed_same_repo,confirmed: same repository
+2500,livekit-local-inference,0.2.5,0.2.6,2026-06-24,GitHub|livekit/agents-private|publish.yml,GitHub|livekit/agents-private|local-inference-publish.yml,workflow_changed_same_repo,confirmed: same repository
+2541,opentelemetry-instrumentation-google-genai,1.0b1,1.1b0,2026-08-20,GitHub|open-telemetry/opentelemetry-python-genai|release-package.yml,GitHub|open-telemetry/opentelemetry-python-genai|release-all.yml,workflow_changed_same_repo,confirmed: same repository
+2580,pycrdt,0.12.14,0.12.15,2025-04-22,GitHub|jupyter-server/pycrdt|publish.yml,GitHub|y-crdt/pycrdt|publish.yml,repository_changed,confirmed: same repository after GitHub redirects
+2637,albucore,0.1.6,0.2.4,2026-07-07,GitHub|albumentations-team/albucore|upload_to_pypi.yml,GitHub|albumentations-team/albucore|publish.yml,workflow_changed_same_repo,confirmed: same repository
+2662,apify-client,2.0.0,2.0.1b1,2025-08-18,GitHub|apify/apify-client-python|release.yaml,GitHub|apify/apify-client-python|pre_release.yaml,workflow_changed_same_repo,confirmed: same repository
+2662,apify-client,2.3.1b9,2.3.1b10,2025-12-17,GitHub|apify/apify-client-python|pre_release.yaml,GitHub|apify/apify-client-python|on_master.yaml,workflow_changed_same_repo,confirmed: same repository
+2662,apify-client,2.5.1b31,2.5.1b32,2026-05-07,GitHub|apify/apify-client-python|on_master.yaml,GitHub|apify/apify-client-python|manual_release_beta.yaml,workflow_changed_same_repo,confirmed: same repository
+2662,apify-client,3.0.2b3,3.0.2,2026-05-26,GitHub|apify/apify-client-python|manual_release_beta.yaml,GitHub|apify/apify-client-python|manual_release_stable.yaml,workflow_changed_same_repo,confirmed: same repository
+2662,apify-client,3.0.4,3.0.5b1,2026-07-01,GitHub|apify/apify-client-python|manual_release_stable.yaml,GitHub|apify/apify-client-python|manual_release_beta.yaml,workflow_changed_same_repo,confirmed: same repository
+2663,dify-plugin,0.8.0,0.9.0,2026-05-20,GitHub|langgenius/dify-plugin-sdks|pypi_publish.yaml,GitHub|langgenius/dify-plugin-sdks|release.yml,workflow_changed_same_repo,confirmed: same repository
+2726,tokenspeed-triton,3.7.10.post20260505,3.7.10.post20260531,2026-05-31,GitHub|lightseekorg/triton-staging|wheels.yml,GitHub|lightseekorg/triton|wheels.yml,repository_changed,confirmed: same owner
+2851,humming-kernels,0.1.13,0.1.14,2026-09-14,GitHub|inclusionai/humming|publish.yml,GitHub|vllm-project/humming|publish.yml,repository_changed,confirmed: same repository after GitHub redirects
+2878,apify-fingerprint-datapoints,0.1.0,0.3.0,2025-09-25,GitHub|apify/fingerprint-suite|release_python.yaml,GitHub|apify/fingerprint-suite|model-updater.yml,workflow_changed_same_repo,confirmed: same repository
+2878,apify-fingerprint-datapoints,0.3.0,0.2.0,2025-09-25,GitHub|apify/fingerprint-suite|model-updater.yml,GitHub|apify/fingerprint-suite|release_python.yaml,workflow_changed_same_repo,confirmed: same repository
+2878,apify-fingerprint-datapoints,0.4.0,0.5.0,2025-10-01,GitHub|apify/fingerprint-suite|release_python.yaml,GitHub|apify/fingerprint-suite|release-publish.yml,workflow_changed_same_repo,confirmed: same repository
+2878,apify-fingerprint-datapoints,0.7.0,0.8.0,2026-02-03,GitHub|apify/fingerprint-suite|release-publish.yml,GitHub|apify/fingerprint-suite|release_python.yaml,workflow_changed_same_repo,confirmed: same repository
+2878,apify-fingerprint-datapoints,0.10.0,0.11.0,2026-03-01,GitHub|apify/fingerprint-suite|release_python.yaml,GitHub|apify/fingerprint-suite|publish-to-npm.yaml,workflow_changed_same_repo,confirmed: same repository
+2918,strands-agents-tools,0.8.2,0.8.3,2026-07-09,GitHub|strands-agents/tools|pypi-publish-on-release.yml,GitHub|strands-agents/tools|release.yml,workflow_changed_same_repo,confirmed: same repository
+2964,unleashclient,6.3.0,6.4.0,2025-11-14,GitHub|unleash/unleash-client-python|release-package.yml,GitHub|unleash/unleash-python-sdk|release-package.yml,repository_changed,confirmed: same owner
+3002,sqltrie,0.11.2,0.11.3,2026-09-01,GitHub|iterative/sqltrie|release.yml,GitHub|treeverse/sqltrie|release.yml,repository_changed,confirmed: same repository after GitHub redirects
+3024,jsonargparse,4.49.0,4.50.0,2026-07-22,GitHub|omni-us/jsonargparse|tests.yaml,GitHub|mauvilsa/jsonargparse|tests.yaml,repository_changed,confirmed: same repository after GitHub redirects
+3046,kernels,0.11.7,0.12.0,2026-01-24,GitHub|huggingface/kernels|publish.yml,GitHub|huggingface/kernels|publish_kernels.yml,workflow_changed_same_repo,confirmed: same repository
+3110,dvc,3.64.0,3.64.1,2025-12-02,GitHub|iterative/dvc|build.yaml,GitHub|treeverse/dvc|build.yaml,repository_changed,confirmed: same repository after GitHub redirects
+3116,aiohttp-fast-zlib,0.2.2,0.2.3,2025-02-22,GitHub|bdraco/aiohttp-fast-zlib|ci.yml,GitHub|bluetooth-devices/aiohttp-fast-zlib|ci.yml,repository_changed,confirmed: same repository after GitHub redirects
+3146,apify-shared,2.0.0,2.0.1b1,2025-09-05,GitHub|apify/apify-shared-python|release.yaml,GitHub|apify/apify-shared-python|pre_release.yaml,workflow_changed_same_repo,confirmed: same repository
+3146,apify-shared,2.1.1b1,2.1.1b2,2025-12-17,GitHub|apify/apify-shared-python|pre_release.yaml,GitHub|apify/apify-shared-python|on_master.yaml,workflow_changed_same_repo,confirmed: same repository
+3146,apify-shared,2.1.1b5,2.2.0,2026-01-15,GitHub|apify/apify-shared-python|on_master.yaml,GitHub|apify/apify-shared-python|manual_release_stable.yaml,workflow_changed_same_repo,confirmed: same repository
+3146,apify-shared,2.2.0,2.2.1b1,2026-01-22,GitHub|apify/apify-shared-python|manual_release_stable.yaml,GitHub|apify/apify-shared-python|on_master.yaml,workflow_changed_same_repo,confirmed: same repository
+3146,apify-shared,2.2.1b2,2.2.1b3,2026-05-12,GitHub|apify/apify-shared-python|on_master.yaml,GitHub|apify/apify-shared-python|manual_release_beta.yaml,workflow_changed_same_repo,confirmed: same repository
+3146,apify-shared,2.2.1b6,2.2.1,2026-07-08,GitHub|apify/apify-shared-python|manual_release_beta.yaml,GitHub|apify/apify-shared-python|manual_release_stable.yaml,workflow_changed_same_repo,confirmed: same repository
+3201,scmrepo,3.5.5,3.5.6,2025-11-27,GitHub|iterative/scmrepo|release.yaml,GitHub|treeverse/scmrepo|release.yaml,repository_changed,confirmed: same repository after GitHub redirects
+3210,dvc-data,3.16.12,3.17.0,2025-12-22,GitHub|iterative/dvc-data|release.yml,GitHub|treeverse/dvc-data|release.yml,repository_changed,confirmed: same repository after GitHub redirects
+3226,dvc-objects,5.1.2,5.2.0,2025-12-22,GitHub|iterative/dvc-objects|release.yml,GitHub|treeverse/dvc-objects|release.yml,repository_changed,confirmed: same repository after GitHub redirects
+3232,dvc-studio-client,0.22.0,0.23.0,2026-06-01,GitHub|iterative/dvc-studio-client|release.yml,GitHub|treeverse/dvc-studio-client|release.yml,repository_changed,confirmed: same repository after GitHub redirects
+3294,coreforecast,0.0.16,0.0.17.dev0,2026-02-24,GitHub|nixtla/coreforecast|release.yaml,GitHub|nixtla/coreforecast|python-publish.yml,workflow_changed_same_repo,confirmed: same repository
+3344,openai-codex-cli-bin,0.136.0,0.137.0a4,2026-06-03,GitHub|openai/codex|rust-release.yml,GitHub|openai/codex|python-sdk-release.yml,workflow_changed_same_repo,confirmed: same repository
+3344,openai-codex-cli-bin,0.137.0a4,0.144.4,2026-07-15,GitHub|openai/codex|python-sdk-release.yml,GitHub|openai/codex|python-runtime-release.yml,workflow_changed_same_repo,confirmed: same repository
+3344,openai-codex-cli-bin,0.154.0,0.155.1,2026-09-20,GitHub|openai/codex|python-runtime-release.yml,GitHub|openai/codex|python-sdk-cli-release.yml,workflow_changed_same_repo,confirmed: same repository
+3358,apache-sedona,1.8.1,1.9.0,2026-04-23,GitHub|jiayuasu/sedona-publish-python|python-publish-pypi.yml,GitHub|apache/sedona|python-wheel.yml,repository_changed,consistent with the project's own metadata
+3384,protovalidate,1.2.0,2.0.0,2026-08-19,GitHub|bufbuild/protovalidate-python|release.yaml,GitHub|bufbuild/protovalidate-py|release.yaml,repository_changed,confirmed: same owner
+3460,renderers,0.1.8.dev26,0.1.8.dev27,2026-05-25,GitHub|primeintellect-ai/renderers|publish.yml,GitHub|primeintellect-ai/renderers|publish-dev.yml,workflow_changed_same_repo,confirmed: same repository
+3504,openai-codex,0.154.0,0.155.1,2026-09-20,GitHub|openai/codex|python-sdk-release.yml,GitHub|openai/codex|python-sdk-cli-release.yml,workflow_changed_same_repo,confirmed: same repository
+3612,cog,0.16.12,0.17.0rc2,2026-03-12,GitHub|replicate/cog|pypi-package.yaml,GitHub|replicate/cog|release-publish.yaml,workflow_changed_same_repo,confirmed: same repository
+3616,mkdocs-redirects,1.2.2,1.2.3,2026-03-28,GitHub|mkdocs/mkdocs-redirects|deploy-release.yml,GitHub|properdocs/mkdocs-redirects|deploy-release.yml,repository_changed,consistent with the project's own metadata
+3717,quantlib,1.41,1.42,2026-04-14,GitHub|lballabio/quantlib-wheels|wheels.yml,GitHub|lballabio/quantlib-swig|wheels.yml,repository_changed,confirmed: same owner
+3756,ocrmypdf,17.2.0,17.3.0,2026-02-21,GitHub|ocrmypdf/ocrmypdf|build.yml,GitHub|ocrmypdf/ocrmypdf|release.yml,workflow_changed_same_repo,confirmed: same repository
+3790,connect-python,0.4.2rc1,0.5.0,2025-09-23,GitHub|firetiger-oss/connect-python|release.yml,GitHub|connectrpc/connect-python|release.yaml,repository_changed,consistent with the project's own metadata
+3826,ably,3.1.3,3.1.4,2026-09-23,GitHub|ably/ably-python|release.yml,GitHub|ably/ably-pubsub-python|release.yml,repository_changed,confirmed: same owner
+3836,wheel-stub,0.4.1.post1,0.4.2,2025-03-11,GitHub|wheel-next/wheel-stub|publish.yml,GitHub|wheelnext/wheel-stub|publish.yml,repository_changed,confirmed: same repository after GitHub redirects
+3944,pact-python,3.2.1,3.3.0,2026-04-17,GitHub|pact-foundation/pact-python|build.yml,GitHub|pact-foundation/pact-python|release-core.yml,workflow_changed_same_repo,confirmed: same repository
+3992,inngest,0.4.18,0.4.19a0,2025-02-11,GitHub|inngest/inngest-py|ci.yml,GitHub|inngest/inngest-py|inngest.yml,workflow_changed_same_repo,confirmed: same repository
+4046,scylla-driver,3.29.9,3.29.10,2026-05-10,GitHub|scylladb/python-driver|build-push.yml,GitHub|scylladb/python-driver|publish-manually.yml,workflow_changed_same_repo,confirmed: same repository
+4118,abnf,2.4.1,2.5.0,2026-05-13,GitHub|declaresub/abnf|release-package.yml,GitHub|declaresub/abnf|release.yml,workflow_changed_same_repo,confirmed: same repository
+4158,pact-python-ffi,0.4.28.2,0.5.3.0,2026-04-17,GitHub|pact-foundation/pact-python|build-ffi.yml,GitHub|pact-foundation/pact-python|release-ffi.yml,workflow_changed_same_repo,confirmed: same repository
+4163,session-info2,0.1.2,0.2,2025-07-24,GitHub|flying-sheep/session-info2|publish.yml,GitHub|scverse/session-info2|publish.yml,repository_changed,confirmed: same repository after GitHub redirects
+4247,scrapling,0.2.99,0.3,2025-09-01,GitHub|d4vinci/scrapling|publish.yml,GitHub|d4vinci/scrapling|release-and-publish.yml,workflow_changed_same_repo,confirmed: same repository
+4256,agent-sanitizer,2.0.0,2.0.3,2026-07-28,GitHub|alexandermattturner/agent-sanitizer|publish-python.yaml,GitHub|alexandermattturner/agent-sanitizer|auto-version.yaml,workflow_changed_same_repo,confirmed: same repository
+4271,crawlee,1.2.0,1.2.1,2025-12-16,GitHub|apify/crawlee-python|release.yaml,GitHub|apify/crawlee-python|manual_release_stable.yaml,workflow_changed_same_repo,confirmed: same repository
+4271,crawlee,1.5.0,1.5.1b1,2026-03-11,GitHub|apify/crawlee-python|manual_release_stable.yaml,GitHub|apify/crawlee-python|on_master.yaml,workflow_changed_same_repo,confirmed: same repository
+4271,crawlee,1.6.3b6,1.6.3,2026-04-27,GitHub|apify/crawlee-python|on_master.yaml,GitHub|apify/crawlee-python|manual_release_stable.yaml,workflow_changed_same_repo,confirmed: same repository
+4271,crawlee,1.7.2,1.7.3b1,2026-06-04,GitHub|apify/crawlee-python|manual_release_stable.yaml,GitHub|apify/crawlee-python|manual_release_beta.yaml,workflow_changed_same_repo,confirmed: same repository
+4291,dvc-s3,3.2.2,3.3.0,2026-01-16,GitHub|iterative/dvc-s3|release.yaml,GitHub|treeverse/dvc-s3|release.yaml,repository_changed,confirmed: same repository after GitHub redirects
+4303,supervision,0.26.0rc2,0.26.0rc3,2025-01-08,GitHub|roboflow/supervision|publish.yml,GitHub|roboflow/supervision|publish-test.yml,workflow_changed_same_repo,confirmed: same repository
+4303,supervision,0.26.0rc3,0.26.0rc4,2025-02-18,GitHub|roboflow/supervision|publish-test.yml,GitHub|roboflow/supervision|publish-pre-release.yml,workflow_changed_same_repo,confirmed: same repository
+4303,supervision,0.26.0rc8,0.26.0,2025-07-16,GitHub|roboflow/supervision|publish-pre-release.yml,GitHub|roboflow/supervision|publish-release.yml,workflow_changed_same_repo,confirmed: same repository
+4303,supervision,0.26.1,0.27.0rc0,2025-07-31,GitHub|roboflow/supervision|publish-release.yml,GitHub|roboflow/supervision|publish-pre-release.yml,workflow_changed_same_repo,confirmed: same repository
+4303,supervision,0.28.0rc2,0.28.0,2026-04-30,GitHub|roboflow/supervision|publish-pre-release.yml,GitHub|roboflow/supervision|publish-release.yml,workflow_changed_same_repo,confirmed: same repository
+4324,verifiers,0.1.15.dev18,0.1.15.dev150,2026-06-03,GitHub|primeintellect-ai/verifiers|tag-and-release.yml,GitHub|primeintellect-ai/verifiers|publish-verifiers.yml,workflow_changed_same_repo,confirmed: same repository
+4336,starlette-compress,1.6.1,1.7.0,2026-01-25,GitHub|zaczero/starlette-compress|workflow.yaml,GitHub|zaczero/pkgs|ci.yaml,repository_changed,confirmed: same owner
+4465,dbt-athena,1.9.0,1.9.1,2025-02-07,GitHub|dbt-labs/dbt-athena|publish-pypi.yml,GitHub|dbt-labs/dbt-adapters|publish.yml,repository_changed,confirmed: same owner
+4465,dbt-athena,1.9.1,1.9.2,2025-03-07,GitHub|dbt-labs/dbt-adapters|publish.yml,GitHub|dbt-labs/dbt-adapters|publish-oss.yml,workflow_changed_same_repo,confirmed: same repository
+4591,pdf-inspector,0.2.0,0.2.1,2026-07-15,GitHub|jacqkues/pdf-inspector|publish.yml,GitHub|firecrawl/pdf-inspector|publish-pypi.yml,repository_changed,consistent with the project's own metadata
+4625,foxglove-schemas-protobuf,0.3.0,0.4.0,2026-07-29,GitHub|foxglove/schemas|ci.yml,GitHub|foxglove/foxglove-sdk|python.yml,repository_changed,confirmed: same owner
+4661,pyproject-fmt,2.3.1,2.14.2,2026-02-09,GitHub|tox-dev/pyproject-fmt|release.yaml,GitHub|tox-dev/toml-fmt|pyproject_fmt_build.yaml,repository_changed,confirmed: same owner
+4775,ydata-profiling,4.18.1,4.18.4,2026-04-22,GitHub|ydataai/ydata-profiling|release.yml,GitHub|data-centric-ai-community/ydata-profiling|release.yml,repository_changed,confirmed: same repository after GitHub redirects
+4785,arize-phoenix,13.3.0,13.4.0,2026-02-27,GitHub|arize-ai/phoenix|release.yml,GitHub|arize-ai/phoenix|publish.yaml,workflow_changed_same_repo,confirmed: same repository
+4861,gtfs-realtime-bindings,2.0.0,2.1.0,2026-07-02,GitHub|mobilitydata/gtfs-realtime-bindings|python-release.yml,GitHub|mobilitydata/gtfs-realtime-bindings|release.yml,workflow_changed_same_repo,confirmed: same repository
+4943,runpod,1.9.0,1.9.1,2026-06-01,GitHub|runpod/runpod-python|CD-publish_to_pypi.yml,GitHub|runpod/runpod-python|cd.yml,workflow_changed_same_repo,confirmed: same repository
+4971,mpi4py,4.0.3,4.1.0,2025-06-25,GitHub|mpi4py/mpi4py|dist.yml,GitHub|mpi4py/mpi4py-publish|cd.yml,repository_changed,confirmed: same owner
+4971,mpi4py,4.1.0,4.1.1,2025-10-10,GitHub|mpi4py/mpi4py-publish|cd.yml,GitHub|mpi4py/mpi4py|cd.yml,repository_changed,confirmed: same owner
+4984,dash-ag-grid,35.2.0,35.3.0,2026-07-15,GitHub|plotly/dash-ag-grid|publish.yml,GitHub|plotly/dash-ag-grid|pypi-publish.yml,workflow_changed_same_repo,confirmed: same repository
+4999,airbyte-cdk,6.61.2,6.61.3,2025-08-27,GitHub|airbytehq/airbyte-python-cdk|pypi_publish.yml,GitHub|airbytehq/airbyte-python-cdk|publish.yml,workflow_changed_same_repo,confirmed: same repository
+5233,mcp-server-time,0.6.2,2025.7.1,2025-07-01,GitHub|modelcontextprotocol/servers|python.yml,GitHub|modelcontextprotocol/servers|release.yml,workflow_changed_same_repo,confirmed: same repository
+5254,cosmic-ray,8.4.4,8.4.6,2026-04-02,GitHub|sixty-north/cosmic-ray|python-package.yml,GitHub|sixty-north/cosmic-ray|release.yml,workflow_changed_same_repo,confirmed: same repository
+5333,linkml-runtime,1.9.5,1.10.0rc1,2025-11-21,GitHub|linkml/linkml-runtime|pypi-publish.yaml,GitHub|linkml/linkml|pypi-publish.yaml,repository_changed,confirmed: same owner
+5406,pymatgen-core,2026.2.24,2026.4.7,2026-04-07,GitHub|materialyzeai/pymatgen-core|release.yml,GitHub|materialsproject/pymatgen-core|release.yml,repository_changed,confirmed: same repository after GitHub redirects
+5567,mcp-server-fetch,2025.1.14,2025.1.16,2025-01-16,GitHub|modelcontextprotocol/servers|python.yml,GitHub|modelcontextprotocol/servers|release.yml,workflow_changed_same_repo,confirmed: same repository
+5644,ulid-transform,1.2.0,1.2.1,2025-02-22,GitHub|bdraco/ulid-transform|ci.yml,GitHub|bluetooth-devices/ulid-transform|ci.yml,repository_changed,confirmed: same repository after GitHub redirects
+5654,botorch,0.15.1,0.16.0,2025-10-23,GitHub|pytorch/botorch|deploy_on_release.yml,GitHub|meta-pytorch/botorch|deploy_on_release.yml,repository_changed,confirmed: same repository after GitHub redirects
+5712,ops,3.0.0,3.1.0,2025-07-30,GitHub|canonical/operator|publish-ops.yaml,GitHub|canonical/operator|publish.yaml,workflow_changed_same_repo,confirmed: same repository
+5888,odg-client,0.10.0,0.11.0,2026-06-23,GitHub|open-component-model/delivery-service|publish_odg_client.yaml,GitHub|open-component-model/odg-core|release-client-package.yaml,repository_changed,confirmed: same owner
+5892,mjml-python,1.4.0,1.4.1,2026-06-30,GitHub|mgd020/mjml-python|CI.yml,GitHub|mgd020/mjml-python|Publish.yml,workflow_changed_same_repo,confirmed: same repository
+5906,helion,0.0.12,0.1.0,2025-08-06,GitHub|pytorch-labs/helion|publish-to-pypi.yml,GitHub|pytorch/helion|publish-to-pypi.yml,repository_changed,confirmed: same repository after GitHub redirects
+5946,uipath-platform,0.0.10,0.0.11,2026-03-04,GitHub|uipath/uipath-platform-python|cd.yml,GitHub|uipath/uipath-python|cd.yml,repository_changed,confirmed: same owner
+6000,onnxsim,0.5.0,0.6.1,2026-02-25,GitHub|onnxsim/onnx-simplifier|build-and-test.yml,GitHub|onnxsim/onnxsim|build-and-test.yml,repository_changed,confirmed: same owner
+6005,ecmwf-datastores-client,0.5.1,0.5.2,2026-07-31,GitHub|ecmwf/ecmwf-datastores-client|on-push.yml,GitHub|ecmwf/ecmwf-datastores-client|on-release.yml,workflow_changed_same_repo,confirmed: same repository
+6012,dvc-gs,3.0.2,3.1.0,2026-06-09,GitHub|iterative/dvc-gs|release.yaml,GitHub|treeverse/dvc-gs|release.yaml,repository_changed,confirmed: same repository after GitHub redirects
+6054,playa-pdf,0.7.2,0.8.0,2025-12-18,GitHub|dhdaines/playa|build_wheels.yml,GitHub|dhdaines/playa|release.yml,workflow_changed_same_repo,confirmed: same repository
+6163,icalendar-searcher,1.0.5,1.0.6,2026-05-29,GitHub|python-caldav/icalendar-searcher|publish.yaml,GitHub|pycalendar/icalendar-searcher|publish.yaml,repository_changed,confirmed: same repository after GitHub redirects
+6173,nicknames,1.0.0,1.0.1,2026-03-06,GitHub|carltonnorthern/nicknames|release.yml,GitHub|carltonnorthern/nicknames|release-python.yml,workflow_changed_same_repo,confirmed: same repository
+6350,vectorbt,0.28.4,0.28.5,2026-03-26,GitHub|polakowo/vectorbt|python-publish.yml,GitHub|polakowo/vectorbt|pypi.yml,workflow_changed_same_repo,confirmed: same repository
+6367,truss,0.10.11rc2,0.10.11,2025-09-03,GitHub|basetenlabs/truss|main.yml,GitHub|basetenlabs/truss|release.yml,workflow_changed_same_repo,confirmed: same repository
+6564,podman,5.6.0,5.7.0,2026-01-21,GitHub|containers/podman-py|publish-to-test-pypi.yml,GitHub|containers/podman-py|publish-to-pypi.yml,workflow_changed_same_repo,confirmed: same repository
+6644,uipath-core,0.5.4,0.5.5,2026-03-04,GitHub|uipath/uipath-core-python|cd.yml,GitHub|uipath/uipath-python|cd.yml,repository_changed,confirmed: same owner
+6698,toml-fmt-common,1.2.0,1.3.0,2026-03-01,GitHub|tox-dev/toml-fmt-common|release.yaml,GitHub|tox-dev/toml-fmt|toml_fmt_common_build.yaml,repository_changed,confirmed: same owner
+6699,rlbot,2.0.0b39,2.0.0b40,2025-04-08,GitHub|virxec/python-interface|publish.yml,GitHub|rlbot/python-interface|publish.yml,repository_changed,confirmed: same repository after GitHub redirects
+6882,headroom-ai,0.27.0,0.28.0,2026-06-29,GitHub|chopratejas/headroom|release.yml,GitHub|headroomlabs-ai/headroom|release.yml,repository_changed,confirmed: same repository after GitHub redirects
+6906,ha-mcp,3.4.0,3.4.2,2025-11-09,GitHub|homeassistant-ai/ha-mcp|pypi-publish.yml,GitHub|homeassistant-ai/ha-mcp|release-publish.yml,workflow_changed_same_repo,confirmed: same repository
+6913,pyvips-binary,8.17.0,8.17.1,2025-07-09,GitHub|kleisauke/pyvips-binary|build-release.yml,GitHub|kleisauke/pyvips-binary|ci.yml,workflow_changed_same_repo,confirmed: same repository
+6922,pykcs11,1.5.19,1.5.20,2026-09-04,GitHub|ludovicrousseau/pykcs11|windows.yml,GitHub|ludovicrousseau/pykcs11|linux.yml,workflow_changed_same_repo,confirmed: same repository
+7113,linkup-sdk,0.1.2,0.1.3,2024-11-15,GitHub|linkupplatform/linkup-python-sdk|publish-to-testpypi.yml,GitHub|linkupplatform/linkup-python-sdk|publish-to-pypi.yml,workflow_changed_same_repo,confirmed: same repository
+7113,linkup-sdk,0.2.8,0.2.9,2025-09-15,GitHub|linkupplatform/linkup-python-sdk|publish-to-pypi.yml,GitHub|linkupplatform/linkup-python-sdk|release.yml,workflow_changed_same_repo,confirmed: same repository
+7271,textual-image,0.13.1,0.13.2,2026-05-30,GitHub|lnqs/textual-image|publish.yml,GitHub|lnqs/textual-image|release.yml,workflow_changed_same_repo,confirmed: same repository
+7482,sax,0.18.1,0.18.2,2026-06-09,GitHub|flaport/sax|release.yml,GitHub|gdsfactory/sax|release.yml,repository_changed,confirmed: same repository after GitHub redirects
+7561,pagefind,1.4.0a1,1.4.0rc1,2025-09-01,GitHub|cloudcannon/pagefind|release.yml,GitHub|pagefind/pagefind|release.yml,repository_changed,confirmed: same repository after GitHub redirects
+7580,yake,0.6.0,0.7.1,2026-02-02,GitHub|liaad/yake|publishpypi.yml,GitHub|inesctec/yake|publishpypi.yml,repository_changed,confirmed: same repository after GitHub redirects
+7739,bittensor,10.2.0,10.2.1,2026-04-22,GitHub|opentensor/bittensor|release.yml,GitHub|latent-to/bittensor|release.yml,repository_changed,confirmed: same repository after GitHub redirects
+7739,bittensor,10.5.0,11.0.0rc16,2026-07-16,GitHub|latent-to/bittensor|release.yml,GitHub|raofoundation/subtensor|release-train.yml,repository_changed,consistent with the project's own metadata
+7739,bittensor,11.0.0rc16,11.0.0,2026-07-17,GitHub|raofoundation/subtensor|release-train.yml,GitHub|raofoundation/subtensor|watch-mainnet-release.yml,workflow_changed_same_repo,confirmed: same repository
+7739,bittensor,11.0.0,11.0.0rc17,2026-07-22,GitHub|raofoundation/subtensor|watch-mainnet-release.yml,GitHub|raofoundation/subtensor|release-train.yml,workflow_changed_same_repo,confirmed: same repository
+7748,hydra-colorlog,1.4.0.dev8,1.4.0.dev9,2026-08-30,GitHub|facebookresearch/hydra|publish.yml,GitHub|hydra-ecosystem/hydra|publish.yml,repository_changed,confirmed: same repository after GitHub redirects
+7757,rfdetr,1.6.0rc3,1.6.0,2026-03-20,GitHub|roboflow/rf-detr|publish-pre-release.yml,GitHub|roboflow/rf-detr|publish-release.yml,workflow_changed_same_repo,confirmed: same repository
+7806,dtw-python,1.7.4,1.7.5,2026-06-12,GitHub|dynamictimewarping/dtw-python|build_wheels.yml,GitHub|dynamictimewarping/dtw-python|build_wheels_on_release.yml,workflow_changed_same_repo,confirmed: same repository
+7927,plexapi,4.16.1,4.17.0,2025-04-19,GitHub|pkkid/python-plexapi|pypi.yml,GitHub|pushingkarmaorg/python-plexapi|pypi.yml,repository_changed,confirmed: same repository after GitHub redirects
+8027,arcade-core,3.0.0,3.1.0,2025-10-23,GitHub|arcadeai/arcade-ai|release-on-version-change.yml,GitHub|arcadeai/arcade-mcp|release-on-version-change.yml,repository_changed,confirmed: same owner
+8031,cohere-melody,0.6.1,0.6.7,2026-03-21,GitHub|cohere-ai/melody|build-wheels.yml,GitHub|cohere-ai/melody|python-build-wheels.yml,workflow_changed_same_repo,confirmed: same repository
+8066,arcade-tdk,3.0.0,3.0.1,2025-11-14,GitHub|arcadeai/arcade-ai|release-on-version-change.yml,GitHub|arcadeai/arcade-mcp|release-on-version-change.yml,repository_changed,confirmed: same owner
+8071,fasta2a,0.4.1,0.5.0,2025-07-10,GitHub|pydantic/pydantic-ai|ci.yml,GitHub|pydantic/fasta2a|publish.yml,repository_changed,confirmed: same owner
+8071,fasta2a,0.6.0,0.6.1,2026-05-15,GitHub|pydantic/fasta2a|publish.yml,GitHub|datalayer/fasta2a|publish.yml,repository_changed,confirmed: same repository after GitHub redirects
+8099,kreuzberg,3.21.0,3.22.0,2025-11-27,GitHub|goldziher/kreuzberg|release.yaml,GitHub|goldziher/kreuzberg|publish-v3.yaml,workflow_changed_same_repo,confirmed: same repository
+8099,kreuzberg,3.22.0,4.0.0,2026-01-11,GitHub|goldziher/kreuzberg|publish-v3.yaml,GitHub|kreuzberg-dev/kreuzberg|publish.yaml,repository_changed,confirmed: same repository after GitHub redirects
+8099,kreuzberg,4.9.9,4.10.0,2026-07-11,GitHub|kreuzberg-dev/kreuzberg|publish.yaml,GitHub|kreuzberg-dev/kreuzberg-lts|publish.yaml,repository_changed,confirmed: same owner
+8100,graphtty,0.0.5,0.1.0,2026-02-08,GitHub|cristipufu/graphtty|cd.yml,GitHub|uipath/graphtty|cd.yml,repository_changed,consistent with the project's own metadata
+8109,proxsuite,0.7.2.post1,0.7.3,2026-05-11,GitHub|simple-robotics/proxsuite|release-osx-win.yml,GitHub|cmake-wheel/proxsuite|release.yml,repository_changed,consistent with the project's own metadata
+8117,apify,3.0.5,3.0.6b1,2025-11-19,GitHub|apify/apify-sdk-python|release.yaml,GitHub|apify/apify-sdk-python|pre_release.yaml,workflow_changed_same_repo,confirmed: same repository
+8117,apify,3.1.1b3,3.1.1b4,2025-12-17,GitHub|apify/apify-sdk-python|pre_release.yaml,GitHub|apify/apify-sdk-python|on_master.yaml,workflow_changed_same_repo,confirmed: same repository
+8117,apify,3.3.3b6,3.3.3,2026-04-21,GitHub|apify/apify-sdk-python|on_master.yaml,GitHub|apify/apify-sdk-python|manual_release_stable.yaml,workflow_changed_same_repo,confirmed: same repository
+8117,apify,3.4.0,3.4.1b1,2026-05-25,GitHub|apify/apify-sdk-python|manual_release_stable.yaml,GitHub|apify/apify-sdk-python|manual_release_beta.yaml,workflow_changed_same_repo,confirmed: same repository
+8195,databend-driver,0.33.1,0.33.4,2026-01-16,GitHub|databendlabs/bendsql|bindings.python.yml,GitHub|databendlabs/bendsql|release.yml,workflow_changed_same_repo,confirmed: same repository
+8231,arcade-mcp-server,1.0.1,1.1.0,2025-10-07,GitHub|arcadeai/arcade-ai|release-on-version-change.yml,GitHub|arcadeai/arcade-mcp|release-on-version-change.yml,repository_changed,confirmed: same owner
+8256,syntaqlite,0.1.0,0.2.9,2026-03-18,GitHub|lalitmaganti/syntaqlite|publish-pypi.yml,GitHub|lalitmaganti/syntaqlite|release.yml,workflow_changed_same_repo,confirmed: same repository
+8385,aiotools,1.9.2,2.0.0a4,2025-10-03,GitHub|achimnol/aiotools|default.yml,GitHub|achimnol/aiotools|ci.yml,workflow_changed_same_repo,confirmed: same repository
+8403,arcade-serve,3.0.0,3.1.0,2025-11-20,GitHub|arcadeai/arcade-ai|release-on-version-change.yml,GitHub|arcadeai/arcade-mcp|release-on-version-change.yml,repository_changed,confirmed: same owner
+8424,soldr,0.7.0,0.7.4,2026-04-20,GitHub|zackees/soldr|release.yml,GitHub|zackees/soldr|release-auto.yml,workflow_changed_same_repo,confirmed: same repository
+8454,jsonobject,2.2.0.dev20250224151423,2.3.0.dev20250225173614,2025-02-25,GitHub|dimagi/jsonobject|tests.yml,GitHub|dimagi/jsonobject|pypi.yml,workflow_changed_same_repo,confirmed: same repository
+8533,antimeridian,0.4.5,0.4.6,2026-03-03,GitHub|gadomski/antimeridian|release.yaml,GitHub|gadomski/antimeridian|release-please.yaml,workflow_changed_same_repo,confirmed: same repository
+8577,django-enum,2.2.0,2.2.1,2025-04-18,GitHub|bckohan/django-enum|release.yml,GitHub|django-commons/django-enum|release.yml,repository_changed,consistent with the project's own metadata
+8622,xdk,0.2.3b0,0.2.5b0,2025-11-29,GitHub|xdevplatform/xdk|python-publish.yml,GitHub|xdevplatform/xdk-python|publish.yml,repository_changed,confirmed: same owner
+8702,moto-ext,5.1.20.post44,5.1.21,2026-02-09,GitHub|localstack/moto|ci.yml,GitHub|localstack/moto|release.yml,workflow_changed_same_repo,confirmed: same repository
+8705,allure-pytest-default-results,0.1.2,0.1.3,2025-05-01,GitHub|canonical/allure-pytest-default-results|publish.yaml,GitHub|canonical/allure-pytest-default-results|release.yaml,workflow_changed_same_repo,confirmed: same repository
+8720,deno,2.6.4,2.6.5,2026-01-15,GitHub|manzt/denop|release.yml,GitHub|denoland/deno_pypi|release.yml,repository_changed,confirmed: same repository after GitHub redirects
+8798,mapie,1.3.0,1.4.0,2026-04-30,GitHub|scikit-learn-contrib/mapie|publish.yml,GitHub|scikit-learn-contrib/mapie|publish-final-release.yml,workflow_changed_same_repo,confirmed: same repository
+8800,mcp-server-git,2025.1.14,2025.7.1,2025-07-01,GitHub|modelcontextprotocol/servers|python.yml,GitHub|modelcontextprotocol/servers|release.yml,workflow_changed_same_repo,confirmed: same repository
+8804,authentik-client,2025.10.0rc1.post1756472900,2025.2.0rc2,2025-08-29,GitHub|goauthentik/authentik|api-py-publish.yml,GitHub|goauthentik/client-python|stable.yml,repository_changed,confirmed: same owner
+8804,authentik-client,2025.8.1,2025.10.0rc1.post1756474951,2025-08-29,GitHub|goauthentik/client-python|stable.yml,GitHub|goauthentik/client-python|rolling.yml,workflow_changed_same_repo,confirmed: same repository
+8804,authentik-client,2025.10.0rc1.post1760450942,2025.10.0rc3,2025-10-21,GitHub|goauthentik/client-python|rolling.yml,GitHub|goauthentik/client-python|stable.yml,workflow_changed_same_repo,confirmed: same repository
+8804,authentik-client,2026.2.1,2026.5.0rc1.post1772621265,2026-03-04,GitHub|goauthentik/client-python|stable.yml,GitHub|goauthentik/client-python|rolling.yml,workflow_changed_same_repo,confirmed: same repository
+8804,authentik-client,2026.5.0rc1.post1774287289,2026.2.2rc1,2026-05-13,GitHub|goauthentik/client-python|rolling.yml,GitHub|goauthentik/client-python|release.yml,workflow_changed_same_repo,confirmed: same repository
+8865,pytest-mergify,2026.7.29.1,2026.8.3.1,2026-08-03,GitHub|mergifyio/pytest-mergify|release.yml,GitHub|mergifyio/mergify-ci-integrations|release-pytest-mergify.yml,repository_changed,confirmed: same owner
+8968,pagefind-bin,1.4.0a1,1.4.0rc3,2025-09-01,GitHub|cloudcannon/pagefind|release.yml,GitHub|pagefind/pagefind|release.yml,repository_changed,confirmed: same repository after GitHub redirects
+8990,mcpforunityserver,9.0.3,9.0.7,2026-01-15,GitHub|coplaydev/unity-mcp|publish-pypi.yml,GitHub|coplaydev/unity-mcp|release.yml,workflow_changed_same_repo,confirmed: same repository
+8990,mcpforunityserver,9.2.0,9.3.0b20260128055651,2026-01-28,GitHub|coplaydev/unity-mcp|release.yml,GitHub|coplaydev/unity-mcp|beta-release.yml,workflow_changed_same_repo,confirmed: same repository
+9014,cyscale,0.3.0,0.3.1,2026-04-24,GitHub|thewhaleking/cyscale|deploypypi.yml,GitHub|latent-to/cyscale|deploypypi.yml,repository_changed,confirmed: same repository after GitHub redirects
+9030,strands-agents-evals,1.0.1,1.0.2,2026-07-09,GitHub|strands-agents/evals|pypi-publish-on-release.yml,GitHub|strands-agents/evals|release.yml,workflow_changed_same_repo,confirmed: same repository
+9074,pydantic-deep,0.2.2,0.2.6,2025-12-10,GitHub|vstorm-co/pydantic-deep|publish.yml,GitHub|vstorm-co/pydantic-deepagents|publish.yml,repository_changed,confirmed: same owner
+9161,pg0-embedded,0.3.0,0.10.1,2025-12-12,GitHub|vectorize-io/pg0|release-python.yml,GitHub|vectorize-io/pg0|release-cli.yml,workflow_changed_same_repo,confirmed: same repository
+9191,plugin-scanner,2.0.249,2.0.250,2026-05-16,GitHub|hashgraph-online/ai-plugin-scanner|publish.yml,GitHub|hashgraph-online/hol-guard|publish.yml,repository_changed,confirmed: same owner
+9194,smooth-py,0.2.4,0.2.5.dev20250922,2025-09-22,GitHub|circlemind-ai/smooth-sdk|publish.yaml,GitHub|circlemind-ai/smooth-sdk|publish-dev.yaml,workflow_changed_same_repo,confirmed: same repository
+9258,async-substrate-interface,1.6.3,1.6.4,2026-04-02,GitHub|opentensor/async-substrate-interface|release.yml,GitHub|latent-to/async-substrate-interface|release.yml,repository_changed,confirmed: same repository after GitHub redirects
+9260,gitingest,0.1.5,0.2.1,2025-07-29,GitHub|cyclotruc/gitingest|publish.yml,GitHub|coderamp-labs/gitingest|publish_to_pypi.yml,repository_changed,confirmed: same repository after GitHub redirects
+9318,power-grid-model,1.10.91,1.10.95,2025-04-28,GitHub|powergridmodel/power-grid-model|publish-pypi.yml,GitHub|powergridmodel/power-grid-model|ci.yml,workflow_changed_same_repo,confirmed: same repository
+9387,mistralai-workflows,2.0.0,2.1.0b5,2026-03-12,GitHub|mistralai/dashboard|workflow_sdk.yaml,GitHub|mistralai/dashboard|workflow-sdk.yaml,workflow_changed_same_repo,confirmed: same repository
+9387,mistralai-workflows,3.4.0,3.5.0a1,2026-05-26,GitHub|mistralai/dashboard|workflow-sdk.yaml,GitHub|mistralai/dashboard|workflow-sdk-release.yaml,workflow_changed_same_repo,confirmed: same repository
+9402,marin-finelog-server,0.2.12.dev202607260822,0.2.13.dev30223685542,2026-07-26,GitHub|marin-community/marin|finelog-release-wheels.yaml,GitHub|marin-community/marin|marin-release-libs-wheels.yaml,workflow_changed_same_repo,confirmed: same repository
+9453,ormar-utils,0.1.0,0.1.1,2026-03-06,GitHub|collerek/ormar-utils|ci.yml,GitHub|ormar-orm/ormar-utils|ci.yml,repository_changed,confirmed: same repository after GitHub redirects
+9588,imfp,1.1.5,1.1.6,2025-01-18,GitHub|promptly-technologies-llc/imfp|publish.yml,GitHub|promptly-technologies-llc/imfp|release.yml,workflow_changed_same_repo,confirmed: same repository
+9614,pypaperless,5.2.2,5.2.3,2026-07-23,GitHub|tb1337/paperless-api|release.yml,GitHub|tb1337/pypaperless|release.yml,repository_changed,confirmed: same owner
+9920,piot-fixture-zzz-python,0.0.1777473468,0.0.1777495257,2026-04-29,GitHub|thekevinscott/putitoutthere|e2e.yml,GitHub|thekevinscott/putitoutthere|e2e-fixture.yml,workflow_changed_same_repo,confirmed: same repository
+10065,pytket,2.11.0,2.12.0,2026-01-30,GitHub|cqcl/tket|release.yml,GitHub|quantinuum/tket|release.yml,repository_changed,confirmed: same repository after GitHub redirects
+10118,piot-fixture-zzz-python-maturin,0.0.1777473469,0.0.1777495256,2026-04-29,GitHub|thekevinscott/putitoutthere|e2e.yml,GitHub|thekevinscott/putitoutthere|e2e-fixture.yml,workflow_changed_same_repo,confirmed: same repository
+10211,textworld,1.6.2rc5,1.6.2,2025-01-22,GitHub|microsoft/textworld|prerelease.yml,GitHub|microsoft/textworld|release.yml,workflow_changed_same_repo,confirmed: same repository
+10278,marin-iris-native,0.1.4.dev202607260810,0.1.5.dev30223685542,2026-07-26,GitHub|marin-community/marin|iris-native-release-wheels.yaml,GitHub|marin-community/marin|marin-release-libs-wheels.yaml,workflow_changed_same_repo,confirmed: same repository
+10379,dbt-metabase,1.6.1,1.7.0rc1,2026-01-08,GitHub|gouline/dbt-metabase|master.yml,GitHub|gouline/dbt-metabase|main.yml,workflow_changed_same_repo,confirmed: same repository
+10396,kubeflow,0.3.1,0.4.1,2026-06-19,GitHub|kubeflow/sdk|release.yml,GitHub|kubeflow/sdk|release.yaml,workflow_changed_same_repo,confirmed: same repository
+10401,spec-kitty-events,9.1.6,10.4.0,2026-09-25,GitHub|priivacy-ai/spec-kitty-events|publish-pypi.yml,GitHub|spec-kitty/spec-kitty-events|publish-pypi.yml,repository_changed,confirmed: same repository after GitHub redirects
+10447,gllm-inference-binary,0.4.29,0.4.30,2025-07-24,GitHub|gdp-admin/gen-ai-internal|build-binary.yml,GitHub|gdp-admin/gl-sdk|build-binary.yml,repository_changed,confirmed: same owner
+10513,rendercv,2.0,2.1,2025-01-26,GitHub|rendercv/rendercv|publish-to-pypi.yaml,GitHub|rendercv/rendercv|publish-a-release.yaml,workflow_changed_same_repo,confirmed: same repository
+10513,rendercv,2.2,2.3,2025-10-28,GitHub|rendercv/rendercv|publish-a-release.yaml,GitHub|rendercv/rendercv|release.yaml,workflow_changed_same_repo,confirmed: same repository
+10600,bernstein,1.0.0,1.1.2,2026-03-30,GitHub|chernistry/bernstein|publish.yml,GitHub|chernistry/bernstein|auto-release.yml,workflow_changed_same_repo,confirmed: same repository
+10600,bernstein,1.8.15,1.10.6,2026-05-10,GitHub|chernistry/bernstein|auto-release.yml,GitHub|sipyourdrink-ltd/bernstein|publish.yml,repository_changed,confirmed: same repository after GitHub redirects
+10827,ob-metaflow-extensions,1.1.163,1.1.164,2025-06-10,GitHub|outerbounds/ob-packages|publish_ob_metaflow_extensions.yml,GitHub|outerbounds/ob-packages|orchestrate_package_release.yaml,workflow_changed_same_repo,confirmed: same repository
+10836,genesis-world,0.4.6,0.4.7,2026-05-16,GitHub|genesis-embodied-ai/genesis|generic.yml,GitHub|genesis-embodied-ai/genesis-world|generic.yml,repository_changed,confirmed: same owner
+10850,osm2geojson,0.3.2,1.0.0rc1,2026-07-18,GitHub|aspectumapp/osm2geojson|pythonpublish.yml,GitHub|rapkin/osm2geojson|pythonpublish.yml,repository_changed,confirmed: same repository after GitHub redirects
+10952,commoncode,32.4.2,32.5.0,2026-06-11,GitHub|aboutcode-org/commoncode|pypi-release.yml,GitHub|aboutcode-org/scancode-toolkit|commoncode-release.yml,repository_changed,confirmed: same owner
+10974,mitreattack-python,5.4.1,5.4.3,2026-02-25,GitHub|mitre-attack/mitreattack-python|lint-publish.yml,GitHub|mitre-attack/mitreattack-python|release-and-publish.yml,workflow_changed_same_repo,confirmed: same repository
+10998,mindroom,0.0.0,0.1.0,2026-01-20,GitHub|basnijholt/mindroom|release.yml,GitHub|mindroom-ai/mindroom|release.yml,repository_changed,consistent with the project's own metadata
+11007,polymarket-client,0.1.0b4,0.1.0b5,2026-06-09,GitHub|polymarket/py-sdk|publish.yml,GitHub|polymarket/py-sdk|release-please.yml,workflow_changed_same_repo,confirmed: same repository
+11053,aiofastnet,1.1.1,1.2.0,2026-10-01,GitHub|tarasko/aiofastnet|release.yml,GitHub|aio-libs/aiofastnet|release.yml,repository_changed,consistent with the project's own metadata
+11203,volue-insight-timeseries,1.2.3,1.3.0,2025-07-08,GitHub|volueinsight/volue-insight-timeseries|publish_package.yml,GitHub|volue-public/volue-insight-timeseries|publish_package.yml,repository_changed,confirmed: same repository after GitHub redirects
+11222,dvclive,3.49.0,3.49.1,2026-06-05,GitHub|iterative/dvclive|release.yml,GitHub|treeverse/dvclive|release.yml,repository_changed,confirmed: same repository after GitHub redirects
+11287,uipath-mcp,0.0.98,0.0.99,2025-07-22,GitHub|uipath/uipath-mcp-python|publish.yml,GitHub|uipath/uipath-mcp-python|cd.yml,workflow_changed_same_repo,confirmed: same repository
+11288,bitwarden-sdk,2.0.0,2.1.0,2026-05-21,GitHub|bitwarden/sdk-sm|publish-python.yml,GitHub|bitwarden/deploy|publish-sdk-sm-python-wheels.yml,repository_changed,confirmed: same owner
+11292,metaflow-checkpoint,0.2.0,0.2.1,2025-04-17,GitHub|outerbounds/checkpointing-experiments|publish.yaml,GitHub|outerbounds/metaflow-checkpoint|publish.yaml,repository_changed,confirmed: same owner
+11293,powerbot-client,2.27.10,2.28.8,2026-02-26,GitHub|powerbot-trading/powerbot_clients|publish-python-PyPi-sync-client.yml,GitHub|volue/powerbot-clients|publish-python-PyPi-sync-client.yml,repository_changed,not confirmed by public data
+11488,ops-scenario,8.0.0,8.1.0,2025-07-30,GitHub|canonical/operator|publish-ops-scenario.yaml,GitHub|canonical/operator|publish.yaml,workflow_changed_same_repo,confirmed: same repository
+11495,getdaft,0.4.4,0.4.5,2025-02-27,GitHub|eventual-inc/daft|python-publish.yml,GitHub|eventual-inc/daft|publish-pypi.yml,workflow_changed_same_repo,confirmed: same repository
+11530,dj-cache-panel,0.4.0,0.5.0,2026-08-07,GitHub|yassi/dj-cache-panel|python-publish.yml,GitHub|django-control-room/dj-cache-panel|python-publish.yml,repository_changed,confirmed: same repository after GitHub redirects
+11566,oidc-provider-mock,0.2.6,0.2.7,2025-09-12,GitHub|geigerzaehler/oidc-provider-mock|publish.yaml,GitHub|geigerzaehler/oidc-provider-mock|release.yaml,workflow_changed_same_repo,confirmed: same repository
+11614,unidep,3.2.0,3.3.0,2026-05-10,GitHub|basnijholt/unidep|release.yml,GitHub|conda-incubator/unidep|release.yml,repository_changed,confirmed: same repository after GitHub redirects
+11640,marin-dupekit-native,0.1.3.dev202607190801,0.1.4.dev30223685542,2026-07-26,GitHub|marin-community/marin|dupekit-release-wheels.yaml,GitHub|marin-community/marin|marin-release-libs-wheels.yaml,workflow_changed_same_repo,confirmed: same repository
+11702,matrx-ai,0.1.26,0.3.1,2026-07-11,GitHub|armanisadeghi/matrx-ai|publish.yml,GitHub|ai-matrix-engine/aidream|publish-package.yml,repository_changed,not confirmed by public data
+11733,xproj,0.1.1,0.2.0,2025-06-11,GitHub|benbovy/xproj|packaging.yml,GitHub|xarray-contrib/xproj|packaging.yml,repository_changed,confirmed: same repository after GitHub redirects
+11868,fingerprint-pro-server-api-sdk,8.11.0,8.12.0rc1,2026-03-13,GitHub|fingerprintjs/fingerprint-pro-server-api-python-sdk|publish.yml,GitHub|fingerprintjs/python-sdk|publish.yml,repository_changed,confirmed: same owner
+11877,rapid-router,7.12.0,7.12.1,2026-07-07,GitHub|ocadotechnology/rapid-router|publish-python-package.yml,GitHub|codeforlife-education/rapid-router|publish-python-package.yml,repository_changed,confirmed: same repository after GitHub redirects
+12206,snakemake-interface-logger-plugins,0.1.1,0.1.3,2025-02-11,GitHub|cademirch/snakemake-interface-logger-plugins|release.yml,GitHub|snakemake/snakemake-interface-logger-plugins|release-please.yml,repository_changed,confirmed: same repository after GitHub redirects
+12209,pypi-attestations,0.0.27,0.0.28,2025-10-16,GitHub|trailofbits/pypi-attestations|release.yml,GitHub|pypi/pypi-attestations|release.yml,repository_changed,confirmed: same repository after GitHub redirects
+12276,gooddata-api-client,1.74.1.dev5,1.75.0,2026-09-17,GitHub|gooddata/gooddata-python-sdk|dev-release.yaml,GitHub|gooddata/gooddata-python-sdk|build-release.yaml,workflow_changed_same_repo,confirmed: same repository
+12300,python-roborock,2.9.0,2.9.1,2025-01-13,GitHub|humbertogontijo/python-roborock|ci.yml,GitHub|python-roborock/python-roborock|ci.yml,repository_changed,confirmed: same repository after GitHub redirects
+12354,gooddata-sdk,1.74.1.dev5,1.75.0,2026-09-17,GitHub|gooddata/gooddata-python-sdk|dev-release.yaml,GitHub|gooddata/gooddata-python-sdk|build-release.yaml,workflow_changed_same_repo,confirmed: same repository
+12377,superdoc-sdk,1.15.0,1.16.0,2026-06-12,GitHub|superdoc-dev/superdoc|release-sdk.yml,GitHub|superdoc-dev/superdoc|release-stable.yml,workflow_changed_same_repo,confirmed: same repository
+12377,superdoc-sdk,1.21.1,1.21.2,2026-07-30,GitHub|superdoc-dev/superdoc|release-stable.yml,GitHub|superdoc/docx-editor|release-stable.yml,repository_changed,confirmed: same repository after GitHub redirects
+12432,presidio-image-redactor,0.0.58,0.0.59,2026-06-28,GitHub|microsoft/presidio|release.yml,GitHub|data-privacy-stack/presidio|release.yml,repository_changed,confirmed: same repository after GitHub redirects
+12485,sarj-standards,6.6.1,7.0.0,2026-08-20,GitHub|sarj-ai/standards|release.yml,GitHub|sarj-ai/code-standards|release.yml,repository_changed,confirmed: same owner
+12564,unifi-core,0.2.0,0.2.1,2026-05-04,GitHub|sirkirby/unifi-mcp|publish-core.yml,GitHub|sirkirby/unifi-mcp|release-core.yml,workflow_changed_same_repo,confirmed: same repository
+12567,apm-cli,0.3.0,0.4.0,2025-09-18,GitHub|danielmeppiel/apm-cli|build-release.yml,GitHub|danielmeppiel/apm|build-release.yml,repository_changed,confirmed: same owner
+12567,apm-cli,0.7.2,0.7.3,2026-02-15,GitHub|danielmeppiel/apm|build-release.yml,GitHub|microsoft/apm|build-release.yml,repository_changed,confirmed: same repository after GitHub redirects
+12580,superdoc-sdk-cli-linux-x64,1.15.0,1.16.0,2026-06-12,GitHub|superdoc-dev/superdoc|release-sdk.yml,GitHub|superdoc-dev/superdoc|release-stable.yml,workflow_changed_same_repo,confirmed: same repository
+12580,superdoc-sdk-cli-linux-x64,1.21.1,1.21.2,2026-07-30,GitHub|superdoc-dev/superdoc|release-stable.yml,GitHub|superdoc/docx-editor|release-stable.yml,repository_changed,confirmed: same repository after GitHub redirects
+12748,webarena-verified,1.1.2,1.2.3,2026-02-07,GitHub|servicenow/webarena-verified|publish-pypi.yml,GitHub|servicenow/webarena-verified|release-publish.yml,workflow_changed_same_repo,confirmed: same repository
+12792,pagefind-bin-extended,1.4.0a1,1.4.0rc3,2025-09-01,GitHub|cloudcannon/pagefind|release.yml,GitHub|pagefind/pagefind|release.yml,repository_changed,confirmed: same repository after GitHub redirects
+12814,python-kadmin-rs,0.7.2,0.7.3,2026-08-07,GitHub|authentik-community/kadmin-rs|ci-python.yml,GitHub|authentik-labs/kadmin-rs|ci-python.yml,repository_changed,confirmed: same repository after GitHub redirects
+12818,betterproto2-compiler,0.5.1,0.6.0,2025-06-09,GitHub|betterproto/python-betterproto2-compiler|release.yml,GitHub|betterproto/python-betterproto2|release.yml,repository_changed,confirmed: same owner
+12858,pipecatcloud,0.0.6,0.0.8,2025-02-24,GitHub|pipecat-ai/pipecat-cloud|python-publish.yml,GitHub|daily-co/pipecat-cloud|python-publish.yml,repository_changed,not confirmed by public data
+12858,pipecatcloud,0.0.9,0.0.11,2025-03-04,GitHub|daily-co/pipecat-cloud|python-publish.yml,GitHub|daily-co/pipecat-cloud|publish-pypi.yml,workflow_changed_same_repo,confirmed: same repository
+12861,qiskit-connector,2.2.1,2.2.6,2025-05-14,GitHub|schijioke-uche/qiskit-connector|workflow.yml,GitHub|qcomputingsoftware/qiskit-connector|workflow.yml,repository_changed,not confirmed by public data
+12863,odc-loader,0.3.0,0.4.0,2025-02-04,GitHub|opendatacube/odc-loader|on-release-main.yml,GitHub|opendatacube/odc-loader|release.yml,workflow_changed_same_repo,confirmed: same repository
+12864,guarddog,2.7.1,2.8.4,2026-01-19,GitHub|datadog/guarddog|pypi-release.yml,GitHub|datadog/guarddog|tag-release.yml,workflow_changed_same_repo,confirmed: same repository
+12864,guarddog,3.0.0,3.0.1,2026-06-24,GitHub|datadog/guarddog|tag-release.yml,GitHub|datadog/guarddog|pypi-publish.yml,workflow_changed_same_repo,confirmed: same repository
+12966,tesla-fleet-api,1.8.0,1.9.0,2026-08-13,GitHub|teslemetry/python-tesla-fleet-api|python-publish.yml,GitHub|teslemetry/python-tesla-fleet-api|release.yml,workflow_changed_same_repo,confirmed: same repository
+12985,instructure-dap-client,2.2.0,2.3.0,2026-08-27,GitHub|instructure/data-access-platform|cli-publish-pypi.yml,GitHub|instructure/data-access-platform|cli-release-pypi.yml,workflow_changed_same_repo,confirmed: same repository
+12994,nono-py,0.10.1,0.11.0,2026-06-29,GitHub|always-further/nono-py|publish.yml,GitHub|nolabs-ai/nono-py|auto-release.yml,repository_changed,confirmed: same repository after GitHub redirects
+12998,xbbg,1.2.5,1.2.6,2026-06-03,GitHub|alpha-xone/xbbg|pypi_upload.yml,GitHub|xbbg-org/xbbg|pypi_upload.yml,repository_changed,confirmed: same repository after GitHub redirects
+13061,charmlibs-pathops,1.0.1,1.0.1.post0,2025-08-08,GitHub|canonical/charmtech-charmlibs|publish-charmlibs-pathops-package.yaml,GitHub|canonical/charmlibs|publish.yaml,repository_changed,confirmed: same owner
+13130,mlflow-oidc-auth,3.2.0,3.3.0,2025-02-17,GitHub|data-platform-hq/mlflow-oidc-auth|pypi.yml,GitHub|mlflow-oidc/mlflow-oidc-auth|pypi.yml,repository_changed,confirmed: same repository after GitHub redirects
+13189,pyicu-wheels,2.14rc1,2.14rc2,2025-01-10,GitHub|xoudini/pyicu|build.yml,GitHub|init7/pyicu|build.yml,repository_changed,confirmed: same repository after GitHub redirects
+13231,codex-app-server-sdk,0.3.0,0.3.1,2026-02-24,GitHub|emsi/codex-app-server-client|publish.yml,GitHub|emsi/codex-app-server-sdk|publish.yml,repository_changed,confirmed: same owner
+13287,tket-exts,0.12.0,0.12.1,2026-01-06,GitHub|cqcl/tket2|python-pure-wheels.yml,GitHub|quantinuum/tket2|python-pure-wheels.yml,repository_changed,confirmed: same repository after GitHub redirects
+13331,ayafileio,1.4.3,1.4.4,2026-06-02,GitHub|patchouli-cn/ayafileio|release.yml,GitHub|patchouli-cn/ayafileio|build_wheel_ci.yml,workflow_changed_same_repo,confirmed: same repository
+13360,pyspark-extension,2.14.2.3.5.post0,2.15.0.3.2,2025-12-13,GitHub|enricomi/spark-extension|publish-release.yml,GitHub|g-research/spark-extension|publish-release.yml,repository_changed,consistent with the project's own metadata
+13386,pyedb,0.69.0,0.70.0,2026-03-12,GitHub|ansys/pyedb|ci_cd.yml,GitHub|ansys/pyedb|ci-release.yml,workflow_changed_same_repo,confirmed: same repository
+13411,synqly,1.0.114.dev4,1.0.117,2026-05-20,GitHub|synqly/lepton|sdk-publish-dev.yml,GitHub|synqly/lepton|sdk-manual-version-bump.yml,workflow_changed_same_repo,confirmed: same repository
+13411,synqly,1.0.118,1.0.119,2026-05-21,GitHub|synqly/lepton|sdk-manual-version-bump.yml,GitHub|synqly/lepton|sdk-publish.yml,workflow_changed_same_repo,confirmed: same repository
+13438,huawei-solar,2.5.0b3,3.0.0a1,2025-10-21,GitLab|emilv2/huawei-solar|.gitlab-ci.yml,GitHub|wlcrs/huawei-solar-lib|pypi-publish.yml,publisher_kind_changed,consistent with the project's own metadata
+13532,hydra-submitit-launcher,1.4.0.dev8,1.4.0.dev9,2026-08-30,GitHub|facebookresearch/hydra|publish.yml,GitHub|hydra-ecosystem/hydra|publish.yml,repository_changed,confirmed: same repository after GitHub redirects
+13558,guppylang,0.21.6,0.21.7,2025-12-15,GitHub|cqcl/guppylang|python-wheels.yml,GitHub|quantinuum/guppylang|python-wheels.yml,repository_changed,confirmed: same repository after GitHub redirects
+13565,guppylang-internals,0.25.0,0.26.0,2025-12-15,GitHub|cqcl/guppylang|python-wheels.yml,GitHub|quantinuum/guppylang|python-wheels.yml,repository_changed,confirmed: same repository after GitHub redirects
+13590,infrared-protocols,1.0.0,1.0.1,2026-02-24,GitHub|home-assistant-libs/infrared-protocols|publish-to-pypi.yml,GitHub|home-assistant-libs/infrared-protocols|ci.yml,workflow_changed_same_repo,confirmed: same repository
+13590,infrared-protocols,8.2.0,8.2.1,2026-07-28,GitHub|home-assistant-libs/infrared-protocols|ci.yml,GitHub|home-assistant-libs/infrared-protocols|publish.yml,workflow_changed_same_repo,confirmed: same repository
+13600,aiodiscover,2.6.0,2.6.1,2025-02-22,GitHub|bdraco/aiodiscover|ci.yml,GitHub|bluetooth-devices/aiodiscover|ci.yml,repository_changed,confirmed: same repository after GitHub redirects
+13628,probe-research,0.72.0,0.72.1,2026-08-12,GitHub|prbe-ai/research-os-agent|release.yml,GitHub|prbe-ai/research-os|release.yml,repository_changed,confirmed: same owner
+13685,mcp-use,1.0.3,1.1.4,2025-04-10,GitHub|pietrozullo/mcp-use|publish.yml,GitHub|mcp-use/mcp-use|publish.yml,repository_changed,confirmed: same repository after GitHub redirects
+13685,mcp-use,1.3.12,1.3.13,2025-10-18,GitHub|mcp-use/mcp-use|publish.yml,GitHub|mcp-use/mcp-use|python-publish.yml,workflow_changed_same_repo,confirmed: same repository
+13685,mcp-use,1.5.0,1.5.1,2025-12-15,GitHub|mcp-use/mcp-use|python-publish.yml,GitHub|mcp-use/mcp-use|python-release.yml,workflow_changed_same_repo,confirmed: same repository
+13689,hydra-optuna-sweeper,1.4.0.dev8,1.4.0.dev9,2026-08-30,GitHub|facebookresearch/hydra|publish.yml,GitHub|hydra-ecosystem/hydra|publish.yml,repository_changed,confirmed: same repository after GitHub redirects
+13729,djust,0.1.8,0.1.9,2026-01-27,GitHub|djust-org/djust|publish.yml,GitHub|djust-org/djust|release.yml,workflow_changed_same_repo,confirmed: same repository
+13734,dvc-ssh,4.2.2,4.3.0,2026-05-22,GitHub|iterative/dvc-ssh|release.yaml,GitHub|treeverse/dvc-ssh|release.yaml,repository_changed,confirmed: same repository after GitHub redirects
+13752,pdf2zh-next,2.7.1,2.8.1,2025-12-06,GitHub|pdfmathtranslate/pdfmathtranslate-next|release.yml,GitHub|pdfmathtranslate-next/pdfmathtranslate-next|release.yml,repository_changed,consistent with the project's own metadata
+13790,notebooklm-mcp-cli,0.9.4,0.9.6,2026-08-03,GitHub|jacob-bd/notebooklm-mcp-cli|publish.yml,GitHub|jacob-bd/gemini-notebook-mcp-cli|publish.yml,repository_changed,confirmed: same owner
+13802,gen-worker,0.114.2,0.114.3,2026-08-14,GitHub|cozy-creator/python-gen-worker|publish.yml,GitHub|cozy-creator/python-gen-worker|publish.yaml,workflow_changed_same_repo,confirmed: same repository
+13818,arcade-mcp,1.0.1,1.0.2,2025-10-07,GitHub|arcadeai/arcade-ai|release-on-version-change.yml,GitHub|arcadeai/arcade-mcp|release-on-version-change.yml,repository_changed,confirmed: same owner
+13861,falcon-mcp,0.6.0,0.8.0,2026-03-16,GitHub|crowdstrike/falcon-mcp|pypi-publish.yml,GitHub|crowdstrike/falcon-mcp|release-please.yml,workflow_changed_same_repo,confirmed: same repository
+13900,roboto-mcap-codec,0.1.19,0.2.0rc3,2026-09-25,GitHub|roboto-ai/roboto-mcap-codec|wheels.yml,GitHub|roboto-ai/roboto-mcap-codec|release.yml,workflow_changed_same_repo,confirmed: same repository
+13904,dj-celery-panel,0.4.0,0.5.0,2026-08-04,GitHub|yassi/dj-celery-panel|python-publish.yml,GitHub|django-control-room/dj-celery-panel|python-publish.yml,repository_changed,confirmed: same repository after GitHub redirects
+13972,torchmonarch,0.4.0,0.5.0.dev20260328,2026-03-28,GitHub|meta-pytorch/monarch|publish_release.yml,GitHub|meta-pytorch/monarch|wheels.yml,workflow_changed_same_repo,confirmed: same repository
+13987,pyswitchbot,2.2.0,2.3.0,2026-06-22,GitHub|sblibs/pyswitchbot|python-publish.yml,GitHub|sblibs/pyswitchbot|ci.yml,workflow_changed_same_repo,confirmed: same repository
+13993,data-to-xml,1.0.9,1.0.12,2026-05-17,GitHub|anogowski/dict-to-xml|publish-to-test-pypi.yml,GitHub|anogowski/data-to-xml|publish-to-test-pypi.yml,repository_changed,confirmed: same owner
+14021,graphon,0.1.2,0.2.1,2026-04-14,GitHub|langgenius/graphon|pypi_publish.yml,GitHub|langgenius/graphon|release.yml,workflow_changed_same_repo,confirmed: same repository
+14239,astro-airflow-mcp,0.2.2,0.2.3,2026-01-23,GitHub|astronomer/astro-airflow-mcp|publish.yml,GitHub|astronomer/agents|astro-airflow-mcp-publish.yml,repository_changed,confirmed: same owner
+14293,pytest-odoo,2.2.0,2.3.0,2026-09-21,GitHub|camptocamp/pytest-odoo|pypi.yml,GitHub|oca/pytest-odoo|pypi.yml,repository_changed,confirmed: same repository after GitHub redirects
+14360,scvi-tools,1.5.0.post1,1.5.1,2026-09-10,GitHub|scverse/scvi-tools|release.yml,GitHub|scverse/scvi-tools|release.yaml,workflow_changed_same_repo,confirmed: same repository
+14396,mistralai-workflows-plugins-mistralai,3.4.0,3.5.0a1,2026-05-26,GitHub|mistralai/dashboard|workflow-sdk-plugins.yaml,GitHub|mistralai/dashboard|workflow-sdk-release.yaml,workflow_changed_same_repo,confirmed: same repository
+14417,fastled,2.0.8,2.0.9,2026-05-15,GitHub|zackees/fastled-wasm|publish_release.yml,GitHub|zackees/fastled-wasm|auto-release.yml,workflow_changed_same_repo,confirmed: same repository
+14425,agentsview,0.29.0,0.30.0,2026-05-24,GitHub|wesm/agentsview|release.yml,GitHub|kenn-io/agentsview|release.yml,repository_changed,confirmed: same repository after GitHub redirects
+14425,agentsview,0.42.0,0.43.0,2026-09-14,GitHub|kenn-io/agentsview|release.yml,GitHub|kenn-io/kenn-dist|publish-pypi.yml,repository_changed,confirmed: same owner
+14442,cowork-server,0.26.7.22.3,0.26.7.23.1rc2,2026-07-23,GitHub|mindsdb/cowork-server|publish.yml,GitHub|mindsdb/cowork-server|publish-staging.yml,workflow_changed_same_repo,confirmed: same repository
+14510,unifi-network-mcp,0.6.4,0.14.13,2026-04-28,GitHub|sirkirby/unifi-network-mcp|publish-to-pypi.yml,GitHub|sirkirby/unifi-mcp|publish-network.yml,repository_changed,confirmed: same owner
+14510,unifi-network-mcp,0.14.13,0.14.14,2026-05-04,GitHub|sirkirby/unifi-mcp|publish-network.yml,GitHub|sirkirby/unifi-mcp|release-network.yml,workflow_changed_same_repo,confirmed: same repository
+14528,waldur-api-client,8.0.4,8.0.5.dev3,2026-02-22,GitHub|waldur/py-client|pypi-publish.yml,GitHub|waldur/py-client|dev-publish.yml,workflow_changed_same_repo,confirmed: same repository
+14559,sarj-python-lint,0.2.0,0.3.0,2026-06-21,GitHub|sarj-ai/linting|release.yml,GitHub|sarj-ai/standards|release.yml,repository_changed,confirmed: same owner
+14559,sarj-python-lint,0.77.0,0.77.1,2026-08-20,GitHub|sarj-ai/standards|release.yml,GitHub|sarj-ai/code-standards|release.yml,repository_changed,confirmed: same owner
+14585,pysnmp-pysmi,2.0.0rc16,2.1.0rc2,2026-09-06,GitHub|pysnmp/pysmi|build-test-release.yml,GitHub|pysnmp/pysmi|publish-to-pypi.yml,workflow_changed_same_repo,confirmed: same repository
+14587,aiopnsense,1.1.9,1.1.11,2026-09-13,GitHub|snuffy2/aiopnsense|release.yml,GitHub|snuffy2/aiopnsense|publish-pypi.yml,workflow_changed_same_repo,confirmed: same repository
+14679,bermuda,0.1.7,0.1.8,2026-09-28,GitHub|napari/bermuda|wheels.yml,GitHub|napari/bermuda|publish_pypi.yml,workflow_changed_same_repo,confirmed: same repository
+14690,pybammsolvers,0.8.2,0.9.0,2026-07-21,GitHub|pybamm-team/pybammsolvers|build_wheels.yml,GitHub|pybamm-team/pybamm|release_solvers.yml,repository_changed,confirmed: same owner
+14728,python-flirt,0.9.7,0.9.9,2026-01-04,GitHub|williballenthin/lancelot|publish-pypi.yaml,GitHub|williballenthin/lancelot|python-wheels.yaml,workflow_changed_same_repo,confirmed: same repository
+14750,pybiolib,1.2.1892,1.3.2,2026-02-05,GitHub|biolibtech/biolib-python|ci_cd.yml,GitHub|biolibtech/biolib-python|ci_cd_v1.3.x.yml,workflow_changed_same_repo,confirmed: same repository
+14750,pybiolib,1.3.537,1.4.2,2026-05-18,GitHub|biolibtech/biolib-python|ci_cd_v1.3.x.yml,GitHub|biolibtech/biolib-client|ci_cd_v1.4.x.yml,repository_changed,confirmed: same owner
+14757,arraylake,1.0.1,1.0.2,2026-05-13,GitHub|earth-mover/arraylake|release-client.yaml,GitHub|earth-mover/arraylake|client-deploy.yaml,workflow_changed_same_repo,confirmed: same repository
+14852,qubx,0.7.39rc1,0.7.40.dev6,2026-01-25,GitHub|xlydiansoftware/qubx|ci.yml,GitHub|xlydiansoftware/qubx|build-publish.yml,workflow_changed_same_repo,confirmed: same repository
+14852,qubx,1.0.1.dev2,1.0.1,2026-03-17,GitHub|xlydiansoftware/qubx|build-publish.yml,GitHub|xlydiansoftware/qubx|release.yml,workflow_changed_same_repo,confirmed: same repository
+14866,yalexs,9.0.1,9.1.0,2025-09-16,GitHub|bdraco/yalexs|ci.yml,GitHub|yale-libs/yalexs|ci.yml,repository_changed,confirmed: same repository after GitHub redirects
+14875,islo,0.2.3,0.2.4,2026-04-29,GitHub|islo-labs/python-sdk|ci.yml,GitHub|islo-labs/python-sdk|release.yml,workflow_changed_same_repo,confirmed: same repository
+14877,stonefish-license-manager,0.5.42,0.6.0a12,2025-10-24,GitHub|stonefish-dev/license-manager-dev|release.yml,GitHub|mondaytech-dev/license-manager-rs|release.yml,repository_changed,not confirmed by public data
+14877,stonefish-license-manager,0.6.0a16,0.6.0a18,2025-10-27,GitHub|mondaytech-dev/license-manager-rs|release.yml,GitHub|coloria-dev/license-manager-rs|release.yml,repository_changed,not confirmed by public data
+14877,stonefish-license-manager,0.8.0a8,0.8.0a9,2026-06-03,GitHub|coloria-dev/license-manager-rs|release.yml,GitHub|stonefish-dev/license-manager-rs|release.yml,repository_changed,not confirmed by public data
+14877,stonefish-license-manager,0.8.0a16,0.8.0a17,2026-06-11,GitHub|stonefish-dev/license-manager-rs|release.yml,GitHub|coloria-dev/license-manager-rs|release.yml,repository_changed,not confirmed by public data
+14877,stonefish-license-manager,0.8.0a19,0.8.0a21,2026-06-15,GitHub|coloria-dev/license-manager-rs|release.yml,GitHub|mondaytech-dev/license-manager-rs|release.yml,repository_changed,not confirmed by public data
+14877,stonefish-license-manager,0.8.0a26,0.8.0a27,2026-06-19,GitHub|mondaytech-dev/license-manager-rs|release.yml,GitHub|sigma-py/license-manager-rs|release.yml,repository_changed,not confirmed by public data
+14877,stonefish-license-manager,0.8.0a37,0.8.0a38,2026-07-17,GitHub|sigma-py/license-manager-rs|release.yml,GitHub|stonefish-dev/license-manager-rs|release.yml,repository_changed,not confirmed by public data
+14877,stonefish-license-manager,0.8.0a45,0.8.0a48,2026-09-24,GitHub|stonefish-dev/license-manager-rs|release.yml,GitHub|stonefish-dev/licensing|release.yml,repository_changed,confirmed: same owner
+14877,stonefish-license-manager,0.8.0a48,0.8.0a49,2026-09-29,GitHub|stonefish-dev/licensing|release.yml,GitHub|mondaytech-dev/licensing|release.yml,repository_changed,not confirmed by public data
+14900,piot-fixture-zzz-python-hatch,0.0.1777473479,0.0.1777495258,2026-04-29,GitHub|thekevinscott/putitoutthere|e2e.yml,GitHub|thekevinscott/putitoutthere|e2e-fixture.yml,workflow_changed_same_repo,confirmed: same repository
+14923,bluesky-tiled-plugins,2.0.0rc1,2.0.0rc3,2025-11-19,GitHub|bluesky/databroker|publish-pypi.yml,GitHub|bluesky/bluesky-tiled-plugins|cd.yml,repository_changed,confirmed: same owner

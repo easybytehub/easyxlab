@@ -1,0 +1,56 @@
+project,reviewed_class,review_note,evidence_url
+annotated-doc,tool_or_workflow_change,publish.yml at HEAD runs uv publish with no attestation step.,https://github.com/fastapi/annotated-doc/blob/HEAD/.github/workflows/publish.yml
+fastapi,tool_or_workflow_change,"""Migrate to uv (#14676)"" replaced the PyPA action with uv publish (2026-01-10); last attested 0.128.0 (2025-12-27).",https://github.com/fastapi/fastapi/commit/b4ba7f465223
+watchfiles,tool_or_workflow_change,"""use uv publish --trusted-publishing (#334)"", 2025-04-07; ""switch to uv (#324)"" on 2025-01-10, the day of the last attested release.",https://github.com/samuelcolvin/watchfiles/commit/5be19ff595e5
+typer,tool_or_workflow_change,"""Migrate to uv (#1472)"", 2026-01-04.",https://github.com/fastapi/typer/commit/39353afc8528
+httpx2,tool_or_workflow_change,"""Publish distributions with uv trusted publishing (#1144)"", 2026-08-18.",https://github.com/pydantic/httpx2/commit/2b13fa92e418
+httpcore2,tool_or_workflow_change,Published by the same pydantic/httpx2 workflow as httpx2 (#1144).,https://github.com/pydantic/httpx2/commit/2b13fa92e418
+langchain-core,prerelease_or_secondary_pipeline,"Only 0.1.53, a 0.1-line backport, was ever attested; the main line set attestations: false on 2024-10-30 (""infra: turn off release attestations (#27765)"").",https://github.com/langchain-ai/langchain/commit/92024d0d7d1a
+litellm,indeterminate,The publishing repository named in the attestations (BerriAI/project-releaser) is not publicly readable; cause unknown.,
+databricks-sdk,tool_or_workflow_change,"""Temporarily disable automated releases (#1344)"", 2026-03-22, three days after the last attested 0.102.0; the workflow was removed in #1402 (2026-04-23).",https://github.com/databricks/databricks-sdk-py/commit/6b16a7830cdb
+fastmcp,tool_or_workflow_change,"Commit 67de515d1a (2024-11-30) replaced the PyPA action with uv build + uv publish (diff verified by the review agent); publish.yml was later removed (bb4894d2159c, 2026-05-11). The earlier ""indeterminate"" overrule was wrong.",https://github.com/jlowin/fastmcp/commit/67de515d1a80
+ormsgpack,restored_at_head,"""ci: add PyPI publish attestations"" (2026-06-03) put astral-sh/attest-action before uv publish, after the latest release 1.12.2 (2026-01-18): the next release should attest.",https://github.com/aviramha/ormsgpack/commit/ae64f6849962
+rich-toolkit,tool_or_workflow_change,"""Use autopub for releases"" (2025-08-11); the attesting publish.yml no longer exists.",https://github.com/patrick91/rich-toolkit/commit/fff431e594e3
+fastapi-cli,tool_or_workflow_change,"publish.yml runs uv publish (""Migrate to uv (#275)"", 2026-01-10, per the review agent).",https://github.com/fastapi/fastapi-cli/blob/HEAD/.github/workflows/publish.yml
+fastapi-cloud-cli,tool_or_workflow_change,publish.yml runs uv publish with no attestation step.,https://github.com/fastapilabs/fastapi-cloud-cli/blob/HEAD/.github/workflows/publish.yml
+sqlmodel,tool_or_workflow_change,"publish.yml runs uv publish (""Migrate to uv (#1688)"", per the review agent).",https://github.com/fastapi/sqlmodel/blob/HEAD/.github/workflows/publish.yml
+langfuse,tool_or_workflow_change,"Main 4.x line last attested 4.0.3 (2026-03-30), the day of the poetry-to-uv migration; release.yml runs uv publish. Later attested 3.x versions are backports.",https://github.com/langfuse/langfuse-python/blob/HEAD/.github/workflows/release.yml
+realtime,tool_or_workflow_change,"Moved into the supabase-py monorepo (""chore: switch to monorepo, move realtime inside (#1190)""), which publishes with make publish -> uv publish.",https://github.com/supabase/supabase-py/commit/b8b0502405e8
+postgrest,tool_or_workflow_change,"Released in lockstep with supabase from the supabase-py monorepo (make publish -> uv publish; per-package repository archived, per the review agent).",https://github.com/supabase/supabase-py/blob/HEAD/Makefile
+storage3,tool_or_workflow_change,"""chore: include storage-py into monorepo (#1211)""; monorepo publishes with uv publish.",https://github.com/supabase/supabase-py/commit/d4395a2dec0c
+supabase,tool_or_workflow_change,"ci.yml runs make publish, whose Makefile target is uv publish (""chore: use uv instead of poetry (#1186)"", 2025-07-31).",https://github.com/supabase/supabase-py/commit/054f605f1d8d
+supabase-auth,tool_or_workflow_change,"""chore: add auth to monorepo (#1212)""; monorepo publishes with uv publish.",https://github.com/supabase/supabase-py/commit/12ffb3166f06
+supabase-functions,tool_or_workflow_change,"""chore: include functions-py into monorepo (#1204)""; monorepo publishes with uv publish.",https://github.com/supabase/supabase-py/commit/20b71302ef60
+typer-slim,tool_or_workflow_change,Same workflow as typer (#1472).,https://github.com/fastapi/typer/commit/39353afc8528
+types-aiobotocore,tool_or_workflow_change,"""Do not publish package"" in the publishing workflow (2025-12-02), two days after the last attested release.",https://github.com/youtype/types-aiobotocore/commit/06f1064d256f
+daytona,prerelease_or_secondary_pipeline,Only 2.0.0rc1 was attested; publishing repository not publicly readable.,
+litellm-enterprise,indeterminate,Publishing repository not publicly readable; cause unknown.,
+dbt-postgres,prerelease_or_secondary_pipeline,Latest version attested; the unattested newer uploads are lower maintenance versions.,
+tree-sitter-language-pack,indeterminate,"Upload step not recognised by our patterns; no commit names the change. (Earlier review said ""tool change, moderate""; withdrawn: dates alone are not evidence.)",
+deepgram-sdk,prerelease_or_secondary_pipeline,Only 6.0.0 release candidates were attested.,
+ast-grep-cli,tool_or_workflow_change,pypi.yml runs uv publish; the PyPA action step is commented out.,https://github.com/ast-grep/ast-grep/blob/HEAD/.github/workflows/pypi.yml
+gherkin-official,tool_or_workflow_change,release-pypi.yaml runs uv publish.,https://github.com/cucumber/gherkin/blob/HEAD/.github/workflows/release-pypi.yaml
+sparklines,isolated_upload,One unattested release; the workflow still attests.,
+cucumber-tag-expressions,tool_or_workflow_change,release-pypi.yaml runs uv publish.,https://github.com/cucumber/tag-expressions/blob/HEAD/.github/workflows/release-pypi.yaml
+stringzilla,tool_or_workflow_change,"Every PyPA action step passes an API-token password (no Trusted Publishing, so no attestations).",https://github.com/ashvardanian/StringZilla/blob/HEAD/.github/workflows/release.yml
+pydantic-yaml,tool_or_workflow_change,"""Redo github action workflows to be less fragile (#341)"" on the day of 1.7.0; the workflow now runs uv publish.",https://github.com/NowanIlfideme/pydantic-yaml/commit/009dfb3c6b71
+sigfig,isolated_upload,"1.4.0 went out the day the workflow was repaired (""twine update"", ""CI fix: increment & publish on merge""); the workflow at HEAD attests.",https://github.com/drakegroup/sigfig/commit/1917544a9081
+spglib,isolated_upload,One unattested release; the workflow still attests.,
+databricks-bundles,tool_or_workflow_change,"""Replace release workflow with release-prs (#4909)"", 2026-04-08.",https://github.com/databricks/cli/commit/efeb011195a0
+grain,prerelease_or_secondary_pipeline,Only 0.2.10b1 was attested.,
+mecab-python3,prerelease_or_secondary_pipeline,Only a dev release was attested; stable releases are uploaded with twine.,
+asyncinotify,indeterminate,Two unattested releases; the workflow was added 2026-03-30 and still attests.,
+databricks-langchain,tool_or_workflow_change,"""Temporarily disable all release/publish workflows (#404)"", 2026-03-31, after the last attested release.",https://github.com/databricks/databricks-ai-bridge/commit/934abeea3720
+databricks-openai,tool_or_workflow_change,Same commit as databricks-langchain (#404).,https://github.com/databricks/databricks-ai-bridge/commit/934abeea3720
+optuna-dashboard,tool_or_workflow_change,pypi-publish.yml sets attestations: false.,https://github.com/optuna/optuna-dashboard/blob/HEAD/.github/workflows/pypi-publish.yml
+pyodide-py,prerelease_or_secondary_pipeline,Latest line attested; newest unattested upload is on the old 0.29 line.,
+sopsy,isolated_upload,1.2.1 published the same day as 1.2.0 while CI was being adjusted; the workflow attests.,
+fiftyone-db,prerelease_or_secondary_pipeline,Latest version attested; newer unattested upload is a secondary build.,
+prometheus-remote-writer,isolated_upload,"Single unattested release; same-day Poetry-to-uv commit, but the workflow still uses the PyPA action.",
+agent-governance-toolkit,indeterminate,"The workflow at HEAD still attests; recent commit titles only bump actions/attest-build-provenance (GitHub artifact attestations, not PEP 740). Cause unknown.",
+getdaft,isolated_upload,Single unattested release; the workflow still attests.,
+xy,tool_or_workflow_change,"""Drive releases from CHANGELOG.md with towncrier (#498)""; the attesting workflow is gone.",https://github.com/reflex-dev/xy/commit/57f960bc42b9
+dicomweb-client,isolated_upload,Single unattested release; the workflow still attests.,
+boltz-api,indeterminate,41 unattested releases; the workflow at HEAD still attests; no commit explains it.,
+pytango,prerelease_or_secondary_pipeline,GitLab publisher; latest version attested.,
+africastalking,isolated_upload,Single unattested release; the workflow still attests.,

@@ -1,0 +1,2586 @@
+{
+ "entities": 8275,
+ "municipalities": 8132,
+ "municipalities_with_url": 6648,
+ "population_total": 49113205,
+ "population_with_url_pct": 98.9,
+ "entities_with_url": 6791,
+ "scanned": 6791,
+ "measured": 6730,
+ "by_type": {
+  "ministry": {
+   "reachable": {
+    "k": 18,
+    "n": 22,
+    "pct": 81.8,
+    "ci95": [
+     61.5,
+     92.7
+    ]
+   },
+   "https": {
+    "k": 18,
+    "n": 18,
+    "pct": 100.0,
+    "ci95": [
+     82.4,
+     100.0
+    ]
+   },
+   "https_cert_ok": {
+    "k": 15,
+    "n": 18,
+    "pct": 83.3,
+    "ci95": [
+     60.8,
+     94.2
+    ]
+   },
+   "http_upgrades": {
+    "k": 14,
+    "n": 15,
+    "pct": 93.3,
+    "ci95": [
+     70.2,
+     98.8
+    ]
+   },
+   "hsts": {
+    "k": 14,
+    "n": 18,
+    "pct": 77.8,
+    "ci95": [
+     54.8,
+     91.0
+    ]
+   },
+   "hsts_valid_chain": {
+    "k": 12,
+    "n": 18,
+    "pct": 66.7,
+    "ci95": [
+     43.7,
+     83.7
+    ]
+   },
+   "hsts_1y": {
+    "k": 11,
+    "n": 18,
+    "pct": 61.1,
+    "ci95": [
+     38.6,
+     79.7
+    ]
+   },
+   "ai_block_any4": {
+    "k": 1,
+    "n": 22,
+    "pct": 4.5,
+    "ci95": [
+     0.8,
+     21.8
+    ]
+   },
+   "ai_named_block_any4": {
+    "k": 1,
+    "n": 22,
+    "pct": 4.5,
+    "ci95": [
+     0.8,
+     21.8
+    ]
+   },
+   "ai_block_all4": {
+    "k": 1,
+    "n": 22,
+    "pct": 4.5,
+    "ci95": [
+     0.8,
+     21.8
+    ]
+   },
+   "robots_star_disallows_root": {
+    "k": 0,
+    "n": 22,
+    "pct": 0.0,
+    "ci95": [
+     0.0,
+     14.9
+    ]
+   },
+   "sectxt_present": {
+    "k": 0,
+    "n": 22,
+    "pct": 0.0,
+    "ci95": [
+     0.0,
+     14.9
+    ]
+   },
+   "sectxt_required_ok": {
+    "k": 0,
+    "n": 22,
+    "pct": 0.0,
+    "ci95": [
+     0.0,
+     14.9
+    ]
+   },
+   "sectxt_strict_ok": {
+    "k": 0,
+    "n": 22,
+    "pct": 0.0,
+    "ci95": [
+     0.0,
+     14.9
+    ]
+   },
+   "sectxt_soft404": {
+    "k": 3,
+    "n": 22,
+    "pct": 13.6,
+    "ci95": [
+     4.7,
+     33.3
+    ]
+   },
+   "acc_link": {
+    "k": 16,
+    "n": 18,
+    "pct": 88.9,
+    "ci95": [
+     67.2,
+     96.9
+    ]
+   },
+   "stmt_ok": {
+    "k": 13,
+    "n": 13,
+    "pct": 100.0,
+    "ci95": [
+     77.2,
+     100.0
+    ]
+   },
+   "stmt_has_date": {
+    "k": 0,
+    "n": 0,
+    "pct": null,
+    "ci95": [
+     null,
+     null
+    ]
+   },
+   "stmt_fresh_1y": {
+    "k": 0,
+    "n": 0,
+    "pct": null,
+    "ci95": [
+     null,
+     null
+    ]
+   },
+   "stmt_has_date_all_pages": {
+    "k": 0,
+    "n": 0,
+    "pct": null,
+    "ci95": [
+     null,
+     null
+    ]
+   },
+   "stmt_fresh_1y_all_pages": {
+    "k": 0,
+    "n": 0,
+    "pct": null,
+    "ci95": [
+     null,
+     null
+    ]
+   },
+   "llms_present": {
+    "k": 0,
+    "n": 3,
+    "pct": 0.0,
+    "ci95": [
+     0.0,
+     56.2
+    ]
+   },
+   "ai_block_gptbot": {
+    "k": 1,
+    "n": 22,
+    "pct": 4.5,
+    "ci95": [
+     0.8,
+     21.8
+    ]
+   },
+   "ai_block_claudebot": {
+    "k": 1,
+    "n": 22,
+    "pct": 4.5,
+    "ci95": [
+     0.8,
+     21.8
+    ]
+   },
+   "ai_block_google_extended": {
+    "k": 1,
+    "n": 22,
+    "pct": 4.5,
+    "ci95": [
+     0.8,
+     21.8
+    ]
+   },
+   "ai_block_ccbot": {
+    "k": 1,
+    "n": 22,
+    "pct": 4.5,
+    "ci95": [
+     0.8,
+     21.8
+    ]
+   },
+   "ai_block_anthropic_ai": {
+    "k": 0,
+    "n": 22,
+    "pct": 0.0,
+    "ci95": [
+     0.0,
+     14.9
+    ]
+   },
+   "ai_block_applebot_extended": {
+    "k": 1,
+    "n": 22,
+    "pct": 4.5,
+    "ci95": [
+     0.8,
+     21.8
+    ]
+   },
+   "ai_block_bytespider": {
+    "k": 1,
+    "n": 22,
+    "pct": 4.5,
+    "ci95": [
+     0.8,
+     21.8
+    ]
+   },
+   "ai_block_meta_externalagent": {
+    "k": 1,
+    "n": 22,
+    "pct": 4.5,
+    "ci95": [
+     0.8,
+     21.8
+    ]
+   },
+   "ai_block_cohere_ai": {
+    "k": 1,
+    "n": 22,
+    "pct": 4.5,
+    "ci95": [
+     0.8,
+     21.8
+    ]
+   },
+   "ai_block_oai_searchbot": {
+    "k": 1,
+    "n": 22,
+    "pct": 4.5,
+    "ci95": [
+     0.8,
+     21.8
+    ]
+   },
+   "ai_block_chatgpt_user": {
+    "k": 1,
+    "n": 22,
+    "pct": 4.5,
+    "ci95": [
+     0.8,
+     21.8
+    ]
+   },
+   "ai_block_perplexitybot": {
+    "k": 1,
+    "n": 22,
+    "pct": 4.5,
+    "ci95": [
+     0.8,
+     21.8
+    ]
+   },
+   "ai_block_claude_searchbot": {
+    "k": 1,
+    "n": 22,
+    "pct": 4.5,
+    "ci95": [
+     0.8,
+     21.8
+    ]
+   },
+   "ai_block_claude_user": {
+    "k": 1,
+    "n": 22,
+    "pct": 4.5,
+    "ci95": [
+     0.8,
+     21.8
+    ]
+   },
+   "entities": 22
+  },
+  "municipality": {
+   "reachable": {
+    "k": 5121,
+    "n": 6588,
+    "pct": 77.7,
+    "ci95": [
+     76.7,
+     78.7
+    ]
+   },
+   "https": {
+    "k": 5006,
+    "n": 5121,
+    "pct": 97.8,
+    "ci95": [
+     97.3,
+     98.1
+    ]
+   },
+   "https_cert_ok": {
+    "k": 4703,
+    "n": 5006,
+    "pct": 93.9,
+    "ci95": [
+     93.3,
+     94.6
+    ]
+   },
+   "http_upgrades": {
+    "k": 3939,
+    "n": 5089,
+    "pct": 77.4,
+    "ci95": [
+     76.2,
+     78.5
+    ]
+   },
+   "hsts": {
+    "k": 1617,
+    "n": 5006,
+    "pct": 32.3,
+    "ci95": [
+     31.0,
+     33.6
+    ]
+   },
+   "hsts_valid_chain": {
+    "k": 1580,
+    "n": 5006,
+    "pct": 31.6,
+    "ci95": [
+     30.3,
+     32.9
+    ]
+   },
+   "hsts_1y": {
+    "k": 1247,
+    "n": 5006,
+    "pct": 24.9,
+    "ci95": [
+     23.7,
+     26.1
+    ]
+   },
+   "ai_block_any4": {
+    "k": 305,
+    "n": 5874,
+    "pct": 5.2,
+    "ci95": [
+     4.7,
+     5.8
+    ]
+   },
+   "ai_named_block_any4": {
+    "k": 148,
+    "n": 5874,
+    "pct": 2.5,
+    "ci95": [
+     2.1,
+     3.0
+    ]
+   },
+   "ai_block_all4": {
+    "k": 185,
+    "n": 5874,
+    "pct": 3.1,
+    "ci95": [
+     2.7,
+     3.6
+    ]
+   },
+   "robots_star_disallows_root": {
+    "k": 166,
+    "n": 5874,
+    "pct": 2.8,
+    "ci95": [
+     2.4,
+     3.3
+    ]
+   },
+   "sectxt_present": {
+    "k": 9,
+    "n": 5438,
+    "pct": 0.2,
+    "ci95": [
+     0.1,
+     0.3
+    ]
+   },
+   "sectxt_required_ok": {
+    "k": 7,
+    "n": 5438,
+    "pct": 0.1,
+    "ci95": [
+     0.1,
+     0.3
+    ]
+   },
+   "sectxt_strict_ok": {
+    "k": 4,
+    "n": 5438,
+    "pct": 0.1,
+    "ci95": [
+     0.0,
+     0.2
+    ]
+   },
+   "sectxt_soft404": {
+    "k": 318,
+    "n": 5438,
+    "pct": 5.8,
+    "ci95": [
+     5.3,
+     6.5
+    ]
+   },
+   "acc_link": {
+    "k": 2388,
+    "n": 5121,
+    "pct": 46.6,
+    "ci95": [
+     45.3,
+     48.0
+    ]
+   },
+   "stmt_ok": {
+    "k": 1825,
+    "n": 1923,
+    "pct": 94.9,
+    "ci95": [
+     93.8,
+     95.8
+    ]
+   },
+   "stmt_has_date": {
+    "k": 908,
+    "n": 1247,
+    "pct": 72.8,
+    "ci95": [
+     70.3,
+     75.2
+    ]
+   },
+   "stmt_fresh_1y": {
+    "k": 160,
+    "n": 1247,
+    "pct": 12.8,
+    "ci95": [
+     11.1,
+     14.8
+    ]
+   },
+   "stmt_has_date_all_pages": {
+    "k": 909,
+    "n": 1629,
+    "pct": 55.8,
+    "ci95": [
+     53.4,
+     58.2
+    ]
+   },
+   "stmt_fresh_1y_all_pages": {
+    "k": 160,
+    "n": 1629,
+    "pct": 9.8,
+    "ci95": [
+     8.5,
+     11.4
+    ]
+   },
+   "llms_present": {
+    "k": 7,
+    "n": 998,
+    "pct": 0.7,
+    "ci95": [
+     0.3,
+     1.4
+    ]
+   },
+   "ai_block_gptbot": {
+    "k": 295,
+    "n": 5874,
+    "pct": 5.0,
+    "ci95": [
+     4.5,
+     5.6
+    ]
+   },
+   "ai_block_claudebot": {
+    "k": 239,
+    "n": 5874,
+    "pct": 4.1,
+    "ci95": [
+     3.6,
+     4.6
+    ]
+   },
+   "ai_block_google_extended": {
+    "k": 189,
+    "n": 5874,
+    "pct": 3.2,
+    "ci95": [
+     2.8,
+     3.7
+    ]
+   },
+   "ai_block_ccbot": {
+    "k": 248,
+    "n": 5874,
+    "pct": 4.2,
+    "ci95": [
+     3.7,
+     4.8
+    ]
+   },
+   "ai_block_anthropic_ai": {
+    "k": 189,
+    "n": 5874,
+    "pct": 3.2,
+    "ci95": [
+     2.8,
+     3.7
+    ]
+   },
+   "ai_block_applebot_extended": {
+    "k": 181,
+    "n": 5874,
+    "pct": 3.1,
+    "ci95": [
+     2.7,
+     3.6
+    ]
+   },
+   "ai_block_bytespider": {
+    "k": 332,
+    "n": 5874,
+    "pct": 5.7,
+    "ci95": [
+     5.1,
+     6.3
+    ]
+   },
+   "ai_block_meta_externalagent": {
+    "k": 285,
+    "n": 5874,
+    "pct": 4.9,
+    "ci95": [
+     4.3,
+     5.4
+    ]
+   },
+   "ai_block_cohere_ai": {
+    "k": 180,
+    "n": 5874,
+    "pct": 3.1,
+    "ci95": [
+     2.7,
+     3.5
+    ]
+   },
+   "ai_block_oai_searchbot": {
+    "k": 219,
+    "n": 5874,
+    "pct": 3.7,
+    "ci95": [
+     3.3,
+     4.2
+    ]
+   },
+   "ai_block_chatgpt_user": {
+    "k": 281,
+    "n": 5874,
+    "pct": 4.8,
+    "ci95": [
+     4.3,
+     5.4
+    ]
+   },
+   "ai_block_perplexitybot": {
+    "k": 176,
+    "n": 5874,
+    "pct": 3.0,
+    "ci95": [
+     2.6,
+     3.5
+    ]
+   },
+   "ai_block_claude_searchbot": {
+    "k": 169,
+    "n": 5874,
+    "pct": 2.9,
+    "ci95": [
+     2.5,
+     3.3
+    ]
+   },
+   "ai_block_claude_user": {
+    "k": 169,
+    "n": 5874,
+    "pct": 2.9,
+    "ci95": [
+     2.5,
+     3.3
+    ]
+   },
+   "entities": 8132
+  },
+  "provincial_council": {
+   "reachable": {
+    "k": 44,
+    "n": 52,
+    "pct": 84.6,
+    "ci95": [
+     72.5,
+     92.0
+    ]
+   },
+   "https": {
+    "k": 44,
+    "n": 44,
+    "pct": 100.0,
+    "ci95": [
+     92.0,
+     100.0
+    ]
+   },
+   "https_cert_ok": {
+    "k": 42,
+    "n": 44,
+    "pct": 95.5,
+    "ci95": [
+     84.9,
+     98.7
+    ]
+   },
+   "http_upgrades": {
+    "k": 37,
+    "n": 41,
+    "pct": 90.2,
+    "ci95": [
+     77.5,
+     96.1
+    ]
+   },
+   "hsts": {
+    "k": 25,
+    "n": 44,
+    "pct": 56.8,
+    "ci95": [
+     42.2,
+     70.3
+    ]
+   },
+   "hsts_valid_chain": {
+    "k": 24,
+    "n": 44,
+    "pct": 54.5,
+    "ci95": [
+     40.1,
+     68.3
+    ]
+   },
+   "hsts_1y": {
+    "k": 23,
+    "n": 44,
+    "pct": 52.3,
+    "ci95": [
+     37.9,
+     66.2
+    ]
+   },
+   "ai_block_any4": {
+    "k": 9,
+    "n": 48,
+    "pct": 18.8,
+    "ci95": [
+     10.2,
+     31.9
+    ]
+   },
+   "ai_named_block_any4": {
+    "k": 7,
+    "n": 48,
+    "pct": 14.6,
+    "ci95": [
+     7.2,
+     27.2
+    ]
+   },
+   "ai_block_all4": {
+    "k": 3,
+    "n": 48,
+    "pct": 6.2,
+    "ci95": [
+     2.1,
+     16.8
+    ]
+   },
+   "robots_star_disallows_root": {
+    "k": 3,
+    "n": 48,
+    "pct": 6.2,
+    "ci95": [
+     2.1,
+     16.8
+    ]
+   },
+   "sectxt_present": {
+    "k": 1,
+    "n": 45,
+    "pct": 2.2,
+    "ci95": [
+     0.4,
+     11.6
+    ]
+   },
+   "sectxt_required_ok": {
+    "k": 1,
+    "n": 45,
+    "pct": 2.2,
+    "ci95": [
+     0.4,
+     11.6
+    ]
+   },
+   "sectxt_strict_ok": {
+    "k": 0,
+    "n": 45,
+    "pct": 0.0,
+    "ci95": [
+     0.0,
+     7.9
+    ]
+   },
+   "sectxt_soft404": {
+    "k": 3,
+    "n": 45,
+    "pct": 6.7,
+    "ci95": [
+     2.3,
+     17.9
+    ]
+   },
+   "acc_link": {
+    "k": 37,
+    "n": 44,
+    "pct": 84.1,
+    "ci95": [
+     70.6,
+     92.1
+    ]
+   },
+   "stmt_ok": {
+    "k": 34,
+    "n": 34,
+    "pct": 100.0,
+    "ci95": [
+     89.8,
+     100.0
+    ]
+   },
+   "stmt_has_date": {
+    "k": 0,
+    "n": 0,
+    "pct": null,
+    "ci95": [
+     null,
+     null
+    ]
+   },
+   "stmt_fresh_1y": {
+    "k": 0,
+    "n": 0,
+    "pct": null,
+    "ci95": [
+     null,
+     null
+    ]
+   },
+   "stmt_has_date_all_pages": {
+    "k": 0,
+    "n": 0,
+    "pct": null,
+    "ci95": [
+     null,
+     null
+    ]
+   },
+   "stmt_fresh_1y_all_pages": {
+    "k": 0,
+    "n": 0,
+    "pct": null,
+    "ci95": [
+     null,
+     null
+    ]
+   },
+   "llms_present": {
+    "k": 0,
+    "n": 5,
+    "pct": 0.0,
+    "ci95": [
+     -0.0,
+     43.4
+    ]
+   },
+   "ai_block_gptbot": {
+    "k": 8,
+    "n": 48,
+    "pct": 16.7,
+    "ci95": [
+     8.7,
+     29.6
+    ]
+   },
+   "ai_block_claudebot": {
+    "k": 8,
+    "n": 48,
+    "pct": 16.7,
+    "ci95": [
+     8.7,
+     29.6
+    ]
+   },
+   "ai_block_google_extended": {
+    "k": 4,
+    "n": 48,
+    "pct": 8.3,
+    "ci95": [
+     3.3,
+     19.6
+    ]
+   },
+   "ai_block_ccbot": {
+    "k": 4,
+    "n": 48,
+    "pct": 8.3,
+    "ci95": [
+     3.3,
+     19.6
+    ]
+   },
+   "ai_block_anthropic_ai": {
+    "k": 7,
+    "n": 48,
+    "pct": 14.6,
+    "ci95": [
+     7.2,
+     27.2
+    ]
+   },
+   "ai_block_applebot_extended": {
+    "k": 3,
+    "n": 48,
+    "pct": 6.2,
+    "ci95": [
+     2.1,
+     16.8
+    ]
+   },
+   "ai_block_bytespider": {
+    "k": 4,
+    "n": 48,
+    "pct": 8.3,
+    "ci95": [
+     3.3,
+     19.6
+    ]
+   },
+   "ai_block_meta_externalagent": {
+    "k": 5,
+    "n": 48,
+    "pct": 10.4,
+    "ci95": [
+     4.5,
+     22.2
+    ]
+   },
+   "ai_block_cohere_ai": {
+    "k": 3,
+    "n": 48,
+    "pct": 6.2,
+    "ci95": [
+     2.1,
+     16.8
+    ]
+   },
+   "ai_block_oai_searchbot": {
+    "k": 4,
+    "n": 48,
+    "pct": 8.3,
+    "ci95": [
+     3.3,
+     19.6
+    ]
+   },
+   "ai_block_chatgpt_user": {
+    "k": 5,
+    "n": 48,
+    "pct": 10.4,
+    "ci95": [
+     4.5,
+     22.2
+    ]
+   },
+   "ai_block_perplexitybot": {
+    "k": 3,
+    "n": 48,
+    "pct": 6.2,
+    "ci95": [
+     2.1,
+     16.8
+    ]
+   },
+   "ai_block_claude_searchbot": {
+    "k": 3,
+    "n": 48,
+    "pct": 6.2,
+    "ci95": [
+     2.1,
+     16.8
+    ]
+   },
+   "ai_block_claude_user": {
+    "k": 3,
+    "n": 48,
+    "pct": 6.2,
+    "ci95": [
+     2.1,
+     16.8
+    ]
+   },
+   "entities": 52
+  },
+  "public_university": {
+   "reachable": {
+    "k": 46,
+    "n": 50,
+    "pct": 92.0,
+    "ci95": [
+     81.2,
+     96.8
+    ]
+   },
+   "https": {
+    "k": 46,
+    "n": 46,
+    "pct": 100.0,
+    "ci95": [
+     92.3,
+     100.0
+    ]
+   },
+   "https_cert_ok": {
+    "k": 46,
+    "n": 46,
+    "pct": 100.0,
+    "ci95": [
+     92.3,
+     100.0
+    ]
+   },
+   "http_upgrades": {
+    "k": 35,
+    "n": 41,
+    "pct": 85.4,
+    "ci95": [
+     71.6,
+     93.1
+    ]
+   },
+   "hsts": {
+    "k": 25,
+    "n": 46,
+    "pct": 54.3,
+    "ci95": [
+     40.2,
+     67.8
+    ]
+   },
+   "hsts_valid_chain": {
+    "k": 25,
+    "n": 46,
+    "pct": 54.3,
+    "ci95": [
+     40.2,
+     67.8
+    ]
+   },
+   "hsts_1y": {
+    "k": 17,
+    "n": 46,
+    "pct": 37.0,
+    "ci95": [
+     24.5,
+     51.4
+    ]
+   },
+   "ai_block_any4": {
+    "k": 9,
+    "n": 50,
+    "pct": 18.0,
+    "ci95": [
+     9.8,
+     30.8
+    ]
+   },
+   "ai_named_block_any4": {
+    "k": 8,
+    "n": 50,
+    "pct": 16.0,
+    "ci95": [
+     8.3,
+     28.5
+    ]
+   },
+   "ai_block_all4": {
+    "k": 3,
+    "n": 50,
+    "pct": 6.0,
+    "ci95": [
+     2.1,
+     16.2
+    ]
+   },
+   "robots_star_disallows_root": {
+    "k": 1,
+    "n": 50,
+    "pct": 2.0,
+    "ci95": [
+     0.4,
+     10.5
+    ]
+   },
+   "sectxt_present": {
+    "k": 1,
+    "n": 48,
+    "pct": 2.1,
+    "ci95": [
+     0.4,
+     10.9
+    ]
+   },
+   "sectxt_required_ok": {
+    "k": 0,
+    "n": 48,
+    "pct": 0.0,
+    "ci95": [
+     0.0,
+     7.4
+    ]
+   },
+   "sectxt_strict_ok": {
+    "k": 0,
+    "n": 48,
+    "pct": 0.0,
+    "ci95": [
+     0.0,
+     7.4
+    ]
+   },
+   "sectxt_soft404": {
+    "k": 3,
+    "n": 48,
+    "pct": 6.2,
+    "ci95": [
+     2.1,
+     16.8
+    ]
+   },
+   "acc_link": {
+    "k": 38,
+    "n": 46,
+    "pct": 82.6,
+    "ci95": [
+     69.3,
+     90.9
+    ]
+   },
+   "stmt_ok": {
+    "k": 30,
+    "n": 30,
+    "pct": 100.0,
+    "ci95": [
+     88.6,
+     100.0
+    ]
+   },
+   "stmt_has_date": {
+    "k": 0,
+    "n": 0,
+    "pct": null,
+    "ci95": [
+     null,
+     null
+    ]
+   },
+   "stmt_fresh_1y": {
+    "k": 0,
+    "n": 0,
+    "pct": null,
+    "ci95": [
+     null,
+     null
+    ]
+   },
+   "stmt_has_date_all_pages": {
+    "k": 0,
+    "n": 0,
+    "pct": null,
+    "ci95": [
+     null,
+     null
+    ]
+   },
+   "stmt_fresh_1y_all_pages": {
+    "k": 0,
+    "n": 0,
+    "pct": null,
+    "ci95": [
+     null,
+     null
+    ]
+   },
+   "llms_present": {
+    "k": 0,
+    "n": 11,
+    "pct": 0.0,
+    "ci95": [
+     0.0,
+     25.9
+    ]
+   },
+   "ai_block_gptbot": {
+    "k": 6,
+    "n": 50,
+    "pct": 12.0,
+    "ci95": [
+     5.6,
+     23.8
+    ]
+   },
+   "ai_block_claudebot": {
+    "k": 7,
+    "n": 50,
+    "pct": 14.0,
+    "ci95": [
+     7.0,
+     26.2
+    ]
+   },
+   "ai_block_google_extended": {
+    "k": 4,
+    "n": 50,
+    "pct": 8.0,
+    "ci95": [
+     3.2,
+     18.8
+    ]
+   },
+   "ai_block_ccbot": {
+    "k": 5,
+    "n": 50,
+    "pct": 10.0,
+    "ci95": [
+     4.3,
+     21.4
+    ]
+   },
+   "ai_block_anthropic_ai": {
+    "k": 6,
+    "n": 50,
+    "pct": 12.0,
+    "ci95": [
+     5.6,
+     23.8
+    ]
+   },
+   "ai_block_applebot_extended": {
+    "k": 2,
+    "n": 50,
+    "pct": 4.0,
+    "ci95": [
+     1.1,
+     13.5
+    ]
+   },
+   "ai_block_bytespider": {
+    "k": 6,
+    "n": 50,
+    "pct": 12.0,
+    "ci95": [
+     5.6,
+     23.8
+    ]
+   },
+   "ai_block_meta_externalagent": {
+    "k": 4,
+    "n": 50,
+    "pct": 8.0,
+    "ci95": [
+     3.2,
+     18.8
+    ]
+   },
+   "ai_block_cohere_ai": {
+    "k": 4,
+    "n": 50,
+    "pct": 8.0,
+    "ci95": [
+     3.2,
+     18.8
+    ]
+   },
+   "ai_block_oai_searchbot": {
+    "k": 4,
+    "n": 50,
+    "pct": 8.0,
+    "ci95": [
+     3.2,
+     18.8
+    ]
+   },
+   "ai_block_chatgpt_user": {
+    "k": 5,
+    "n": 50,
+    "pct": 10.0,
+    "ci95": [
+     4.3,
+     21.4
+    ]
+   },
+   "ai_block_perplexitybot": {
+    "k": 3,
+    "n": 50,
+    "pct": 6.0,
+    "ci95": [
+     2.1,
+     16.2
+    ]
+   },
+   "ai_block_claude_searchbot": {
+    "k": 1,
+    "n": 50,
+    "pct": 2.0,
+    "ci95": [
+     0.4,
+     10.5
+    ]
+   },
+   "ai_block_claude_user": {
+    "k": 1,
+    "n": 50,
+    "pct": 2.0,
+    "ci95": [
+     0.4,
+     10.5
+    ]
+   },
+   "entities": 50
+  },
+  "regional_government": {
+   "reachable": {
+    "k": 16,
+    "n": 18,
+    "pct": 88.9,
+    "ci95": [
+     67.2,
+     96.9
+    ]
+   },
+   "https": {
+    "k": 16,
+    "n": 16,
+    "pct": 100.0,
+    "ci95": [
+     80.6,
+     100.0
+    ]
+   },
+   "https_cert_ok": {
+    "k": 16,
+    "n": 16,
+    "pct": 100.0,
+    "ci95": [
+     80.6,
+     100.0
+    ]
+   },
+   "http_upgrades": {
+    "k": 11,
+    "n": 15,
+    "pct": 73.3,
+    "ci95": [
+     48.0,
+     89.1
+    ]
+   },
+   "hsts": {
+    "k": 7,
+    "n": 16,
+    "pct": 43.8,
+    "ci95": [
+     23.1,
+     66.8
+    ]
+   },
+   "hsts_valid_chain": {
+    "k": 7,
+    "n": 16,
+    "pct": 43.8,
+    "ci95": [
+     23.1,
+     66.8
+    ]
+   },
+   "hsts_1y": {
+    "k": 7,
+    "n": 16,
+    "pct": 43.8,
+    "ci95": [
+     23.1,
+     66.8
+    ]
+   },
+   "ai_block_any4": {
+    "k": 2,
+    "n": 18,
+    "pct": 11.1,
+    "ci95": [
+     3.1,
+     32.8
+    ]
+   },
+   "ai_named_block_any4": {
+    "k": 1,
+    "n": 18,
+    "pct": 5.6,
+    "ci95": [
+     1.0,
+     25.8
+    ]
+   },
+   "ai_block_all4": {
+    "k": 2,
+    "n": 18,
+    "pct": 11.1,
+    "ci95": [
+     3.1,
+     32.8
+    ]
+   },
+   "robots_star_disallows_root": {
+    "k": 1,
+    "n": 18,
+    "pct": 5.6,
+    "ci95": [
+     1.0,
+     25.8
+    ]
+   },
+   "sectxt_present": {
+    "k": 1,
+    "n": 17,
+    "pct": 5.9,
+    "ci95": [
+     1.0,
+     27.0
+    ]
+   },
+   "sectxt_required_ok": {
+    "k": 0,
+    "n": 17,
+    "pct": 0.0,
+    "ci95": [
+     0.0,
+     18.4
+    ]
+   },
+   "sectxt_strict_ok": {
+    "k": 0,
+    "n": 17,
+    "pct": 0.0,
+    "ci95": [
+     0.0,
+     18.4
+    ]
+   },
+   "sectxt_soft404": {
+    "k": 2,
+    "n": 17,
+    "pct": 11.8,
+    "ci95": [
+     3.3,
+     34.3
+    ]
+   },
+   "acc_link": {
+    "k": 13,
+    "n": 16,
+    "pct": 81.2,
+    "ci95": [
+     57.0,
+     93.4
+    ]
+   },
+   "stmt_ok": {
+    "k": 12,
+    "n": 12,
+    "pct": 100.0,
+    "ci95": [
+     75.7,
+     100.0
+    ]
+   },
+   "stmt_has_date": {
+    "k": 0,
+    "n": 0,
+    "pct": null,
+    "ci95": [
+     null,
+     null
+    ]
+   },
+   "stmt_fresh_1y": {
+    "k": 0,
+    "n": 0,
+    "pct": null,
+    "ci95": [
+     null,
+     null
+    ]
+   },
+   "stmt_has_date_all_pages": {
+    "k": 0,
+    "n": 0,
+    "pct": null,
+    "ci95": [
+     null,
+     null
+    ]
+   },
+   "stmt_fresh_1y_all_pages": {
+    "k": 0,
+    "n": 0,
+    "pct": null,
+    "ci95": [
+     null,
+     null
+    ]
+   },
+   "llms_present": {
+    "k": 0,
+    "n": 3,
+    "pct": 0.0,
+    "ci95": [
+     0.0,
+     56.2
+    ]
+   },
+   "ai_block_gptbot": {
+    "k": 2,
+    "n": 18,
+    "pct": 11.1,
+    "ci95": [
+     3.1,
+     32.8
+    ]
+   },
+   "ai_block_claudebot": {
+    "k": 2,
+    "n": 18,
+    "pct": 11.1,
+    "ci95": [
+     3.1,
+     32.8
+    ]
+   },
+   "ai_block_google_extended": {
+    "k": 2,
+    "n": 18,
+    "pct": 11.1,
+    "ci95": [
+     3.1,
+     32.8
+    ]
+   },
+   "ai_block_ccbot": {
+    "k": 2,
+    "n": 18,
+    "pct": 11.1,
+    "ci95": [
+     3.1,
+     32.8
+    ]
+   },
+   "ai_block_anthropic_ai": {
+    "k": 2,
+    "n": 18,
+    "pct": 11.1,
+    "ci95": [
+     3.1,
+     32.8
+    ]
+   },
+   "ai_block_applebot_extended": {
+    "k": 2,
+    "n": 18,
+    "pct": 11.1,
+    "ci95": [
+     3.1,
+     32.8
+    ]
+   },
+   "ai_block_bytespider": {
+    "k": 2,
+    "n": 18,
+    "pct": 11.1,
+    "ci95": [
+     3.1,
+     32.8
+    ]
+   },
+   "ai_block_meta_externalagent": {
+    "k": 2,
+    "n": 18,
+    "pct": 11.1,
+    "ci95": [
+     3.1,
+     32.8
+    ]
+   },
+   "ai_block_cohere_ai": {
+    "k": 2,
+    "n": 18,
+    "pct": 11.1,
+    "ci95": [
+     3.1,
+     32.8
+    ]
+   },
+   "ai_block_oai_searchbot": {
+    "k": 2,
+    "n": 18,
+    "pct": 11.1,
+    "ci95": [
+     3.1,
+     32.8
+    ]
+   },
+   "ai_block_chatgpt_user": {
+    "k": 2,
+    "n": 18,
+    "pct": 11.1,
+    "ci95": [
+     3.1,
+     32.8
+    ]
+   },
+   "ai_block_perplexitybot": {
+    "k": 2,
+    "n": 18,
+    "pct": 11.1,
+    "ci95": [
+     3.1,
+     32.8
+    ]
+   },
+   "ai_block_claude_searchbot": {
+    "k": 2,
+    "n": 18,
+    "pct": 11.1,
+    "ci95": [
+     3.1,
+     32.8
+    ]
+   },
+   "ai_block_claude_user": {
+    "k": 2,
+    "n": 18,
+    "pct": 11.1,
+    "ci95": [
+     3.1,
+     32.8
+    ]
+   },
+   "entities": 19
+  }
+ },
+ "all": {
+  "reachable": {
+   "k": 5245,
+   "n": 6730,
+   "pct": 77.9,
+   "ci95": [
+    76.9,
+    78.9
+   ]
+  },
+  "https": {
+   "k": 5130,
+   "n": 5245,
+   "pct": 97.8,
+   "ci95": [
+    97.4,
+    98.2
+   ]
+  },
+  "https_cert_ok": {
+   "k": 4822,
+   "n": 5130,
+   "pct": 94.0,
+   "ci95": [
+    93.3,
+    94.6
+   ]
+  },
+  "http_upgrades": {
+   "k": 4036,
+   "n": 5201,
+   "pct": 77.6,
+   "ci95": [
+    76.4,
+    78.7
+   ]
+  },
+  "hsts": {
+   "k": 1688,
+   "n": 5130,
+   "pct": 32.9,
+   "ci95": [
+    31.6,
+    34.2
+   ]
+  },
+  "hsts_valid_chain": {
+   "k": 1648,
+   "n": 5130,
+   "pct": 32.1,
+   "ci95": [
+    30.9,
+    33.4
+   ]
+  },
+  "hsts_1y": {
+   "k": 1305,
+   "n": 5130,
+   "pct": 25.4,
+   "ci95": [
+    24.3,
+    26.6
+   ]
+  },
+  "ai_block_any4": {
+   "k": 326,
+   "n": 6012,
+   "pct": 5.4,
+   "ci95": [
+    4.9,
+    6.0
+   ]
+  },
+  "ai_named_block_any4": {
+   "k": 165,
+   "n": 6012,
+   "pct": 2.7,
+   "ci95": [
+    2.4,
+    3.2
+   ]
+  },
+  "ai_block_all4": {
+   "k": 194,
+   "n": 6012,
+   "pct": 3.2,
+   "ci95": [
+    2.8,
+    3.7
+   ]
+  },
+  "robots_star_disallows_root": {
+   "k": 171,
+   "n": 6012,
+   "pct": 2.8,
+   "ci95": [
+    2.5,
+    3.3
+   ]
+  },
+  "sectxt_present": {
+   "k": 12,
+   "n": 5570,
+   "pct": 0.2,
+   "ci95": [
+    0.1,
+    0.4
+   ]
+  },
+  "sectxt_required_ok": {
+   "k": 8,
+   "n": 5570,
+   "pct": 0.1,
+   "ci95": [
+    0.1,
+    0.3
+   ]
+  },
+  "sectxt_strict_ok": {
+   "k": 4,
+   "n": 5570,
+   "pct": 0.1,
+   "ci95": [
+    0.0,
+    0.2
+   ]
+  },
+  "sectxt_soft404": {
+   "k": 329,
+   "n": 5570,
+   "pct": 5.9,
+   "ci95": [
+    5.3,
+    6.6
+   ]
+  },
+  "acc_link": {
+   "k": 2492,
+   "n": 5245,
+   "pct": 47.5,
+   "ci95": [
+    46.2,
+    48.9
+   ]
+  },
+  "stmt_ok": {
+   "k": 1914,
+   "n": 2012,
+   "pct": 95.1,
+   "ci95": [
+    94.1,
+    96.0
+   ]
+  },
+  "stmt_has_date": {
+   "k": 908,
+   "n": 1247,
+   "pct": 72.8,
+   "ci95": [
+    70.3,
+    75.2
+   ]
+  },
+  "stmt_fresh_1y": {
+   "k": 160,
+   "n": 1247,
+   "pct": 12.8,
+   "ci95": [
+    11.1,
+    14.8
+   ]
+  },
+  "stmt_has_date_all_pages": {
+   "k": 909,
+   "n": 1629,
+   "pct": 55.8,
+   "ci95": [
+    53.4,
+    58.2
+   ]
+  },
+  "stmt_fresh_1y_all_pages": {
+   "k": 160,
+   "n": 1629,
+   "pct": 9.8,
+   "ci95": [
+    8.5,
+    11.4
+   ]
+  },
+  "llms_present": {
+   "k": 7,
+   "n": 1020,
+   "pct": 0.7,
+   "ci95": [
+    0.3,
+    1.4
+   ]
+  },
+  "ai_block_gptbot": {
+   "k": 312,
+   "n": 6012,
+   "pct": 5.2,
+   "ci95": [
+    4.7,
+    5.8
+   ]
+  },
+  "ai_block_claudebot": {
+   "k": 257,
+   "n": 6012,
+   "pct": 4.3,
+   "ci95": [
+    3.8,
+    4.8
+   ]
+  },
+  "ai_block_google_extended": {
+   "k": 200,
+   "n": 6012,
+   "pct": 3.3,
+   "ci95": [
+    2.9,
+    3.8
+   ]
+  },
+  "ai_block_ccbot": {
+   "k": 260,
+   "n": 6012,
+   "pct": 4.3,
+   "ci95": [
+    3.8,
+    4.9
+   ]
+  },
+  "ai_block_anthropic_ai": {
+   "k": 204,
+   "n": 6012,
+   "pct": 3.4,
+   "ci95": [
+    3.0,
+    3.9
+   ]
+  },
+  "ai_block_applebot_extended": {
+   "k": 189,
+   "n": 6012,
+   "pct": 3.1,
+   "ci95": [
+    2.7,
+    3.6
+   ]
+  },
+  "ai_block_bytespider": {
+   "k": 345,
+   "n": 6012,
+   "pct": 5.7,
+   "ci95": [
+    5.2,
+    6.4
+   ]
+  },
+  "ai_block_meta_externalagent": {
+   "k": 297,
+   "n": 6012,
+   "pct": 4.9,
+   "ci95": [
+    4.4,
+    5.5
+   ]
+  },
+  "ai_block_cohere_ai": {
+   "k": 190,
+   "n": 6012,
+   "pct": 3.2,
+   "ci95": [
+    2.7,
+    3.6
+   ]
+  },
+  "ai_block_oai_searchbot": {
+   "k": 230,
+   "n": 6012,
+   "pct": 3.8,
+   "ci95": [
+    3.4,
+    4.3
+   ]
+  },
+  "ai_block_chatgpt_user": {
+   "k": 294,
+   "n": 6012,
+   "pct": 4.9,
+   "ci95": [
+    4.4,
+    5.5
+   ]
+  },
+  "ai_block_perplexitybot": {
+   "k": 185,
+   "n": 6012,
+   "pct": 3.1,
+   "ci95": [
+    2.7,
+    3.5
+   ]
+  },
+  "ai_block_claude_searchbot": {
+   "k": 176,
+   "n": 6012,
+   "pct": 2.9,
+   "ci95": [
+    2.5,
+    3.4
+   ]
+  },
+  "ai_block_claude_user": {
+   "k": 176,
+   "n": 6012,
+   "pct": 2.9,
+   "ci95": [
+    2.5,
+    3.4
+   ]
+  }
+ },
+ "home_outcome_counts": {
+  "ministry": {
+   "ok": 18,
+   "forbidden": 4
+  },
+  "municipality": {
+   "ok": 5121,
+   "robots_5xx": 193,
+   "forbidden": 94,
+   "http_202": 101,
+   "dns_failure": 244,
+   "robots_disallow": 212,
+   "not_measured_budget": 58,
+   "connection_failure": 103,
+   "not_entity_site": 179,
+   "too_many_redirects": 86,
+   "http_error": 200,
+   "robots_unverifiable": 44,
+   "200_not_html": 11,
+   "same_as_regional_entry": 2
+  },
+  "provincial_council": {
+   "ok": 44,
+   "http_202": 1,
+   "robots_5xx": 2,
+   "robots_disallow": 3,
+   "connection_failure": 1,
+   "robots_unverifiable": 1
+  },
+  "public_university": {
+   "ok": 46,
+   "robots_disallow": 1,
+   "forbidden": 2,
+   "200_not_html": 1
+  },
+  "regional_government": {
+   "ok": 16,
+   "robots_disallow": 1,
+   "not_measured_budget": 1,
+   "robots_5xx": 1
+  }
+ },
+ "home_outcome_counts_all": {
+  "ok": 5245,
+  "robots_5xx": 196,
+  "forbidden": 100,
+  "http_202": 102,
+  "dns_failure": 244,
+  "robots_disallow": 217,
+  "not_measured_budget": 59,
+  "connection_failure": 104,
+  "not_entity_site": 179,
+  "too_many_redirects": 86,
+  "http_error": 200,
+  "robots_unverifiable": 45,
+  "200_not_html": 12,
+  "same_as_regional_entry": 2
+ },
+ "exclusions_by_rule": {
+  "no_sign_of_council": 42,
+  "hosting_panel_or_default_page": 48,
+  "directory_site": 2,
+  "other_site_after_redirect": 30,
+  "other_body_page": 37,
+  "domain_for_sale": 18,
+  "third_party_platform": 2
+ },
+ "exclusions_by_rule_and_source": {
+  "no_sign_of_council|wikidata_P856": 36,
+  "hosting_panel_or_default_page|wikidata_P856": 40,
+  "directory_site|wikidata_P856": 2,
+  "hosting_panel_or_default_page|clm_directorio_entidades_locales": 8,
+  "other_site_after_redirect|wikidata_P856": 26,
+  "other_site_after_redirect|clm_directorio_entidades_locales": 4,
+  "other_body_page|wikidata_P856": 37,
+  "domain_for_sale|wikidata_P856": 18,
+  "no_sign_of_council|clm_directorio_entidades_locales": 6,
+  "third_party_platform|wikidata_P856": 2
+ },
+ "site_check_reachable_municipal": {
+  "name_on_page": 5035,
+  "unverified": 78,
+  "council_words_and_url": 8
+ },
+ "dns_failure_by_source": {
+  "clm_directorio_entidades_locales": 33,
+  "wikidata_P856": 211
+ },
+ "municipal_urls_by_source": {
+  "wikidata_P856": 6126,
+  "clm_directorio_entidades_locales": 521,
+  "override": 1
+ },
+ "robots_audit_counts": {
+  "sectxt_pass2:disallowed": 633,
+  "home:allowed": 5949,
+  "sectxt:allowed": 5872,
+  "stmt:allowed": 2025,
+  "llms:allowed": 3833,
+  "home:unverifiable": 45,
+  "sectxt:unverifiable": 42,
+  "stmt:unverifiable": 7,
+  "sectxt:disallowed": 202,
+  "sectxt_pass2:allowed": 11,
+  "home:disallowed": 123,
+  "stmt:disallowed": 84,
+  "sectxt_pass2:unverifiable": 28,
+  "llms:disallowed": 117,
+  "llms:unverifiable": 38
+ },
+ "robots_discarded_entities": {
+  "home_and_all": 168,
+  "home_disallowed": 123,
+  "home_unverifiable": 45,
+  "sectxt_only": 88,
+  "stmt_only": 4,
+  "llms_only": 85,
+  "sectxt_pass2": 661,
+  "home_not_fetched_but_allowed": 0
+ },
+ "robots_entities_any_request_disallowed": 845,
+ "robots_entities_home_allowed_other_disallowed": 722,
+ "robots_entities_any_request_discarded": 921,
+ "robots_discarded_by_region": {
+  "Canarias": 2,
+  "Cataluña": 12,
+  "Comunitat Valenciana": 102,
+  "Extremadura": 5,
+  "Aragón": 5,
+  "Cantabria": 2,
+  "Andalucía": 5,
+  "País Vasco": 9,
+  "Galicia": 2,
+  "Castilla y León": 12,
+  "Asturias, Principado de": 1,
+  "Castilla-La Mancha": 9,
+  "Madrid, Comunidad de": 1,
+  "Rioja, La": 1
+ },
+ "robots_html_typed_with_rules": {
+  "entities": 106,
+  "hosts": 106
+ },
+ "ai_named_any4": [
+  168,
+  6012
+ ],
+ "robots_state_counts": {
+  "unavailable": 857,
+  "ok": 5155,
+  "unreachable": 598,
+  "none": 181
+ },
+ "llms_present_any_arm": 26,
+ "llms_checked_any_arm": 3228,
+ "llms_200_text_no_h1_any_arm": 66,
+ "llms_present_entities": [
+  "Abenójar",
+  "Ainzón",
+  "Aldeacentenera",
+  "Arnoia, A",
+  "Astillero, El",
+  "Añover de Tormes",
+  "Beratón",
+  "Brañosera",
+  "Chequilla",
+  "Freila",
+  "Gijón",
+  "Huerta de la Obispalía",
+  "Madrid",
+  "Majadas, Las",
+  "Mancha Real",
+  "Molló",
+  "Montemayor del Río",
+  "Navalvillar de Ibor",
+  "Nerja",
+  "Parra de las Vegas, La",
+  "Peralejos de las Truchas",
+  "Recuerda",
+  "Sant Miquel de Fluvià",
+  "Talarrubias",
+  "Tosos",
+  "Valseca"
+ ],
+ "sectxt_present_entities": [
+  {
+   "entity_id": "CCAA01",
+   "name": "Junta de Andalucía",
+   "host": "www.juntadeandalucia.es",
+   "required_ok": false,
+   "strict_ok": false,
+   "expired": null,
+   "has_expires": false,
+   "text_plain": true,
+   "charset_utf8": true,
+   "contact_all_uri": true,
+   "expires_rfc3339": false,
+   "source": "recheck"
+  },
+  {
+   "entity_id": "DIP35",
+   "name": "Deputación da Coruña",
+   "host": "www.dacoruna.gal",
+   "required_ok": true,
+   "strict_ok": false,
+   "expired": false,
+   "has_expires": true,
+   "text_plain": true,
+   "charset_utf8": false,
+   "contact_all_uri": true,
+   "expires_rfc3339": true,
+   "source": "recheck"
+  },
+  {
+   "entity_id": "INE13043",
+   "name": "Fuenllana",
+   "host": "fuenllana.com",
+   "required_ok": true,
+   "strict_ok": true,
+   "expired": false,
+   "has_expires": true,
+   "text_plain": true,
+   "charset_utf8": true,
+   "contact_all_uri": true,
+   "expires_rfc3339": true,
+   "source": "recheck"
+  },
+  {
+   "entity_id": "INE15090",
+   "name": "Vilasantar",
+   "host": "www.dacoruna.gal",
+   "required_ok": true,
+   "strict_ok": false,
+   "expired": false,
+   "has_expires": true,
+   "text_plain": true,
+   "charset_utf8": false,
+   "contact_all_uri": true,
+   "expires_rfc3339": true,
+   "source": "recheck"
+  },
+  {
+   "entity_id": "INE27011",
+   "name": "Castroverde",
+   "host": "concellodecastroverde.gal",
+   "required_ok": false,
+   "strict_ok": false,
+   "expired": true,
+   "has_expires": true,
+   "text_plain": true,
+   "charset_utf8": false,
+   "contact_all_uri": true,
+   "expires_rfc3339": true,
+   "source": "recheck"
+  },
+  {
+   "entity_id": "INE28079",
+   "name": "Madrid",
+   "host": "www.madrid.es",
+   "required_ok": true,
+   "strict_ok": true,
+   "expired": false,
+   "has_expires": true,
+   "text_plain": true,
+   "charset_utf8": true,
+   "contact_all_uri": true,
+   "expires_rfc3339": true,
+   "source": "recheck"
+  },
+  {
+   "entity_id": "INE28111",
+   "name": "Pezuela de las Torres",
+   "host": "pezueladelastorres.es",
+   "required_ok": false,
+   "strict_ok": false,
+   "expired": true,
+   "has_expires": true,
+   "text_plain": true,
+   "charset_utf8": false,
+   "contact_all_uri": true,
+   "expires_rfc3339": true,
+   "source": "recheck"
+  },
+  {
+   "entity_id": "INE29067",
+   "name": "Málaga",
+   "host": "www.malaga.eu",
+   "required_ok": true,
+   "strict_ok": true,
+   "expired": false,
+   "has_expires": true,
+   "text_plain": true,
+   "charset_utf8": true,
+   "contact_all_uri": true,
+   "expires_rfc3339": true,
+   "source": "recheck"
+  },
+  {
+   "entity_id": "INE38001",
+   "name": "Adeje",
+   "host": "www.adeje.es",
+   "required_ok": true,
+   "strict_ok": true,
+   "expired": false,
+   "has_expires": true,
+   "text_plain": true,
+   "charset_utf8": true,
+   "contact_all_uri": true,
+   "expires_rfc3339": true,
+   "source": "recheck"
+  },
+  {
+   "entity_id": "INE45019",
+   "name": "Bargas",
+   "host": "www.bargas.es",
+   "required_ok": true,
+   "strict_ok": false,
+   "expired": false,
+   "has_expires": true,
+   "text_plain": true,
+   "charset_utf8": false,
+   "contact_all_uri": false,
+   "expires_rfc3339": true,
+   "source": "recheck"
+  },
+  {
+   "entity_id": "INE49159",
+   "name": "Pobladura del Valle",
+   "host": "pobladuradelvalle.com",
+   "required_ok": true,
+   "strict_ok": false,
+   "expired": false,
+   "has_expires": true,
+   "text_plain": true,
+   "charset_utf8": false,
+   "contact_all_uri": true,
+   "expires_rfc3339": true,
+   "source": "recheck"
+  },
+  {
+   "entity_id": "UNI30",
+   "name": "Universitat Politècnica de València",
+   "host": "www.upv.es",
+   "required_ok": false,
+   "strict_ok": false,
+   "expired": null,
+   "has_expires": false,
+   "text_plain": true,
+   "charset_utf8": false,
+   "contact_all_uri": false,
+   "expires_rfc3339": false,
+   "source": "recheck"
+  }
+ ],
+ "sectxt_present_files": 11,
+ "sectxt_required_ok_files": 7,
+ "sectxt_strict_ok_files": 4,
+ "sectxt_soft404_html_or_text": [
+  329,
+  5570
+ ],
+ "name_match_municipal_reachable": [
+  4954,
+  5121
+ ],
+ "stmt_off_host_share": [
+  23,
+  2012
+ ],
+ "js_shell_reachable": [
+  125,
+  5245
+ ],
+ "acc_link_unknown_widget": 0,
+ "acc_link_widget_rechecked": 67,
+ "acc_vendor_links_v1": 67,
+ "stmt_200_html": [
+  1914,
+  2012
+ ],
+ "stmt_200_without_statement_wording": 448,
+ "date_method_counts": {
+  "v2": 960,
+  "v2_recheck": 116,
+  "v1_nodate": 309,
+  "v1_ctx_ok": 346,
+  "v1_first_run": 287
+ },
+ "date_method_counts_statements": {
+  "v2": 677,
+  "v2_recheck": 98,
+  "v1_nodate": 127,
+  "v1_ctx_ok": 345,
+  "v1_first_run": 214
+ },
+ "v1_recheck": {
+  "v1_dated_with_sentence": 461,
+  "confirmed": 345,
+  "rejected": 116,
+  "rejected_reread": 116,
+  "rejected_reread_dated": 94
+ },
+ "dated_statements": 908,
+ "dated_by_year": {
+  "2018": 5,
+  "2019": 3,
+  "2020": 18,
+  "2021": 9,
+  "2022": 203,
+  "2023": 97,
+  "2024": 340,
+  "2025": 110,
+  "2026": 123
+ },
+ "top_dates": [
+  {
+   "date": "2022-06-28",
+   "n": 148,
+   "regions": {
+    "Castilla y León": 148
+   },
+   "provinces": {
+    "Burgos": 148
+   }
+  },
+  {
+   "date": "2024-03-27",
+   "n": 140,
+   "regions": {
+    "Comunitat Valenciana": 140
+   },
+   "provinces": {
+    "València/Valencia": 140
+   }
+  },
+  {
+   "date": "2023-09-06",
+   "n": 57,
+   "regions": {
+    "Andalucía": 57
+   },
+   "provinces": {
+    "Granada": 57
+   }
+  },
+  {
+   "date": "2026-02-18",
+   "n": 50,
+   "regions": {
+    "Extremadura": 50
+   },
+   "provinces": {
+    "Badajoz": 50
+   }
+  },
+  {
+   "date": "2024-04-26",
+   "n": 48,
+   "regions": {
+    "Castilla-La Mancha": 48
+   },
+   "provinces": {
+    "Albacete": 48
+   }
+  },
+  {
+   "date": "2023-12-11",
+   "n": 36,
+   "regions": {
+    "Andalucía": 36
+   },
+   "provinces": {
+    "Jaén": 36
+   }
+  },
+  {
+   "date": "2024-07-31",
+   "n": 20,
+   "regions": {
+    "Galicia": 20
+   },
+   "provinces": {
+    "Lugo": 20
+   }
+  },
+  {
+   "date": "2024-01-15",
+   "n": 15,
+   "regions": {
+    "Cataluña": 15
+   },
+   "provinces": {
+    "Girona": 15
+   }
+  },
+  {
+   "date": "2024-01-04",
+   "n": 14,
+   "regions": {
+    "Cataluña": 14
+   },
+   "provinces": {
+    "Girona": 14
+   }
+  },
+  {
+   "date": "2024-01-03",
+   "n": 12,
+   "regions": {
+    "Cataluña": 12
+   },
+   "provinces": {
+    "Girona": 12
+   }
+  }
+ ],
+ "top6_dates": {
+  "k": 479,
+  "n": 908,
+  "pct": 52.8,
+  "single_province": true
+ },
+ "dated_2018_2021": 35,
+ "http_202_by_province": {
+  "Málaga": 63,
+  "Guadalajara": 6,
+  "Ciudad Real": 4,
+  "Ávila": 4,
+  "Toledo": 4
+ },
+ "robots_discarded_html_typed": {
+  "n": 100,
+  "by_province": {
+   "Castelló/Castellón": 100
+  }
+ },
+ "hsts_with_cert_error": 40,
+ "municipal_reachable_rechecked": 557,
+ "first_run_statements": {
+  "fetched": 287,
+  "by_type": {
+   "municipality": 198,
+   "regional_government": 12,
+   "provincial_council": 34,
+   "public_university": 30,
+   "ministry": 13
+  }
+ },
+ "coverage_by_band": {
+  "a <1k": {
+   "n": 4980,
+   "with_url": 3612,
+   "pct": 72.5,
+   "pop_pct": 82.5
+  },
+  "b 1k-5k": {
+   "n": 1827,
+   "with_url": 1717,
+   "pct": 94.0,
+   "pop_pct": 95.1
+  },
+  "c 5k-20k": {
+   "n": 893,
+   "with_url": 889,
+   "pct": 99.6,
+   "pop_pct": 99.5
+  },
+  "d 20k-100k": {
+   "n": 365,
+   "with_url": 363,
+   "pct": 99.5,
+   "pop_pct": 99.6
+  },
+  "e 100k+": {
+   "n": 67,
+   "with_url": 67,
+   "pct": 100.0,
+   "pop_pct": 100.0
+  }
+ },
+ "date_audit_v2": {
+  "k": 40,
+  "n": 40,
+  "ci95": [
+   91.2,
+   100.0
+  ],
+  "unjudged": 0
+ },
+ "other_body_page_by_province": {
+  "Salamanca": 36,
+  "Burgos": 1
+ },
+ "build_meta": {
+  "robots_hosts_reread": 8055,
+  "robots_reread_2xx_retried": 130,
+  "robots_reread_failures_retried": 66,
+  "robots_html_typed_hosts_with_rules": 111,
+  "robotparser_vs_rfc9309": {
+   "entities": 4748,
+   "agree_on_4_tokens": 4743
+  },
+  "recheck_home": 758,
+  "recheck_home_municipal": 736,
+  "recheck_home_municipal_answered": 617,
+  "recheck_home_second_look": 55,
+  "recheck_statements": 116,
+  "recheck_sectxt_hosts": 360,
+  "robots_reread_utc": [
+   "2026-10-02T21:45:28+00:00",
+   "2026-10-02T21:57:35+00:00"
+  ]
+ }
+}

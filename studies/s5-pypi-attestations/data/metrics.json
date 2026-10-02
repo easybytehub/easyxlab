@@ -1,0 +1,495 @@
+{
+ "pypi": {
+  "list": "hugovk top-pypi-packages, last_update 2026-10-01 12:40:51 (30-day downloads); fetched at a pinned commit, not redistributed",
+  "snapshot_cutoff": "2026-10-01T12:40:51+00:00",
+  "projects_in_list": 15000,
+  "projects_analysed": 14995,
+  "not_analysed": {
+   "aaaaaaaaa": "simple index HTTP 404",
+   "types-pkg-resources": "all files yanked or unparseable",
+   "pikobs": "no files uploaded by the list date",
+   "vnai": "no files in the index",
+   "vnstock": "no files in the index"
+  },
+  "earliest_attested_file": "2024-10-03T15:21:10.448703+00:00",
+  "eligibility_cutoff": "2024-10-01",
+  "eligible_definition": "latest (highest stable) version first uploaded on or after 2024-10-01",
+  "latest_attested_all": {
+   "n": 14995,
+   "yes": 3479
+  },
+  "latest_fully_attested_all": {
+   "n": 14995,
+   "yes": 3466
+  },
+  "ever_attested_all": {
+   "n": 14995,
+   "yes": 3659
+  },
+  "latest_attested_eligible": {
+   "n": 11176,
+   "yes": 3478
+  },
+  "mixed_latest": 13,
+  "stopped_newest": 148,
+  "stopped_pip_default": 138,
+  "stopped_pip_default_incl_backports": 140,
+  "stopped_union": 148,
+  "stopped_newest_only_prereleases_attested": 4,
+  "stopped_pip_default_single_attested_stable": 21,
+  "bands": [
+   {
+    "band": "1-100",
+    "latest_attested": {
+     "n": 100,
+     "yes": 59
+    },
+    "eligible_latest_attested": {
+     "n": 97,
+     "yes": 59
+    },
+    "ever_attested": {
+     "n": 100,
+     "yes": 62
+    },
+    "stopped_pip_default": {
+     "n": 100,
+     "yes": 3
+    },
+    "stopped_newest": {
+     "n": 100,
+     "yes": 3
+    }
+   },
+   {
+    "band": "101-500",
+    "latest_attested": {
+     "n": 400,
+     "yes": 151
+    },
+    "eligible_latest_attested": {
+     "n": 356,
+     "yes": 151
+    },
+    "ever_attested": {
+     "n": 400,
+     "yes": 164
+    },
+    "stopped_pip_default": {
+     "n": 400,
+     "yes": 9
+    },
+    "stopped_newest": {
+     "n": 400,
+     "yes": 10
+    }
+   },
+   {
+    "band": "501-1000",
+    "latest_attested": {
+     "n": 500,
+     "yes": 163
+    },
+    "eligible_latest_attested": {
+     "n": 414,
+     "yes": 163
+    },
+    "ever_attested": {
+     "n": 500,
+     "yes": 176
+    },
+    "stopped_pip_default": {
+     "n": 500,
+     "yes": 10
+    },
+    "stopped_newest": {
+     "n": 500,
+     "yes": 10
+    }
+   },
+   {
+    "band": "1001-2500",
+    "latest_attested": {
+     "n": 1500,
+     "yes": 399
+    },
+    "eligible_latest_attested": {
+     "n": 1231,
+     "yes": 399
+    },
+    "ever_attested": {
+     "n": 1500,
+     "yes": 429
+    },
+    "stopped_pip_default": {
+     "n": 1500,
+     "yes": 22
+    },
+    "stopped_newest": {
+     "n": 1500,
+     "yes": 26
+    }
+   },
+   {
+    "band": "2501-5000",
+    "latest_attested": {
+     "n": 2499,
+     "yes": 632
+    },
+    "eligible_latest_attested": {
+     "n": 1861,
+     "yes": 631
+    },
+    "ever_attested": {
+     "n": 2499,
+     "yes": 669
+    },
+    "stopped_pip_default": {
+     "n": 2499,
+     "yes": 28
+    },
+    "stopped_newest": {
+     "n": 2499,
+     "yes": 30
+    }
+   },
+   {
+    "band": "5001-10000",
+    "latest_attested": {
+     "n": 4999,
+     "yes": 1063
+    },
+    "eligible_latest_attested": {
+     "n": 3644,
+     "yes": 1063
+    },
+    "ever_attested": {
+     "n": 4999,
+     "yes": 1106
+    },
+    "stopped_pip_default": {
+     "n": 4999,
+     "yes": 29
+    },
+    "stopped_newest": {
+     "n": 4999,
+     "yes": 31
+    }
+   },
+   {
+    "band": "10001-15000",
+    "latest_attested": {
+     "n": 4997,
+     "yes": 1012
+    },
+    "eligible_latest_attested": {
+     "n": 3573,
+     "yes": 1012
+    },
+    "ever_attested": {
+     "n": 4997,
+     "yes": 1053
+    },
+    "stopped_pip_default": {
+     "n": 4997,
+     "yes": 37
+    },
+    "stopped_newest": {
+     "n": 4997,
+     "yes": 38
+    }
+   }
+  ],
+  "stops_by_half": [
+   {
+    "half": "2024H2",
+    "stops": 14,
+    "projects_with_attested_stable_by_end": 758
+   },
+   {
+    "half": "2025H1",
+    "stops": 26,
+    "projects_with_attested_stable_by_end": 1613
+   },
+   {
+    "half": "2025H2",
+    "stops": 43,
+    "projects_with_attested_stable_by_end": 2227
+   },
+   {
+    "half": "2026H1",
+    "stops": 40,
+    "projects_with_attested_stable_by_end": 3234
+   },
+   {
+    "half": "2026H2*",
+    "stops": 14,
+    "projects_with_attested_stable_by_end": 3616
+   }
+  ]
+ },
+ "npm": {
+  "sample": "npm-high-impact 1.13.0 top-download: ranks 1-1000 + 500 random from 1001-15916 (seed 20261002)",
+  "n": 1500,
+  "latest_attested_top1000": {
+   "n": 1000,
+   "yes": 308,
+   "share": 0.308
+  },
+  "latest_attested_tail_sample": {
+   "n": 500,
+   "yes": 137,
+   "share": 0.274
+  },
+  "ever_attested_top1000": {
+   "n": 1000,
+   "yes": 314,
+   "share": 0.314
+  },
+  "bands": [
+   {
+    "band": "1-100",
+    "latest_attested": {
+     "n": 100,
+     "yes": 22,
+     "share": 0.22
+    },
+    "ever_attested": {
+     "n": 100,
+     "yes": 23,
+     "share": 0.23
+    },
+    "regression": {
+     "n": 100,
+     "yes": 0,
+     "share": 0.0
+    }
+   },
+   {
+    "band": "101-500",
+    "latest_attested": {
+     "n": 400,
+     "yes": 122,
+     "share": 0.305
+    },
+    "ever_attested": {
+     "n": 400,
+     "yes": 126,
+     "share": 0.315
+    },
+    "regression": {
+     "n": 400,
+     "yes": 0,
+     "share": 0.0
+    }
+   },
+   {
+    "band": "501-1000",
+    "latest_attested": {
+     "n": 500,
+     "yes": 164,
+     "share": 0.328
+    },
+    "ever_attested": {
+     "n": 500,
+     "yes": 165,
+     "share": 0.33
+    },
+    "regression": {
+     "n": 500,
+     "yes": 1,
+     "share": 0.002
+    }
+   },
+   {
+    "band": "1001-15916",
+    "latest_attested": {
+     "n": 500,
+     "yes": 137,
+     "share": 0.274
+    },
+    "ever_attested": {
+     "n": 500,
+     "yes": 145,
+     "share": 0.29
+    },
+    "regression": {
+     "n": 500,
+     "yes": 3,
+     "share": 0.006
+    }
+   }
+  ],
+  "regression_semver": 7,
+  "regression_time_confirmed": 4,
+  "regression": 4,
+  "repo_change_rules": {
+   "same owner": 7,
+   "old repository redirects to new (rename/transfer)": 4,
+   "not verifiable from public metadata": 2
+  },
+  "rule_classes": {
+   "not_regression_attested_line_published_later": 3,
+   "isolated_upload": 1,
+   "indeterminate": 3
+  },
+  "secondary_channel_unattested": 4,
+  "repo_changed": 13,
+  "workflow_changed_same_repo": 46,
+  "attested_packages": 459
+ },
+ "tob_comparison": {
+  "tob_last_update": "Friday, 02 October 2026, 16:12:11 UTC",
+  "tob_total": 360,
+  "tob_green": 158,
+  "matrix": {
+   "default|not": 25,
+   "success|attested": 158,
+   "unsupported|not": 16,
+   "warning|attested": 1,
+   "warning|not": 160
+  },
+  "disagreements": [
+   "sqlalchemy"
+  ]
+ },
+ "headline": {
+  "latest_attested": {
+   "n": 14995,
+   "yes": 3479
+  },
+  "latest_attested_pct": 23.2,
+  "latest_not_attested": 11516,
+  "never_attested": 11336,
+  "never_attested_pct": 75.6,
+  "eligible_pct": 31.1,
+  "ever_attested": 3659,
+  "ever_attested_pct": 24.4,
+  "stopped_newest": 148,
+  "stopped_pip_default": 138,
+  "stopped_pip_default_pct_of_ever": 3.8,
+  "bands_latest_pct": {
+   "1-100": 59.0,
+   "101-500": 37.8,
+   "501-1000": 32.6,
+   "1001-2500": 26.6,
+   "2501-5000": 25.3,
+   "5001-10000": 21.3,
+   "10001-15000": 20.3
+  },
+  "state_share_first_last": [
+   [
+    "2024-11",
+    4.0
+   ],
+   [
+    "2026-09",
+    23.2
+   ]
+  ],
+  "npm_latest_top1000_pct": 30.8,
+  "npm_regression": 4,
+  "npm_attested_packages": 459,
+  "npm_regression_pct_of_ever": 0.9
+ },
+ "pypi_stopped": {
+  "classified": 148,
+  "pip_default": 138,
+  "pip_default_rule_classes": {
+   "tool_or_workflow_change": 88,
+   "indeterminate": 34,
+   "restored_at_head": 1,
+   "isolated_upload": 15
+  },
+  "pip_default_reviewed_classes": {
+   "tool_or_workflow_change": 96,
+   "indeterminate": 26,
+   "restored_at_head": 1,
+   "isolated_upload": 15
+  },
+  "pip_default_workflow_at_head": {
+   "non_attesting_tool": 55,
+   "missing": 19,
+   "attesting": 7,
+   "attestations_disabled": 12,
+   "upload_step_not_recognised": 1,
+   "token_auth": 2
+  },
+  "pip_default_uv_publish": 53,
+  "broad_only_classes": {
+   "prerelease_or_secondary_pipeline": 10
+  },
+  "stops_by_half": [
+   {
+    "half": "2024H2",
+    "stops": 14,
+    "projects_with_attested_stable_by_end": 758,
+    "rate_pct": 1.8
+   },
+   {
+    "half": "2025H1",
+    "stops": 26,
+    "projects_with_attested_stable_by_end": 1613,
+    "rate_pct": 1.6
+   },
+   {
+    "half": "2025H2",
+    "stops": 43,
+    "projects_with_attested_stable_by_end": 2227,
+    "rate_pct": 1.9
+   },
+   {
+    "half": "2026H1",
+    "stops": 40,
+    "projects_with_attested_stable_by_end": 3234,
+    "rate_pct": 1.2
+   },
+   {
+    "half": "2026H2*",
+    "stops": 14,
+    "projects_with_attested_stable_by_end": 3616,
+    "rate_pct": 0.4
+   }
+  ],
+  "median_unattested_after": 8
+ },
+ "review_sample": {
+  "n": 55,
+  "in_pip_default": 46,
+  "agree_with_rule": 47
+ },
+ "pypi_publishers": {
+  "attested_projects": 3659,
+  "kinds_last": {
+   "GitHub": 3507,
+   "Google": 147,
+   "GitLab": 5
+  },
+  "projects_with_change_at_least": 307,
+  "changes_at_least": 382,
+  "change_types": {
+   "repository_changed": 187,
+   "workflow_changed_same_repo": 194,
+   "publisher_kind_changed": 1
+  },
+  "rules": {
+   "confirmed: same repository after GitHub redirects": 93,
+   "consistent with the project's own metadata": 16,
+   "confirmed: same owner": 67,
+   "confirmed: same repository": 194,
+   "not confirmed by public data": 12
+  },
+  "cross_repo_or_kind": 188,
+  "cross_confirmed": 160,
+  "cross_metadata": 16,
+  "projects_not_confirmed": [
+   "matrx-ai",
+   "pipecatcloud",
+   "powerbot-client",
+   "qiskit-connector",
+   "stonefish-license-manager"
+  ],
+  "environment_only_projects": 146,
+  "integrity_requests": 8384
+ }
+}

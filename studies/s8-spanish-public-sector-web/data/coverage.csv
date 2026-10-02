@@ -1,0 +1,26 @@
+dimension,group,municipalities,population,with_url,pct_with_url,population_with_url_pct,from_wikidata,from_clm_directory,override,reachable
+region,Andalucía,785,8666412,783,99.7,100.0,783,0,0,660
+region,Aragón,731,1358812,550,75.2,97.7,550,0,0,418
+region,"Asturias, Principado de",78,1013529,74,94.9,99.9,74,0,0,65
+region,"Balears, Illes",67,1237480,67,100.0,100.0,67,0,0,57
+region,Canarias,88,2249976,86,97.7,98.4,86,0,0,71
+region,Cantabria,102,593964,76,74.5,92.4,76,0,0,54
+region,Castilla y León,2248,2398500,1639,72.9,92.4,1639,0,0,1123
+region,Castilla-La Mancha,919,2119234,616,67.0,97.7,95,521,0,400
+region,Cataluña,947,8146265,943,99.6,99.9,943,0,0,862
+region,Ciudad de Ceuta,1,83595,1,100.0,100.0,1,0,0,0
+region,Ciudad de Melilla,1,85491,1,100.0,100.0,1,0,0,0
+region,Comunitat Valenciana,542,5415843,542,100.0,100.0,542,0,0,400
+region,Extremadura,388,1051638,312,80.4,95.7,312,0,0,217
+region,Galicia,313,2713169,274,87.5,98.1,274,0,0,234
+region,"Madrid, Comunidad de",179,7137031,178,99.4,100.0,178,0,0,163
+region,"Murcia, Región de",45,1589138,45,100.0,100.0,45,0,0,41
+region,"Navarra, Comunidad Foral de",272,683500,121,44.5,90.7,121,0,0,97
+region,País Vasco,252,2242342,216,85.7,98.3,215,0,1,146
+region,"Rioja, La",174,327286,124,71.3,97.7,124,0,0,113
+size,a <1k,4980,1430575,3612,72.5,82.5,3350,262,0,2614
+size,b 1k-5k,1827,4289839,1717,94.0,95.1,1541,176,0,1373
+size,c 5k-20k,893,8799575,889,99.6,99.5,822,67,0,758
+size,d 20k-100k,365,14571999,363,99.5,99.6,348,15,0,319
+size,e 100k+,67,20021217,67,100.0,100.0,65,1,1,57
+all,Spain,8132,49113205,6648,81.8,98.9,6126,521,1,5121

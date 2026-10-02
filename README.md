@@ -15,6 +15,8 @@ Original research by EasyxLab, the research lab of [EasyByte Hub S. Coop. Mad.](
 | [S2](studies/s2-spoofed-ai-crawlers/) | How much traffic that claims to be an AI or search crawler is real? | 39.3% of 16,548 claims on three small sites were spoofed; for user-initiated fetchers (ChatGPT-User, Claude-User, Perplexity-User…) 67.8%. |
 | [S3](studies/s3-ai-marks-survival/) | Do AI provenance marks (C2PA, IPTC, China's AIGC label) survive common image, video and audio pipelines? | Every pixel or container rewrite removed the embedded C2PA manifest (124/124); editing one metadata field after signing left it present but invalid (6/6). |
 | [S4](studies/s4-wikidata-drug-labels/) | How accurate are Wikidata's multilingual drug names? | About 0.9% of 34,207 labels are wrong (a lower bound), concentrated in Urdu, Persian, Russian and Hindi; 135 proposed corrections, not applied. |
+| [S5](studies/s5-pypi-attestations/) | Who publishes PEP 740 attestations on PyPI and npm, and who stopped? | The latest version is attested for 3,479 of 14,995 top PyPI projects (23.2%); 138 projects that once attested no longer do in the line `pip` installs, 96 of them after a change of publishing tool or workflow. |
+| [S8](studies/s8-spanish-public-sector-web/) | What can a machine verify on Spain's public-sector websites? | Of 5,130 public-sector home pages served over HTTPS, 1,688 (32.9%) send HSTS; of 5,570 entities, 4 serve a `security.txt` that is strictly valid under RFC 9116. |
 
 Each study folder contains `README.md` (abstract), `METHOD.md`, `paper.md` (the full report), the scripts that regenerate every figure, and the aggregated data.
 
@@ -24,7 +26,7 @@ The studies were run by AI agents supervised by EasyByte: collection, classifica
 
 ## Competing interests
 
-EasyByte develops [verifactu-lint](https://github.com/easybytehub/verifactu-lint), the instrument of S1, and offers commercial Verifactu services. EasyByte also develops [ai-mark-lint](https://github.com/easybytehub/ai-mark-lint), which automates the before/after comparison in S3. The sites in S2 are EasyByte's own and are anonymised as Site A, B and C.
+EasyByte develops [verifactu-lint](https://github.com/easybytehub/verifactu-lint), the instrument of S1, and offers commercial Verifactu services. EasyByte also develops [ai-mark-lint](https://github.com/easybytehub/ai-mark-lint), which automates the before/after comparison in S3. It develops [attest-lint](https://github.com/easybytehub/attest-lint), which flags in a lockfile the attestation regressions S5 measures. The sites in S2 are EasyByte's own and are anonymised as Site A, B and C.
 
 ## What is not here
 
