@@ -2,7 +2,7 @@
 
 **How much traffic claiming to be an AI or search bot is real?**
 
-EasyByte Lab · working draft · data as of 2026-10-02
+EasyxLab · study S2 · working draft · data as of 2026-10-02
 
 ## Abstract
 
@@ -69,3 +69,7 @@ launched in September 2026). The work was done by AI agents and has not yet been
 person (`paper.md` §8).
 
 License: code MIT; data and text CC BY 4.0 (pending confirmation).
+
+---
+
+EasyxLab · a research lab by [EasyByte](https://easybyte.es)

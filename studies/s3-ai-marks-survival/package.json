@@ -1,7 +1,7 @@
 {
   "name": "s3-ai-marks-survival",
   "private": true,
-  "description": "Pipelines for EasyByte Lab study S3 (sharp, ImageMagick WASM)",
+  "description": "Pipelines for EasyxLab study S3 (sharp, ImageMagick WASM)",
   "type": "module",
   "dependencies": {
     "@imagemagick/magick-wasm": "^0.0.44",

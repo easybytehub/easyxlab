@@ -1,6 +1,13 @@
-# EasyByte Lab — studies
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset=".github/readme-banner-dark.png">
+  <img alt="EasyxLab · a research lab by EasyByte" src=".github/readme-banner.png" width="100%">
+</picture>
 
-Original research by [EasyByte Hub S. Coop. Mad.](https://easybyte.es), a worker cooperative of software developers in Spain. Each study measures something practitioners usually take on faith, publishes its method and reproducible scripts, and releases its aggregated data.
+# EasyxLab — studies
+
+<img alt="EasyxLab study" src=".github/badge-study.svg">
+
+Original research by EasyxLab, the research lab of [EasyByte Hub S. Coop. Mad.](https://easybyte.es), a worker cooperative of software developers in Spain. Each study measures something practitioners usually take on faith, publishes its method and reproducible scripts, and releases its aggregated data.
 
 | study | question | headline |
 |---|---|---|
@@ -30,4 +37,8 @@ EasyByte develops [verifactu-lint](https://github.com/easybytehub/verifactu-lint
 - **Data, fixtures and text:** CC BY 4.0, see [LICENSE-DATA](LICENSE-DATA).
 - **Exception, S4:** its data and corrections derive from Wikidata (CC0) and are meant to go back there, so they are released under CC0 1.0 ([studies/s4-wikidata-drug-labels/LICENSE-DATA](studies/s4-wikidata-drug-labels/LICENSE-DATA)).
 
-Cite a study as: *EasyByte Lab (2026). [title of the study]. https://github.com/easybytehub/easybyte-lab*.
+Cite a study as: *EasyxLab (2026). [title of the study]. Study Sn. EasyByte Hub S. Coop. Mad. https://github.com/easybytehub/easyxlab*.
+
+---
+
+EasyxLab · a research lab by [EasyByte](https://easybyte.es)

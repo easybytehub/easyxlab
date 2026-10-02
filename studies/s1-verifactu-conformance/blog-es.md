@@ -133,5 +133,5 @@ rotas a propósito, cada una con el error que debe producir. Así cada proyecto 
 comprobar su generador contra algo más exigente que un ejemplo con la palabra «Huella»
 donde debería ir un hash.
 
-*Método, datos agregados y scripts: estudio S1 de EasyByte Lab. Los repositorios
+*Método, datos agregados y scripts: estudio S1 de EasyxLab. Los repositorios
 aparecen anonimizados y no se ha contactado a sus mantenedores.*

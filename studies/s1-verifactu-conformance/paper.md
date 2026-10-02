@@ -1,6 +1,6 @@
 # Conformance of open-source Verifactu implementations: a census of the invoicing records published on GitHub
 
-*EasyByte Lab, study S1 — working draft, 2026-10-02. Not peer-reviewed.*
+*EasyxLab, study S1 — working draft, 2026-10-02. Not peer-reviewed.*
 
 ## Abstract
 

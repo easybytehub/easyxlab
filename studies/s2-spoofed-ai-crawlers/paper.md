@@ -1,6 +1,6 @@
 # Spoofed AI crawlers: how much traffic claiming to be an AI or search bot is real?
 
-*EasyByte Lab, study S2 — working draft, 2026-10-02. Not peer reviewed. See §8 for what was
+*EasyxLab, study S2 — working draft, 2026-10-02. Not peer reviewed. See §8 for what was
 done by AI agents and what no person has reviewed.*
 
 ## Abstract

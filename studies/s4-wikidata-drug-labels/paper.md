@@ -1,6 +1,6 @@
 # How reliable are drug names in Wikidata across languages? A frozen-snapshot audit of 34,207 labels
 
-*EasyByte Lab, study S4 — draft of 2026-10-02, not peer-reviewed, not published.*
+*EasyxLab, study S4 — draft of 2026-10-02, not peer-reviewed, not published.*
 
 ## Abstract
 
@@ -116,7 +116,7 @@ development codes and ICD-10 block ranges. Precision is TP/(TP+FP) with a Wilson
 For each language we estimate errors as Σ (flags × detector precision) over (a), (b), (c) and (e).
 This is a lower bound, because recall was not measured.
 
-**Terms.** The *earlier review* is EasyByte Lab's exploratory check of 2026-10-02 (scripts in
+**Terms.** The *earlier review* is EasyxLab's exploratory check of 2026-10-02 (scripts in
 `scripts/legacy/`). It looked at 59 active ingredients used in chronic treatment and 34 chronic
 diseases, and reported the seven errors re-checked in §4.5. The *chronic subset* is those 34
 diseases, resolved by English label; 29 of them resolved on the snapshot date.

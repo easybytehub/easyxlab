@@ -1,6 +1,6 @@
 # S4 — Multilingual quality of drug names in Wikidata
 
-EasyByte Lab · study S4 · snapshot of 2026-10-02 · status: **draft, not published**
+EasyxLab · study S4 · snapshot of 2026-10-02 · status: **draft, not published**
 
 ## Abstract
 
@@ -66,3 +66,7 @@ FREEZE=1 scripts/run.sh   # fresh extraction (new snapshot; recorded verdicts no
 - `data/reference/atc_alterations_codes.json` holds only the code-change facts used for checking. The ATC/DDD
   index itself may not be redistributed, and it is not included.
 - Code: to be decided at publication (Apache-2.0 or MIT proposed).
+
+---
+
+EasyxLab · a research lab by [EasyByte](https://easybyte.es)

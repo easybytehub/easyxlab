@@ -1,6 +1,6 @@
 # Do AI provenance marks survive common image, video and audio pipelines?
 
-*EasyByte Lab · Study S3 · draft of 2026-10-02 · every number here can be regenerated with `scripts/run.sh`*
+*EasyxLab · study S3 · draft of 2026-10-02 · every number here can be regenerated with `scripts/run.sh`*
 
 ## Abstract
 

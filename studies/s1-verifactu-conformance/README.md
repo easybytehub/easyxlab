@@ -1,6 +1,6 @@
 # S1 — Conformance of open-source Verifactu implementations
 
-*EasyByte Lab · study S1 · snapshot 2026-10-02 · status: working draft, not published*
+*EasyxLab · study S1 · snapshot 2026-10-02 · status: working draft, not published*
 
 ## Abstract
 
@@ -53,3 +53,7 @@ those live in `private/references.csv`, which is not published (it would de-anon
 the repositories): **a third party cannot reproduce the exact corpus**, only re-run the
 pipeline on today's GitHub. Repositories are published anonymised (R01–R19) and
 maintainers have not been contacted.
+
+---
+
+EasyxLab · a research lab by [EasyByte](https://easybyte.es)
