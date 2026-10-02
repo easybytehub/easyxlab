@@ -1,0 +1,23 @@
+{
+  "_readme": "Template of the PRIVATE configuration (kept outside the public repository). Domains, log locations, trap paths and the check User-Agent below are placeholders: the real ones identify the studied sites and are never published. Trap paths are random strings (a random folder per site and a random segment per arm), so nothing in them describes the arm. Times are UTC ISO 8601, filled in by the deploy verification when each phase is verified live; leave them null until then.",
+  "study_end": "2027-01-15T00:00:00Z",
+  "check_ua": "Mozilla/5.0 (compatible; uptime-check/1.0; id=<random>)",
+  "check_marker": "id=<random>",
+  "sites": {
+    "site-a": {
+      "domain": "site-a.example",
+      "log": {"ssh": "user@web-server.example", "dir": "~/site-a/logs"},
+      "arms": {"robots-only": "/<random-folder-a>/<random-1>/"},
+      "t_robots": null, "t_link": null, "t_end": null
+    },
+    "site-b": {
+      "domain": "site-b.example",
+      "log": {"files": ["/var/log/nginx/site-b/access.log*"]},
+      "arms": {"allowed": "/<random-folder-b>/<random-2>/",
+               "disallowed": "/<random-folder-b>/<random-3>/",
+               "robots-only": "/<random-folder-b>/<random-4>/"},
+      "t_robots": null, "t_link": null, "t_end": null
+    }
+  },
+  "active_sessions": []
+}

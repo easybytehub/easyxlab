@@ -1,0 +1,7 @@
+# study-local ignores (the repo root already ignores data/raw/, private/, RD-MEMO.md, STATUS.md)
+# deploy/ holds ready-to-apply patches that name the real sites and the trap paths: never publish.
+deploy/
+private/
+data/raw/
+__pycache__/
+.pytest_cache/
