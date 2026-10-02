@@ -1,0 +1,813 @@
+{
+ "precision": {
+  "a": {
+   "n": 14,
+   "TP": 10,
+   "FP": 4,
+   "DOUBT": 0,
+   "unreviewed": 0,
+   "precision": 0.714,
+   "ci95": [
+    0.454,
+    0.883
+   ],
+   "precision_conservative": 0.714
+  },
+  "b": {
+   "n": 12,
+   "TP": 10,
+   "FP": 2,
+   "DOUBT": 0,
+   "unreviewed": 0,
+   "precision": 0.833,
+   "ci95": [
+    0.552,
+    0.953
+   ],
+   "precision_conservative": 0.833
+  },
+  "c": {
+   "n": 20,
+   "TP": 5,
+   "FP": 14,
+   "DOUBT": 1,
+   "unreviewed": 0,
+   "precision": 0.263,
+   "ci95": [
+    0.118,
+    0.488
+   ],
+   "precision_conservative": 0.25
+  },
+  "d": {
+   "n": 14,
+   "TP": 14,
+   "FP": 0,
+   "DOUBT": 0,
+   "unreviewed": 0,
+   "precision": 1.0,
+   "ci95": [
+    0.785,
+    1
+   ],
+   "precision_conservative": 1.0
+  },
+  "e": {
+   "n": 16,
+   "TP": 3,
+   "FP": 13,
+   "DOUBT": 0,
+   "unreviewed": 0,
+   "precision": 0.188,
+   "ci95": [
+    0.066,
+    0.43
+   ],
+   "precision_conservative": 0.188
+  },
+  "f": {
+   "n": 15,
+   "TP": 14,
+   "FP": 1,
+   "DOUBT": 0,
+   "unreviewed": 0,
+   "precision": 0.933,
+   "ci95": [
+    0.702,
+    0.988
+   ],
+   "precision_conservative": 0.933
+  },
+  "g": {
+   "n": 12,
+   "TP": 7,
+   "FP": 5,
+   "DOUBT": 0,
+   "unreviewed": 0,
+   "precision": 0.583,
+   "ci95": [
+    0.32,
+    0.807
+   ],
+   "precision_conservative": 0.583
+  },
+  "a_latin": {
+   "n": 12,
+   "TP": 8,
+   "FP": 4,
+   "DOUBT": 0,
+   "unreviewed": 0,
+   "precision": 0.667,
+   "ci95": [
+    0.391,
+    0.862
+   ],
+   "precision_conservative": 0.667
+  },
+  "a_nonlatin": {
+   "n": 2,
+   "TP": 2,
+   "FP": 0,
+   "DOUBT": 0,
+   "unreviewed": 0,
+   "precision": 1.0,
+   "ci95": [
+    0.342,
+    1
+   ],
+   "precision_conservative": 1.0
+  },
+  "b_rxnorm_bn": {
+   "n": 12,
+   "TP": 10,
+   "FP": 2,
+   "DOUBT": 0,
+   "unreviewed": 0,
+   "precision": 0.833,
+   "ci95": [
+    0.552,
+    0.953
+   ],
+   "precision_conservative": 0.833
+  },
+  "c_parent_on_salt": {
+   "n": 10,
+   "TP": 2,
+   "FP": 8,
+   "DOUBT": 0,
+   "unreviewed": 0,
+   "precision": 0.2,
+   "ci95": [
+    0.057,
+    0.51
+   ],
+   "precision_conservative": 0.2
+  },
+  "c_salt_on_parent": {
+   "n": 10,
+   "TP": 3,
+   "FP": 6,
+   "DOUBT": 1,
+   "unreviewed": 0,
+   "precision": 0.333,
+   "ci95": [
+    0.121,
+    0.646
+   ],
+   "precision_conservative": 0.3
+  },
+  "d_diff_en": {
+   "n": 14,
+   "TP": 14,
+   "FP": 0,
+   "DOUBT": 0,
+   "unreviewed": 0,
+   "precision": 1.0,
+   "ci95": [
+    0.785,
+    1
+   ],
+   "precision_conservative": 1.0
+  },
+  "e_contains": {
+   "n": 4,
+   "TP": 0,
+   "FP": 4,
+   "DOUBT": 0,
+   "unreviewed": 0,
+   "precision": 0.0,
+   "ci95": [
+    0,
+    0.49
+   ],
+   "precision_conservative": 0.0
+  },
+  "e_different": {
+   "n": 9,
+   "TP": 2,
+   "FP": 7,
+   "DOUBT": 0,
+   "unreviewed": 0,
+   "precision": 0.222,
+   "ci95": [
+    0.063,
+    0.547
+   ],
+   "precision_conservative": 0.222
+  },
+  "e_typographic": {
+   "n": 3,
+   "TP": 1,
+   "FP": 2,
+   "DOUBT": 0,
+   "unreviewed": 0,
+   "precision": 0.333,
+   "ci95": [
+    0.061,
+    0.792
+   ],
+   "precision_conservative": 0.333
+  },
+  "f_cm": {
+   "n": 3,
+   "TP": 3,
+   "FP": 0,
+   "DOUBT": 0,
+   "unreviewed": 0,
+   "precision": 1.0,
+   "ci95": [
+    0.438,
+    1
+   ],
+   "precision_conservative": 1.0
+  },
+  "f_corrupt": {
+   "n": 5,
+   "TP": 5,
+   "FP": 0,
+   "DOUBT": 0,
+   "unreviewed": 0,
+   "precision": 1.0,
+   "ci95": [
+    0.566,
+    1
+   ],
+   "precision_conservative": 1.0
+  },
+  "f_doubled": {
+   "n": 5,
+   "TP": 5,
+   "FP": 0,
+   "DOUBT": 0,
+   "unreviewed": 0,
+   "precision": 1.0,
+   "ci95": [
+    0.566,
+    1
+   ],
+   "precision_conservative": 1.0
+  },
+  "f_icd11": {
+   "n": 2,
+   "TP": 1,
+   "FP": 1,
+   "DOUBT": 0,
+   "unreviewed": 0,
+   "precision": 0.5,
+   "ci95": [
+    0.095,
+    0.905
+   ],
+   "precision_conservative": 0.5
+  },
+  "g_dup": {
+   "n": 4,
+   "TP": 0,
+   "FP": 4,
+   "DOUBT": 0,
+   "unreviewed": 0,
+   "precision": 0.0,
+   "ci95": [
+    0,
+    0.49
+   ],
+   "precision_conservative": 0.0
+  },
+  "g_format": {
+   "n": 2,
+   "TP": 2,
+   "FP": 0,
+   "DOUBT": 0,
+   "unreviewed": 0,
+   "precision": 1.0,
+   "ci95": [
+    0.342,
+    1
+   ],
+   "precision_conservative": 1.0
+  },
+  "g_obsolete": {
+   "n": 5,
+   "TP": 5,
+   "FP": 0,
+   "DOUBT": 0,
+   "unreviewed": 0,
+   "precision": 1.0,
+   "ci95": [
+    0.566,
+    1
+   ],
+   "precision_conservative": 1.0
+  },
+  "g_obsolete_split": {
+   "n": 1,
+   "TP": 0,
+   "FP": 1,
+   "DOUBT": 0,
+   "unreviewed": 0,
+   "precision": 0.0,
+   "ci95": [
+    0,
+    0.793
+   ],
+   "precision_conservative": 0.0
+  }
+ },
+ "by_lang_drugs": {
+  "en": {
+   "labels": 3759,
+   "coverage": 0.998,
+   "a": 0,
+   "b": 0,
+   "c": 0,
+   "d": 0,
+   "e": 170,
+   "any": 170,
+   "est_errors": 32.0,
+   "est_rate_per_1000": 8.5
+  },
+  "es": {
+   "labels": 2275,
+   "coverage": 0.604,
+   "a": 0,
+   "b": 3,
+   "c": 11,
+   "d": 10,
+   "e": 5,
+   "any": 19,
+   "est_errors": 6.3,
+   "est_rate_per_1000": 2.78
+  },
+  "fr": {
+   "labels": 2811,
+   "coverage": 0.746,
+   "a": 0,
+   "b": 4,
+   "c": 16,
+   "d": 8,
+   "e": 9,
+   "any": 29,
+   "est_errors": 9.2,
+   "est_rate_per_1000": 3.28
+  },
+  "de": {
+   "labels": 2276,
+   "coverage": 0.604,
+   "a": 1,
+   "b": 2,
+   "c": 11,
+   "d": 4,
+   "e": 0,
+   "any": 14,
+   "est_errors": 5.3,
+   "est_rate_per_1000": 2.32
+  },
+  "it": {
+   "labels": 2182,
+   "coverage": 0.579,
+   "a": 0,
+   "b": 2,
+   "c": 21,
+   "d": 6,
+   "e": 0,
+   "any": 23,
+   "est_errors": 7.2,
+   "est_rate_per_1000": 3.29
+  },
+  "pt": {
+   "labels": 1851,
+   "coverage": 0.491,
+   "a": 0,
+   "b": 1,
+   "c": 22,
+   "d": 6,
+   "e": 0,
+   "any": 23,
+   "est_errors": 6.6,
+   "est_rate_per_1000": 3.58
+  },
+  "pl": {
+   "labels": 2101,
+   "coverage": 0.558,
+   "a": 1,
+   "b": 0,
+   "c": 15,
+   "d": 33,
+   "e": 0,
+   "any": 16,
+   "est_errors": 4.7,
+   "est_rate_per_1000": 2.22
+  },
+  "ru": {
+   "labels": 1752,
+   "coverage": 0.465,
+   "a": 56,
+   "b": 3,
+   "c": 19,
+   "d": 12,
+   "e": 5,
+   "any": 77,
+   "est_errors": 48.4,
+   "est_rate_per_1000": 27.64
+  },
+  "uk": {
+   "labels": 1577,
+   "coverage": 0.419,
+   "a": 18,
+   "b": 0,
+   "c": 16,
+   "d": 8,
+   "e": 0,
+   "any": 34,
+   "est_errors": 17.1,
+   "est_rate_per_1000": 10.82
+  },
+  "tr": {
+   "labels": 1262,
+   "coverage": 0.335,
+   "a": 0,
+   "b": 2,
+   "c": 8,
+   "d": 6,
+   "e": 0,
+   "any": 10,
+   "est_errors": 3.8,
+   "est_rate_per_1000": 2.99
+  },
+  "ar": {
+   "labels": 2462,
+   "coverage": 0.653,
+   "a": 4,
+   "b": 0,
+   "c": 20,
+   "d": 12,
+   "e": 11,
+   "any": 34,
+   "est_errors": 10.2,
+   "est_rate_per_1000": 4.14
+  },
+  "fa": {
+   "labels": 2589,
+   "coverage": 0.687,
+   "a": 109,
+   "b": 3,
+   "c": 40,
+   "d": 16,
+   "e": 0,
+   "any": 149,
+   "est_errors": 90.8,
+   "est_rate_per_1000": 35.09
+  },
+  "ur": {
+   "labels": 387,
+   "coverage": 0.103,
+   "a": 20,
+   "b": 0,
+   "c": 3,
+   "d": 0,
+   "e": 0,
+   "any": 22,
+   "est_errors": 15.1,
+   "est_rate_per_1000": 38.94
+  },
+  "hi": {
+   "labels": 322,
+   "coverage": 0.085,
+   "a": 10,
+   "b": 0,
+   "c": 3,
+   "d": 2,
+   "e": 0,
+   "any": 13,
+   "est_errors": 7.9,
+   "est_rate_per_1000": 24.62
+  },
+  "bn": {
+   "labels": 311,
+   "coverage": 0.083,
+   "a": 2,
+   "b": 0,
+   "c": 1,
+   "d": 0,
+   "e": 0,
+   "any": 3,
+   "est_errors": 1.7,
+   "est_rate_per_1000": 5.44
+  },
+  "zh": {
+   "labels": 2482,
+   "coverage": 0.659,
+   "a": 9,
+   "b": 0,
+   "c": 41,
+   "d": 25,
+   "e": 6,
+   "any": 56,
+   "est_errors": 18.3,
+   "est_rate_per_1000": 7.39
+  },
+  "ja": {
+   "labels": 2468,
+   "coverage": 0.655,
+   "a": 7,
+   "b": 0,
+   "c": 28,
+   "d": 14,
+   "e": 0,
+   "any": 35,
+   "est_errors": 12.4,
+   "est_rate_per_1000": 5.01
+  },
+  "ko": {
+   "labels": 1157,
+   "coverage": 0.307,
+   "a": 18,
+   "b": 0,
+   "c": 9,
+   "d": 6,
+   "e": 0,
+   "any": 26,
+   "est_errors": 15.2,
+   "est_rate_per_1000": 13.15
+  },
+  "sw": {
+   "labels": 174,
+   "coverage": 0.046,
+   "a": 0,
+   "b": 0,
+   "c": 0,
+   "d": 0,
+   "e": 0,
+   "any": 0,
+   "est_errors": 0.0,
+   "est_rate_per_1000": 0.0
+  },
+  "am": {
+   "labels": 9,
+   "coverage": 0.002,
+   "a": 0,
+   "b": 0,
+   "c": 0,
+   "d": 0,
+   "e": 0,
+   "any": 0,
+   "est_errors": 0.0,
+   "est_rate_per_1000": 0.0
+  }
+ },
+ "subtype_counts": {
+  "chronic|f|f_doubled": 3,
+  "chronic|f|f_icd11": 1,
+  "disease|a|a_latin": 91,
+  "disease|a|a_mixed": 89,
+  "disease|a|a_nonlatin": 1,
+  "disease|a|a_other": 1,
+  "disease|f|f_cm": 38,
+  "disease|f|f_corrupt": 56,
+  "disease|f|f_doubled": 41,
+  "disease|f|f_icd11": 14,
+  "disease|f|f_range": 156,
+  "drug|a|a_devcode": 6,
+  "drug|a|a_latin": 253,
+  "drug|a|a_mixed": 234,
+  "drug|a|a_nonlatin": 2,
+  "drug|b|b_rxnorm_bn": 20,
+  "drug|c|c_parent_on_salt": 197,
+  "drug|c|c_salt_on_parent": 87,
+  "drug|d|d_diff_en": 168,
+  "drug|e|e_contains": 84,
+  "drug|e|e_different": 113,
+  "drug|e|e_typographic": 9,
+  "drug|g|g_dup": 91,
+  "drug|g|g_format": 2,
+  "drug|g|g_obsolete": 149,
+  "drug|g|g_obsolete_split": 5
+ },
+ "disease_script": {
+  "en": {
+   "labels": 5211,
+   "a_err": 0
+  },
+  "es": {
+   "labels": 3090,
+   "a_err": 0
+  },
+  "fr": {
+   "labels": 4853,
+   "a_err": 0
+  },
+  "de": {
+   "labels": 2845,
+   "a_err": 1
+  },
+  "it": {
+   "labels": 2459,
+   "a_err": 0
+  },
+  "pt": {
+   "labels": 2254,
+   "a_err": 0
+  },
+  "pl": {
+   "labels": 2158,
+   "a_err": 0
+  },
+  "ru": {
+   "labels": 2241,
+   "a_err": 22
+  },
+  "uk": {
+   "labels": 1698,
+   "a_err": 4
+  },
+  "tr": {
+   "labels": 1457,
+   "a_err": 0
+  },
+  "ar": {
+   "labels": 3221,
+   "a_err": 0
+  },
+  "fa": {
+   "labels": 1758,
+   "a_err": 9
+  },
+  "ur": {
+   "labels": 376,
+   "a_err": 2
+  },
+  "hi": {
+   "labels": 665,
+   "a_err": 30
+  },
+  "bn": {
+   "labels": 557,
+   "a_err": 5
+  },
+  "zh": {
+   "labels": 2660,
+   "a_err": 4
+  },
+  "ja": {
+   "labels": 2462,
+   "a_err": 0
+  },
+  "ko": {
+   "labels": 1419,
+   "a_err": 16
+  },
+  "sw": {
+   "labels": 207,
+   "a_err": 0
+  },
+  "am": {
+   "labels": 37,
+   "a_err": 0
+  }
+ },
+ "chronic_flags": [
+  {
+   "flag_id": "F01483",
+   "detector": "f",
+   "subtype": "f_doubled",
+   "domain": "chronic",
+   "qid": "Q12199",
+   "lang": "",
+   "value": "B2424.",
+   "en_label": "HIV/AIDS",
+   "reference": "P494",
+   "extra": "normal; kind=disease",
+   "lastrevid": "2551654413"
+  },
+  {
+   "flag_id": "F01490",
+   "detector": "f",
+   "subtype": "f_icd11",
+   "domain": "chronic",
+   "qid": "Q131755",
+   "lang": "",
+   "value": "6A6",
+   "en_label": "bipolar disorder",
+   "reference": "P7329",
+   "extra": "normal; kind=disease",
+   "lastrevid": "2548406650"
+  },
+  {
+   "flag_id": "F01561",
+   "detector": "f",
+   "subtype": "f_doubled",
+   "domain": "chronic",
+   "qid": "Q159701",
+   "lang": "",
+   "value": "H4040.-H4242.",
+   "en_label": "glaucoma",
+   "reference": "P494",
+   "extra": "normal; kind=disease",
+   "lastrevid": "2522294694"
+  },
+  {
+   "flag_id": "F01596",
+   "detector": "f",
+   "subtype": "f_doubled",
+   "domain": "chronic",
+   "qid": "Q185137",
+   "lang": "",
+   "value": "D5656.",
+   "en_label": "thalassemia",
+   "reference": "P494",
+   "extra": "normal; kind=disease",
+   "lastrevid": "2533227643"
+  }
+ ],
+ "counts": {
+  "drug": {
+   "en": 3759,
+   "es": 2275,
+   "fr": 2811,
+   "de": 2276,
+   "it": 2182,
+   "pt": 1851,
+   "pl": 2101,
+   "ru": 1752,
+   "uk": 1577,
+   "tr": 1262,
+   "ar": 2462,
+   "fa": 2589,
+   "zh": 2482,
+   "ja": 2468,
+   "ko": 1157,
+   "ur": 387,
+   "hi": 322,
+   "bn": 311,
+   "sw": 174,
+   "am": 9
+  },
+  "disease": {
+   "en": 5211,
+   "es": 3090,
+   "fr": 4853,
+   "de": 2845,
+   "it": 2459,
+   "pt": 2254,
+   "ru": 2241,
+   "uk": 1698,
+   "ar": 3221,
+   "fa": 1758,
+   "ur": 376,
+   "pl": 2158,
+   "ja": 2462,
+   "tr": 1457,
+   "zh": 2660,
+   "hi": 665,
+   "bn": 557,
+   "ko": 1419,
+   "sw": 207,
+   "am": 37
+  },
+  "chronic": {
+   "en": 29,
+   "es": 29,
+   "fr": 29,
+   "de": 29,
+   "it": 29,
+   "pt": 28,
+   "pl": 28,
+   "ru": 29,
+   "uk": 29,
+   "tr": 29,
+   "ar": 28,
+   "fa": 28,
+   "ur": 22,
+   "hi": 27,
+   "bn": 28,
+   "zh": 29,
+   "ja": 29,
+   "ko": 28,
+   "sw": 21,
+   "am": 2
+  },
+  "drug_class_items": 363,
+  "disease_kinds": {
+   "disease": 5212,
+   "taxon": 799,
+   "other": 4651,
+   "template": 160,
+   "category": 1
+  },
+  "drug_items": 3768,
+  "disease_items": 10823,
+  "chronic_items": 29,
+  "icd10_values": 5536,
+  "icd11_values": 8193,
+  "atc_values": 4459,
+  "inn_labels_checked": {
+   "en": 1271,
+   "fr": 31,
+   "es": 35,
+   "ru": 26,
+   "ar": 31,
+   "zh": 28
+  },
+  "rxnorm_brand_terms_used": 4125
+ }
+}

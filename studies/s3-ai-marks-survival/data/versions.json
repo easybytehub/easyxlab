@@ -1,0 +1,8 @@
+{
+  "c2patool": "c2patool 0.27.22",
+  "exiftool": "13.55",
+  "ffmpeg": "8.1.2",
+  "Pillow": "12.3.0",
+  "sharp": "0.35.5",
+  "magick-wasm": "0.0.44"
+}

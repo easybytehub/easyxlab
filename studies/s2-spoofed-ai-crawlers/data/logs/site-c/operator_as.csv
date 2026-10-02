@@ -1,0 +1,12 @@
+site,bot,verdict,from_operator_as,from_other_as
+site-c,Amazonbot,indeterminate,1,0
+site-c,Bingbot,spoofed,0,3
+site-c,CCBot,spoofed,0,3
+site-c,ChatGPT-User,spoofed,0,6
+site-c,ClaudeBot,spoofed,0,5
+site-c,GPTBot,spoofed,0,2
+site-c,Google-special,spoofed,0,1
+site-c,Googlebot,spoofed,0,5
+site-c,OAI-SearchBot,spoofed,0,6
+site-c,PerplexityBot,spoofed,0,4
+site-c,YandexBot,spoofed,0,7

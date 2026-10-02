@@ -1,0 +1,121 @@
+site,bot,verdict,user_agent,requests
+site-a,Bingbot,verified,"Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",1721
+site-a,ChatGPT-User,verified,"Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",811
+site-a,ClaudeBot,verified,"Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; ClaudeBot/1.0; +claudebot@anthropic.com)",785
+site-a,Googlebot,spoofed,Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html),680
+site-a,OAI-SearchBot,verified,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.4; +https://openai.com/searchbot",606
+site-a,Amazonbot,indeterminate,Mozilla/5.0 (compatible; Amazonbot/0.1; +https://developer.amazon.com/support/amazonbot),515
+site-a,ChatGPT-User,spoofed,"Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",487
+site-a,GPTBot,verified,"Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)",394
+site-a,CCBot,spoofed,CCBot/2.0 (https://commoncrawl.org/faq/),365
+site-a,PerplexityBot,verified,"Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; PerplexityBot/1.0; +https://perplexity.ai/perplexitybot)",325
+site-a,ChatGPT-User,spoofed,"Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; ChatGPT-User/1.0; +https://openai.com/bot)",318
+site-a,ClaudeBot,spoofed,"Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; ClaudeBot/1.0; +claudebot@anthropic.com)",298
+site-a,Googlebot,verified,Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html),296
+site-a,Amazonbot,indeterminate,Mozilla/5.0 (compatible; Amzn-SearchBot/1.0; +https://developer.amazon.com/support/amazonbot),282
+site-a,PerplexityBot,spoofed,Mozilla/5.0 (compatible; PerplexityBot/1.0; +https://perplexity.ai/perplexitybot),262
+site-a,OAI-SearchBot,spoofed,Mozilla/5.0 (compatible; OAI-SearchBot/1.3; +https://openai.com/searchbot),256
+site-a,Google-Extended,spoofed,Mozilla/5.0 (compatible; Google-Extended/1.0; +http://www.google.com/bot.html),200
+site-a,Amazonbot,indeterminate,"Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Amazonbot/0.1; +https://developer.amazon.com/support/amazonbot) Chrome/119.0.6045.214 Safari/537.36",186
+site-a,Meta-ExternalAgent,unverifiable,Mozilla/5.0 (compatible; Meta-ExternalAgent/1.0; +https://developers.facebook.com/docs/sharing/webmasters/crawler),182
+site-a,OAI-SearchBot,spoofed,"Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; OAI-SearchBot/1.0; +https://openai.com/searchbot",172
+site-a,OAI-SearchBot,verified,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.4; robots.txt; +https://openai.com/searchbot",164
+site-a,Applebot,spoofed,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15 (Applebot/0.1)",164
+site-a,DuckAssistBot,spoofed,DuckAssistBot/1.1 (https://duckduckgo.com/duckassistbot),159
+site-a,PerplexityBot,spoofed,"Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; PerplexityBot/1.0; +https://perplexity.ai/perplexitybot)",158
+site-a,Claude-SearchBot,spoofed,"Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Claude-SearchBot/1.0; +claudebot@anthropic.com)",157
+site-a,Perplexity-User,spoofed,"Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Perplexity-User/1.0; +https://perplexity.ai/perplexitybot)",156
+site-a,GPTBot,spoofed,"Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.3; +https://openai.com/gptbot)",155
+site-a,Claude-User,spoofed,"Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Claude-User/1.0; +claudebot@anthropic.com)",151
+site-a,Googlebot,verified,"Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.8010.52 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",150
+site-a,Bytespider,unverifiable,Mozilla/5.0 (compatible; Bytespider; spider-feedback@bytedance.com) AppleWebKit/537.36,147
+site-a,MistralAI-User,spoofed,Mozilla/5.0 (compatible; MistralAI-User/1.0; +https://mistral.ai/),146
+site-a,OAI-SearchBot,spoofed,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.4; +https://openai.com/searchbot",140
+site-a,Google-Extended,spoofed,Mozilla/5.0 (compatible; Google-Extended; +http://www.google.com/bot.html),135
+site-a,ClaudeBot,spoofed,Mozilla/5.0 (compatible; ClaudeBot/1.0; +claudebot@anthropic.com),134
+site-a,Googlebot,verified,"Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.173 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",134
+site-a,GPTBot,spoofed,"Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)",130
+site-a,Googlebot,spoofed,Mozilla/5.0 (compatible; Google-CloudVertexBot; +https://cloud.google.com/vertex-ai-bot),129
+site-a,YandexBot,spoofed,Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots),121
+site-a,Bytespider,unverifiable,"Mozilla/5.0 (Linux; Android 5.0) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; Bytespider; spider-feedback@bytedance.com)",119
+site-a,GPTBot,spoofed,"Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; GPTBot/1.4; +https://openai.com/gptbot",118
+site-a,Bingbot,spoofed,Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm),109
+site-a,Google-special,verified,Mediapartners-Google,100
+site-a,Applebot,verified,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15 (Applebot/0.1; +http://www.apple.com/go/applebot)",91
+site-a,Applebot,spoofed,Mozilla/5.0 (compatible; Applebot/0.1; +http://www.apple.com/go/applebot),90
+site-a,CCBot,verified,CCBot/2.0 (https://commoncrawl.org/faq/),84
+site-a,YandexBot,verified,Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots),79
+site-a,Meta-ExternalAgent,unverifiable,meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler),77
+site-a,Perplexity-User,spoofed,"Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; Perplexity-User/1.0; +https://perplexity.ai/perplexity-user",75
+site-a,ClaudeBot,spoofed,Mozilla/5.0 (compatible; Claude-Web/1.0; +https://www.anthropic.com),70
+site-a,ClaudeBot,spoofed,"Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ClaudeBot/1.0; +mailto:support@anthropic.com",69
+site-a,Meta-ExternalAgent,unverifiable,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webma",69
+site-a,Bytespider,unverifiable,Mozilla/5.0 (compatible; Bytespider; spider-feedback@bytedance.com),67
+site-a,ClaudeBot,spoofed,anthropic-ai,66
+site-a,GPTBot,spoofed,"Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; GPTBot/1.2; +https://openai.com/gptbot",66
+site-a,PerplexityBot,spoofed,"Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; PerplexityBot/1.0; +https://perplexity.ai/perplexitybot",65
+site-a,OAI-SearchBot,verified,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.0; +https://openai.com/searchbot",65
+site-a,DuckDuckBot,verified,DuckDuckBot/1.1; (+http://duckduckgo.com/duckduckbot.html),62
+site-a,Googlebot,verified,"Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.173 Mobile Safari/537.36 (compatible; GoogleOther)",50
+site-a,Googlebot,verified,"Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.8010.47 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",46
+site-a,Googlebot,verified,Googlebot-Image/1.0,45
+site-a,Googlebot,verified,"Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.7977.82 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",45
+site-a,Claude-User,spoofed,Claude-User,44
+site-a,Googlebot,verified,"Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.8010.36 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",35
+site-a,Googlebot,verified,"Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.186 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",33
+site-a,Googlebot,verified,"Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.137 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",30
+site-a,Bingbot,verified,"Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/136.0.0.0 Safari/537.36 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/",28
+site-a,Meta-ExternalAgent,unverifiable,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing",26
+site-a,Googlebot,verified,Mozilla/5.0 (compatible; Google-InspectionTool/1.0),26
+site-a,Googlebot,verified,"Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.186 Mobile Safari/537.36 (compatible; GoogleOther)",24
+site-a,Perplexity-User,spoofed,"Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Perplexity-User/1.0; +https://perplexity.ai/perplexity-user)",20
+site-a,YandexBot,verified,"Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0",19
+site-a,OAI-SearchBot,spoofed,"Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; OAI-SearchBot/1.0; +https://openai.com/searchbot)",18
+site-a,Claude-User,spoofed,Mozilla/5.0 (compatible; Claude-User/1.0; +https://www.anthropic.com/claude-user),18
+site-a,Googlebot,verified,"Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.128 Mobile Safari/537.36 (compatible; GoogleOther)",17
+site-a,DuckDuckBot,spoofed,Mozilla/5.0 (compatible; DuckDuckBot/1.1; +http://duckduckgo.com/duckduckbot.html),17
+site-a,Googlebot,verified,"Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",16
+site-a,ChatGPT-User,spoofed,Mozilla/5.0 (compatible; ChatGPT-User/1.0; +https://openai.com/bot),15
+site-a,OAI-SearchBot,spoofed,"Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; OAI-SearchBot/1.4; robots.txt; +https://openai.com/searchbot)",14
+site-a,Perplexity-User,spoofed,Mozilla/5.0 (compatible; Perplexity-User/1.0; +https://perplexity.ai/perplexity-user),14
+site-a,Googlebot,verified,"Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.71 Mobile Safari/537.36 (compatible; Google-InspectionTool/1.0)",13
+site-a,Googlebot,verified,"Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.137 Mobile Safari/537.36 (compatible; GoogleOther)",12
+site-a,Googlebot,spoofed,Mozilla/5.0 (compatible; GoogleOther; +https://developers.google.com/search/),12
+site-a,Bytespider,unverifiable,"Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_2 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Version/7.0 Mobile Safari/537.36 (compatible; Bytespider; https://bytedance.sg.larkoffice.com/docx/K5bxdy",12
+site-a,Claude-User,spoofed,"Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Claude-User/1.0; +https://www.anthropic.com/claude-user)",12
+site-a,Claude-SearchBot,spoofed,"Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Claude-SearchBot/1.0; +https://www.anthropic.com/claude-searchbot)",10
+site-a,Claude-User,spoofed,"Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Claude-User/1.0; +Claude-User@anthropic.com)",10
+site-a,Claude-User,spoofed,"Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; Claude-User/1.0; +https://www.anthropic.com/claude-user",10
+site-a,Meta-ExternalAgent,unverifiable,Mozilla/5.0 (compatible; meta-externalagent/1.1; +https://developers.facebook.com/docs/sharing/webmasters/crawler),10
+site-a,Googlebot,verified,"Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.137 Mobile Safari/537.36 (compatible; Google-InspectionTool/1.0)",9
+site-a,GPTBot,spoofed,"Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.2; +https://openai.com/gptbot)",9
+site-a,Google-Extended,spoofed,"Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Google-Extended/1.0; +http://www.google.com/bot.html)",9
+site-a,Bingbot,verified,"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534+ (KHTML, like Gecko) BingPreview/1.0b",9
+site-a,GPTBot,spoofed,Mozilla/5.0 (compatible; GPTBot/1.2; +https://openai.com/gptbot),8
+site-a,Amazonbot,indeterminate,"Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Amzn-SearchBot/1.0; +https://developer.amazon.com/support/amazonbot)",8
+site-a,Meta-ExternalAgent,unverifiable,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/craw",7
+site-a,YandexBot,verified,"Mozilla/5.0 (compatible; YandexRenderResourcesBot/1.0; +http://yandex.com/bots) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0",7
+site-a,OAI-SearchBot,spoofed,"Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; OAI-SearchBot/1.3; +https://openai.com/searchbot)",7
+site-a,Claude-User,spoofed,Mozilla/5.0 (compatible; Claude-User/1.0; +Claude-User@anthropic.com),7
+site-a,Claude-SearchBot,spoofed,Mozilla/5.0 (compatible; Claude-SearchBot/1.0; +https://www.anthropic.com/claude-searchbot),6
+site-a,Applebot,spoofed,"Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Applebot/0.1; +http://www.apple.com/go/applebot)",6
+site-a,Bytespider,unverifiable,Mozilla/5.0 (compatible; Bytespider; +https://zhanzhang.toutiao.com/),6
+site-a,Claude-User,verified,"Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Claude-User/1.0; +claude-user@anthropic.com)",6
+site-a,Meta-ExternalAgent,unverifiable,"Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; meta-externalagent/1.1; +https://developers.facebook.com/docs/sharing/webmasters/crawler",5
+site-a,Bytespider,unverifiable,"Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Bytespider; +https://zhanzhang.toutiao.com/)",5
+site-a,OAI-SearchBot,spoofed,Mozilla/5.0 (compatible; OAI-SearchBot/1.4; robots.txt; +https://openai.com/searchbot),5
+site-a,Google-Extended,spoofed,"Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; Google-Extended/1.0; +http://www.google.com/bot.html",5
+site-a,DuckAssistBot,verified,DuckAssistBot/1.2; (+http://duckduckgo.com/duckassistbot.html),5
+site-a,Googlebot,verified,"Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.7977.64 Mobile Safari/537.36 (compatible; Google-InspectionTool/1.0)",4
+site-a,Amazonbot,indeterminate,"Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; Amzn-SearchBot/1.0; +https://developer.amazon.com/support/amazonbot",4
+site-a,Amazonbot,indeterminate,"Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Amazonbot/0.1; +https://developer.amazon.com/support/amazonbot)",4
+site-a,DuckDuckBot,verified,DuckDuckBot/1.0; (+http://duckduckgo.com/duckduckbot.html),4
+site-a,Meta-ExternalAgent,unverifiable,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs",3
+site-a,OAI-SearchBot,spoofed,"Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; OAI-SearchBot/1.3; +https://openai.com/searchbot",3
+site-a,ClaudeBot,spoofed,"Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ClaudeBot/1.0; +claudebot@anthropic.com",3
+site-a,Amazonbot,indeterminate,"Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; Amazonbot/0.1; +https://developer.amazon.com/support/amazonbot",3
+site-a,Bytespider,unverifiable,"Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; Bytespider; +https://zhanzhang.toutiao.com/",3
+site-a,Claude-User,spoofed,"Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; Claude-User/1.0; +Claude-User@anthropic.com",3
+site-a,Meta-ExternalAgent,unverifiable,"Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; meta-externalagent/1.1; +https://developers.facebook.com/docs/sharing/webmasters/crawler)",3
+site-a,Claude-Code(client),unverifiable,Claude-User (claude-code/2.1.281; +https://support.anthropic.com/),3
+site-a,Google-special,verified,"Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.8010.52 Mobile Safari/537.36 (compatible; AdsBot-Google-Mobile; +http://www.google.com/mob",3

@@ -1,0 +1,21 @@
+site,bot,operator,purpose,method,verdict,requests,unique_ips,median_req_per_ip,ips_fetching_robots,ips_robots_first,ips_with_vuln_probe,doc_url
+site-c,Googlebot,Google,search-engine,ranges+fcrdns,verified,131,27,3,12,3,0,https://developers.google.com/search/docs/crawling-indexing/verifying-googlebot
+site-c,ClaudeBot,Anthropic,training,ranges,verified,105,2,52.5,2,1,0,https://support.claude.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler
+site-c,YandexBot,Yandex,search-engine,fcrdns,verified,90,87,1,23,23,0,https://yandex.com/support/webmaster/robot-workings/check-yandex-robots.html
+site-c,GPTBot,OpenAI,training,ranges,verified,23,2,11.5,0,0,0,https://platform.openai.com/docs/bots
+site-c,Applebot,Apple,search-engine,ranges+fcrdns,verified,19,13,1,6,6,0,https://support.apple.com/en-us/119829
+site-c,OAI-SearchBot,OpenAI,search-index,ranges,verified,7,2,3.5,2,2,0,https://platform.openai.com/docs/bots
+site-c,YandexBot,Yandex,search-engine,fcrdns,spoofed,7,1,7,0,0,1,https://yandex.com/support/webmaster/robot-workings/check-yandex-robots.html
+site-c,ChatGPT-User,OpenAI,user-fetch,ranges,spoofed,6,1,6,0,0,1,https://platform.openai.com/docs/bots
+site-c,DuckDuckBot,DuckDuckGo,search-engine,ranges,verified,6,2,3.0,0,0,0,https://duckduckgo.com/duckduckgo-help-pages/results/duckduckbot
+site-c,OAI-SearchBot,OpenAI,search-index,ranges,spoofed,6,2,3.0,1,0,1,https://platform.openai.com/docs/bots
+site-c,ClaudeBot,Anthropic,training,ranges,spoofed,5,1,5,0,0,1,https://support.claude.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler
+site-c,Googlebot,Google,search-engine,ranges+fcrdns,spoofed,5,2,2.5,0,0,1,https://developers.google.com/search/docs/crawling-indexing/verifying-googlebot
+site-c,PerplexityBot,Perplexity,search-index,ranges,spoofed,4,1,4,0,0,1,https://docs.perplexity.ai/guides/bots
+site-c,Bingbot,Microsoft,search-engine,ranges+fcrdns,spoofed,3,1,3,0,0,1,https://www.bing.com/toolbox/bingbot.json
+site-c,Bingbot,Microsoft,search-engine,ranges+fcrdns,verified,3,3,1,1,1,0,https://www.bing.com/toolbox/bingbot.json
+site-c,CCBot,Common Crawl,training,ranges+fcrdns,spoofed,3,1,3,0,0,1,https://commoncrawl.org/ccbot
+site-c,Claude-User,Anthropic,user-fetch,ranges,verified,3,1,3,0,0,0,https://support.claude.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler
+site-c,GPTBot,OpenAI,training,ranges,spoofed,2,1,2,0,0,1,https://platform.openai.com/docs/bots
+site-c,Amazonbot,Amazon,search-index,list-not-machine-readable,indeterminate,1,1,1,0,0,0,https://developer.amazon.com/amazonbot
+site-c,Google-special,Google,other,ranges+fcrdns,spoofed,1,1,1,0,0,0,https://developers.google.com/search/docs/crawling-indexing/verifying-googlebot

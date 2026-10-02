@@ -1,0 +1,95 @@
+{
+  "tool": "ai-bot-verify 0.1.0",
+  "site": "site-b",
+  "window_utc": [
+    "2026-09-24T13:45:28+00:00",
+    "2026-10-02T15:22:30+00:00"
+  ],
+  "log_lines": 13383,
+  "parsed_lines": 13383,
+  "declared_bot_requests": 1481,
+  "verdict_totals": {
+    "verified": 1439,
+    "spoofed": 3,
+    "unverifiable": 39
+  },
+  "unique_ips_by_verdict": {
+    "verified": 416,
+    "spoofed": 1,
+    "unverifiable": 28,
+    "indeterminate": 0
+  },
+  "via_cdn": {
+    "verified|cdn": 1439,
+    "spoofed|cdn": 3,
+    "unverifiable|cdn": 39
+  },
+  "range_files": {
+    "google-common": {
+      "url": "https://developers.google.com/static/crawling/ipranges/common-crawlers.json",
+      "creationTime": "2026-10-02T14:46:11.000000",
+      "prefixes": 317
+    },
+    "bing": {
+      "url": "https://www.bing.com/toolbox/bingbot.json",
+      "creationTime": "2024-01-03T10:00:00.121331",
+      "prefixes": 28
+    },
+    "apple": {
+      "url": "https://search.developer.apple.com/applebot.json",
+      "creationTime": "2026-09-15T10:00:00.000000",
+      "prefixes": 24
+    },
+    "google-special": {
+      "url": "https://developers.google.com/static/crawling/ipranges/special-crawlers.json",
+      "creationTime": "2026-10-02T14:46:13.000000",
+      "prefixes": 272
+    },
+    "google-user-fetchers": {
+      "url": "https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers.json",
+      "creationTime": "2026-10-02T14:46:16.000000",
+      "prefixes": 1062
+    },
+    "google-user-fetchers-google": {
+      "url": "https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json",
+      "creationTime": "2026-10-02T14:46:09.000000",
+      "prefixes": 502
+    },
+    "google-user-agents": {
+      "url": "https://developers.google.com/static/crawling/ipranges/user-triggered-agents.json",
+      "creationTime": "2026-10-02T14:46:16.000000",
+      "prefixes": 20
+    },
+    "openai-searchbot": {
+      "url": "https://openai.com/searchbot.json",
+      "creationTime": "2026-01-02T11:00:00.000000",
+      "prefixes": 39
+    },
+    "openai-gptbot": {
+      "url": "https://openai.com/gptbot.json",
+      "creationTime": "2026-09-22T02:00:07.000000",
+      "prefixes": 18
+    },
+    "anthropic": {
+      "url": "https://claude.com/crawling/bots.json",
+      "creationTime": "2026-08-18T23:56:36Z",
+      "prefixes": 26
+    },
+    "duckassistbot": {
+      "url": "https://duckduckgo.com/duckassistbot.json",
+      "creationTime": "2026-09-01T12:44:58.000000",
+      "prefixes": 486
+    },
+    "duckduckbot": {
+      "url": "https://duckduckgo.com/duckduckbot.json",
+      "creationTime": "2026-09-01T12:44:58.000000",
+      "prefixes": 486
+    },
+    "openai-chatgpt-user": {
+      "url": "https://openai.com/chatgpt-user.json",
+      "creationTime": "2026-09-25T18:04:57.257335",
+      "prefixes": 230
+    }
+  },
+  "warnings": []
+}

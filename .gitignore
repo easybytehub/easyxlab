@@ -1,0 +1,16 @@
+# datos crudos y privados: nunca se publican
+**/data/raw/
+**/private/
+**/.venv/
+**/__pycache__/
+**/.cache/
+.DS_Store
+**/node_modules/
+studies/s3-ai-marks-survival/tools/
+studies/s3-ai-marks-survival/work/
+# internal: R&D tax memos and trackers live in the private vault
+**/RD-MEMO.md
+**/STATUS.md
+**/.pytest_cache/
+# raw third-party API dump (contains researchers' contact details)
+studies/s4-wikidata-drug-labels/data/reference/europepmc_*.json

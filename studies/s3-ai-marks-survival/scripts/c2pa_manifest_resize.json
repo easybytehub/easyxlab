@@ -1,0 +1,10 @@
+{
+  "alg": "es256",
+  "private_key": "../tools/c2patool/sample/es256_private.key",
+  "sign_cert": "../tools/c2patool/sample/es256_certs.pem",
+  "claim_generator_info": [{ "name": "EasyByte-Lab-S3-pipeline", "version": "1.0" }],
+  "title": "S3 resized derivative",
+  "assertions": [
+    { "label": "c2pa.actions", "data": { "actions": [ { "action": "c2pa.resized" } ] } }
+  ]
+}

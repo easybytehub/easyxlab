@@ -1,0 +1,4 @@
+site,asn,as_name,country,net_type,requests,unique_ips,spoofed_requests,unverifiable_requests,indeterminate_requests,claimed_bots
+site-c,400529,"INFRALY-LLC - Infraly, LLC, US",US,unknown,39,1,39,0,0,YandexBot:7;ChatGPT-User:6;ClaudeBot:5;OAI-SearchBot:5;Googlebot:4;PerplexityBot:4;CCBot:3;Bingbot:3;GPTBot:2
+site-c,3352,"Telefonica_de_EspaNa - TELEFONICA DE ESPANA S.A.U., ES",ES,isp/residential,3,1,3,0,0,OAI-SearchBot:1;Googlebot:1;Google-special:1
+site-c,14618,"AMAZON-AES - Amazon.com, Inc., US",US,cloud/hosting,1,1,0,0,1,Amazonbot:1

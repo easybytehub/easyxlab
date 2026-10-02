@@ -1,0 +1,20 @@
+asn,as_name,country,net_type,spoofed_requests,unverifiable_requests,indeterminate_requests,unique_ips,claimed_bots
+396982,"GOOGLE-CLOUD-PLATFORM - Google LLC, US",US,cloud/hosting,9545,974,738,22,Claude-User:874;GPTBot:848;ChatGPT-User:790;Google-Extended:772;ClaudeBot:768;Amazonbot:738;Claude-SearchBot:714;Perplexity-User:691
+400810,"BREEZETECH - BreezeHost, US",US,cloud/hosting,737,0,0,2,Googlebot:147;CCBot:100;ChatGPT-User:85;YandexBot:84;PerplexityBot:78;GPTBot:72;OAI-SearchBot:63;ClaudeBot:58
+32934,"FACEBOOK - Facebook, Inc., US",IE,cloud/hosting,0,269,0,161,Meta-ExternalAgent:269
+16509,"AMAZON-02 - Amazon.com, Inc., US",US,cloud/hosting,44,198,0,90,Bytespider:198;Claude-User:44
+14618,"AMAZON-AES - Amazon.com, Inc., US",US,cloud/hosting,1,0,113,102,Amazonbot:113;Google-fetcher:1
+13335,"CLOUDFLARENET - Cloudflare, Inc., US",US,cloud/hosting,73,0,0,10,ChatGPT-User:37;Googlebot:36
+400529,"INFRALY-LLC - Infraly, LLC, US",US,unknown,59,0,0,1,PerplexityBot:9;YandexBot:9;Googlebot:8;ChatGPT-User:8;ClaudeBot:7;CCBot:6;OAI-SearchBot:5;GPTBot:4
+132892,"CLOUDFLARE - Cloudflare, Inc., US",US,cloud/hosting,16,0,0,1,Googlebot:9;ChatGPT-User:7
+13238,"YANDEX - YANDEX LLC, RU",RU,unknown,14,0,0,6,YandexBot:14
+3352,"Telefonica_de_EspaNa - TELEFONICA DE ESPANA S.A.U., ES",ES,isp/residential,14,0,0,1,Google-special:8;OAI-SearchBot:3;Googlebot:3
+53514,"UHQ - UHQ Services LLC, US",US,unknown,4,2,0,1,Meta-ExternalAgent:2;ChatGPT-User:1;ClaudeBot:1;Applebot:1;Googlebot:1
+14061,"DIGITALOCEAN-ASN - DigitalOcean, LLC, US",US,cloud/hosting,4,0,0,1,ChatGPT-User:3;Googlebot:1
+399979,"AS-493NETWORKING - 49.3 Networking LLC, US",US,unknown,3,0,0,1,Google-fetcher:1;Googlebot:1;Bingbot:1
+12334,"UNSPECIFIED - R Cable y Telecable Telecomunicaciones, S.A.U., ES",ES,isp/residential,0,3,0,1,Claude-Code(client):3
+23724,"CHINANET-IDC-BJ-AP - IDC, China Telecommunications Corporation, CN",CN,cloud/hosting,0,2,0,2,Bytespider:2
+47890,"UNMANAGED-DEDICATED-SERVERS - UNMANAGED LTD, GB",RO,cloud/hosting,1,0,0,1,Bingbot:1
+6830,"LibertyGlobal - Liberty Global Europe Holding B.V., NL",UA,unknown,1,0,0,1,ChatGPT-User:1
+213541,"ws-telecom-sdn - WS Telecom Inc, US",RU,isp/residential,1,0,0,1,ChatGPT-User:1
+12479,"UNI2-AS - Orange Espagne SA, ES",ES,isp/residential,0,1,0,1,Claude-Code(client):1

@@ -1,0 +1,29 @@
+{
+  "retrieved_at_utc": "2026-10-02T15:25:04Z",
+  "rxnorm_BN": {
+    "url": "https://rxnav.nlm.nih.gov/REST/Prescribe/allconcepts.json?tty=BN",
+    "n": 4134
+  },
+  "rxnorm_IN": {
+    "url": "https://rxnav.nlm.nih.gov/REST/Prescribe/allconcepts.json?tty=IN",
+    "n": 5844
+  },
+  "rxnorm_PIN": {
+    "url": "https://rxnav.nlm.nih.gov/REST/Prescribe/allconcepts.json?tty=PIN",
+    "n": 1943
+  },
+  "rxnorm_MIN": {
+    "url": "https://rxnav.nlm.nih.gov/REST/Prescribe/allconcepts.json?tty=MIN",
+    "n": 961
+  },
+  "drugbank_vocabulary": {
+    "url": "https://go.drugbank.com/releases/latest/downloads/all-drugbank-vocabulary",
+    "status": 403,
+    "used": false,
+    "note": "not downloadable without registration"
+  },
+  "atc_alterations": {
+    "url": "https://atcddd.fhi.no/atc_ddd_alterations__cumulative/atc_alterations/",
+    "n_rows": 355
+  }
+}

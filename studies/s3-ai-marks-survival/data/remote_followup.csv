@@ -1,0 +1,7 @@
+case,derivative,validation_state,failures
+jpg-sidecar,side.jpg,Valid,signingCredential.untrusted
+jpg-sidecar,side-resized.jpg,Invalid,assertion.dataHash.mismatch|signingCredential.untrusted
+png-sidecar,side.png,Valid,signingCredential.untrusted
+png-sidecar,side-resized.png,Invalid,assertion.dataHash.mismatch|signingCredential.untrusted
+webp-sidecar,side.webp,Valid,signingCredential.untrusted
+webp-sidecar,side-resized.webp,Invalid,assertion.dataHash.mismatch|signingCredential.untrusted

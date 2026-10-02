@@ -1,0 +1,147 @@
+qid,kind,lang,old_value,new_value,error_type,action,source,lastrevid_reviewed,in_qs
+Q408535,label,fa,seroquel,کوئتیاپین,b brand (Seroquel),set fa label,sitelink title on fawiki (same item),2545412299,yes
+Q412174,label,fa,Lyrica,پرگابالین,b brand (Lyrica) + a script,set fa label,sitelink title on fawiki (same item),2545423371,yes
+Q352348,label,fa,differin,آداپالن,b brand (Differin) + a script,set fa label,sitelink title on fawiki (same item),2487590155,yes
+Q413586,label,ru,naftin,нафтифин,b brand (Naftin) + a script,set ru label,sitelink title on ruwiki (same item),2539061844,yes
+Q424760,label,ru,avodart,дутастерид,b brand (Avodart) + a script,set ru label,sitelink title on ruwiki (same item),2466106766,yes
+Q1207210,label,es,focalin,dexmetilfenidato,b brand (Focalin),set es label,sitelink title on eswiki (same item) 'Dexmetilfenidato (medicación)',2540293237,yes
+Q4919218,label,it,angiomax,bivalirudina,b brand (Angiomax),set it label,sitelink title on itwiki (same item),2456053934,yes
+Q2060696,label,tr,esbriet,pirfenidon,b brand (Esbriet),set tr label,sitelink title on trwiki (same item),2526203115,yes
+Q924467,label,de,CAPEX,Fluocinolonacetonid,b brand (Capex),set de label,sitelink title on dewiki (same item),2507911089,yes
+Q1706418,label,fr,dexedrine,dextroamphétamine,b brand (Dexedrine),set fr label,sitelink title on frwiki (same item),2550378048,yes
+Q2981100,label,fr,Coartem,artéméther-luméfantrine,b brand (Coartem),set fr label,sitelink title on frwiki (same item),2505134906,yes
+Q2412859,label,fr,Truvada,emtricitabine/ténofovir,b brand (Truvada),set fr label,sitelink title on frwiki (same item),2526775097,yes
+Q419468,label,fr,mycoster,ciclopirox,"b brand (Mycoster, FR)",set fr label,WHO INN French form in P2275 (fr) of the same item,2507903223,yes
+Q631202,label,ru,Arcoxia,эторикоксиб,brand (Arcoxia) + a script,set ru label,sitelink title on ruwiki (same item),2425348234,yes
+Q421156,label,ru,behicar,олмесартан,brand + a script,set ru label,sitelink title on ruwiki (same item),2551391002,yes
+Q416516,label,ru,lobenox,эноксапарин натрия,brand + a script,set ru label,sitelink title on ruwiki (same item),2383153305,yes
+Q422669,label,ko,macrodantina,니트로푸란토인,brand (Spanish-language) + a script,set ko label,sitelink title on kowiki (same item),2535643068,yes
+Q424156,label,zh,cialis tadalafil,他达拉非,brand + a script,set zh label,sitelink title on zhwiki (same item),2534412158,yes
+Q947266,label,fa,irbesartan teva,ایربسارتان,manufacturer product name + a script,set fa label,sitelink title on fawiki (same item),2507911241,yes
+Q418086,label,fa,selexid,پیومسیلینام,brand (Selexid) + a script,set fa label,sitelink title on fawiki (same item),2507902237,yes
+Q3978097,label,fa,supofen,سوپروفن,misspelling + a script,set fa label,sitelink title on fawiki (same item),2507926384,yes
+Q417219,label,fa,stanazol,استانوزولول,misspelling + a script,set fa label,sitelink title on fawiki (same item),2538594706,yes
+Q425137,label,fa,fintolimod,فینگولیمود,misspelling + a script,set fa label,sitelink title on fawiki (same item),2507907121,yes
+Q1996249,label,fa,mohamad,بلیموماب,vandalism (personal name as label) + a script,set fa label,sitelink title on fawiki (same item),2532214475,yes
+Q3074500,label,fa,pregabalin,فلومکین,wrong substance (flumequine labelled pregabalin),set fa label,sitelink title on fawiki (same item),2507922075,yes
+Q963406,label,fa,pinaverium,سیمهتروپیوم برماید,wrong substance (cimetropium labelled pinaverium),set fa label,sitelink title on fawiki (same item),2526655600,yes
+Q1703024,label,ru,tearlose,искусственные слёзы,brand + a script,set ru label,sitelink title on ruwiki (same item),2529783480,yes
+Q413370,label,ja,UFT,テガフール,combination brand abbreviation on tegafur item,set ja label,sitelink title on jawiki (same item),2425329887,yes
+Q5861101,label,ko,tetan,파상풍 백신,truncated Latin label,set ko label,sitelink title on kowiki (same item),2528917890,yes
+Q7119591,label,uk,PLAU,урокіназа,gene symbol as label of the medicine,set uk label,sitelink title on ukwiki (same item),2551077071,yes
+Q15410941,label,ru,Eravacycline,эравациклин,a script,set ru label,sitelink title on ruwiki (same item),2510502942,yes
+Q15426992,label,ru,Omadacycline,омадациклин,a script,set ru label,sitelink title on ruwiki (same item),2510495890,yes
+Q23044263,label,ru,Lifitegrast,лифитеграст,a script,set ru label,sitelink title on ruwiki (same item),2473970517,yes
+Q3960572,label,ru,Siltuximab,силтуксимаб,a script,set ru label,sitelink title on ruwiki (same item),2542203006,yes
+Q408283,label,ru,denosumab,деносумаб,a script,set ru label,sitelink title on ruwiki (same item),2476264680,yes
+Q410551,label,ru,boceprevir,боцепревир,a script,set ru label,sitelink title on ruwiki (same item),2507897147,yes
+Q419663,label,ru,Methimazole,тиамазол,a script (USAN in Latin),set ru label,sitelink title on ruwiki (same item),2548191104,yes
+Q420857,label,ru,Sugammadex,сугаммадекс,a script,set ru label,sitelink title on ruwiki (same item),2527191264,yes
+Q420859,label,ru,Oxandrolone,оксандролон,a script,set ru label,sitelink title on ruwiki (same item),2552141697,yes
+Q421104,label,ru,tetrazepam,тетразепам,a script,set ru label,sitelink title on ruwiki (same item),2538653434,yes
+Q422435,label,ru,bromezepam,бромазепам,a script + misspelling,set ru label,sitelink title on ruwiki (same item),2538597207,yes
+Q4712900,label,ru,Alcaftadine,алкафтадин,a script,set ru label,sitelink title on ruwiki (same item),2550248363,yes
+Q7290345,label,ru,Ramucirumab,рамуцирумаб,a script,set ru label,sitelink title on ruwiki (same item),2529568666,yes
+Q7918002,label,ru,Vedolizumab,ведолизумаб,a script,set ru label,sitelink title on ruwiki (same item),2483395412,yes
+Q17014149,label,ru,Florbetaben,флорбетабен (18F),a script,set ru label,sitelink title on ruwiki (same item),2507967335,yes
+Q908104,label,ru,MMR vaccine,вакцина MMR,a script (English phrase),set ru label,sitelink title on ruwiki (same item),2506025397,yes
+Q97154240,label,ru,tozinameran,тозинамеран,a script,set ru label,WHO INN Russian form in P2275 (ru) of the same item,2546653580,yes
+Q415220,label,uk,pemetrexed,пеметрексед,a script,set uk label,sitelink title on ukwiki (same item),2507900457,yes
+Q419319,label,uk,bortezomib,бортезоміб,a script,set uk label,sitelink title on ukwiki (same item),2547760765,yes
+Q97154233,label,uk,CoronaVac,Коронавак,a script,set uk label,sitelink title on ukwiki (same item),2348810984,yes
+Q16392,label,ur,Isopropyl alcohol,آئیسو پروپائل الکحل,a script (English),set ur label,sitelink title on urwiki (same item),2549516380,yes
+Q172275,label,ur,Chloroform,کلوروفام,a script (English),set ur label,sitelink title on urwiki (same item),2549527617,yes
+Q181354,label,ur,Biotin,بائیوٹن,a script (English),set ur label,sitelink title on urwiki (same item),2545368622,yes
+Q18216,label,ur,Aspirin,ایسپرین,a script (English),set ur label,sitelink title on urwiki (same item),2538572110,yes
+Q192423,label,ur,Nicotinamide,نکوٹینا مائیڈ,a script (English),set ur label,sitelink title on urwiki (same item),2549529412,yes
+Q48318,label,ur,Urea,یوریا,a script (English),set ur label,sitelink title on urwiki (same item),2549518518,yes
+Q905750,label,ur,Nitrous oxide,نائٹرس آکسائڈ,a script (English),set ur label,sitelink title on urwiki (same item),2551136782,yes
+Q122043,label,ur,Fructose,فرکٹوس,a script (English),set ur label,sitelink title on urwiki (same item),2549523779,yes
+Q171877,label,ur,Hydrogen peroxide,ہائیڈروجن پر آکسائیڈ,a script (English),set ur label,sitelink title on urwiki (same item),2549527580,yes
+Q422241,label,ur,Sodium lauryl sulfate,سوڈیم ڈوڈیسائل سلفیٹ,a script (English),set ur label,sitelink title on urwiki (same item),2549546589,yes
+Q165660,label,ur,Atracurium,اٹراکوریم,a script,set ur label,sitelink title on urwiki (same item),2517989843,yes
+Q186969,label,bn,ibuprofen,আইবুপ্রোফেন,a script,set bn label,sitelink title on bnwiki (same item),2497163918,yes
+Q240642,label,hi,valporic acid,वैलप्रोइक अम्ल,a script + misspelling,set hi label,sitelink title on hiwiki (same item),2539214738,yes
+Q423075,label,hi,cetrazine,सेटिरिज़िन,a script + misspelling,set hi label,sitelink title on hiwiki (same item),2551299631,yes
+Q2734874,label,fa,lornoxicam,لورنوکسیکام,a script,set fa label,sitelink title on fawiki (same item),2507919489,yes
+Q2393348,label,fa,Bimatoprost,بیماتوپروست,a script,set fa label,sitelink title on fawiki (same item),2507917347,yes
+Q424952,label,fa,nadolol,نادولول,a script,set fa label,sitelink title on fawiki (same item),2543041904,yes
+Q422071,label,fa,guar gum,صمغ گوآر,a script (English),set fa label,sitelink title on fawiki (same item),2484696352,yes
+Q3045264,label,ko,Estazolam,에스타졸람,a script,set ko label,sitelink title on kowiki (same item),2538615563,yes
+Q419772,label,ko,polycosanol,폴리코사놀,a script,set ko label,sitelink title on kowiki (same item),2538180323,yes
+Q868658,label,ko,Perampanel,페람파넬,a script,set ko label,sitelink title on kowiki (same item),2538713571,yes
+Q418957,label,ko,PLP,피리독살 인산,a script (abbreviation),set ko label,sitelink title on kowiki (same item),2507902866,yes
+Q3791531,label,zh,Ibalizumab,伊巴珠单抗,a script,set zh label,sitelink title on zhwiki (same item),2507925432,yes
+Q6960846,label,zh,Naldemedine,纳地美定,a script,set zh label,sitelink title on zhwiki (same item),2507948055,yes
+Q4779975,label,zh,Plitidepsin,普利提环肽,a script,set zh label,sitelink title on zhwiki (same item),2510503661,yes
+Q99754007,label,zh,Ropeginterferon alfa-2b,罗培干扰素α-2b,a script,set zh label,sitelink title on zhwiki (same item),2476265167,yes
+Q419820,label,pl,Азеластин,azelastyna,a script (Cyrillic in pl),set pl label,sitelink title on plwiki (same item),2507903656,yes
+Q240642,label,fa,والپروات سدیم,والپروات,c sodium salt on parent acid,set fa label,sitelink title on fawiki (same item),2539214738,yes
+Q244408,label,zh,双氯芬酸钠,双氯芬酸,c sodium salt on parent,set zh label,sitelink title on zhwiki (same item),2551158788,yes
+Q421091,label,zh,鹽酸左西替利嗪,左西替利嗪,c hydrochloride on parent,set zh label,sitelink title on zhwiki (same item),2507905093,yes
+Q410074,label,zh,氯沙坦鉀,氯沙坦,c potassium salt on parent,set zh label,sitelink title on zhwiki (same item),2550564824,yes
+Q773449,label,zh,左旋甲狀腺素鈉,左旋甲狀腺素,c sodium salt on parent,set zh label,sitelink title on zhwiki (same item),2541515403,yes
+Q3633651,label,it,Bambuterolo cloridrato,bambuterolo,c hydrochloride on parent,set it label,sitelink title on itwiki (same item),2507925106,yes
+Q421274,label,fa,دانترولین سدیم,دانترولین,c sodium salt on parent,set fa label,sitelink title on fawiki (same item),2507905348,yes
+Q553223,label,fa,امپرازول,اسامپرازول,d wrong substance (esomeprazole labelled omeprazole),set fa label,sitelink title on fawiki (same item),2518394213,yes
+Q416791,label,fa,دوکسپین,سیدوکسپین,d wrong substance (cidoxepin labelled doxepin),set fa label,sitelink title on fawiki (same item),2510794399,yes
+Q27273888,label,es,Lutecio 177,lutecio (¹⁷⁷Lu) oxodotreotida,"e label names the radionuclide, not the medicine",set es label,WHO INN Spanish form in P2275 (es) of the same item,2426291489,yes
+Q27273888,label,en,dotatate lutenium Lu-177,lutetium (¹⁷⁷Lu) oxodotreotide,e misspelling (lutenium),set en label,WHO INN English form in P2275 (en) of the same item,2426291489,yes
+Q21011234,label,es,edoxaban,edoxabán,e missing accent,set es label,WHO INN Spanish form in P2275 (es) + eswiki title Edoxabán,2550173432,yes
+Q635415,label,fr,ibritumomab tiuxetan,ibritumomab tiuxétan,e missing accent,set fr label,WHO INN French form in P2275 (fr) of the same item,2515760057,yes
+Q1016605,P494,,C83.783.7,C83.7,f doubled digits (corrupted ICD-10),replace ICD-10 value; WARNING: removal drops the original statement's references and qualifiers,deterministic repair: the code part was duplicated; each value reviewed by hand against the item (2026-10-02),2516746968,yes
+Q1076421,P494,,G25.525.5,G25.5,f doubled digits (corrupted ICD-10),replace ICD-10 value; WARNING: removal drops the original statement's references and qualifiers,deterministic repair: the code part was duplicated; each value reviewed by hand against the item (2026-10-02),2534843692,yes
+Q1077505,P494,,A98.098.0,A98.0,f doubled digits (corrupted ICD-10),replace ICD-10 value; WARNING: removal drops the original statement's references and qualifiers,deterministic repair: the code part was duplicated; each value reviewed by hand against the item (2026-10-02),2550156580,yes
+Q1172159,P494,,R23.823.8,R23.8,f doubled digits (corrupted ICD-10),replace ICD-10 value; WARNING: removal drops the original statement's references and qualifiers,deterministic repair: the code part was duplicated; each value reviewed by hand against the item (2026-10-02),2459970600,yes
+Q12199,P494,,B2424.,B24,f doubled digits (corrupted ICD-10),replace ICD-10 value; WARNING: removal drops the original statement's references and qualifiers,deterministic repair: the code part was duplicated; each value reviewed by hand against the item (2026-10-02),2551654413,yes
+Q133772,P494,,K0202.,K02,f doubled digits (corrupted ICD-10),replace ICD-10 value; WARNING: removal drops the original statement's references and qualifiers,deterministic repair: the code part was duplicated; each value reviewed by hand against the item (2026-10-02),2537790801,yes
+Q1359898,P494,,A07.207.2,A07.2,f doubled digits (corrupted ICD-10),replace ICD-10 value; WARNING: removal drops the original statement's references and qualifiers,deterministic repair: the code part was duplicated; each value reviewed by hand against the item (2026-10-02),2531948285,yes
+Q1470140,P494,,B4545.,B45,f doubled digits (corrupted ICD-10),replace ICD-10 value; WARNING: removal drops the original statement's references and qualifiers,deterministic repair: the code part was duplicated; each value reviewed by hand against the item (2026-10-02),2515906220,yes
+Q167264,P494,,A98.398.3,A98.3,f doubled digits (corrupted ICD-10),replace ICD-10 value; WARNING: removal drops the original statement's references and qualifiers,deterministic repair: the code part was duplicated; each value reviewed by hand against the item (2026-10-02),2527025955,yes
+Q181257,P494,,C6161.,C61,f doubled digits (corrupted ICD-10),replace ICD-10 value; WARNING: removal drops the original statement's references and qualifiers,deterministic repair: the code part was duplicated; each value reviewed by hand against the item (2026-10-02),2545721059,yes
+Q1815985,P494,,G12.212.2,G12.2,f doubled digits (corrupted ICD-10),replace ICD-10 value; WARNING: removal drops the original statement's references and qualifiers,deterministic repair: the code part was duplicated; each value reviewed by hand against the item (2026-10-02),2399584018,yes
+Q183548,P494,,F65.365.3,F65.3,f doubled digits (corrupted ICD-10),replace ICD-10 value; WARNING: removal drops the original statement's references and qualifiers,deterministic repair: the code part was duplicated; each value reviewed by hand against the item (2026-10-02),2539533382,yes
+Q185137,P494,,D5656.,D56,f doubled digits (corrupted ICD-10),replace ICD-10 value; WARNING: removal drops the original statement's references and qualifiers,deterministic repair: the code part was duplicated; each value reviewed by hand against the item (2026-10-02),2533227643,yes
+Q1862972,P494,,H11.011.0,H11.0,f doubled digits (corrupted ICD-10),replace ICD-10 value; WARNING: removal drops the original statement's references and qualifiers,deterministic repair: the code part was duplicated; each value reviewed by hand against the item (2026-10-02),2514126004,yes
+Q191779,P494,,F95.295.2.,F95.2,f doubled digits (corrupted ICD-10),replace ICD-10 value; WARNING: removal drops the original statement's references and qualifiers,deterministic repair: the code part was duplicated; each value reviewed by hand against the item (2026-10-02),2529080049,yes
+Q207367,P494,,B27.027.0,B27.0,f doubled digits (corrupted ICD-10),replace ICD-10 value; WARNING: removal drops the original statement's references and qualifiers,deterministic repair: the code part was duplicated; each value reviewed by hand against the item (2026-10-02),2551146423,yes
+Q221441,P494,,E5252.,E52,f doubled digits (corrupted ICD-10),replace ICD-10 value; WARNING: removal drops the original statement's references and qualifiers,deterministic repair: the code part was duplicated; each value reviewed by hand against the item (2026-10-02),2515854388,yes
+Q2309570,P494,,F65.065.0,F65.0,f doubled digits (corrupted ICD-10),replace ICD-10 value; WARNING: removal drops the original statement's references and qualifiers,deterministic repair: the code part was duplicated; each value reviewed by hand against the item (2026-10-02),2442612754,yes
+Q339221,P494,,N6262.,N62,f doubled digits (corrupted ICD-10),replace ICD-10 value; WARNING: removal drops the original statement's references and qualifiers,deterministic repair: the code part was duplicated; each value reviewed by hand against the item (2026-10-02),2497162203,yes
+Q3775974,P494,,D7070.,D70,f doubled digits (corrupted ICD-10),replace ICD-10 value; WARNING: removal drops the original statement's references and qualifiers,deterministic repair: the code part was duplicated; each value reviewed by hand against the item (2026-10-02),2497039483,yes
+Q393477,P494,,A79.079.0,A79.0,f doubled digits (corrupted ICD-10),replace ICD-10 value; WARNING: removal drops the original statement's references and qualifiers,deterministic repair: the code part was duplicated; each value reviewed by hand against the item (2026-10-02),2515865159,yes
+Q3980374,P494,,J62.062.0.,J62.0,f doubled digits (corrupted ICD-10),replace ICD-10 value; WARNING: removal drops the original statement's references and qualifiers,deterministic repair: the code part was duplicated; each value reviewed by hand against the item (2026-10-02),2515934722,yes
+Q4159002,P494,,B88.088.0,B88.0,f doubled digits (corrupted ICD-10),replace ICD-10 value; WARNING: removal drops the original statement's references and qualifiers,deterministic repair: the code part was duplicated; each value reviewed by hand against the item (2026-10-02),2513833292,yes
+Q4253356,P494,,O92.792.7,O92.7,f doubled digits (corrupted ICD-10),replace ICD-10 value; WARNING: removal drops the original statement's references and qualifiers,deterministic repair: the code part was duplicated; each value reviewed by hand against the item (2026-10-02),2513834667,yes
+Q43987,P494,,J09.009.0,J09.0,f doubled digits (corrupted ICD-10),replace ICD-10 value; WARNING: removal drops the original statement's references and qualifiers,deterministic repair: the code part was duplicated; each value reviewed by hand against the item (2026-10-02),2547803455,yes
+Q469490,P494,,P91.291.2,P91.2,f doubled digits (corrupted ICD-10),replace ICD-10 value; WARNING: removal drops the original statement's references and qualifiers,deterministic repair: the code part was duplicated; each value reviewed by hand against the item (2026-10-02),2551171532,yes
+Q520127,P494,,"K05.205.2,K05.305.3",K05.2 ; K05.3 (separate statements),f doubled digits (corrupted ICD-10),replace ICD-10 value (split into separate statements); WARNING: removal drops the original statement's references and qualifiers,deterministic repair: the code part was duplicated; each value reviewed by hand against the item (2026-10-02),2548247211,yes
+Q574360,P494,,R25.225.2,R25.2,f doubled digits (corrupted ICD-10),replace ICD-10 value; WARNING: removal drops the original statement's references and qualifiers,deterministic repair: the code part was duplicated; each value reviewed by hand against the item (2026-10-02),2526736945,yes
+Q574905,P494,,A04.704.7.,A04.7,f doubled digits (corrupted ICD-10),replace ICD-10 value; WARNING: removal drops the original statement's references and qualifiers,deterministic repair: the code part was duplicated; each value reviewed by hand against the item (2026-10-02),2513412854,yes
+Q627625,P494,,B3939.,B39,f doubled digits (corrupted ICD-10),replace ICD-10 value; WARNING: removal drops the original statement's references and qualifiers,deterministic repair: the code part was duplicated; each value reviewed by hand against the item (2026-10-02),2548746122,yes
+Q650026,P494,,Q71.671.6,Q71.6,f doubled digits (corrupted ICD-10),replace ICD-10 value; WARNING: removal drops the original statement's references and qualifiers,deterministic repair: the code part was duplicated; each value reviewed by hand against the item (2026-10-02),2514132082,yes
+Q653078,P494,,K90.890.8,K90.8,f doubled digits (corrupted ICD-10),replace ICD-10 value; WARNING: removal drops the original statement's references and qualifiers,deterministic repair: the code part was duplicated; each value reviewed by hand against the item (2026-10-02),2532804828,yes
+Q749409,P494,,Q78.078.0,Q78.0,f doubled digits (corrupted ICD-10),replace ICD-10 value; WARNING: removal drops the original statement's references and qualifiers,deterministic repair: the code part was duplicated; each value reviewed by hand against the item (2026-10-02),2551391902,yes
+Q83319,P494,,A01.001.0,A01.0,f doubled digits (corrupted ICD-10),replace ICD-10 value; WARNING: removal drops the original statement's references and qualifiers,deterministic repair: the code part was duplicated; each value reviewed by hand against the item (2026-10-02),2517859635,yes
+Q847583,P494,,I42.042.0,I42.0,f doubled digits (corrupted ICD-10),replace ICD-10 value; WARNING: removal drops the original statement's references and qualifiers,deterministic repair: the code part was duplicated; each value reviewed by hand against the item (2026-10-02),2537804002,yes
+Q862872,P494,,A81.981.9,A81.9,f doubled digits (corrupted ICD-10),replace ICD-10 value; WARNING: removal drops the original statement's references and qualifiers,deterministic repair: the code part was duplicated; each value reviewed by hand against the item (2026-10-02),2550315822,yes
+Q895297,P494,,A77.177.1,A77.1,f doubled digits (corrupted ICD-10),replace ICD-10 value; WARNING: removal drops the original statement's references and qualifiers,deterministic repair: the code part was duplicated; each value reviewed by hand against the item (2026-10-02),2522485645,yes
+Q906492,P494,,G24.924.9,G24.9,f doubled digits (corrupted ICD-10),replace ICD-10 value; WARNING: removal drops the original statement's references and qualifiers,deterministic repair: the code part was duplicated; each value reviewed by hand against the item (2026-10-02),2515887872,yes
+Q911386,P494,,K1212.,K12,f doubled digits (corrupted ICD-10),replace ICD-10 value; WARNING: removal drops the original statement's references and qualifiers,deterministic repair: the code part was duplicated; each value reviewed by hand against the item (2026-10-02),2515888137,yes
+Q1541975,P494,,G232,G23.2,f missing dot,replace ICD-10 value; WARNING: removal drops the original statement's references and qualifiers,WHO ICD-10 notation (dot after 3rd character); restores the editor's evident value,2515908141,yes
+Q2053759,P7329,,6B6.Z,6B6Z,f mistyped ICD-11 residual code,replace ICD-11 value; WARNING: removal drops the original statement's references and qualifiers,"ICD-11 MMS: 6B6Z = Dissociative disorders, unspecified",2476396722,yes
+Q16868421,P267,,L01XE48,L01EB08,"g obsolete ATC (2021), new code missing",add current ATC code (then deprecate the old one by hand),"WHO Collaborating Centre, ATC alterations list (cumulative)",2507968049,yes
+Q2070286,P267,,L01XX43,L01XJ01,"g obsolete ATC (2021), new code missing",add current ATC code (then deprecate the old one by hand),"WHO Collaborating Centre, ATC alterations list (cumulative)",2507915646,yes
+Q5186964,P267,,L01XE16,L01ED01,"g obsolete ATC (2021), new code missing",add current ATC code (then deprecate the old one by hand),"WHO Collaborating Centre, ATC alterations list (cumulative)",2425342758,yes
+Q411787,P267,,L01XX09,P01CX04,"g obsolete ATC (2020), new code missing",add current ATC code (then deprecate the old one by hand),"WHO Collaborating Centre, ATC alterations list (cumulative)",2425329112,yes
+Q159701,P494,,H4040.-H4242.,H40-H42,f doubled digits (corrupted ICD-10),manual: repaired value is a block range that still violates the P494 format constraint; decide modelling (range vs individual codes),deterministic repair: the code part was duplicated; each value reviewed by hand against the item (2026-10-02),2522294694,no
+Q41861,P494,,I10-I1515.,I10-I15,f doubled digits (corrupted ICD-10),manual: repaired value is a block range that still violates the P494 format constraint; decide modelling (range vs individual codes),deterministic repair: the code part was duplicated; each value reviewed by hand against the item (2026-10-02),2549644780,no
+Q47912,P494,,C3333.-C3434.,C33-C34,f doubled digits (corrupted ICD-10),manual: repaired value is a block range that still violates the P494 format constraint; decide modelling (range vs individual codes),deterministic repair: the code part was duplicated; each value reviewed by hand against the item (2026-10-02),2544401950,no
+Q681160,P494,,M33.033.0-M33.133.1,M33.0-M33.1,f doubled digits (corrupted ICD-10),manual: repaired value is a block range that still violates the P494 format constraint; decide modelling (range vs individual codes),deterministic repair: the code part was duplicated; each value reviewed by hand against the item (2026-10-02),2551430522,no
+Q988594,P494,,L2020.-L3030.,L20-L30,f doubled digits (corrupted ICD-10),manual: repaired value is a block range that still violates the P494 format constraint; decide modelling (range vs individual codes),deterministic repair: the code part was duplicated; each value reviewed by hand against the item (2026-10-02),2545484640,no
+Q113368879,manual,,,,label fr (manual),Wikidata editor decision (not in .qs),"fr label 'Coumaphène' is a pesticide name; the French INN form is 'warfarine', but neither the frwiki sitelink ('Coumaphène') nor P2275 (empty) supports it, and the item may be merged with Q407431: decide together with the merge",,no
+Q113368879,manual,,,,merge?,Wikidata editor decision (not in .qs),"rac-warfarin (this item, with ATC B01AA03) and Q407431 '(RS)-warfarin' describe the same racemate; frwiki page linked here is titled 'Coumaphène'",,no
+Q1326389,manual,,,,merge?,Wikidata editor decision (not in .qs),"two items for aloxiprin (Q1326389 'aspirin aluminum', N02BA02; Q27888708 'aloxiprin', B01AC15)",,no
+Q135197125,manual,,,,remove,Wikidata editor decision (not in .qs),ATCvet codes QB03AC91 / QB03AC stored in the human ATC property P267,,no
+Q16868421|Q2070286|Q5186964|Q411787,manual,,,,deprecate,Wikidata editor decision (not in .qs),set deprecated rank (reason: withdrawn identifier value) on the obsolete ATC codes once the new codes are added,,no
+"ATC class items (pl, zh)",manual,,,,relabel,Wikidata editor decision (not in .qs),dozens of ATC class items share the pl label 'ATC' and the zh label 'ATC代码'; the code should be part of each label,,no

@@ -1,0 +1,5 @@
+# study-local ignores (the repo root already ignores data/raw/, private/, __pycache__/)
+.pytest_cache/
+__pycache__/
+data/raw/
+private/

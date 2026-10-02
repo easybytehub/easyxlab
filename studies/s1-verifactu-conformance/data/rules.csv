@@ -1,0 +1,13 @@
+regla,ficheros_error,hallazgos_error,repos_error,ficheros_aviso,hallazgos_aviso,repos_aviso,ficheros_incompleto,hallazgos_incompleto,repos_incompleto,pct_repos_error,ci95_repos_error
+RRSIF001,9,9,6,0,0,0,0,0,0,31.6,15.4-54.0
+RRSIF002,3,3,1,0,0,0,0,0,0,5.3,0.9-24.6
+RRSIF011,2,4,1,0,0,0,0,0,0,5.3,0.9-24.6
+RRSIF030,2,2,1,0,0,0,0,0,0,5.3,0.9-24.6
+RRSIF040,2,2,1,0,0,0,0,0,0,5.3,0.9-24.6
+RRSIF043,1,1,1,0,0,0,0,0,0,5.3,0.9-24.6
+RRSIF049,1,1,1,0,0,0,0,0,0,5.3,0.9-24.6
+RRSIF004,0,0,0,0,0,0,2,2,1,0.0,0.0-16.8
+RRSIF005,0,0,0,2,2,1,0,0,0,0.0,0.0-16.8
+RRSIF027,0,0,0,1,1,1,0,0,0,0.0,0.0-16.8
+RRSIF028,0,0,0,0,0,0,10,10,1,0.0,0.0-16.8
+RRSIF042,0,0,0,1,1,1,0,0,0,0.0,0.0-16.8

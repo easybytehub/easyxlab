@@ -1,0 +1,5 @@
+verdict,active_days,requests,share_top5_days,max_day
+spoofed,48,6453,0.482,806
+verified,68,6360,0.174,298
+indeterminate,55,1045,0.668,268
+unverifiable,47,779,0.478,139

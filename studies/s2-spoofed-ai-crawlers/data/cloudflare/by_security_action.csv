@@ -1,0 +1,15 @@
+zone,verdict,security_action,requests
+site-a,indeterminate,block,7
+site-a,indeterminate,unknown,843
+site-a,spoofed,block,72
+site-a,spoofed,unknown,10382
+site-a,unverifiable,block,9
+site-a,unverifiable,unknown,1399
+site-a,verified,unknown,7950
+site-b,spoofed,unknown,3
+site-b,unverifiable,unknown,41
+site-b,verified,unknown,1662
+site-c,indeterminate,unknown,1
+site-c,spoofed,block,2
+site-c,spoofed,unknown,58
+site-c,verified,unknown,460

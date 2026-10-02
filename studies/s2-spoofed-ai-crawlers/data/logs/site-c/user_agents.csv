@@ -1,0 +1,21 @@
+site,bot,verdict,user_agent,requests
+site-c,ClaudeBot,verified,"Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; ClaudeBot/1.0; +claudebot@anthropic.com)",105
+site-c,YandexBot,verified,Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots),90
+site-c,Googlebot,verified,"Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.8010.52 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",49
+site-c,Googlebot,verified,Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html),48
+site-c,Googlebot,verified,"Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.8010.52 Mobile Safari/537.36 (compatible; GoogleOther)",28
+site-c,GPTBot,verified,"Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)",23
+site-c,Applebot,verified,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15 (Applebot/0.1; +http://www.apple.com/go/applebot)",19
+site-c,OAI-SearchBot,verified,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.4; robots.txt; +https://openai.com/searchbot",7
+site-c,YandexBot,spoofed,Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots),7
+site-c,ChatGPT-User,spoofed,"Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; ChatGPT-User/1.0; +https://openai.com/bot)",6
+site-c,DuckDuckBot,verified,DuckDuckBot/1.1; (+http://duckduckgo.com/duckduckbot.html),6
+site-c,ClaudeBot,spoofed,Mozilla/5.0 (compatible; ClaudeBot/1.0; +claudebot@anthropic.com),5
+site-c,OAI-SearchBot,spoofed,Mozilla/5.0 (compatible; OAI-SearchBot/1.3; +https://openai.com/searchbot),5
+site-c,Googlebot,verified,Googlebot-Image/1.0,4
+site-c,PerplexityBot,spoofed,Mozilla/5.0 (compatible; PerplexityBot/1.0; +https://perplexity.ai/perplexitybot),4
+site-c,CCBot,spoofed,CCBot/2.0 (https://commoncrawl.org/faq/),3
+site-c,Googlebot,spoofed,Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html),3
+site-c,Bingbot,spoofed,Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm),3
+site-c,Bingbot,verified,"Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",3
+site-c,Claude-User,verified,"Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Claude-User/1.0; +claude-user@anthropic.com)",3

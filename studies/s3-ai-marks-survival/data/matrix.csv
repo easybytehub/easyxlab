@@ -1,0 +1,475 @@
+input,input_format,library,transform,output_format,output_bytes,mark,result,detail
+jpg-all-remote,jpg,-,identity,jpg,111635,c2pa,intact,state=Valid; failures=signingCredential.untrusted; dst_active=True; dst_any_manifest=True; manifests=1
+jpg-all-remote,jpg,-,identity,jpg,111635,c2pa_remote_ref,survived,https://example.invalid/s3/manifests/remote-test.c2pa
+jpg-all-remote,jpg,-,identity,jpg,111635,xmp_dst,survived,trainedAlgorithmicMedia
+jpg-all-remote,jpg,-,identity,jpg,111635,aigc,survived,TC260:AIGC parsed
+jpg-all-remote,jpg,ExifTool 13.55,exiftool_edit_title,jpg,112043,c2pa,broken,state=Invalid; failures=assertion.dataHash.mismatch|signingCredential.untrusted; dst_active=True; dst_any_manifest=True; manifests=1
+jpg-all-remote,jpg,ExifTool 13.55,exiftool_edit_title,jpg,112043,c2pa_remote_ref,survived,https://example.invalid/s3/manifests/remote-test.c2pa
+jpg-all-remote,jpg,ExifTool 13.55,exiftool_edit_title,jpg,112043,xmp_dst,survived,trainedAlgorithmicMedia
+jpg-all-remote,jpg,ExifTool 13.55,exiftool_edit_title,jpg,112043,aigc,survived,TC260:AIGC parsed
+jpg-all-remote,jpg,ExifTool 13.55,exiftool_restore_all,jpg,45691,c2pa,removed,Error: No claim found
+jpg-all-remote,jpg,ExifTool 13.55,exiftool_restore_all,jpg,45691,c2pa_remote_ref,removed,
+jpg-all-remote,jpg,ExifTool 13.55,exiftool_restore_all,jpg,45691,xmp_dst,survived,trainedAlgorithmicMedia
+jpg-all-remote,jpg,ExifTool 13.55,exiftool_restore_all,jpg,45691,aigc,survived,TC260:AIGC parsed
+jpg-all-remote,jpg,ExifTool 13.55,exiftool_strip_all,jpg,42295,c2pa,removed,Error: No claim found
+jpg-all-remote,jpg,ExifTool 13.55,exiftool_strip_all,jpg,42295,c2pa_remote_ref,removed,
+jpg-all-remote,jpg,ExifTool 13.55,exiftool_strip_all,jpg,42295,xmp_dst,removed,
+jpg-all-remote,jpg,ExifTool 13.55,exiftool_strip_all,jpg,42295,aigc,removed,
+jpg-all-remote,jpg,ImageMagick (magick-wasm 0.0.44),magick_resave,jpg,43176,c2pa,removed,Error: could not fetch the remote manifest an error occurred from the underlying http resolver: io: failed to lookup address information: nodename nor servname 
+jpg-all-remote,jpg,ImageMagick (magick-wasm 0.0.44),magick_resave,jpg,43176,c2pa_remote_ref,survived,https://example.invalid/s3/manifests/remote-test.c2pa
+jpg-all-remote,jpg,ImageMagick (magick-wasm 0.0.44),magick_resave,jpg,43176,xmp_dst,survived,trainedAlgorithmicMedia
+jpg-all-remote,jpg,ImageMagick (magick-wasm 0.0.44),magick_resave,jpg,43176,aigc,survived,TC260:AIGC parsed
+jpg-all-remote,jpg,ImageMagick (magick-wasm 0.0.44),magick_resize,jpg,18769,c2pa,removed,Error: could not fetch the remote manifest an error occurred from the underlying http resolver: io: failed to lookup address information: nodename nor servname 
+jpg-all-remote,jpg,ImageMagick (magick-wasm 0.0.44),magick_resize,jpg,18769,c2pa_remote_ref,survived,https://example.invalid/s3/manifests/remote-test.c2pa
+jpg-all-remote,jpg,ImageMagick (magick-wasm 0.0.44),magick_resize,jpg,18769,xmp_dst,survived,trainedAlgorithmicMedia
+jpg-all-remote,jpg,ImageMagick (magick-wasm 0.0.44),magick_resize,jpg,18769,aigc,survived,TC260:AIGC parsed
+jpg-all-remote,jpg,ImageMagick (magick-wasm 0.0.44),magick_strip,jpg,39798,c2pa,removed,Error: No claim found
+jpg-all-remote,jpg,ImageMagick (magick-wasm 0.0.44),magick_strip,jpg,39798,c2pa_remote_ref,removed,
+jpg-all-remote,jpg,ImageMagick (magick-wasm 0.0.44),magick_strip,jpg,39798,xmp_dst,removed,
+jpg-all-remote,jpg,ImageMagick (magick-wasm 0.0.44),magick_strip,jpg,39798,aigc,removed,
+jpg-all-remote,jpg,ImageMagick (magick-wasm 0.0.44),magick_strip_resize,jpg,15391,c2pa,removed,Error: No claim found
+jpg-all-remote,jpg,ImageMagick (magick-wasm 0.0.44),magick_strip_resize,jpg,15391,c2pa_remote_ref,removed,
+jpg-all-remote,jpg,ImageMagick (magick-wasm 0.0.44),magick_strip_resize,jpg,15391,xmp_dst,removed,
+jpg-all-remote,jpg,ImageMagick (magick-wasm 0.0.44),magick_strip_resize,jpg,15391,aigc,removed,
+jpg-all-remote,jpg,ImageMagick (magick-wasm 0.0.44),magick_to_webp,webp,28186,c2pa,removed,Error: could not fetch the remote manifest an error occurred from the underlying http resolver: io: failed to lookup address information: nodename nor servname 
+jpg-all-remote,jpg,ImageMagick (magick-wasm 0.0.44),magick_to_webp,webp,28186,c2pa_remote_ref,survived,https://example.invalid/s3/manifests/remote-test.c2pa
+jpg-all-remote,jpg,ImageMagick (magick-wasm 0.0.44),magick_to_webp,webp,28186,xmp_dst,survived,trainedAlgorithmicMedia
+jpg-all-remote,jpg,ImageMagick (magick-wasm 0.0.44),magick_to_webp,webp,28186,aigc,survived,TC260:AIGC parsed
+jpg-all-remote,jpg,sharp 0.35.5 via next/image optimizer logic,nextimage_avif,avif,8818,c2pa,removed,Error: No claim found
+jpg-all-remote,jpg,sharp 0.35.5 via next/image optimizer logic,nextimage_avif,avif,8818,c2pa_remote_ref,removed,
+jpg-all-remote,jpg,sharp 0.35.5 via next/image optimizer logic,nextimage_avif,avif,8818,xmp_dst,removed,
+jpg-all-remote,jpg,sharp 0.35.5 via next/image optimizer logic,nextimage_avif,avif,8818,aigc,removed,
+jpg-all-remote,jpg,sharp 0.35.5 via next/image optimizer logic,nextimage_webp,webp,9862,c2pa,removed,Error: No claim found
+jpg-all-remote,jpg,sharp 0.35.5 via next/image optimizer logic,nextimage_webp,webp,9862,c2pa_remote_ref,removed,
+jpg-all-remote,jpg,sharp 0.35.5 via next/image optimizer logic,nextimage_webp,webp,9862,xmp_dst,removed,
+jpg-all-remote,jpg,sharp 0.35.5 via next/image optimizer logic,nextimage_webp,webp,9862,aigc,removed,
+jpg-all-remote,jpg,Pillow 12.3.0,pil_resave,jpg,26623,c2pa,removed,Error: No claim found
+jpg-all-remote,jpg,Pillow 12.3.0,pil_resave,jpg,26623,c2pa_remote_ref,removed,
+jpg-all-remote,jpg,Pillow 12.3.0,pil_resave,jpg,26623,xmp_dst,removed,
+jpg-all-remote,jpg,Pillow 12.3.0,pil_resave,jpg,26623,aigc,removed,
+jpg-all-remote,jpg,Pillow 12.3.0,pil_resave_keep,jpg,30001,c2pa,removed,Error: could not fetch the remote manifest an error occurred from the underlying http resolver: io: failed to lookup address information: nodename nor servname 
+jpg-all-remote,jpg,Pillow 12.3.0,pil_resave_keep,jpg,30001,c2pa_remote_ref,survived,https://example.invalid/s3/manifests/remote-test.c2pa
+jpg-all-remote,jpg,Pillow 12.3.0,pil_resave_keep,jpg,30001,xmp_dst,survived,trainedAlgorithmicMedia
+jpg-all-remote,jpg,Pillow 12.3.0,pil_resave_keep,jpg,30001,aigc,survived,TC260:AIGC parsed
+jpg-all-remote,jpg,Pillow 12.3.0,pil_thumbnail,jpg,10274,c2pa,removed,Error: No claim found
+jpg-all-remote,jpg,Pillow 12.3.0,pil_thumbnail,jpg,10274,c2pa_remote_ref,removed,
+jpg-all-remote,jpg,Pillow 12.3.0,pil_thumbnail,jpg,10274,xmp_dst,removed,
+jpg-all-remote,jpg,Pillow 12.3.0,pil_thumbnail,jpg,10274,aigc,removed,
+jpg-all-remote,jpg,Pillow 12.3.0,pil_thumbnail_keep,jpg,13652,c2pa,removed,Error: could not fetch the remote manifest an error occurred from the underlying http resolver: io: failed to lookup address information: nodename nor servname 
+jpg-all-remote,jpg,Pillow 12.3.0,pil_thumbnail_keep,jpg,13652,c2pa_remote_ref,survived,https://example.invalid/s3/manifests/remote-test.c2pa
+jpg-all-remote,jpg,Pillow 12.3.0,pil_thumbnail_keep,jpg,13652,xmp_dst,survived,trainedAlgorithmicMedia
+jpg-all-remote,jpg,Pillow 12.3.0,pil_thumbnail_keep,jpg,13652,aigc,survived,TC260:AIGC parsed
+jpg-all-remote,jpg,Pillow 12.3.0,pil_to_avif,avif,21322,c2pa,removed,Error: No claim found
+jpg-all-remote,jpg,Pillow 12.3.0,pil_to_avif,avif,21322,c2pa_remote_ref,removed,
+jpg-all-remote,jpg,Pillow 12.3.0,pil_to_avif,avif,21322,xmp_dst,removed,
+jpg-all-remote,jpg,Pillow 12.3.0,pil_to_avif,avif,21322,aigc,removed,
+jpg-all-remote,jpg,Pillow 12.3.0,pil_to_avif_keep,avif,24751,c2pa,removed,Error: No claim found
+jpg-all-remote,jpg,Pillow 12.3.0,pil_to_avif_keep,avif,24751,c2pa_remote_ref,survived,https://example.invalid/s3/manifests/remote-test.c2pa
+jpg-all-remote,jpg,Pillow 12.3.0,pil_to_avif_keep,avif,24751,xmp_dst,survived,trainedAlgorithmicMedia
+jpg-all-remote,jpg,Pillow 12.3.0,pil_to_avif_keep,avif,24751,aigc,survived,TC260:AIGC parsed
+jpg-all-remote,jpg,Pillow 12.3.0,pil_to_webp,webp,15698,c2pa,removed,Error: No claim found
+jpg-all-remote,jpg,Pillow 12.3.0,pil_to_webp,webp,15698,c2pa_remote_ref,removed,
+jpg-all-remote,jpg,Pillow 12.3.0,pil_to_webp,webp,15698,xmp_dst,removed,
+jpg-all-remote,jpg,Pillow 12.3.0,pil_to_webp,webp,15698,aigc,removed,
+jpg-all-remote,jpg,Pillow 12.3.0,pil_to_webp_keep,webp,19070,c2pa,removed,Error: could not fetch the remote manifest an error occurred from the underlying http resolver: io: failed to lookup address information: nodename nor servname 
+jpg-all-remote,jpg,Pillow 12.3.0,pil_to_webp_keep,webp,19070,c2pa_remote_ref,survived,https://example.invalid/s3/manifests/remote-test.c2pa
+jpg-all-remote,jpg,Pillow 12.3.0,pil_to_webp_keep,webp,19070,xmp_dst,survived,trainedAlgorithmicMedia
+jpg-all-remote,jpg,Pillow 12.3.0,pil_to_webp_keep,webp,19070,aigc,survived,TC260:AIGC parsed
+jpg-all-remote,jpg,sharp 0.35.5 (libvips),sharp_resize,jpg,10880,c2pa,removed,Error: No claim found
+jpg-all-remote,jpg,sharp 0.35.5 (libvips),sharp_resize,jpg,10880,c2pa_remote_ref,removed,
+jpg-all-remote,jpg,sharp 0.35.5 (libvips),sharp_resize,jpg,10880,xmp_dst,removed,
+jpg-all-remote,jpg,sharp 0.35.5 (libvips),sharp_resize,jpg,10880,aigc,removed,
+jpg-all-remote,jpg,sharp 0.35.5 (libvips),sharp_resize_keepExif,jpg,11070,c2pa,removed,Error: No claim found
+jpg-all-remote,jpg,sharp 0.35.5 (libvips),sharp_resize_keepExif,jpg,11070,c2pa_remote_ref,removed,
+jpg-all-remote,jpg,sharp 0.35.5 (libvips),sharp_resize_keepExif,jpg,11070,xmp_dst,removed,
+jpg-all-remote,jpg,sharp 0.35.5 (libvips),sharp_resize_keepExif,jpg,11070,aigc,removed,
+jpg-all-remote,jpg,sharp 0.35.5 (libvips),sharp_resize_keepMetadata,jpg,14448,c2pa,removed,Error: could not fetch the remote manifest an error occurred from the underlying http resolver: io: failed to lookup address information: nodename nor servname 
+jpg-all-remote,jpg,sharp 0.35.5 (libvips),sharp_resize_keepMetadata,jpg,14448,c2pa_remote_ref,survived,https://example.invalid/s3/manifests/remote-test.c2pa
+jpg-all-remote,jpg,sharp 0.35.5 (libvips),sharp_resize_keepMetadata,jpg,14448,xmp_dst,survived,trainedAlgorithmicMedia
+jpg-all-remote,jpg,sharp 0.35.5 (libvips),sharp_resize_keepMetadata,jpg,14448,aigc,survived,TC260:AIGC parsed
+jpg-all-remote,jpg,sharp 0.35.5 (libvips),sharp_resize_keepMetadata_then_c2pa_resign,jpg,200616,c2pa,intact,state=Valid; failures=signingCredential.untrusted; dst_active=False; dst_any_manifest=True; manifests=2
+jpg-all-remote,jpg,sharp 0.35.5 (libvips),sharp_resize_keepMetadata_then_c2pa_resign,jpg,200616,c2pa_remote_ref,survived,https://example.invalid/s3/manifests/remote-test.c2pa
+jpg-all-remote,jpg,sharp 0.35.5 (libvips),sharp_resize_keepMetadata_then_c2pa_resign,jpg,200616,xmp_dst,survived,trainedAlgorithmicMedia
+jpg-all-remote,jpg,sharp 0.35.5 (libvips),sharp_resize_keepMetadata_then_c2pa_resign,jpg,200616,aigc,survived,TC260:AIGC parsed
+jpg-all-remote,jpg,sharp 0.35.5 (libvips),sharp_resize_keepXmp,jpg,14258,c2pa,removed,Error: could not fetch the remote manifest an error occurred from the underlying http resolver: io: failed to lookup address information: nodename nor servname 
+jpg-all-remote,jpg,sharp 0.35.5 (libvips),sharp_resize_keepXmp,jpg,14258,c2pa_remote_ref,survived,https://example.invalid/s3/manifests/remote-test.c2pa
+jpg-all-remote,jpg,sharp 0.35.5 (libvips),sharp_resize_keepXmp,jpg,14258,xmp_dst,survived,trainedAlgorithmicMedia
+jpg-all-remote,jpg,sharp 0.35.5 (libvips),sharp_resize_keepXmp,jpg,14258,aigc,survived,TC260:AIGC parsed
+jpg-all-remote,jpg,sharp 0.35.5 (libvips),sharp_resize_withMetadata,jpg,14946,c2pa,removed,Error: could not fetch the remote manifest an error occurred from the underlying http resolver: io: failed to lookup address information: nodename nor servname 
+jpg-all-remote,jpg,sharp 0.35.5 (libvips),sharp_resize_withMetadata,jpg,14946,c2pa_remote_ref,survived,https://example.invalid/s3/manifests/remote-test.c2pa
+jpg-all-remote,jpg,sharp 0.35.5 (libvips),sharp_resize_withMetadata,jpg,14946,xmp_dst,survived,trainedAlgorithmicMedia
+jpg-all-remote,jpg,sharp 0.35.5 (libvips),sharp_resize_withMetadata,jpg,14946,aigc,survived,TC260:AIGC parsed
+jpg-all-remote,jpg,sharp 0.35.5 (libvips),sharp_to_avif,avif,12313,c2pa,removed,Error: No claim found
+jpg-all-remote,jpg,sharp 0.35.5 (libvips),sharp_to_avif,avif,12313,c2pa_remote_ref,removed,
+jpg-all-remote,jpg,sharp 0.35.5 (libvips),sharp_to_avif,avif,12313,xmp_dst,removed,
+jpg-all-remote,jpg,sharp 0.35.5 (libvips),sharp_to_avif,avif,12313,aigc,removed,
+jpg-all-remote,jpg,sharp 0.35.5 (libvips),sharp_to_avif_keepMetadata,avif,15987,c2pa,removed,Error: No claim found
+jpg-all-remote,jpg,sharp 0.35.5 (libvips),sharp_to_avif_keepMetadata,avif,15987,c2pa_remote_ref,survived,https://example.invalid/s3/manifests/remote-test.c2pa
+jpg-all-remote,jpg,sharp 0.35.5 (libvips),sharp_to_avif_keepMetadata,avif,15987,xmp_dst,survived,trainedAlgorithmicMedia
+jpg-all-remote,jpg,sharp 0.35.5 (libvips),sharp_to_avif_keepMetadata,avif,15987,aigc,survived,TC260:AIGC parsed
+jpg-all-remote,jpg,sharp 0.35.5 (libvips),sharp_to_webp,webp,15698,c2pa,removed,Error: No claim found
+jpg-all-remote,jpg,sharp 0.35.5 (libvips),sharp_to_webp,webp,15698,c2pa_remote_ref,removed,
+jpg-all-remote,jpg,sharp 0.35.5 (libvips),sharp_to_webp,webp,15698,xmp_dst,removed,
+jpg-all-remote,jpg,sharp 0.35.5 (libvips),sharp_to_webp,webp,15698,aigc,removed,
+jpg-all-remote,jpg,sharp 0.35.5 (libvips),sharp_to_webp_keepMetadata,webp,19264,c2pa,removed,Error: could not fetch the remote manifest an error occurred from the underlying http resolver: io: failed to lookup address information: nodename nor servname 
+jpg-all-remote,jpg,sharp 0.35.5 (libvips),sharp_to_webp_keepMetadata,webp,19264,c2pa_remote_ref,survived,https://example.invalid/s3/manifests/remote-test.c2pa
+jpg-all-remote,jpg,sharp 0.35.5 (libvips),sharp_to_webp_keepMetadata,webp,19264,xmp_dst,survived,trainedAlgorithmicMedia
+jpg-all-remote,jpg,sharp 0.35.5 (libvips),sharp_to_webp_keepMetadata,webp,19264,aigc,survived,TC260:AIGC parsed
+m4a-all,m4a,-,identity,m4a,42833,c2pa,intact,state=Valid; failures=signingCredential.untrusted; dst_active=True; dst_any_manifest=True; manifests=1
+m4a-all,m4a,-,identity,m4a,42833,xmp_dst,survived,trainedAlgorithmicMedia
+m4a-all,m4a,-,identity,m4a,42833,aigc,survived,TC260:AIGC parsed
+m4a-all,m4a,ExifTool 13.55,exiftool_edit_title,m4a,43047,c2pa,broken,state=Invalid; failures=assertion.bmffHash.mismatch|signingCredential.untrusted; dst_active=True; dst_any_manifest=True; manifests=1
+m4a-all,m4a,ExifTool 13.55,exiftool_edit_title,m4a,43047,xmp_dst,survived,trainedAlgorithmicMedia
+m4a-all,m4a,ExifTool 13.55,exiftool_edit_title,m4a,43047,aigc,survived,TC260:AIGC parsed
+m4a-all,m4a,ExifTool 13.55,exiftool_restore_all,m4a,29474,c2pa,removed,Error: No claim found
+m4a-all,m4a,ExifTool 13.55,exiftool_restore_all,m4a,29474,xmp_dst,survived,trainedAlgorithmicMedia
+m4a-all,m4a,ExifTool 13.55,exiftool_restore_all,m4a,29474,aigc,survived,TC260:AIGC parsed
+m4a-all,m4a,ExifTool 13.55,exiftool_strip_all,m4a,25694,c2pa,removed,Error: No claim found
+m4a-all,m4a,ExifTool 13.55,exiftool_strip_all,m4a,25694,xmp_dst,removed,
+m4a-all,m4a,ExifTool 13.55,exiftool_strip_all,m4a,25694,aigc,removed,
+m4a-all,m4a,ffmpeg 8.1.2,ffmpeg_faststart,m4a,25792,c2pa,removed,Error: No claim found
+m4a-all,m4a,ffmpeg 8.1.2,ffmpeg_faststart,m4a,25792,xmp_dst,removed,
+m4a-all,m4a,ffmpeg 8.1.2,ffmpeg_faststart,m4a,25792,aigc,removed,
+m4a-all,m4a,ffmpeg 8.1.2,ffmpeg_reencode,m4a,19826,c2pa,removed,Error: No claim found
+m4a-all,m4a,ffmpeg 8.1.2,ffmpeg_reencode,m4a,19826,xmp_dst,removed,
+m4a-all,m4a,ffmpeg 8.1.2,ffmpeg_reencode,m4a,19826,aigc,removed,
+m4a-all,m4a,ffmpeg 8.1.2,ffmpeg_reencode_usemeta,m4a,20013,c2pa,removed,Error: No claim found
+m4a-all,m4a,ffmpeg 8.1.2,ffmpeg_reencode_usemeta,m4a,20013,xmp_dst,removed,
+m4a-all,m4a,ffmpeg 8.1.2,ffmpeg_reencode_usemeta,m4a,20013,aigc,removed,
+m4a-all,m4a,ffmpeg 8.1.2,ffmpeg_remux,m4a,25792,c2pa,removed,Error: No claim found
+m4a-all,m4a,ffmpeg 8.1.2,ffmpeg_remux,m4a,25792,xmp_dst,removed,
+m4a-all,m4a,ffmpeg 8.1.2,ffmpeg_remux,m4a,25792,aigc,removed,
+m4a-all,m4a,ffmpeg 8.1.2,ffmpeg_remux_exportxmp,m4a,29359,c2pa,removed,Error: No claim found
+m4a-all,m4a,ffmpeg 8.1.2,ffmpeg_remux_exportxmp,m4a,29359,xmp_dst,residue,"Iptc4xmpExt string in bytes, not parseable"
+m4a-all,m4a,ffmpeg 8.1.2,ffmpeg_remux_exportxmp,m4a,29359,aigc,residue,"tc260 namespace in bytes, not parseable"
+m4a-all,m4a,ffmpeg 8.1.2,ffmpeg_remux_nometa,m4a,25792,c2pa,removed,Error: No claim found
+m4a-all,m4a,ffmpeg 8.1.2,ffmpeg_remux_nometa,m4a,25792,xmp_dst,removed,
+m4a-all,m4a,ffmpeg 8.1.2,ffmpeg_remux_nometa,m4a,25792,aigc,removed,
+m4a-all,m4a,ffmpeg 8.1.2,ffmpeg_remux_usemeta,m4a,25979,c2pa,removed,Error: No claim found
+m4a-all,m4a,ffmpeg 8.1.2,ffmpeg_remux_usemeta,m4a,25979,xmp_dst,removed,
+m4a-all,m4a,ffmpeg 8.1.2,ffmpeg_remux_usemeta,m4a,25979,aigc,removed,
+m4a-all,m4a,ffmpeg 8.1.2,ffmpeg_to_mp3,mp3,24802,c2pa,removed,Error: No claim found
+m4a-all,m4a,ffmpeg 8.1.2,ffmpeg_to_mp3,mp3,24802,xmp_dst,removed,
+m4a-all,m4a,ffmpeg 8.1.2,ffmpeg_to_mp3,mp3,24802,aigc,removed,
+mp3-c2pa,mp3,-,identity,mp3,38086,c2pa,intact,state=Valid; failures=signingCredential.untrusted; dst_active=True; dst_any_manifest=True; manifests=1
+mp3-c2pa,mp3,ffmpeg 8.1.2,ffmpeg_reencode,mp3,18408,c2pa,removed,Error: No claim found
+mp3-c2pa,mp3,ffmpeg 8.1.2,ffmpeg_remux,mp3,24494,c2pa,removed,Error: No claim found
+mp3-c2pa,mp3,ffmpeg 8.1.2,ffmpeg_remux_nometa,mp3,24494,c2pa,removed,Error: No claim found
+mp3-c2pa,mp3,ffmpeg 8.1.2,ffmpeg_to_m4a,m4a,19737,c2pa,removed,Error: No claim found
+mp4-all,mp4,-,identity,mp4,70798,c2pa,intact,state=Valid; failures=signingCredential.untrusted; dst_active=True; dst_any_manifest=True; manifests=1
+mp4-all,mp4,-,identity,mp4,70798,xmp_dst,survived,trainedAlgorithmicMedia
+mp4-all,mp4,-,identity,mp4,70798,aigc,survived,TC260:AIGC parsed
+mp4-all,mp4,ExifTool 13.55,exiftool_edit_title,mp4,71012,c2pa,broken,state=Invalid; failures=assertion.bmffHash.mismatch|signingCredential.untrusted; dst_active=True; dst_any_manifest=True; manifests=1
+mp4-all,mp4,ExifTool 13.55,exiftool_edit_title,mp4,71012,xmp_dst,survived,trainedAlgorithmicMedia
+mp4-all,mp4,ExifTool 13.55,exiftool_edit_title,mp4,71012,aigc,survived,TC260:AIGC parsed
+mp4-all,mp4,ExifTool 13.55,exiftool_restore_all,mp4,57450,c2pa,removed,Error: No claim found
+mp4-all,mp4,ExifTool 13.55,exiftool_restore_all,mp4,57450,xmp_dst,survived,trainedAlgorithmicMedia
+mp4-all,mp4,ExifTool 13.55,exiftool_restore_all,mp4,57450,aigc,survived,TC260:AIGC parsed
+mp4-all,mp4,ExifTool 13.55,exiftool_strip_all,mp4,53659,c2pa,removed,Error: No claim found
+mp4-all,mp4,ExifTool 13.55,exiftool_strip_all,mp4,53659,xmp_dst,removed,
+mp4-all,mp4,ExifTool 13.55,exiftool_strip_all,mp4,53659,aigc,removed,
+mp4-all,mp4,ffmpeg 8.1.2,ffmpeg_faststart,mp4,53757,c2pa,removed,Error: No claim found
+mp4-all,mp4,ffmpeg 8.1.2,ffmpeg_faststart,mp4,53757,xmp_dst,removed,
+mp4-all,mp4,ffmpeg 8.1.2,ffmpeg_faststart,mp4,53757,aigc,removed,
+mp4-all,mp4,ffmpeg 8.1.2,ffmpeg_reencode,mp4,48853,c2pa,removed,Error: No claim found
+mp4-all,mp4,ffmpeg 8.1.2,ffmpeg_reencode,mp4,48853,xmp_dst,removed,
+mp4-all,mp4,ffmpeg 8.1.2,ffmpeg_reencode,mp4,48853,aigc,removed,
+mp4-all,mp4,ffmpeg 8.1.2,ffmpeg_reencode_usemeta,mp4,49044,c2pa,removed,Error: No claim found
+mp4-all,mp4,ffmpeg 8.1.2,ffmpeg_reencode_usemeta,mp4,49044,xmp_dst,removed,
+mp4-all,mp4,ffmpeg 8.1.2,ffmpeg_reencode_usemeta,mp4,49044,aigc,removed,
+mp4-all,mp4,ffmpeg 8.1.2,ffmpeg_remux,mp4,53757,c2pa,removed,Error: No claim found
+mp4-all,mp4,ffmpeg 8.1.2,ffmpeg_remux,mp4,53757,xmp_dst,removed,
+mp4-all,mp4,ffmpeg 8.1.2,ffmpeg_remux,mp4,53757,aigc,removed,
+mp4-all,mp4,ffmpeg 8.1.2,ffmpeg_remux_exportxmp,mp4,57328,c2pa,removed,Error: No claim found
+mp4-all,mp4,ffmpeg 8.1.2,ffmpeg_remux_exportxmp,mp4,57328,xmp_dst,residue,"Iptc4xmpExt string in bytes, not parseable"
+mp4-all,mp4,ffmpeg 8.1.2,ffmpeg_remux_exportxmp,mp4,57328,aigc,residue,"tc260 namespace in bytes, not parseable"
+mp4-all,mp4,ffmpeg 8.1.2,ffmpeg_remux_nometa,mp4,53757,c2pa,removed,Error: No claim found
+mp4-all,mp4,ffmpeg 8.1.2,ffmpeg_remux_nometa,mp4,53757,xmp_dst,removed,
+mp4-all,mp4,ffmpeg 8.1.2,ffmpeg_remux_nometa,mp4,53757,aigc,removed,
+mp4-all,mp4,ffmpeg 8.1.2,ffmpeg_remux_usemeta,mp4,53948,c2pa,removed,Error: No claim found
+mp4-all,mp4,ffmpeg 8.1.2,ffmpeg_remux_usemeta,mp4,53948,xmp_dst,removed,
+mp4-all,mp4,ffmpeg 8.1.2,ffmpeg_remux_usemeta,mp4,53948,aigc,removed,
+mp4-all,mp4,ffmpeg 8.1.2,ffmpeg_scale,mp4,30924,c2pa,removed,Error: No claim found
+mp4-all,mp4,ffmpeg 8.1.2,ffmpeg_scale,mp4,30924,xmp_dst,removed,
+mp4-all,mp4,ffmpeg 8.1.2,ffmpeg_scale,mp4,30924,aigc,removed,
+mp4-all,mp4,ffmpeg 8.1.2,ffmpeg_to_webm,webm,59831,c2pa,removed,Error: Unsupported file type
+mp4-all,mp4,ffmpeg 8.1.2,ffmpeg_to_webm,webm,59831,xmp_dst,removed,
+mp4-all,mp4,ffmpeg 8.1.2,ffmpeg_to_webm,webm,59831,aigc,removed,
+png-all-remote,png,-,identity,png,87825,c2pa,intact,state=Valid; failures=signingCredential.untrusted; dst_active=True; dst_any_manifest=True; manifests=1
+png-all-remote,png,-,identity,png,87825,c2pa_remote_ref,survived,https://example.invalid/s3/manifests/remote-test.c2pa
+png-all-remote,png,-,identity,png,87825,xmp_dst,survived,trainedAlgorithmicMedia
+png-all-remote,png,-,identity,png,87825,aigc,survived,TC260:AIGC parsed
+png-all-remote,png,ExifTool 13.55,exiftool_edit_title,png,88118,c2pa,broken,state=Invalid; failures=assertion.dataHash.mismatch|signingCredential.untrusted; dst_active=True; dst_any_manifest=True; manifests=1
+png-all-remote,png,ExifTool 13.55,exiftool_edit_title,png,88118,c2pa_remote_ref,survived,https://example.invalid/s3/manifests/remote-test.c2pa
+png-all-remote,png,ExifTool 13.55,exiftool_edit_title,png,88118,xmp_dst,survived,trainedAlgorithmicMedia
+png-all-remote,png,ExifTool 13.55,exiftool_edit_title,png,88118,aigc,survived,TC260:AIGC parsed
+png-all-remote,png,ExifTool 13.55,exiftool_restore_all,png,20543,c2pa,removed,Error: No claim found
+png-all-remote,png,ExifTool 13.55,exiftool_restore_all,png,20543,c2pa_remote_ref,removed,
+png-all-remote,png,ExifTool 13.55,exiftool_restore_all,png,20543,xmp_dst,survived,trainedAlgorithmicMedia
+png-all-remote,png,ExifTool 13.55,exiftool_restore_all,png,20543,aigc,survived,TC260:AIGC parsed
+png-all-remote,png,ExifTool 13.55,exiftool_strip_all,png,19588,c2pa,removed,Error: No claim found
+png-all-remote,png,ExifTool 13.55,exiftool_strip_all,png,19588,c2pa_remote_ref,removed,
+png-all-remote,png,ExifTool 13.55,exiftool_strip_all,png,19588,xmp_dst,removed,
+png-all-remote,png,ExifTool 13.55,exiftool_strip_all,png,19588,aigc,removed,
+png-all-remote,png,ImageMagick (magick-wasm 0.0.44),magick_resave,png,21510,c2pa,removed,Error: No claim found
+png-all-remote,png,ImageMagick (magick-wasm 0.0.44),magick_resave,png,21510,c2pa_remote_ref,survived,https://example.invalid/s3/manifests/remote-test.c2pa
+png-all-remote,png,ImageMagick (magick-wasm 0.0.44),magick_resave,png,21510,xmp_dst,survived,trainedAlgorithmicMedia
+png-all-remote,png,ImageMagick (magick-wasm 0.0.44),magick_resave,png,21510,aigc,survived,TC260:AIGC parsed
+png-all-remote,png,ImageMagick (magick-wasm 0.0.44),magick_resize,png,33438,c2pa,removed,Error: No claim found
+png-all-remote,png,ImageMagick (magick-wasm 0.0.44),magick_resize,png,33438,c2pa_remote_ref,survived,https://example.invalid/s3/manifests/remote-test.c2pa
+png-all-remote,png,ImageMagick (magick-wasm 0.0.44),magick_resize,png,33438,xmp_dst,survived,trainedAlgorithmicMedia
+png-all-remote,png,ImageMagick (magick-wasm 0.0.44),magick_resize,png,33438,aigc,survived,TC260:AIGC parsed
+png-all-remote,png,ImageMagick (magick-wasm 0.0.44),magick_strip,png,20302,c2pa,removed,Error: No claim found
+png-all-remote,png,ImageMagick (magick-wasm 0.0.44),magick_strip,png,20302,c2pa_remote_ref,removed,
+png-all-remote,png,ImageMagick (magick-wasm 0.0.44),magick_strip,png,20302,xmp_dst,removed,
+png-all-remote,png,ImageMagick (magick-wasm 0.0.44),magick_strip,png,20302,aigc,removed,
+png-all-remote,png,ImageMagick (magick-wasm 0.0.44),magick_strip_resize,png,32211,c2pa,removed,Error: No claim found
+png-all-remote,png,ImageMagick (magick-wasm 0.0.44),magick_strip_resize,png,32211,c2pa_remote_ref,removed,
+png-all-remote,png,ImageMagick (magick-wasm 0.0.44),magick_strip_resize,png,32211,xmp_dst,removed,
+png-all-remote,png,ImageMagick (magick-wasm 0.0.44),magick_strip_resize,png,32211,aigc,removed,
+png-all-remote,png,ImageMagick (magick-wasm 0.0.44),magick_to_webp,webp,14526,c2pa,removed,Error: could not fetch the remote manifest an error occurred from the underlying http resolver: io: failed to lookup address information: nodename nor servname 
+png-all-remote,png,ImageMagick (magick-wasm 0.0.44),magick_to_webp,webp,14526,c2pa_remote_ref,survived,https://example.invalid/s3/manifests/remote-test.c2pa
+png-all-remote,png,ImageMagick (magick-wasm 0.0.44),magick_to_webp,webp,14526,xmp_dst,survived,trainedAlgorithmicMedia
+png-all-remote,png,ImageMagick (magick-wasm 0.0.44),magick_to_webp,webp,14526,aigc,survived,TC260:AIGC parsed
+png-all-remote,png,sharp 0.35.5 via next/image optimizer logic,nextimage_avif,avif,8993,c2pa,removed,Error: No claim found
+png-all-remote,png,sharp 0.35.5 via next/image optimizer logic,nextimage_avif,avif,8993,c2pa_remote_ref,removed,
+png-all-remote,png,sharp 0.35.5 via next/image optimizer logic,nextimage_avif,avif,8993,xmp_dst,removed,
+png-all-remote,png,sharp 0.35.5 via next/image optimizer logic,nextimage_avif,avif,8993,aigc,removed,
+png-all-remote,png,sharp 0.35.5 via next/image optimizer logic,nextimage_webp,webp,10082,c2pa,removed,Error: No claim found
+png-all-remote,png,sharp 0.35.5 via next/image optimizer logic,nextimage_webp,webp,10082,c2pa_remote_ref,removed,
+png-all-remote,png,sharp 0.35.5 via next/image optimizer logic,nextimage_webp,webp,10082,xmp_dst,removed,
+png-all-remote,png,sharp 0.35.5 via next/image optimizer logic,nextimage_webp,webp,10082,aigc,removed,
+png-all-remote,png,Pillow 12.3.0,pil_resave,png,19588,c2pa,removed,Error: No claim found
+png-all-remote,png,Pillow 12.3.0,pil_resave,png,19588,c2pa_remote_ref,removed,
+png-all-remote,png,Pillow 12.3.0,pil_resave,png,19588,xmp_dst,removed,
+png-all-remote,png,Pillow 12.3.0,pil_resave,png,19588,aigc,removed,
+png-all-remote,png,Pillow 12.3.0,pil_resave_keep,png,19588,c2pa,removed,Error: No claim found
+png-all-remote,png,Pillow 12.3.0,pil_resave_keep,png,19588,c2pa_remote_ref,removed,
+png-all-remote,png,Pillow 12.3.0,pil_resave_keep,png,19588,xmp_dst,removed,
+png-all-remote,png,Pillow 12.3.0,pil_resave_keep,png,19588,aigc,removed,
+png-all-remote,png,Pillow 12.3.0,pil_resave_png_itxt,png,20658,c2pa,removed,Error: could not fetch the remote manifest an error occurred from the underlying http resolver: io: failed to lookup address information: nodename nor servname 
+png-all-remote,png,Pillow 12.3.0,pil_resave_png_itxt,png,20658,c2pa_remote_ref,survived,https://example.invalid/s3/manifests/remote-test.c2pa
+png-all-remote,png,Pillow 12.3.0,pil_resave_png_itxt,png,20658,xmp_dst,survived,trainedAlgorithmicMedia
+png-all-remote,png,Pillow 12.3.0,pil_resave_png_itxt,png,20658,aigc,survived,TC260:AIGC parsed
+png-all-remote,png,Pillow 12.3.0,pil_thumbnail,png,26855,c2pa,removed,Error: No claim found
+png-all-remote,png,Pillow 12.3.0,pil_thumbnail,png,26855,c2pa_remote_ref,removed,
+png-all-remote,png,Pillow 12.3.0,pil_thumbnail,png,26855,xmp_dst,removed,
+png-all-remote,png,Pillow 12.3.0,pil_thumbnail,png,26855,aigc,removed,
+png-all-remote,png,Pillow 12.3.0,pil_thumbnail_keep,png,26855,c2pa,removed,Error: No claim found
+png-all-remote,png,Pillow 12.3.0,pil_thumbnail_keep,png,26855,c2pa_remote_ref,removed,
+png-all-remote,png,Pillow 12.3.0,pil_thumbnail_keep,png,26855,xmp_dst,removed,
+png-all-remote,png,Pillow 12.3.0,pil_thumbnail_keep,png,26855,aigc,removed,
+png-all-remote,png,Pillow 12.3.0,pil_to_avif,avif,11341,c2pa,removed,Error: No claim found
+png-all-remote,png,Pillow 12.3.0,pil_to_avif,avif,11341,c2pa_remote_ref,removed,
+png-all-remote,png,Pillow 12.3.0,pil_to_avif,avif,11341,xmp_dst,removed,
+png-all-remote,png,Pillow 12.3.0,pil_to_avif,avif,11341,aigc,removed,
+png-all-remote,png,Pillow 12.3.0,pil_to_avif_keep,avif,12461,c2pa,removed,Error: No claim found
+png-all-remote,png,Pillow 12.3.0,pil_to_avif_keep,avif,12461,c2pa_remote_ref,survived,https://example.invalid/s3/manifests/remote-test.c2pa
+png-all-remote,png,Pillow 12.3.0,pil_to_avif_keep,avif,12461,xmp_dst,survived,trainedAlgorithmicMedia
+png-all-remote,png,Pillow 12.3.0,pil_to_avif_keep,avif,12461,aigc,survived,TC260:AIGC parsed
+png-all-remote,png,Pillow 12.3.0,pil_to_jpeg,jpg,28218,c2pa,removed,Error: No claim found
+png-all-remote,png,Pillow 12.3.0,pil_to_jpeg,jpg,28218,c2pa_remote_ref,removed,
+png-all-remote,png,Pillow 12.3.0,pil_to_jpeg,jpg,28218,xmp_dst,removed,
+png-all-remote,png,Pillow 12.3.0,pil_to_jpeg,jpg,28218,aigc,removed,
+png-all-remote,png,Pillow 12.3.0,pil_to_webp,webp,15748,c2pa,removed,Error: No claim found
+png-all-remote,png,Pillow 12.3.0,pil_to_webp,webp,15748,c2pa_remote_ref,removed,
+png-all-remote,png,Pillow 12.3.0,pil_to_webp,webp,15748,xmp_dst,removed,
+png-all-remote,png,Pillow 12.3.0,pil_to_webp,webp,15748,aigc,removed,
+png-all-remote,png,Pillow 12.3.0,pil_to_webp_keep,webp,16810,c2pa,removed,Error: could not fetch the remote manifest an error occurred from the underlying http resolver: io: failed to lookup address information: nodename nor servname 
+png-all-remote,png,Pillow 12.3.0,pil_to_webp_keep,webp,16810,c2pa_remote_ref,survived,https://example.invalid/s3/manifests/remote-test.c2pa
+png-all-remote,png,Pillow 12.3.0,pil_to_webp_keep,webp,16810,xmp_dst,survived,trainedAlgorithmicMedia
+png-all-remote,png,Pillow 12.3.0,pil_to_webp_keep,webp,16810,aigc,survived,TC260:AIGC parsed
+png-all-remote,png,sharp 0.35.5 (libvips),sharp_resize,png,102453,c2pa,removed,Error: No claim found
+png-all-remote,png,sharp 0.35.5 (libvips),sharp_resize,png,102453,c2pa_remote_ref,removed,
+png-all-remote,png,sharp 0.35.5 (libvips),sharp_resize,png,102453,xmp_dst,removed,
+png-all-remote,png,sharp 0.35.5 (libvips),sharp_resize,png,102453,aigc,removed,
+png-all-remote,png,sharp 0.35.5 (libvips),sharp_resize_keepExif,png,102645,c2pa,removed,Error: No claim found
+png-all-remote,png,sharp 0.35.5 (libvips),sharp_resize_keepExif,png,102645,c2pa_remote_ref,removed,
+png-all-remote,png,sharp 0.35.5 (libvips),sharp_resize_keepExif,png,102645,xmp_dst,removed,
+png-all-remote,png,sharp 0.35.5 (libvips),sharp_resize_keepExif,png,102645,aigc,removed,
+png-all-remote,png,sharp 0.35.5 (libvips),sharp_resize_keepMetadata,png,103217,c2pa,removed,Error: No claim found
+png-all-remote,png,sharp 0.35.5 (libvips),sharp_resize_keepMetadata,png,103217,c2pa_remote_ref,survived,https://example.invalid/s3/manifests/remote-test.c2pa
+png-all-remote,png,sharp 0.35.5 (libvips),sharp_resize_keepMetadata,png,103217,xmp_dst,survived,trainedAlgorithmicMedia
+png-all-remote,png,sharp 0.35.5 (libvips),sharp_resize_keepMetadata,png,103217,aigc,survived,TC260:AIGC parsed
+png-all-remote,png,sharp 0.35.5 (libvips),sharp_resize_keepMetadata_then_c2pa_resign,png,286434,c2pa,intact,state=Valid; failures=signingCredential.untrusted; dst_active=False; dst_any_manifest=True; manifests=2
+png-all-remote,png,sharp 0.35.5 (libvips),sharp_resize_keepMetadata_then_c2pa_resign,png,286434,c2pa_remote_ref,survived,https://example.invalid/s3/manifests/remote-test.c2pa
+png-all-remote,png,sharp 0.35.5 (libvips),sharp_resize_keepMetadata_then_c2pa_resign,png,286434,xmp_dst,survived,trainedAlgorithmicMedia
+png-all-remote,png,sharp 0.35.5 (libvips),sharp_resize_keepMetadata_then_c2pa_resign,png,286434,aigc,survived,TC260:AIGC parsed
+png-all-remote,png,sharp 0.35.5 (libvips),sharp_resize_keepXmp,png,103025,c2pa,removed,Error: No claim found
+png-all-remote,png,sharp 0.35.5 (libvips),sharp_resize_keepXmp,png,103025,c2pa_remote_ref,survived,https://example.invalid/s3/manifests/remote-test.c2pa
+png-all-remote,png,sharp 0.35.5 (libvips),sharp_resize_keepXmp,png,103025,xmp_dst,survived,trainedAlgorithmicMedia
+png-all-remote,png,sharp 0.35.5 (libvips),sharp_resize_keepXmp,png,103025,aigc,survived,TC260:AIGC parsed
+png-all-remote,png,sharp 0.35.5 (libvips),sharp_resize_withMetadata,png,103548,c2pa,removed,Error: No claim found
+png-all-remote,png,sharp 0.35.5 (libvips),sharp_resize_withMetadata,png,103548,c2pa_remote_ref,survived,https://example.invalid/s3/manifests/remote-test.c2pa
+png-all-remote,png,sharp 0.35.5 (libvips),sharp_resize_withMetadata,png,103548,xmp_dst,survived,trainedAlgorithmicMedia
+png-all-remote,png,sharp 0.35.5 (libvips),sharp_resize_withMetadata,png,103548,aigc,survived,TC260:AIGC parsed
+png-all-remote,png,sharp 0.35.5 (libvips),sharp_to_avif,avif,7886,c2pa,removed,Error: No claim found
+png-all-remote,png,sharp 0.35.5 (libvips),sharp_to_avif,avif,7886,c2pa_remote_ref,removed,
+png-all-remote,png,sharp 0.35.5 (libvips),sharp_to_avif,avif,7886,xmp_dst,removed,
+png-all-remote,png,sharp 0.35.5 (libvips),sharp_to_avif,avif,7886,aigc,removed,
+png-all-remote,png,sharp 0.35.5 (libvips),sharp_to_avif_keepMetadata,avif,9251,c2pa,removed,Error: No claim found
+png-all-remote,png,sharp 0.35.5 (libvips),sharp_to_avif_keepMetadata,avif,9251,c2pa_remote_ref,survived,https://example.invalid/s3/manifests/remote-test.c2pa
+png-all-remote,png,sharp 0.35.5 (libvips),sharp_to_avif_keepMetadata,avif,9251,xmp_dst,survived,trainedAlgorithmicMedia
+png-all-remote,png,sharp 0.35.5 (libvips),sharp_to_avif_keepMetadata,avif,9251,aigc,survived,TC260:AIGC parsed
+png-all-remote,png,sharp 0.35.5 (libvips),sharp_to_webp,webp,15748,c2pa,removed,Error: No claim found
+png-all-remote,png,sharp 0.35.5 (libvips),sharp_to_webp,webp,15748,c2pa_remote_ref,removed,
+png-all-remote,png,sharp 0.35.5 (libvips),sharp_to_webp,webp,15748,xmp_dst,removed,
+png-all-remote,png,sharp 0.35.5 (libvips),sharp_to_webp,webp,15748,aigc,removed,
+png-all-remote,png,sharp 0.35.5 (libvips),sharp_to_webp_keepMetadata,webp,17004,c2pa,removed,Error: could not fetch the remote manifest an error occurred from the underlying http resolver: io: failed to lookup address information: nodename nor servname 
+png-all-remote,png,sharp 0.35.5 (libvips),sharp_to_webp_keepMetadata,webp,17004,c2pa_remote_ref,survived,https://example.invalid/s3/manifests/remote-test.c2pa
+png-all-remote,png,sharp 0.35.5 (libvips),sharp_to_webp_keepMetadata,webp,17004,xmp_dst,survived,trainedAlgorithmicMedia
+png-all-remote,png,sharp 0.35.5 (libvips),sharp_to_webp_keepMetadata,webp,17004,aigc,survived,TC260:AIGC parsed
+pub-CA,jpg,-,identity,jpg,166864,c2pa,intact,state=Valid; failures=signingCredential.untrusted; dst_active=False; dst_any_manifest=False; manifests=1
+pub-CA,jpg,ExifTool 13.55,exiftool_edit_title,jpg,169767,c2pa,broken,state=Invalid; failures=assertion.dataHash.mismatch|signingCredential.untrusted; dst_active=False; dst_any_manifest=False; manifests=1
+pub-CA,jpg,ExifTool 13.55,exiftool_restore_all,jpg,49591,c2pa,removed,Error: No claim found
+pub-CA,jpg,ExifTool 13.55,exiftool_strip_all,jpg,49573,c2pa,removed,Error: No claim found
+pub-CA,jpg,ImageMagick (magick-wasm 0.0.44),magick_resave,jpg,42857,c2pa,removed,Error: No claim found
+pub-CA,jpg,ImageMagick (magick-wasm 0.0.44),magick_resize,jpg,14672,c2pa,removed,Error: No claim found
+pub-CA,jpg,ImageMagick (magick-wasm 0.0.44),magick_strip,jpg,42857,c2pa,removed,Error: No claim found
+pub-CA,jpg,ImageMagick (magick-wasm 0.0.44),magick_strip_resize,jpg,14672,c2pa,removed,Error: No claim found
+pub-CA,jpg,ImageMagick (magick-wasm 0.0.44),magick_to_webp,webp,17690,c2pa,removed,Error: No claim found
+pub-CA,jpg,sharp 0.35.5 via next/image optimizer logic,nextimage_avif,avif,7917,c2pa,removed,Error: No claim found
+pub-CA,jpg,sharp 0.35.5 via next/image optimizer logic,nextimage_webp,webp,9766,c2pa,removed,Error: No claim found
+pub-CA,jpg,Pillow 12.3.0,pil_resave,jpg,34020,c2pa,removed,Error: No claim found
+pub-CA,jpg,Pillow 12.3.0,pil_resave_keep,jpg,34020,c2pa,removed,Error: No claim found
+pub-CA,jpg,Pillow 12.3.0,pil_thumbnail,jpg,10921,c2pa,removed,Error: No claim found
+pub-CA,jpg,Pillow 12.3.0,pil_thumbnail_keep,jpg,10921,c2pa,removed,Error: No claim found
+pub-CA,jpg,Pillow 12.3.0,pil_to_avif,avif,28744,c2pa,removed,Error: No claim found
+pub-CA,jpg,Pillow 12.3.0,pil_to_avif_keep,avif,28744,c2pa,removed,Error: No claim found
+pub-CA,jpg,Pillow 12.3.0,pil_to_webp,webp,21542,c2pa,removed,Error: No claim found
+pub-CA,jpg,Pillow 12.3.0,pil_to_webp_keep,webp,21542,c2pa,removed,Error: No claim found
+pub-CA,jpg,sharp 0.35.5 (libvips),sharp_resize,jpg,12078,c2pa,removed,Error: No claim found
+pub-CA,jpg,sharp 0.35.5 (libvips),sharp_resize_keepExif,jpg,12268,c2pa,removed,Error: No claim found
+pub-CA,jpg,sharp 0.35.5 (libvips),sharp_resize_keepMetadata,jpg,12268,c2pa,removed,Error: No claim found
+pub-CA,jpg,sharp 0.35.5 (libvips),sharp_resize_keepMetadata_then_c2pa_resign,jpg,249709,c2pa,intact,state=Valid; failures=signingCredential.untrusted; dst_active=False; dst_any_manifest=False; manifests=2
+pub-CA,jpg,sharp 0.35.5 (libvips),sharp_resize_keepXmp,jpg,12078,c2pa,removed,Error: No claim found
+pub-CA,jpg,sharp 0.35.5 (libvips),sharp_resize_withMetadata,jpg,12766,c2pa,removed,Error: No claim found
+pub-CA,jpg,sharp 0.35.5 (libvips),sharp_to_avif,avif,17294,c2pa,removed,Error: No claim found
+pub-CA,jpg,sharp 0.35.5 (libvips),sharp_to_avif_keepMetadata,avif,17549,c2pa,removed,Error: No claim found
+pub-CA,jpg,sharp 0.35.5 (libvips),sharp_to_webp,webp,21542,c2pa,removed,Error: No claim found
+pub-CA,jpg,sharp 0.35.5 (libvips),sharp_to_webp_keepMetadata,webp,21754,c2pa,removed,Error: No claim found
+wav-c2pa,wav,-,identity,wav,77638,c2pa,intact,state=Valid; failures=signingCredential.untrusted; dst_active=True; dst_any_manifest=True; manifests=1
+wav-c2pa,wav,ffmpeg 8.1.2,ffmpeg_reencode,wav,32078,c2pa,removed,Error: No claim found
+wav-c2pa,wav,ffmpeg 8.1.2,ffmpeg_remux,wav,64078,c2pa,removed,Error: No claim found
+wav-c2pa,wav,ffmpeg 8.1.2,ffmpeg_remux_nometa,wav,64078,c2pa,removed,Error: No claim found
+wav-c2pa,wav,ffmpeg 8.1.2,ffmpeg_to_m4a,m4a,12049,c2pa,removed,Error: No claim found
+webp-all-remote,webp,-,identity,webp,281090,c2pa,intact,state=Valid; failures=signingCredential.untrusted; dst_active=True; dst_any_manifest=True; manifests=1
+webp-all-remote,webp,-,identity,webp,281090,c2pa_remote_ref,survived,https://example.invalid/s3/manifests/remote-test.c2pa
+webp-all-remote,webp,-,identity,webp,281090,xmp_dst,survived,trainedAlgorithmicMedia
+webp-all-remote,webp,-,identity,webp,281090,aigc,survived,TC260:AIGC parsed
+webp-all-remote,webp,ExifTool 13.55,exiftool_edit_title,webp,281498,c2pa,broken,state=Invalid; failures=assertion.dataHash.mismatch|signingCredential.untrusted; dst_active=True; dst_any_manifest=True; manifests=1
+webp-all-remote,webp,ExifTool 13.55,exiftool_edit_title,webp,281498,c2pa_remote_ref,survived,https://example.invalid/s3/manifests/remote-test.c2pa
+webp-all-remote,webp,ExifTool 13.55,exiftool_edit_title,webp,281498,xmp_dst,survived,trainedAlgorithmicMedia
+webp-all-remote,webp,ExifTool 13.55,exiftool_edit_title,webp,281498,aigc,survived,TC260:AIGC parsed
+webp-all-remote,webp,ExifTool 13.55,exiftool_restore_all,webp,21536,c2pa,removed,Error: No claim found
+webp-all-remote,webp,ExifTool 13.55,exiftool_restore_all,webp,21536,c2pa_remote_ref,removed,
+webp-all-remote,webp,ExifTool 13.55,exiftool_restore_all,webp,21536,xmp_dst,survived,trainedAlgorithmicMedia
+webp-all-remote,webp,ExifTool 13.55,exiftool_restore_all,webp,21536,aigc,survived,TC260:AIGC parsed
+webp-all-remote,webp,ExifTool 13.55,exiftool_strip_all,webp,18164,c2pa,removed,Error: No claim found
+webp-all-remote,webp,ExifTool 13.55,exiftool_strip_all,webp,18164,c2pa_remote_ref,removed,
+webp-all-remote,webp,ExifTool 13.55,exiftool_strip_all,webp,18164,xmp_dst,removed,
+webp-all-remote,webp,ExifTool 13.55,exiftool_strip_all,webp,18164,aigc,removed,
+webp-all-remote,webp,ImageMagick (magick-wasm 0.0.44),magick_resave,webp,16736,c2pa,removed,Error: could not fetch the remote manifest an error occurred from the underlying http resolver: io: failed to lookup address information: nodename nor servname 
+webp-all-remote,webp,ImageMagick (magick-wasm 0.0.44),magick_resave,webp,16736,c2pa_remote_ref,survived,https://example.invalid/s3/manifests/remote-test.c2pa
+webp-all-remote,webp,ImageMagick (magick-wasm 0.0.44),magick_resave,webp,16736,xmp_dst,survived,trainedAlgorithmicMedia
+webp-all-remote,webp,ImageMagick (magick-wasm 0.0.44),magick_resave,webp,16736,aigc,survived,TC260:AIGC parsed
+webp-all-remote,webp,ImageMagick (magick-wasm 0.0.44),magick_resize,webp,9110,c2pa,removed,Error: could not fetch the remote manifest an error occurred from the underlying http resolver: io: failed to lookup address information: nodename nor servname 
+webp-all-remote,webp,ImageMagick (magick-wasm 0.0.44),magick_resize,webp,9110,c2pa_remote_ref,survived,https://example.invalid/s3/manifests/remote-test.c2pa
+webp-all-remote,webp,ImageMagick (magick-wasm 0.0.44),magick_resize,webp,9110,xmp_dst,survived,trainedAlgorithmicMedia
+webp-all-remote,webp,ImageMagick (magick-wasm 0.0.44),magick_resize,webp,9110,aigc,survived,TC260:AIGC parsed
+webp-all-remote,webp,ImageMagick (magick-wasm 0.0.44),magick_strip,webp,13364,c2pa,removed,Error: No claim found
+webp-all-remote,webp,ImageMagick (magick-wasm 0.0.44),magick_strip,webp,13364,c2pa_remote_ref,removed,
+webp-all-remote,webp,ImageMagick (magick-wasm 0.0.44),magick_strip,webp,13364,xmp_dst,removed,
+webp-all-remote,webp,ImageMagick (magick-wasm 0.0.44),magick_strip,webp,13364,aigc,removed,
+webp-all-remote,webp,ImageMagick (magick-wasm 0.0.44),magick_strip_resize,webp,5738,c2pa,removed,Error: No claim found
+webp-all-remote,webp,ImageMagick (magick-wasm 0.0.44),magick_strip_resize,webp,5738,c2pa_remote_ref,removed,
+webp-all-remote,webp,ImageMagick (magick-wasm 0.0.44),magick_strip_resize,webp,5738,xmp_dst,removed,
+webp-all-remote,webp,ImageMagick (magick-wasm 0.0.44),magick_strip_resize,webp,5738,aigc,removed,
+webp-all-remote,webp,ImageMagick (magick-wasm 0.0.44),magick_to_webp,webp,16736,c2pa,removed,Error: could not fetch the remote manifest an error occurred from the underlying http resolver: io: failed to lookup address information: nodename nor servname 
+webp-all-remote,webp,ImageMagick (magick-wasm 0.0.44),magick_to_webp,webp,16736,c2pa_remote_ref,survived,https://example.invalid/s3/manifests/remote-test.c2pa
+webp-all-remote,webp,ImageMagick (magick-wasm 0.0.44),magick_to_webp,webp,16736,xmp_dst,survived,trainedAlgorithmicMedia
+webp-all-remote,webp,ImageMagick (magick-wasm 0.0.44),magick_to_webp,webp,16736,aigc,survived,TC260:AIGC parsed
+webp-all-remote,webp,sharp 0.35.5 via next/image optimizer logic,nextimage_avif,avif,8613,c2pa,removed,Error: No claim found
+webp-all-remote,webp,sharp 0.35.5 via next/image optimizer logic,nextimage_avif,avif,8613,c2pa_remote_ref,removed,
+webp-all-remote,webp,sharp 0.35.5 via next/image optimizer logic,nextimage_avif,avif,8613,xmp_dst,removed,
+webp-all-remote,webp,sharp 0.35.5 via next/image optimizer logic,nextimage_avif,avif,8613,aigc,removed,
+webp-all-remote,webp,sharp 0.35.5 via next/image optimizer logic,nextimage_webp,webp,9430,c2pa,removed,Error: No claim found
+webp-all-remote,webp,sharp 0.35.5 via next/image optimizer logic,nextimage_webp,webp,9430,c2pa_remote_ref,removed,
+webp-all-remote,webp,sharp 0.35.5 via next/image optimizer logic,nextimage_webp,webp,9430,xmp_dst,removed,
+webp-all-remote,webp,sharp 0.35.5 via next/image optimizer logic,nextimage_webp,webp,9430,aigc,removed,
+webp-all-remote,webp,Pillow 12.3.0,pil_resave,webp,15412,c2pa,removed,Error: No claim found
+webp-all-remote,webp,Pillow 12.3.0,pil_resave,webp,15412,c2pa_remote_ref,removed,
+webp-all-remote,webp,Pillow 12.3.0,pil_resave,webp,15412,xmp_dst,removed,
+webp-all-remote,webp,Pillow 12.3.0,pil_resave,webp,15412,aigc,removed,
+webp-all-remote,webp,Pillow 12.3.0,pil_resave_keep,webp,18784,c2pa,removed,Error: could not fetch the remote manifest an error occurred from the underlying http resolver: io: failed to lookup address information: nodename nor servname 
+webp-all-remote,webp,Pillow 12.3.0,pil_resave_keep,webp,18784,c2pa_remote_ref,survived,https://example.invalid/s3/manifests/remote-test.c2pa
+webp-all-remote,webp,Pillow 12.3.0,pil_resave_keep,webp,18784,xmp_dst,survived,trainedAlgorithmicMedia
+webp-all-remote,webp,Pillow 12.3.0,pil_resave_keep,webp,18784,aigc,survived,TC260:AIGC parsed
+webp-all-remote,webp,Pillow 12.3.0,pil_thumbnail,webp,6398,c2pa,removed,Error: No claim found
+webp-all-remote,webp,Pillow 12.3.0,pil_thumbnail,webp,6398,c2pa_remote_ref,removed,
+webp-all-remote,webp,Pillow 12.3.0,pil_thumbnail,webp,6398,xmp_dst,removed,
+webp-all-remote,webp,Pillow 12.3.0,pil_thumbnail,webp,6398,aigc,removed,
+webp-all-remote,webp,Pillow 12.3.0,pil_thumbnail_keep,webp,9770,c2pa,removed,Error: could not fetch the remote manifest an error occurred from the underlying http resolver: io: failed to lookup address information: nodename nor servname 
+webp-all-remote,webp,Pillow 12.3.0,pil_thumbnail_keep,webp,9770,c2pa_remote_ref,survived,https://example.invalid/s3/manifests/remote-test.c2pa
+webp-all-remote,webp,Pillow 12.3.0,pil_thumbnail_keep,webp,9770,xmp_dst,survived,trainedAlgorithmicMedia
+webp-all-remote,webp,Pillow 12.3.0,pil_thumbnail_keep,webp,9770,aigc,survived,TC260:AIGC parsed
+webp-all-remote,webp,Pillow 12.3.0,pil_to_avif,avif,20536,c2pa,removed,Error: No claim found
+webp-all-remote,webp,Pillow 12.3.0,pil_to_avif,avif,20536,c2pa_remote_ref,removed,
+webp-all-remote,webp,Pillow 12.3.0,pil_to_avif,avif,20536,xmp_dst,removed,
+webp-all-remote,webp,Pillow 12.3.0,pil_to_avif,avif,20536,aigc,removed,
+webp-all-remote,webp,Pillow 12.3.0,pil_to_avif_keep,avif,23966,c2pa,removed,Error: No claim found
+webp-all-remote,webp,Pillow 12.3.0,pil_to_avif_keep,avif,23966,c2pa_remote_ref,survived,https://example.invalid/s3/manifests/remote-test.c2pa
+webp-all-remote,webp,Pillow 12.3.0,pil_to_avif_keep,avif,23966,xmp_dst,survived,trainedAlgorithmicMedia
+webp-all-remote,webp,Pillow 12.3.0,pil_to_avif_keep,avif,23966,aigc,survived,TC260:AIGC parsed
+webp-all-remote,webp,Pillow 12.3.0,pil_to_jpeg,jpg,26860,c2pa,removed,Error: No claim found
+webp-all-remote,webp,Pillow 12.3.0,pil_to_jpeg,jpg,26860,c2pa_remote_ref,removed,
+webp-all-remote,webp,Pillow 12.3.0,pil_to_jpeg,jpg,26860,xmp_dst,removed,
+webp-all-remote,webp,Pillow 12.3.0,pil_to_jpeg,jpg,26860,aigc,removed,
+webp-all-remote,webp,Pillow 12.3.0,pil_to_webp,webp,15412,c2pa,removed,Error: No claim found
+webp-all-remote,webp,Pillow 12.3.0,pil_to_webp,webp,15412,c2pa_remote_ref,removed,
+webp-all-remote,webp,Pillow 12.3.0,pil_to_webp,webp,15412,xmp_dst,removed,
+webp-all-remote,webp,Pillow 12.3.0,pil_to_webp,webp,15412,aigc,removed,
+webp-all-remote,webp,Pillow 12.3.0,pil_to_webp_keep,webp,18784,c2pa,removed,Error: could not fetch the remote manifest an error occurred from the underlying http resolver: io: failed to lookup address information: nodename nor servname 
+webp-all-remote,webp,Pillow 12.3.0,pil_to_webp_keep,webp,18784,c2pa_remote_ref,survived,https://example.invalid/s3/manifests/remote-test.c2pa
+webp-all-remote,webp,Pillow 12.3.0,pil_to_webp_keep,webp,18784,xmp_dst,survived,trainedAlgorithmicMedia
+webp-all-remote,webp,Pillow 12.3.0,pil_to_webp_keep,webp,18784,aigc,survived,TC260:AIGC parsed
+webp-all-remote,webp,sharp 0.35.5 (libvips),sharp_resize,webp,6970,c2pa,removed,Error: No claim found
+webp-all-remote,webp,sharp 0.35.5 (libvips),sharp_resize,webp,6970,c2pa_remote_ref,removed,
+webp-all-remote,webp,sharp 0.35.5 (libvips),sharp_resize,webp,6970,xmp_dst,removed,
+webp-all-remote,webp,sharp 0.35.5 (libvips),sharp_resize,webp,6970,aigc,removed,
+webp-all-remote,webp,sharp 0.35.5 (libvips),sharp_resize_keepExif,webp,7182,c2pa,removed,Error: No claim found
+webp-all-remote,webp,sharp 0.35.5 (libvips),sharp_resize_keepExif,webp,7182,c2pa_remote_ref,removed,
+webp-all-remote,webp,sharp 0.35.5 (libvips),sharp_resize_keepExif,webp,7182,xmp_dst,removed,
+webp-all-remote,webp,sharp 0.35.5 (libvips),sharp_resize_keepExif,webp,7182,aigc,removed,
+webp-all-remote,webp,sharp 0.35.5 (libvips),sharp_resize_keepMetadata,webp,10536,c2pa,removed,Error: could not fetch the remote manifest an error occurred from the underlying http resolver: io: failed to lookup address information: nodename nor servname 
+webp-all-remote,webp,sharp 0.35.5 (libvips),sharp_resize_keepMetadata,webp,10536,c2pa_remote_ref,survived,https://example.invalid/s3/manifests/remote-test.c2pa
+webp-all-remote,webp,sharp 0.35.5 (libvips),sharp_resize_keepMetadata,webp,10536,xmp_dst,survived,trainedAlgorithmicMedia
+webp-all-remote,webp,sharp 0.35.5 (libvips),sharp_resize_keepMetadata,webp,10536,aigc,survived,TC260:AIGC parsed
+webp-all-remote,webp,sharp 0.35.5 (libvips),sharp_resize_keepMetadata_then_c2pa_resign,webp,886614,c2pa,intact,state=Valid; failures=signingCredential.untrusted; dst_active=False; dst_any_manifest=True; manifests=2
+webp-all-remote,webp,sharp 0.35.5 (libvips),sharp_resize_keepMetadata_then_c2pa_resign,webp,886614,c2pa_remote_ref,survived,https://example.invalid/s3/manifests/remote-test.c2pa
+webp-all-remote,webp,sharp 0.35.5 (libvips),sharp_resize_keepMetadata_then_c2pa_resign,webp,886614,xmp_dst,survived,trainedAlgorithmicMedia
+webp-all-remote,webp,sharp 0.35.5 (libvips),sharp_resize_keepMetadata_then_c2pa_resign,webp,886614,aigc,survived,TC260:AIGC parsed
+webp-all-remote,webp,sharp 0.35.5 (libvips),sharp_resize_keepXmp,webp,10342,c2pa,removed,Error: could not fetch the remote manifest an error occurred from the underlying http resolver: io: failed to lookup address information: nodename nor servname 
+webp-all-remote,webp,sharp 0.35.5 (libvips),sharp_resize_keepXmp,webp,10342,c2pa_remote_ref,survived,https://example.invalid/s3/manifests/remote-test.c2pa
+webp-all-remote,webp,sharp 0.35.5 (libvips),sharp_resize_keepXmp,webp,10342,xmp_dst,survived,trainedAlgorithmicMedia
+webp-all-remote,webp,sharp 0.35.5 (libvips),sharp_resize_keepXmp,webp,10342,aigc,survived,TC260:AIGC parsed
+webp-all-remote,webp,sharp 0.35.5 (libvips),sharp_resize_withMetadata,webp,11024,c2pa,removed,Error: could not fetch the remote manifest an error occurred from the underlying http resolver: io: failed to lookup address information: nodename nor servname 
+webp-all-remote,webp,sharp 0.35.5 (libvips),sharp_resize_withMetadata,webp,11024,c2pa_remote_ref,survived,https://example.invalid/s3/manifests/remote-test.c2pa
+webp-all-remote,webp,sharp 0.35.5 (libvips),sharp_resize_withMetadata,webp,11024,xmp_dst,survived,trainedAlgorithmicMedia
+webp-all-remote,webp,sharp 0.35.5 (libvips),sharp_resize_withMetadata,webp,11024,aigc,survived,TC260:AIGC parsed
+webp-all-remote,webp,sharp 0.35.5 (libvips),sharp_to_avif,avif,12375,c2pa,removed,Error: No claim found
+webp-all-remote,webp,sharp 0.35.5 (libvips),sharp_to_avif,avif,12375,c2pa_remote_ref,removed,
+webp-all-remote,webp,sharp 0.35.5 (libvips),sharp_to_avif,avif,12375,xmp_dst,removed,
+webp-all-remote,webp,sharp 0.35.5 (libvips),sharp_to_avif,avif,12375,aigc,removed,
+webp-all-remote,webp,sharp 0.35.5 (libvips),sharp_to_avif_keepMetadata,avif,16050,c2pa,removed,Error: No claim found
+webp-all-remote,webp,sharp 0.35.5 (libvips),sharp_to_avif_keepMetadata,avif,16050,c2pa_remote_ref,survived,https://example.invalid/s3/manifests/remote-test.c2pa
+webp-all-remote,webp,sharp 0.35.5 (libvips),sharp_to_avif_keepMetadata,avif,16050,xmp_dst,survived,trainedAlgorithmicMedia
+webp-all-remote,webp,sharp 0.35.5 (libvips),sharp_to_avif_keepMetadata,avif,16050,aigc,survived,TC260:AIGC parsed
+webp-all-remote,webp,sharp 0.35.5 (libvips),sharp_to_webp,webp,15412,c2pa,removed,Error: No claim found
+webp-all-remote,webp,sharp 0.35.5 (libvips),sharp_to_webp,webp,15412,c2pa_remote_ref,removed,
+webp-all-remote,webp,sharp 0.35.5 (libvips),sharp_to_webp,webp,15412,xmp_dst,removed,
+webp-all-remote,webp,sharp 0.35.5 (libvips),sharp_to_webp,webp,15412,aigc,removed,
+webp-all-remote,webp,sharp 0.35.5 (libvips),sharp_to_webp_keepMetadata,webp,18978,c2pa,removed,Error: could not fetch the remote manifest an error occurred from the underlying http resolver: io: failed to lookup address information: nodename nor servname 
+webp-all-remote,webp,sharp 0.35.5 (libvips),sharp_to_webp_keepMetadata,webp,18978,c2pa_remote_ref,survived,https://example.invalid/s3/manifests/remote-test.c2pa
+webp-all-remote,webp,sharp 0.35.5 (libvips),sharp_to_webp_keepMetadata,webp,18978,xmp_dst,survived,trainedAlgorithmicMedia
+webp-all-remote,webp,sharp 0.35.5 (libvips),sharp_to_webp_keepMetadata,webp,18978,aigc,survived,TC260:AIGC parsed

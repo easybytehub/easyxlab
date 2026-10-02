@@ -1,0 +1,21 @@
+{
+  "alg": "es256",
+  "private_key": "../tools/c2patool/sample/es256_private.key",
+  "sign_cert": "../tools/c2patool/sample/es256_certs.pem",
+  "claim_generator_info": [{ "name": "EasyByte-Lab-S3-corpus", "version": "1.0" }],
+  "title": "S3 synthetic test asset (NOT a real AI output)",
+  "assertions": [
+    {
+      "label": "c2pa.actions",
+      "data": {
+        "actions": [
+          {
+            "action": "c2pa.created",
+            "digitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+            "softwareAgent": { "name": "EasyByte Lab S3 generator (test)" }
+          }
+        ]
+      }
+    }
+  ]
+}

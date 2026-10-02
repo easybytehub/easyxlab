@@ -1,0 +1,95 @@
+{
+ "embudo": {
+  "repos_buscados": 1008,
+  "repos_busqueda_repos": 764,
+  "repos_busqueda_codigo": 262,
+  "hits_busqueda_codigo": 1768,
+  "candidatos_descargados": 29491,
+  "por_estado": {
+   "ok": 261,
+   "sin_marcador": 29230
+  },
+  "ocurrencias_con_marcador": 261,
+  "contenidos_unicos": 195,
+  "repos_con_marcador": 64,
+  "ocurrencias_repo_instrumento_excluidas": 7,
+  "ocurrencias_en_forks_excluidas": 0,
+  "repos_fork_excluidos": 0,
+  "ocurrencias_por_clase": {
+   "d": 123,
+   "a": 46,
+   "e": 73,
+   "c": 12
+  },
+  "ocurrencias_por_motivo": {
+   "d:valores_de_relleno": 91,
+   "a:por_defecto": 46,
+   "e:sin_registros": 73,
+   "d:marcador_plantilla": 32,
+   "c:respuesta": 12
+  },
+  "contenidos_por_clase": {
+   "d": 81,
+   "a": 36,
+   "e": 62,
+   "c": 12
+  },
+  "estado_lint_clase_a": {
+   "ok": 35,
+   "ilegible": 1
+  }
+ },
+ "ficheros": {
+  "n_ficheros_a_linteables": 35,
+  "con_error": 10,
+  "con_aviso": 4,
+  "con_incompleto": 12,
+  "sin_hallazgos": 15,
+  "registros_alta": 21,
+  "registros_anulacion": 4,
+  "registros_evento": 11,
+  "ficheros_un_solo_registro": 34,
+  "con_error_txt": "10/35 = 28.6% [95% CI 16.3–45.1]",
+  "con_error_ci95": [
+   0.16326363398295565,
+   0.45055248069821086
+  ],
+  "con_aviso_txt": "4/35 = 11.4% [95% CI 4.5–26.0]",
+  "con_aviso_ci95": [
+   0.0453510585448975,
+   0.2595179478812023
+  ],
+  "con_incompleto_txt": "12/35 = 34.3% [95% CI 20.8–50.8]",
+  "con_incompleto_ci95": [
+   0.20831495282688925,
+   0.5084835312726328
+  ],
+  "sin_hallazgos_txt": "15/35 = 42.9% [95% CI 28.0–59.1]",
+  "sin_hallazgos_ci95": [
+   0.27984333081678914,
+   0.5914287074102662
+  ]
+ },
+ "repos": {
+  "n_repos_con_a": 19,
+  "con_error": 6,
+  "con_error_en_fichero_propio": 6,
+  "con_error_txt": "6/19 = 31.6% [95% CI 15.4–54.0]",
+  "con_error_en_fichero_propio_txt": "6/19 = 31.6% [95% CI 15.4–54.0]"
+ },
+ "sensibilidad_relleno": {
+  "ficheros_relleno_linteables": 50,
+  "errores_no_huella_por_regla": {
+   "RRSIF045:error": 1,
+   "RRSIF046:error": 2,
+   "RRSIF042:error": 3,
+   "RRSIF048:error": 1,
+   "RRSIF049:error": 2,
+   "RRSIF043:error": 2,
+   "RRSIF011:error": 1,
+   "RRSIF041:error": 1,
+   "RRSIF047:error": 1
+  },
+  "ficheros_con_error_no_huella": 7
+ }
+}

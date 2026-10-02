@@ -1,0 +1,16 @@
+sample_id,flag_id,qid,lang,value,verdict,note
+D01,F01604,Q188638,hi,Mood disorder,TP,English label in hi
+D02,F01421,Q1004647,ru,Bullous pemphigoid,TP,English label in ru
+D03,F01771,Q5092514,ru,cherry angioma,TP,English label in ru
+D04,F01846,Q7201765,ko,Plasma cell leukemia,TP,English label in ko
+D05,F01486,Q124604,hi,portal hypertansion,TP,English and misspelled in hi
+D06,F01655,Q2043695,uk,PANDAS,FP,international acronym
+D07,F01798,Q5773040,ru,ohistiocitoma,TP,Latin and misspelled in ru
+D08,F01844,Q7144437,ru,patellofemoral syndrome,TP,English label in ru
+D09,F01898,Q923339,ko,osteophyte,TP,English label in ko
+D10,F01583,Q17583,ko,Miliary tuberculosis,TP,English label in ko
+D11,F01502,Q1410864,hi,fibrous dysplasia,TP,English label in hi
+D12,F01742,Q388628,hi,মেকেলের ডাইভার্টিকুলাম,TP,Bengali script in a hi label
+D13,F01909,Q974869,hi,wbc,TP,abbreviation of another concept (white blood cells) in Latin script
+D14,F01672,Q225957,ko,Dysarthria,TP,English label in ko
+D15,F01734,Q36855,ur,Swine influenza,TP,English label in ur

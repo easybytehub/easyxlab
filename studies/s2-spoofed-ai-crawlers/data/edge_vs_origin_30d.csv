@@ -1,0 +1,11 @@
+site,verdict,edge_requests,origin_requests
+site-a,indeterminate,850,357
+site-a,spoofed,10454,3412
+site-a,unverifiable,1408,583
+site-a,verified,7950,4455
+site-b,spoofed,3,3
+site-b,unverifiable,41,39
+site-b,verified,1662,1439
+site-c,indeterminate,1,1
+site-c,spoofed,60,42
+site-c,verified,460,387

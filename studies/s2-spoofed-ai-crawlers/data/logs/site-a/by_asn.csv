@@ -1,0 +1,21 @@
+site,asn,as_name,country,net_type,requests,unique_ips,spoofed_requests,unverifiable_requests,indeterminate_requests,claimed_bots
+site-a,396982,"GOOGLE-CLOUD-PLATFORM - Google LLC, US",US,cloud/hosting,5445,24,4288,390,767,Amazonbot:767;ChatGPT-User:643;Googlebot:503;OAI-SearchBot:470;GPTBot:339;ClaudeBot:334;PerplexityBot:318;Google-Extended:314;Claude-User:263;Perplexity-User:246;Meta-ExternalAgent:215;Applebot:196;Claude-SearchBot:196;Bytespider:175;CCBot:161;DuckAssistBot:159;MistralAI-User:146
+site-a,withheld,a small AS registered to an individual,,unknown,994,1,772,144,78,ClaudeBot:205;Amazonbot:78;Meta-ExternalAgent:77;ChatGPT-User:74;Bytespider:67;Applebot:66;CCBot:65;PerplexityBot:64;Perplexity-User:63;GPTBot:61;Googlebot:60;OAI-SearchBot:58;Google-Extended:56
+site-a,400810,"BREEZETECH - BreezeHost, US",US,cloud/hosting,609,2,609,0,0,Googlebot:123;ChatGPT-User:80;PerplexityBot:68;GPTBot:61;OAI-SearchBot:60;ClaudeBot:59;CCBot:57;YandexBot:56;Bingbot:45
+site-a,1004,"AMBYRE - Ambyre LLC, US",US,unknown,276,1,276,0,0,Googlebot:58;OAI-SearchBot:36;ClaudeBot:34;CCBot:33;GPTBot:26;YandexBot:24;PerplexityBot:23;ChatGPT-User:22;Bingbot:20
+site-a,14618,"AMAZON-AES - Amazon.com, Inc., US",US,cloud/hosting,188,156,2,0,186,Amazonbot:186;Googlebot:1;Google-fetcher:1
+site-a,16509,"AMAZON-02 - Amazon.com, Inc., US",US,cloud/hosting,177,89,44,133,0,Bytespider:133;Claude-User:44
+site-a,14061,"DIGITALOCEAN-ASN - DigitalOcean, LLC, US",US,cloud/hosting,125,3,125,0,0,Googlebot:26;GPTBot:17;YandexBot:15;CCBot:14;OAI-SearchBot:13;Bingbot:13;ClaudeBot:11;PerplexityBot:10;ChatGPT-User:6
+site-a,399804,"HOSTODO - Hostodo, US",US,cloud/hosting,125,3,115,0,10,Googlebot:15;CCBot:14;Bingbot:14;Applebot:14;DuckDuckBot:14;ChatGPT-User:13;YandexBot:11;Amazonbot:10;GPTBot:9;OAI-SearchBot:8;PerplexityBot:3
+site-a,32934,"FACEBOOK - Facebook, Inc., US",IE,cloud/hosting,106,88,0,106,0,Meta-ExternalAgent:106
+site-a,400529,"INFRALY-LLC - Infraly, LLC, US",US,unknown,82,2,82,0,0,Googlebot:17;PerplexityBot:13;CCBot:10;ChatGPT-User:9;ClaudeBot:8;Bingbot:8;GPTBot:7;OAI-SearchBot:6;YandexBot:4
+site-a,46475,"LIMESTONENETWORKS - Limestone Networks, Inc., US",US,cloud/hosting,69,1,69,0,0,OAI-SearchBot:14;ClaudeBot:11;CCBot:8;ChatGPT-User:8;GPTBot:7;YandexBot:7;PerplexityBot:6;Googlebot:5;Bingbot:3
+site-a,41608,"NextGenWebs-NL - NextGenWebs, S.L., ES",ES,unknown,35,1,31,0,4,Bingbot:6;Googlebot:5;YandexBot:4;Amazonbot:4;CCBot:3;OAI-SearchBot:3;PerplexityBot:3;DuckDuckBot:3;ChatGPT-User:2;Applebot:2
+site-a,3352,"Telefonica_de_EspaNa - TELEFONICA DE ESPANA S.A.U., ES",ES,isp/residential,18,3,17,1,0,Google-special:4;ClaudeBot:2;GPTBot:2;OAI-SearchBot:2;PerplexityBot:2;Googlebot:1;ChatGPT-User:1;YandexBot:1;Applebot:1;Google-Extended:1;Claude-Code(client):1
+site-a,13335,"CLOUDFLARENET - Cloudflare, Inc., US",US,cloud/hosting,14,2,14,0,0,ChatGPT-User:8;Googlebot:6
+site-a,132892,"CLOUDFLARE - Cloudflare, Inc., US",US,cloud/hosting,6,1,6,0,0,ChatGPT-User:4;Googlebot:2
+site-a,12334,"UNSPECIFIED - R Cable y Telecable Telecomunicaciones, S.A.U., ES",ES,isp/residential,3,1,0,3,0,Claude-Code(client):3
+site-a,6830,"LibertyGlobal - Liberty Global Europe Holding B.V., NL",UA,unknown,2,2,2,0,0,OAI-SearchBot:1;ChatGPT-User:1
+site-a,213541,"ws-telecom-sdn - WS Telecom Inc, US",RU,isp/residential,1,1,1,0,0,ChatGPT-User:1
+site-a,23724,"CHINANET-IDC-BJ-AP - IDC, China Telecommunications Corporation, CN",CN,cloud/hosting,1,1,0,1,0,Bytespider:1
+site-a,12479,"UNI2-AS - Orange Espagne SA, ES",ES,isp/residential,1,1,0,1,0,Claude-Code(client):1

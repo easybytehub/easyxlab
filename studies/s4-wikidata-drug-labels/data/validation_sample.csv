@@ -1,0 +1,104 @@
+sample_id,flag_id,detector,subtype,domain,qid,lang,value,en_label,reference,extra,lastrevid
+S001,F00222,a,a_latin,drug,Q212171,ru,rizatriptan,rizatriptan,,,2507892410
+S002,F00919,a,a_latin,drug,Q434269,fa,ATC code R03,ATC code R03,ATC code R03,,2075590617
+S003,F00888,a,a_latin,drug,Q434157,fa,ATC code M09,ATC code M09,ATC code M09,,2075590504
+S004,F01140,a,a_latin,drug,Q96695265,ko,Ad5-nCoV,Ad5-nCoV,칸시노 코로나19 백신,,2190018196
+S005,F00269,a,a_latin,drug,Q249628,fa,ATC code V04,ATC code V04,ATC code V04,,2075571054
+S006,F00355,a,a_latin,drug,Q2917126,uk,Tc-99m-MIBI,technetium Tc-99m sestamibi,Tc-99m-MIBI,,2478652553
+S007,F01159,a,a_latin,drug,Q98270627,ja,Gam-COVID-Vac,Gam-COVID-Vac,スプートニクV COVID-19ワクチン,,2529240600
+S008,F01158,a,a_latin,drug,Q98270627,ar,Gam-COVID-Vac,Gam-COVID-Vac,لقاح سبوتنيك في,,2529240600
+S009,F00089,a,a_latin,drug,Q15410941,ru,Eravacycline,eravacycline,Эравациклин,,2510502942
+S010,F00378,a,a_latin,drug,Q3242415,fa,ATC code J07,ATC code J07,ATC code J07,,2027945596
+S011,F00862,a,a_latin,drug,Q434083,fa,ATC code J06,ATC code J06,ATC code J06,,2050739558
+S012,F00874,a,a_latin,drug,Q434117,fa,ATC code L03,ATC code L03,ATC code L03,,1733903876
+S013,F00629,a,a_nonlatin,drug,Q419820,pl,Азеластин,azelastine,Azelastyna,,2507903656
+S014,F00198,a,a_nonlatin,drug,Q2000876,de,Децинон,ethamsylate,,,2425218965
+S015,F00573,b,b_rxnorm_bn,drug,Q416821,pt,Menopur,menotropin,RxNorm BN: Menopur,,2410519908
+S016,F00044,b,b_rxnorm_bn,drug,Q132621,de,Adrenalin,epinephrine,RxNorm BN: Adrenalin,,2551359329
+S017,F00028,b,b_rxnorm_bn,drug,Q1207210,es,focalin,dexmethylphenidate,RxNorm BN: Focalin,,2540293237
+S018,F00301,b,b_rxnorm_bn,drug,Q2697833,ru,orencia,abatacept,RxNorm BN: Orencia,,2529186499
+S019,F00572,b,b_rxnorm_bn,drug,Q416821,es,Menopur,menotropin,RxNorm BN: Menopur,,2410519908
+S020,F00045,b,b_rxnorm_bn,drug,Q132621,tr,adrenalin,epinephrine,RxNorm BN: Adrenalin,,2551359329
+S021,F00956,b,b_rxnorm_bn,drug,Q4919218,it,angiomax,bivalirudin,RxNorm BN: Angiomax,,2456053934
+S022,F00206,b,b_rxnorm_bn,drug,Q2060696,tr,esbriet,pirfenidone,RxNorm BN: Esbriet,,2526203115
+S023,F01125,b,b_rxnorm_bn,drug,Q924467,de,CAPEX,fluocinolone acetonide,RxNorm BN: Capex,,2507911089
+S024,F00136,b,b_rxnorm_bn,drug,Q1706418,fr,dexedrine,dextroamphetamine,RxNorm BN: Dexedrine,,2550378048
+S025,F00388,b,b_rxnorm_bn,drug,Q352348,fa,differin,adapalene,RxNorm BN: Differin,,2487590155
+S026,F00528,b,b_rxnorm_bn,drug,Q413586,ru,naftin,naftifine,RxNorm BN: Naftin,,2539061844
+S027,F00410,c,c_parent_on_salt,drug,Q374826,ar,سوليفيناسين,solifenacin succinate,en: solifenacin succinate,succinate ; atc-siblings: ,2517666628
+S028,F00593,c,c_parent_on_salt,drug,Q418123,de,Fumarsäuredimethylester,dimethyl fumarate,en: dimethyl fumarate,fumarate ; atc-siblings: ,2532179922
+S029,F00564,c,c_parent_on_salt,drug,Q416516,ru,lobenox,enoxaparin sodium,en: enoxaparin sodium,sodium ; atc-siblings: ,2383153305
+S030,F00653,c,c_parent_on_salt,drug,Q420857,fr,sugammadex,sugammadex sodium,en: sugammadex sodium,sodium ; atc-siblings: ,2527191264
+S031,F00660,c,c_parent_on_salt,drug,Q420857,ar,السجامادكس,sugammadex sodium,en: sugammadex sodium,sodium ; atc-siblings: ,2527191264
+S032,F01130,c,c_parent_on_salt,drug,Q930170,ja,リオチロニン,liothyronine sodium,en: liothyronine sodium,sodium ; atc-siblings: ,2530401580
+S033,F01083,c,c_parent_on_salt,drug,Q799564,zh,阿米巴殺腸腔藥物,diloxanide furoate,en: diloxanide furoate,furoate ; atc-siblings: ,2425453538
+S034,F00557,c,c_parent_on_salt,drug,Q416516,es,Enoxaparina,enoxaparin sodium,en: enoxaparin sodium,sodium ; atc-siblings: ,2383153305
+S035,F00706,c,c_parent_on_salt,drug,Q422761,it,metamizolo,metamizole sodium,en: metamizole sodium,sodium ; atc-siblings: ,2532222145
+S036,F00394,c,c_parent_on_salt,drug,Q3658672,it,carindacillina,carbenicillin indanyl sodium,en: carbenicillin indanyl sodium,sodium ; atc-siblings: ,2507924328
+S037,F00552,c,c_salt_on_parent,drug,Q416427,fa,کرومولین سدیم,cromoglicic acid,en: cromoglicic acid,سدیم ; atc-siblings: ,2551156399
+S038,F00256,c,c_salt_on_parent,drug,Q240642,zh,丙戊酸,valproic acid,en: valproic acid,戊酸 ; atc-siblings: ,2539214738
+S039,F00437,c,c_salt_on_parent,drug,Q3896308,fa,پارناپارین سدیم,parnaparin,en: parnaparin,سدیم ; atc-siblings: ,2344782629
+S040,F00265,c,c_salt_on_parent,drug,Q244408,zh,双氯芬酸钠,Diclofenac,en: Diclofenac,钠 ; atc-siblings: ,2551158788
+S041,F00031,c,c_salt_on_parent,drug,Q1240076,zh,鹽酸普莫卡因,pramoxine,en: pramoxine,鹽酸 ; atc-siblings: ,2546084286
+S042,F00637,c,c_salt_on_parent,drug,Q420031,pl,Nitroprusydek sodu,nitroprusside,en: nitroprusside,sodu ; atc-siblings: ,2507903796
+S043,F01009,c,c_salt_on_parent,drug,Q670131,fa,سیمواستاتین,simvastatin,en: simvastatin,استات ; atc-siblings: ,2478540161
+S044,F00134,c,c_salt_on_parent,drug,Q17048104,tr,Dihidroartemisinin + Piperakin fosfat,dihydroartemisinin/piperaquine,en: dihydroartemisinin/piperaquine,fosfat ; atc-siblings: ,2339030864
+S045,F00728,c,c_salt_on_parent,drug,Q423439,fa,سریواستاتین,cerivastatin,en: cerivastatin,استات ; atc-siblings: ,2507906090
+S046,F00242,c,c_salt_on_parent,drug,Q238474,zh,五氨基酮戊酸,aminolevulinic acid,en: aminolevulinic acid,戊酸 ; atc-siblings: ,2517571908
+S047,F01187,d,d_diff_en,drug,Q280713,pl,ATC,ATC code J04,Q1077314 Q1137823 Q1343552 Q1348349 Q1368651 Q139051 Q143107 Q143139 Q155757 Q155761 Q196482 Q196493 Q239559 Q239681 Q241264 Q249628 Q256282 Q257646 Q259569 Q260154 Q266008 Q278523 Q280644 Q285644 Q285900 Q3242415 Q385681 Q642633,group=pl:atc,2514386019
+S048,F01270,d,d_diff_en,drug,Q21114915,pl,Lizozym,Lysozyme,Q24779410,group=pl:lizozym,2521962195
+S049,F01169,d,d_diff_en,drug,Q139051,pl,ATC,ATC code D05,Q1077314 Q1137823 Q1343552 Q1348349 Q1368651 Q143107 Q143139 Q155757 Q155761 Q196482 Q196493 Q239559 Q239681 Q241264 Q249628 Q256282 Q257646 Q259569 Q260154 Q266008 Q278523 Q280644 Q280713 Q285644 Q285900 Q3242415 Q385681 Q642633,group=pl:atc,2024194978
+S050,F01195,d,d_diff_en,drug,Q1318044,zh,ATC代码,ATC code V07,Q1077314 Q1137823 Q1343552 Q1348349 Q1368651 Q196482 Q196493 Q239559 Q239681 Q241264 Q249628 Q256282 Q257646 Q259569 Q266008 Q280713 Q285900 Q3242415,group=zh:atc代码,2075571137
+S051,F01231,d,d_diff_en,drug,Q27888708,ar,ألوكسيبرين,aloxiprin,Q1326389,group=ar:ألوكسيبرين,2467995207
+S052,F01214,d,d_diff_en,drug,Q12415847,hi,इस्ट्रोडायल,17α/β-estradiol,Q422416,group=hi:इस्ट्रोडायल,2425521894
+S053,F01325,d,d_diff_en,drug,Q553223,fa,امپرازول,esomeprazole,Q422210,group=fa:امپرازول,2518394213
+S054,F01177,d,d_diff_en,drug,Q239681,pl,ATC,ATC code V09,Q1077314 Q1137823 Q1343552 Q1348349 Q1368651 Q139051 Q143107 Q143139 Q155757 Q155761 Q196482 Q196493 Q239559 Q241264 Q249628 Q256282 Q257646 Q259569 Q260154 Q266008 Q278523 Q280644 Q280713 Q285644 Q285900 Q3242415 Q385681 Q642633,group=pl:atc,2075571258
+S055,F01210,d,d_diff_en,drug,Q285900,zh,ATC代码,ATC code A06,Q1077314 Q1137823 Q1318044 Q1343552 Q1348349 Q1368651 Q196482 Q196493 Q239559 Q239681 Q241264 Q249628 Q256282 Q257646 Q259569 Q266008 Q280713 Q3242415,group=zh:atc代码,2532327319
+S056,F01314,d,d_diff_en,drug,Q416791,ar,دوكسيبين,cidoxepin,Q71704041,group=ar:دوكسيبين,2510794399
+S057,F01316,d,d_diff_en,drug,Q416791,fa,دوکسپین,cidoxepin,Q71704041,group=fa:دوکسپین,2510794399
+S058,F01272,d,d_diff_en,drug,Q21114915,ru,Лизоцим,Lysozyme,Q24779410,group=ru:лизоцим,2521962195
+S059,F01173,d,d_diff_en,drug,Q155761,pl,ATC,ATC code H05,Q1077314 Q1137823 Q1343552 Q1348349 Q1368651 Q139051 Q143107 Q143139 Q155757 Q196482 Q196493 Q239559 Q239681 Q241264 Q249628 Q256282 Q257646 Q259569 Q260154 Q266008 Q278523 Q280644 Q280713 Q285644 Q285900 Q3242415 Q385681 Q642633,group=pl:atc,2405314700
+S060,F01313,d,d_diff_en,drug,Q71704041,uk,доксепін,(E/Z)-doxepin,Q416791,group=uk:доксепін,2439471585
+S061,F00496,e,e_contains,drug,Q411447,en,DL-ofloxacin,DL-ofloxacin,INN: ofloxacin,,2425328806
+S062,F00529,e,e_contains,drug,Q413717,en,(RS)-baclofen,(RS)-baclofen,INN: baclofen,,2549361431
+S063,F00257,e,e_contains,drug,Q241150,en,(RS)-aminoglutethimide,(RS)-aminoglutethimide,INN: aminoglutethimide,,2535617061
+S064,F00737,e,e_contains,drug,Q424260,en,(±)-tianeptine,(±)-tianeptine,INN: tianeptine,,2538562663
+S065,F00152,e,e_different,drug,Q18355673,en,flutemetamol F-18,flutemetamol F-18,INN: flutemetamol ((18)F),,2507972739
+S066,F01152,e,e_different,drug,Q97154240,ru,tozinameran,Pfizer–BioNTech COVID-19 vaccine,INN: тозинамеран,,2546653580
+S067,F00651,e,e_different,drug,Q420695,en,chloramine T,chloramine T,INN: tosylchloramide sodium,,2507904786
+S068,F00370,e,e_different,drug,Q306135,ar,بيتا كاروتين,β-carotene,INN: بيتاكاروتان,,2527668062
+S069,F00431,e,e_different,drug,Q386441,en,(RS)-meclizine,(RS)-meclizine,INN: meclozine,,2543565425
+S070,F00958,e,e_different,drug,Q5018826,en,calcium gluceptate,calcium gluceptate,INN: calcium glucoheptonate,,2526255846
+S071,F00174,e,e_different,drug,Q190067,en,tetrahydrocannabinol,tetrahydrocannabinol,INN: dronabinol,,2551039567
+S072,F00298,e,e_different,drug,Q26963,ar,بروجستيرون,progesterone,INN: بروجيستيرون,,2551390708
+S073,F00311,e,e_different,drug,Q27273888,es,Lutecio 177,dotatate lutenium Lu-177,INN: lutecio (¹⁷⁷Lu) oxodotreotida,,2426291489
+S074,F00367,e,e_typographic,drug,Q306135,es,beta-caroteno,β-carotene,INN: betacaroteno,,2527668062
+S075,F00216,e,e_typographic,drug,Q21011234,es,edoxaban,edoxaban,INN: edoxabán,,2550173432
+S076,F00307,e,e_typographic,drug,Q27121509,en,fluorodopa F-18,fluorodopa F-18,INN: fluorodopa F18,,2508069534
+S077,F01765,f,f_cm,disease,Q4750829,,L65.100,Anagen effluvium,P494,normal; kind=other,2180167085
+S078,F01553,f,f_cm,disease,Q1541975,,G232,multiple system atrophy,P494,normal; kind=disease,2515908141
+S079,F01780,f,f_cm,disease,Q5422021,,G44.801,External compression headache,P494,normal; kind=other,2018334410
+S080,F01749,f,f_corrupt,disease,Q4045988,,B88.0(ILDSB88.060),infestation by Ornithonyssus,P494,normal; kind=disease,2513831007
+S081,F01595,f,f_corrupt,disease,Q18371582,,"A04.8,A28.2",Far East scarlet-like fever,P494,normal; kind=disease,2514119636
+S082,F01442,f,f_corrupt,disease,Q10968257,,C43/D22,"Template:Skin tumors, nevi and melanomas",P494,normal; kind=template,2473991364
+S083,F01691,f,f_corrupt,disease,Q2583514,,A96.000000,Argentine hemorrhagic fever,P494,normal; kind=disease,2538954322
+S084,F01643,f,f_corrupt,disease,Q20346485,,C44.L40–L68/D23.L15–49,Template:Tumors of skin appendages,P494,normal; kind=template,2463987773
+S085,F01853,f,f_doubled,disease,Q749409,,Q78.078.0,osteogenesis imperfecta,P494,normal; kind=disease,2551391902
+S086,F01885,f,f_doubled,disease,Q83319,,A01.001.0,typhoid fever,P494,normal; kind=disease,2517859635
+S087,F01616,f,f_doubled,disease,Q191779,,F95.295.2.,Tourette syndrome,P494,normal; kind=disease,2529080049
+S088,F01894,f,f_doubled,disease,Q911386,,K1212.,stomatitis,P494,normal; kind=disease,2515888137
+S089,F01754,f,f_doubled,disease,Q4253356,,O92.792.7,Milk stasis,P494,normal; kind=disease,2513834667
+S090,F01728,f,f_icd11,disease,Q3473038,,17,sexual health,P7329,normal; kind=other,2506102114
+S091,F01658,f,f_icd11,disease,Q2053759,,6B6.Z,dissociative disorder not otherwise specified,P7329,normal; kind=disease,2476396722
+S092,F01371,g,g_dup,drug,Q2034113,,A10AB01,Actrapid,Q2893248,regular insulin,1650397058
+S093,F01381,g,g_dup,drug,Q418946,,J01XB01,colistin,Q25452548,colistimethate sodium,2549920987
+S094,F01402,g,g_dup,drug,Q422689,,A06AD11,β-lactulose,Q97479031,LAKTULOSA SANDOZ,2497244064
+S095,F01348,g,g_dup,drug,Q139890363,,P01AB01,Caregyl,Q169569,metronidazole,2495918720
+S096,F00056,g,g_format,drug,Q135197125,,QB03AC91,Gleptoferron,,,2374687186
+S097,F00055,g,g_format,drug,Q135197125,,QB03AC,Gleptoferron,,,2374687186
+S098,F00128,g,g_obsolete,drug,Q16868421,,L01XE48,icotinib,icotinib -> L01EB08 (2021),,2507968049
+S099,F00207,g,g_obsolete,drug,Q2070286,,L01XX43,vismodegib,vismodegib -> L01XJ01 (2021),,2507915646
+S100,F00012,g,g_obsolete,drug,Q106350062,,J07BX03,Corbevax,covid-19 vaccines -> deleted (2023),,1833801442
+S101,F00965,g,g_obsolete,drug,Q5186964,,L01XE16,crizotinib,crizotinib -> L01ED01 (2021),,2425342758
+S102,F00501,g,g_obsolete,drug,Q411787,,L01XX09,miltefosine,miltefosine -> P01CX04 (2020),,2425329112
+S103,F00695,g,g_obsolete_split,drug,Q422232,,L01BA01,methotrexate,methotrexate -> L04AX03 (2017),item also has new code,2550329796

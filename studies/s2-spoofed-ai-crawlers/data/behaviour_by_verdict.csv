@@ -1,0 +1,5 @@
+verdict,distinct_ips_upper_bound,site_bot_ip_triples_probe,requests_probe,site_bot_ip_triples_content-only,requests_content-only,site_bot_ip_triples_other,requests_other,site_bot_ip_triples_multi_operator,requests_multi_operator
+verified,1623,1,4,1622,8182,0,0,0,0
+indeterminate,180,22,845,158,201,0,0,25,859
+spoofed,54,348,6301,63,197,0,0,401,5993
+unverifiable,225,34,533,208,285,0,0,36,535

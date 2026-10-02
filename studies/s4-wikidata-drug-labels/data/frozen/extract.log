@@ -1,0 +1,91 @@
+drugs: 3768 items
+  labels/aliases 400 items
+  labels/aliases 400 items
+  labels/aliases 400 items
+  labels/aliases 400 items
+  labels/aliases 400 items
+  labels/aliases 400 items
+  labels/aliases 400 items
+  labels/aliases 400 items
+  labels/aliases 400 items
+  labels/aliases 168 items
+  inn/p31/wiki 400 items
+  inn/p31/wiki 400 items
+  inn/p31/wiki 400 items
+  inn/p31/wiki 400 items
+  inn/p31/wiki 400 items
+  inn/p31/wiki 400 items
+  inn/p31/wiki 400 items
+  inn/p31/wiki 400 items
+  inn/p31/wiki 400 items
+  inn/p31/wiki 168 items
+diseases: 10823 items; chronic resolved 29/34
+  labels/aliases 400 items
+  labels/aliases 400 items
+  labels/aliases 400 items
+  labels/aliases 400 items
+  labels/aliases 400 items
+  labels/aliases 400 items
+  labels/aliases 400 items
+  labels/aliases 400 items
+  labels/aliases 400 items
+  labels/aliases 400 items
+  labels/aliases 400 items
+  labels/aliases 400 items
+  labels/aliases 400 items
+  labels/aliases 400 items
+  labels/aliases 400 items
+  labels/aliases 400 items
+  labels/aliases 400 items
+  labels/aliases 400 items
+  labels/aliases 400 items
+  labels/aliases 400 items
+  labels/aliases 400 items
+  labels/aliases 400 items
+  labels/aliases 400 items
+  labels/aliases 400 items
+  labels/aliases 400 items
+  labels/aliases 400 items
+  labels/aliases 400 items
+  labels/aliases 23 items
+{
+  "extracted_at_utc_start": "2026-10-02T15:24:48Z",
+  "extracted_at_utc_end": "2026-10-02T15:29:10Z",
+  "endpoint": "https://query.wikidata.org/sparql",
+  "user_agent": "EasyByteLab-research/0.1 (contact: contact@easybyte.es)",
+  "languages": [
+    "en",
+    "es",
+    "fr",
+    "de",
+    "it",
+    "pt",
+    "pl",
+    "ru",
+    "uk",
+    "tr",
+    "ar",
+    "fa",
+    "ur",
+    "hi",
+    "bn",
+    "zh",
+    "ja",
+    "ko",
+    "sw",
+    "am",
+    "mul"
+  ],
+  "n_queries": 100,
+  "n_drug_items": 3768,
+  "n_disease_items": 10823,
+  "chronic_unresolved": [
+    "type 1 diabetes",
+    "chronic kidney disease",
+    "sickle cell disease",
+    "haemophilia A",
+    "coeliac disease"
+  ],
+  "max_lastrevid_drugs": 2552201749,
+  "license": "CC0 1.0 (data derived from Wikidata)"
+}

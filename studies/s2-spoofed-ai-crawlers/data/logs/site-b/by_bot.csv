@@ -1,0 +1,16 @@
+site,bot,operator,purpose,method,verdict,requests,unique_ips,median_req_per_ip,ips_fetching_robots,ips_robots_first,ips_with_vuln_probe,doc_url
+site-b,Googlebot,Google,search-engine,ranges+fcrdns,verified,601,14,32.0,11,2,0,https://developers.google.com/search/docs/crawling-indexing/verifying-googlebot
+site-b,YandexBot,Yandex,search-engine,fcrdns,verified,316,210,1.0,27,18,0,https://yandex.com/support/webmaster/robot-workings/check-yandex-robots.html
+site-b,ClaudeBot,Anthropic,training,ranges,verified,249,6,23.5,6,3,0,https://support.claude.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler
+site-b,Applebot,Apple,search-engine,ranges+fcrdns,verified,130,119,1,11,11,0,https://support.apple.com/en-us/119829
+site-b,OAI-SearchBot,OpenAI,search-index,ranges,verified,49,15,2,7,7,0,https://platform.openai.com/docs/bots
+site-b,Meta-ExternalAgent,Meta,training,none,unverifiable,39,28,1.0,0,0,0,https://developers.facebook.com/docs/sharing/webmasters/web-crawlers/
+site-b,GPTBot,OpenAI,training,ranges,verified,31,3,7,0,0,0,https://platform.openai.com/docs/bots
+site-b,Bingbot,Microsoft,search-engine,ranges+fcrdns,verified,28,19,1,4,4,0,https://www.bing.com/toolbox/bingbot.json
+site-b,ChatGPT-User,OpenAI,user-fetch,ranges,verified,24,24,1.0,0,0,0,https://platform.openai.com/docs/bots
+site-b,DuckDuckBot,DuckDuckGo,search-engine,ranges,verified,7,3,2,0,0,0,https://duckduckgo.com/duckduckgo-help-pages/results/duckduckbot
+site-b,Claude-User,Anthropic,user-fetch,ranges,verified,2,1,2,1,1,0,https://support.claude.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler
+site-b,DuckAssistBot,DuckDuckGo,user-fetch,ranges,verified,2,2,1.0,1,1,0,https://duckduckgo.com/duckduckgo-help-pages/results/duckduckbot
+site-b,Google-special,Google,other,ranges+fcrdns,spoofed,1,1,1,0,0,0,https://developers.google.com/search/docs/crawling-indexing/verifying-googlebot
+site-b,Googlebot,Google,search-engine,ranges+fcrdns,spoofed,1,1,1,0,0,0,https://developers.google.com/search/docs/crawling-indexing/verifying-googlebot
+site-b,OAI-SearchBot,OpenAI,search-index,ranges,spoofed,1,1,1,0,0,0,https://platform.openai.com/docs/bots

@@ -1,0 +1,21 @@
+asn,as_name,country,net_type,spoofed_requests,unverifiable_requests,indeterminate_requests,unique_ips_summed_over_sites
+396982,"GOOGLE-CLOUD-PLATFORM - Google LLC, US",US,cloud/hosting,4288,390,767,24
+withheld,a small AS registered to an individual,,unknown,772,144,78,1
+400810,"BREEZETECH - BreezeHost, US",US,cloud/hosting,609,0,0,2
+1004,"AMBYRE - Ambyre LLC, US",US,unknown,276,0,0,1
+14061,"DIGITALOCEAN-ASN - DigitalOcean, LLC, US",US,cloud/hosting,125,0,0,3
+400529,"INFRALY-LLC - Infraly, LLC, US",US,unknown,121,0,0,3
+399804,"HOSTODO - Hostodo, US",US,cloud/hosting,115,0,10,3
+46475,"LIMESTONENETWORKS - Limestone Networks, Inc., US",US,cloud/hosting,69,0,0,1
+16509,"AMAZON-02 - Amazon.com, Inc., US",US,cloud/hosting,44,133,0,89
+41608,"NextGenWebs-NL - NextGenWebs, S.L., ES",ES,unknown,31,0,4,1
+3352,"Telefonica_de_EspaNa - TELEFONICA DE ESPANA S.A.U., ES",ES,isp/residential,23,1,0,5
+13335,"CLOUDFLARENET - Cloudflare, Inc., US",US,cloud/hosting,14,0,0,2
+132892,"CLOUDFLARE - Cloudflare, Inc., US",US,cloud/hosting,6,0,0,1
+14618,"AMAZON-AES - Amazon.com, Inc., US",US,cloud/hosting,2,0,187,157
+6830,"LibertyGlobal - Liberty Global Europe Holding B.V., NL",UA,unknown,2,0,0,2
+213541,"ws-telecom-sdn - WS Telecom Inc, US",RU,isp/residential,1,0,0,1
+32934,"FACEBOOK - Facebook, Inc., US",IE,cloud/hosting,0,145,0,116
+12334,"UNSPECIFIED - R Cable y Telecable Telecomunicaciones, S.A.U., ES",ES,isp/residential,0,3,0,1
+23724,"CHINANET-IDC-BJ-AP - IDC, China Telecommunications Corporation, CN",CN,cloud/hosting,0,1,0,1
+12479,"UNI2-AS - Orange Espagne SA, ES",ES,isp/residential,0,1,0,1

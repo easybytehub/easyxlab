@@ -1,0 +1,2487 @@
+[
+{
+"previous": "A01AD02",
+"substance": "benzydamine",
+"new": "R02AX03",
+"year": "2018",
+"note": "27) Split of code. Alteration of ATC code applies only for benzydamine lozenges"
+},
+{
+"previous": "A03AE02",
+"substance": "tegaserod",
+"new": "A06AX06",
+"year": "2013",
+"note": ""
+},
+{
+"previous": "A03AE04",
+"substance": "prucalopride",
+"new": "A06AX05",
+"year": "2013",
+"note": ""
+},
+{
+"previous": "A10BX04",
+"substance": "exenatide",
+"new": "A10BJ01",
+"year": "2017",
+"note": ""
+},
+{
+"previous": "A10BX07",
+"substance": "liraglutide",
+"new": "A10BJ02",
+"year": "2017",
+"note": ""
+},
+{
+"previous": "A10BX09",
+"substance": "dapagliflozin",
+"new": "A10BK01",
+"year": "2017",
+"note": ""
+},
+{
+"previous": "A10BX10",
+"substance": "lixisenatide",
+"new": "A10BJ03",
+"year": "2017",
+"note": ""
+},
+{
+"previous": "A10BX11",
+"substance": "canagliflozin",
+"new": "A10BK02",
+"year": "2017",
+"note": ""
+},
+{
+"previous": "A10BX12",
+"substance": "empagliflozin",
+"new": "A10BK03",
+"year": "2017",
+"note": ""
+},
+{
+"previous": "A10BX13",
+"substance": "albiglutide",
+"new": "A10BJ04",
+"year": "2017",
+"note": ""
+},
+{
+"previous": "A10BX14",
+"substance": "dulaglutide",
+"new": "A10BJ05",
+"year": "2017",
+"note": ""
+},
+{
+"previous": "A11CC07",
+"substance": "paricalcitol",
+"new": "H05BX02",
+"year": "2010",
+"note": ""
+},
+{
+"previous": "A12AA12",
+"substance": "calcium acetate 11)",
+"new": "V03AE07",
+"year": "2016",
+"note": ""
+},
+{
+"previous": "B01AC14",
+"substance": "anagrelide",
+"new": "L01XX35",
+"year": "2006",
+"note": ""
+},
+{
+"previous": "B01AX06",
+"substance": "rivaroxaban",
+"new": "B01AF01",
+"year": "2013",
+"note": ""
+},
+{
+"previous": "B02AB03",
+"substance": "c1-inhibitor, plasma derived",
+"new": "B06AC01",
+"year": "2012",
+"note": "5) New ATC 5th level name"
+},
+{
+"previous": "B02BC10",
+"substance": "fibrinogen, human",
+"new": "B02BC30",
+"year": "2014",
+"note": ""
+},
+{
+"previous": "B02BD09",
+"substance": "nonacog alfa",
+"new": "B02BD04",
+"year": "2017",
+"note": ""
+},
+{
+"previous": "B02BD12",
+"substance": "trenonacog alfa",
+"new": "B02BD04",
+"year": "2017",
+"note": ""
+},
+{
+"previous": "B03AB06",
+"substance": "ferric citrate",
+"new": "V03AE08",
+"year": "2016",
+"note": ""
+},
+{
+"previous": "B03AC01",
+"substance": "ferric oxide polymaltose complexes",
+"new": "B03AC",
+"year": "2014",
+"note": ""
+},
+{
+"previous": "B03AC02",
+"substance": "saccharated iron oxide",
+"new": "B03AC",
+"year": "2014",
+"note": ""
+},
+{
+"previous": "B03AC03",
+"substance": "iron-sorbitol-citric acid complex",
+"new": "B03AC",
+"year": "2014",
+"note": ""
+},
+{
+"previous": "B03AC05",
+"substance": "ferric sorbitol gluconic acid complex",
+"new": "B03AC",
+"year": "2014",
+"note": ""
+},
+{
+"previous": "B03AC06",
+"substance": "ferric oxide dextran complexes",
+"new": "B03AC",
+"year": "2014",
+"note": ""
+},
+{
+"previous": "B03AC07",
+"substance": "ferric sodium gluconate complex",
+"new": "B03AC",
+"year": "2014",
+"note": ""
+},
+{
+"previous": "B06AA11",
+"substance": "bromelains",
+"new": "D03BA03",
+"year": "2014",
+"note": ""
+},
+{
+"previous": "C01EB12",
+"substance": "tedisamil",
+"new": "C01BD06",
+"year": "2009",
+"note": ""
+},
+{
+"previous": "C01EB19",
+"substance": "icatibant",
+"new": "B06AC02",
+"year": "2012",
+"note": ""
+},
+{
+"previous": "C04AX13",
+"substance": "piribedil",
+"new": "N04BC08",
+"year": "2006",
+"note": ""
+},
+{
+"previous": "C07AA57",
+"substance": "sotalol and acetylsalicylic acid  14)",
+"new": "C07FX02",
+"year": "2017",
+"note": ""
+},
+{
+"previous": "C07AB52",
+"substance": "metoprolol and acetylsalicylic acid  15)",
+"new": "C07FX03",
+"year": "2017",
+"note": ""
+},
+{
+"previous": "C07AB57",
+"substance": "bisoprolol and acetylsalicylic acid 16)",
+"new": "C07FX04",
+"year": "2017",
+"note": ""
+},
+{
+"previous": "C07FA05",
+"substance": "propranolol and other combinations 17)",
+"new": "C07FX01",
+"year": "2017",
+"note": ""
+},
+{
+"previous": "C07FB02",
+"substance": "metoprolol and felodipine",
+"new": "C07FB02",
+"year": "2017",
+"note": "18) Split of ATC code. ATC level name changed from: metoprolol and other antihypertensives. Combinations of metoprolol and felodipine remains in C07FB02."
+},
+{
+"previous": "C07FB02",
+"substance": "metoprolol and amlodipine",
+"new": "C07FB13",
+"year": "2017",
+"note": "18) Split of ATC code. ATC level name changed from: metoprolol and other antihypertensives. Combinations of metoprolol and felodipine remains in C07FB02."
+},
+{
+"previous": "C10AA51",
+"substance": "simvastatin, combinations",
+"new": "C10BX01",
+"year": "2006",
+"note": ""
+},
+{
+"previous": "C10AA52",
+"substance": "lovastatin, combinations",
+"new": "C10BA01",
+"year": "2006",
+"note": ""
+},
+{
+"previous": "C10AA53",
+"substance": "pravastatin, combinations",
+"new": "C10BX02",
+"year": "2006",
+"note": ""
+},
+{
+"previous": "C10AA55",
+"substance": "atorvastatin, combinations",
+"new": "C10BX03",
+"year": "2006",
+"note": ""
+},
+{
+"previous": "C10AX04",
+"substance": "benfluorex",
+"new": "A10BX06",
+"year": "2009",
+"note": ""
+},
+{
+"previous": "D03AX07",
+"substance": "glyceryl trinitrate",
+"new": "C05AE01",
+"year": "2008",
+"note": ""
+},
+{
+"previous": "D03AX08",
+"substance": "isosorbide dinitrate",
+"new": "C05AE02",
+"year": "2008",
+"note": ""
+},
+{
+"previous": "D11AX14",
+"substance": "tacrolimus",
+"new": "D11AH01",
+"year": "2010",
+"note": ""
+},
+{
+"previous": "D11AX15",
+"substance": "pimecrolimus",
+"new": "D11AH02",
+"year": "2010",
+"note": ""
+},
+{
+"previous": "D11AX17",
+"substance": "cromoglicic acid",
+"new": "D11AH03",
+"year": "2010",
+"note": ""
+},
+{
+"previous": "D11AX19",
+"substance": "alitretinoin",
+"new": "D11AH04",
+"year": "2012",
+"note": ""
+},
+{
+"previous": "G03AC03",
+"substance": "levonorgestrel",
+"new": "G03AD01",
+"year": "2011",
+"note": ""
+},
+{
+"previous": "G03DC05",
+"substance": "tibolone",
+"new": "G03CX01",
+"year": "2008",
+"note": ""
+},
+{
+"previous": "G04BE05",
+"substance": "phentolamine",
+"new": "V03AB36",
+"year": "2011",
+"note": ""
+},
+{
+"previous": "H01BA06",
+"substance": "argipressin",
+"new": "H01BA01",
+"year": "2018",
+"note": ""
+},
+{
+"previous": "H01CA03",
+"substance": "histrelin",
+"new": "L02AE05",
+"year": "2013",
+"note": ""
+},
+{
+"previous": "J01DA01",
+"substance": "cefalexin",
+"new": "J01DB01",
+"year": "2005",
+"note": ""
+},
+{
+"previous": "J01DA02",
+"substance": "cefaloridine",
+"new": "J01DB02",
+"year": "2005",
+"note": ""
+},
+{
+"previous": "J01DA03",
+"substance": "cefalotin",
+"new": "J01DB03",
+"year": "2005",
+"note": ""
+},
+{
+"previous": "J01DA04",
+"substance": "cefazolin",
+"new": "J01DB04",
+"year": "2005",
+"note": ""
+},
+{
+"previous": "J01DA05",
+"substance": "cefoxitin",
+"new": "J01DC01",
+"year": "2005",
+"note": ""
+},
+{
+"previous": "J01DA06",
+"substance": "cefuroxime",
+"new": "J01DC02",
+"year": "2005",
+"note": ""
+},
+{
+"previous": "J01DA07",
+"substance": "cefamandole",
+"new": "J01DC03",
+"year": "2005",
+"note": ""
+},
+{
+"previous": "J01DA08",
+"substance": "cefaclor",
+"new": "J01DC04",
+"year": "2005",
+"note": ""
+},
+{
+"previous": "J01DA09",
+"substance": "cefadroxil",
+"new": "J01DB05",
+"year": "2005",
+"note": ""
+},
+{
+"previous": "J01DA10",
+"substance": "cefotaxime",
+"new": "J01DD01",
+"year": "2005",
+"note": ""
+},
+{
+"previous": "J01DA11",
+"substance": "ceftazidime",
+"new": "J01DD02",
+"year": "2005",
+"note": ""
+},
+{
+"previous": "J01DA12",
+"substance": "cefsulodin",
+"new": "J01DD03",
+"year": "2005",
+"note": ""
+},
+{
+"previous": "J01DA13",
+"substance": "ceftriaxone",
+"new": "J01DD04",
+"year": "2005",
+"note": ""
+},
+{
+"previous": "J01DA14",
+"substance": "cefotetan",
+"new": "J01DC05",
+"year": "2005",
+"note": ""
+},
+{
+"previous": "J01DA15",
+"substance": "cefazedone",
+"new": "J01DB06",
+"year": "2005",
+"note": ""
+},
+{
+"previous": "J01DA16",
+"substance": "cefmenoxime",
+"new": "J01DD05",
+"year": "2005",
+"note": ""
+},
+{
+"previous": "J01DA17",
+"substance": "cefonicid",
+"new": "J01DC06",
+"year": "2005",
+"note": ""
+},
+{
+"previous": "J01DA18",
+"substance": "latamoxef",
+"new": "J01DD06",
+"year": "2005",
+"note": ""
+},
+{
+"previous": "J01DA19",
+"substance": "cefotiam",
+"new": "J01DC07",
+"year": "2005",
+"note": ""
+},
+{
+"previous": "J01DA21",
+"substance": "cefatrizine",
+"new": "J01DB07",
+"year": "2005",
+"note": ""
+},
+{
+"previous": "J01DA22",
+"substance": "ceftizoxime",
+"new": "J01DD07",
+"year": "2005",
+"note": ""
+},
+{
+"previous": "J01DA23",
+"substance": "cefixime",
+"new": "J01DD08",
+"year": "2005",
+"note": ""
+},
+{
+"previous": "J01DA24",
+"substance": "cefepime",
+"new": "J01DE01",
+"year": "2005",
+"note": ""
+},
+{
+"previous": "J01DA25",
+"substance": "cefodizime",
+"new": "J01DD09",
+"year": "2005",
+"note": ""
+},
+{
+"previous": "J01DA26",
+"substance": "cefetamet",
+"new": "J01DD10",
+"year": "2005",
+"note": ""
+},
+{
+"previous": "J01DA27",
+"substance": "cefpiramide",
+"new": "J01DD11",
+"year": "2005",
+"note": ""
+},
+{
+"previous": "J01DA30",
+"substance": "cefapirin",
+"new": "J01DB08",
+"year": "2005",
+"note": ""
+},
+{
+"previous": "J01DA31",
+"substance": "cefradine",
+"new": "J01DB09",
+"year": "2005",
+"note": ""
+},
+{
+"previous": "J01DA32",
+"substance": "cefoperazone",
+"new": "J01DD12",
+"year": "2005",
+"note": ""
+},
+{
+"previous": "J01DA33",
+"substance": "cefpodoxime",
+"new": "J01DD13",
+"year": "2005",
+"note": ""
+},
+{
+"previous": "J01DA34",
+"substance": "cefacetrile",
+"new": "J01DB10",
+"year": "2005",
+"note": ""
+},
+{
+"previous": "J01DA35",
+"substance": "cefroxadine",
+"new": "J01DB11",
+"year": "2005",
+"note": ""
+},
+{
+"previous": "J01DA36",
+"substance": "ceftezole",
+"new": "J01DB12",
+"year": "2005",
+"note": ""
+},
+{
+"previous": "J01DA37",
+"substance": "cefpirome",
+"new": "J01DE02",
+"year": "2005",
+"note": ""
+},
+{
+"previous": "J01DA38",
+"substance": "loracarbef",
+"new": "J01DC08",
+"year": "2005",
+"note": ""
+},
+{
+"previous": "J01DA39",
+"substance": "ceftibuten",
+"new": "J01DD14",
+"year": "2005",
+"note": ""
+},
+{
+"previous": "J01DA40",
+"substance": "cefmetazole",
+"new": "J01DC09",
+"year": "2005",
+"note": ""
+},
+{
+"previous": "J01DA41",
+"substance": "cefprozil",
+"new": "J01DC10",
+"year": "2005",
+"note": ""
+},
+{
+"previous": "J01DA42",
+"substance": "cefdinir",
+"new": "J01DD15",
+"year": "2005",
+"note": ""
+},
+{
+"previous": "J01DA63",
+"substance": "ceftriaxone, combinations",
+"new": "J01DD54",
+"year": "2005",
+"note": ""
+},
+{
+"previous": "J01DD54",
+"substance": "ceftriaxone, combinations",
+"new": "J01DD63",
+"year": "2018",
+"note": "29) Split of code. Combinations of ceftriaxone and other substances remain in J01DD54 while combinations of ceftriaxone and beta-lactamase inhibitors are moved to J01DD63 ceftriaxone and beta-lactamase inhibitor"
+},
+{
+"previous": "J05AB04",
+"substance": "ribavirin",
+"new": "J05AP01",
+"year": "2018",
+"note": ""
+},
+{
+"previous": "J05AB54",
+"substance": "ribavirin, combinations",
+"new": "L03AB60",
+"year": "2007",
+"note": ""
+},
+{
+"previous": "J05AE06",
+"substance": "lopinavir and ritonavir",
+"new": "J05AR10",
+"year": "2013",
+"note": ""
+},
+{
+"previous": "J05AE11",
+"substance": "telaprevir",
+"new": "J05AP02",
+"year": "2018",
+"note": ""
+},
+{
+"previous": "J05AE12",
+"substance": "boceprevir",
+"new": "J05AP03",
+"year": "2018",
+"note": ""
+},
+{
+"previous": "J05AE13",
+"substance": "faldaprevir",
+"new": "J05AP04",
+"year": "2018",
+"note": ""
+},
+{
+"previous": "J05AE14",
+"substance": "simeprevir",
+"new": "J05AP05",
+"year": "2018",
+"note": ""
+},
+{
+"previous": "J05AE15",
+"substance": "asunaprevir",
+"new": "J05AP06",
+"year": "2018",
+"note": ""
+},
+{
+"previous": "J05AF30",
+"substance": "combinations",
+"new": "J05AR",
+"year": "2007",
+"note": ""
+},
+{
+"previous": "J05AX08",
+"substance": "raltegravir",
+"new": "J05AJ01",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "J05AX11",
+"substance": "elvitegravir",
+"new": "J05AJ02",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "J05AX12",
+"substance": "dolutegravir",
+"new": "J05AJ03",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "J05AX14",
+"substance": "daclatasvir",
+"new": "J05AP07",
+"year": "2018",
+"note": ""
+},
+{
+"previous": "J05AX15",
+"substance": "sofosbuvir",
+"new": "J05AP08",
+"year": "2018",
+"note": ""
+},
+{
+"previous": "J05AX16",
+"substance": "dasabuvir",
+"new": "J05AP09",
+"year": "2018",
+"note": ""
+},
+{
+"previous": "J05AX65",
+"substance": "sofosbuvir and ledipasvir",
+"new": "J05AP51",
+"year": "2018",
+"note": ""
+},
+{
+"previous": "J05AX66",
+"substance": "dasabuvir, ombitasvir, paritaprevir and ritonavir",
+"new": "J05AP52",
+"year": "2018",
+"note": ""
+},
+{
+"previous": "J05AX67",
+"substance": "ombitasvir, paritaprevir and ritonavir",
+"new": "J05AP53",
+"year": "2018",
+"note": ""
+},
+{
+"previous": "J05AX68",
+"substance": "elbasvir and grazoprevir",
+"new": "J05AP54",
+"year": "2018",
+"note": ""
+},
+{
+"previous": "J05AX69",
+"substance": "sofosbuvir and velpatasvir",
+"new": "J05AP55",
+"year": "2018",
+"note": ""
+},
+{
+"previous": "J06BB16",
+"substance": "palivizumab",
+"new": "J06BD01",
+"year": "2022",
+"note": ""
+},
+{
+"previous": "J06BB17",
+"substance": "motavizumab",
+"new": "J06BD02",
+"year": "2022",
+"note": ""
+},
+{
+"previous": "J06BB18",
+"substance": "raxibacumab",
+"new": "J06BC02",
+"year": "2022",
+"note": ""
+},
+{
+"previous": "J06BB21",
+"substance": "bezlotoxumab",
+"new": "J06BC03",
+"year": "2022",
+"note": ""
+},
+{
+"previous": "J06BB22",
+"substance": "obiltoxaximab",
+"new": "J06BC04",
+"year": "2022",
+"note": ""
+},
+{
+"previous": "J07BX03",
+"substance": "covid-19 vaccines",
+"new": "deleted",
+"year": "2023",
+"note": ""
+},
+{
+"previous": "J07BX07",
+"substance": "chikungunya vaccines",
+"new": "deleted",
+"year": "2026",
+"note": ""
+},
+{
+"previous": "L01BA01",
+"substance": "methotrexate",
+"new": "L04AX03",
+"year": "2017",
+"note": "13) Split of ATC code. Only the classification of pre-filled syringe/pen of methotrexate for use in non-cancer indications is changed. Parenteral products used for treatment of cancer will remain in L01BA01."
+},
+{
+"previous": "L01EX16",
+"substance": "erdafitinib",
+"new": "L01EN01",
+"year": "2022",
+"note": ""
+},
+{
+"previous": "L01EX17",
+"substance": "capmatinib�",
+"new": "L01EP01",
+"year": "2026",
+"note": ""
+},
+{
+"previous": "L01EX20",
+"substance": "pemigatinib",
+"new": "L01EN02",
+"year": "2022",
+"note": ""
+},
+{
+"previous": "L01EX21",
+"substance": "tepotinib�",
+"new": "L01EP02",
+"year": "2026",
+"note": ""
+},
+{
+"previous": "L01XC01",
+"substance": "edrecolomab",
+"new": "L01FX01",
+"year": "2022",
+"note": ""
+},
+{
+"previous": "L01XC02",
+"substance": "rituximab",
+"new": "L01FA01",
+"year": "2022",
+"note": ""
+},
+{
+"previous": "L01XC03",
+"substance": "trastuzumab",
+"new": "L01FD01",
+"year": "2022",
+"note": ""
+},
+{
+"previous": "L01XC04",
+"substance": "alemtuzumab",
+"new": "L04AA34",
+"year": "2015",
+"note": ""
+},
+{
+"previous": "L01XC05",
+"substance": "gemtuzumab ozogamicin",
+"new": "L01FX02",
+"year": "2022",
+"note": ""
+},
+{
+"previous": "L01XC06",
+"substance": "cetuximab",
+"new": "L01FE01",
+"year": "2022",
+"note": ""
+},
+{
+"previous": "L01XC07",
+"substance": "bevacizumab",
+"new": "L01FG01",
+"year": "2022",
+"note": ""
+},
+{
+"previous": "L01XC08",
+"substance": "panitumumab",
+"new": "L01FE02",
+"year": "2022",
+"note": ""
+},
+{
+"previous": "L01XC09",
+"substance": "catumaxomab",
+"new": "L01FX03",
+"year": "2022",
+"note": ""
+},
+{
+"previous": "L01XC10",
+"substance": "ofatumumab",
+"new": "L01FA02",
+"year": "2022",
+"note": ""
+},
+{
+"previous": "L01XC11",
+"substance": "ipilimumab",
+"new": "L01FX04",
+"year": "2022",
+"note": ""
+},
+{
+"previous": "L01XC12",
+"substance": "brentuximab vedotin",
+"new": "L01FX05",
+"year": "2022",
+"note": ""
+},
+{
+"previous": "L01XC13",
+"substance": "pertuzumab",
+"new": "L01FD02",
+"year": "2022",
+"note": ""
+},
+{
+"previous": "L01XC14",
+"substance": "trastuzumab emtansine",
+"new": "L01FD03",
+"year": "2022",
+"note": ""
+},
+{
+"previous": "L01XC15",
+"substance": "obinutuzumab",
+"new": "L01FA03",
+"year": "2022",
+"note": ""
+},
+{
+"previous": "L01XC16",
+"substance": "dinutuximab beta",
+"new": "L01FX06",
+"year": "2022",
+"note": ""
+},
+{
+"previous": "L01XC17",
+"substance": "nivolumab",
+"new": "L01FF01",
+"year": "2022",
+"note": ""
+},
+{
+"previous": "L01XC18",
+"substance": "pembrolizumab",
+"new": "L01FF02",
+"year": "2022",
+"note": ""
+},
+{
+"previous": "L01XC19",
+"substance": "blinatumomab",
+"new": "L01FX07",
+"year": "2022",
+"note": ""
+},
+{
+"previous": "L01XC21",
+"substance": "ramucirumab",
+"new": "L01FG02",
+"year": "2022",
+"note": ""
+},
+{
+"previous": "L01XC22",
+"substance": "necitumumab",
+"new": "L01FE03",
+"year": "2022",
+"note": ""
+},
+{
+"previous": "L01XC23",
+"substance": "elotuzumab",
+"new": "L01FX08",
+"year": "2022",
+"note": ""
+},
+{
+"previous": "L01XC24",
+"substance": "daratumumab",
+"new": "L01FC01",
+"year": "2022",
+"note": ""
+},
+{
+"previous": "L01XC25",
+"substance": "mogamulizumab",
+"new": "L01FX09",
+"year": "2022",
+"note": ""
+},
+{
+"previous": "L01XC26",
+"substance": "inotuzumab ozogamicin",
+"new": "L01FB01",
+"year": "2022",
+"note": ""
+},
+{
+"previous": "L01XC27",
+"substance": "olaratumab",
+"new": "L01FX10",
+"year": "2022",
+"note": ""
+},
+{
+"previous": "L01XC28",
+"substance": "durvalumab",
+"new": "L01FF03",
+"year": "2022",
+"note": ""
+},
+{
+"previous": "L01XC29",
+"substance": "bermekimab",
+"new": "L01FX11",
+"year": "2022",
+"note": ""
+},
+{
+"previous": "L01XC31",
+"substance": "avelumab",
+"new": "L01FF04",
+"year": "2022",
+"note": ""
+},
+{
+"previous": "L01XC32",
+"substance": "atezolizumab",
+"new": "L01FF05",
+"year": "2022",
+"note": ""
+},
+{
+"previous": "L01XC33",
+"substance": "cemiplimab",
+"new": "L01FF06",
+"year": "2022",
+"note": ""
+},
+{
+"previous": "L01XC34",
+"substance": "moxetumomab pasudotox",
+"new": "L01FB02",
+"year": "2022",
+"note": ""
+},
+{
+"previous": "L01XC35",
+"substance": "tafasitamab",
+"new": "L01FX12",
+"year": "2022",
+"note": ""
+},
+{
+"previous": "L01XC36",
+"substance": "enfortumab vedotin",
+"new": "L01FX13",
+"year": "2022",
+"note": ""
+},
+{
+"previous": "L01XC37",
+"substance": "polatuzumab vedotin",
+"new": "L01FX14",
+"year": "2022",
+"note": ""
+},
+{
+"previous": "L01XC38",
+"substance": "isatuximab",
+"new": "L01FC02",
+"year": "2022",
+"note": ""
+},
+{
+"previous": "L01XC39",
+"substance": "belantamab mafodotin",
+"new": "L01FX15",
+"year": "2022",
+"note": ""
+},
+{
+"previous": "L01XC40",
+"substance": "dostarlimab",
+"new": "L01FF07",
+"year": "2022",
+"note": ""
+},
+{
+"previous": "L01XC41",
+"substance": "trastuzumab deruxtecan",
+"new": "L01FD04",
+"year": "2022",
+"note": ""
+},
+{
+"previous": "L01XC42",
+"substance": "prolgolimab",
+"new": "L01FF08",
+"year": "2022",
+"note": ""
+},
+{
+"previous": "L01XD02",
+"substance": "verteporfin",
+"new": "S01LA01",
+"year": "2007",
+"note": ""
+},
+{
+"previous": "L01XE01",
+"substance": "imatinib",
+"new": "L01EA01",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XE02",
+"substance": "gefitinib",
+"new": "L01EB01",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XE03",
+"substance": "erlotinib",
+"new": "L01EB02",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XE04",
+"substance": "sunitinib",
+"new": "L01EX01",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XE05",
+"substance": "sorafenib",
+"new": "L01EX02",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XE06",
+"substance": "dasatinib",
+"new": "L01EA02",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XE07",
+"substance": "lapatinib",
+"new": "L01EH01",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XE08",
+"substance": "nilotinib",
+"new": "L01EA03",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XE09",
+"substance": "temsirolimus",
+"new": "L01EG01",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XE10",
+"substance": "everolimus",
+"new": "L01EG02",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XE11",
+"substance": "pazopanib",
+"new": "L01EX03",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XE12",
+"substance": "vandetanib",
+"new": "L01EX04",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XE13",
+"substance": "afatinib",
+"new": "L01EB03",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XE14",
+"substance": "bosutinib",
+"new": "L01EA04",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XE15",
+"substance": "vemurafenib",
+"new": "L01EC01",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XE16",
+"substance": "crizotinib",
+"new": "L01ED01",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XE17",
+"substance": "axitinib",
+"new": "L01EK01",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XE18",
+"substance": "ruxolitinib",
+"new": "L01EJ01",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XE19",
+"substance": "ridaforolimus",
+"new": "L01EG03",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XE21",
+"substance": "regorafenib",
+"new": "L01EX05",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XE22",
+"substance": "masitinib",
+"new": "L01EX06",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XE23",
+"substance": "dabrafenib",
+"new": "L01EC02",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XE24",
+"substance": "ponatinib",
+"new": "L01EA05",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XE25",
+"substance": "trametinib",
+"new": "L01EE01",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XE26",
+"substance": "cabozantinib",
+"new": "L01EX07",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XE27",
+"substance": "ibrutinib",
+"new": "L01EL01",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XE28",
+"substance": "ceritinib",
+"new": "L01ED02",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XE29",
+"substance": "lenvatinib",
+"new": "L01EX08",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XE31",
+"substance": "nintedanib",
+"new": "L01EX09",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XE32",
+"substance": "cediranib",
+"new": "L01EK02",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XE33",
+"substance": "palbociclib",
+"new": "L01EF01",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XE34",
+"substance": "tivozanib",
+"new": "L01EK03",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XE35",
+"substance": "osimertinib",
+"new": "L01EB04",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XE36",
+"substance": "alectinib",
+"new": "L01ED03",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XE37",
+"substance": "rociletinib",
+"new": "L01EB05",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XE38",
+"substance": "cobimetinib",
+"new": "L01EE02",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XE39",
+"substance": "midostaurin",
+"new": "L01EX10",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XE40",
+"substance": "olmutinib",
+"new": "L01EB06",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XE41",
+"substance": "binimetinib",
+"new": "L01EE03",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XE42",
+"substance": "ribociclib",
+"new": "L01EF02",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XE43",
+"substance": "brigatinib",
+"new": "L01ED04",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XE44",
+"substance": "lorlatinib",
+"new": "L01ED05",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XE45",
+"substance": "neratinib",
+"new": "L01EH02",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XE46",
+"substance": "encorafenib",
+"new": "L01EC03",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XE47",
+"substance": "dacomitinib",
+"new": "L01EB07",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XE48",
+"substance": "icotinib",
+"new": "L01EB08",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XE50",
+"substance": "abemaciclib",
+"new": "L01EF03",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XE51",
+"substance": "acalabrutinib",
+"new": "L01EL02",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XE52",
+"substance": "quizartinib",
+"new": "L01EX11",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XE53",
+"substance": "larotrectinib",
+"new": "L01EX12",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XE54",
+"substance": "gilteritinib",
+"new": "L01EX13",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XE56",
+"substance": "entrectinib",
+"new": "L01EX14",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XE57",
+"substance": "fedratinib",
+"new": "L01EJ02",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XX09",
+"substance": "miltefosine",
+"new": "P01CX04",
+"year": "2020",
+"note": ""
+},
+{
+"previous": "L01XX14",
+"substance": "tretinoin",
+"new": "L01XF01",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XX17",
+"substance": "topotecan",
+"new": "L01CE01",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XX19",
+"substance": "irinotecan",
+"new": "L01CE02",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XX22",
+"substance": "alitretinoin",
+"new": "L01XF02",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XX25",
+"substance": "bexarotene",
+"new": "L01XF03",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XX28",
+"substance": "imatinib",
+"new": "L01XE01",
+"year": "2007",
+"note": ""
+},
+{
+"previous": "L01XX31",
+"substance": "gefitinib",
+"new": "L01XE02",
+"year": "2007",
+"note": ""
+},
+{
+"previous": "L01XX32",
+"substance": "bortezomib",
+"new": "L01XG01",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XX34",
+"substance": "erlotinib",
+"new": "L01XE03",
+"year": "2007",
+"note": ""
+},
+{
+"previous": "L01XX37",
+"substance": "sitimagene ceradenovec",
+"new": "L01XL01",
+"year": "2023",
+"note": ""
+},
+{
+"previous": "L01XX38",
+"substance": "vorinostat",
+"new": "L01XH01",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XX39",
+"substance": "romidepsin",
+"new": "L01XH02",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XX42",
+"substance": "panobinostat",
+"new": "L01XH03",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XX43",
+"substance": "vismodegib",
+"new": "L01XJ01",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XX45",
+"substance": "carfilzomib",
+"new": "L01XG02",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XX46",
+"substance": "olaparib",
+"new": "L01XK01",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XX47",
+"substance": "idelalisib",
+"new": "L01EM01",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XX48",
+"substance": "sonidegib",
+"new": "L01XJ02",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XX49",
+"substance": "belinostat",
+"new": "L01XH04",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XX50",
+"substance": "ixazomib�",
+"new": "L01XG03",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XX51",
+"substance": "talimogene laherparepvec",
+"new": "L01XL02",
+"year": "2023",
+"note": ""
+},
+{
+"previous": "L01XX54",
+"substance": "niraparib�",
+"new": "L01XK02",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XX55",
+"substance": "rucaparib�",
+"new": "L01XK03",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XX56",
+"substance": "etirinotecan pegol�",
+"new": "L01CE03",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XX59",
+"substance": "enasidenib",
+"new": "L01XM01",
+"year": "2025",
+"note": ""
+},
+{
+"previous": "L01XX60",
+"substance": "talazoparib",
+"new": "L01XK04",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XX61",
+"substance": "copanlisib",
+"new": "L01EM02",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XX62",
+"substance": "ivosidenib",
+"new": "L01XM02",
+"year": "2025",
+"note": ""
+},
+{
+"previous": "L01XX63",
+"substance": "glasdegib",
+"new": "L01XJ03",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XX64",
+"substance": "entinostat",
+"new": "L01XH05",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XX65",
+"substance": "alpelisib",
+"new": "L01EM03",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XX68",
+"substance": "belotecan",
+"new": "L01CE04",
+"year": "2021",
+"note": ""
+},
+{
+"previous": "L01XX70",
+"substance": "axicabtagene ciloleucel",
+"new": "L01XL03",
+"year": "2023",
+"note": ""
+},
+{
+"previous": "L01XX71",
+"substance": "tisagenlecleucel�",
+"new": "L01XL04",
+"year": "2023",
+"note": ""
+},
+{
+"previous": "L01XY02",
+"substance": "pertuzumab and trastuzumab",
+"new": "L01FY01",
+"year": "2024",
+"note": ""
+},
+{
+"previous": "L01XY03",
+"substance": "nivolumab and relatlimab",
+"new": "L01FY02",
+"year": "2024",
+"note": ""
+},
+{
+"previous": "L04AA01",
+"substance": "ciclosporin",
+"new": "L04AD01",
+"year": "2008",
+"note": ""
+},
+{
+"previous": "L04AA02",
+"substance": "muromonab-CD3",
+"new": "L04AG01",
+"year": "2024",
+"note": ""
+},
+{
+"previous": "L04AA05",
+"substance": "tacrolimus",
+"new": "L04AD02",
+"year": "2008",
+"note": ""
+},
+{
+"previous": "L04AA08",
+"substance": "daclizumab",
+"new": "L04AC01",
+"year": "2008",
+"note": ""
+},
+{
+"previous": "L04AA09",
+"substance": "basiliximab",
+"new": "L04AC02",
+"year": "2008",
+"note": ""
+},
+{
+"previous": "L04AA10",
+"substance": "sirolimus",
+"new": "L04AH01",
+"year": "2024",
+"note": ""
+},
+{
+"previous": "L04AA11",
+"substance": "etanercept",
+"new": "L04AB01",
+"year": "2008",
+"note": ""
+},
+{
+"previous": "L04AA12",
+"substance": "infliximab",
+"new": "L04AB02",
+"year": "2008",
+"note": ""
+},
+{
+"previous": "L04AA13",
+"substance": "leflunomide",
+"new": "L04AK01",
+"year": "2024",
+"note": ""
+},
+{
+"previous": "L04AA14",
+"substance": "anakinra",
+"new": "L04AC03",
+"year": "2008",
+"note": ""
+},
+{
+"previous": "L04AA16",
+"substance": "afelimomab",
+"new": "L04AB03",
+"year": "2008",
+"note": ""
+},
+{
+"previous": "L04AA17",
+"substance": "adalimumab",
+"new": "L04AB04",
+"year": "2008",
+"note": ""
+},
+{
+"previous": "L04AA18",
+"substance": "everolimus",
+"new": "L04AH02",
+"year": "2024",
+"note": ""
+},
+{
+"previous": "L04AA21",
+"substance": "efalizumab",
+"new": "L04AG02",
+"year": "2024",
+"note": ""
+},
+{
+"previous": "L04AA23",
+"substance": "natalizumab",
+"new": "L04AG03",
+"year": "2024",
+"note": ""
+},
+{
+"previous": "L04AA25",
+"substance": "eculizumab",
+"new": "L04AJ01",
+"year": "2024",
+"note": ""
+},
+{
+"previous": "L04AA26",
+"substance": "belimumab",
+"new": "L04AG04",
+"year": "2024",
+"note": ""
+},
+{
+"previous": "L04AA27",
+"substance": "fingolimod",
+"new": "L04AE01",
+"year": "2024",
+"note": ""
+},
+{
+"previous": "L04AA29",
+"substance": "tofacitinib",
+"new": "L04AF01",
+"year": "2024",
+"note": ""
+},
+{
+"previous": "L04AA31",
+"substance": "teriflunomide",
+"new": "L04AK02",
+"year": "2024",
+"note": ""
+},
+{
+"previous": "L04AA33",
+"substance": "vedolizumab",
+"new": "L04AG05",
+"year": "2024",
+"note": ""
+},
+{
+"previous": "L04AA34",
+"substance": "alemtuzumab",
+"new": "L04AG06",
+"year": "2024",
+"note": ""
+},
+{
+"previous": "L04AA35",
+"substance": "begelomab",
+"new": "L04AG07",
+"year": "2024",
+"note": ""
+},
+{
+"previous": "L04AA36",
+"substance": "ocrelizumab",
+"new": "L04AG08",
+"year": "2024",
+"note": ""
+},
+{
+"previous": "L04AA37",
+"substance": "baricitinib",
+"new": "L04AF02",
+"year": "2024",
+"note": ""
+},
+{
+"previous": "L04AA38",
+"substance": "ozanimod",
+"new": "L04AE02",
+"year": "2024",
+"note": ""
+},
+{
+"previous": "L04AA39",
+"substance": "emapalumab",
+"new": "L04AG09",
+"year": "2024",
+"note": ""
+},
+{
+"previous": "L04AA42",
+"substance": "siponimod",
+"new": "L04AE03",
+"year": "2024",
+"note": ""
+},
+{
+"previous": "L04AA43",
+"substance": "ravulizumab",
+"new": "L04AJ02",
+"year": "2024",
+"note": ""
+},
+{
+"previous": "L04AA44",
+"substance": "upadacitinib",
+"new": "L04AF03",
+"year": "2024",
+"note": ""
+},
+{
+"previous": "L04AA45",
+"substance": "filgotinib",
+"new": "L04AF04",
+"year": "2024",
+"note": ""
+},
+{
+"previous": "L04AA46",
+"substance": "itacitinib",
+"new": "L04AF05",
+"year": "2024",
+"note": ""
+},
+{
+"previous": "L04AA47",
+"substance": "inebilizumab",
+"new": "L04AG10",
+"year": "2024",
+"note": ""
+},
+{
+"previous": "L04AA49",
+"substance": "peficitinib",
+"new": "L04AF06",
+"year": "2024",
+"note": ""
+},
+{
+"previous": "L04AA50",
+"substance": "ponesimod",
+"new": "L04AE04",
+"year": "2024",
+"note": ""
+},
+{
+"previous": "L04AA51",
+"substance": "anifrolumab",
+"new": "L04AG11",
+"year": "2024",
+"note": ""
+},
+{
+"previous": "L04AA52",
+"substance": "ofatumumab",
+"new": "L04AG12",
+"year": "2024",
+"note": ""
+},
+{
+"previous": "L04AA53",
+"substance": "teprotumumab",
+"new": "L04AG13",
+"year": "2024",
+"note": ""
+},
+{
+"previous": "L04AA54",
+"substance": "pegcetacoplan",
+"new": "L04AJ03",
+"year": "2024",
+"note": ""
+},
+{
+"previous": "L04AA55",
+"substance": "sutimlimab",
+"new": "L04AJ04",
+"year": "2024",
+"note": ""
+},
+{
+"previous": "L04AA56",
+"substance": "deucravacitinib",
+"new": "L04AF07",
+"year": "2024",
+"note": ""
+},
+{
+"previous": "L04AA57",
+"substance": "ublituximab",
+"new": "L04AG14",
+"year": "2024",
+"note": ""
+},
+{
+"previous": "L04AA58",
+"substance": "efgartigimod alfa",
+"new": "L04AL01",
+"year": "2026",
+"note": ""
+},
+{
+"previous": "L04AA59",
+"substance": "avacopan",
+"new": "L04AJ05",
+"year": "2024",
+"note": ""
+},
+{
+"previous": "L04AC06",
+"substance": "mepolizumab",
+"new": "R03DX09",
+"year": "2017",
+"note": ""
+},
+{
+"previous": "L04AG16",
+"substance": "rozanolixizumab",
+"new": "L04AL02",
+"year": "2026",
+"note": ""
+},
+{
+"previous": "M01AE51",
+"substance": "dihydrocodeine and other non-opioid analgesics",
+"new": "N02AJ03",
+"year": "2017",
+"note": "19) Split of ATC code. The different fixed combinations of ibuprofen and opioid analgesics are given new ATC 5th levels in N02AJ Opioids and non-opioid analgesics. M01AE51 ibuprofen, combinations remains for other combinations."
+},
+{
+"previous": "M01AE51",
+"substance": "codeine and ibuprofen",
+"new": "N02AJ08",
+"year": "2017",
+"note": "19) Split of ATC code. The different fixed combinations of ibuprofen and opioid analgesics are given new ATC 5th levels in N02AJ Opioids and non-opioid analgesics. M01AE51 ibuprofen, combinations remains for other combinations."
+},
+{
+"previous": "N01AB03",
+"substance": "methoxyflurane",
+"new": "N02BG09",
+"year": "2009",
+"note": ""
+},
+{
+"previous": "N01AX01",
+"substance": "droperidol",
+"new": "N05AD08",
+"year": "2013",
+"note": ""
+},
+{
+"previous": "N02AA09",
+"substance": "diamorphine",
+"new": "N07BC06",
+"year": "2013",
+"note": ""
+},
+{
+"previous": "N02AA55",
+"substance": "oxycodone and paracetamol",
+"new": "N02AJ17",
+"year": "2017",
+"note": "21) Split of ATC code. ATC level name changed from: oxycodone, combinations. The different fixed combinations of oxycodone and other analgesics are given new ATC 5th levels in N02AJ Opioids and non-opioid analgesics. ATC code N02AA55 remains for combinations of oxycodone and naloxone (changed level name)."
+},
+{
+"previous": "N02AA55",
+"substance": "oxycodone and acetylsalicylic acid",
+"new": "N02AJ18",
+"year": "2017",
+"note": "21) Split of ATC code. ATC level name changed from: oxycodone, combinations. The different fixed combinations of oxycodone and other analgesics are given new ATC 5th levels in N02AJ Opioids and non-opioid analgesics. ATC code N02AA55 remains for combinations of oxycodone and naloxone (changed level name)."
+},
+{
+"previous": "N02AA55",
+"substance": "oxycodone and ibuprofen",
+"new": "N02AJ19",
+"year": "2017",
+"note": "21) Split of ATC code. ATC level name changed from: oxycodone, combinations. The different fixed combinations of oxycodone and other analgesics are given new ATC 5th levels in N02AJ Opioids and non-opioid analgesics. ATC code N02AA55 remains for combinations of oxycodone and naloxone (changed level name)."
+},
+{
+"previous": "N02AA58",
+"substance": "dihydrocodeine and paracetamol",
+"new": "N02AJ01",
+"year": "2017",
+"note": "22) Split of ATC code. The different fixed combinations of dihydrocodeine and other analgesics are given new ATC 5th levels in N02AJ Opioids and non-opioid analgesics. ATC code N02AA58 dihydrocodeine, combinations is maintained for other combinations."
+},
+{
+"previous": "N02AA58",
+"substance": "dihydrocodeine and acetylsalicylic acid�",
+"new": "N02AJ02",
+"year": "2017",
+"note": "22) Split of ATC code. The different fixed combinations of dihydrocodeine and other analgesics are given new ATC 5th levels in N02AJ Opioids and non-opioid analgesics. ATC code N02AA58 dihydrocodeine, combinations is maintained for other combinations."
+},
+{
+"previous": "N02AA58",
+"substance": "dihydrocodeine and other non-opioid analgesics",
+"new": "N02AJ03",
+"year": "2017",
+"note": "22) Split of ATC code. The different fixed combinations of dihydrocodeine and other analgesics are given new ATC 5th levels in N02AJ Opioids and non-opioid analgesics. ATC code N02AA58 dihydrocodeine, combinations is maintained for other combinations."
+},
+{
+"previous": "N02AA59",
+"substance": "codeine and paracetamol",
+"new": "N02AJ06",
+"year": "2017",
+"note": "23) Split of ATC code. The different fixed combinations of codeine and other analgesics are given new ATC 5th levels in N02AJ Opioids and non-opioid analgesics. ATC code N02AA59 codeine, combinations is maintained for other combinations."
+},
+{
+"previous": "N02AA59",
+"substance": "codeine and acetylsalicylic acid",
+"new": "N02AJ07",
+"year": "2017",
+"note": "23) Split of ATC code. The different fixed combinations of codeine and other analgesics are given new ATC 5th levels in N02AJ Opioids and non-opioid analgesics. ATC code N02AA59 codeine, combinations is maintained for other combinations."
+},
+{
+"previous": "N02AA59",
+"substance": "codeine and ibuprofen",
+"new": "N02AJ08",
+"year": "2017",
+"note": "23) Split of ATC code. The different fixed combinations of codeine and other analgesics are given new ATC 5th levels in N02AJ Opioids and non-opioid analgesics. ATC code N02AA59 codeine, combinations is maintained for other combinations."
+},
+{
+"previous": "N02AA59",
+"substance": "codeine and other non-opioid analgesics",
+"new": "N02AJ09",
+"year": "2017",
+"note": "23) Split of ATC code. The different fixed combinations of codeine and other analgesics are given new ATC 5th levels in N02AJ Opioids and non-opioid analgesics. ATC code N02AA59 codeine, combinations is maintained for other combinations."
+},
+{
+"previous": "N02AX52",
+"substance": "tramadol and paracetamol",
+"new": "N02AJ13",
+"year": "2017",
+"note": "20) Split of ATC code. ATC level name changed from: tramadol, combinations. The different fixed combinations of tramadol and other analgesics are given new ATC 5th levels in N02AJ Opioids and non-opioid analgesics."
+},
+{
+"previous": "N02BA51",
+"substance": "dihydrocodeine and acetylsalicylic acid",
+"new": "N02AJ02",
+"year": "2017",
+"note": "24) Split of ATC code. The different fixed combinations of acetylsalisylic acid and opioid analgesics are given new ATC 5th levels in N02AJ Opioids and non-opioid analgesics. ATC code N02BA51 acetylsalicylic acid, combinations excl. psycholeptics is maintained for other combinations."
+},
+{
+"previous": "N02BA51",
+"substance": "codeine and acetylsalicylic acid",
+"new": "N02AJ07",
+"year": "2017",
+"note": "24) Split of ATC code. The different fixed combinations of acetylsalisylic acid and opioid analgesics are given new ATC 5th levels in N02AJ Opioids and non-opioid analgesics. ATC code N02BA51 acetylsalicylic acid, combinations excl. psycholeptics is maintained for other combinations."
+},
+{
+"previous": "N02BA51",
+"substance": "oxycodone and acetylsalicylic acid",
+"new": "N02AJ18",
+"year": "2017",
+"note": "24) Split of ATC code. The different fixed combinations of acetylsalisylic acid and opioid analgesics are given new ATC 5th levels in N02AJ Opioids and non-opioid analgesics. ATC code N02BA51 acetylsalicylic acid, combinations excl. psycholeptics is maintained for other combinations."
+},
+{
+"previous": "N02BE51",
+"substance": "dihydrocodeine and paracetamol",
+"new": "N02AJ01",
+"year": "2017",
+"note": "24) Split of ATC code. The different fixed combinations of acetylsalisylic acid and opioid analgesics are given new ATC 5th levels in N02AJ Opioids and non-opioid analgesics. ATC code N02BA51 acetylsalicylic acid, combinations excl. psycholeptics is maintained for other combinations."
+},
+{
+"previous": "N02BE51",
+"substance": "codeine and paracetamol",
+"new": "N02AJ06",
+"year": "2017",
+"note": "25) Split of ATC code. The different fixed combinations of paracetamol and opioid analgesics are given new ATC 5th levels in N02AJ Opioids and non-opioid analgesics. ATC code N02BE51 paracetamol, combinations excl. psycholeptics is maintained for other combinations."
+},
+{
+"previous": "N02BE51",
+"substance": "codeine and other non-opioid analgesics",
+"new": "N02AJ09",
+"year": "2017",
+"note": "25) Split of ATC code. The different fixed combinations of paracetamol and opioid analgesics are given new ATC 5th levels in N02AJ Opioids and non-opioid analgesics. ATC code N02BE51 paracetamol, combinations excl. psycholeptics is maintained for other combinations."
+},
+{
+"previous": "N02BE51",
+"substance": "oxycodone and paracetamol",
+"new": "N02AJ17",
+"year": "2017",
+"note": "25) Split of ATC code. The different fixed combinations of paracetamol and opioid analgesics are given new ATC 5th levels in N02AJ Opioids and non-opioid analgesics. ATC code N02BE51 paracetamol, combinations excl. psycholeptics is maintained for other combinations."
+},
+{
+"previous": "N02BG11",
+"substance": "mirogabalin",
+"new": "N02BF03",
+"year": "2023",
+"note": ""
+},
+{
+"previous": "N02CX07",
+"substance": "erenumab",
+"new": "N02CD01",
+"year": "2020",
+"note": ""
+},
+{
+"previous": "N02CX08",
+"substance": "galcanezumab",
+"new": "N02CD02",
+"year": "2020",
+"note": ""
+},
+{
+"previous": "N03AX12",
+"substance": "gabapentin",
+"new": "N02BF01",
+"year": "2023",
+"note": ""
+},
+{
+"previous": "N03AX16",
+"substance": "pregabalin",
+"new": "N02BF02",
+"year": "2023",
+"note": ""
+},
+{
+"previous": "N05AK01",
+"substance": "tetrabenazine",
+"new": "N07XX06",
+"year": "2008",
+"note": ""
+},
+{
+"previous": "N05AX09",
+"substance": "clotiapine",
+"new": "N05AH06",
+"year": "2010",
+"note": ""
+},
+{
+"previous": "N05CM17",
+"substance": "melatonin",
+"new": "N05CH01",
+"year": "2008",
+"note": ""
+},
+{
+"previous": "N05CM19",
+"substance": "suvorexant",
+"new": "N05CJ01",
+"year": "2024",
+"note": ""
+},
+{
+"previous": "N05CM21",
+"substance": "lemborexant",
+"new": "N05CJ02",
+"year": "2024",
+"note": ""
+},
+{
+"previous": "N07BA02",
+"substance": "bupropion",
+"new": "N06AX12",
+"year": "2009",
+"note": ""
+},
+{
+"previous": "N07XX09",
+"substance": "dimethyl fumarate",
+"new": "L04AX07",
+"year": "2019",
+"note": ""
+},
+{
+"previous": "P01BE52",
+"substance": "artemether and lumefantrine 26)",
+"new": "P01BF01",
+"year": "2011",
+"note": ""
+},
+{
+"previous": "R03AK03",
+"substance": "fenoterol and ipratropium bromide 8)",
+"new": "R03AL01",
+"year": "2014",
+"note": ""
+},
+{
+"previous": "R03AK04",
+"substance": "salbutamol and ipratropium bromide",
+"new": "R03AL02",
+"year": "2014",
+"note": "9) Split of code. Combinations of salbutamol and sodium cromoglicate remains in R03AK04."
+},
+{
+"previous": "R03AK07",
+"substance": "formoterol and beclometasone",
+"new": "R03AK08",
+"year": "2014",
+"note": "10) Split of code. Combinations of formoterol and budesonide remains in R03AK07."
+},
+{
+"previous": "R03AK07",
+"substance": "formoterol and mometasone",
+"new": "R03AK09",
+"year": "2014",
+"note": "10) Split of code. Combinations of formoterol and budesonide remains in R03AK07."
+},
+{
+"previous": "R03CA02",
+"substance": "ephedrine",
+"new": "C01CA26",
+"year": "2011",
+"note": ""
+},
+{
+"previous": "R05CB12",
+"substance": "tiopronin",
+"new": "G04BX16",
+"year": "2017",
+"note": ""
+},
+{
+"previous": "S01AX11",
+"substance": "ofloxacin",
+"new": "S01AE01",
+"year": "2013",
+"note": ""
+},
+{
+"previous": "S01AX12",
+"substance": "norfloxacin",
+"new": "S01AE02",
+"year": "2013",
+"note": ""
+},
+{
+"previous": "S01AX13",
+"substance": "ciprofloxacin",
+"new": "S01AE03",
+"year": "2013",
+"note": ""
+},
+{
+"previous": "S01AX17",
+"substance": "lomefloxacin",
+"new": "S01AE04",
+"year": "2013",
+"note": ""
+},
+{
+"previous": "S01AX19",
+"substance": "levofloxacin",
+"new": "S01AE05",
+"year": "2013",
+"note": ""
+},
+{
+"previous": "S01AX21",
+"substance": "gatifloxacin",
+"new": "S01AE06",
+"year": "2013",
+"note": ""
+},
+{
+"previous": "S01AX22",
+"substance": "moxifloxacin",
+"new": "S01AE07",
+"year": "2013",
+"note": ""
+},
+{
+"previous": "S01AX23",
+"substance": "besifloxacin",
+"new": "S01AE08",
+"year": "2013",
+"note": ""
+},
+{
+"previous": "S01XA16",
+"substance": "anecortave",
+"new": "S01LA02",
+"year": "2007",
+"note": ""
+},
+{
+"previous": "S01XA17",
+"substance": "pegaptanib",
+"new": "S01LA03",
+"year": "2007",
+"note": ""
+},
+{
+"previous": "V09AX02",
+"substance": "fludeoxyglucose [18F]",
+"new": "V09IX04",
+"year": "2005",
+"note": ""
+}
+]

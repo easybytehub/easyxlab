@@ -1,0 +1,8 @@
+site,verdict,category,path,requests
+site-c,verified,page,(site page),168
+site-c,verified,robots.txt,(site page),97
+site-c,verified,sitemap,(site page),87
+site-c,verified,home,(site page),26
+site-c,spoofed,page,(site page),10
+site-c,verified,asset,(site page),9
+site-c,spoofed,home,(site page),2

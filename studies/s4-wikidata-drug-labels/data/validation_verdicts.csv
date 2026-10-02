@@ -1,0 +1,104 @@
+sample_id,verdict,note
+S001,TP,Latin INN in ru label; ru form is ризатриптан
+S002,TP,English 'ATC code R03' as fa label (also mirrors an English-titled fawiki page)
+S003,TP,English label in fa
+S004,FP,vaccine code name Ad5-nCoV is a language-neutral designation
+S005,TP,English label in fa
+S006,FP,Tc-99m-MIBI is an international abbreviation (ukwiki uses it as title)
+S007,FP,vaccine code name Gam-COVID-Vac is a designation
+S008,FP,vaccine code name Gam-COVID-Vac is a designation
+S009,TP,Latin label in ru; ruwiki title Эравациклин
+S010,TP,English label in fa
+S011,TP,English label in fa
+S012,TP,English label in fa
+S013,TP,Cyrillic (Russian) label in pl; plwiki title Azelastyna
+S014,TP,Cyrillic brand (Dicynone) as de label of etamsylate
+S015,TP,brand Menopur as pt label of substance item menotropin
+S016,FP,Adrenalin is the ordinary German name of epinephrine
+S017,TP,brand Focalin as es label; eswiki title Dexmetilfenidato
+S018,TP,brand Orencia (Latin script) as ru label of abatacept
+S019,TP,brand Menopur as es label of menotropin
+S020,FP,adrenalin is the ordinary Turkish name of epinephrine
+S021,TP,brand Angiomax as it label; itwiki title Bivalirudina
+S022,TP,brand Esbriet as tr label; trwiki title Pirfenidon
+S023,TP,brand CAPEX as de label; dewiki title Fluocinolonacetonid
+S024,TP,brand Dexedrine as fr label; frwiki title Dextroamphétamine
+S025,TP,brand Differin as fa label; fawiki title آداپالن
+S026,TP,brand Naftin as ru label; ruwiki title Нафтифин
+S027,FP,salt item is the only item for the drug (no parent item shares the ATC): parent name acceptable
+S028,FP,German systematic name of dimethyl fumarate; lexicon miss (Fumarsäure...ester)
+S029,TP,real error of another type: brand 'lobenox' in Latin script as ru label
+S030,FP,salt item is the de facto drug item; parent name acceptable
+S031,FP,salt item is the de facto drug item; parent name acceptable
+S032,FP,salt item is the de facto drug item; parent name acceptable
+S033,TP,real error of another type: zh label is a drug-class phrase (luminal amoebicide) not the substance
+S034,FP,salt item is the de facto drug item; parent name acceptable
+S035,FP,salt item is the de facto drug item; parent name acceptable
+S036,FP,carindacillin is the INN of carbenicillin indanyl sodium
+S037,TP,salt name (cromolyn sodium) on the parent acid item
+S038,FP,lexicon false match: 戊酸 is part of 丙戊酸 (valproic acid)
+S039,FP,low-molecular-weight heparin INNs include 'sodium' (parnaparin sodium)
+S040,TP,sodium salt name on parent item diclofenac; zhwiki title 双氯芬酸
+S041,TP,hydrochloride name on parent item pramocaine
+S042,DOUBT,item labelled with the anion (nitroprusside); the medicine is the sodium salt in most languages
+S043,FP,lexicon false match: استات inside سیمواستاتین (simvastatin)
+S044,FP,combination product label correctly names piperaquine phosphate
+S045,FP,lexicon false match: استات inside سریواستاتین (cerivastatin)
+S046,FP,lexicon false match: 戊酸 is part of aminolevulinic acid
+S047,TP,generic label 'ATC' shared by dozens of ATC class items in pl
+S048,TP,enzyme and 'lysozyme family' items share the pl label
+S049,TP,generic label 'ATC' shared by ATC class items in pl
+S050,TP,generic label 'ATC代码' shared by ATC class items in zh
+S051,TP,two items for aloxiprin (N02BA02 vs B01AC15): duplicate items / merge candidate
+S052,TP,racemic 17α/β-estradiol item labelled as plain estradiol in hi
+S053,TP,esomeprazole labelled 'omeprazole' in fa; fawiki title اسامپرازول
+S054,TP,generic label 'ATC' shared by ATC class items in pl
+S055,TP,generic label 'ATC代码' shared by ATC class items in zh
+S056,TP,cidoxepin labelled 'doxepin' in ar
+S057,TP,cidoxepin labelled 'doxepin' in fa; fawiki title سیدوکسپین
+S058,TP,enzyme and 'lysozyme family' items share the ru label
+S059,TP,generic label 'ATC' shared by ATC class items in pl
+S060,TP,group error: label correct here but shared with the cidoxepin item
+S061,FP,DL- descriptor is precise (ofloxacin is racemic)
+S062,FP,(RS)- descriptor is precise
+S063,FP,(RS)- descriptor is precise
+S064,FP,(±)- descriptor is precise
+S065,FP,USAN-style radiopharmaceutical notation; acceptable variant
+S066,TP,Latin INN in ru label; ru INN тозинамеран exists in P2275
+S067,FP,chloramine T is the common name
+S068,FP,common Arabic name of beta-carotene
+S069,FP,meclizine is the USAN; acceptable variant
+S070,FP,gluceptate is the USAN; acceptable variant
+S071,FP,THC is the compound; dronabinol is its INN; acceptable
+S072,FP,Arabic spelling variant
+S073,TP,es label names the radionuclide (lutetium-177) not the medicine (lutetium oxodotreotide)
+S074,FP,spelling variant
+S075,TP,missing accent required by the Spanish INN (edoxabán); eswiki title Edoxabán
+S076,FP,notation variant
+S077,TP,not a WHO ICD-10 code (extended code)
+S078,TP,missing dot (G23.2)
+S079,TP,not a WHO ICD-10 code (ICD-10-NA headache extension)
+S080,TP,corrupted value with embedded text
+S081,TP,two codes in one value (should be two statements)
+S082,TP,template item carrying a list of ICD codes
+S083,TP,invalid extension .000000
+S084,TP,unparseable range list on a template item
+S085,TP,doubled digits; intended Q78.0
+S086,TP,doubled digits; intended A01.0
+S087,TP,doubled digits; intended F95.2
+S088,TP,doubled digits; intended K12
+S089,TP,doubled digits; intended O92.7
+S090,FP,ICD-11 chapter number 17 is a legitimate chapter designation
+S091,TP,mistyped 6B6Z (dissociative disorders unspecified)
+S092,FP,brand item legitimately shares its substance ATC code
+S093,FP,colistimethate is classified under colistin J01XB01 by WHO
+S094,FP,product item legitimately shares its substance ATC code
+S095,FP,brand item legitimately shares its substance ATC code
+S096,TP,ATCvet code (Q prefix) in the human ATC property
+S097,TP,ATCvet code (Q prefix) in the human ATC property
+S098,TP,obsolete since 2021 and new code absent
+S099,TP,obsolete since 2021 and new code absent
+S100,TP,code deleted in 2023 (COVID-19 vaccines moved)
+S101,TP,obsolete since 2021 and new code absent
+S102,TP,moved to P01CX04 in 2020 and new code absent
+S103,FP,partial (split) change: L01BA01 remains valid for methotrexate

@@ -1,0 +1,5 @@
+site,bot,verdict,from_operator_as,from_other_as
+site-b,Google-special,spoofed,0,1
+site-b,Googlebot,spoofed,0,1
+site-b,Meta-ExternalAgent,unverifiable,39,0
+site-b,OAI-SearchBot,spoofed,0,1
