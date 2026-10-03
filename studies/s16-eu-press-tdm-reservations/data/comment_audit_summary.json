@@ -1,0 +1,36 @@
+{
+ "v1_reservation": {
+  "flagged": 54,
+  "tp": 54,
+  "misses_flagged_stratum": 0,
+  "misses_unflagged": 2,
+  "unflagged": 40
+ },
+ "v1_prohibition": {
+  "flagged": 44,
+  "tp": 19,
+  "misses_flagged_stratum": 16,
+  "misses_unflagged": 1,
+  "unflagged": 40
+ },
+ "v2_reservation": {
+  "flagged": 56,
+  "tp": 56,
+  "misses_flagged_stratum": 0,
+  "misses_unflagged": 0,
+  "unflagged": 40
+ },
+ "v2_prohibition": {
+  "flagged": 62,
+  "tp": 35,
+  "misses_flagged_stratum": 1,
+  "misses_unflagged": 0,
+  "unflagged": 40
+ },
+ "note": "author's audit of v1/v2 (AI agent labels); v2 was revised after reading this sample, so its figures are optimistic. Independent audits: v1/v2 seed 777 (data/independent_audit_v2.json), v3 seed 4242 (data/independent_audit_v3.json). v4 changes only the re-review's two failure modes; no audit claimed.",
+ "population": {
+  "flagged_v1": 215,
+  "unflagged_with_comments_v1": 578,
+  "seed": 20261003
+ }
+}

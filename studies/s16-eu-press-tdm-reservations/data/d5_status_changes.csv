@@ -1,0 +1,99 @@
+host,was_d2,old_evidence,v3_reservation_evidence
+www.diepresse.com,0,data mining in the meaning of § 42h (6) of the Austrian Copyright Act is not permitted,text and data mining | reserved
+www.kleinezeitung.at,0,data mining in the meaning of § 42h (6) of the Austrian Copyright Act is not permitted,text and data mining | reserved
+www.sn.at,0,data mining in the meaning of § 42h (6) of the Austrian Copyright Act is not permitted,text and data mining | reserved
+www.furche.at,0,data mining in the meaning of § 42h (6) of the Austrian Copyright Act is not permitted,text and data mining | reserved
+www.lesoir.be,0,Not allowed bots,
+www.sudinfo.be,0,Not allowed bots,
+www.hbvl.be,1,is not to be used for the purposes of text and data mining,Article 4 | reserved
+www.gva.be,1,is not to be used for the purposes of text and data mining,Article 4 | reserved
+www.nieuwsblad.be,1,is not to be used for the purposes of text and data mining,Article 4 | reserved
+www.standaard.be,1,is not to be used for the purposes of text and data mining,Article 4 | reserved
+www.aachener-zeitung.de,1,is not to be used for the purposes of text and data mining,Article 4 | reserved
+www.hessenschau.de,0,"extraction, reproduction, or use of content from this website for the purpose of training, fine-tuning, or otherwise dev",§ 44b | reserves
+www.tagesschau.de,0,"extraction, reproduction, or use of content from this website for the purpose of training, fine-tuning, or otherwise dev",§ 44b | reserves
+www.hr.de,0,"extraction, reproduction, or use of content from this website for the purpose of training, fine-tuning, or otherwise dev",§ 44b | reserves
+www.nextpit.de,0,"automated access, crawling, scraping or data mining by AI systems, AI search indexers or training crawlers without expli",text and data mining | reserves
+www.nordschleswiger.dk,0,SCRAPERE – ikke tilladt,LLM | ikke tilladt
+www.aamuposti.fi,0,Scraping is not allowed,training AI | is not allowed
+www.esaimaa.fi,0,Scraping is not allowed,training AI | is not allowed
+www.ess.fi,0,Scraping is not allowed,training AI | is not allowed
+www.hameensanomat.fi,0,Scraping is not allowed,training AI | is not allowed
+www.forssanlehti.fi,0,Scraping is not allowed,training AI | is not allowed
+www.helsinginuutiset.fi,0,Scraping is not allowed,training AI | is not allowed
+www.iisalmensanomat.fi,0,Scraping is not allowed,training AI | is not allowed
+www.ita-savo.fi,0,Scraping is not allowed,training AI | is not allowed
+www.itahame.fi,0,Scraping is not allowed,training AI | is not allowed
+www.karjalainen.fi,0,Scraping is not allowed,training AI | is not allowed
+www.keski-uusimaa.fi,0,Scraping is not allowed,training AI | is not allowed
+www.kouvolansanomat.fi,0,Scraping is not allowed,training AI | is not allowed
+www.ksml.fi,0,Scraping is not allowed,training AI | is not allowed
+www.kymensanomat.fi,0,Scraping is not allowed,training AI | is not allowed
+www.lansi-savo.fi,0,Scraping is not allowed,training AI | is not allowed
+www.lansivayla.fi,0,Scraping is not allowed,training AI | is not allowed
+www.savonsanomat.fi,0,Scraping is not allowed,training AI | is not allowed
+www.sss.fi,0,Scraping is not allowed,training AI | is not allowed
+www.tamperelainen.fi,0,Scraping is not allowed,training AI | is not allowed
+www.ts.fi,0,Scraping is not allowed,training AI | is not allowed
+www.uusimaa.fi,0,Scraping is not allowed,training AI | is not allowed
+www.vantaansanomat.fi,0,Scraping is not allowed,training AI | is not allowed
+www.kaakonkulma.fi,0,Scraping is not allowed,training AI | is not allowed
+www.keskilaakso.fi,0,Scraping is not allowed,training AI | is not allowed
+www.lansi-uusimaa.fi,0,Scraping is not allowed,training AI | is not allowed
+www.lieksanlehti.fi,0,Scraping is not allowed,training AI | is not allowed
+www.pitajanuutiset.fi,0,Scraping is not allowed,training AI | is not allowed
+www.sipoonsanomat.fi,0,Scraping is not allowed,training AI | is not allowed
+www.uudenkaupunginsanomat.fi,0,Scraping is not allowed,training AI | is not allowed
+www.vihdinuutiset.fi,0,Scraping is not allowed,training AI | is not allowed
+www.ylakarjala.fi,0,Scraping is not allowed,training AI | is not allowed
+www.joutsenolehti.fi,0,Scraping is not allowed,training AI | is not allowed
+www.koillis-savo.fi,0,Scraping is not allowed,training AI | is not allowed
+www.pielavesi-keitele.fi,0,Scraping is not allowed,training AI | is not allowed
+www.pogostansanomat.fi,0,Scraping is not allowed,training AI | is not allowed
+www.pitajalainen.fi,0,Scraping is not allowed,training AI | is not allowed
+www.puruvesi.net,0,Scraping is not allowed,training AI | is not allowed
+www.prsanomat.fi,0,Scraping is not allowed,training AI | is not allowed
+www.soisalonseutu.fi,0,Scraping is not allowed,training AI | is not allowed
+www.uutis-jousi.fi,0,Scraping is not allowed,training AI | is not allowed
+www.heinavedenlehti.fi,0,Scraping is not allowed,training AI | is not allowed
+www.kaarina-lehti.fi,0,Scraping is not allowed,training AI | is not allowed
+www.kuntsari.fi,0,Scraping is not allowed,training AI | is not allowed
+www.lappeenrannanuutiset.fi,0,Scraping is not allowed,training AI | is not allowed
+www.laukaa-konnevesi.fi,0,Scraping is not allowed,training AI | is not allowed
+www.somerolehti.fi,0,Scraping is not allowed,training AI | is not allowed
+www.viitasaarenseutu.fi,0,Scraping is not allowed,training AI | is not allowed
+www.courrier-picard.fr,0,Not allowed bots,
+www.lavoixdunord.fr,0,Not allowed bots,
+www.letelegramme.fr,0,Forbidden bots,
+www.aisnenouvelle.fr,0,Not allowed bots,
+www.lemessager.fr,0,Not allowed bots,
+www.lest-eclair.fr,0,Not allowed bots,
+www.nordlittoral.fr,0,Not allowed bots,
+www.valeursactuelles.com,0,interdite a ce seul robot,
+lepaysgessien.lemessager.fr,0,Not allowed bots,
+www.independent.ie,1,is not to be used for the purposes of text and data mining,Article 4 | reserved
+www.thesun.ie,1,robots·txt file for thesun·ie The Irish Sun does not permit,large language | does not permit
+www.crimeworld.com,1,is not to be used for the purposes of text and data mining,Article 4 | reserved
+corrieredelveneto.corriere.it,0,prohibits crawling,
+www.corriere.it,0,prohibits crawling,
+www.contacto.lu,1,is not to be used for the purposes of text and data mining,Article 4 | reserved
+db.lv,0,crawlers are not permitted,AI | are not permitted
+diena.lv,0,crawlers are not permitted,AI | are not permitted
+www.virgule.lu,1,is not to be used for the purposes of text and data mining,Article 4 | reserved
+www.wort.lu,1,is not to be used for the purposes of text and data mining,Article 4 | reserved
+fd.nl,0,Prohibited uses include but are not limited to: (1) text and data mining,AI | OPT-OUT
+www.dvhn.nl,1,is not to be used for the purposes of text and data mining,Article 4 | reserved
+www.gooieneemlander.nl,1,is not to be used for the purposes of text and data mining,Article 4 | reserved
+www.haarlemsdagblad.nl,1,is not to be used for the purposes of text and data mining,Article 4 | reserved
+www.leidschdagblad.nl,1,is not to be used for the purposes of text and data mining,Article 4 | reserved
+www.lc.nl,1,is not to be used for the purposes of text and data mining,Article 4 | reserved
+www.limburger.nl,1,is not to be used for the purposes of text and data mining,Article 4 | reserved
+www.noordhollandsdagblad.nl,1,is not to be used for the purposes of text and data mining,Article 4 | reserved
+www.nrc.nl,1,is not to be used for the purposes of text and data mining,Article 4 | reserved
+www.telegraaf.nl,1,is not to be used for the purposes of text and data mining,Article 4 | reserved
+www.flevopost.nl,1,is not to be used for the purposes of text and data mining,Article 4 | reserved
+www.ijmuidercourant.nl,1,is not to be used for the purposes of text and data mining,Article 4 | reserved
+www.steenwijkercourant.nl,1,is not to be used for the purposes of text and data mining,Article 4 | reserved
+www.frieschdagblad.nl,1,is not to be used for the purposes of text and data mining,Article 4 | reserved
+www.aftonbladet.se,1,crawler block Aftonbladet does not permit,AI | does not permit
+www.svd.se,1,crawler block Svenska Dagbladet does not permit,AI | does not permit

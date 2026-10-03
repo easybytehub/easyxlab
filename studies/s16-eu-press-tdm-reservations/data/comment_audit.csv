@@ -1,0 +1,101 @@
+host,stratum,nl_reservation,nl_prohibition,v2_reservation,v2_prohibition,label_reservation,label_prohibition,label_note
+bnn.de,flagged,1,1,1,1,1,1,TDM reserved (s. 44b UrhG); any automated access prohibited
+diena.lv,flagged,1,1,1,1,1,0,AI training crawlers not permitted; purpose-specific
+taz.de,flagged,1,0,1,1,1,1,TDM reserved; use of robots prohibited
+www.aachener-zeitung.de,flagged,1,0,1,1,1,1,"group text: Art. 4 CDSM; no TDM, scraping or programs/robots for automatic collection"
+www.aamuposti.fi,flagged,1,1,1,1,1,0,group text: scraping not allowed for training AI; purpose-specific
+www.bblat.se,flagged,1,1,1,1,1,1,group text: TDM reserved (Art. 4); scraping not authorised prohibited
+www.blick-aktuell.de,flagged,1,0,1,1,1,1,TDM reserved; use of robots prohibited
+www.dagensmedia.se,flagged,1,1,1,1,1,1,group text as bblat.se
+www.di.se,flagged,1,1,1,1,1,1,group text as bblat.se
+www.dnn.de,flagged,1,0,1,1,1,1,TDM reserved; use of robots prohibited
+www.dvhn.nl,flagged,1,0,1,1,1,1,group text as aachener-zeitung.de
+www.esaimaa.fi,flagged,1,1,1,1,1,0,group text as aamuposti.fi
+www.ess.fi,flagged,1,1,1,1,1,0,group text as aamuposti.fi
+www.furche.at,flagged,1,1,1,1,1,0,TDM (s. 42h(6) UrhG AT) not permitted for AI training; purpose-specific
+www.gd.se,flagged,1,1,1,1,1,1,group text as bblat.se
+www.gooieneemlander.nl,flagged,1,0,1,1,1,1,group text as aachener-zeitung.de
+www.hbl.fi,flagged,1,1,1,1,1,1,group text as bblat.se
+www.heinavedenlehti.fi,flagged,1,1,1,1,1,0,group text as aamuposti.fi
+www.hessenschau.de,flagged,1,1,1,1,1,0,TDM reserved (s. 44b(3) UrhG); automated collection for AI training prohibited; purpose-specific
+www.iisalmensanomat.fi,flagged,1,1,1,1,1,0,group text as aamuposti.fi
+www.kaarina-lehti.fi,flagged,1,1,1,1,1,0,group text as aamuposti.fi
+www.karjalainen.fi,flagged,1,1,1,1,1,0,group text as aamuposti.fi
+www.keskilaakso.fi,flagged,1,1,1,1,1,0,group text as aamuposti.fi
+www.kidsweek.nl,flagged,0,1,0,1,0,1,"group text: all rights reserved, no scraping or other automated collection; no TDM/AI term"
+www.kleinezeitung.at,flagged,1,1,1,1,1,0,group text as furche.at
+www.koillis-savo.fi,flagged,1,1,1,1,1,0,group text as aamuposti.fi
+www.kouvolansanomat.fi,flagged,1,1,1,1,1,0,group text as aamuposti.fi
+www.kreiszeitung.de,flagged,1,0,1,1,1,1,TDM reserved; use of robots prohibited
+www.ksml.fi,flagged,1,1,1,1,1,0,group text as aamuposti.fi
+www.kuntsari.fi,flagged,1,1,1,1,1,0,group text as aamuposti.fi
+www.kurier.de,flagged,1,1,1,1,1,1,TDM reserved; use of robots prohibited
+www.lansivayla.fi,flagged,1,1,1,1,1,0,group text as aamuposti.fi
+www.lavoixdunord.fr,flagged,0,1,0,1,0,0,section label 'Not allowed bots'
+www.leidschdagblad.nl,flagged,1,0,1,1,1,1,group text as aachener-zeitung.de
+www.lest-eclair.fr,flagged,0,1,0,1,0,0,section label 'Not allowed bots'
+www.maz-online.de,flagged,1,0,1,1,1,1,TDM reserved; use of robots prohibited
+www.milanotoday.it,flagged,1,1,1,1,1,1,automated data mining or scraping prohibited without permission; Art. 4 cited
+www.nextpit.de,flagged,1,1,1,1,1,0,TDM reserved; automated access by AI systems prohibited; purpose-specific
+www.nn.de,flagged,1,1,1,1,1,1,TDM reserved; use of robots prohibited
+www.nordbayern.de,flagged,1,1,1,1,1,1,as nn.de
+www.noz.de,flagged,1,0,1,1,1,1,TDM reserved; use of robots prohibited
+www.nu.nl,flagged,0,1,0,1,0,1,group text as kidsweek.nl
+www.nw.de,flagged,1,1,1,1,1,1,TDM reserved (s. 44b UrhG); crawling bots and scrapers prohibited
+www.parool.nl,flagged,0,1,0,1,0,1,group text as kidsweek.nl
+www.rd.nl,flagged,1,0,1,0,1,1,"scraping, harvesting, text/data mining, ML and AI uses prohibited"
+www.saechsische.de,flagged,1,0,1,1,1,1,TDM reserved; use of robots prohibited
+www.savonsanomat.fi,flagged,1,1,1,1,1,0,group text as aamuposti.fi
+www.skd.se,flagged,1,1,1,1,1,1,group text as bblat.se
+www.skovdenyheter.se,flagged,1,1,1,1,1,1,group text as bblat.se
+www.sn.at,flagged,1,1,1,1,1,0,group text as furche.at
+www.sss.fi,flagged,1,1,1,1,1,0,group text as aamuposti.fi
+www.standaard.be,flagged,1,0,1,1,1,1,group text as aachener-zeitung.de
+www.sydsvenskan.se,flagged,1,1,1,1,1,1,group text as bblat.se
+www.tagesspiegel.de,flagged,1,0,1,1,1,1,TDM reserved; use of robots prohibited
+www.tt.com,flagged,1,1,1,1,1,1,"any automated extraction ('scraping') prohibited, incl. for ML/AI"
+www.uudenkaupunginsanomat.fi,flagged,1,1,1,1,1,0,group text as aamuposti.fi
+www.uusimaa.fi,flagged,1,1,1,1,1,0,group text as aamuposti.fi
+www.virgule.lu,flagged,1,0,1,1,1,1,group text as aachener-zeitung.de
+www.volkskrant.nl,flagged,0,1,0,1,0,1,group text as kidsweek.nl
+www.wort.lu,flagged,1,0,1,1,1,1,group text as aachener-zeitung.de
+amtsavisen.dk,unflagged,0,0,0,0,0,0,
+basta.media,unflagged,0,0,0,0,0,0,
+dennikn.sk,unflagged,0,0,0,0,0,0,
+echodnia.eu,unflagged,0,0,0,0,0,0,
+elcierredigital.com,unflagged,0,0,0,0,0,0,
+femina.hu,unflagged,0,0,0,0,0,0,
+jv.dk,unflagged,0,0,0,0,0,0,
+lauttakyla.fi,unflagged,0,0,0,0,0,0,
+le-crestois.fr,unflagged,0,0,0,0,0,0,
+onswestfriesland.nl,unflagged,0,0,0,0,0,0,
+www.aftonbladet.se,unflagged,0,0,1,1,1,0,does not permit unlicensed use for training LLMs; explicitly disallows TDM
+www.altalex.com,unflagged,0,0,0,0,0,0,
+www.arbetsvarlden.se,unflagged,0,0,0,0,0,0,
+www.archiletras.com,unflagged,0,0,0,0,0,0,
+www.berliner-zeitung.de,unflagged,0,0,0,0,0,0,
+www.capital.bg,unflagged,0,0,0,0,0,0,
+www.capital.fr,unflagged,0,0,0,0,0,0,
+www.computerworld.pl,unflagged,0,0,0,0,0,0,
+www.csr.dk,unflagged,0,0,0,0,0,0,
+www.dagens.dk,unflagged,0,0,0,0,0,0,
+www.diariodeavila.es,unflagged,0,0,0,0,0,0,
+www.femmeactuelle.fr,unflagged,0,0,0,0,0,0,
+www.franc-tireur.fr,unflagged,0,0,0,0,0,0,
+www.hallandsposten.se,unflagged,0,0,0,0,0,0,
+www.hln.be,unflagged,0,0,0,1,0,1,group text: no scraping or other automated collection (longer sentence than kidsweek.nl)
+www.lesportiudecatalunya.cat,unflagged,0,0,0,0,0,0,
+www.limerickleader.ie,unflagged,0,0,0,0,0,0,
+www.longfordleader.ie,unflagged,0,0,0,0,0,0,
+www.m3.se,unflagged,0,0,0,0,0,0,
+www.riseproject.ro,unflagged,0,0,0,0,0,0,
+www.rundschau.at,unflagged,0,0,0,0,0,0,
+www.saarbruecker-zeitung.de,unflagged,0,0,0,0,0,0,
+www.schlager.de,unflagged,0,0,0,0,0,0,
+www.streetpress.com,unflagged,0,0,0,0,0,0,
+www.svd.se,unflagged,0,0,1,1,1,0,as aftonbladet.se
+www.tecnoandroid.it,unflagged,0,0,0,0,0,0,
+www.thetoc.gr,unflagged,0,0,0,0,0,0,
+www.vaasainsider.fi,unflagged,0,0,0,0,0,0,
+www.version2.dk,unflagged,0,0,0,0,0,0,
+www.voruta.lt,unflagged,0,0,0,0,0,0,

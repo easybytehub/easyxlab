@@ -1,0 +1,87 @@
+{
+ "requests": 6255,
+ "hosts_contacted": 1548,
+ "first_request_not_robots": 1,
+ "first_request_not_robots_hosts": [
+  "sso.worldoftulo.com"
+ ],
+ "requests_to_those_hosts": 7,
+ "nl_prohibition_hosts": 154,
+ "requests_beyond_robots_to_nl_hosts": 314,
+ "requests_beyond_robots_to_nl_hosts_by_deviation": {
+  "D2": 239,
+  "D4": 3,
+  "D7": 72
+ },
+ "status_removed_lines": 320,
+ "breach_requests_by_deviation": {
+  "D1 (before that host's robots.txt)": 7,
+  "D2": 245,
+  "D4": 3,
+  "D7": 72
+ },
+ "max_requests_one_host": 10,
+ "status_counts": {
+  "2xx": 3108,
+  "4xx": 2588,
+  "3xx": 213,
+  "": 320,
+  "5xx": 15,
+  "timeout": 10,
+  "URLError:SSLCertVerificationError": 1
+ },
+ "deviation_d2": {
+  "n_hosts": 92,
+  "requests_beyond_robots_to_them": 245,
+  "note": "TDMRep file, home page and llms.txt requests made under detector v1 to hosts that detector v2 finds to prohibit automated access in robots.txt comments; their data were deleted and not used."
+ },
+ "deviation_d4": {
+  "hosts": [
+   "actu.fr"
+  ],
+  "requests_beyond_robots": 3,
+  "note": "read in the scan although robots.txt comments prohibit automated access (missed by detectors v1 and v2: list-style notice); data deleted, response status removed from the log."
+ },
+ "deviation_d5": {
+  "n_hosts": 98,
+  "first_check_utc": "2026-10-03T11:55:54+00:00",
+  "last_check_utc": "2026-10-03T11:56:15+00:00",
+  "robots_states": {
+   "ok": 98
+  },
+  "note": "targeted re-scan (frozen fetch rules: robots.txt first, 1 request/s/host) of the hosts that detector v3 no longer flags as a general prohibition"
+ },
+ "deviation_d7": {
+  "hosts": [
+   "fd.nl",
+   "www.aachener-zeitung.de",
+   "www.contacto.lu",
+   "www.crimeworld.com",
+   "www.dvhn.nl",
+   "www.flevopost.nl",
+   "www.frieschdagblad.nl",
+   "www.gooieneemlander.nl",
+   "www.gva.be",
+   "www.haarlemsdagblad.nl",
+   "www.hbvl.be",
+   "www.ijmuidercourant.nl",
+   "www.independent.ie",
+   "www.lc.nl",
+   "www.leidschdagblad.nl",
+   "www.limburger.nl",
+   "www.nieuwsblad.be",
+   "www.noordhollandsdagblad.nl",
+   "www.nrc.nl",
+   "www.standaard.be",
+   "www.steenwijkercourant.nl",
+   "www.telegraaf.nl",
+   "www.virgule.lu",
+   "www.wort.lu"
+  ],
+  "n_hosts": 24,
+  "requests_in_rescan": 96,
+  "requests_beyond_robots": 72,
+  "note": "read in the D5 re-scan although their robots.txt comments prohibit automated collection (general prohibition with an open clause); the study's instructions classed the notice as purpose-specific; data deleted, response status removed from the log, URL and time kept."
+ },
+ "note": "'requests_beyond_robots_to_nl_hosts' counts, by URL and time, every request beyond robots.txt to a host that is robots-only in the final records (detector v4), including those whose response status was removed; each is a breach of the study's access rule, declared as D2, D4 or D7."
+}

@@ -1,0 +1,22 @@
+{
+ "auditor": "independent AI re-reviewer (EasyxLab review role), 2026-10-03",
+ "detector": "v3",
+ "sample": "seed 4242 over 617 frame hosts with comment blocks, excluding the author's sample, the D5 change list and hosts named in the first review: 15 of 100 v3 prohibition flags, 3 reservation-only flags, 25 of 514 unflagged; 43 hosts",
+ "prohibition": {
+  "precision_k": 15,
+  "precision_n": 15,
+  "recall_sample_k": 15,
+  "recall_sample_n": 15,
+  "recall_overall_k": 130,
+  "recall_overall_n": 154,
+  "note": "the 24 misses are the D7 hosts (purpose words in a ban that ends 'or otherwise' / an open list); fixed in v4"
+ },
+ "reservation": {
+  "precision_k": 15,
+  "precision_n": 16,
+  "recall_k": 15,
+  "recall_n": 15,
+  "false_positive": "a heading over a per-agent group; fixed in v4"
+ },
+ "v4": "v4 changes exactly these two failure modes (RB1); no further audit is claimed for v4"
+}

@@ -1,0 +1,950 @@
+{
+ "frame_hosts": 1511,
+ "robots_obtained": 1510,
+ "robots_unreachable": 1,
+ "robots_states": {
+  "ok": 1267,
+  "nl_prohibition": 154,
+  "unavailable": 89,
+  "unreachable": 1
+ },
+ "fully_read": 1356,
+ "robots_only": 154,
+ "robots_only_deleted": {
+  "d7": 24,
+  "d2": 66,
+  "d4": 1
+ },
+ "rescanned_d5": 98,
+ "full": {
+  "classes": {
+   "agnostic_reservation": {
+    "k": 99,
+    "n": 1356,
+    "pct": 7.3,
+    "ci95": [
+     6.0,
+     8.8
+    ]
+   },
+   "named_bots_only": {
+    "k": 480,
+    "n": 1356,
+    "pct": 35.4,
+    "ci95": [
+     32.9,
+     38.0
+    ]
+   },
+   "comment_only": {
+    "k": 0,
+    "n": 1356,
+    "pct": 0.0,
+    "ci95": [
+     0.0,
+     0.3
+    ]
+   },
+   "none_stated": {
+    "k": 777,
+    "n": 1356,
+    "pct": 57.3,
+    "ci95": [
+     54.7,
+     59.9
+    ]
+   }
+  },
+  "named_any": {
+   "k": 558,
+   "n": 1356,
+   "pct": 41.2,
+   "ci95": [
+    38.6,
+    43.8
+   ]
+  },
+  "named_no_agnostic": {
+   "k": 480,
+   "n": 558,
+   "pct": 86.0,
+   "ci95": [
+    82.9,
+    88.7
+   ]
+  },
+  "tdmrep": {
+   "k": 71,
+   "n": 1356,
+   "pct": 5.2,
+   "ci95": [
+    4.2,
+    6.6
+   ]
+  },
+  "contradictions": {
+   "k": 2,
+   "n": 1356,
+   "pct": 0.1,
+   "ci95": [
+    0.0,
+    0.5
+   ]
+  },
+  "contradiction_hosts": [
+   "corrieredelveneto.corriere.it",
+   "www.corriere.it"
+  ]
+ },
+ "all": {
+  "classes": {
+   "agnostic_reservation": {
+    "k": 110,
+    "n": 1510,
+    "pct": 7.3,
+    "ci95": [
+     6.1,
+     8.7
+    ]
+   },
+   "named_bots_only": {
+    "k": 480,
+    "n": 1510,
+    "pct": 31.8,
+    "ci95": [
+     29.5,
+     34.2
+    ]
+   },
+   "comment_only": {
+    "k": 0,
+    "n": 1510,
+    "pct": 0.0,
+    "ci95": [
+     0.0,
+     0.3
+    ]
+   },
+   "none_stated": {
+    "k": 777,
+    "n": 1510,
+    "pct": 51.5,
+    "ci95": [
+     48.9,
+     54.0
+    ]
+   },
+   "named_bots_robots_only_partial": {
+    "k": 141,
+    "n": 1510,
+    "pct": 9.3,
+    "ci95": [
+     8.0,
+     10.9
+    ]
+   },
+   "comment_only_robots_only_partial": {
+    "k": 2,
+    "n": 1510,
+    "pct": 0.1,
+    "ci95": [
+     0.0,
+     0.5
+    ]
+   },
+   "none_stated_robots_only_partial": {
+    "k": 0,
+    "n": 1510,
+    "pct": 0.0,
+    "ci95": [
+     0.0,
+     0.3
+    ]
+   }
+  },
+  "agnostic_min": {
+   "k": 110,
+   "n": 1510,
+   "pct": 7.3,
+   "ci95": [
+    6.1,
+    8.7
+   ]
+  },
+  "named_any": {
+   "k": 699,
+   "n": 1510,
+   "pct": 46.3,
+   "ci95": [
+    43.8,
+    48.8
+   ]
+  },
+  "named_no_agnostic_max": {
+   "k": 621,
+   "n": 699,
+   "pct": 88.8,
+   "ci95": [
+    86.3,
+    91.0
+   ]
+  },
+  "named_only_max": {
+   "k": 621,
+   "n": 1510,
+   "pct": 41.1,
+   "ci95": [
+    38.7,
+    43.6
+   ]
+  },
+  "none_max": {
+   "k": 777,
+   "n": 1510,
+   "pct": 51.5,
+   "ci95": [
+    48.9,
+    54.0
+   ]
+  },
+  "tdmrep_min": {
+   "k": 71,
+   "n": 1510,
+   "pct": 4.7,
+   "ci95": [
+    3.7,
+    5.9
+   ]
+  }
+ },
+ "frozen_rule": {
+  "fully_read": 1282,
+  "agnostic": {
+   "k": 93,
+   "n": 1282,
+   "pct": 7.3,
+   "ci95": [
+    6.0,
+    8.8
+   ]
+  },
+  "named_any": {
+   "k": 486,
+   "n": 1282,
+   "pct": 37.9,
+   "ci95": [
+    35.3,
+    40.6
+   ]
+  },
+  "named_no_agnostic": {
+   "k": 413,
+   "n": 486,
+   "pct": 85.0,
+   "ci95": [
+    81.5,
+    87.9
+   ]
+  },
+  "tdmrep": {
+   "k": 66,
+   "n": 1282,
+   "pct": 5.1,
+   "ci95": [
+    4.1,
+    6.5
+   ]
+  },
+  "france_tdmrep": {
+   "k": 52,
+   "n": 183,
+   "pct": 28.4,
+   "ci95": [
+    22.4,
+    35.3
+   ]
+  },
+  "contradictions": 0
+ },
+ "contradictions_by_rule": {
+  "current_rule": 2,
+  "frozen_rule": 0
+ },
+ "full_home_not_observed": [
+  "www.suupohjanseutu.fi",
+  "www.lanouvellerepublique.fr",
+  "www.ouest-france.fr",
+  "www.protagon.gr",
+  "www.narodni-list.hr",
+  "litera.hu",
+  "www.thesun.ie",
+  "www.rv.lv",
+  "www.rd.nl",
+  "jornaldiabo.com",
+  "samnytt.se",
+  "www.finance.si"
+ ],
+ "agnostic_by_channel_full": {
+  "robots_star_disallow_root": {
+   "k": 11,
+   "n": 1356,
+   "pct": 0.8,
+   "ci95": [
+    0.5,
+    1.4
+   ]
+  },
+  "tdmrep_any_channel": {
+   "k": 71,
+   "n": 1356,
+   "pct": 5.2,
+   "ci95": [
+    4.2,
+    6.6
+   ]
+  },
+  "content_signal_ai_train_no": {
+   "k": 18,
+   "n": 1356,
+   "pct": 1.3,
+   "ci95": [
+    0.8,
+    2.1
+   ]
+  },
+  "content_usage_train_ai_n": {
+   "k": 0,
+   "n": 1356,
+   "pct": 0.0,
+   "ci95": [
+    0.0,
+    0.3
+   ]
+  }
+ },
+ "tdmrep": {
+  "any": 71,
+  "file": 13,
+  "header": 22,
+  "meta": 41,
+  "not_in_file": 58,
+  "with_policy": 57,
+  "file_states": {
+   "absent": 1258,
+   "soft404": 61,
+   "robots_disallowed": 17,
+   "not_fetched:timeout": 7,
+   "ok": 13
+  },
+  "by_country": {
+   "AT": 2,
+   "DE": 1,
+   "ES": 9,
+   "FR": 53,
+   "IT": 5,
+   "PL": 1
+  },
+  "france_full": {
+   "k": 53,
+   "n": 192,
+   "pct": 27.6,
+   "ci95": [
+    21.8,
+    34.3
+   ]
+  }
+ },
+ "content_signal": {
+  "any_line": 21,
+  "ai_train_no": 18,
+  "ai_train_yes": 3
+ },
+ "content_usage": {
+  "any_line": 17,
+  "train_ai_n_unnamed": 0,
+  "ai_n_vocab01": 17,
+  "header_any": 0
+ },
+ "sensitivity": {
+  "ai_n_as_training_full": {
+   "k": 116,
+   "n": 1356,
+   "pct": 8.6,
+   "ci95": [
+    7.2,
+    10.2
+   ]
+  },
+  "ai_n_as_training_all": {
+   "k": 127,
+   "n": 1510,
+   "pct": 8.4,
+   "ci95": [
+    7.1,
+    9.9
+   ]
+  },
+  "noai_full": {
+   "k": 105,
+   "n": 1356,
+   "pct": 7.7,
+   "ci95": [
+    6.4,
+    9.3
+   ]
+  },
+  "noai_hosts": 10
+ },
+ "comments": {
+  "statement_any": {
+   "k": 218,
+   "n": 1510,
+   "pct": 14.4,
+   "ci95": [
+    12.8,
+    16.3
+   ]
+  },
+  "reservation": 196,
+  "general_prohibition_flag": 154,
+  "full_statement": {
+   "k": 64,
+   "n": 1356,
+   "pct": 4.7,
+   "ci95": [
+    3.7,
+    6.0
+   ]
+  },
+  "full_statement_without_agnostic": 60,
+  "full_statement_and_named_only": 60,
+  "comment_only_class_full": 0
+ },
+ "llms_txt": {
+  "k": 120,
+  "n": 1339,
+  "pct": 9.0,
+  "ci95": [
+   7.5,
+   10.6
+  ]
+ },
+ "most_blocked_named": [
+  [
+   "GPTBot",
+   637
+  ],
+  [
+   "CCBot",
+   633
+  ],
+  [
+   "Bytespider",
+   538
+  ],
+  [
+   "anthropic-ai",
+   518
+  ],
+  [
+   "Google-Extended",
+   517
+  ],
+  [
+   "ClaudeBot",
+   510
+  ],
+  [
+   "ChatGPT-User",
+   489
+  ],
+  [
+   "PerplexityBot",
+   446
+  ]
+ ],
+ "headline4_all_four": 403,
+ "countries_with_frame": 27,
+ "country_full": {
+  "AT": {
+   "k": 2,
+   "n": 17,
+   "pct": 11.8,
+   "ci95": [
+    3.3,
+    34.3
+   ]
+  },
+  "BE": {
+   "k": 0,
+   "n": 26,
+   "pct": 0.0,
+   "ci95": [
+    0.0,
+    12.9
+   ]
+  },
+  "BG": {
+   "k": 2,
+   "n": 10,
+   "pct": 20.0,
+   "ci95": [
+    5.7,
+    51.0
+   ]
+  },
+  "CY": {
+   "k": 0,
+   "n": 4,
+   "pct": 0.0,
+   "ci95": [
+    0.0,
+    49.0
+   ]
+  },
+  "CZ": {
+   "k": 0,
+   "n": 36,
+   "pct": 0.0,
+   "ci95": [
+    0.0,
+    9.6
+   ]
+  },
+  "DE": {
+   "k": 1,
+   "n": 92,
+   "pct": 1.1,
+   "ci95": [
+    0.2,
+    5.9
+   ]
+  },
+  "DK": {
+   "k": 0,
+   "n": 65,
+   "pct": 0.0,
+   "ci95": [
+    0.0,
+    5.6
+   ]
+  },
+  "EE": {
+   "k": 0,
+   "n": 20,
+   "pct": 0.0,
+   "ci95": [
+    -0.0,
+    16.1
+   ]
+  },
+  "ES": {
+   "k": 9,
+   "n": 182,
+   "pct": 4.9,
+   "ci95": [
+    2.6,
+    9.1
+   ]
+  },
+  "FI": {
+   "k": 1,
+   "n": 143,
+   "pct": 0.7,
+   "ci95": [
+    0.1,
+    3.9
+   ]
+  },
+  "FR": {
+   "k": 55,
+   "n": 192,
+   "pct": 28.6,
+   "ci95": [
+    22.7,
+    35.4
+   ]
+  },
+  "GR": {
+   "k": 1,
+   "n": 52,
+   "pct": 1.9,
+   "ci95": [
+    0.3,
+    10.1
+   ]
+  },
+  "HR": {
+   "k": 1,
+   "n": 10,
+   "pct": 10.0,
+   "ci95": [
+    1.8,
+    40.4
+   ]
+  },
+  "HU": {
+   "k": 1,
+   "n": 52,
+   "pct": 1.9,
+   "ci95": [
+    0.3,
+    10.1
+   ]
+  },
+  "IE": {
+   "k": 1,
+   "n": 33,
+   "pct": 3.0,
+   "ci95": [
+    0.5,
+    15.3
+   ]
+  },
+  "IT": {
+   "k": 5,
+   "n": 114,
+   "pct": 4.4,
+   "ci95": [
+    1.9,
+    9.9
+   ]
+  },
+  "LT": {
+   "k": 0,
+   "n": 11,
+   "pct": 0.0,
+   "ci95": [
+    0.0,
+    25.9
+   ]
+  },
+  "LU": {
+   "k": 0,
+   "n": 9,
+   "pct": 0.0,
+   "ci95": [
+    0.0,
+    29.9
+   ]
+  },
+  "LV": {
+   "k": 1,
+   "n": 18,
+   "pct": 5.6,
+   "ci95": [
+    1.0,
+    25.8
+   ]
+  },
+  "MT": {
+   "k": 0,
+   "n": 1,
+   "pct": 0.0,
+   "ci95": [
+    0.0,
+    79.3
+   ]
+  },
+  "NL": {
+   "k": 2,
+   "n": 53,
+   "pct": 3.8,
+   "ci95": [
+    1.0,
+    12.8
+   ]
+  },
+  "PL": {
+   "k": 8,
+   "n": 31,
+   "pct": 25.8,
+   "ci95": [
+    13.7,
+    43.2
+   ]
+  },
+  "PT": {
+   "k": 1,
+   "n": 29,
+   "pct": 3.4,
+   "ci95": [
+    0.6,
+    17.2
+   ]
+  },
+  "RO": {
+   "k": 1,
+   "n": 54,
+   "pct": 1.9,
+   "ci95": [
+    0.3,
+    9.8
+   ]
+  },
+  "SE": {
+   "k": 3,
+   "n": 77,
+   "pct": 3.9,
+   "ci95": [
+    1.3,
+    10.8
+   ]
+  },
+  "SI": {
+   "k": 1,
+   "n": 13,
+   "pct": 7.7,
+   "ci95": [
+    1.4,
+    33.3
+   ]
+  },
+  "SK": {
+   "k": 3,
+   "n": 12,
+   "pct": 25.0,
+   "ci95": [
+    8.9,
+    53.2
+   ]
+  }
+ },
+ "bands": {
+  "large (n>=100)": {
+   "countries": 6,
+   "frame": 908,
+   "robots_obtained": 907,
+   "fully_read": 800,
+   "named_ai_any": 467,
+   "tdmrep": 68,
+   "agnostic_reservation": 74,
+   "named_bots_only": 311,
+   "comment_only": 0,
+   "none_stated": 415,
+   "agnostic_full": {
+    "k": 74,
+    "n": 800,
+    "pct": 9.2,
+    "ci95": [
+     7.4,
+     11.5
+    ]
+   }
+  },
+  "medium (30-99)": {
+   "countries": 10,
+   "frame": 472,
+   "robots_obtained": 472,
+   "fully_read": 431,
+   "named_ai_any": 189,
+   "tdmrep": 1,
+   "agnostic_reservation": 15,
+   "named_bots_only": 138,
+   "comment_only": 0,
+   "none_stated": 278,
+   "agnostic_full": {
+    "k": 15,
+    "n": 431,
+    "pct": 3.5,
+    "ci95": [
+     2.1,
+     5.7
+    ]
+   }
+  },
+  "small (n<30)": {
+   "countries": 11,
+   "frame": 131,
+   "robots_obtained": 131,
+   "fully_read": 125,
+   "named_ai_any": 43,
+   "tdmrep": 2,
+   "agnostic_reservation": 10,
+   "named_bots_only": 31,
+   "comment_only": 0,
+   "none_stated": 84,
+   "agnostic_full": {
+    "k": 10,
+    "n": 125,
+    "pct": 8.0,
+    "ci95": [
+     4.4,
+     14.1
+    ]
+   }
+  }
+ },
+ "by_crux_bucket": {
+  "1000": {
+   "n": 699,
+   "named_ai_any": {
+    "k": 407,
+    "n": 699,
+    "pct": 58.2,
+    "ci95": [
+     54.5,
+     61.8
+    ]
+   },
+   "agnostic_full": {
+    "k": 55,
+    "n": 600,
+    "pct": 9.2,
+    "ci95": [
+     7.1,
+     11.7
+    ]
+   }
+  },
+  "5000": {
+   "n": 295,
+   "named_ai_any": {
+    "k": 140,
+    "n": 295,
+    "pct": 47.5,
+    "ci95": [
+     41.8,
+     53.2
+    ]
+   },
+   "agnostic_full": {
+    "k": 14,
+    "n": 262,
+    "pct": 5.3,
+    "ci95": [
+     3.2,
+     8.8
+    ]
+   }
+  },
+  "10000": {
+   "n": 119,
+   "named_ai_any": {
+    "k": 53,
+    "n": 119,
+    "pct": 44.5,
+    "ci95": [
+     35.9,
+     53.5
+    ]
+   },
+   "agnostic_full": {
+    "k": 5,
+    "n": 108,
+    "pct": 4.6,
+    "ci95": [
+     2.0,
+     10.4
+    ]
+   }
+  },
+  "50000": {
+   "n": 287,
+   "named_ai_any": {
+    "k": 78,
+    "n": 287,
+    "pct": 27.2,
+    "ci95": [
+     22.4,
+     32.6
+    ]
+   },
+   "agnostic_full": {
+    "k": 22,
+    "n": 277,
+    "pct": 7.9,
+    "ci95": [
+     5.3,
+     11.7
+    ]
+   }
+  },
+  "100000": {
+   "n": 110,
+   "named_ai_any": {
+    "k": 21,
+    "n": 110,
+    "pct": 19.1,
+    "ci95": [
+     12.8,
+     27.4
+    ]
+   },
+   "agnostic_full": {
+    "k": 3,
+    "n": 109,
+    "pct": 2.8,
+    "ci95": [
+     0.9,
+     7.8
+    ]
+   }
+  }
+ },
+ "comment_audit_summary": {
+  "v1_reservation": {
+   "flagged": 54,
+   "tp": 54,
+   "misses_flagged_stratum": 0,
+   "misses_unflagged": 2,
+   "unflagged": 40
+  },
+  "v1_prohibition": {
+   "flagged": 44,
+   "tp": 19,
+   "misses_flagged_stratum": 16,
+   "misses_unflagged": 1,
+   "unflagged": 40
+  },
+  "v2_reservation": {
+   "flagged": 56,
+   "tp": 56,
+   "misses_flagged_stratum": 0,
+   "misses_unflagged": 0,
+   "unflagged": 40
+  },
+  "v2_prohibition": {
+   "flagged": 62,
+   "tp": 35,
+   "misses_flagged_stratum": 1,
+   "misses_unflagged": 0,
+   "unflagged": 40
+  },
+  "note": "author's audit of v1/v2 (AI agent labels); v2 was revised after reading this sample, so its figures are optimistic. Independent audits: v1/v2 seed 777 (data/independent_audit_v2.json), v3 seed 4242 (data/independent_audit_v3.json). v4 changes only the re-review's two failure modes; no audit claimed.",
+  "population": {
+   "flagged_v1": 215,
+   "unflagged_with_comments_v1": 578,
+   "seed": 20261003
+  }
+ },
+ "deviation_d2": {
+  "n_hosts": 92,
+  "requests_beyond_robots_to_them": 245,
+  "note": "TDMRep file, home page and llms.txt requests made under detector v1 to hosts that detector v2 finds to prohibit automated access in robots.txt comments; their data were deleted and not used."
+ },
+ "deviation_d4": {
+  "hosts": [
+   "actu.fr"
+  ],
+  "evidence": {
+   "actu.fr": "interdit : d'utiliser tout système logiciel automatisé"
+  },
+  "requests_beyond_robots": 3,
+  "note": "read in the scan although robots.txt comments prohibit automated access (missed by detectors v1 and v2: list-style notice); data deleted, response status removed from the log."
+ },
+ "deviation_d5": {
+  "n_hosts": 98,
+  "first_check_utc": "2026-10-03T11:55:54+00:00",
+  "last_check_utc": "2026-10-03T11:56:15+00:00",
+  "robots_states": {
+   "ok": 98
+  },
+  "note": "targeted re-scan (frozen fetch rules: robots.txt first, 1 request/s/host) of the hosts that detector v3 no longer flags as a general prohibition",
+  "first_request_utc": "2026-10-03T11:55:54+00:00",
+  "last_request_utc": "2026-10-03T11:56:18+00:00",
+  "extra_host_robots_only": "login.mediahuis.com (robots.txt only, a redirect target of www.gva.be)",
+  "rule_change": "D5 changed, after collection, which comment texts count as a general prohibition (coordinator's decision); the fetch mechanics were unchanged",
+  "later_correction": "D7: 24 of the 98 (23 Mediahuis, fd.nl) carry a general prohibition; their data were deleted"
+ }
+}

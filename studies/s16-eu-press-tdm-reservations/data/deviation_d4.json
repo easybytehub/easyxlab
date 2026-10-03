@@ -1,0 +1,15 @@
+{
+ "hosts": [
+  "actu.fr"
+ ],
+ "evidence": {
+  "actu.fr": "interdit : d'utiliser tout système logiciel automatisé"
+ },
+ "requests_beyond_robots": 3,
+ "request_times_utc": [
+  "2026-10-03T11:21:13+00:00",
+  "2026-10-03T11:21:14+00:00",
+  "2026-10-03T11:21:15+00:00"
+ ],
+ "note": "read in the scan although robots.txt comments prohibit automated access (missed by detectors v1 and v2: list-style notice); data deleted, response status removed from the log."
+}

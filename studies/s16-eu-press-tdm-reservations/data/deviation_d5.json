@@ -1,0 +1,14 @@
+{
+ "n_hosts": 98,
+ "first_check_utc": "2026-10-03T11:55:54+00:00",
+ "last_check_utc": "2026-10-03T11:56:15+00:00",
+ "robots_states": {
+  "ok": 98
+ },
+ "note": "targeted re-scan (frozen fetch rules: robots.txt first, 1 request/s/host) of the hosts that detector v3 no longer flags as a general prohibition",
+ "first_request_utc": "2026-10-03T11:55:54+00:00",
+ "last_request_utc": "2026-10-03T11:56:18+00:00",
+ "extra_host_robots_only": "login.mediahuis.com (robots.txt only, a redirect target of www.gva.be)",
+ "rule_change": "D5 changed, after collection, which comment texts count as a general prohibition (coordinator's decision); the fetch mechanics were unchanged",
+ "later_correction": "D7: 24 of the 98 (23 Mediahuis, fd.nl) carry a general prohibition; their data were deleted"
+}

@@ -1,0 +1,1512 @@
+host,country,wikidata,label,sitelinks,crux_rank_bucket,website
+kurier.at,AT,Q360136,,11,1000,http://kurier.at
+orf.at,AT,Q22284861,ORF.at,0,1000,https://orf.at/
+www.5min.at,AT,Q99395831,,1,1000,https://www.5min.at
+www.derstandard.at,AT,Q128660,Der Standard,25,1000,https://www.derstandard.at/
+www.diepresse.com,AT,Q689934,Die Presse,23,1000,http://diepresse.com
+www.falter.at,AT,Q1394979,Falter,8,1000,http://www.falter.at/
+www.kleinezeitung.at,AT,Q695301,Kleine Zeitung,13,1000,https://www.kleinezeitung.at/
+www.krone.at,AT,Q644103,Kronen Zeitung,20,1000,https://krone.at/
+www.oe24.at,AT,Q298667,Österreich,9,1000,http://www.oe24.at/
+www.profil.at,AT,Q290802,Profil,7,1000,http://www.profil.at/
+www.sn.at,AT,Q2215996,Salzburger Nachrichten,7,1000,https://www.sn.at
+www.tt.com,AT,Q2436295,Tiroler Tageszeitung,4,1000,https://www.tt.com/
+www.furche.at,AT,Q1212798,Die Furche,4,10000,http://www.furche.at/
+www.wienerzeitung.at,AT,Q697173,Wiener Zeitung,22,10000,https://www.wienerzeitung.at/
+www.nmsa.at,AT,Q140835935,,0,50000,https://www.nmsa.at
+www.rundschau-medien.at,AT,Q29269677,,1,50000,http://www.rundschau-medien.at/
+www.rundschau.at,AT,Q125133125,,1,50000,https://www.rundschau.at/
+augustin.or.at,AT,Q767559,Augustin,1,100000,http://www.augustin.or.at/
+www.regionalmedien.at,AT,Q15841984,Regional Medien Austria,2,100000,http://www.regionalmedien.at
+kw.be,BE,Q2103691,De Krant van West-Vlaanderen,2,1000,https://kw.be/
+www.bruzz.be,BE,Q110494976,,0,1000,https://www.bruzz.be/
+www.demorgen.be,BE,Q1180166,De Morgen,17,1000,https://www.demorgen.be/
+www.dhnet.be,BE,Q3208220,La Dernière Heure,10,1000,http://www.dhnet.be/
+www.gva.be,BE,Q2467329,Gazet van Antwerpen,7,1000,https://www.gva.be/
+www.hbvl.be,BE,Q2230982,Het Belang van Limburg,7,1000,https://www.hbvl.be/
+www.hln.be,BE,Q1457499,Het Laatste Nieuws,12,1000,http://www.hln.be
+www.jobat.be,BE,Q1809743,Jobat,1,1000,https://www.jobat.be
+www.lalibre.be,BE,Q1798898,La Libre Belgique,13,1000,http://www.lalibre.be/
+www.lavenir.net,BE,Q2491106,L'Avenir,6,1000,http://www.lavenir.net/
+www.lecho.be,BE,Q3205137,L'Écho,11,1000,http://www.lecho.be/
+www.lesoir.be,BE,Q690672,Le Soir,24,1000,http://lesoir.be
+www.nieuwsblad.be,BE,Q12467,Het Nieuwsblad,10,1000,https://www.nieuwsblad.be
+www.rtbf.be,BE,Q125473529,RTBF Actus,0,1000,https://www.rtbf.be/
+www.standaard.be,BE,Q1180325,De Standaard,21,1000,http://www.standaard.be
+www.sudinfo.be,BE,Q67149067,,0,1000,https://www.sudinfo.be/
+belegger.tijd.be,BE,Q135900735,,0,5000,https://belegger.tijd.be/
+www.brusselstimes.com,BE,Q25226673,The Brussels Times,5,5000,http://www.brusselstimes.com/
+www.dansendeberen.be,BE,Q124830633,Dansende Beren,0,5000,https://www.dansendeberen.be/
+www.moustique.be,BE,Q3326405,Moustique,6,5000,https://www.moustique.be/
+www.polderke.com,BE,Q136502754,De Polder,0,5000,https://www.polderke.com/
+www.politico.eu,BE,Q991826,Politico Europe,16,5000,https://www.politico.eu
+apache.be,BE,Q29561664,Apache.be,3,10000,http://apache.be
+investisseur.lecho.be,BE,Q135898815,L'Investisseur,0,10000,https://investisseur.lecho.be/
+www.21news.be,BE,Q139505719,21News,2,10000,https://www.21news.be/
+www.euractiv.com,BE,Q1310000,Rapporteur,13,50000,https://www.euractiv.com
+www.lejde.be,BE,Q3223758,Le Journal des enfants,1,50000,https://www.lejde.be
+www.veto.be,BE,Q2215184,Veto,1,50000,https://www.veto.be/
+euobserver.com,BE,Q507198,EUobserver,11,100000,https://euobserver.com/
+www.contexte.com,BE,Q61825507,Contexte,1,100000,http://contexte.com/
+www.dewitteraaf.be,BE,Q52556433,De Witte Raaf,0,100000,https://www.dewitteraaf.be
+www.randkrant.be,BE,Q117421367,RandKrant,0,100000,https://www.randkrant.be/
+duma.bg,BG,Q12279201,Duma,2,1000,https://duma.bg
+trud.bg,BG,Q1232958,Trud,11,1000,http://www.trud.bg
+www.24chasa.bg,BG,Q217309,24 Chasa,6,1000,http://www.24chasa.bg
+www.capital.bg,BG,Q1034634,Capital,4,1000,http://www.capital.bg
+www.dnevnik.bg,BG,Q717721,Dnevnik,6,1000,http://www.dnevnik.bg/
+www.plovdiv24.bg,BG,Q140312694,Plovdiv24.bg,1,1000,https://www.plovdiv24.bg
+www.standartnews.com,BG,Q951167,Standart,7,1000,http://www.standartnews.com/
+litvestnik.com,BG,Q2650623,,2,50000,https://litvestnik.com/
+starshel.bg,BG,Q18932478,Starshel (newspaper),4,50000,http://www.starshel.bg/
+toppresa.bg,BG,Q56071721,,0,100000,http://toppresa.bg
+www.kathimerini.com.cy,CY,Q38908081,Kathimerini,1,1000,http://www.kathimerini.com.cy
+www.politis.com.cy,CY,Q3395244,Politis,5,1000,http://www.politis.com.cy/
+www.sigmalive.com,CY,Q7478408,Sigma TV,4,1000,http://www.sigmalive.com
+phileleftherosgroup.com,CY,Q3378896,Phileleftheros,6,50000,https://phileleftherosgroup.com/
+brnensky.denik.cz,CZ,Q11343659,,3,1000,https://brnensky.denik.cz
+budejcka.drbna.cz,CZ,Q96694936,,0,1000,https://budejcka.drbna.cz/
+ct24.ceskatelevize.cz,CZ,Q3593801,ČT24,17,1000,https://ct24.ceskatelevize.cz
+denikn.cz,CZ,Q56663058,Deník N,5,1000,https://denikn.cz/
+hn.cz,CZ,Q623157,Hospodářské noviny,10,1000,https://hn.cz
+isport.blesk.cz,CZ,Q11157907,Sport,3,1000,https://isport.blesk.cz
+neviditelnypes.lidovky.cz,CZ,Q12040837,,1,1000,https://neviditelnypes.lidovky.cz/
+olomoucky.denik.cz,CZ,Q65348458,,0,1000,https://olomoucky.denik.cz/
+www.ahaonline.cz,CZ,Q399747,Aha!,4,1000,http://www.ahaonline.cz/
+www.aktualne.cz,CZ,Q10728976,Aktuálně.cz,3,1000,https://www.aktualne.cz/
+www.blesk.cz,CZ,Q883880,Blesk,6,1000,http://www.blesk.cz
+www.ceskenoviny.cz,CZ,Q92902305,České noviny,1,1000,https://www.ceskenoviny.cz
+www.denik.cz,CZ,Q11157847,Deník.cz,5,1000,https://www.denik.cz/
+www.e15.cz,CZ,Q11865035,e15,3,1000,http://www.e15.cz/
+www.echo24.cz,CZ,Q17395695,Echo24,3,1000,https://echo24.cz/
+www.idnes.cz,CZ,Q12021344,iDNES.cz,7,1000,https://www.idnes.cz
+www.irozhlas.cz,CZ,Q76591659,iRozhlas,2,1000,https://www.irozhlas.cz
+www.lidovky.cz,CZ,Q82511285,lidovky.cz,2,1000,http://www.lidovky.cz
+www.novinky.cz,CZ,Q7064916,novinky.cz,4,1000,http://novinky.cz
+www.seznamzpravy.cz,CZ,Q54913063,Seznam Zprávy,3,1000,https://www.seznamzpravy.cz/
+berounsky.denik.cz,CZ,Q135443737,,0,5000,https://berounsky.denik.cz/
+denikalarm.cz,CZ,Q113516715,Deník Alarm,1,5000,https://denikalarm.cz
+kladensky.denik.cz,CZ,Q134368387,,0,5000,https://kladensky.denik.cz/
+mostecky.denik.cz,CZ,Q107599064,,0,5000,https://mostecky.denik.cz/
+pardubicky.denik.cz,CZ,Q115913196,,0,5000,https://pardubicky.denik.cz/
+slovacky.denik.cz,CZ,Q12054893,,1,5000,http://slovacky.denik.cz/
+www.hrot24.cz,CZ,Q96387545,,1,5000,https://www.hrot24.cz
+www.mediaguru.cz,CZ,Q20936620,Mediaguru,2,5000,https://www.mediaguru.cz/
+www.plzen.cz,CZ,Q138637290,,0,5000,https://www.plzen.cz
+www.euro.cz,CZ,Q23929349,euro.cz,2,10000,https://www.euro.cz/
+www.mfdnes.cz,CZ,Q1191165,Mladá fronta DNES,9,10000,http://www.mfdnes.cz
+denikreferendum.cz,CZ,Q11157893,Deník Referendum,1,50000,https://denikreferendum.cz/
+mestemnakole.cz,CZ,Q108293955,City by Bike,1,50000,https://mestemnakole.cz/
+zak.tv,CZ,Q138637938,,0,50000,https://www.zak.tv
+www.nasepravda.cz,CZ,Q134606154,Naše pravda,0,100000,https://www.nasepravda.cz
+www.regionopavsko.cz,CZ,Q107413636,Region Opavsko,0,100000,http://www.regionopavsko.cz/
+bnn.de,DE,Q799092,Badische Neueste Nachrichten,3,1000,https://www.bnn.de/
+taz.de,DE,Q161423,Die Tageszeitung,32,1000,https://taz.de/
+www.4p.de,DE,Q238171,4P,12,1000,https://www.4p.de
+www.aachener-zeitung.de,DE,Q300766,Aachener Zeitung,5,1000,http://www.aachener-zeitung.de/
+www.abendblatt.de,DE,Q279045,Hamburger Abendblatt,12,1000,https://www.abendblatt.de/
+www.abendzeitung-muenchen.de,DE,Q225076,Abendzeitung,8,1000,https://www.abendzeitung-muenchen.de
+www.badische-zeitung.de,DE,Q799143,Badische Zeitung,9,1000,https://www.badische-zeitung.de
+www.berliner-kurier.de,DE,Q10190,Berliner Kurier,5,1000,http://www.berliner-kurier.de/
+www.berliner-zeitung.de,DE,Q10185,Berliner Zeitung,25,1000,https://www.berliner-zeitung.de/
+www.bild.de,DE,Q156203,Bild,43,1000,https://bild.de
+www.blick.de,DE,Q883984,Blick,1,1000,http://www.blick.de/
+www.braunschweiger-zeitung.de,DE,Q902014,Braunschweiger Zeitung,3,1000,http://www.braunschweiger-zeitung.de/
+www.daswetter.com,DE,Q137826495,Meteored Germany,0,1000,https://www.daswetter.com/
+www.derwesten.de,DE,Q26807818,Der Westen,1,1000,https://www.derwesten.de/
+www.die-glocke.de,DE,Q1213073,Die Glocke,3,1000,https://www.die-glocke.de/
+www.faz.net,DE,Q10184,Frankfurter Allgemeine Zeitung,51,1000,https://www.faz.net/
+www.focus.de,DE,Q33108673,Focus Online,1,1000,https://www.focus.de/
+www.fr.de,DE,Q326068,Frankfurter Rundschau,29,1000,https://www.fr.de/
+www.fraenkischertag.de,DE,Q1282568,Fränkischer Tag,2,1000,http://www.fraenkischertag.de
+www.freiepresse.de,DE,Q896460,Freie Presse,6,1000,https://www.freiepresse.de/
+www.futurezone.de,DE,Q135914101,futurezone.de,0,1000,https://www.futurezone.de/
+www.handelsblatt.com,DE,Q819697,Handelsblatt,23,1000,https://www.handelsblatt.com/
+www.hessenschau.de,DE,Q1564284,hessenschau,2,1000,https://www.hessenschau.de/
+www.hna.de,DE,Q1615873,Hessische/Niedersächsische Allgemeine,6,1000,http://www.hna.de/
+www.kreiszeitung.de,DE,Q1787845,Kreiszeitung,2,1000,https://www.kreiszeitung.de/
+www.ksta.de,DE,Q462023,Kölner Stadt-Anzeiger,10,1000,https://www.ksta.de/
+www.lr-online.de,DE,Q138719,Lausitzer Rundschau,4,1000,http://www.lr-online.de/
+www.merkur.de,DE,Q279832,Münchner Merkur,11,1000,https://www.merkur.de
+www.mittelbayerische.de,DE,Q884835,Mittelbayerische Zeitung,6,1000,https://www.mittelbayerische.de/
+www.mopo.de,DE,Q881468,Hamburger Morgenpost,10,1000,https://www.mopo.de/
+www.morgenpost.de,DE,Q700856,Berliner Morgenpost,19,1000,https://www.morgenpost.de/
+www.nn.de,DE,Q1454114,Nürnberger Nachrichten,4,1000,https://www.nn.de/
+www.nordbayern.de,DE,Q88851069,nordbayern.de,1,1000,https://www.nordbayern.de/
+www.noz.de,DE,Q1258974,Neue Osnabrücker Zeitung,6,1000,http://www.noz.de/
+www.nrz.de,DE,Q776079,Neue Ruhr Zeitung,5,1000,https://www.nrz.de/
+www.nw.de,DE,Q1313623,nw.de,5,1000,https://www.nw.de
+www.nwzonline.de,DE,Q1998825,Nordwest-Zeitung,3,1000,http://www.nwzonline.de/
+www.op-online.de,DE,Q2015475,Offenbach-Post,3,1000,https://www.op-online.de
+www.rhein-zeitung.de,DE,Q2147518,Rhein-Zeitung,4,1000,http://www.rhein-zeitung.de/
+www.rheinpfalz.de,DE,Q884463,Die Rheinpfalz,7,1000,https://www.rheinpfalz.de/
+www.rtl.de,DE,Q96374424,RTL News,1,1000,https://www.rtl.de
+www.ruhr24.de,DE,Q124634085,RUHR24,1,1000,https://www.ruhr24.de/
+www.ruhrnachrichten.de,DE,Q2175052,Ruhr Nachrichten,5,1000,https://www.ruhrnachrichten.de/
+www.saarbruecker-zeitung.de,DE,Q1261982,Saarbrücker Zeitung,4,1000,https://www.saarbruecker-zeitung.de/
+www.saechsische.de,DE,Q2378692,Sächsische Zeitung,5,1000,https://www.saechsische.de/
+www.schwaebische.de,DE,Q2258020,Schwäbische Zeitung,5,1000,https://www.schwaebische.de/
+www.spiegel.de,DE,Q278151,Der Spiegel,12,1000,https://www.spiegel.de/
+www.stern.de,DE,Q2345640,stern.de,1,1000,https://www.stern.de/
+www.stimme.de,DE,Q1594796,Heilbronner Stimme,2,1000,https://www.stimme.de/
+www.stuttgarter-zeitung.de,DE,Q319663,Stuttgarter Zeitung,7,1000,http://www.stuttgarter-zeitung.de/
+www.sueddeutsche.de,DE,Q158870,Süddeutsche Zeitung,52,1000,https://www.sueddeutsche.de/
+www.t-online.de,DE,Q590940,T-Online,11,1000,https://www.t-online.de
+www.tag24.de,DE,Q57959670,TAG24,2,1000,https://www.tag24.de/
+www.tagesschau.de,DE,Q1409067,tagesschau.de,2,1000,https://www.tagesschau.de/
+www.tagesspiegel.de,DE,Q10189,Tagesspiegel,32,1000,https://www.tagesspiegel.de/
+www.thueringer-allgemeine.de,DE,Q2430756,Thüringer Allgemeine,6,1000,https://www.thueringer-allgemeine.de/
+www.tichyseinblick.de,DE,Q27902651,Tichys Einblick,3,1000,https://www.tichyseinblick.de/
+www.tz.de,DE,Q264205,tz,8,1000,https://www.tz.de
+www.wa.de,DE,Q1525213,Westfälischer Anzeiger,1,1000,https://www.wa.de
+www.watson.de,DE,Q108284412,watson.de,2,1000,https://www.watson.de/
+www.waz.de,DE,Q561840,Westdeutsche Allgemeine Zeitung,15,1000,https://www.waz.de/
+www.welt.de,DE,Q29872,Die Welt,49,1000,https://www.welt.de/
+www.weser-kurier.de,DE,Q907908,Weser-Kurier,5,1000,https://www.weser-kurier.de/
+www.wiwo.de,DE,Q540072,WirtschaftsWoche,10,1000,https://www.wiwo.de/
+www.wp.de,DE,Q2565138,Westfalenpost,1,1000,https://www.wp.de/
+www.zdfheute.de,DE,Q135451425,,1,1000,https://www.zdfheute.de/
+www.zeit.de,DE,Q157142,Die Zeit,40,1000,https://www.zeit.de/
+ausnews.de,DE,Q139583663,AUSNEWS,0,5000,https://ausnews.de
+jungefreiheit.de,DE,Q157948,Junge Freiheit,20,5000,https://jungefreiheit.de/
+nius.de,DE,Q120979051,,3,5000,https://www.nius.de/
+oberpfalzecho.de,DE,Q125824137,OberpfalzECHO,0,5000,https://www.oberpfalzecho.de/
+oeffentlicher-dienst-news.de,DE,Q141128574,Öffentlicher Dienst News,0,5000,https://oeffentlicher-dienst-news.de/
+ostdeutscheallgemeine.com,DE,Q137830699,,3,5000,https://ostdeutscheallgemeine.com
+polskiobserwator.de,DE,Q138857838,Polski Obserwator Niemcy,0,5000,https://polskiobserwator.de
+the-decoder.de,DE,Q137441601,The Decoder,0,5000,https://the-decoder.de/
+www.allgemeine-zeitung.de,DE,Q19430789,Allgemeine Zeitung,3,5000,http://www.allgemeine-zeitung.de/index.htm
+www.aponet.de,DE,Q136779171,Aponet.de,1,5000,https://www.aponet.de/
+www.blick-aktuell.de,DE,Q93440375,Blick aktuell,1,5000,https://www.blick-aktuell.de/
+www.borkenerzeitung.de,DE,Q893844,Borkener Zeitung,1,5000,https://www.borkenerzeitung.de/
+www.btc-echo.de,DE,Q139379017,BTC-ECHO,1,5000,https://www.btc-echo.de
+www.bz-berlin.de,DE,Q10186,B.Z.,7,5000,https://www.bz-berlin.de/
+www.derpatriot.de,DE,Q1196173,,2,5000,http://www.derpatriot.de
+www.echo-online.de,DE,Q1166464,Darmstädter Echo,5,5000,http://www.echo-online.de/
+www.echo24.de,DE,Q138427150,Echo24.de,1,5000,https://www.echo24.de/
+www.goettinger-tageblatt.de,DE,Q1559832,Göttinger Tageblatt,4,5000,http://www.goettinger-tageblatt.de
+www.harzkurier.de,DE,Q48753470,Harz Kurier,2,5000,http://www.harzkurier.de/
+www.hildesheimer-allgemeine.de,DE,Q1618445,Hildesheimer Allgemeine Zeitung,3,5000,http://www.hildesheimer-allgemeine.de/
+www.juedische-allgemeine.de,DE,Q24194956,Jüdische Allgemeine,3,5000,http://www.Juedische-Allgemeine.de/
+www.ka-news.de,DE,Q1719457,ka-news,1,5000,https://www.ka-news.de/
+www.kn-online.de,DE,Q20853,Kieler Nachrichten,7,5000,http://www.kn-online.de/
+www.kurier.de,DE,Q1616434,Nordbayerischer Kurier,2,5000,https://www.kurier.de/
+www.l-iz.de,DE,Q1815528,Leipziger Internet Zeitung,2,5000,http://www.l-iz.de/
+www.ln-online.de,DE,Q1880147,Lübecker Nachrichten,5,5000,https://www.ln-online.de/
+www.lvz.de,DE,Q283347,Leipziger Volkszeitung,6,5000,https://www.lvz.de/
+www.lz.de,DE,Q1827524,Lippische Landes-Zeitung,1,5000,http://www.lz.de
+www.maz-online.de,DE,Q1957433,Märkische Allgemeine,4,5000,http://www.maz-online.de/
+www.moin.de,DE,Q133276039,moin.de,0,5000,https://www.moin.de/
+www.news.de,DE,Q1983635,news.de,1,5000,https://www.news.de/
+www.news38.de,DE,Q133502665,News38,0,5000,https://www.news38.de/
+www.ostsee-zeitung.de,DE,Q2036053,Ostsee-Zeitung,5,5000,http://www.ostsee-zeitung.de/
+www.rnd.de,DE,Q22676655,RedaktionsNetzwerk Deutschland,3,5000,https://www.rnd.de/
+www.stuttgarter-nachrichten.de,DE,Q2359571,Stuttgarter Nachrichten,4,5000,https://www.stuttgarter-nachrichten.de/
+www.telepolis.de,DE,Q336399,Telepolis,6,5000,https://www.telepolis.de/
+www.wz.de,DE,Q2564538,Westdeutsche Zeitung,4,5000,https://www.wz.de/
+www.dewezet.de,DE,Q1183410,Deister- und Weserzeitung,2,10000,https://www.dewezet.de/
+www.dnn.de,DE,Q1258554,Dresdner Neueste Nachrichten,4,10000,http://www.dnn.de
+www.freitag.de,DE,Q265362,der Freitag,8,10000,https://www.freitag.de/
+www.fussballeuropa.com,DE,Q139013003,Fussball Europa,0,10000,https://www.fussballeuropa.com
+www.jungewelt.de,DE,Q162563,Junge Welt,18,10000,https://www.jungewelt.de/
+www.landeszeitung.de,DE,Q1802762,Landeszeitung für die Lüneburger Heide,2,10000,http://www.landeszeitung.de
+www.nd-aktuell.de,DE,Q158547,Neues Deutschland,27,10000,https://www.nd-aktuell.de/
+www.op-marburg.de,DE,Q368135,Oberhessische Presse,4,10000,http://www.op-marburg.de/
+www.ovb-online.de,DE,Q138024470,OVB GmbH & Co. KG,0,10000,https://www.ovb-online.de/
+www.solinger-tageblatt.de,DE,Q2298878,Solinger Tageblatt,3,10000,https://www.solinger-tageblatt.de/
+www.wormser-zeitung.de,DE,Q19433112,Wormser Zeitung,2,10000,https://www.wormser-zeitung.de/
+deutschlandkurier.de,DE,Q42307196,Deutschland-Kurier,2,50000,https://deutschlandkurier.de/
+echofm.online,DE,Q114398988,Echo,2,50000,https://echofm.online
+gazetefutbol.de,DE,Q138547512,GazeteFutbol,0,50000,https://gazetefutbol.de/
+harburg-aktuell.de,DE,Q141623928,,0,50000,https://harburg-aktuell.de
+jungle.world,DE,Q315829,Jungle World,9,50000,https://jungle.world/
+kress.de,DE,Q137006027,Kress.de,1,50000,https://kress.de/
+netzpolitik.org,DE,Q1978935,netzpolitik.org,6,50000,https://netzpolitik.org
+paz.de,DE,Q1425047,Preußische Allgemeine Zeitung,6,50000,https://paz.de/
+schwerin-lokal.de,DE,Q122382407,,0,50000,https://schwerin-lokal.de
+seevetal-aktuell.de,DE,Q136490216,,0,50000,https://seevetal-aktuell.de/
+www.aktiv-online.de,DE,Q294279,aktiv,1,50000,http://www.aktiv-online.de/
+www.bauernzeitung.de,DE,Q124038377,Bauernzeitung,1,50000,https://bauernzeitung.de
+www.boersen-zeitung.de,DE,Q855176,Börsen-Zeitung,5,50000,https://www.boersen-zeitung.de/
+www.compact-online.de,DE,Q15803741,Compact,5,50000,https://www.compact-online.de/
+www.ejz.de,DE,Q1325082,Elbe-Jeetzel-Zeitung,1,50000,https://www.ejz.de/
+www.hogapage.de,DE,Q139927208,HOGAPAGE,0,50000,https://www.hogapage.de
+www.hr.de,DE,Q23565,Hessischer Rundfunk,27,50000,https://www.hr.de/
+www.ivz-aktuell.de,DE,Q15819835,Ibbenbürener Volkszeitung,2,50000,http://www.ivz-aktuell.de
+www.kinokalender.com,DE,Q81545245,kinokalender.com,0,50000,https://www.kinokalender.com/
+www.lauterbacher-anzeiger.de,DE,Q18288103,Lauterbacher Anzeiger,2,50000,https://www.lauterbacher-anzeiger.de/
+www.muehlacker-tagblatt.de,DE,Q1262542,Mühlacker Tagblatt,1,50000,http://muehlacker-tagblatt.de/
+www.openpr.de,DE,Q1652679,OpenPR,2,50000,http://www.openpr.de/
+www.paz-online.de,DE,Q15839899,Peiner Allgemeine Zeitung,2,50000,http://www.paz-online.de/
+www.schlager.de,DE,Q23787790,Schlager.de,1,50000,https://www.schlager.de/
+www.sonntagsblatt.de,DE,Q1205530,Deutsches Allgemeines Sonntagsblatt,1,50000,http://www.sonntagsblatt.de/
+www.thepioneer.de,DE,Q140356960,The Pioneer,0,50000,https://www.thepioneer.de/
+www.zevener-zeitung.de,DE,Q123096715,Zevener Zeitung,1,50000,https://www.zevener-zeitung.de/
+ziarulromanesc.de,DE,Q138858391,Ziarul Romanesc Germania,0,50000,https://ziarulromanesc.de
+amerika21.de,DE,Q127607747,,0,100000,https://amerika21.de/
+bundestribune.de,DE,Q138795607,Bundes Tribune,0,100000,https://bundestribune.de/
+maerkischer-bote.de,DE,Q132526885,,0,100000,https://maerkischer-bote.de/
+rundblick-niedersachsen.de,DE,Q110133216,,2,100000,https://www.rundblick-niedersachsen.de
+www.berlin-live.de,DE,Q133502410,BERLIN LIVE,0,100000,https://www.berlin-live.de/
+www.ftd.de,DE,Q712072,Financial Times Deutschland,9,100000,http://www.ftd.de
+www.kontextwochenzeitung.de,DE,Q1647576,Kontext weekly,1,100000,http://www.kontextwochenzeitung.de/
+www.leineblitz.de,DE,Q140129536,,0,100000,https://www.leineblitz.de/
+www.nextpit.de,DE,Q134711125,nextpit Global,0,100000,https://www.nextpit.de
+www.thueringen24.de,DE,Q133853712,Thüringen24,0,100000,https://www.thueringen24.de/
+www.unsere-zeit.de,DE,Q896716,,7,100000,https://www.unsere-zeit.de/
+www.vorwaerts.de,DE,Q467800,Vorwärts,20,100000,https://vorwaerts.de
+amtsavisen.dk,DK,Q59659232,Randers Amts Avis,0,1000,https://amtsavisen.dk/
+bold.dk,DK,Q12304013,bold.dk,1,1000,https://www.bold.dk/
+bornholm.nu,DK,Q12304160,,1,1000,https://bornholm.nu/
+borsen.dk,DK,Q5208470,Dagbladet Børsen,7,1000,http://www.borsen.dk/
+campo.dk,DK,Q138659460,Campo,0,1000,https://campo.dk/
+ekstrabladet.dk,DK,Q1226253,Ekstra Bladet,13,1000,https://ekstrabladet.dk/
+finans.dk,DK,Q66794281,Finans.dk,1,1000,https://finans.dk/
+fyens.dk,DK,Q1326391,Fyens Stiftstidende,8,1000,http://www.fyens.dk/
+ing.dk,DK,Q1758835,Ingeniøren,4,1000,https://ing.dk/
+jv.dk,DK,Q1714734,JydskeVestkysten,6,1000,http://www.jv.dk/
+jyllands-posten.dk,DK,Q815527,Jyllands-Posten,32,1000,http://jyllands-posten.dk
+nyheder.tv2.dk,DK,Q86599934,TV2.dk,0,1000,https://nyheder.tv2.dk/
+nyheder24.dk,DK,Q136365716,Nyheder24.dk,0,1000,https://nyheder24.dk
+politiken.dk,DK,Q373133,Politiken,19,1000,https://politiken.dk/
+stiften.dk,DK,Q179806,Århus Stiftstidende,7,1000,http://stiften.dk/
+videnskab.dk,DK,Q12340941,Videnskab.dk,1,1000,https://videnskab.dk
+www.berlingske.dk,DK,Q59055,Berlingske,18,1000,https://berlingske.dk
+www.bt.dk,DK,Q327821,B.T.,12,1000,http://www.bt.dk/
+www.dagens.dk,DK,Q115864725,Dagens.dk,4,1000,https://www.dagens.dk
+www.denoffentlige.dk,DK,Q136366283,DenOffentlige.dk,0,1000,https://www.denoffentlige.dk
+www.folketidende.dk,DK,Q12324815,Lolland-Falsters Folketidende,2,1000,http://www.folketidende.dk
+www.guloggratis.dk,DK,Q12314570,Yellow & Free,1,1000,https://www.guloggratis.dk/
+www.information.dk,DK,Q761660,Dagbladet Information,11,1000,http://www.information.dk/
+www.inputmag.dk,DK,Q136487071,inputmag.dk,0,1000,https://www.inputmag.dk
+www.kanalfrederikshavn.dk,DK,Q12321212,,1,1000,http://www.kanalfrederikshavn.dk
+www.kristeligt-dagblad.dk,DK,Q1433145,Kristeligt Dagblad,7,1000,https://kristeligt-dagblad.dk
+www.sn.dk,DK,Q106104655,sn.dk,0,1000,https://sn.dk/
+www.tipsbladet.dk,DK,Q2391742,Tipsbladet,4,1000,https://www.tipsbladet.dk
+www.tv2fyn.dk,DK,Q113621121,tv2fyn.dk,0,1000,https://www.tv2fyn.dk
+www.tv2kosmopol.dk,DK,Q12338663,TV 2 Kosmopol,2,1000,https://www.tv2kosmopol.dk
+www.tv2ostjylland.dk,DK,Q115487098,TV2 Østjylland,0,1000,https://www.tv2ostjylland.dk/
+www.tvmidtvest.dk,DK,Q115398932,tvmidtvest.dk,0,1000,https://www.tvmidtvest.dk
+www.tvsyd.dk,DK,Q131153260,tvsyd.dk,0,1000,https://www.tvsyd.dk
+www.weekendavisen.dk,DK,Q176375,Weekendavisen,9,1000,https://www.weekendavisen.dk/
+cphpost.dk,DK,Q3643910,The Copenhagen Post,3,5000,https://cphpost.dk
+denkorteavis.dk,DK,Q12308081,Den Korte Avis,2,5000,http://www.denkorteavis.dk
+herningfolkeblad.dk,DK,Q12316620,Herning Folkeblad,3,5000,https://www.herningfolkeblad.dk
+kobenhavnliv.dk,DK,Q137427218,,0,5000,https://kobenhavnliv.dk/
+piopio.dk,DK,Q68453988,Netavisen Pio,1,5000,https://piopio.dk
+pov.international,DK,Q44695396,POV.International,1,5000,https://pov.international/
+skivefolkeblad.dk,DK,Q12335683,,4,5000,http://www.skivefolkeblad.dk
+viborg-folkeblad.dk,DK,Q12340885,Viborg Stifts Folkeblad,4,5000,https://viborg-folkeblad.dk/
+www.altinget.dk,DK,Q12301201,Altinget,5,5000,https://altinget.dk
+www.avisen.dk,DK,Q12302548,,1,5000,https://www.avisen.dk/
+www.nordschleswiger.dk,DK,Q874582,Der Nordschleswiger,7,5000,http://www.nordschleswiger.dk/
+www.version2.dk,DK,Q12343821,Version2,1,5000,https://www.version2.dk/
+arbejderen.dk,DK,Q11964499,Arbejderen,4,10000,https://arbejderen.dk
+finanswatch.dk,DK,Q12311333,FinansWatch,1,10000,https://finanswatch.dk
+frihedsbrevet.dk,DK,Q107191758,Frihedsbrevet,1,10000,https://frihedsbrevet.dk/
+olfi.dk,DK,Q83373008,,1,10000,https://olfi.dk
+verdensbedstenyheder.dk,DK,Q138745785,,0,10000,https://verdensbedstenyheder.dk/
+www.dagensmedicin.dk,DK,Q12307011,Dagens Medicin,1,10000,http://www.dagensmedicin.dk
+www.zetland.dk,DK,Q24633343,Zetland,5,10000,https://www.zetland.dk
+advokatwatch.dk,DK,Q113496461,AdvokatWatch,0,50000,https://advokatwatch.dk/
+borneavisen.dk,DK,Q88098474,,1,50000,http://www.borneavisen.dk
+fodevarewatch.dk,DK,Q16514222,FødevareWatch,1,50000,https://fodevarewatch.dk
+kontrast.dk,DK,Q107177141,Kontrast,1,50000,https://kontrast.dk
+rokokoposten.dk,DK,Q12333690,RokokoPosten,2,50000,http://rokokoposten.dk/
+uniavisen.dk,DK,Q106371941,Uniavisen,1,50000,https://uniavisen.dk
+www.csr.dk,DK,Q82054430,,0,50000,https://csr.dk
+www.foljeton.dk,DK,Q28652435,Føljeton,1,50000,https://www.foljeton.dk/
+www.raeson.dk,DK,Q12334069,RÆSON,1,50000,http://www.raeson.dk
+modkraft.dk,DK,Q12327407,modkraft.dk,1,100000,https://modkraft.dk
+vesthimmerlandsavis.dk,DK,Q16324988,,1,100000,http://www.vesthimmerlandsavis.dk
+www.femernbusiness.com,DK,Q131706399,FehmarnBusiness,0,100000,https://www.femernbusiness.com/
+ekspress.delfi.ee,EE,Q1295548,Eesti Ekspress,20,1000,http://ekspress.delfi.ee/
+jarvateataja.postimees.ee,EE,Q12365676,Järva Teataja,3,1000,https://jarvateataja.postimees.ee/
+maaleht.delfi.ee,EE,Q1477887,Maaleht,7,1000,http://maaleht.delfi.ee/
+online.le.ee,EE,Q3742996,Lääne Elu,5,1000,https://online.le.ee/
+parnu.postimees.ee,EE,Q7264605,,4,1000,http://parnu.postimees.ee/
+rus.postimees.ee,EE,Q1355052,Postimees,24,1000,https://rus.postimees.ee/
+virumaateataja.postimees.ee,EE,Q18627058,Virumaa Teataja,3,1000,https://virumaateataja.postimees.ee/
+www.aripaev.ee,EE,Q256427,Äripäev,12,1000,http://www.aripaev.ee
+www.delfi.ee,EE,Q1184119,,13,1000,http://www.delfi.ee/
+www.dv.ee,EE,Q5254380,Delovye Vedomosti,2,1000,http://dv.ee
+www.ohtuleht.ee,EE,Q293572,Õhtuleht,16,1000,https://www.ohtuleht.ee/
+www.kuulutaja.ee,EE,Q12367895,,1,5000,https://www.kuulutaja.ee/
+www.opleht.ee,EE,Q12379462,,4,5000,https://opleht.ee
+www.sirp.ee,EE,Q1518541,,8,5000,https://www.sirp.ee/
+ajakiri.ut.ee,EE,Q12377771,Universitas Tartuensis,1,50000,https://www.ajakiri.ut.ee/
+harjuelu.ee,EE,Q11041146,Harju Elu,3,50000,http://www.harjuelu.ee
+kesknadal.ee,EE,Q3738171,Kesknädal,5,50000,http://www.kesknadal.ee
+puri.ee,EE,Q7261305,Purjetaja,3,50000,http://puri.ee/
+www.baltictimes.com,EE,Q1806290,The Baltic Times,13,50000,http://baltictimes.com
+www.umaleht.ee,EE,Q3738586,Uma Leht,8,50000,http://www.umaleht.ee/
+as.com,ES,Q719880,As,25,1000,https://as.com
+elfarodeceuta.es,ES,Q17276360,,2,1000,http://elfarodeceuta.es/
+elpais.com,ES,Q50009,El País,51,1000,https://elpais.com/
+okdiario.com,ES,Q30901816,Okdiario,7,1000,https://okdiario.com
+theobjective.com,ES,Q30034736,The Objective,3,1000,https://theobjective.com
+tododisca.es,ES,Q140077207,Tododisca,0,1000,https://tododisca.es
+www.20minutos.es,ES,Q2077548,20 minutos,22,1000,https://www.20minutos.es/
+www.abc.es,ES,Q287076,ABC,30,1000,https://abc.es
+www.canalsur.es,ES,Q2743194,Canal Sur Televisión,11,1000,http://www.canalsur.es/
+www.canarias7.es,ES,Q5031142,Canarias7,3,1000,http://www.canarias7.es/
+www.diaridegirona.cat,ES,Q3026345,Diari de Girona,9,1000,http://www.diaridegirona.cat/
+www.diaridetarragona.com,ES,Q12162686,Diari de Tarragona,3,1000,http://www.diaridetarragona.com/
+www.diarimes.com,ES,Q17023774,Diari Més,2,1000,https://www.diarimes.com/
+www.diariocordoba.com,ES,Q8355292,Diario Córdoba,5,1000,http://www.diariocordoba.com/
+www.diariodeburgos.es,ES,Q5805373,Diario de Burgos,4,1000,http://www.diariodeburgos.es
+www.diariodelaltoaragon.es,ES,Q3573768,Diario del Alto Aragón,6,1000,http://www.diariodelaltoaragon.es/
+www.diariodeleon.es,ES,Q5805383,Diario de León,7,1000,https://www.diariodeleon.es
+www.diariodemallorca.es,ES,Q4358417,Diario de Mallorca,4,1000,http://www.diariodemallorca.es/
+www.diariodenavarra.es,ES,Q8355313,Diario de Navarra,10,1000,http://www.diariodenavarra.es/
+www.diariodesevilla.es,ES,Q3026338,Diario de Sevilla,5,1000,http://www.diariodesevilla.es
+www.diariosur.es,ES,Q1209144,Sur,5,1000,https://www.diariosur.es/
+www.diariovasco.com,ES,Q913303,El Diario Vasco,12,1000,https://www.diariovasco.com/
+www.elcomercio.es,ES,Q1294311,El Comercio,7,1000,http://www.elcomercio.es/
+www.elconfidencial.com,ES,Q5821545,El Confidencial,10,1000,https://www.elconfidencial.com
+www.elcorreo.com,ES,Q1324043,El Correo,11,1000,http://www.elcorreo.com/
+www.elcorreogallego.es,ES,Q3312356,El Correo Gallego,9,1000,http://elcorreogallego.es/
+www.elcorreoweb.es,ES,Q5821585,El Correo de Andalucía,2,1000,https://elcorreoweb.es/
+www.eldebate.com,ES,Q114050859,El Debate,3,1000,https://www.eldebate.com
+www.eldia.es,ES,Q2149635,El Día,5,1000,http://www.eldia.es
+www.eldiario.es,ES,Q8774265,elDiario.es,10,1000,https://www.eldiario.es/
+www.eldiariomontanes.es,ES,Q478520,El Diario Montañés,6,1000,http://www.eldiariomontanes.es/
+www.eleconomista.es,ES,Q2839040,El Economista,8,1000,https://www.eleconomista.es/
+www.elespanol.com,ES,Q20652713,El Español,9,1000,http://www.elespanol.com/
+www.elindependiente.com,ES,Q135012540,El Independiente,1,1000,https://www.elindependiente.com/
+www.elmira.es,ES,Q62009565,El MIRA,1,1000,https://www.elmira.es
+www.elmundo.es,ES,Q921217,El Mundo,36,1000,https://www.elmundo.es/
+www.elnacional.cat,ES,Q46041605,El Nacional,4,1000,https://www.elnacional.cat/
+www.elnortedecastilla.es,ES,Q326519,El Norte de Castilla,9,1000,http://www.elnortedecastilla.es/
+www.elperiodico.com,ES,Q35638,El Periódico,20,1000,https://www.elperiodico.com
+www.elperiodicodearagon.com,ES,Q2735252,El Periódico de Aragón,8,1000,http://www.elperiodicodearagon.com/
+www.elperiodicomediterraneo.com,ES,Q8773290,El Periódico Mediterráneo,3,1000,https://www.elperiodicomediterraneo.com/
+www.elprogreso.es,ES,Q3312350,El Progreso,4,1000,https://www.elprogreso.es/
+www.elpuntavui.cat,ES,Q778258,El Punt Avui,11,1000,http://www.elpuntavui.cat
+www.expansion.com,ES,Q556902,Expansión,10,1000,https://www.expansion.com/
+www.farodevigo.es,ES,Q3312323,Faro de Vigo,10,1000,https://www.farodevigo.es/
+www.granadahoy.com,ES,Q5797249,,1,1000,https://www.granadahoy.com
+www.heraldo.es,ES,Q3572134,Heraldo de Aragón,11,1000,https://www.heraldo.es/
+www.hoy.es,ES,Q3141644,Hoy,7,1000,https://www.hoy.es
+www.huffingtonpost.es,ES,Q3049977,El HuffPost,4,1000,http://www.huffingtonpost.es
+www.ideal.es,ES,Q5908242,Ideal,4,1000,http://www.ideal.es/
+www.infolibre.es,ES,Q16578645,infoLibre,6,1000,http://www.infolibre.es
+www.laopinioncoruna.es,ES,Q11687718,,3,1000,https://www.laopinioncoruna.es/
+www.laopiniondemalaga.es,ES,Q5673543,La Opinión de Málaga,2,1000,http://www.laopiniondemalaga.es
+www.laopiniondemurcia.es,ES,Q5964586,La Opinión de Murcia,2,1000,http://www.laopiniondemurcia.es/
+www.laprovincia.es,ES,Q5964948,La Provincia,4,1000,http://www.laprovincia.es
+www.larazon.es,ES,Q191433,La Razón,17,1000,http://www.larazon.es
+www.laregion.es,ES,Q2841026,La Región,6,1000,https://www.laregion.es/
+www.larioja.com,ES,Q5965110,La Rioja,1,1000,http://www.larioja.com
+www.lasprovincias.es,ES,Q2748855,Las Provincias,6,1000,http://www.lasprovincias.es/
+www.lavanguardia.com,ES,Q511533,La Vanguardia,26,1000,http://www.lavanguardia.com/
+www.laverdad.es,ES,Q11687789,La Verdad,4,1000,http://www.laverdad.es/
+www.lavozdeasturias.es,ES,Q2472456,La Voz de Asturias,8,1000,https://www.lavozdeasturias.es/
+www.lavozdegalicia.es,ES,Q3312427,La Voz de Galicia,13,1000,http://www.lavozdegalicia.es/
+www.leonoticias.com,ES,Q115800455,Leonoticias,1,1000,https://www.leonoticias.com/
+www.levante-emv.com,ES,Q1999224,Levante-EMV,9,1000,http://www.levante-emv.com
+www.libertaddigital.com,ES,Q3101925,Libertad Digital,8,1000,http://www.libertaddigital.com/
+www.lne.es,ES,Q2227240,La Nueva España,10,1000,http://www.lne.es/
+www.malagahoy.es,ES,Q6035365,,1,1000,https://www.malagahoy.es/
+www.marca.com,ES,Q917580,Marca,37,1000,https://www.marca.com/
+www.mundodeportivo.com,ES,Q1458864,Mundo Deportivo,27,1000,https://www.mundodeportivo.com/
+www.noticiasdealava.eus,ES,Q12264929,Noticias de Álava,2,1000,https://www.noticiasdealava.eus/
+www.noticiasdenavarra.com,ES,Q3727782,Diario de Noticias,3,1000,http://www.noticiasdenavarra.com
+www.publico.es,ES,Q1835391,Público,12,1000,http://www.publico.es
+www.regio7.cat,ES,Q3822233,Regió7,3,1000,http://www.regio7.cat/
+www.segre.com,ES,Q10552566,Diari Segre,6,1000,https://www.segre.com
+www.sport.es,ES,Q623538,Sport,20,1000,https://www.sport.es/
+www.sudoku-online.org,ES,Q110344637,Sudoku Online,0,1000,https://www.sudoku-online.org
+www.superdeporte.es,ES,Q3504621,Superdeporte,5,1000,http://www.superdeporte.es/
+www.tiempo.com,ES,Q137216415,Meteored España,0,1000,https://www.tiempo.com/
+www.ultimahora.es,ES,Q9099031,Última Hora,4,1000,http://ultimahora.es/
+www.vilaweb.cat,ES,Q3312518,Vilaweb,10,1000,http://www.vilaweb.cat
+www.vozpopuli.com,ES,Q27862962,Vozpópuli,3,1000,http://www.vozpopuli.com
+bandaancha.eu,ES,Q5718219,BandaAncha,1,5000,https://bandaancha.eu
+confilegal.com,ES,Q136767318,,0,5000,https://confilegal.com
+e-noticies.cat,ES,Q118605292,E-Notícies,3,5000,https://e-noticies.cat/
+eladelantado.com,ES,Q5820781,Best susu and Microfinance management software,3,5000,http://www.eladelantado.com
+naciodigital.cat,ES,Q11938312,Nació Digital,5,5000,https://naciodigital.cat/
+navarracapital.es,ES,Q139035108,Navarra Capital,0,5000,https://navarracapital.es/
+www.articulo14.es,ES,Q136410993,Artículo 14,0,5000,https://www.articulo14.es/
+www.atlantico.net,ES,Q3394943,Atlántico Diario,4,5000,https://www.atlantico.net/
+www.autonocion.com,ES,Q138590136,autonocion.com,0,5000,https://www.autonocion.com
+www.berria.eus,ES,Q827097,Berria,16,5000,http://www.berria.eus
+www.cronicaglobal.cat,ES,Q20105526,Crónica Global,3,5000,https://www.cronicaglobal.cat/
+www.diaridesabadell.com,ES,Q11917097,Diari de Sabadell,3,5000,http://www.diaridesabadell.com/
+www.diarideterrassa.com,ES,Q11917100,Diari de Terrassa,4,5000,http://www.diarideterrassa.com
+www.diariodeavila.es,ES,Q5805416,Diario de Ávila,3,5000,http://www.diariodeavila.es/
+www.diariodeibiza.es,ES,Q24937943,Diario de Ibiza,1,5000,http://www.diariodeibiza.es/
+www.diariodejerez.es,ES,Q5805380,Diario de Jerez,2,5000,https://www.diariodejerez.es/
+www.diariodepontevedra.es,ES,Q8355302,Diario de Pontevedra,8,5000,https://www.diariodepontevedra.es/
+www.diariodevalderrueda.es,ES,Q116214121,Diario de Valderrueda,0,5000,https://www.diariodevalderrueda.es/
+www.diariodevalladolid.es,ES,Q139799042,Diario de Valladolid,2,5000,https://www.diariodevalladolid.es
+www.diariojaen.es,ES,Q5805298,Diario Jaén,2,5000,http://www.diariojaen.es/
+www.diariopalentino.es,ES,Q5805332,Diario Palentino,3,5000,https://www.diariopalentino.es/
+www.economiadigital.es,ES,Q20014652,Economía Digital,2,5000,http://www.economiadigital.es
+www.eitb.eus,ES,Q13422541,EITB,17,5000,https://www.eitb.eus
+www.elcorreodeburgos.com,ES,Q139766902,El Correo de Burgos,2,5000,https://www.elcorreodeburgos.com
+www.eldiadecordoba.es,ES,Q5821804,El Día de Córdoba,1,5000,http://www.eldiadecordoba.es/
+www.eldiadevalladolid.com,ES,Q55402005,El Día de Valladolid,1,5000,http://www.eldiadevalladolid.com/
+www.elidealgallego.com,ES,Q3310972,El Ideal Gallego,5,5000,https://www.elidealgallego.com/
+www.elsaltodiario.com,ES,Q40013900,El Salto,7,5000,https://www.elsaltodiario.com/
+www.emporda.info,ES,Q136412491,Empordà,1,5000,https://www.emporda.info/
+www.europasur.es,ES,Q2919147,,1,5000,http://europasur.es
+www.gasteizhoy.com,ES,Q113827245,Gasteiz Hoy,2,5000,https://www.gasteizhoy.com/
+www.heraldodiariodesoria.es,ES,Q140044935,Heraldo-Diario de Soria,2,5000,https://www.heraldodiariodesoria.es
+www.hoyaragon.es,ES,Q137711806,Hoy Aragón,0,5000,https://www.hoyaragon.es/
+www.latribunadealbacete.es,ES,Q5965377,La Tribuna de Albacete,1,5000,http://www.latribunadealbacete.es/
+www.latribunadetoledo.es,ES,Q114058728,La Tribuna de Toledo,1,5000,https://www.latribunadetoledo.es/
+www.lavozdelanzarote.com,ES,Q136502529,La Voz de Lanzarote,2,5000,https://www.lavozdelanzarote.com/
+www.lavozdelsur.es,ES,Q125389603,La Voz del Sur,1,5000,https://www.lavozdelsur.es/
+www.lavozdigital.es,ES,Q5965574,,1,5000,https://www.lavozdigital.es/
+www.periodicodeibiza.es,ES,Q137561468,,1,5000,https://www.periodicodeibiza.es/
+www.pontevedraviva.com,ES,Q61388573,Pontevedra Viva,6,5000,https://pontevedraviva.com/
+www.que.es,ES,Q3312268,Qué!,6,5000,https://www.que.es/
+www.riazor.org,ES,Q139016996,Riazor.org,0,5000,https://www.riazor.org
+catalunyadiari.com,ES,Q65208804,Catalunya diari,1,10000,https://catalunyadiari.com/
+ctxt.es,ES,Q22969989,CTXT,6,10000,https://ctxt.es/
+elordenmundial.com,ES,Q139624974,El Orden Mundial,2,10000,https://elordenmundial.com/
+lamanyana.cat,ES,Q4144532,La Mañana,5,10000,https://www.lamanyana.cat/
+www.andaluciainformacion.es,ES,Q99309563,Andalucía Información,0,10000,https://andaluciainformacion.es/
+www.arabalears.cat,ES,Q21927220,ARA Balears,2,10000,http://www.arabalears.cat
+www.catorze.cat,ES,Q41008461,Catorze,1,10000,http://www.catorze.cat/
+www.democrata.es,ES,Q136374312,democrata.es,1,10000,https://www.democrata.es
+www.diariodotamega.es,ES,Q113328735,,1,10000,https://www.diariodotamega.es/
+www.epe.es,ES,Q108839635,El Periódico de España,3,10000,https://www.epe.es/
+www.lesportiudecatalunya.cat,ES,Q5350687,El 9 esportiu,4,10000,http://www.lesportiudecatalunya.cat/
+www.madridiario.es,ES,Q61948838,Madridiario,1,10000,https://www.madridiario.es/
+www.mallorcamagazin.com,ES,Q1887577,Mallorca Magazin,1,10000,https://www.mallorcamagazin.com/
+elcierredigital.com,ES,Q96250372,,2,50000,https://elcierredigital.com
+fuentesinformadas.com,ES,Q112964399,Fuentes Informadas,0,50000,https://fuentesinformadas.com/
+lavalira.eu,ES,Q98755890,La Valira,1,50000,https://www.lavalira.eu/
+melillahoy.es,ES,Q130624977,Melilla Hoy,3,50000,https://melillahoy.es/
+monesport.cat,ES,Q140385571,Món Esport,0,50000,https://monesport.cat
+nostresport.com,ES,Q6045463,Nostresport,0,50000,http://www.nostresport.com/
+praza.gal,ES,Q12398101,praza.gal,5,50000,https://praza.gal/
+protestantedigital.com,ES,Q28501843,Protestante Digital,2,50000,https://protestantedigital.com/
+www.albaceteabierto.es,ES,Q98969609,Albacete Abierto,0,50000,https://www.albaceteabierto.es/
+www.cadizdirecto.com,ES,Q134642420,Cádiz Directo,0,50000,https://www.cadizdirecto.com
+www.caloryfrio.com,ES,Q141143036,,0,50000,https://www.caloryfrio.com/
+www.catalunyapress.cat,ES,Q138749210,CatalunyaPress,0,50000,https://www.catalunyapress.cat
+www.catalunyareligio.cat,ES,Q20107836,Catalunya Religió,1,50000,http://www.catalunyareligio.cat
+www.cugat.cat,ES,Q108684558,Cugat mèdia,0,50000,https://www.cugat.cat/
+www.dbalears.cat,ES,Q30250465,DBalears,1,50000,http://www.dbalears.cat/
+www.diariodecastillayleon.es,ES,Q139799526,Diario de Castilla y León,2,50000,https://www.diariodecastillayleon.es
+www.diariosigloxxi.com,ES,Q5805347,Diario Siglo XXI,2,50000,https://www.diariosigloxxi.com/
+www.elmundotoday.com,ES,Q10922539,El Mundo Today,6,50000,https://www.elmundotoday.com
+www.estrelladigital.es,ES,Q98959437,Estrella Digital,0,50000,https://www.estrelladigital.es/
+www.galiciaconfidencial.com,ES,Q20541350,,2,50000,https://www.galiciaconfidencial.com/
+www.hortanoticias.com,ES,Q136647153,,0,50000,https://www.hortanoticias.com
+www.i-bejar.com,ES,Q111747619,i-bejar,0,50000,https://www.i-bejar.com/
+www.isabadell.cat,ES,Q55224034,iSabadell,1,50000,https://www.isabadell.cat/
+www.lacerca.com,ES,Q18644283,,1,50000,http://www.lacerca.com/
+www.mallorcazeitung.es,ES,Q1887579,Mallorca Zeitung,2,50000,https://www.mallorcazeitung.es/
+www.marketingdirecto.com,ES,Q139268075,,0,50000,https://www.marketingdirecto.com
+www.mundiario.com,ES,Q106021085,Mundiario,1,50000,https://www.mundiario.com/
+www.thenewbarcelonapost.com,ES,Q102121330,The New Barcelona Post,2,50000,https://www.thenewbarcelonapost.com
+www.vigoalminuto.com,ES,Q12401886,,1,50000,https://www.vigoalminuto.com/
+ahotsa.info,ES,Q36890369,ahotsa.info,4,100000,http://ahotsa.info
+busturialdea.hitza.eus,ES,Q12255560,Busturialdeko Hitza,3,100000,http://busturialdea.hitza.eus
+delta13news.com,ES,Q138702172,,0,100000,https://delta13news.com
+gedar.eus,ES,Q113231422,Gedar,3,100000,https://gedar.eus
+reinasdelbalon.com,ES,Q108013510,,0,100000,https://reinasdelbalon.com/
+spanishrevolution.net,ES,Q118727447,Spanish Revolution,1,100000,https://spanishrevolution.net/
+valenciafruits.com,ES,Q125378184,Valencia-fruits,2,100000,https://valenciafruits.com/
+www.archiletras.com,ES,Q105846811,Archiletras,1,100000,https://www.archiletras.com/
+www.balonmano.info,ES,Q136366077,balonmano.info,0,100000,https://www.balonmano.info
+www.campogalego.gal,ES,Q97216250,,1,100000,https://www.campogalego.gal/
+www.marfanta.com,ES,Q125517482,,0,100000,https://www.marfanta.com/
+www.navarraconfidencial.com,ES,Q83149556,,2,100000,https://www.navarraconfidencial.com/
+www.noticiasdealmeria.com,ES,Q116760241,,0,100000,http://www.noticiasdealmeria.com
+www.regiondigital.com,ES,Q139942658,Región Digital,0,100000,https://www.regiondigital.com/
+www.togayther.es,ES,Q137520542,Togayher,1,100000,https://www.togayther.es
+www.totcerdanyola.cat,ES,Q43290029,Tot Cerdanyola,1,100000,https://www.totcerdanyola.cat/
+aamuset.fi,FI,Q9321408,,1,1000,http://www.aamuset.fi
+svenska.yle.fi,FI,Q3431760,Svenska Yle,5,1000,https://svenska.yle.fi
+www.aamulehti.fi,FI,Q301000,Aamulehti,17,1000,https://www.aamulehti.fi/
+www.aamuposti.fi,FI,Q2820006,Aamuposti,4,1000,https://www.aamuposti.fi/
+www.como.fi,FI,Q11855477,Como,1,1000,https://www.como.fi
+www.esaimaa.fi,FI,Q5402565,Etelä-Saimaa,5,1000,https://esaimaa.fi/
+www.ess.fi,FI,Q11858930,Etelä-Suomen Sanomat,5,1000,http://www.ess.fi/
+www.forssanlehti.fi,FI,Q11859825,Forssan Lehti,3,1000,http://www.forssanlehti.fi/
+www.hameensanomat.fi,FI,Q3144488,Hämeen Sanomat,5,1000,http://www.hameensanomat.fi/
+www.hbl.fi,FI,Q613979,Hufvudstadsbladet,17,1000,http://hbl.fi/
+www.helsinginuutiset.fi,FI,Q11862132,Helsingin Uutiset,2,1000,https://www.helsinginuutiset.fi/
+www.hs.fi,FI,Q366921,Helsingin Sanomat,27,1000,https://www.hs.fi/
+www.iisalmensanomat.fi,FI,Q18659300,Iisalmen Sanomat,3,1000,https://www.iisalmensanomat.fi/
+www.ilkkapohjalainen.fi,FI,Q84073764,Ilkka-Pohjalainen,1,1000,https://ilkkapohjalainen.fi/
+www.iltalehti.fi,FI,Q2421561,Iltalehti,19,1000,https://www.iltalehti.fi/
+www.is.fi,FI,Q1001384,Ilta-Sanomat,17,1000,https://www.is.fi
+www.ita-savo.fi,FI,Q5404281,Itä-Savo,3,1000,http://www.ita-savo.fi/
+www.itahame.fi,FI,Q6095315,Itä-Häme,5,1000,http://www.itahame.fi/
+www.kaleva.fi,FI,Q3192167,Kaleva,7,1000,https://www.kaleva.fi/
+www.karjalainen.fi,FI,Q3193341,Karjalainen,5,1000,http://www.karjalainen.fi/
+www.kauppalehti.fi,FI,Q6378858,Kauppalehti,7,1000,http://www.kauppalehti.fi/
+www.keski-uusimaa.fi,FI,Q49770785,Keski-Uusimaa,2,1000,https://www.keski-uusimaa.fi/
+www.keskipohjanmaa.fi,FI,Q3080775,Keskipohjanmaa,6,1000,http://www.keskipohjanmaa.fi/
+www.koillissanomat.fi,FI,Q18660105,Koillissanomat,3,1000,https://www.koillissanomat.fi/
+www.kouvolansanomat.fi,FI,Q6434798,Kouvolan Sanomat,4,1000,http://www.kouvolansanomat.fi/
+www.ksml.fi,FI,Q3195563,Keskisuomalainen,8,1000,http://www.ksml.fi/
+www.kymensanomat.fi,FI,Q3080792,Kymen Sanomat,9,1000,https://kymensanomat.fi/
+www.lansi-savo.fi,FI,Q6710872,Länsi-Savo,3,1000,http://www.lansi-savo.fi/
+www.lansivayla.fi,FI,Q10571939,Länsiväylä,3,1000,https://www.lansivayla.fi/
+www.lapinkansa.fi,FI,Q3353533,Lapin Kansa,6,1000,https://www.lapinkansa.fi/
+www.lentoposti.fi,FI,Q130606439,Lentoposti.fi,1,1000,https://lentoposti.fi/
+www.maaseuduntulevaisuus.fi,FI,Q6848891,Maaseudun Tulevaisuus,5,1000,https://maaseuduntulevaisuus.fi/
+www.raahenseutu.fi,FI,Q5400878,Raahen Seutu,2,1000,https://www.raahenseutu.fi/
+www.rantalakeus.fi,FI,Q11890068,Rantalakeus,1,1000,https://www.rantalakeus.fi/
+www.satakunnankansa.fi,FI,Q6305445,Satakunnan Kansa,4,1000,http://www.satakunnankansa.fi/
+www.savonsanomat.fi,FI,Q7428411,Savon Sanomat,5,1000,http://www.savonsanomat.fi/
+www.sss.fi,FI,Q7405681,Salon Seudun Sanomat,5,1000,http://www.sss.fi/
+www.suomenmaa.fi,FI,Q3080776,Suomenmaa,6,1000,http://www.suomenmaa.fi/
+www.tamperelainen.fi,FI,Q11896331,Tamperelainen,3,1000,https://www.tamperelainen.fi/
+www.tekniikkatalous.fi,FI,Q5391707,Tekniikka ja Talous,4,1000,http://www.tekniikkatalous.fi/
+www.ts.fi,FI,Q2616090,Turun Sanomat,7,1000,https://www.ts.fi/
+www.tyrvaansanomat.fi,FI,Q18662516,Tyrvään Sanomat,2,1000,http://www.tyrvaansanomat.fi/
+www.uusimaa.fi,FI,Q7903586,Uusimaa,4,1000,http://www.uusimaa.fi/
+www.vantaansanomat.fi,FI,Q18662710,Vantaan Sanomat,1,1000,https://www.vantaansanomat.fi/
+aksa.fi,FI,Q18663150,Äänekosken Kaupunkisanomat,1,5000,https://aksa.fi/
+demokraatti.fi,FI,Q11855967,Demokraatti,7,5000,https://demokraatti.fi/
+lauttakyla.fi,FI,Q11875172,,1,5000,http://www.lauttakyla.fi/
+ruotuvaki.fi,FI,Q10657864,Ruotuväki,2,5000,https://ruotuvaki.fi/
+suomenkuvalehti.fi,FI,Q3131436,Suomen Kuvalehti,10,5000,https://suomenkuvalehti.fi
+www.abounderrattelser.fi,FI,Q3141380,Åbo Underrättelser,9,5000,http://www.abounderrattelser.fi
+www.alandstidningen.ax,FI,Q3352241,Ålandstidningen,8,5000,https://www.alandstidningen.ax
+www.helsinkitimes.fi,FI,Q4040556,Helsinki Times,6,5000,https://www.helsinkitimes.fi/
+www.iijokiseutu.fi,FI,Q11864381,Iijokiseutu,1,5000,https://www.iijokiseutu.fi/
+www.itavayla.fi,FI,Q18680118,Itäväylä,1,5000,http://www.itavayla.fi/
+www.jamsanseutu.fi,FI,Q11868322,Jämsän Seutu,2,5000,https://www.jamsanseutu.fi/
+www.jarviseudunsanomat.fi,FI,Q11868391,Järviseudun Sanomat,1,5000,https://www.jarviseudunsanomat.fi/
+www.kaakonkulma.fi,FI,Q11868669,Kaakonkulma,1,5000,http://www.kaakonkulma.fi/
+www.kalajokilaakso.fi,FI,Q5480396,Kalajokilaakso,4,5000,http://www.kalajokilaakso.fi/
+www.keskilaakso.fi,FI,Q11871103,Keskilaakso,3,5000,http://www.keskilaakso.fi/
+www.kirkkojakaupunki.fi,FI,Q5406574,Kirkko ja kaupunki,1,5000,http://www.kirkkojakaupunki.fi
+www.kmvlehti.fi,FI,Q138611674,KMV-lehti,0,5000,https://www.kmvlehti.fi/
+www.kotimaa.fi,FI,Q11872819,Kotimaa,1,5000,https://www.kotimaa.fi/
+www.kuhmolainen.fi,FI,Q11873149,Kuhmolainen,1,5000,http://www.kuhmolainen.fi
+www.lansi-uusimaa.fi,FI,Q3269941,Länsi-Uusimaa,4,5000,https://www.lansi-uusimaa.fi/
+www.lieksanlehti.fi,FI,Q11875728,Lieksan Lehti,1,5000,http://www.lieksanlehti.fi
+www.merikarvialehti.fi,FI,Q18680169,Merikarvia-lehti,1,5000,https://www.merikarvialehti.fi/
+www.munoulu.fi,FI,Q132125890,Mun Oulu,0,5000,https://www.munoulu.fi/
+www.nyan.ax,FI,Q3781659,Nya Åland,8,5000,https://www.nyan.ax
+www.paivamies.fi,FI,Q11889396,Päivämies,2,5000,https://www.paivamies.fi/
+www.pitajanuutiset.fi,FI,Q11888339,Pitäjänuutiset,1,5000,https://www.pitajanuutiset.fi/
+www.pyhajokiseutu.fi,FI,Q18680199,Pyhäjokiseutu,2,5000,https://www.pyhajokiseutu.fi/
+www.rantapohja.fi,FI,Q11890070,Rantapohja,1,5000,https://www.rantapohja.fi/
+www.ruovesi-lehti.fi,FI,Q56403857,Ruovesi,1,5000,https://www.ruovesi-lehti.fi/
+www.seurakuntalainen.fi,FI,Q121544033,Seurakuntalainen,1,5000,https://www.seurakuntalainen.fi/
+www.sipoonsanomat.fi,FI,Q124847938,Sipoon Sanomat,0,5000,https://www.sipoonsanomat.fi/
+www.sotkamolehti.fi,FI,Q20737059,,1,5000,https://www.sotkamolehti.fi/
+www.suupohjansanomat.fi,FI,Q11895398,Suupohjan Sanomat,2,5000,http://www.suupohjansanomat.fi
+www.sydansatakunta.fi,FI,Q11895565,Sydän-Satakunta,1,5000,https://www.sydansatakunta.fi/
+www.uudenkaupunginsanomat.fi,FI,Q11899759,Uudenkaupungin Sanomat,2,5000,https://www.uudenkaupunginsanomat.fi/
+www.vastranyland.fi,FI,Q3365107,Västra Nyland,7,5000,http://vastranyland.fi/
+www.vihdinuutiset.fi,FI,Q28855053,Vihdin Uutiset,1,5000,https://www.vihdinuutiset.fi/
+www.ylakarjala.fi,FI,Q11902905,Ylä-Karjala,2,5000,https://www.ylakarjala.fi/
+pyhajarvensanomat.fi,FI,Q117184405,Pyhäjärven Sanomat,1,10000,http://www.pyhajarvensanomat.fi/
+selkosanomat.fi,FI,Q109803116,read easy language news Selkosanomat,0,10000,https://selkosanomat.fi/
+www.haapavesi-lehti.fi,FI,Q11861123,Haapavesi,1,10000,https://www.haapavesi-lehti.fi/
+www.iitinseutu.fi,FI,Q11864439,Iitinseutu,1,10000,https://iitinseutu.fi/
+www.jarviseutu-lehti.fi,FI,Q11868389,Järviseutu,1,10000,https://www.jarviseutu-lehti.fi/
+www.joutsenolehti.fi,FI,Q18659532,Joutseno,1,10000,http://www.joutsenolehti.fi/
+www.jurvansanomat.fi,FI,Q11867963,Jurvan Sanomat,1,10000,https://www.jurvansanomat.fi/
+www.kauhajoki-lehti.fi,FI,Q11870463,,1,10000,https://www.kauhajoki-lehti.fi
+www.kirkkonummensanomat.fi,FI,Q10545774,Kirkkonummen Sanomat,2,10000,http://kirkkonummensanomat.fi/
+www.koillis-savo.fi,FI,Q18680139,Koillis-Savo,3,10000,http://www.koillis-savo.fi
+www.komiat.fi,FI,Q11872294,Komiat,1,10000,https://www.komiat.fi/
+www.kotilappi.fi,FI,Q20251982,Koti-Lappi,1,10000,https://www.kotilappi.fi/
+www.kyronmaa-lehti.fi,FI,Q11874018,,1,10000,http://www.kyronmaa-lehti.fi/
+www.meantornionlaakso.fi,FI,Q134456525,Meän Tornionlaakso,1,10000,https://www.meantornionlaakso.fi/
+www.nivala-lehti.fi,FI,Q18660987,Nivala-lehti,1,10000,https://www.nivala-lehti.fi/
+www.orimattilansanomat.fi,FI,Q18680187,,1,10000,http://www.orimattilansanomat.fi/
+www.pielavesi-keitele.fi,FI,Q18680191,Pielavesi-Keitele,1,10000,https://www.pielavesi-keitele.fi/
+www.pitajalainen.fi,FI,Q11888335,Pitäjäläinen,1,10000,https://www.pitajalainen.fi/
+www.pogostansanomat.fi,FI,Q11888393,Pogostan Sanomat,1,10000,https://www.pogostansanomat.fi/
+www.prsanomat.fi,FI,Q18680190,Parikkalan-Rautjärven Sanomat,1,10000,https://www.prsanomat.fi/
+www.puruvesi.net,FI,Q11889155,Puruvesi,1,10000,https://www.puruvesi.net
+www.soisalonseutu.fi,FI,Q26723867,Soisalon Seutu,1,10000,http://www.soisalonseutu.fi
+www.sompio.fi,FI,Q134419781,Sompio,0,10000,https://www.sompio.fi/
+www.tejuka-lehti.fi,FI,Q11896804,Tejuka,1,10000,http://www.tejuka-lehti.fi
+www.uusijuttu.fi,FI,Q130349424,,2,10000,https://www.uusijuttu.fi/
+www.uutis-jousi.fi,FI,Q11899864,Uutis-Jousi,1,10000,https://www.uutis-jousi.fi/
+www.viiskunta.fi,FI,Q11901377,,1,10000,http://www.viiskunta.fi
+www.ylakainuu.fi,FI,Q23755004,Ylä-Kainuu,1,10000,http://www.ylakainuu.fi
+reisjarvilehti.fi,FI,Q18680203,Reisjärvi,1,50000,https://reisjarvilehti.fi/
+seutumajakka.fi,FI,Q11893117,,1,50000,https://seutumajakka.fi/
+sulkavalehti.fi,FI,Q18680210,Sulkava,1,50000,https://sulkavalehti.fi/
+tiedonantaja.fi,FI,Q5237141,Tiedonantaja,4,50000,http://www.tiedonantaja.fi
+voima.fi,FI,Q1266770,Voima,4,50000,http://www.voima.fi/
+www.heinavedenlehti.fi,FI,Q11861992,,1,50000,http://www.heinavedenlehti.fi
+www.ilmajoki-lehti.fi,FI,Q11864595,,1,50000,http://www.ilmajoki-lehti.fi
+www.inarilainen.fi,FI,Q18680113,,1,50000,http://www.inarilainen.fi/
+www.jp-kunnallissanomat.fi,FI,Q11865442,,1,50000,http://www.jp-kunnallissanomat.fi
+www.jylkkari.fi,FI,Q11868282,Jyväskylän Ylioppilaslehti,1,50000,https://www.jylkkari.fi
+www.kaarina-lehti.fi,FI,Q18659671,Kaarina,1,50000,https://www.kaarina-lehti.fi/
+www.kirkkojakoti.fi,FI,Q11871698,,1,50000,http://www.kirkkojakoti.fi
+www.kuntsari.fi,FI,Q11873442,,1,50000,http://www.kuntsari.fi/
+www.kyrkpressen.fi,FI,Q10551533,,3,50000,http://www.kyrkpressen.fi/
+www.lahitieto.fi,FI,Q18660104,Koillis-Helsingin Lähitieto,1,50000,https://www.lahitieto.fi/
+www.lappeenrannanuutiset.fi,FI,Q20252049,Lappeenrannan Uutiset,1,50000,https://www.lappeenrannanuutiset.fi/
+www.laukaa-konnevesi.fi,FI,Q139818881,,1,50000,https://www.laukaa-konnevesi.fi/
+www.lestijoki.fi,FI,Q5475711,Lestijoki,1,50000,https://www.lestijoki.fi/
+www.perhonjokilaakso.fi,FI,Q11887455,Perhonjokilaakso,1,50000,https://www.perhonjokilaakso.fi/
+www.pohjankyro-lehti.fi,FI,Q11888420,Pohjankyrö,1,50000,http://www.pohjankyro-lehti.fi
+www.puumalalehti.fi,FI,Q11889209,Puumala-lehti,1,50000,https://puumalalehti.fi/
+www.somerolehti.fi,FI,Q18662044,Somero,1,50000,https://www.somerolehti.fi/
+www.suomenselansanomat.net,FI,Q18662143,Suomenselän Sanomat,1,50000,https://www.suomenselansanomat.net/
+www.suupohjanseutu.fi,FI,Q131381714,,0,50000,https://www.suupohjanseutu.fi/
+www.tervareitti.fi,FI,Q11897021,Tervareitti,1,50000,http://www.tervareitti.fi/
+www.turuntienoo.fi,FI,Q18662485,Turun Tienoo,1,50000,http://www.turuntienoo.fi/
+www.vaasainsider.fi,FI,Q138267451,Botnia Insider,1,50000,https://www.vaasainsider.fi
+www.viitasaarenseutu.fi,FI,Q11901383,Viitasaaren Seutu,1,50000,http://www.viitasaarenseutu.fi/
+annonsbladet.fi,FI,Q11851819,Annonsbladet,2,100000,https://annonsbladet.fi/
+tammerforsaktuellt.fi,FI,Q84522009,Tammerfors Aktuellt,3,100000,https://tammerforsaktuellt.fi/
+www.aviisi.fi,FI,Q11853665,Aviisi,1,100000,https://www.aviisi.fi/
+www.hervannansanomat.fi,FI,Q11862476,Hervannan Sanomat,1,100000,http://www.hervannansanomat.fi
+www.oulunylioppilaslehti.fi,FI,Q11886121,Oulun ylioppilaslehti,1,100000,https://www.oulunylioppilaslehti.fi/
+www.pietarsaarensanomat.fi,FI,Q11888009,,1,100000,http://www.pietarsaarensanomat.fi/
+www.pku.fi,FI,Q11886695,Pargas Kungörelser – Paraisten Kuulutukset,1,100000,http://www.pku.fi/
+www.ruoholahdensanomat.fi,FI,Q11891404,Jätkäsaari–Ruoholahti,1,100000,https://www.ruoholahdensanomat.fi
+actu.fr,FR,Q97368663,actu.fr,3,1000,https://actu.fr
+france3-regions.franceinfo.fr,FR,Q133802640,,0,1000,https://france3-regions.franceinfo.fr/
+le10sport.com,FR,Q3220141,,1,1000,http://www.le10sport.com
+rmcsport.bfmtv.com,FR,Q3415245,RMC Sport,1,1000,https://rmcsport.bfmtv.com/
+www.20minutes.fr,FR,Q7245532,20 minutes,11,1000,https://www.20minutes.fr/
+www.bfmtv.com,FR,Q517444,,20,1000,https://www.bfmtv.com
+www.bienpublic.com,FR,Q3220437,Le Bien Public,6,1000,http://www.bienpublic.com/
+www.boursedirect.fr,FR,Q16533733,Bourse Direct,1,1000,http://www.boursedirect.fr
+www.capital.fr,FR,Q2937369,Capital,2,1000,https://www.capital.fr/
+www.centrepresseaveyron.fr,FR,Q2944865,Centre Presse,2,1000,https://www.centrepresseaveyron.fr/
+www.charentelibre.fr,FR,Q2957712,Charente libre,3,1000,http://www.charentelibre.fr/
+www.closermag.fr,FR,Q137186386,Closer (French edition),1,1000,https://www.closermag.fr
+www.corsematin.com,FR,Q1135428,Corse-Matin,6,1000,https://www.corsematin.com/
+www.courrier-picard.fr,FR,Q729749,Le Courrier picard,3,1000,https://www.courrier-picard.fr/
+www.courrierinternational.com,FR,Q1137712,Courrier international,13,1000,http://www.courrierinternational.com
+www.dna.fr,FR,Q381431,Dernières Nouvelles d'Alsace,10,1000,https://www.dna.fr/
+www.estrepublicain.fr,FR,Q3052319,L'Est Républicain,13,1000,https://www.estrepublicain.fr/
+www.femmeactuelle.fr,FR,Q3068228,Femme actuelle,2,1000,https://www.femmeactuelle.fr/
+www.franceinfo.fr,FR,Q51879657,France Info,0,1000,https://www.franceinfo.fr/
+www.frandroid.com,FR,Q113835901,Frandroid,1,1000,https://www.frandroid.com/
+www.huffingtonpost.fr,FR,Q3223501,Huffington Post France,2,1000,https://www.huffingtonpost.fr/
+www.ici.fr,FR,Q131698328,,9,1000,https://www.ici.fr/
+www.ladepeche.fr,FR,Q742587,La Dépêche du Midi,15,1000,http://www.ladepeche.fr/
+www.lamontagne.fr,FR,Q3210777,La Montagne,8,1000,http://www.lamontagne.fr/
+www.lanouvellerepublique.fr,FR,Q3211144,La Nouvelle République du Centre-Ouest,6,1000,https://www.lanouvellerepublique.fr/
+www.laprovence.com,FR,Q1799045,La Provence,10,1000,https://www.laprovence.com/
+www.larep.fr,FR,Q3212596,La République du Centre,3,1000,https://www.larep.fr
+www.largus.fr,FR,Q3202306,L'Argus,2,1000,https://www.largus.fr
+www.latribune.fr,FR,Q1799197,La Tribune,12,1000,https://www.latribune.fr
+www.lavoixdunord.fr,FR,Q2567583,La Voix du Nord,13,1000,https://www.lavoixdunord.fr
+www.leberry.fr,FR,Q3220419,Le Berry républicain,2,1000,http://www.leberry.fr
+www.ledauphine.com,FR,Q2642655,Le Dauphiné Libéré,9,1000,https://www.ledauphine.com
+www.lefigaro.fr,FR,Q216047,Le Figaro,63,1000,https://www.lefigaro.fr/
+www.lejdd.fr,FR,Q501461,Le Journal du Dimanche,12,1000,http://www.lejdd.fr
+www.lejsl.com,FR,Q3223737,Le Journal de Saône-et-Loire,5,1000,http://www.lejsl.com
+www.lemonde.fr,FR,Q12461,Le Monde,74,1000,https://www.lemonde.fr
+www.leparisien.fr,FR,Q142348,Le Parisien,30,1000,https://www.leparisien.fr
+www.lepoint.fr,FR,Q1810082,Le Point,17,1000,https://www.lepoint.fr/
+www.lepopulaire.fr,FR,Q3225791,Le Populaire du Centre,5,1000,http://www.lepopulaire.fr
+www.leprogres.fr,FR,Q10977,Le Progrès,7,1000,https://www.leprogres.fr
+www.lequipe.fr,FR,Q815748,L'Équipe,41,1000,https://www.lequipe.fr/
+www.lesechos.fr,FR,Q923193,Les Échos,20,1000,http://www.lesechos.fr/
+www.letelegramme.fr,FR,Q3088647,Le Télégramme,9,1000,https://www.letelegramme.fr
+www.lexpress.fr,FR,Q770596,,22,1000,https://lexpress.fr/
+www.liberation.fr,FR,Q13717,Libération,41,1000,https://www.liberation.fr/
+www.lindependant.fr,FR,Q2269524,L'Indépendant,8,1000,http://www.lindependant.fr/
+www.linternaute.com,FR,Q3204254,L'Internaute,4,1000,https://www.linternaute.com
+www.marianne.net,FR,Q3291285,Marianne,13,1000,http://www.marianne.net/
+www.mediapart.fr,FR,Q619342,Mediapart,13,1000,https://www.mediapart.fr/
+www.nicematin.com,FR,Q203853,Nice-Matin,10,1000,https://www.nicematin.com/
+www.nouvelobs.com,FR,Q1044328,Le Nouvel Obs,24,1000,https://www.nouvelobs.com/
+www.numerama.com,FR,Q3346288,Numerama,3,1000,http://www.numerama.com/
+www.ouest-france.fr,FR,Q660769,Ouest-France,20,1000,http://www.ouest-france.fr/
+www.parismatch.com,FR,Q678095,Paris Match,30,1000,https://parismatch.com
+www.petitbleu.fr,FR,Q18750711,Le Petit Bleu d'Agen,3,1000,https://www.petitbleu.fr/
+www.pointdevue.fr,FR,Q3393434,Point de vue,1,1000,http://www.pointdevue.fr/
+www.programme-television.org,FR,Q3546531,Télé 7 Jours,3,1000,https://www.programme-television.org/
+www.republicain-lorrain.fr,FR,Q3226748,Le Républicain Lorrain,10,1000,https://www.republicain-lorrain.fr/
+www.rfi.fr,FR,Q30097346,RFI,0,1000,http://www.rfi.fr/
+www.rtl.fr,FR,Q1351173,RTL,9,1000,https://www.rtl.fr/
+www.sudouest.fr,FR,Q2608774,Sud-Ouest,12,1000,http://www.sudouest.fr/
+www.tameteo.com,FR,Q137844768,Meteored France,0,1000,https://www.tameteo.com/
+www.telerama.fr,FR,Q377629,Télérama,9,1000,http://www.telerama.fr
+www.telestar.fr,FR,Q1674967,Télé Star,3,1000,https://www.telestar.fr/
+www.tf1info.fr,FR,Q111191650,TF1 info,1,1000,https://www.tf1info.fr/
+www.vosgesmatin.fr,FR,Q3563155,Vosges Matin,7,1000,http://www.vosgesmatin.fr
+atlantico.fr,FR,Q2869404,Atlantico,3,5000,https://atlantico.fr/
+fflose.com,FR,Q138847783,,0,5000,https://www.fflose.com
+investir.lesechos.fr,FR,Q3153914,Investir,3,5000,https://investir.lesechos.fr/
+jhm.fr,FR,Q3223743,Le Journal de la Haute-Marne,4,5000,http://www.jhm.fr/
+remiremontvallees.com,FR,Q110618925,Remiremontvallées.com,0,5000,https://remiremontvallees.com/
+reporterre.net,FR,Q28495146,Reporterre,2,5000,https://reporterre.net/
+vert.eco,FR,Q113359441,Vert,1,5000,https://vert.eco/
+www.aisnenouvelle.fr,FR,Q3201678,,3,5000,https://www.aisnenouvelle.fr
+www.basketusa.com,FR,Q141452733,BasketUSA,0,5000,https://www.basketusa.com/
+www.challenges.fr,FR,Q2947983,Challenges,4,5000,http://www.challenges.fr/
+www.dordognelibre.fr,FR,Q16629779,Dordogne Libre,3,5000,https://www.dordognelibre.fr/
+www.femina.fr,FR,Q3556174,,1,5000,http://www.femina.fr/
+www.france24.com,FR,Q30097304,France24.com,0,5000,https://www.france24.com/
+www.humanite.fr,FR,Q1137404,L'Humanité,30,5000,https://www.humanite.fr
+www.jeuneafrique.com,FR,Q1252739,Jeune Afrique,15,5000,http://www.jeuneafrique.com/
+www.journaldunet.com,FR,Q3223763,Le Journal du Net,2,5000,https://www.journaldunet.com
+www.la-croix.com,FR,Q1230298,La Croix,21,5000,https://www.la-croix.com/
+www.lafranceagricole.fr,FR,Q3209216,,1,5000,http://www.lafranceagricole.fr
+www.lalsace.fr,FR,Q1398234,L'Alsace,6,5000,http://www.lalsace.fr/
+www.lejdc.fr,FR,Q3223762,Le Journal du Centre,3,5000,http://www.lejdc.fr
+www.lemessager.fr,FR,Q3224515,Le Messager,1,5000,http://www.lemessager.fr
+www.lemoniteur.fr,FR,Q590961,Le Moniteur des travaux publics et du bâtiment,4,5000,http://www.lemoniteur.fr
+www.lest-eclair.fr,FR,Q3203326,L'Est-Éclair,3,5000,http://www.lest-eclair.fr
+www.lopinion.fr,FR,Q14940658,L'Opinion,7,5000,https://www.lopinion.fr/
+www.lsa-conso.fr,FR,Q3237928,,1,5000,http://www.lsa-conso.fr/
+www.nordlittoral.fr,FR,Q18750714,Nord Littoral,5,5000,http://www.nordlittoral.fr/
+www.offi.fr,FR,Q3204444,L'Officiel des spectacles,3,5000,https://www.offi.fr/
+www.oisehebdo.fr,FR,Q3349951,Oise Hebdo,1,5000,https://www.oisehebdo.fr/
+www.paris-turf.com,FR,Q3365300,Paris-Turf,1,5000,https://www.paris-turf.com/
+www.slate.fr,FR,Q64003230,slate.fr,1,5000,https://www.slate.fr/
+www.valeursactuelles.com,FR,Q3553781,Valeurs Actuelles,6,5000,https://www.valeursactuelles.com/
+tribunedelyon.fr,FR,Q3538935,Tribune de Lyon,1,10000,https://tribunedelyon.fr/
+www.ariase.com,FR,Q140137954,,0,10000,https://www.ariase.com/
+www.lagazettedescommunes.com,FR,Q3209378,La Gazette des communes,1,10000,http://www.lagazettedescommunes.com/
+www.lecanardenchaine.fr,FR,Q13709,Le Canard enchaîné,30,10000,https://www.lecanardenchaine.fr/
+www.lecourrierdelamayenne.fr,FR,Q3001304,,2,10000,https://www.lecourrierdelamayenne.fr
+www.lejournaltoulousain.fr,FR,Q65159555,Le Journal toulousain,2,10000,https://www.lejournaltoulousain.fr/
+www.lesinrocks.com,FR,Q2758142,Les Inrockuptibles,8,10000,http://www.lesinrocks.com/
+www.letarnlibre.com,FR,Q3227531,Le Tarn libre,1,10000,http://www.letarnlibre.com/
+www.rue89strasbourg.com,FR,Q121031954,,1,10000,http://www.rue89strasbourg.com
+www.usine-digitale.fr,FR,Q54438303,L'Usine digitale,1,10000,https://www.usine-digitale.fr/
+basta.media,FR,Q2887631,Basta!,1,50000,https://www.basta.media
+charliehebdo.fr,FR,Q1043104,Charlie Hebdo,98,50000,https://charliehebdo.fr
+contre-attaque.net,FR,Q110812161,Contre Attaque,2,50000,https://contre-attaque.net
+elucid.media,FR,Q115388666,Élucid,0,50000,https://elucid.media/
+journalauto.com,FR,Q3223739,,1,50000,http://www.journalauto.com/
+journaldemickey.com,FR,Q3223729,Le Journal de Mickey,5,50000,http://www.journaldemickey.com
+la-bas.org,FR,Q3269852,Là-bas si j'y suis,2,50000,https://la-bas.org/
+le1hebdo.fr,FR,Q16303413,,1,50000,https://le1hebdo.fr/
+lejournal.cnrs.fr,FR,Q114099105,CNRS le journal (Online),0,50000,https://lejournal.cnrs.fr/
+lepaysgessien.lemessager.fr,FR,Q3225335,Le Pays Gessien,1,50000,https://lepaysgessien.lemessager.fr/
+lesjours.fr,FR,Q22681427,Les Jours,2,50000,https://lesjours.fr
+lessurligneurs.eu,FR,Q131427451,Les Surligneurs,1,50000,https://www.lessurligneurs.eu/
+limpartial.fr,FR,Q3204035,L'Impartial de la Drôme,1,50000,http://www.limpartial.fr
+madeinperpignan.com,FR,Q78336896,Made In Perpignan,0,50000,https://madeinperpignan.com/
+marsactu.fr,FR,Q16663511,Marsactu,2,50000,http://www.marsactu.fr
+motorsactu.com,FR,Q138309772,,0,50000,https://motorsactu.com
+next.ink,FR,Q85788885,Next,2,50000,https://next.ink/
+orientxxi.info,FR,Q18745368,Orient XXI,2,50000,http://orientxxi.info/
+reference-trail.fr,FR,Q141598869,,0,50000,https://reference-trail.fr
+usbeketrica.com,FR,Q16682137,Usbek & Rica,1,50000,https://usbeketrica.com/
+vsd.fr,FR,Q3553009,VSD,4,50000,http://www.vsd.fr
+www.1jour1actu.com,FR,Q121672267,,0,50000,https://www.1jour1actu.com/
+www.7joursaclermont.fr,FR,Q127784340,7 Jours à Clermont,0,50000,https://www.7joursaclermont.fr/
+www.actu44.fr,FR,Q139068510,Actu44.fr,0,50000,https://www.actu44.fr
+www.agefi.fr,FR,Q3201581,L'Agefi,1,50000,https://www.agefi.fr/
+www.armenews.com,FR,Q67143938,Nouvelles d'Arménie Magazine,3,50000,http://www.armenews.com
+www.arretsurimages.net,FR,Q703888,Arrêt sur images,3,50000,https://www.arretsurimages.net
+www.batiactu.com,FR,Q114090040,BatiActu,0,50000,https://www.batiactu.com/
+www.be.com,FR,Q2892712,,1,50000,http://www.be.com
+www.brut.media,FR,Q28485754,Brut,2,50000,https://www.brut.media/
+www.connaissancedesenergies.org,FR,Q141181234,,0,50000,https://www.connaissancedesenergies.org
+www.connexionfrance.com,FR,Q7727374,The Connexion,1,50000,http://www.connexionfrance.com
+www.echoancenis.fr,FR,Q141109093,,0,50000,https://www.echoancenis.fr
+www.echoduberry.fr,FR,Q3205152,,1,50000,https://www.echoduberry.fr/
+www.eklecty-city.fr,FR,Q124963272,Eklecty-City,0,50000,https://www.eklecty-city.fr/
+www.famillechretienne.fr,FR,Q3065584,Famille chrétienne,2,50000,https://www.famillechretienne.fr/
+www.franc-tireur.fr,FR,Q108884378,Franc-Tireur,1,50000,https://www.franc-tireur.fr
+www.francesoir.fr,FR,Q102046083,FranceSoir,1,50000,http://www.francesoir.fr/
+www.hautanjou.fr,FR,Q3128390,,1,50000,https://www.hautanjou.fr/
+www.hauteprovenceinfo.com,FR,Q3128511,,1,50000,http://www.hauteprovenceinfo.com/
+www.hebdo-ardeche.fr,FR,Q3203449,,1,50000,http://www.hebdo-ardeche.fr
+www.la-thierache.fr,FR,Q3213137,,1,50000,http://www.la-thierache.fr/
+www.ladepechedubassin.fr,FR,Q3208484,,1,50000,https://www.ladepechedubassin.fr/
+www.lagazettedemontpellier.fr,FR,Q3209372,,3,50000,https://www.lagazettedemontpellier.fr/
+www.lalozerenouvelle.com,FR,Q3264476,Lozère Nouvelle,1,50000,https://www.lalozerenouvelle.com/
+www.lapressedevesoul.com,FR,Q38148398,The Vesoul Press,0,50000,https://www.lapressedevesoul.com/
+www.lasemaineduroussillon.com,FR,Q3212781,,2,50000,https://www.lasemaineduroussillon.com/
+www.lavie.fr,FR,Q3213561,La Vie,5,50000,http://www.lavie.fr/
+www.le7.info,FR,Q133278235,Le 7,0,50000,https://www.le7.info/
+www.lenouveleconomiste.fr,FR,Q3225059,Le Nouvel Économiste,3,50000,http://www.lenouveleconomiste.fr/
+www.lepelerin.com,FR,Q3226097,Le Pèlerin,4,50000,https://www.lepelerin.com
+www.lhebdo17.fr,FR,Q114148626,L'Hebdo de Charente-Maritime,0,50000,https://lhebdo17.fr/
+www.linforme.com,FR,Q131363283,L'Informé,1,50000,https://www.linforme.com
+www.lobservateur.fr,FR,Q110985780,L'Observateur,0,50000,https://www.lobservateur.fr/
+www.lyonpeople.com,FR,Q11378873,Lyon People,0,50000,https://www.lyonpeople.com/
+www.maddyness.com,FR,Q123505580,Maddyness UK,2,50000,https://www.maddyness.com
+www.maxi-mag.fr,FR,Q3302437,,1,50000,http://www.maxi-mag.fr//
+www.mediabask.eus,FR,Q20492408,Mediabask,3,50000,https://www.mediabask.eus/
+www.mediacites.fr,FR,Q47529515,Mediacités,1,50000,https://www.mediacites.fr
+www.medias-presse.info,FR,Q140893643,,0,50000,https://www.medias-presse.info/
+www.monde-diplomatique.fr,FR,Q858121,Le Monde diplomatique,33,50000,https://www.monde-diplomatique.fr/
+www.olyrix.com,FR,Q110296496,Olyrix,0,50000,https://www.olyrix.com/
+www.paysan-breton.fr,FR,Q20830821,Paysan Breton,2,50000,http://www.paysan-breton.fr/
+www.pharedere.com,FR,Q3225572,Le Phare de Ré,1,50000,http://www.pharedere.com/
+www.politis.fr,FR,Q511952,Politis,5,50000,https://www.politis.fr/
+www.reforme.net,FR,Q3454763,Réforme,1,50000,http://www.reforme.net
+www.rose-up.fr,FR,Q107559368,,1,50000,https://www.rose-up.fr/
+www.strategies.fr,FR,Q3500156,Stratégies,1,50000,http://www.strategies.fr
+www.streetpress.com,FR,Q3500224,StreetPress,3,50000,https://www.streetpress.com/
+www.telepoche.fr,FR,Q517477,Télé Poche,2,50000,https://www.telepoche.fr/
+www.toute-la-franchise.com,FR,Q136530663,,0,50000,https://www.toute-la-franchise.com/
+aoc.media,FR,Q96250806,AOC media,1,100000,https://aoc.media/
+econostrum.info,FR,Q94944052,econostrum.info,0,100000,https://econostrum.info/
+jai-un-pote-dans-la.com,FR,Q139054735,J'ai un pote dans la com,0,100000,https://jai-un-pote-dans-la.com
+le-crestois.fr,FR,Q3221928,Le Crestois,1,100000,https://le-crestois.fr/
+nvo.fr,FR,Q3211149,La Vie Ouvrière,6,100000,https://nvo.fr/
+revue21.fr,FR,Q3570471,XXI,2,100000,https://revue21.fr/
+stephanelarue.com,FR,Q141425751,stephanelarue.com,0,100000,https://stephanelarue.com/
+www.affiches.fr,FR,Q3230394,,1,100000,https://www.affiches.fr
+www.booska-p.com,FR,Q28495325,Booska-P,2,100000,http://www.booska-p.com
+www.chaosreign.fr,FR,Q30740074,,1,100000,https://www.chaosreign.fr/
+www.france-catholique.fr,FR,Q3080786,France catholique,1,100000,http://www.france-catholique.fr
+www.intelligenceonline.fr,FR,Q3153004,Intelligence Online,4,100000,http://www.intelligenceonline.fr
+www.ladn.eu,FR,Q139305569,L'ADN,0,100000,https://www.ladn.eu
+www.lagglorieuse.info,FR,Q78642539,L'AgglOrieuse,1,100000,http://www.lagglorieuse.info/
+www.le-republicain.fr,FR,Q3226743,Le Républicain,2,100000,http://www.le-republicain.fr
+www.lemondeinformatique.fr,FR,Q3224708,Le Monde informatique,1,100000,https://www.lemondeinformatique.fr/
+www.telecablesat.fr,FR,Q3546596,,1,100000,http://www.telecablesat.fr/
+www.thelocal.fr,FR,Q63110864,The Local France,0,100000,https://www.thelocal.fr/
+pelop.gr,GR,Q3564195,Peloponnisos,3,1000,http://www.pelop.gr/
+sportday.gr,GR,Q12871990,SportDay,1,1000,http://www.sportday.gr
+tomanifesto.gr,GR,Q139901419,ToManifesto.gr,1,1000,https://tomanifesto.gr/
+www.alfavita.gr,GR,Q109612549,Alfavita,0,1000,https://www.alfavita.gr/
+www.athensvoice.gr,GR,Q61356289,Athens Voice,2,1000,http://www.athensvoice.gr/
+www.athinorama.gr,GR,Q131523292,Athinorama,0,1000,https://www.athinorama.gr/
+www.cnn.gr,GR,Q108400128,CNN Greece,0,1000,https://www.cnn.gr/
+www.culturenow.gr,GR,Q130388090,CultureNow.gr,0,1000,https://www.culturenow.gr/
+www.documentonews.gr,GR,Q77071263,Documento,1,1000,https://www.documentonews.gr/
+www.enikos.gr,GR,Q138652257,ENIKOS,0,1000,https://www.enikos.gr/
+www.espressonews.gr,GR,Q114080552,Espresso,0,1000,https://www.espressonews.gr/
+www.ethnos.gr,GR,Q2466270,Ethnos,5,1000,https://www.ethnos.gr/
+www.fosonline.gr,GR,Q18692650,,1,1000,https://www.fosonline.gr/
+www.huffingtonpost.gr,GR,Q104413855,HuffPost Greece,0,1000,https://www.huffingtonpost.gr/
+www.iefimerida.gr,GR,Q105590147,iefimerida.gr,1,1000,https://www.iefimerida.gr/
+www.kathimerini.gr,GR,Q144999,Kathimerini,21,1000,http://www.kathimerini.gr
+www.koutipandoras.gr,GR,Q137612076,,0,1000,https://www.koutipandoras.gr/
+www.lifo.gr,GR,Q61989571,LiFO,3,1000,https://www.lifo.gr
+www.mixanitouxronou.gr,GR,Q132181298,Mixani tou Xronou,0,1000,https://www.mixanitouxronou.gr/
+www.naftemporiki.gr,GR,Q598237,Naftemporiki,6,1000,https://www.naftemporiki.gr/
+www.neakriti.gr,GR,Q135640539,Nea Kriti,0,1000,https://www.neakriti.gr/
+www.news247.gr,GR,Q108393851,News 24/7,0,1000,https://www.news247.gr/
+www.newsbeast.gr,GR,Q114688229,newsbeast,0,1000,https://www.newsbeast.gr/
+www.oneman.gr,GR,Q129324694,OneMan,0,1000,https://www.oneman.gr/
+www.parapolitika.gr,GR,Q134511228,,0,1000,https://www.parapolitika.gr/
+www.protagon.gr,GR,Q125546374,Protagon,0,1000,https://www.protagon.gr/
+www.queen.gr,GR,Q118414900,Queen.gr,0,1000,https://www.queen.gr
+www.real.gr,GR,Q136434469,Real News,0,1000,https://www.real.gr
+www.rizospastis.gr,GR,Q2984883,Rizospastis,10,1000,https://rizospastis.gr/
+www.tanea.gr,GR,Q921655,Ta Nea,16,1000,https://www.tanea.gr/
+www.taxydromos.gr,GR,Q12885269,,1,1000,https://www.taxydromos.gr/
+www.tharrosnews.gr,GR,Q63473805,Tharros,1,1000,https://www.tharrosnews.gr/
+www.thetoc.gr,GR,Q136001805,The TOC,0,1000,https://www.thetoc.gr/
+www.tovima.gr,GR,Q1440457,To Vima,14,1000,https://www.tovima.gr/
+www.zougla.gr,GR,Q114662895,Zougla,0,1000,https://www.zougla.gr/
+argolika.gr,GR,Q126088792,Argolika,0,5000,https://argolika.gr
+e-thessalia.gr,GR,Q16737679,Thessalia,1,5000,https://e-thessalia.gr/
+elculture.gr,GR,Q111443806,elculture,0,5000,https://www.elculture.gr/
+eviathema.gr,GR,Q110310390,Eviathema.gr,0,5000,https://eviathema.gr
+olympiobima.gr,GR,Q131703827,Olympio Vima,1,5000,https://olympiobima.gr
+rethnea.gr,GR,Q19327053,,1,5000,https://rethnea.gr/
+www.avgi.gr,GR,Q1655152,I Avgi,9,5000,http://www.avgi.gr
+www.eleftherostypos.gr,GR,Q572893,Eleftheros Typos,11,5000,http://www.eleftherostypos.gr/
+www.estianews.gr,GR,Q1370164,Estia,10,5000,http://www.estianews.gr/
+classicalmusic.gr,GR,Q134894070,classicalmusic.gr,0,50000,https://classicalmusic.gr/
+ekorinthos.gr,GR,Q126371115,eKorinthos,0,50000,https://ekorinthos.gr
+kerkyraikiapopsi.gr,GR,Q140263988,Kerkyraiki Apopsi,0,50000,https://kerkyraikiapopsi.gr
+www.aera.gr,GR,Q141312395,aera.gr,0,50000,https://aera.gr
+www.stoxos.gr,GR,Q3555433,Stochos,6,50000,https://www.stoxos.gr/
+www.tvfreaks.gr,GR,Q141021187,,0,50000,https://www.tvfreaks.gr
+elthraki.gr,GR,Q12876921,,1,100000,http://elthraki.gr/
+www.kritep.gr,GR,Q28464437,,1,100000,http://www.kritep.gr
+slobodnadalmacija.hr,HR,Q1281282,Slobodna Dalmacija,15,1000,http://www.slobodnadalmacija.hr/
+www.24sata.hr,HR,Q217315,24sata,10,1000,https://www.24sata.hr/
+www.glasistre.hr,HR,Q5250252,Glas Istre,7,1000,http://www.glasistre.hr/
+www.jutarnji.hr,HR,Q1278377,Jutarnji list,12,1000,http://www.jutarnji.hr
+www.novilist.hr,HR,Q478374,Novi list,13,1000,http://www.novilist.hr/
+www.poslovni.hr,HR,Q7233344,Poslovni dnevnik,2,1000,http://www.poslovni.hr/
+www.telegram.hr,HR,Q25502975,Telegram,2,1000,https://www.telegram.hr/
+www.vecernji.hr,HR,Q241622,Večernji list,16,1000,http://vecernji.hr
+www.glas-koncila.hr,HR,Q489650,Glas Koncila,10,5000,http://www.glas-koncila.hr/
+www.narodni-list.hr,HR,Q5237973,Narodni list,4,50000,http://www.narodni-list.hr
+24.hu,HU,Q61599729,24.hu,3,1000,https://24.hu/
+444.hu,HU,Q21590068,444.hu,3,1000,https://444.hu/
+atlatszo.hu,HU,Q20439614,Atlatszo,1,1000,https://www.atlatszo.hu
+dehir.hu,HU,Q100674203,dehir.hu,0,1000,https://www.dehir.hu/
+femina.hu,HU,Q108512779,Femina.hu,0,1000,https://femina.hu/
+hang.hu,HU,Q61365778,,1,1000,https://hang.hu/
+hvg.hu,HU,Q545531,Heti Világgazdaság,12,1000,http://www.hvg.hu
+index.hu,HU,Q1096870,Index.hu,9,1000,http://www.index.hu
+infostart.hu,HU,Q97200118,,1,1000,https://infostart.hu/
+magyarnemzet.hu,HU,Q25452131,Magyar Nemzet,7,1000,http://magyarnemzet.hu
+media1.hu,HU,Q93358108,Media1,0,1000,https://www.media1.hu/
+nepszava.hu,HU,Q102423859,nepszava.hu,1,1000,https://nepszava.hu/
+szeged365.hu,HU,Q139591513,,1,1000,https://szeged365.hu/
+telex.hu,HU,Q98924172,telex.hu,6,1000,https://telex.hu
+totalcar.hu,HU,Q18536549,,1,1000,http://totalcar.hu
+www.beol.hu,HU,Q854085,Beol.hu,1,1000,https://www.beol.hu/
+www.blikk.hu,HU,Q804491,Blikk,7,1000,http://www.blikk.hu
+www.delmagyar.hu,HU,Q903570,delmagyar.hu,1,1000,http://www.delmagyar.hu/
+www.economx.hu,HU,Q16522090,,1,1000,https://www.economx.hu/
+www.forbes.hu,HU,Q56654041,Forbes,2,1000,http://forbes.hu/
+www.haon.hu,HU,Q100673195,HAON,0,1000,https://haon.hu/
+www.kisalfold.hu,HU,Q108687877,Kisalföld,0,1000,https://www.kisalfold.hu/
+www.magyarkurir.hu,HU,Q1162034,Magyar Kurír,2,1000,https://www.magyarkurir.hu/
+www.nemzetisport.hu,HU,Q1216668,Nemzeti Sport,8,1000,http://www.nemzetisport.hu/
+www.origo.hu,HU,Q946165,Origo,4,1000,https://www.origo.hu/
+www.penzcentrum.hu,HU,Q107239679,Pénzcentrum.hu,1,1000,https://www.penzcentrum.hu
+www.portfolio.hu,HU,Q56117634,portfolio.hu,3,1000,http://www.portfolio.hu
+www.valaszonline.hu,HU,Q66317372,Válasz Online,1,1000,https://www.valaszonline.hu/
+www.vaol.hu,HU,Q616165,Vas Népe,3,1000,http://www.vaol.hu
+www.veol.hu,HU,Q1425799,Veszprém Megyei Napló,2,1000,https://veol.hu/
+www.vg.hu,HU,Q25467195,Világgazdaság,3,1000,http://www.vg.hu/
+168.hu,HU,Q304369,168 Óra,4,5000,https://168.hu
+demokrata.hu,HU,Q927372,Magyar Demokrata,4,5000,http://www.demokrata.hu/
+epiteszforum.hu,HU,Q76011044,,1,5000,https://epiteszforum.hu/
+fidelio.hu,HU,Q107424673,fidelio.hu,0,5000,https://fidelio.hu/
+litera.hu,HU,Q113412907,Litera.hu,1,5000,https://litera.hu/
+magyarhirlap.hu,HU,Q898393,Magyar Hírlap,8,5000,https://magyarhirlap.hu/
+magyarnarancs.hu,HU,Q651179,Magyar Narancs,4,5000,https://magyarnarancs.hu/
+merce.hu,HU,Q39075553,Mérce,2,5000,https://merce.hu/
+www.es.hu,HU,Q274581,Élet és Irodalom,6,5000,http://www.es.hu/
+www.hungaricana.hu,HU,Q84507326,Hungaricana,1,5000,https://hungaricana.hu/
+www.hwsw.hu,HU,Q1032163,,1,5000,http://hwsw.hu/
+www.turistamagazin.hu,HU,Q61730214,,1,5000,https://www.turistamagazin.hu/
+alfahir.hu,HU,Q97192831,,1,50000,https://alfahir.hu/
+garfieldmagazin.hu,HU,Q1008324,,1,50000,http://www.garfieldmagazin.hu/
+metropol.hu,HU,Q105854578,,2,50000,https://metropol.hu/
+pestisracok.hu,HU,Q20631464,PestiSrácok.hu,1,50000,http://pestisracok.hu/
+reformatusoklapja.hu,HU,Q1246804,,1,50000,https://reformatusoklapja.hu/
+www.budapester.hu,HU,Q120305058,Budapester Zeitung,0,50000,http://www.budapester.hu/
+eletestudomany.hu,HU,Q1470662,Élet és Tudomány,1,100000,https://eletestudomany.hu/
+mozgovilag.hu,HU,Q1179624,Mozgó Világ,1,100000,http://mozgovilag.hu/
+wakeupmagazin.hu,HU,Q139591501,,1,100000,https://wakeupmagazin.hu/
+extra.ie,IE,Q67271284,extra.ie,1,1000,https://extra.ie
+traleetoday.ie,IE,Q131683749,TraleeToday.ie,0,1000,https://TraleeToday.ie
+www.anglocelt.ie,IE,Q7713804,The Anglo-Celt,2,1000,http://www.anglocelt.ie
+www.breakingnews.ie,IE,Q96677732,BreakingNews.ie,0,1000,https://www.breakingnews.ie/
+www.businesspost.ie,IE,Q3522922,Business Post,4,1000,http://www.businesspost.ie/
+www.carlow-nationalist.ie,IE,Q5042856,The Nationalist and Leinster Times,2,1000,http://www.carlow-nationalist.ie/
+www.con-telegraph.ie,IE,Q5161342,Connaught Telegraph,2,1000,https://www.con-telegraph.ie/
+www.crimeworld.com,IE,Q7639596,Crime World,3,1000,https://www.crimeworld.com/
+www.independent.ie,IE,Q1590833,Irish Independent,24,1000,http://www.independent.ie
+www.irishexaminer.com,IE,Q1520619,Irish Examiner,10,1000,http://www.irishexaminer.com
+www.irishmirror.ie,IE,Q99701325,Irish Daily Mirror,0,1000,https://www.irishmirror.ie/
+www.irishracing.com,IE,Q136753378,Irishracing,0,1000,https://www.irishracing.com/
+www.irishtimes.com,IE,Q1134208,The Irish Times,33,1000,http://www.irishtimes.com
+www.kildare-nationalist.ie,IE,Q97578016,Kildare Nationalist,0,1000,https://kildare-nationalist.ie/
+www.kildarenow.com,IE,Q136364138,KildareNow.com,1,1000,https://www.kildarenow.com
+www.laois-nationalist.ie,IE,Q97578177,The Laois Nationalist,0,1000,https://laois-nationalist.ie/
+www.limerickleader.ie,IE,Q6549265,Limerick Leader,3,1000,https://www.limerickleader.ie/
+www.longfordleader.ie,IE,Q6673836,Longford Leader,1,1000,http://www.longfordleader.ie
+www.mayonews.ie,IE,Q15043309,Mayo News,2,1000,http://www.mayonews.ie/
+www.thejournal.ie,IE,Q7711643,TheJournal.ie,4,1000,http://www.thejournal.ie
+www.thesun.ie,IE,Q134463048,The Irish Sun,2,1000,https://www.thesun.ie
+www.westmeathexaminer.ie,IE,Q7989086,Westmeath Examiner,1,1000,http://www.westmeathexaminer.ie/
+avondhupress.ie,IE,Q99430062,The Avondhu,0,5000,https://avondhupress.ie/
+clareherald.com,IE,Q99416535,The Clare Herald,1,5000,http://clareherald.com/
+www.carlowlive.ie,IE,Q61745892,Carlow Live,0,5000,https://www.carlowlive.ie
+www.echo.ie,IE,Q7731482,The Echo,1,5000,http://www.echo.ie
+www.irishstar.com,IE,Q134433392,Irish Star,0,5000,https://www.irishstar.com/
+tuairisc.ie,IE,Q22092171,Tuairisc.ie,6,10000,https://tuairisc.ie/
+extrag.ie,IE,Q115954829,,1,50000,https://extrag.ie/
+gcn.ie,IE,Q5528565,Gay Community News,3,50000,https://gcn.ie
+universitytimes.ie,IE,Q7771614,The University Times,1,50000,http://www.universitytimes.ie
+www.anphoblacht.com,IE,Q482484,An Phoblacht,9,50000,http://www.anphoblacht.com/
+www.munster-express.ie,IE,Q7752641,The Munster Express,1,50000,https://www.munster-express.ie/
+comhar.ie,IE,Q5151720,Comhar,2,100000,https://comhar.ie/
+irishtechnews.ie,IE,Q136471548,Irish Tech News,0,100000,https://irishtechnews.ie/
+aostasera.it,IT,Q138788787,Aosta sera,0,1000,https://aostasera.it/
+corrieredelveneto.corriere.it,IT,Q3694506,Corriere del Veneto,1,1000,https://corrieredelveneto.corriere.it
+gds.it,IT,Q1069383,Giornale di Sicilia,11,1000,https://gds.it
+www.altoadige.it,IT,Q443329,Alto Adige,4,1000,http://www.altoadige.it
+www.avvenire.it,IT,Q661495,Avvenire,11,1000,https://www.avvenire.it/
+www.corriere.it,IT,Q309135,Corriere della Sera,43,1000,https://www.corriere.it
+www.corriereadriatico.it,IT,Q3694488,Corriere Adriatico,4,1000,https://www.corriereadriatico.it/
+www.corrieredellosport.it,IT,Q1135353,Corriere dello Sport ‒ Stadio,16,1000,https://www.corrieredellosport.it/
+www.corriereromagna.it,IT,Q3694498,Corriere Romagna,3,1000,http://www.corriereromagna.it/
+www.dagospia.com,IT,Q3700858,Dagospia,2,1000,https://www.dagospia.com
+www.ecodibergamo.it,IT,Q3817993,L'Eco di Bergamo,6,1000,http://www.ecodibergamo.it/
+www.editorialedomani.it,IT,Q99347116,Domani,4,1000,https://www.editorialedomani.it/
+www.gazzetta.it,IT,Q651988,La Gazzetta dello Sport,38,1000,https://www.gazzetta.it/
+www.giornaledibrescia.it,IT,Q3765886,Giornale di Brescia,5,1000,http://www.giornaledibrescia.it/
+www.greenme.it,IT,Q141120615,,1,1000,https://www.greenme.it/
+www.huffingtonpost.it,IT,Q130476517,HuffPost Italia,1,1000,https://www.huffingtonpost.it
+www.ilcentro.it,IT,Q1052020,il Centro,3,1000,https://www.ilcentro.it/
+www.ilfattoquotidiano.it,IT,Q1051087,Il Fatto Quotidiano,11,1000,https://www.ilfattoquotidiano.it
+www.ilfoglio.it,IT,Q3148456,Il Foglio,10,1000,https://www.ilfoglio.it/
+www.ilgiornale.it,IT,Q1051115,Il Giornale,17,1000,http://www.ilgiornale.it
+www.ilgiornaledellarte.com,IT,Q3792750,,1,1000,https://www.ilgiornaledellarte.com/
+www.ilgiorno.it,IT,Q3148459,Il Giorno,5,1000,https://www.ilgiorno.it/
+www.ilmattino.it,IT,Q605734,Il Mattino,14,1000,https://www.ilmattino.it
+www.ilmessaggero.it,IT,Q1658225,Il Messaggero,21,1000,http://www.ilmessaggero.it
+www.ilmeteo.net,IT,Q137837872,,0,1000,https://www.ilmeteo.net/
+www.ilnapolista.it,IT,Q139270313,il Napolista,0,1000,https://www.ilnapolista.it
+www.ilpescara.it,IT,Q119098329,IlPescara,0,1000,https://www.ilpescara.it/
+www.ilpiccolo.it,IT,Q1658246,Il Piccolo,9,1000,http://www.ilpiccolo.it/
+www.ilpost.it,IT,Q3792882,il Post,5,1000,http://www.ilpost.it
+www.ilrestodelcarlino.it,IT,Q1050786,Il Resto del Carlino,8,1000,http://www.ilrestodelcarlino.it/
+www.ilsecoloxix.it,IT,Q126586,Il Secolo XIX,6,1000,https://www.ilsecoloxix.it/
+www.ilsole24ore.com,IT,Q1658262,Il Sole 24 Ore,17,1000,https://www.ilsole24ore.com
+www.iltempo.it,IT,Q1077230,Il Tempo,5,1000,https://www.iltempo.it
+www.iltirreno.it,IT,Q3148477,Il Tirreno,3,1000,https://www.iltirreno.it/
+www.lagazzettadelmezzogiorno.it,IT,Q3209389,La Gazzetta del Mezzogiorno,6,1000,http://www.lagazzettadelmezzogiorno.it/
+www.lanuovasardegna.it,IT,Q635392,La Nuova Sardegna,7,1000,http://www.lanuovasardegna.it/
+www.lastampa.it,IT,Q923353,La Stampa,35,1000,https://www.lastampa.it
+www.laverita.info,IT,Q30891107,La Verità,2,1000,https://www.laverita.info
+www.leggo.it,IT,Q1079880,Leggo,7,1000,http://www.leggo.it/
+www.liberoquotidiano.it,IT,Q536798,Libero,9,1000,https://www.liberoquotidiano.it
+www.liberta.it,IT,Q2276427,Libertà,6,1000,http://www.liberta.it/
+www.linkiesta.it,IT,Q3833052,Linkiesta,3,1000,http://www.linkiesta.it
+www.messaggeroveneto.it,IT,Q1092909,Messaggero Veneto – Giornale del Friuli,5,1000,http://www.messaggeroveneto.it/
+www.milanofinanza.it,IT,Q3841291,MF Milano Finanza,2,1000,http://www.milanofinanza.it/
+www.milanotoday.it,IT,Q59367628,MilanoToday,1,1000,http://www.milanotoday.it/
+www.napolitoday.it,IT,Q41558607,Napoli Today,0,1000,https://napolitoday.it
+www.open.online,IT,Q108842680,Open,0,1000,https://www.open.online
+www.prealpina.it,IT,Q3821075,La Prealpina,1,1000,http://www.prealpina.it/
+www.quotidiano.net,IT,Q3928075,Quotidiano Nazionale,3,1000,https://www.quotidiano.net
+www.repubblica.it,IT,Q85329,La Repubblica,43,1000,https://www.repubblica.it
+www.secoloditalia.it,IT,Q3476998,Secolo d'Italia,6,1000,https://www.secoloditalia.it
+www.sportmediaset.mediaset.it,IT,Q3967045,Sport Mediaset,1,1000,https://www.sportmediaset.mediaset.it/
+www.tgcom24.mediaset.it,IT,Q3875645,Tgcom24,1,1000,http://www.tgcom24.mediaset.it/
+www.today.it,IT,Q86662765,Today,1,1000,http://www.today.it
+www.tuttosport.com,IT,Q1600045,Tuttosport,19,1000,https://www.tuttosport.com/
+www.unionesarda.it,IT,Q1548903,L'Unione Sarda,8,1000,http://www.unionesarda.it/
+www.varesenews.it,IT,Q4008723,VareseNews,1,1000,http://www.varesenews.it
+gazzettadelsud.it,IT,Q598457,Gazzetta del Sud,11,5000,https://gazzettadelsud.it/
+ilmanifesto.it,IT,Q642381,Il manifesto,19,5000,https://ilmanifesto.it
+salto.bz,IT,Q56294825,,1,5000,https://www.salto.bz
+vocedimantova.it,IT,Q3821314,,1,5000,http://www.vocedimantova.it/
+www.abruzzoweb.it,IT,Q118869332,AbruzzoWeb,0,5000,https://abruzzoweb.it/
+www.affaritaliani.it,IT,Q3606156,Affaritaliani,2,5000,http://www.affaritaliani.it/
+www.altalex.com,IT,Q53537012,Altalex,0,5000,http://www.altalex.com/
+www.bresciaoggi.it,IT,Q3644337,Bresciaoggi,4,5000,http://www.bresciaoggi.it/
+www.citynow.it,IT,Q141551202,,0,5000,https://www.citynow.it/
+www.dday.it,IT,Q139860072,DDay.it,0,5000,https://www.dday.it
+www.gazzettadimantova.it,IT,Q3099813,La Gazzetta di Mantova,10,5000,http://www.gazzettadimantova.it/
+www.gazzettaregionale.it,IT,Q137857286,Gazzetta Regionale,0,5000,https://www.gazzettaregionale.it/
+www.ilcittadinomb.it,IT,Q3792616,Il Cittadino,2,5000,http://www.ilcittadinomb.it/
+www.ildubbio.news,IT,Q60039987,Il Dubbio,3,5000,http://ildubbio.news/
+www.ilroma.net,IT,Q637502,Il Roma,4,5000,http://www.ilroma.net/
+www.ilvibonese.it,IT,Q140985427,Il Vibonese,0,5000,https://www.ilvibonese.it/
+www.italiaoggi.it,IT,Q3804150,Italia Oggi,3,5000,http://www.italiaoggi.it/
+www.lacapitalenews.it,IT,Q140996145,LaCapitale,0,5000,https://www.lacapitalenews.it/
+www.lacnews24.it,IT,Q138643130,LaC News24,1,5000,https://www.lacnews24.it/
+www.lanuovaferrara.it,IT,Q1052939,La Nuova Ferrara,5,5000,https://www.lanuovaferrara.it/
+www.legnanonews.com,IT,Q105658903,LegnanoNews,0,5000,https://www.legnanonews.com
+www.lindipendente.online,IT,Q117087647,L'Indipendente,0,5000,https://www.lindipendente.online/
+www.pianetabasket.com,IT,Q135857556,,0,5000,https://www.pianetabasket.com
+www.pianetalecce.it,IT,Q141087823,,0,5000,https://www.pianetalecce.it/
+www.quotidianodelsud.it,IT,Q3148469,Il Quotidiano del Sud,4,5000,https://www.quotidianodelsud.it/
+www.rinnovabili.it,IT,Q137535200,,0,5000,https://www.rinnovabili.it
+www.settimananews.it,IT,Q134590487,,0,5000,https://www.settimananews.it
+www.wired.it,IT,Q65125387,Wired Italia,1,5000,https://www.wired.it/
+qds.it,IT,Q2363052,Quotidiano di Sicilia,7,10000,https://www.qds.it/
+www.cronachemaceratesi.it,IT,Q116255773,Cronache Maceratesi,0,10000,https://www.cronachemaceratesi.it
+www.ilcrotonese.it,IT,Q3792647,il Crotonese,1,10000,https://www.ilcrotonese.it
+www.ildenaro.it,IT,Q3792654,,1,10000,https://www.ildenaro.it/
+www.ilreggino.it,IT,Q140984447,Il Reggino,0,10000,https://www.ilreggino.it/
+www.lanotiziagiornale.it,IT,Q63994125,La Notizia,1,10000,http://www.lanotiziagiornale.it
+www.money.it,IT,Q138347575,,0,10000,https://www.money.it
+www.primorski.eu,IT,Q1513049,Primorski dnevnik,8,10000,http://www.primorski.eu
+www.qualenergia.it,IT,Q137459361,,0,10000,https://www.qualenergia.it
+www.tp24.it,IT,Q138464356,Tp24,0,10000,https://www.tp24.it/
+www.xiaomitoday.it,IT,Q139705352,XiaomiToday,0,10000,https://www.xiaomitoday.it
+bsnews.it,IT,Q57655863,Bsnews,1,50000,http://www.bsnews.it
+cinecittanews.it,IT,Q139066404,,1,50000,https://cinecittanews.it/
+ilgiornaledellarchitettura.com,IT,Q3792748,Il Giornale dell’Architettura,1,50000,https://ilgiornaledellarchitettura.com/
+swz.it,IT,Q15849897,,1,50000,http://www.swz.it
+www.balcanicaucaso.org,IT,Q22442821,Osservatorio Balcani e Caucaso Transeuropa,5,50000,https://www.balcanicaucaso.org
+www.blitzquotidiano.it,IT,Q97370577,Blitz Quotidiano,1,50000,https://www.blitzquotidiano.it
+www.cinemaitaliano.info,IT,Q108143126,Cinemaitaliano.info,0,50000,https://www.cinemaitaliano.info/
+www.ilprimatonazionale.it,IT,Q97899407,Il Primato Nazionale,1,50000,https://www.ilprimatonazionale.it/
+www.notizie.it,IT,Q139942590,notizie.it,0,50000,https://www.notizie.it
+www.robadadonne.it,IT,Q102077426,Roba da Donne,0,50000,https://www.robadadonne.it
+www.tecnoandroid.it,IT,Q138840840,Tecnoandroid,0,50000,https://www.tecnoandroid.it/
+www.tgmax.it,IT,Q123030829,Telemax,0,50000,https://www.tgmax.it/
+www.thesocialpost.it,IT,Q138858067,The Social Post,0,50000,https://www.thesocialpost.it
+www.unita.it,IT,Q1051163,L'Unità,26,50000,https://www.unita.it/
+www.wallstreetitalia.com,IT,Q4017828,Wall Street Italia,1,50000,http://www.wallstreetitalia.com
+messaggerosantantonio.it,IT,Q3855322,Messenger of Saint Anthony,4,100000,https://messaggerosantantonio.it/
+tarantosera.it,IT,Q32173189,,1,100000,https://tarantosera.it
+www.2duerighe.com,IT,Q119789033,2duerighe,0,100000,https://www.2duerighe.com/
+www.catanzarochannel.it,IT,Q140984975,,0,100000,https://www.catanzarochannel.it/
+www.diredonna.it,IT,Q102149361,DireDonna,0,100000,https://diredonna.it/
+www.gravidanzaonline.it,IT,Q102147822,GravidanzaOnline,0,100000,https://www.gravidanzaonline.it
+www.hynerd.it,IT,Q110627829,Hynerd.it,0,100000,https://www.hynerd.it
+www.sbircialanotizia.it,IT,Q104771911,Sbircia la Notizia Magazine,0,100000,https://www.sbircialanotizia.it
+kauno.diena.lt,LT,Q1634171,Kauno diena,11,1000,https://kauno.diena.lt/
+ve.lt,LT,Q5764005,Vakarų ekspresas,6,1000,http://www.ve.lt/
+www.kaipkada.lt,LT,Q141479944,Kaipkada.lt,0,1000,https://www.kaipkada.lt
+www.lrytas.lt,LT,Q1824397,Lietuvos rytas,13,1000,https://www.lrytas.lt/
+www.respublika.lt,LT,Q2739951,Respublika,7,1000,http://www.respublika.lt
+www.vz.lt,LT,Q2240679,Verslo žinios,7,1000,https://www.vz.lt/
+cybernews.com,LT,Q141450034,,0,50000,https://cybernews.com/
+kurierwilenski.lt,LT,Q1793105,Kurier Wileński,8,50000,http://www.kurierwilenski.lt/
+literaturairmenas.lt,LT,Q16459222,Literatūra ir menas,3,50000,http://literaturairmenas.lt
+www.flintas.lt,LT,Q16450884,Flintas,1,50000,http://www.flintas.lt
+www.voruta.lt,LT,Q7941964,Voruta,2,50000,https://www.voruta.lt
+lequotidien.lu,LU,Q2311467,Le Quotidien,7,1000,http://www.lequotidien.lu/
+today.rtl.lu,LU,Q64785184,,0,1000,https://today.rtl.lu/
+www.contacto.lu,LU,Q2995414,Contacto,5,1000,https://www.contacto.lu/
+www.lessentiel.lu,LU,Q3204962,L'essentiel,7,1000,http://www.lessentiel.lu/de/
+www.tageblatt.lu,LU,Q461344,Tageblatt,9,1000,http://tageblatt.lu
+www.virgule.lu,LU,Q124809320,Virgule,1,1000,https://www.virgule.lu/
+www.wort.lu,LU,Q1751317,Luxemburger Wort,14,1000,http://wort.lu
+www.reporter.lu,LU,Q61358706,,1,5000,https://www.reporter.lu/
+delano.lu,LU,Q13102305,,1,10000,https://delano.lu/
+journal.lu,LU,Q355432,Lëtzebuerger Journal,8,10000,http://www.journal.lu/home/
+land.lu,LU,Q773198,d'Lëtzebuerger Land,5,10000,http://www.land.lu/
+www.woxx.lu,LU,Q312106,Woxx,6,50000,http://www.woxx.lu
+www.zlv.lu,LU,Q187006,Zeitung vum Lëtzebuerger Vollek,6,50000,http://www.zlv.lu/
+db.lv,LV,Q21663616,,2,1000,https://www.db.lv/
+diena.lv,LV,Q924512,Diena,16,1000,http://www.diena.lv
+jauns.lv,LV,Q138820821,Jauns.lv,0,1000,https://jauns.lv
+meduza.io,LV,Q18340732,Meduza,28,1000,https://meduza.io/
+nra.lv,LV,Q4045103,Neatkarīgā Rīta Avīze,6,1000,http://www.nra.lv
+theins.ru,LV,Q48940439,The Insider,20,1000,https://theins.ru
+www.la.lv,LV,Q1486888,Latvijas Avīze,7,1000,http://www.la.lv
+www.novaja.lv,LV,Q15043094,Novaja.lv,3,1000,http://www.novaja.lv
+www.ventasbalss.lv,LV,Q7920233,Ventas Balss,3,1000,https://www.ventasbalss.lv/
+novayagazeta.eu,LV,Q111654428,Novaya Gazeta Europe,4,5000,https://novayagazeta.eu
+www.jelgavniekiem.lv,LV,Q131308934,Jelgavniekiem.lv,0,5000,https://www.jelgavniekiem.lv/
+www.ntz.lv,LV,Q5240963,Neatkarīgās Tukuma Ziņas,3,5000,http://www.ntz.lv/
+kurzemnieks.lv,LV,Q6447626,Kurzemnieks,2,10000,http://www.kurzemnieks.lv/
+latgaleslaiks.lv,LV,Q6495818,Latgales Laiks,1,10000,http://latgaleslaiks.lv
+lv.lv,LV,Q6497517,Latvijas Vēstnesis,5,10000,http://lv.lv
+ezerzeme.lv,LV,Q61122167,Ezerzeme,1,50000,http://ezerzeme.lv/
+istories.media,LV,Q105322853,iStories,8,50000,https://istories.media/
+www.rv.lv,LV,Q16351232,Rēzeknes Vēstis,3,50000,http://www.rv.lv/
+timesofmalta.com,MT,Q1735231,Times of Malta,19,1000,http://www.timesofmalta.com/
+fd.nl,NL,Q689171,Het Financieele Dagblad,8,1000,http://www.fd.nl/
+nltimes.nl,NL,Q140447891,NL Times,0,1000,https://nltimes.nl
+nos.nl,NL,Q56659957,NOS.nl,0,1000,https://nos.nl
+sportnieuws.nl,NL,Q133835412,Sportnieuws.nl,1,1000,https://www.sportnieuws.nl
+www.ad.nl,NL,Q290764,Algemeen Dagblad,14,1000,http://www.ad.nl/
+www.androidplanet.nl,NL,Q19765965,Android Planet,1,1000,https://www.androidplanet.nl/
+www.bd.nl,NL,Q250656,Brabants Dagblad,5,1000,https://www.bd.nl/
+www.bndestem.nl,NL,Q796818,BN DeStem,4,1000,https://www.bndestem.nl/
+www.destentor.nl,NL,Q696725,De Stentor,5,1000,http://www.destentor.nl
+www.dvhn.nl,NL,Q1157189,Dagblad van het Noorden,7,1000,https://dvhn.nl
+www.ed.nl,NL,Q1306223,Eindhovens Dagblad,4,1000,http://www.ed.nl/
+www.gelderlander.nl,NL,Q1179895,De Gelderlander,5,1000,http://www.gelderlander.nl/
+www.gooieneemlander.nl,NL,Q1179903,De Gooi- en Eemlander,4,1000,https://gooieneemlander.nl/
+www.haarlemsdagblad.nl,NL,Q650751,Haarlems Dagblad,9,1000,http://www.haarlemsdagblad.nl
+www.lc.nl,NL,Q1517039,Leeuwarder Courant,7,1000,http://lc.nl
+www.leidschdagblad.nl,NL,Q1650488,Leidsch Dagblad,7,1000,http://www.leidschdagblad.nl/
+www.limburger.nl,NL,Q691690,De Limburger,6,1000,http://www.limburger.nl
+www.looopings.nl,NL,Q123989323,Looopings,1,1000,https://www.looopings.nl/
+www.metronieuws.nl,NL,Q1925689,Metro,4,1000,http://metronieuws.nl
+www.nd.nl,NL,Q689481,Nederlands Dagblad,6,1000,https://www.nd.nl
+www.noordhollandsdagblad.nl,NL,Q1996484,Noordhollands Dagblad,4,1000,http://www.noordhollandsdagblad.nl/
+www.nrc.nl,NL,Q1402057,,17,1000,https://www.nrc.nl/
+www.nu.nl,NL,Q2183577,NU.nl,6,1000,https://www.nu.nl
+www.parool.nl,NL,Q1482551,Het Parool,15,1000,https://www.parool.nl
+www.pzc.nl,NL,Q2113957,Provinciale Zeeuwse Courant,5,1000,http://www.pzc.nl/
+www.rd.nl,NL,Q1639174,Reformatorisch Dagblad,6,1000,https://www.rd.nl
+www.rijnmond.nl,NL,Q2215101,RTV Rijnmond,6,1000,https://www.rijnmond.nl/
+www.telegraaf.nl,NL,Q1180344,De Telegraaf,27,1000,http://telegraaf.nl/
+www.trouw.nl,NL,Q1789749,Trouw,15,1000,http://www.trouw.nl
+www.tubantia.nl,NL,Q1180408,De Twentsche Courant Tubantia,7,1000,https://www.tubantia.nl/
+www.volkskrant.nl,NL,Q284183,De Volkskrant,27,1000,https://www.volkskrant.nl
+www.waldnet.nl,NL,Q13138738,,1,1000,https://www.waldnet.nl/
+www.ajaxlife.nl,NL,Q16835657,Ajax Life,1,5000,http://www.ajaxlife.nl/
+www.boerenbusiness.nl,NL,Q138649924,Boerenbusiness,0,5000,https://www.boerenbusiness.nl
+www.bredavandaag.nl,NL,Q125346839,BredaVandaag,0,5000,https://www.bredavandaag.nl/
+www.brugnieuws.nl,NL,Q126718256,De Brug,0,5000,https://www.brugnieuws.nl/
+www.dehavenloods.nl,NL,Q2875294,De Havenloods,2,5000,https://www.dehavenloods.nl/
+www.duic.nl,NL,Q118139642,DUIC,1,5000,https://www.duic.nl/
+www.flevopost.nl,NL,Q117314261,FlevoPost,0,5000,https://flevopost.nl/
+www.ftm.nl,NL,Q59799143,Follow The Money,4,5000,https://www.ftm.nl/
+www.ijmuidercourant.nl,NL,Q114535,IJmuider Courant,4,5000,http://www.ijmuidercourant.nl/
+www.medischcontact.nl,NL,Q2788792,Medisch Contact,1,5000,https://www.medischcontact.nl/
+decorrespondent.nl,NL,Q15874268,De Correspondent,6,10000,https://decorrespondent.nl
+onswestfriesland.nl,NL,Q109444154,OnsWestfriesland,0,10000,https://onswestfriesland.nl/
+wijzijndestad.com,NL,Q125270226,Wij zijn De Stad Middelburg,0,10000,https://wijzijndestad.com/
+www.ermelosweekblad.nl,NL,Q135196857,,0,10000,https://www.ermelosweekblad.nl
+www.houtensnieuws.nl,NL,Q123470682,Houten Nieuws,0,10000,https://www.houtensnieuws.nl/
+www.internetbode.nl,NL,Q110261557,Steenbergse Bode,0,10000,https://www.internetbode.nl/
+www.l1.nl,NL,Q2750000,L1,6,10000,http://www.l1.nl/
+www.steenwijkercourant.nl,NL,Q1925099,Opregte Steenwijker Courant,2,10000,https://steenwijkercourant.nl
+dagblad010.nl,NL,Q110067572,Dagblad010,0,50000,https://dagblad010.nl/
+dekanttekening.nl,NL,Q12812696,,2,50000,https://dekanttekening.nl/
+dub.uu.nl,NL,Q67538801,DUB,1,50000,https://dub.uu.nl/
+leiden.courant.nu,NL,Q2392171,Leydse Courant,3,50000,https://leiden.courant.nu/
+mtsprout.nl,NL,Q135494109,,0,50000,https://mtsprout.nl/
+siliconcanals.com,NL,Q137605843,Silicon Canals,0,50000,https://siliconcanals.com
+www.baarnschecourant.nl,NL,Q19838257,Baarnsche Courant,2,50000,http://www.baarnschecourant.nl/
+www.blikopnieuws.nl,NL,Q126099105,,1,50000,https://www.blikopnieuws.nl
+www.castricummer.nl,NL,Q124464335,De Castricummer,0,50000,https://www.castricummer.nl/
+www.change.inc,NL,Q139927860,Change Inc.,0,50000,https://www.change.inc/
+www.cobouw.nl,NL,Q1104715,Cobouw,3,50000,http://www.cobouw.nl/
+www.cursor.tue.nl,NL,Q124288843,,1,50000,https://www.cursor.tue.nl
+www.debezigebij.nl,NL,Q2308275,De Bezige Bij,9,50000,http://www.debezigebij.nl/
+www.delftopzondag.nl,NL,Q116784913,Delft op Zondag,0,50000,https://www.delftopzondag.nl/
+www.entreemagazine.nl,NL,Q125314809,Entree Magazine,1,50000,https://www.entreemagazine.nl/
+www.frieschdagblad.nl,NL,Q1464644,Friesch Dagblad,5,50000,https://frieschdagblad.nl/
+www.harderwijksezaken.nl,NL,Q135196901,Harderwijkse Zaken,0,50000,https://www.harderwijksezaken.nl/
+www.kidsweek.nl,NL,Q1872095,,1,50000,http://www.kidsweek.nl
+www.themoscowtimes.com,NL,Q1202611,The Moscow Times,30,50000,https://www.themoscowtimes.com/
+www.vn.nl,NL,Q379020,Vrij Nederland,9,50000,https://www.vn.nl
+www.woerdensecourant.nl,NL,Q1925994,Woerdense Courant,1,50000,http://www.woerdensecourant.nl/
+advalvas.vu.nl,NL,Q4678187,Ad Valvas,4,100000,https://www.advalvas.vu.nl/
+amigoe.com,NL,Q2305983,Amigoe,7,100000,http://www.amigoe.com
+antilliaansdagblad.com,NL,Q2643411,Antilliaans Dagblad,6,100000,http://www.antilliaansdagblad.com/
+bron.fontys.nl,NL,Q97961835,,1,100000,https://bron.fontys.nl
+krant.drachtstercourant.nl,NL,Q124034479,,0,100000,https://krant.drachtstercourant.nl
+vastgoedinsider.nl,NL,Q139927922,Vastgoed Insider,0,100000,https://vastgoedinsider.nl/
+www.almeloosweekblad.nl,NL,Q116604013,Almelo's Weekblad,0,100000,https://www.almeloosweekblad.nl/
+www.brielsnieuwsland.nl,NL,Q116162022,Brielsche Courant,0,100000,https://www.brielsnieuwsland.nl/
+www.erasmusmagazine.nl,NL,Q130397531,Erasmus Magazine,0,100000,https://www.erasmusmagazine.nl/
+www.ijsselbode.nl,NL,Q1835970,,1,100000,http://www.ijsselbode.nl/
+www.observantonline.nl,NL,Q4978082,Observant,1,100000,https://www.observantonline.nl/
+www.oegstgeestercourant.nl,NL,Q108094676,Oegstgeester Courant,0,100000,https://www.oegstgeestercourant.nl/
+www.wijchensnieuws.nl,NL,Q130379900,Wijchens Nieuws,0,100000,https://www.wijchensnieuws.nl/
+dziennikbaltycki.pl,PL,Q5319798,Dziennik Bałtycki,3,1000,http://www.dziennikbaltycki.pl
+dzienniklodzki.pl,PL,Q9248542,Dziennik Łódzki,4,1000,http://www.dzienniklodzki.pl
+dziennikpolski24.pl,PL,Q5319799,Dziennik Polski,3,1000,http://www.dziennikpolski24.pl
+dziennikzachodni.pl,PL,Q4707862,Dziennik Zachodni,4,1000,https://dziennikzachodni.pl
+echodnia.eu,PL,Q5332697,Echo Dnia,2,1000,http://www.echodnia.eu/
+gazetawroclawska.pl,PL,Q9266428,Gazeta Wrocławska,4,1000,http://www.gazetawroclawska.pl
+gp24.pl,PL,Q9284195,,2,1000,http://www.gp24.pl
+tysol.pl,PL,Q1095404,Tygodnik Solidarność,4,1000,https://www.tysol.pl/
+www.fakt.pl,PL,Q1318217,Fakt,9,1000,http://www.fakt.pl/
+www.pb.pl,PL,Q7259612,Puls Biznesu,3,1000,http://pb.pl
+www.rp.pl,PL,Q2164678,Rzeczpospolita,20,1000,https://www.rp.pl/
+www.se.pl,PL,Q7642325,Super Express USA,1,1000,http://www.se.pl/
+www.wprost.pl,PL,Q1465227,Wprost,13,1000,https://www.wprost.pl/
+wyborcza.pl,PL,Q741296,Gazeta Wyborcza,28,1000,https://wyborcza.pl
+edgp.gazetaprawna.pl,PL,Q9248480,Dziennik Gazeta Prawna,5,5000,http://www.edgp.gazetaprawna.pl
+krytykapolityczna.pl,PL,Q655104,Krytyka Polityczna,9,5000,http://www.krytykapolityczna.pl/
+www.dziennik.pl,PL,Q114273679,gospodarka.dziennik.pl,0,5000,https://www.dziennik.pl/
+www.polityka.pl,PL,Q142095,Polityka,15,5000,http://www.polityka.pl/
+www.tygodnikpowszechny.pl,PL,Q1427385,Tygodnik Powszechny,11,5000,http://www.tygodnikpowszechny.pl
+kurierbytowski.com.pl,PL,Q22670191,,1,10000,https://kurierbytowski.com.pl
+nczas.com,PL,Q887583,Najwyższy Czas!,4,10000,http://www.nczas.com/
+f1wm.pl,PL,Q106653014,Wyprzedź Mnie!,0,50000,https://f1wm.pl
+naszdziennik.pl,PL,Q2344102,Nasz Dziennik,5,50000,http://www.naszdziennik.pl/
+supernowosci24.pl,PL,Q9348194,Super Nowości,1,50000,http://supernowosci24.pl/
+swarzedzki.pl,PL,Q140041844,,1,50000,https://swarzedzki.pl/
+tenpoznan.pl,PL,Q139535766,,0,50000,https://tenpoznan.pl
+www.computerworld.pl,PL,Q115931716,,1,50000,https://www.computerworld.pl/
+www.gazetapolska.pl,PL,Q3888048,,10,50000,http://www.gazetapolska.pl/
+magazynkaszuby.pl,PL,Q140689582,,1,100000,https://magazynkaszuby.pl/
+polskiobserwator.uk,PL,Q138858445,Polski Obserwator UK,0,100000,https://polskiobserwator.uk
+vot-tak.tv,PL,Q134391702,Vot Tak,4,100000,https://vot-tak.tv/
+eco.sapo.pt,PT,Q141547036,ECO,0,1000,https://eco.sapo.pt/
+expresso.pt,PT,Q1384864,Expresso,14,1000,http://www.expresso.pt
+observador.pt,PT,Q25442845,Observador,5,1000,https://observador.pt/
+ominho.pt,PT,Q118482477,O Minho,2,1000,https://ominho.pt/
+www.asbeiras.pt,PT,Q1231835,Diário As Beiras,3,1000,https://www.asbeiras.pt/
+www.avozdetrasosmontes.pt,PT,Q106542261,A Voz de Trás-os-Montes,1,1000,https://www.avozdetrasosmontes.pt/
+www.diariocoimbra.pt,PT,Q5285150,Diário de Coimbra,4,1000,http://www.diariocoimbra.pt
+www.dn.pt,PT,Q508252,Diário de Notícias,16,1000,http://www.dn.pt/
+www.dnoticias.pt,PT,Q10267615,Diário de Notícias,5,1000,https://www.dnoticias.pt
+www.jm-madeira.pt,PT,Q110256345,JM,2,1000,https://www.jm-madeira.pt/
+www.jornaldenegocios.pt,PT,Q1704027,Jornal de Negócios,5,1000,https://www.jornaldenegocios.pt/
+www.leak.pt,PT,Q140474114,Leak.pt,0,1000,https://www.leak.pt
+www.ojogo.pt,PT,Q1537006,O Jogo,10,1000,https://www.ojogo.pt/
+www.publico.pt,PT,Q1757086,Público,16,1000,http://www.publico.pt
+www.record.pt,PT,Q639033,Record,9,1000,http://record.pt
+www.tempo.pt,PT,Q137837661,,0,1000,https://www.tempo.pt/
+amensagem.pt,PT,Q126949971,Mensagem de Lisboa,2,5000,https://amensagem.pt/
+correiodominho.pt,PT,Q2997889,Correio do Minho,3,5000,https://www.correiodominho.pt/
+tugatech.com.pt,PT,Q139736017,,0,5000,https://tugatech.com.pt
+www.acorianooriental.pt,PT,Q4350216,Açoriano Oriental,7,5000,https://www.acorianooriental.pt/
+www.jornaldeleiria.pt,PT,Q85873116,Jornal de Leiria,2,5000,https://www.jornaldeleiria.pt/
+www.ovarnews.pt,PT,Q124625997,OvarNews,1,5000,https://www.ovarnews.pt/
+www.reconquista.pt,PT,Q10358045,Reconquista (newspaper),2,5000,https://www.reconquista.pt/
+diariodosacores.pt,PT,Q4819631,Diário dos Açores,3,50000,https://diariodosacores.pt
+motociclismo.pt,PT,Q141407030,Motociclismo,0,50000,https://motociclismo.pt/
+motorcyclesports.net,PT,Q141407950,M Sports,0,50000,https://motorcyclesports.net/
+noticiasdacovilha.pt,PT,Q10337732,,1,50000,https://noticiasdacovilha.pt/
+www.jornaldeangola.ao,PT,Q1704026,Jornal de Angola,9,50000,https://www.jornaldeangola.ao/
+auroradolima.com,PT,Q16141878,A Aurora do Lima,4,100000,https://www.auroradolima.com/
+badaladas.pt,PT,Q137836176,,0,100000,https://badaladas.pt/
+jornaldiabo.com,PT,Q10339021,O Diabo,2,100000,https://jornaldiabo.com/
+adevarul.ro,RO,Q426356,Adevărul,12,1000,https://adevarul.ro
+evz.ro,RO,Q2480744,Evenimentul Zilei,8,1000,http://www.evz.ro/
+genius.com,RO,Q1009217,Genius,2,1000,http://www.genius.com
+hotnews.ro,RO,Q5912417,HotNews,3,1000,http://www.hotnews.ro/
+maszol.ro,RO,Q56394672,maszol.ro,0,1000,http://www.maszol.ro/
+newsweek.ro,RO,Q104787236,NewsWeek Romania,0,1000,https://newsweek.ro
+spynews.ro,RO,Q113285468,SpyNews.Ro,0,1000,https://spynews.ro/
+stirileprotv.ro,RO,Q138856184,stirileprotv.ro,0,1000,https://stirileprotv.ro/
+tvrinfo.ro,RO,Q130600464,TVRinfo.ro,0,1000,https://tvrinfo.ro/
+www.3szek.ro,RO,Q1057103,Háromszék,1,1000,http://www.3szek.ro
+www.b1tv.ro,RO,Q141439052,,0,1000,https://www.b1tv.ro/
+www.cancan.ro,RO,Q18538556,Cancan,1,1000,https://www.cancan.ro/
+www.cotidianul.ro,RO,Q2483614,Cotidianul,7,1000,http://www.cotidianul.ro/
+www.dcnews.ro,RO,Q18539605,DCNews.Ro,0,1000,https://www.dcnews.ro
+www.g4media.ro,RO,Q88562142,G4 Media,2,1000,https://g4media.ro
+www.gandul.ro,RO,Q954232,Gândul,4,1000,https://www.gandul.ro/
+www.gds.ro,RO,Q18549550,Gazeta de Sud,1,1000,https://www.gds.ro/
+www.gsp.ro,RO,Q2055060,Gazeta Sporturilor,6,1000,https://www.gsp.ro/
+www.libertatea.ro,RO,Q6541479,Libertatea,7,1000,https://www.libertatea.ro/
+www.prosport.ro,RO,Q2949687,ProSport,3,1000,https://www.prosport.ro/
+www.realitatea.net,RO,Q84315208,Realitatea.NET,0,1000,https://www.realitatea.net/
+www.sport.ro,RO,Q138966057,sport.ro,0,1000,https://www.sport.ro/
+www.stiripesurse.ro,RO,Q135208026,,1,1000,https://www.stiripesurse.ro/
+www.wall-street.ro,RO,Q12743839,The Wall Street Journal Romania,1,1000,https://www.wall-street.ro
+www.ziaruldeiasi.ro,RO,Q12744023,Ziarul de Iași,1,1000,https://www.ziaruldeiasi.ro/
+ziare.com,RO,Q12744017,Ziare.com,1,1000,https://ziare.com
+financiarul.ro,RO,Q141112448,Financiarul.ro,0,5000,https://financiarul.ro/
+kronika.ro,RO,Q3063815,Krónika,6,5000,http://www.kronika.ro/
+playtech.ro,RO,Q104889749,PlayTech.ro,0,5000,https://playtech.ro
+recorder.ro,RO,Q131405470,Recorder,1,5000,https://recorder.ro/
+romanialibera.ro,RO,Q7363426,România liberă,6,5000,http://romanialibera.ro/
+transtelex.ro,RO,Q136559579,Transtelex,0,5000,https://transtelex.ro/
+www.e-nepujsag.ro,RO,Q1221361,,5,5000,https://www.e-nepujsag.ro/
+www.paginademedia.ro,RO,Q12737372,Pagina de media,1,5000,https://www.paginademedia.ro/
+www.ziarulevenimentul.ro,RO,Q12727929,,1,5000,https://www.ziarulevenimentul.ro/
+ziarullumina.ro,RO,Q18549372,Lumina,1,5000,https://ziarullumina.ro/
+biharinaplo.ro,RO,Q1413093,,4,10000,https://www.biharinaplo.ro/
+hargitanepe.ro,RO,Q1033948,Hargita Népe,3,10000,https://hargitanepe.ro/
+www.veridica.ro,RO,Q124394701,Veridica,0,10000,https://www.veridica.ro/
+www.zi-de-zi.ro,RO,Q18549368,Zi de zi,1,10000,https://www.zi-de-zi.ro
+agenda.liternet.ro,RO,Q115796176,Agenda.Liternet.Ro,0,50000,https://agenda.liternet.ro
+context.ro,RO,Q141450628,,0,50000,https://context.ro/
+cvlpress.ro,RO,Q107632427,Cuvântul Libertății,0,50000,https://cvlpress.ro
+snoop.ro,RO,Q133252363,Snoop.ro,2,50000,https://snoop.ro/
+szabadsag.ro,RO,Q649485,Szabadság,6,50000,http://www.szabadsag.ro/
+www.liternet.ro,RO,Q115802858,LiterNet.Ro,0,50000,https://www.liternet.ro
+www.magazinsalajean.ro,RO,Q12734693,Magazin Sălăjean,1,50000,http://www.magazinsalajean.ro/index.php
+www.nyugatijelen.com,RO,Q1219603,Nyugati Jelen,3,50000,http://www.nyugatijelen.com/
+www.riseproject.ro,RO,Q17091218,RISE Project,2,50000,https://www.riseproject.ro
+gazetaph.ro,RO,Q131920192,Gazeta de Prahova,0,100000,https://gazetaph.ro/
+nineoclock.ro,RO,Q4821089,Nine O'Clock,3,100000,http://www.nineoclock.ro/
+semnal.eu,RO,Q138648410,Semnal,0,100000,https://semnal.eu
+www.irodalmijelen.hu,RO,Q1097908,Irodalmi Jelen,2,100000,http://www.irodalmijelen.hu/
+www.romaniajournal.ro,RO,Q126500942,The Romania Journal,0,100000,https://www.romaniajournal.ro/
+fotbolldirekt.se,SE,Q108151164,Fotboll direkt,0,1000,https://fotbolldirekt.se/
+hockeysverige.se,SE,Q104552008,Hockeysverige,1,1000,https://hockeysverige.se/
+magazin24.se,SE,Q10575229,,1,1000,https://www.magazin24.se/
+samnytt.se,SE,Q96603096,Samhällsnytt,2,1000,https://samnytt.se
+www.aftonbladet.se,SE,Q389458,Aftonbladet,35,1000,https://www.aftonbladet.se
+www.barometern.se,SE,Q10426582,Barometern,5,1000,http://www.barometern.se/
+www.blt.se,SE,Q10431233,Blekinge Läns Tidning,3,1000,http://www.blt.se
+www.bohuslaningen.se,SE,Q9660313,Bohusläningen,5,1000,http://bohuslaningen.se/
+www.breakit.se,SE,Q132180724,,1,1000,https://www.breakit.se/
+www.bt.se,SE,Q4947013,Borås Tidning,6,1000,http://www.bt.se/
+www.corren.se,SE,Q3359400,Östgöta Correspondenten,5,1000,https://corren.se/
+www.dagen.se,SE,Q1157201,Dagen,7,1000,https://dagen.se
+www.di.se,SE,Q734293,Dagens Industri,11,1000,http://www.di.se/
+www.dn.se,SE,Q1126918,Dagens Nyheter,33,1000,https://www.dn.se
+www.ekuriren.se,SE,Q10274833,Eskilstuna-Kuriren,5,1000,https://www.ekuriren.se/
+www.etc.se,SE,Q10465888,Dagens ETC,3,1000,http://www.etc.se
+www.expressen.se,SE,Q971383,Expressen,21,1000,https://www.expressen.se
+www.gd.se,SE,Q3100098,Gefle Dagblad,5,1000,http://www.gd.se
+www.gp.se,SE,Q1559719,Göteborgs-Posten,14,1000,https://www.gp.se
+www.hallandsposten.se,SE,Q3101601,Hallandsposten,6,1000,http://hallandsposten.se
+www.hn.se,SE,Q1472007,Hallands Nyheter,7,1000,https://www.hn.se
+www.ht.se,SE,Q10526859,Hudiksvalls Tidning,4,1000,https://www.ht.se/
+www.kkuriren.se,SE,Q10544403,Katrineholms-Kuriren,3,1000,http://kkuriren.se
+www.kristianstadsbladet.se,SE,Q10549217,Kristianstadsbladet,4,1000,http://www.kristianstadsbladet.se/
+www.kuriren.nu,SE,Q7053240,Norrbottens-Kuriren,3,1000,http://www.kuriren.nu/
+www.lt.se,SE,Q10571987,,2,1000,http://www.lt.se
+www.m3.se,SE,Q10573235,M3,19,1000,https://www.m3.se/
+www.mitti.se,SE,Q10586647,Mitt i,1,1000,https://www.mitti.se/
+www.moviezine.se,SE,Q18452157,MovieZine,3,1000,https://www.moviezine.se/
+www.mvt.se,SE,Q10589618,,2,1000,http://mvt.se
+www.na.se,SE,Q1794077,Nerikes Allehanda,5,1000,http://na.se/
+www.nlt.se,SE,Q10604269,,2,1000,http://nlt.se
+www.nsd.se,SE,Q7053369,Norrländska Socialdemokraten,4,1000,http://www.nsd.se/
+www.nsk.se,SE,Q10602571,Norra Skåne,4,1000,http://www.nsk.se
+www.nt.se,SE,Q5229325,Norrköpings Tidningar,8,1000,http://www.nt.se
+www.nwt.se,SE,Q3666950,Nya Wermlands-Tidningen,4,1000,http://www.nwt.se/
+www.olandsbladet.se,SE,Q296772,Ölandsbladet,3,1000,http://www.olandsbladet.se/
+www.op.se,SE,Q10728119,Östersunds-Posten,4,1000,http://www.op.se/
+www.oskarshamns-nytt.se,SE,Q106581650,Oskarshamns-Nytt,0,1000,https://www.oskarshamns-nytt.se
+www.realtid.se,SE,Q140580762,Realtid,0,1000,https://www.realtid.se
+www.skd.se,SE,Q2293506,Skånska Dagbladet,5,1000,https://www.skd.se
+www.sla.se,SE,Q10669772,Skaraborgs Allehanda,3,1000,https://www.sla.se
+www.smalanningen.se,SE,Q10672537,Smålänningen,4,1000,https://www.smalanningen.se/
+www.smp.se,SE,Q10672532,Smålandsposten,4,1000,http://www.smp.se/
+www.sn.se,SE,Q10688598,Södermanlands Nyheter,3,1000,http://www.sn.se
+www.st.nu,SE,Q3503869,Sundsvalls Tidning,6,1000,https://www.st.nu/
+www.svd.se,SE,Q1504847,Svenska Dagbladet,27,1000,https://www.svd.se
+www.sydostran.se,SE,Q10686789,Sydöstran,2,1000,https://www.sydostran.se
+www.sydsvenskan.se,SE,Q1371686,Sydsvenskan,14,1000,https://www.sydsvenskan.se
+www.tidningenangermanland.se,SE,Q10697738,,2,1000,https://www.tidningenangermanland.se/
+www.unt.se,SE,Q3291931,Upsala Nya Tidning,6,1000,http://www.unt.se/
+www.vf.se,SE,Q7944353,Värmlands Folkblad,4,1000,http://www.vf.se/
+www.vk.se,SE,Q2261865,Västerbottens-Kuriren,21,1000,https://www.vk.se
+www.vlt.se,SE,Q7923493,Vestmanlands Läns Tidning,3,1000,http://vlt.se/
+www.vt.se,SE,Q1750539,Västerviks-Tidningen,5,1000,http://www.vt.se/
+www.ystadsallehanda.se,SE,Q10723785,Ystads Allehanda,3,1000,https://www.ystadsallehanda.se/
+innebandymagazinet.se,SE,Q10535703,Innebandymagazinet,2,5000,https://innebandymagazinet.se/
+www.alingsastidning.se,SE,Q10405290,Alingsås Tidning,5,5000,http://www.alingsastidning.se
+www.altinget.se,SE,Q56300542,Altinget,1,5000,https://altinget.se
+www.avestatidning.com,SE,Q10423526,,2,5000,http://avestatidning.com
+www.bblat.se,SE,Q10438532,,2,5000,http://bblat.se
+www.dagensjuridik.se,SE,Q31889107,Dagens Juridik,7,5000,https://www.dagensjuridik.se/
+www.dagensmedicin.se,SE,Q10465894,Dagens Medicin,1,5000,https://www.dagensmedicin.se/
+www.dalademokraten.se,SE,Q4819152,Dala-Demokraten,6,5000,http://www.dalademokraten.se
+www.dalslanningen.se,SE,Q10466279,,2,5000,http://www.dalslanningen.se
+www.eposten.se,SE,Q10484293,Enköpings-Posten,2,5000,https://eposten.se
+www.falkopingstidning.se,SE,Q10493759,Falköpings Tidning,3,5000,http://www.falkopingstidning.se/
+www.folkbladet.nu,SE,Q7944384,Västerbottens Folkblad,23,5000,http://www.folkbladet.nu/
+www.kungalvsposten.se,SE,Q106612400,Kungälvs-Posten,2,5000,https://www.kungalvsposten.se
+www.ltz.se,SE,Q10571990,Länstidningen Östersund,2,5000,http://www.ltz.se
+www.mariestadstidningen.se,SE,Q10577356,,2,5000,https://www.mariestadstidningen.se
+www.nkp.se,SE,Q106359064,Nya Kristinehamns-Posten,1,5000,https://nkp.se/
+www.nvp.se,SE,Q10593921,Nacka Värmdö Posten,1,5000,https://www.nvp.se/
+www.salaallehanda.com,SE,Q10660311,Sala Allehanda,2,5000,https://www.salaallehanda.com/
+www.skaraborgslanstidning.se,SE,Q10669774,,2,5000,http://www.skaraborgslanstidning.se
+www.strengnastidning.se,SE,Q10681667,,1,5000,http://www.strengnastidning.se
+www.sttidningen.se,SE,Q10659675,,1,5000,http://www.sttidningen.se/
+www.trelleborgsallehanda.se,SE,Q10701731,Trelleborgs Allehanda,4,5000,https://www.trelleborgsallehanda.se/
+www.varldenidag.se,SE,Q10717476,Världen idag,1,5000,http://www.varldenidag.se/
+www.vastgotabladet.se,SE,Q10718126,,1,5000,http://www.vastgotabladet.se
+hbwebben.se,SE,Q4605875,Haparandabladet,4,10000,http://hbwebben.se/
+riks.se,SE,Q105715164,Riks,4,10000,https://riks.se/
+samtiden.nu,SE,Q19978512,Samtiden,1,10000,http://www.samtiden.nu/
+www.alekuriren.se,SE,Q16496172,,1,10000,https://www.alekuriren.se
+www.arbetsvarlden.se,SE,Q106608621,Arbetsvärlden,1,10000,https://www.arbetsvarlden.se/
+www.boktugg.se,SE,Q98456579,Boktugg,1,10000,http://www.boktugg.se
+www.dagensmedia.se,SE,Q10465889,Dagens Media,1,10000,http://www.dagensmedia.se/
+www.flamman.se,SE,Q5457313,Flamman,6,10000,http://www.flamman.se/
+www.stromstadstidning.se,SE,Q10682247,Strömstads Tidning,2,10000,http://stromstadstidning.se
+borsvarlden.com,SE,Q140579738,Börsvärlden,0,50000,https://borsvarlden.com
+hymn.se,SE,Q49099791,,1,50000,https://hymn.se/
+nyadagbladet.se,SE,Q49099059,Nya Dagbladet,4,50000,https://nyadagbladet.se/
+proletaren.se,SE,Q4580892,Proletären,4,50000,https://proletaren.se
+skanesfolkblad.se,SE,Q133840170,,1,50000,https://skanesfolkblad.se/
+skargarden.se,SE,Q139790349,,0,50000,https://skargarden.se
+svenskhistoria.se,SE,Q10605420,Svensk Historia,1,50000,http://www.svenskhistoria.se/
+www.arbetaren.se,SE,Q629679,Arbetaren,7,50000,https://www.arbetaren.se/
+www.extrakt.se,SE,Q63441424,Extrakt,1,50000,https://www.extrakt.se/
+www.folkbladet.se,SE,Q11969348,Folkbladet,3,50000,http://www.folkbladet.se/
+www.frilagt.se,SE,Q138550712,Frilagt Hässleholm,1,50000,https://www.frilagt.se/
+www.hemmetsvan.se,SE,Q10521823,,2,50000,http://www.hemmetsvan.se
+www.lundagard.se,SE,Q6704094,Lundagård,2,50000,http://www.lundagard.se/
+www.nordsverige.se,SE,Q10602248,Nordsverige,1,50000,http://www.nordsverige.se/
+www.skovdenyheter.se,SE,Q10671301,Skövde Nyheter,2,50000,https://www.skovdenyheter.se
+www.tabergsnyheter.se,SE,Q134955161,Tabergs Nyheter,0,50000,https://www.tabergsnyheter.se/
+www.transportarbetaren.se,SE,Q10701313,,1,50000,http://www.transportarbetaren.se
+gronkoping.nu,SE,Q353289,Grönköpings Veckoblad,6,100000,https://gronkoping.nu
+nordicdefencesector.com,SE,Q140382205,Nordic Defence Sector,0,100000,https://nordicdefencesector.com
+sunkit.com,SE,Q10683898,Sunkit,1,100000,https://sunkit.com/
+www.ruotsinsuomalainen.com,SE,Q10657860,,2,100000,http://www.ruotsinsuomalainen.com/index.shtml
+ekipa.svet24.si,SI,Q5350441,Ekipa,6,1000,https://ekipa.svet24.si/
+primorske.si,SI,Q12799521,Primorske novice,5,1000,http://www.primorske.si
+regionalobala.si,SI,Q115555824,Regional,0,1000,https://www.regionalobala.si/
+svet24.si,SI,Q97216388,Svet24,2,1000,http://svet24.si/
+vecer.com,SI,Q7924263,Večer,6,1000,http://www.vecer.com
+www.delo.si,SI,Q3487776,Delo,18,1000,http://www.delo.si
+www.dnevnik.si,SI,Q5285849,Dnevnik,9,1000,http://www.dnevnik.si
+www.finance.si,SI,Q5449524,Finance,5,1000,http://www.finance.si
+www.gorenjskiglas.si,SI,Q28843314,Gorenjski glas,1,1000,http://www.gorenjskiglas.si/
+www.posavskiobzornik.si,SI,Q19936006,Posavski obzornik,1,1000,https://www.posavskiobzornik.si/
+savus.si,SI,Q66371040,Savus,0,5000,https://savus.si/
+tednik.svet24.si,SI,Q132717354,Štajerski tednik,1,5000,https://tednik.svet24.si/
+www.kraljiulice.org,SI,Q12794265,Kralji Ulice,3,50000,http://www.kraljiulice.org/
+dennikn.sk,SK,Q20051147,Denník N,9,1000,https://dennikn.sk/
+korzar.sme.sk,SK,Q12769507,Korzár,4,1000,https://korzar.sme.sk/
+www.aktuality.sk,SK,Q52162279,Aktuality.sk,6,1000,https://www.aktuality.sk/
+www.postoj.sk,SK,Q55281156,Postoj,1,1000,https://www.postoj.sk
+www.pravda.sk,SK,Q1853557,Pravda,10,1000,http://www.pravda.sk
+www.sme.sk,SK,Q897968,SME,10,1000,http://www.sme.sk
+www.tyzden.sk,SK,Q12761472,.týždeň,4,1000,https://www.tyzden.sk/
+kosicednes.sk,SK,Q96483996,KOŠICE:DNES,3,5000,https://kosicednes.sk
+napunk.dennikn.sk,SK,Q123905018,,0,10000,https://napunk.dennikn.sk/
+spectator.sme.sk,SK,Q1237701,The Slovak Spectator,7,10000,http://spectator.sme.sk
+gemercan.sk,SK,Q141007385,Gemerčan.sk,0,50000,https://gemercan.sk
+www.notabene.sk,SK,Q38164,Nota Bene,2,100000,http://www.notabene.sk/

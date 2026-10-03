@@ -1,0 +1,21 @@
+{
+ "auditor": "independent AI reviewer (EasyxLab review role), 2026-10-03",
+ "detector": "v2 as used in the scan (v1 or v2 flags)",
+ "sample": "44 hosts not in the author's sample, seed 777: 22 of the 168 flagged and 22 of the 525 unflagged hosts with comments",
+ "reservation": {
+  "precision_k": 20,
+  "precision_n": 20,
+  "recall_k": 20,
+  "recall_n": 21,
+  "miss": "nd.nl (borderline)"
+ },
+ "prohibition": {
+  "precision_k": 15,
+  "precision_n": 21,
+  "recall_k": 15,
+  "recall_n": 15,
+  "false_positives": "purpose-specific Finnish group text x4, a section label, an Austrian s. 42h(6) AI-training notice"
+ },
+ "structural_weakness": "per-block detection misses list-style notices whose forbid phrase and agent words sit in different comment blocks (actu.fr); addressed by detector v3",
+ "note": "figures from the reviewer's report; the labelled hosts are listed there; v3 will be re-audited on a fresh sample"
+}
