@@ -16,7 +16,7 @@ included.
 
 **143 of 440 register rows (32.5%; 95% CI 28.3–37.0%) lead to an Inline XBRL 1.1 file in ESMA's MiCA taxonomy at
 the registered URL or one link away; they correspond to 141 distinct files.** The rest lead to a web page with
-no document link (129 rows), a PDF only (69), an XHTML file without any Inline XBRL (20), a file in Inline XBRL 1.0 (1), or nothing we could read: 73 of 440 rows ended in an
+no document link (129 rows), a PDF only (69), an XHTML file without any Inline XBRL (20), an Inline XBRL file with another or wrong taxonomy reference (3), a ZIP archive (2), a file in Inline XBRL 1.0 (1), or nothing we could read: 73 of 440 rows ended in an
 anti-bot wall, a `robots.txt` exclusion, an HTTP error or a network failure. For one crypto-asset service provider
 we observed an Incapsula wall on 20 rows and, on its asset host, XHTML files titled "MiCA Whitepaper Inline XBRL"
 with no XBRL facts on 18 rows; the same title also appears on Inline XBRL files from other hosts.

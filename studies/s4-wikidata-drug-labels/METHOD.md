@@ -100,7 +100,7 @@ in the measured precision.
   ATCvet clean-up are listed as manual actions for a Wikidata editor.
 - Nothing was sent to Wikidata.
 
-## 6. Limitations (summary; see paper.md §6)
+## 6. Limitations (summary; see paper.md §7)
 
 - **Precision only; recall is unknown.** For example, brands written in non-Latin scripts and
   non-US brands (Arcoxia, Selexid) are invisible to detector b, though several were caught by a.

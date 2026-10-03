@@ -121,6 +121,8 @@ P = {  # required phrases (numbers exactly as they must appear)
     "html": f"no document link ({oc['html']} rows)",
     "pdf": f"a PDF only ({oc['pdf']})",
     "xhtml": f"without any Inline XBRL ({oc['xhtml-no-ixbrl']})",
+    "ixbrl other": f"wrong taxonomy reference ({oc['ixbrl-other']})",
+    "zip": f"a ZIP archive ({oc['zip-other']})",
     "ixbrl 1.0": f"Inline XBRL 1.0 ({oc['ixbrl-1.0']})",
     "not retrievable": f"{not_retr} of {N} rows ended",
     "bitstamp wall": f"an Incapsula wall on {bs['anti-bot']} rows",
@@ -134,6 +136,11 @@ CONSTANTS = ["23 December 2025", "5 August 2025", "30 September 2026", "2026-10-
              "Inline XBRL 1.1", "51 MiCA Q&As", "Q&A 2845",
              "MiCA Art. 6(11), which ties the format standards to the duty of Art. 6(10)",
              "`paper.md` §2", "(D1–D11)"]
+
+# the abstract's breakdown must account for every cohort row
+_listed = len(av) + not_retr + sum(oc[k] for k in ("html", "pdf", "xhtml-no-ixbrl", "ixbrl-other", "zip-other", "ixbrl-1.0"))
+if _listed != N:
+    fail.append(f"abstract breakdown covers {_listed} of {N} cohort rows")
 
 
 def bounded(ph):

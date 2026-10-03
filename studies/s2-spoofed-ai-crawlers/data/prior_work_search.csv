@@ -1,0 +1,51 @@
+query,source,date_utc,hits,screened,used,used_ids,notes
+"all:""user agent"" AND all:spoofing",arxiv,2026-10-03T17:20:36Z,3,3,no,,first attempt 2026-10-03T17:11:25Z HTTP 503
+"all:""user-agent"" AND all:crawler AND all:verification",arxiv,2026-10-03T17:20:39Z,0,0,no,,first attempt 2026-10-03T17:12:14Z HTTP 503
+"all:""AI crawlers""",arxiv,2026-10-03T17:13:02Z,8,8,no,,
+"all:""robots.txt"" AND all:AI AND all:crawlers",arxiv,2026-10-03T17:13:20Z,5,5,yes,arXiv:2505.21733,
+all:impersonation AND all:crawlers,arxiv,2026-10-03T17:13:33Z,3,3,no,,
+"all:""bot detection"" AND all:""reverse DNS""",arxiv,2026-10-03T17:13:37Z,0,0,no,,
+"all:""web bots"" AND all:honeysites",arxiv,2026-10-03T17:13:41Z,0,0,no,,
+"all:""search engine"" AND all:bots AND all:fake",arxiv,2026-10-03T17:13:54Z,0,0,no,,
+fake Googlebot crawler impersonation,crossref,2026-10-03T17:13:55Z,29430,10,no,,
+AI crawler user agent verification,crossref,2026-10-03T17:13:57Z,1161451,10,no,,
+web bot detection user agent spoofing reverse DNS,crossref,2026-10-03T17:13:58Z,2708313,10,no,,
+good bot bad bot characterizing automated browsing activity,crossref,2026-10-03T17:14:00Z,2078408,10,yes,doi:10.1109/sp40001.2021.00079,
+AI crawlers robots.txt compliance measurement,crossref,2026-10-03T17:14:02Z,1652317,10,no,,
+LLM crawlers web server access logs,crossref,2026-10-03T17:14:04Z,1122553,10,no,,
+AI crawler user agent spoofing,s2,2026-10-03T17:14:15Z,18,10,no,,429
+fake search engine crawlers reverse DNS verification,s2,2026-10-03T17:22:22Z,,0,no,,first attempt 2026-10-03T17:15:58Z HTTP 429; 429; 429 (then waited 10s); 429 (then waited 30s); 429 (then waited 60s); 429; 429 (then waited 10s); 429 (then waited 30s); 429 (then waited 60s); HTTP 429
+AI crawlers web server logs measurement,s2,2026-10-03T17:17:41Z,383,10,yes,arXiv:2607.14447 doi:10.1145/3774904.3792278,429; 429 (then waited 10s); 429 (then waited 30s)
+characterizing automated browsing activity honeysites,s2,2026-10-03T17:24:05Z,,0,no,,first attempt 2026-10-03T17:19:24Z HTTP 429; 429; 429 (then waited 10s); 429 (then waited 30s); 429 (then waited 60s); 429; 429 (then waited 10s); 429 (then waited 30s); 429 (then waited 60s); HTTP 429
+verify googlebot,gh-repos,2026-10-03T17:19:28Z,25,10,yes,(count only),
+ai crawler verification ip ranges,gh-repos,2026-10-03T17:19:31Z,4,4,yes,CyberKendra/ai-crawler-verify ayronjins/ai-crawler-verify asxpi/traefik-crawlers-statistics,
+fake bot detection user agent ip,gh-repos,2026-10-03T17:19:33Z,0,0,no,,
+gptbot.json,gh-repos,2026-10-03T17:19:36Z,6,6,no,,
+"""openai.com/gptbot.json""",gh-code,2026-10-03T17:19:44Z,317,10,yes,(count only),
+"""perplexity.com/perplexity-user.json""",gh-code,2026-10-03T17:19:52Z,111,10,no,,
+all:GPTBot,arxiv,2026-10-03T17:24:06Z,1,1,no,,
+all:Googlebot,arxiv,2026-10-03T17:24:09Z,0,0,no,,
+"all:""verified bots""",arxiv,2026-10-03T17:24:13Z,0,0,no,,
+"all:""user-initiated"" AND all:fetch AND all:LLM",arxiv,2026-10-03T17:24:16Z,0,0,no,,
+are LLM web search engines sustainable real-time fetching,crossref,2026-10-03T17:24:17Z,4060653,10,yes,doi:10.1145/3774904.3792278,
+"""Good Bot, Bad Bot: Characterizing Automated Browsing Activity"" Aristaeus pdf",WebSearch,2026-10-03,9,,yes,securitee.org/files/goodbotbadbot_oakland2021.pdf,full text read (pdftotext)
+"""Are LLM Web Search Engines Sustainable"" real-time fetching web measurement",WebSearch,2026-10-03,9,,no,,paper not among results; abstract taken from Semantic Scholar by DOI
+Cloudflare blog AI crawlers spoofed user agent verified bots impersonating GPTBot,WebSearch,2026-10-03,9,,no,,no Cloudflare page with a spoof rate
+Akamai report AI bots impersonating crawlers fake GPTBot ClaudeBot percentage 2025 2026,WebSearch,2026-10-03,10,,yes,greynoise.io/blog/threat-actors-posing-as-ai-crawlers,led to GreyNoise; no Akamai spoof figure found
+DataDome fake AI crawlers spoofed ChatGPT-User user agent report,WebSearch,2026-10-03,10,,no,,datadome.co answered HTTP 403; secondary summaries not cited
+Imperva Bad Bot Report 2025 bots impersonating search engine crawlers AI crawlers percentage,WebSearch,2026-10-03,10,,no,,no spoof rate for crawler names in the Thales/Imperva page
+"blog.cloudflare.com 2026 GPTBot impersonation verified ""13%"" OR ""signed"" AI crawler verification web bot auth",WebSearch,2026-10-03,9,,no,,a '13% of GPTBot verified' figure circulates in secondary pages; no primary source found
+"Cloudflare blog August 28 2026 bot verification automatic ""We fetch your IP list, confirm your reverse DNS""",WebSearch,2026-10-03,10,,yes,blog.cloudflare.com/friendly-bots/,
+https://www.humansecurity.com/learn/blog/ai-crawler-spoofing-chatgpt-mistral-perplexity/,vendor page,2026-10-03,,,yes,HUMAN Satori 2025-09-09,HTTP 200
+https://www.humansecurity.com/learn/blog/controlling-ai-driven-content-scraping-with-human/,vendor page,2026-10-03,,,yes,HUMAN 2026-02-28 (already cited in §1),HTTP 200; links to the Satori post
+https://www.greynoise.io/blog/threat-actors-posing-as-ai-crawlers,vendor page,2026-10-03,,,yes,GreyNoise 2026-08-28,HTTP 200
+https://blog.cloudflare.com/friendly-bots/,vendor page,2026-10-03,,,yes,Cloudflare 2022-03-16,HTTP 200
+https://datadome.co/threat-research/ai-traffic-report/,vendor page,2026-10-03,,,no,,HTTP 403
+https://datadome.co/press/datadome-report-finds-most-organizations-flying-blind-as-agentic-traffic-surges/,vendor page,2026-10-03,,,no,,HTTP 403
+https://cpl.thalesgroup.com/blog/access-management/ai-bots-internet-traffic-imperva-2025-report,vendor page,2026-10-03,,,no,,HTTP 200; no spoof rate for crawler names
+https://www.akamai.com/newsroom/press-release/akamai-research-ai-bots-threaten-foundation-of-web-based-business-models,vendor page,2026-10-03,,,no,,HTTP 403
+https://nohacks.co/blog/ai-crawlers-cannot-prove-identity,web page,2026-10-03,,,no,,"HTTP 200; secondary, no spoof rate"
+https://arxiv.org/html/2505.21733v2,arXiv full text,2026-10-03,,,yes,arXiv:2505.21733,robots.txt allows /html (Crawl-delay 15 respected)
+https://arxiv.org/html/2607.14447v2,arXiv full text,2026-10-03,,,yes,arXiv:2607.14447,
+https://arxiv.org/html/2411.15091v2,arXiv full text,2026-10-03,,,no,,Cloudflare reverse-proxy blocking study; no spoof rate
+DOI:10.1145/3774904.3792278,Semantic Scholar paper lookup,2026-10-03,,,yes,doi:10.1145/3774904.3792278,"HTTP 200, abstract"

@@ -238,7 +238,7 @@ the two sites has a one-sided Mann–Kendall p ≤ 0.05 for an increase **and** 
 the last four prospective weeks exceeds that of the first four by at least 10 percentage points.
 *Falsified* if both sites have Mann–Kendall S ≤ 0. Otherwise *inconclusive*. Spoofed volume (not
 only share) and the edge view are reported alongside, because nginx does not log a list of scanner
-paths (S2 §6).
+paths (S2 §7).
 
 **H6 — Verified crawling grows on the new sites.** The weekly number of verified crawler requests
 rises on Site B and on Site C (one-sided Mann–Kendall p ≤ 0.05 for each site, evaluated
@@ -366,3 +366,4 @@ prefix count and SHA-256.
 | 2026-10-02 | Protocol drafted. Nothing deployed. During design, the three sites' sitemaps, home pages and `robots.txt` were fetched (a few dozen requests) with a User-Agent naming the lab; they appear only in our own logs, before any observation window, and are excluded by marker. |
 | 2026-10-02 | Before registration was committed: every operator quote in §3.2 and §4 checked verbatim against the downloaded page (`data/operator_docs.csv`); the `robots.txt` change evaluated against every known URL of the three sites (0 verdict changes, both parser families); collector validated on 9 past weeks of Site A (one week cross-checked against S2: identical counts). |
 | 2026-10-03 | Before registration, on the study coordinator's decisions: H2 descoped (not tested in this run); the served texts (study page, footer line, `robots.txt` comments) made anonymous, with no name of the lab, the study or the company and no outside link; trap paths regenerated as random strings with no meaning (hashes in §3.1 replace the earlier one); our own requests switched to a neutral User-Agent; Site A's single `Disallow` line approved. The `robots.txt` verdict check was re-run on the new paths: 0 changes on any known URL of the three sites. |
+| 2026-10-03 | Cross-reference only: S2 added a "Prior work" section, so its Limitations moved from §6 to §7; the reference in §5 was updated. No change to the design. |

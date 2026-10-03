@@ -68,7 +68,7 @@ Verdicts: `verified` (in the operator's published ranges or passes FCrDNS), `spo
 
 Sites are anonymised as Site A (a calculator site) and Sites B and C (two niche tool sites
 launched in September 2026). The work was done by AI agents and has not yet been reviewed by a
-person ([the paper](https://easybyte.es/lab/studies/s2/paper/) §8).
+person ([the paper](https://easybyte.es/lab/studies/s2/paper/) §9).
 
 License: code MIT; data and text CC BY 4.0 (pending confirmation).
 

@@ -1,0 +1,51 @@
+query,source,date_utc,hits,screened,used,used_ids,notes
+all:C2PA,arxiv,2026-10-03T17:29:13Z,16,10,yes,arXiv:2604.25370 arXiv:2603.02378,
+"all:""content credentials""",arxiv,2026-10-03T17:29:16Z,4,4,no,,
+all:C2PA AND all:metadata AND all:stripping,arxiv,2026-10-03T17:29:20Z,2,2,no,,
+"all:""soft binding"" AND all:provenance",arxiv,2026-10-03T17:29:23Z,0,0,no,,
+"all:metadata AND all:""social media"" AND all:stripping",arxiv,2026-10-03T17:29:26Z,2,2,no,,
+"all:EXIF AND all:""social media"" AND all:images AND all:removal",arxiv,2026-10-03T17:29:30Z,0,0,no,,
+all:IPTC AND all:metadata,arxiv,2026-10-03T17:29:33Z,0,0,no,,
+"all:provenance AND all:""AI-generated"" AND all:metadata AND all:platforms",arxiv,2026-10-03T17:29:37Z,2,2,no,,
+C2PA content credentials durability metadata stripping,crossref,2026-10-03T17:29:37Z,560717,10,yes,doi:10.1109/paee71887.2026.11660698,
+social media metadata removal EXIF IPTC images,crossref,2026-10-03T17:29:39Z,4811909,10,no,,
+image metadata preservation social networks test,crossref,2026-10-03T17:29:41Z,6389397,10,no,,
+provenance metadata AI-generated images survival,crossref,2026-10-03T17:29:43Z,1502414,10,no,,
+IPTC digital source type AI generated,crossref,2026-10-03T17:29:44Z,3687011,10,no,,
+C2PA manifest robustness image processing,s2,2026-10-03T17:41:59Z,,0,no,,first attempt 2026-10-03T17:31:27Z HTTP 429; 429; 429 (then waited 10s); 429 (then waited 30s); 429 (then waited 60s); 429; 429 (then waited 10s); 429 (then waited 30s); 429 (then waited 60s); HTTP 429
+metadata stripping social media platforms images,s2,2026-10-03T17:43:42Z,,0,no,,first attempt 2026-10-03T17:33:09Z HTTP 429; 429; 429 (then waited 10s); 429 (then waited 30s); 429 (then waited 60s); 429; 429 (then waited 10s); 429 (then waited 30s); 429 (then waited 60s); HTTP 429
+content credentials survival transcoding,s2,2026-10-03T17:33:52Z,10,10,no,,429; 429 (then waited 10s)
+c2pa survival,gh-repos,2026-10-03T17:33:55Z,2,2,yes,AitchEm-bot/research,
+c2pa metadata stripping test,gh-repos,2026-10-03T17:33:57Z,0,0,no,,
+content credentials preservation,gh-repos,2026-10-03T17:34:00Z,1,1,no,,
+"""c2pa"" ""keepMetadata""",gh-code,2026-10-03T17:34:09Z,15,10,no,,
+"all:""AI provenance""",arxiv,2026-10-03T17:43:45Z,9,9,yes,arXiv:2609.38571,
+"all:""digital source type""",arxiv,2026-10-03T17:43:48Z,0,0,no,,
+"all:""Content Credentials"" AND all:survive",arxiv,2026-10-03T17:43:52Z,0,0,no,,
+content credentials export survival test,crossref,2026-10-03T17:43:52Z,1691968,10,no,,
+C2PA soft binding perceptual hash social media transcoding,crossref,2026-10-03T17:43:54Z,4985669,10,yes,doi:10.1109/paee71887.2026.11660698,
+content credentials survival test,gh-repos,2026-10-03T17:43:57Z,1,1,yes,AitchEm-bot/research,
+iptc digitalsourcetype survival,gh-repos,2026-10-03T17:44:00Z,0,0,no,,
+IPTC embedded metadata social media test results which sites preserve photo metadata,WebSearch,2026-10-03,10,,yes,iptc.org social media tests 2016 and 2019,
+C2PA durable content credentials soft binding manifest stripped metadata removed when re-encoded,WebSearch,2026-10-03,9,,yes,c2pa.org/faq,
+"""Recovering Content Provenance After Social Media Transcoding"" perceptual hash soft-bindings C2PA",WebSearch,2026-10-03,9,,no,,paper not among results; abstract taken from Semantic Scholar by DOI
+"Ossowski Chaber ""Recovering Content Provenance After Social Media Transcoding"" PAEE 2026",WebSearch,2026-10-03,9,,no,,paper not among results
+"Bushey Rivard Barbeau ""Cryptographic Provenance and AI-Generated Images"" BigData 2025 C2PA",WebSearch,2026-10-03,9,,no,,"paper not among results; abstract from Semantic Scholar: archival framework, no survival test"
+"exiftool editing XMP invalidates C2PA manifest ""data hash"" mismatch content credentials metadata edit after signing",WebSearch,2026-10-03,9,,yes,creativeainews.com/articles/content-credentials-export-survival-test-2026/,found the closest prior result
+test C2PA content credentials survive sharp keepMetadata Pillow ffmpeg remux stripped IPTC DigitalSourceType XMP survive,WebSearch,2026-10-03,9,,no,,no further per-library test found
+https://www.creativeainews.com/articles/content-credentials-export-survival-test-2026/,web page,2026-10-03,,,yes,Creative AI News 2026-09-25,HTTP 200; robots.txt allows; no harness published
+https://c2pa.org/faq/,specification page,2026-10-03,,,yes,C2PA FAQ,HTTP 200
+https://spec.c2pa.org/specifications/specifications/2.2/specs/C2PA_Specification.html,specification page,2026-10-03,,,yes,C2PA 2.2 specification,HTTP 200
+https://spec.c2pa.org/specifications/specifications/2.2/guidance/Guidance.html,specification page,2026-10-03,,,yes,C2PA 2.2 implementation guidance,HTTP 200
+https://spec.c2pa.org/specifications/specifications/2.2/security/Security_Considerations.html,specification page,2026-10-03,,,yes,C2PA 2.2 security considerations,HTTP 200
+https://iptc.org/news/social-media-sites-photo-metadata-test-results/,standards body page,2026-10-03,,,yes,IPTC 2019 test,HTTP 200
+https://iptc.org/news/many-social-media-sites-still-remove-image-rights-information-from-photos/,standards body page,2026-10-03,,,yes,IPTC 2016 test,HTTP 200
+https://iptc.org/standards/photo-metadata/research/,standards body page,2026-10-03,,,no,,HTTP 200; index page
+https://arxiv.org/html/2603.02378v2,arXiv full text,2026-10-03,,,yes,arXiv:2603.02378,robots.txt allows /html (Crawl-delay 15 respected)
+https://arxiv.org/html/2609.38571v1,arXiv full text,2026-10-03,,,yes,arXiv:2609.38571,
+DOI:10.1109/paee71887.2026.11660698,Semantic Scholar paper lookup,2026-10-03,,,yes,doi:10.1109/paee71887.2026.11660698,"HTTP 200, abstract; Crossref has no abstract"
+DOI:10.1109/bigdata66926.2025.11402054,Semantic Scholar paper lookup,2026-10-03,,,no,,"HTTP 200, abstract; archival framework"
+DOI:10.36244/icj.2026.1.7,Crossref work lookup,2026-10-03,,,no,,overview paper
+"repos/AitchEm-bot/research (README, tree, compress_images.py)",GitHub API,2026-10-03,,,yes,AitchEm-bot/research,no results files in the repository
+repos/easybytehub/easyxlab commits for studies/s3-ai-marks-survival,GitHub API,2026-10-03,,,no,,"S3 first public on 2026-10-02, after the Creative AI News test"
+https://huggingface.co/api/datasets/csoai/gspc-prv,Hugging Face API,2026-10-03,,,no,,"LLM evaluation bank, not a survival test"

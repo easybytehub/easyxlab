@@ -1,0 +1,44 @@
+query,source,date_utc,hits,screened,used,used_ids,notes
+all:Wikidata AND all:quality AND all:labels,arxiv,2026-10-03T17:34:14Z,9,9,yes,arXiv:2206.08709,
+all:Wikidata AND all:multilingual AND all:labels,arxiv,2026-10-03T17:34:18Z,12,10,no,,
+all:Wikidata AND all:medical,arxiv,2026-10-03T17:34:21Z,4,4,no,,
+all:Wikidata AND all:drugs,arxiv,2026-10-03T17:34:25Z,1,1,no,,
+"all:Wikidata AND all:""constraint violations""",arxiv,2026-10-03T17:34:28Z,2,2,yes,arXiv:2107.00156,
+"all:""knowledge graph"" AND all:multilingual AND all:""label errors""",arxiv,2026-10-03T17:34:32Z,0,0,no,,
+Wikidata data quality labels multilingual,crossref,2026-10-03T17:34:32Z,4560080,10,no,,
+Wikidata medical knowledge quality,crossref,2026-10-03T17:34:34Z,5518043,10,no,,
+Wikidata drug data quality,crossref,2026-10-03T17:34:36Z,5424672,10,no,,
+multilingual drug names translation errors international nonproprietary names,crossref,2026-10-03T17:34:37Z,15272970,10,no,,
+Wikidata RxNorm ATC mapping,crossref,2026-10-03T17:34:39Z,381772,10,no,,
+accuracy of drug information in Wikipedia across languages,crossref,2026-10-03T17:34:40Z,4486921,10,no,,
+Wikidata label quality multilingual,s2,2026-10-03T17:45:45Z,,0,no,,first attempt 2026-10-03T17:36:22Z HTTP 429; 429; 429 (then waited 10s); 429 (then waited 30s); 429 (then waited 60s); 429; 429 (then waited 10s); 429 (then waited 30s); 429 (then waited 60s); HTTP 429
+Wikidata medical data quality,s2,2026-10-03T17:47:28Z,,0,no,,first attempt 2026-10-03T17:38:05Z HTTP 429; 429; 429 (then waited 10s); 429 (then waited 30s); 429 (then waited 60s); 429; 429 (then waited 10s); 429 (then waited 30s); 429 (then waited 60s); HTTP 429
+Wikidata drugs ATC RxNorm,s2,2026-10-03T17:49:11Z,,0,no,,first attempt 2026-10-03T17:39:48Z HTTP 429; 429; 429 (then waited 10s); 429 (then waited 30s); 429 (then waited 60s); 429; 429 (then waited 10s); 429 (then waited 30s); 429 (then waited 60s); HTTP 429
+Wikidata AND (drug OR medication OR pharmaceutical) AND (quality OR accuracy OR error),europepmc,2026-10-03T17:39:49Z,225,10,yes,doi:10.1016/j.heliyon.2024.e38448,
+Wikidata AND (label OR labels) AND multilingual,europepmc,2026-10-03T17:39:51Z,93,10,no,,
+"""international nonproprietary names"" AND translation AND error",europepmc,2026-10-03T17:39:53Z,22,10,no,,
+wikidata drug labels,gh-repos,2026-10-03T17:39:55Z,0,0,no,,
+wikidata medical quality,gh-repos,2026-10-03T17:39:58Z,0,0,no,,
+wikidata ATC code,gh-repos,2026-10-03T17:40:00Z,0,0,no,,
+WikiProject Medicine label,wikidata,2026-10-03T17:40:02Z,955,10,no,,
+ATC code label error,wikidata,2026-10-03T17:40:04Z,32,10,no,,
+all:Wikidata AND all:multilinguality,arxiv,2026-10-03T17:49:11Z,62,10,no,,
+all:Wikidata AND all:biomedical,arxiv,2026-10-03T17:49:15Z,4,4,yes,arXiv:2004.03181,
+A glimpse into Babel multilingualism in Wikidata,crossref,2026-10-03T17:49:15Z,34155,10,yes,doi:10.1145/3125433.3125465,
+Wikidata large-scale collaborative ontological medical database,crossref,2026-10-03T17:49:17Z,5005487,10,no,,
+logical constraints validate collaborative knowledge graphs COVID-19 Wikidata,crossref,2026-10-03T17:49:20Z,5258846,10,yes,doi:10.7717/peerj-cs.1085,
+"Wikidata AND (ICD OR ""ATC"" OR ""anatomical therapeutic chemical"")",europepmc,2026-10-03T17:49:20Z,50,10,no,,
+drug label wrong language,wikidata,2026-10-03T17:49:21Z,176,10,no,,
+"""A glimpse into Babel"" multilinguality Wikidata labels Kaffee OpenSym 2017",WebSearch,2026-10-03,10,,yes,eprints.soton.ac.uk/413433,full text read (pdftotext)
+"Turki ""Wikidata: A large-scale collaborative ontological medical database"" Journal of Biomedical Informatics 2019 data quality",WebSearch,2026-10-03,10,,no,,"abstract taken from Europe PMC; describes medical content, no label audit"
+Wikidata drug labels translation errors multilingual pharmaceutical names study OR WikiProject Medicine ATC INN quality,WebSearch,2026-10-03,10,,no,,"results concern translated prescription labels, not Wikidata"
+Wikidata:Database reports/Constraint violations/P494,Wikidata API (page content),2026-10-03,306,,yes,report generated 2026-09-23,hits = Format violations; also 543 single-value and 946 unique-value violations
+Wikidata:Database reports/Constraint violations/P267,Wikidata API (page content),2026-10-03,82,,yes,report generated 2026-09-17,hits = Unique value violations; 2 Format violations
+DOI:10.1016/j.jbi.2019.103292,Europe PMC (core),2026-10-03,,,no,,abstract; overview of medical content
+DOI:10.7717/peerj-cs.1085,Europe PMC (core),2026-10-03,,,yes,doi:10.7717/peerj-cs.1085,abstract
+DOI:10.1016/j.heliyon.2024.e38448,Europe PMC (core),2026-10-03,,,yes,doi:10.1016/j.heliyon.2024.e38448,abstract
+DOI:10.1371/journal.pone.0106930,Europe PMC (core),2026-10-03,,,yes,doi:10.1371/journal.pone.0106930,abstract; looked up by DOI as a known study (the Crossref query returned two earlier studies of drug information in Wikipedia)
+DOI:10.3163/1536-5050.99.4.010,Europe PMC (core),2026-10-03,,,no,,no abstract
+https://arxiv.org/pdf/2004.03181v1,arXiv full text,2026-10-03,,,yes,arXiv:2004.03181,robots.txt allows /pdf (Crawl-delay 15 respected)
+https://eprints.soton.ac.uk/id/eprint/413433/1/Open_Sym_Short_Paper_Wikidata_Multilingual.pdf,repository full text,2026-10-03,,,yes,doi:10.1145/3125433.3125465,HTTP 200
+"arXiv id_list 2107.00156,2109.09405,2206.08709,2609.20057,2004.03181,2505.18136",arXiv API,2026-10-03,,,yes,arXiv:2107.00156 arXiv:2206.08709 arXiv:2004.03181 arXiv:2609.20057,abstracts
