@@ -61,8 +61,17 @@ send `EasyxLab-research/1.0 (+https://github.com/easybytehub/easyxlab)`, and dat
 was not re-fetched. Some follow-up GitHub reads on 2026-10-03 (Atom feeds with commit ids, Makefiles,
 called scripts, redirects of new repositories) were sent with the new User-Agent.
 
-**Terms.** We used only public, unauthenticated, documented endpoints. We did not check a specific
-terms-of-service document for this snapshot.
+**Terms and robots.txt.** We used only public, unauthenticated, documented API endpoints. PyPI's
+`robots.txt` disallows them for crawlers (`Disallow: /simple/`, `Disallow: /pypi/*/json`,
+`Disallow: /pypi/*/*/json`, `Disallow: /integrity/`). PyPI's Acceptable Use Policy separates the two:
+"Scraping refers to extracting information from PyPI via an automated process, such as a bot or
+webcrawler. Scraping does not refer to the collection of information through our API." For API
+consumers, docs.pypi.org/api asks: "Set your consumer's User-Agent header to uniquely identify your
+requests", and "Try not to make a lot of requests (thousands) in a short amount of time (minutes).
+Generally PyPI can handle it, but it's preferred to make requests in serial over a longer amount of
+time if possible." Our requests were identified, but at up to 7 per second this snapshot made
+thousands of requests within minutes, more than that guidance prefers. The scripts now default to
+1 request per second per host. (Policies quoted on 2026-10-03.)
 
 **What is stored.**
 
@@ -188,7 +197,7 @@ the set. It keeps a class different from the rule only where a commit supports i
   pages and never overwrites `data/sources/excerpts.json` otherwise. The Trail of Bits comparison is
   recomputed only if the local snapshot exists; otherwise the published counts are kept.
 - **`FETCH=1 scripts/run.sh`.** It fetches the pinned inputs (§2), rebuilds `data/raw/` from the
-  registries and GitHub (about 45 minutes at the rate limit), then regenerates `data/compact/`. The
+  registries and GitHub (several hours at the default of 1 request per second), then regenerates `data/compact/`. The
   registries and repositories change daily, so a fresh fetch is a new snapshot. The published
   compact data is the reference for this paper.
 - **`scripts/10_check_headlines.py`.** It recomputes every headline number from `data/` and asserts

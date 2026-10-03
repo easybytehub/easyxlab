@@ -8,8 +8,9 @@ RAW = os.path.join(DATA, "raw")
 
 
 class RateLimiter:
-    """Global token spacing shared by all threads (default 7 requests/s, below PyPI's ~8/s ask)."""
-    def __init__(self, per_second=7.0):
+    """Global token spacing shared by all threads. Default 1 request/s: docs.pypi.org/api prefers
+    "requests in serial over a longer amount of time" to thousands of requests within minutes."""
+    def __init__(self, per_second=1.0):
         self.interval = 1.0 / per_second
         self.lock = threading.Lock()
         self.next = time.monotonic()
@@ -67,7 +68,7 @@ def _load_evidence():
         return _EVID
 
 
-def http_get(url, accept=None, rate=7.0, timeout=60, retries=4, method="GET"):
+def http_get(url, accept=None, rate=1.0, timeout=60, retries=4, method="GET"):
     """Return (status, bytes or None, final_url). Retries 429/5xx honouring Retry-After.
     With OFFLINE=1 any attempt to reach the network raises OfflineMiss (nothing is fetched or cached)."""
     if OFFLINE:
