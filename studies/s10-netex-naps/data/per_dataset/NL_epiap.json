@@ -1,0 +1,124 @@
+{
+ "slug": "NL_epiap",
+ "country": "NL",
+ "nap": "NDOV Loket",
+ "dataset_id": "epiap/NeTEx_DOVA_epiap_2026-10-01.xml.gz",
+ "title": "NeTEx_DOVA_epiap_2026-10-01.xml.gz",
+ "licence": "",
+ "updated": "2026-10-01",
+ "url": "https://data.ndovloket.nl/netex/epiap/NeTEx_DOVA_epiap_2026-10-01.xml.gz",
+ "stratum": "NL",
+ "snapshot_date": "2026-10-02",
+ "download_bytes": 3350963,
+ "http_status": 200,
+ "content_type": "application/gzip",
+ "xml_members": 1,
+ "uncompressed_bytes": 88267520,
+ "summary": {
+  "profile": "nl",
+  "members": 1,
+  "root_elements": {
+   "PublicationDelivery": 1
+  },
+  "declared_versions": {
+   "ntx:1.1": 1
+  },
+  "type_of_frame_top": {},
+  "counts": {
+   "StopPlace": 25562,
+   "Quay": 49668
+  },
+  "ids": 160322,
+  "refs": 15970,
+  "refs_internal": 15970,
+  "refs_unresolved": 0,
+  "refs_unresolved_same_codespace": 0,
+  "refs_unresolved_by_tag": {},
+  "refs_unresolved_versioned": 0,
+  "refs_unresolved_profile_types": 0,
+  "refs_internal_unversioned_same_file": 514,
+  "refs_unresolved_versioned_by_tag": {},
+  "version_mismatch": 0,
+  "duplicate_definitions": 0,
+  "duplicate_in_file": 0,
+  "validity_from_min": "2026-10-01",
+  "validity_to_max": null,
+  "calendar_min": null,
+  "calendar_max": null,
+  "encodings": {
+   "UTF-8": 1
+  },
+  "bom": 0,
+  "mojibake": 1,
+  "id_format_checked": 0,
+  "id_format_bad": 0,
+  "id_type_bad": 0,
+  "refs_internal_unversioned": 514,
+  "codespaces_declared": [
+   "NL:CHB"
+  ]
+ },
+ "findings": [
+  {
+   "rule": "ENCODING-REPLACEMENT-CHAR",
+   "severity": "warning",
+   "count": 1,
+   "message": "Text contains U+FFFD: a character was lost before publication.",
+   "examples": [
+    "Ouddorp, Port Z�lande"
+   ],
+   "source": "heuristic (U+FFFD = character lost before publication)"
+  }
+ ],
+ "rules_version": "3-upgraded-from-2",
+ "xsd": {
+  "netex_1_3_2": {
+   "documents_checked": 1,
+   "documents_valid": 0,
+   "documents_skipped": 0,
+   "dataset_valid": false,
+   "checked_valid": false,
+   "coverage_bytes": 1.0,
+   "errors": 25818,
+   "by_category": {
+    "unexpected-element": 20000
+   },
+   "top_messages": {
+    "Element 'privateCodes': This element is not expected. Expected is (...).": 20000
+   }
+  },
+  "netex_2_0_0": {
+   "documents_checked": 1,
+   "documents_valid": 1,
+   "documents_skipped": 0,
+   "dataset_valid": true,
+   "checked_valid": true,
+   "coverage_bytes": 1.0,
+   "errors": 0,
+   "by_category": {},
+   "top_messages": {}
+  },
+  "epip": {
+   "documents_checked": 1,
+   "documents_valid": 0,
+   "documents_skipped": 0,
+   "dataset_valid": false,
+   "checked_valid": false,
+   "coverage_bytes": 1.0,
+   "errors": 25563,
+   "by_category": {
+    "unexpected-element": 20000
+   },
+   "top_messages": {
+    "Element 'privateCodes': This element is not expected. Expected is (...).": 20000
+   }
+  }
+ },
+ "seconds": 257.9,
+ "xsd_params": {
+  "xsd_budget": 150000000,
+  "max_xsd_bytes": 150000000,
+  "errors_categorised_per_document": 20000,
+  "source": "inferred from run logs by 03b"
+ }
+}

@@ -1,0 +1,191 @@
+{
+ "slug": "FR_658626a9e96365230bac182c_81473",
+ "country": "FR",
+ "nap": "transport.data.gouv.fr",
+ "dataset_id": "658626a9e96365230bac182c/81473",
+ "title": "Réseau urbain Tudbus — Tudbus - Douarnennez",
+ "licence": "odc-odbl",
+ "updated": "2026-08-19",
+ "url": "https://www.data.gouv.fr/api/1/datasets/r/c4298a79-55c5-4fb1-b80c-7ccfe2211572",
+ "stratum": "FR-small",
+ "snapshot_date": "2026-10-02",
+ "download_bytes": 130686,
+ "http_status": 200,
+ "content_type": "application/x-zip-compressed",
+ "xml_members": 12,
+ "uncompressed_bytes": 3471282,
+ "summary": {
+  "profile": "fr",
+  "members": 12,
+  "root_elements": {
+   "PublicationDelivery": 12
+  },
+  "declared_versions": {
+   "1.10:FR-NETEX-2.2": 12
+  },
+  "type_of_frame_top": {
+   "FR:TypeOfFrame:NETEX_RESEAU": 10,
+   "FR:TypeOfFrame:NETEX_HORAIRE": 9,
+   "FR:TypeOfFrame:NETEX_ARRET": 1,
+   "FR:TypeOfFrame:NETEX_CALENDRIER": 1
+  },
+  "counts": {
+   "StopPlace": 100,
+   "Quay": 100,
+   "DayType": 29,
+   "Route": 13,
+   "ServiceJourneyPattern": 27,
+   "ScheduledStopPoint": 306,
+   "ServiceJourney": 232,
+   "Line": 9,
+   "Operator": 1,
+   "Authority": 1
+  },
+  "ids": 4035,
+  "refs": 4719,
+  "refs_internal": 4719,
+  "refs_unresolved": 0,
+  "refs_unresolved_same_codespace": 0,
+  "refs_unresolved_by_tag": {},
+  "refs_unresolved_versioned": 0,
+  "refs_unresolved_profile_types": 0,
+  "refs_internal_unversioned_same_file": 2450,
+  "refs_unresolved_versioned_by_tag": {},
+  "version_mismatch": 0,
+  "duplicate_definitions": 0,
+  "duplicate_in_file": 0,
+  "validity_from_min": "2026-08-19",
+  "validity_to_max": "2027-07-02",
+  "calendar_min": null,
+  "calendar_max": null,
+  "encodings": {
+   "UTF-8": 12
+  },
+  "bom": 0,
+  "mojibake": 0,
+  "replacement_chars": 0,
+  "validity_open_ended": 0,
+  "refs_unresolved_typeof_versioned": 0,
+  "id_format_checked": 4035,
+  "id_format_bad": 1226,
+  "id_type_bad": 1214,
+  "refs_internal_unversioned": 121,
+  "codespaces_declared": []
+ },
+ "findings": [
+  {
+   "rule": "FR-ID-NOT-PROPOSED-FORMAT",
+   "severity": "info",
+   "count": 1226,
+   "message": "1226 of 4035 ids do not follow the codification the French profile proposes (other structures are allowed if ids stay unique nationally).",
+   "examples": [
+    "ResourceFrame id=FR:ResourceFrame:1",
+    "ValueSet id=FR:ValueSet:TypeOfFrame",
+    "TypeOfFrame id=FR:TypeOfFrame:NETEX_ARRET",
+    "ValueSet id=FR:ValueSet:TypeOfPlace",
+    "TypeOfPlace id=monomodalHub"
+   ],
+   "source": "Profil NeTEx France, Éléments communs (codification 'proposée'; other structures allowed)"
+  },
+  {
+   "rule": "FR-ID-TYPE-NOT-TAG",
+   "severity": "info",
+   "count": 1214,
+   "message": "Second part of the id is not the XML element name, as the proposed French codification suggests.",
+   "examples": [
+    "StopPlace id=FR:29046:StopPlace:genAUTO$2077618762:TUDBUS",
+    "StopPlace id=FR:29046:StopPlace:genAUTO$651264594:TUDBUS",
+    "StopPlace id=FR:29046:StopPlace:genAUTO$511534816:TUDBUS",
+    "StopPlace id=FR:29046:StopPlace:genAUTO$511534819:TUDBUS",
+    "StopPlace id=FR:29046:StopPlace:genAUTO$511534818:TUDBUS"
+   ],
+   "source": "Profil NeTEx France, Éléments communs (codification 'proposée')"
+  },
+  {
+   "rule": "FR-REF-UNVERSIONED-INTERNAL",
+   "severity": "warning",
+   "count": 121,
+   "message": "Profil NeTEx France: 121 of 4719 references to objects present in the dataset carry neither 'version' nor 'versionRef' ('any' is allowed).",
+   "examples": [
+    "Arrets.xml: <TypeOfFrameRef ref=\"FR:TypeOfFrame:NETEX_ARRET\"/> (defined in the dataset)",
+    "Arrets.xml: <TypeOfPlaceRef ref=\"monomodalStopPlace\"/> (defined in the dataset)",
+    "Arrets.xml: <TypeOfPlaceRef ref=\"monomodalStopPlace\"/> (defined in the dataset)",
+    "Arrets.xml: <TypeOfPlaceRef ref=\"monomodalStopPlace\"/> (defined in the dataset)",
+    "Arrets.xml: <TypeOfPlaceRef ref=\"monomodalStopPlace\"/> (defined in the dataset)"
+   ],
+   "source": "Profil NeTEx France, Éléments communs, VersionOfObjectRef"
+  }
+ ],
+ "xsd": {
+  "netex_1_3_2": {
+   "documents_checked": 12,
+   "documents_valid": 0,
+   "documents_skipped": 0,
+   "dataset_valid": false,
+   "errors": 5285,
+   "by_category": {
+    "other": 3872,
+    "invalid-value": 1292,
+    "keyref-unresolved": 121
+   },
+   "top_messages": {
+    "Element 'DayTypeAssignment', attribute 'order': Warning: No precomputed value available, the value was either invalid or something strange happened.": 1968,
+    "Element 'DayTypeAssignment', attribute 'order': '..' is not a valid value of the atomic type 'xs:positiveInteger'.": 984,
+    "Element 'DayTypeAssignment': Not all fields of key identity-constraint 'DayTypeAssignment_AnyVersionedKey_ordered' evaluate to a node.": 984,
+    "Element 'PassengerStopAssignment', attribute 'order': Warning: No precomputed value available, the value was either invalid or something strange happened.": 612,
+    "Element 'PassengerStopAssignment', attribute 'order': '..' is not a valid value of the atomic type 'xs:positiveInteger'.": 306,
+    "Element 'PassengerStopAssignment': Not all fields of key identity-constraint 'PassengerStopAssignment_AnyVersionedKey_ordered' evaluate to a node.": 306,
+    "Element 'Quay': No match found for key-sequence [..] of keyref 'DataSourceRef_AnyKeyRef'.": 100,
+    "Element 'GeneralFrame': No match found for key-sequence [..] of keyref 'DataSourceRef_AnyKeyRef'.": 21,
+    "Element 'AlternativeName', attribute 'order': '..' is not a valid value of the atomic type 'xs:positiveInteger'.": 2,
+    "Element 'AlternativeName', attribute 'order': Warning: No precomputed value available, the value was either invalid or something strange happened.": 2
+   }
+  },
+  "netex_2_0_0": {
+   "documents_checked": 12,
+   "documents_valid": 0,
+   "documents_skipped": 0,
+   "dataset_valid": false,
+   "errors": 15261,
+   "by_category": {
+    "attribute-missing": 4616,
+    "unexpected-element": 4616,
+    "other": 4616,
+    "invalid-value": 1292,
+    "keyref-unresolved": 121
+   },
+   "top_messages": {
+    "Element 'TimetabledPassingTime': The attribute 'id' is required but missing.": 4616,
+    "Element 'ArrivalTime': This element is not expected. Expected is (...).": 4616,
+    "Element 'TimetabledPassingTime': Not all fields of key identity-constraint 'TimetabledPassingTime_AnyVersionedKey' evaluate to a node.": 4616,
+    "Element 'DayTypeAssignment', attribute 'order': '..' is not a valid value of the atomic type 'xs:positiveInteger'.": 984,
+    "Element 'PassengerStopAssignment', attribute 'order': '..' is not a valid value of the atomic type 'xs:positiveInteger'.": 306,
+    "Element 'Quay': No match found for key-sequence [..] of keyref 'DataSourceRef_AnyKeyRef'.": 100,
+    "Element 'GeneralFrame': No match found for key-sequence [..] of keyref 'DataSourceRef_AnyKeyRef'.": 21,
+    "Element 'AlternativeName', attribute 'order': '..' is not a valid value of the atomic type 'xs:positiveInteger'.": 2
+   }
+  },
+  "epip": {
+   "documents_checked": 12,
+   "documents_valid": 0,
+   "documents_skipped": 0,
+   "dataset_valid": false,
+   "errors": 12,
+   "by_category": {
+    "unexpected-element": 12
+   },
+   "top_messages": {
+    "Element 'GeneralFrame': This element is not expected.": 12
+   }
+  }
+ },
+ "seconds": 5.5,
+ "rules_version": 3,
+ "rechecked_at": "2026-10-03 05:56",
+ "xsd_params": {
+  "xsd_budget": 300000000,
+  "max_xsd_bytes": 400000000,
+  "errors_categorised_per_document": 20000,
+  "source": "inferred from run logs by 03b"
+ }
+}

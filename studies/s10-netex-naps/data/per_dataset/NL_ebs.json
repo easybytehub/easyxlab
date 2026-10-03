@@ -1,0 +1,153 @@
+{
+ "slug": "NL_ebs",
+ "country": "NL",
+ "nap": "NDOV Loket",
+ "dataset_id": "ebs/NeTEx_EBS_VPR_20260928T120200_20261019_20270102.xml.gz",
+ "title": "NeTEx_EBS_VPR_20260928T120200_20261019_20270102.xml.gz",
+ "licence": "",
+ "updated": "2026-09-28",
+ "url": "https://data.ndovloket.nl/netex/ebs/NeTEx_EBS_VPR_20260928T120200_20261019_20270102.xml.gz",
+ "stratum": "NL",
+ "snapshot_date": "2026-10-02",
+ "download_bytes": 409211,
+ "http_status": 200,
+ "content_type": "application/gzip",
+ "xml_members": 1,
+ "uncompressed_bytes": 13222008,
+ "summary": {
+  "profile": "nl",
+  "members": 1,
+  "root_elements": {
+   "PublicationDelivery": 1
+  },
+  "declared_versions": {
+   "ntx:1.1": 1
+  },
+  "type_of_frame_top": {
+   "NL:BISON:TypeOfFrame:NL_DOVA_LISTS": 3,
+   "NL:BISON:TypeOfFrame:NL_NetworkList": 2,
+   "NL:BISON:TypeOfFrame:NL_TT_BASELINE": 1,
+   "NL:BISON:TypeOfFrame:NL_TT_RESOURCE": 1,
+   "NL:BISON:TypeOfFrame:NL_TT_SERVICE": 1,
+   "NL:BISON:TypeOfFrame:NL_TT_TIMETABLE": 1,
+   "NL:BISON:TypeOfFrame:NL_TT_CALENDAR": 1,
+   "NL:BISON:TypeOfFrame:NL_TT_VEHICLE": 1
+  },
+  "counts": {
+   "Operator": 1,
+   "Route": 100,
+   "Line": 18,
+   "ScheduledStopPoint": 389,
+   "ServiceJourneyPattern": 100,
+   "ServiceJourney": 4555,
+   "DayType": 5,
+   "Authority": 1
+  },
+  "ids": 25469,
+  "refs": 54951,
+  "refs_internal": 54538,
+  "refs_unresolved": 413,
+  "refs_unresolved_same_codespace": 395,
+  "refs_unresolved_by_tag": {
+   "QuayRef": 389,
+   "ExternalLineRef": 18,
+   "DefaultCodespaceRef": 6
+  },
+  "refs_unresolved_versioned": 0,
+  "refs_unresolved_profile_types": 0,
+  "refs_internal_unversioned_same_file": 0,
+  "refs_unresolved_versioned_by_tag": {},
+  "version_mismatch": 0,
+  "duplicate_definitions": 0,
+  "duplicate_in_file": 0,
+  "validity_from_min": "2026-10-19",
+  "validity_to_max": "2027-01-02",
+  "calendar_min": null,
+  "calendar_max": null,
+  "encodings": {
+   "UTF-8": 1
+  },
+  "bom": 0,
+  "mojibake": 0,
+  "id_format_checked": 0,
+  "id_format_bad": 0,
+  "id_type_bad": 0,
+  "refs_internal_unversioned": 0,
+  "codespaces_declared": []
+ },
+ "findings": [],
+ "rules_version": "3-upgraded-from-2",
+ "xsd": {
+  "netex_1_3_2": {
+   "documents_checked": 1,
+   "documents_valid": 0,
+   "documents_skipped": 0,
+   "dataset_valid": false,
+   "checked_valid": false,
+   "coverage_bytes": 1.0,
+   "errors": 6174,
+   "by_category": {
+    "unexpected-element": 5779,
+    "keyref-unresolved": 395
+   },
+   "top_messages": {
+    "Element 'privateCodes': This element is not expected. Expected is (...).": 5779,
+    "Element 'QuayRef': No match found for key-sequence [..] of keyref 'Quay_KeyRef'.": 389,
+    "Element 'DefaultCodespaceRef': No match found for key-sequence [..] of keyref 'Codespace_AnyKeyRef'.": 6
+   }
+  },
+  "netex_2_0_0": {
+   "documents_checked": 1,
+   "documents_valid": 0,
+   "documents_skipped": 0,
+   "dataset_valid": false,
+   "checked_valid": false,
+   "coverage_bytes": 1.0,
+   "errors": 395,
+   "by_category": {
+    "keyref-unresolved": 395
+   },
+   "top_messages": {
+    "Element 'QuayRef': No match found for key-sequence [..] of keyref 'Quay_KeyRef'.": 389,
+    "Element 'DefaultCodespaceRef': No match found for key-sequence [..] of keyref 'Codespace_AnyKeyRef'.": 6
+   }
+  },
+  "epip": {
+   "documents_checked": 1,
+   "documents_valid": 0,
+   "documents_skipped": 0,
+   "dataset_valid": false,
+   "checked_valid": false,
+   "coverage_bytes": 1.0,
+   "errors": 7680,
+   "by_category": {
+    "unexpected-element": 7664,
+    "keyref-unresolved": 16
+   },
+   "top_messages": {
+    "Element 'validityConditions': This element is not expected. Expected is (...).": 4555,
+    "Element 'OnwardRouteLinkRef': This element is not expected.": 2007,
+    "Element 'OperationalContextRef': This element is not expected.": 618,
+    "Element 'privateCodes': This element is not expected. Expected is (...).": 470,
+    "Element 'TypeOfFrameRef': No match found for key-sequence [..] of keyref 'TypeOfFrame_AnyKeyRef'.": 10,
+    "Element 'DefaultCodespaceRef': No match found for key-sequence [..] of keyref 'Codespace_AnyKeyRef'.": 6,
+    "Element 'Name': This element is not expected. Expected is (...).": 3,
+    "Element 'GeneralFrame': This element is not expected. Expected is (...).": 3,
+    "Element 'ShortName': This element is not expected. Expected is (...).": 1,
+    "Element 'Branding': This element is not expected. Expected is (...).": 1,
+    "Element 'CustomerServiceContactDetails': This element is not expected. Expected is (...).": 1,
+    "Element 'operationalContexts': This element is not expected. Expected is (...).": 1,
+    "Element 'stopAreas': This element is not expected. Expected is (...).": 1,
+    "Element 'AvailabilityCondition': This element is not expected. Expected is (...).": 1,
+    "Element 'dayTypes': This element is not expected. Expected is (...).": 1
+   }
+  }
+ },
+ "seconds": 68.7,
+ "xsd_params": {
+  "xsd_budget": 150000000,
+  "max_xsd_bytes": 150000000,
+  "errors_categorised_per_document": 20000,
+  "source": "inferred from run logs by 03b"
+ }
+}

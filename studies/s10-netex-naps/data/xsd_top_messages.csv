@@ -1,0 +1,76 @@
+schema,message,datasets,errors
+netex_1_3_2,Element 'privateCodes': This element is not expected. Expected is (...).,11,55460
+netex_1_3_2,Element 'QuayRef': No match found for key-sequence [..] of keyref 'Quay_KeyRef'.,6,463
+netex_1_3_2,Element 'DefaultCodespaceRef': No match found for key-sequence [..] of keyref 'Codespace_AnyKeyRef'.,6,11
+netex_1_3_2,Element 'TypeOfFrameRef': No match found for key-sequence [..] of keyref 'TypeOfFrame_AnyKeyRef'.,6,24
+netex_1_3_2,Element 'TypeOfResponsibilityRoleRef': No match found for key-sequence [..] of keyref 'TypeOfResponsibilityRole_AnyKeyRef'.,4,4
+netex_1_3_2,Element 'DayTypeAssignment': Not all fields of key identity-constraint 'DayTypeAssignment_AnyVersionedKey_ordered' evaluate to a node.,3,4458
+netex_1_3_2,Element 'PassengerStopAssignment': Not all fields of key identity-constraint 'PassengerStopAssignment_AnyVersionedKey_ordered' evaluate to a node.,3,3831
+netex_1_3_2,"Element 'StakeholderRoleType': [facet 'enumeration'] The value '..' is not an element of the set {'Planning', 'Operation', 'Control', 'Reservation', 'EntityLegalOwnership', 'FareManagement', 'Financing', 'SecurityManagem",3,5
+netex_1_3_2,Element 'StakeholderRoleType': '..' is not a valid value of the list type 'StakeholderRoleTypeListOfEnumerations'.,3,5
+netex_1_3_2,Element 'ServiceJourneyRef': This element is not expected. Expected is (...).,3,172194
+netex_1_3_2,Element 'Quay': No match found for key-sequence [..] of keyref 'DataSourceRef_AnyKeyRef'.,2,11214
+netex_1_3_2,"Element 'DayTypeAssignment', attribute 'order': Warning: No precomputed value available, the value was either invalid or something strange happened.",2,8914
+netex_1_3_2,"Element 'DayTypeAssignment', attribute 'order': '..' is not a valid value of the atomic type 'xs:positiveInteger'.",2,4457
+netex_1_3_2,"Element 'PassengerStopAssignment', attribute 'order': Warning: No precomputed value available, the value was either invalid or something strange happened.",2,3620
+netex_1_3_2,"Element 'PassengerStopAssignment', attribute 'order': '..' is not a valid value of the atomic type 'xs:positiveInteger'.",2,1811
+netex_1_3_2,Element 'StopPointInJourneyPattern': Not all fields of key identity-constraint 'FarePointInPattern_AnyVersionedKey_ordered' evaluate to a node.,2,7046
+netex_1_3_2,Element 'StopPointInJourneyPattern': Not all fields of key identity-constraint 'StopPointInJourneyPattern_AnyVersionedKey_ordered' evaluate to a node.,2,7045
+netex_1_3_2,Element 'StopPointInJourneyPattern': Not all fields of key identity-constraint 'PointInJourneyPattern_AnyVersionedKey_ordered' evaluate to a node.,2,7044
+netex_1_3_2,Element 'TimingPointInJourneyPattern': Not all fields of key identity-constraint 'FarePointInPattern_AnyVersionedKey_ordered' evaluate to a node.,2,24
+netex_1_3_2,Element 'TimingPointInJourneyPattern': Not all fields of key identity-constraint 'TimingPointInJourneyPattern_AnyVersionedKey_ordered' evaluate to a node.,2,24
+netex_1_3_2,Element 'TimingPointInJourneyPattern': Not all fields of key identity-constraint 'PointInJourneyPattern_AnyVersionedKey_ordered' evaluate to a node.,2,24
+netex_1_3_2,Element 'PointOnRoute': Not all fields of key identity-constraint 'PointOnRoute_AnyVersionedKey_ordered' evaluate to a node.,2,28300
+netex_1_3_2,Element 'quays': Missing child element(s). Expected is (...).,1,8856
+netex_1_3_2,"Element 'BusSubmode': [facet 'enumeration'] The value '..' is not an element of the set {'unknown', 'undefined', 'localBus', 'regionalBus', 'expressBus', 'nightBus', 'postBus', 'specialNeedsBus', 'mobilityBus', 'mobility",1,27
+netex_1_3_2,Element 'PlaceEquipment': This element is not expected. Expected is (...).,1,3
+netex_2_0_0,Element 'TimetabledPassingTime': The attribute 'id' is required but missing.,11,287870
+netex_2_0_0,Element 'TimetabledPassingTime': Not all fields of key identity-constraint 'TimetabledPassingTime_AnyVersionedKey' evaluate to a node.,11,287847
+netex_2_0_0,Element 'ArrivalTime': This element is not expected. Expected is (...).,11,279571
+netex_2_0_0,Element 'QuayRef': No match found for key-sequence [..] of keyref 'Quay_KeyRef'.,10,8123
+netex_2_0_0,Element 'DefaultCodespaceRef': No match found for key-sequence [..] of keyref 'Codespace_AnyKeyRef'.,8,13
+netex_2_0_0,Element 'TypeOfFrameRef': No match found for key-sequence [..] of keyref 'TypeOfFrame_AnyKeyRef'.,8,114
+netex_2_0_0,Element 'TypeOfServiceRef': No match found for key-sequence [..] of keyref 'TypeOfService_AnyKeyRef'.,7,128
+netex_2_0_0,Element 'TypeOfResponsibilityRoleRef': No match found for key-sequence [..] of keyref 'TypeOfResponsibilityRole_AnyKeyRef'.,7,7
+netex_2_0_0,Element 'DepartureTime': This element is not expected. Expected is (...).,6,8299
+netex_2_0_0,Element 'ResponsibleAreaRef': No match found for key-sequence [..] of keyref 'TransportAdministrativeZone_KeyRef'.,3,5
+netex_2_0_0,Element 'DatedServiceJourneyRef': This element is not expected. Expected is (...).,3,26418
+netex_2_0_0,Element 'Quay': No match found for key-sequence [..] of keyref 'DataSourceRef_AnyKeyRef'.,2,11214
+netex_2_0_0,Element 'ResponsibleOrganisationRef': No match found for key-sequence [..] of keyref 'Organisation_AnyKeyRef'.,2,2
+netex_2_0_0,Element 'VehicleTypeZoneRestriction': The attribute 'id' is required but missing.,1,7533
+netex_2_0_0,Element 'quays': Missing child element(s). Expected is (...).,1,8856
+netex_2_0_0,"Element 'BusSubmode': [facet 'enumeration'] The value '..' is not an element of the set {'unknown', 'undefined', 'localBus', 'regionalBus', 'expressBus', 'nightBus', 'postBus', 'specialNeedsBus', 'mobilityBus', 'mobility",1,27
+netex_2_0_0,Element 'PlaceEquipment': This element is not expected. Expected is (...).,1,3
+netex_2_0_0,Element 'gml:posList': '..' is not a valid value of the atomic type 'xs:double'.,1,2
+netex_2_0_0,Element 'gml:posList': '..' is not a valid value of the list type 'gml:doubleList'.,1,2
+netex_2_0_0,"Element 'DayTypeAssignment', attribute 'order': '..' is not a valid value of the atomic type 'xs:positiveInteger'.",1,984
+netex_2_0_0,"Element 'PassengerStopAssignment', attribute 'order': '..' is not a valid value of the atomic type 'xs:positiveInteger'.",1,306
+netex_2_0_0,Element 'GeneralFrame': No match found for key-sequence [..] of keyref 'DataSourceRef_AnyKeyRef'.,1,21
+netex_2_0_0,"Element 'AlternativeName', attribute 'order': '..' is not a valid value of the atomic type 'xs:positiveInteger'.",1,2
+netex_2_0_0,Element 'TariffZoneRef': No match found for key-sequence [..] of keyref 'TariffZone_AnyKeyRef'.,1,508
+netex_2_0_0,Element 'AuthorityRef': No match found for key-sequence [..] of keyref 'Authority_KeyRef'.,1,24
+epip,Element 'GeneralFrame': This element is not expected. Expected is (...).,12,532
+epip,Element 'validityConditions': This element is not expected. Expected is (...).,12,24271
+epip,Element 'ShortName': This element is not expected. Expected is (...).,11,158
+epip,Element 'Name': This element is not expected. Expected is (...).,10,28
+epip,Element 'operationalContexts': This element is not expected. Expected is (...).,10,10
+epip,Element 'OnwardRouteLinkRef': This element is not expected.,9,20916
+epip,Element 'privateCodes': This element is not expected. Expected is (...).,9,23534
+epip,Element 'GeneralFrame': This element is not expected.,8,500
+epip,Element 'OperationalContextRef': This element is not expected.,8,10502
+epip,Element 'TypeOfFrameRef': No match found for key-sequence [..] of keyref 'TypeOfFrame_AnyKeyRef'.,8,44
+epip,Element 'AvailabilityCondition': This element is not expected. Expected is (...).,7,7
+epip,Element 'Operator': Missing child element(s). Expected is (...).,6,7
+epip,Element 'stopAreas': This element is not expected. Expected is (...).,6,6
+epip,Element 'DefaultCodespaceRef': No match found for key-sequence [..] of keyref 'Codespace_AnyKeyRef'.,5,10
+epip,Element 'Branding': This element is not expected. Expected is (...).,4,4
+epip,Element 'CustomerServiceContactDetails': This element is not expected. Expected is (...).,4,4
+epip,Element 'Authority': Missing child element(s). Expected is (...).,3,3
+epip,Element 'dayTypes': This element is not expected. Expected is (...).,3,3
+epip,Element 'OperatorActivities': This element is not expected.,3,3
+epip,Element 'JourneyPatternRef': This element is not expected. Expected is (...).,2,18169
+epip,Element 'projections': This element is not expected. Expected is (...).,2,6961
+epip,Element 'ScheduledStopPoint': Missing child element(s). Expected is (...).,2,6952
+epip,Element 'dayTypes': This element is not expected.,2,2
+epip,Element 'TypeOfProductCategory': This element is not expected. Expected is (...).,2,2
+epip,Element 'PointOnRoute': The attribute 'order' is required but missing.,2,10880

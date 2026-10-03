@@ -1,0 +1,141 @@
+{
+ "slug": "LU_latest",
+ "country": "LU",
+ "nap": "data.public.lu (mobiliteit.lu)",
+ "dataset_id": "56fbd4e5855e9b6a1088f54e/03019144-d22b-439e-8e0b-83b25788fffa",
+ "title": "Horaires et arrêts des transport publics (NeTEx) — netex-20260930-20261212.zip",
+ "licence": "cc-zero",
+ "updated": "2026-10-01",
+ "url": "https://download.data.public.lu/resources/horaires-et-arrets-des-transport-publics-netex/20261001-055954/netex-20260930-20261212.zip",
+ "stratum": "LU",
+ "snapshot_date": "2026-10-02",
+ "download_bytes": 26664026,
+ "http_status": 200,
+ "content_type": "binary/octet-stream",
+ "xml_members": 716,
+ "uncompressed_bytes": 659551165,
+ "summary": {
+  "profile": "epip",
+  "members": 716,
+  "root_elements": {
+   "PublicationDelivery": 716
+  },
+  "declared_versions": {
+   "ntx:1.1": 716
+  },
+  "type_of_frame_top": {
+   "epip:EU_PI_LINE_OFFER": 1432,
+   "epip:EU_PI_COMMON": 716,
+   "epip:EU_PI_CALENDAR": 716,
+   "epip:EU_PI_NETWORK": 716,
+   "epip:EU_PI_STOP": 716,
+   "epip:EU_PI_TIMETABLE": 716
+  },
+  "counts": {
+   "Authority": 2148,
+   "Operator": 716,
+   "DayType": 2421,
+   "Line": 716,
+   "ScheduledStopPoint": 27771,
+   "ServiceJourneyPattern": 2665,
+   "StopPlace": 16910,
+   "Quay": 36530,
+   "ServiceJourney": 41618
+  },
+  "ids": 1584703,
+  "refs": 1939824,
+  "refs_internal": 1934812,
+  "refs_unresolved": 5012,
+  "refs_unresolved_same_codespace": 0,
+  "refs_unresolved_by_tag": {
+   "TypeOfFrameRef": 5012
+  },
+  "refs_unresolved_versioned": 0,
+  "refs_unresolved_profile_types": 5012,
+  "refs_internal_unversioned_same_file": 7681,
+  "refs_unresolved_versioned_by_tag": {},
+  "version_mismatch": 0,
+  "duplicate_definitions": 105079,
+  "duplicate_in_file": 0,
+  "validity_from_min": "2026-09-30",
+  "validity_to_max": "2026-12-12",
+  "calendar_min": "2026-10-01",
+  "calendar_max": "2026-12-12",
+  "encodings": {
+   "UTF-8": 716
+  },
+  "bom": 0,
+  "mojibake": 0,
+  "id_format_checked": 0,
+  "id_format_bad": 0,
+  "id_type_bad": 0,
+  "refs_internal_unversioned": 1432,
+  "codespaces_declared": [
+   "epd"
+  ]
+ },
+ "findings": [
+  {
+   "rule": "ID-REDUNDANT-ACROSS-FILES",
+   "severity": "info",
+   "count": 105079,
+   "message": "Same object (not a frame or packaging object) defined in several documents of the dataset; consumers must deduplicate (the Nordic profile puts shared objects in one common file).",
+   "examples": [
+    "Authority id=LU::Authority:16:: version=1790753244 in 57 files",
+    "Authority id=LU::Authority:1:: version=1790753244 in 716 files",
+    "Authority id=LU::Authority:161:: version=1790753244 in 716 files",
+    "Operator id=LU::Operator:6:: version=1790753244 in 57 files",
+    "VehicleType id=LU::VehicleType:336:: version=1790753244 in 10 files"
+   ],
+   "source": "Nordic profile, General information (common file 'to avoid redundancy of unique objects')"
+  }
+ ],
+ "xsd": {
+  "netex_1_3_2": {
+   "documents_checked": 127,
+   "documents_valid": 127,
+   "documents_skipped": 589,
+   "dataset_valid": false,
+   "checked_valid": true,
+   "coverage_bytes": 0.455,
+   "errors": 0,
+   "by_category": {},
+   "top_messages": {}
+  },
+  "netex_2_0_0": {
+   "documents_checked": 127,
+   "documents_valid": 127,
+   "documents_skipped": 589,
+   "dataset_valid": false,
+   "checked_valid": true,
+   "coverage_bytes": 0.455,
+   "errors": 0,
+   "by_category": {},
+   "top_messages": {}
+  },
+  "epip": {
+   "documents_checked": 127,
+   "documents_valid": 0,
+   "documents_skipped": 589,
+   "dataset_valid": false,
+   "checked_valid": false,
+   "coverage_bytes": 0.455,
+   "errors": 148,
+   "by_category": {
+    "unexpected-element": 148
+   },
+   "top_messages": {
+    "Element 'ShortName': This element is not expected. Expected is (...).": 148
+   }
+  }
+ },
+ "seconds": 927.2,
+ "rules_version": "3-upgraded-from-2",
+ "rechecked_at": "2026-10-02 23:27",
+ "xsd_params": {
+  "xsd_budget": 300000000,
+  "max_xsd_bytes": 400000000,
+  "errors_categorised_per_document": 20000,
+  "source": "inferred from run logs by 03b"
+ }
+}

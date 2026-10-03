@@ -1,0 +1,121 @@
+{
+ "slug": "BE_indigo_open_data_be_d47e59fd_cd09_4e61_b4e8_36abbaea186e",
+ "country": "BE",
+ "nap": "transportdata.be",
+ "dataset_id": "indigo-open-data-be/d47e59fd-cd09-4e61-b4e8-36abbaea186e",
+ "title": "indigo-open-data-parking — indigo-parking-data-netex.zip",
+ "licence": "",
+ "updated": "2026-10-02",
+ "url": "https://transportdata.be/dataset/b83c0aa0-219c-4eaf-b8f6-ed8ab854554b/resource/d47e59fd-cd09-4e61-b4e8-36abbaea186e/download/indigo-parking-data-netex.zip",
+ "stratum": "BE",
+ "snapshot_date": "2026-10-02",
+ "download_bytes": 13215,
+ "http_status": 200,
+ "content_type": "application/zip",
+ "xml_members": 2,
+ "uncompressed_bytes": 328814,
+ "summary": {
+  "profile": "unknown",
+  "members": 2,
+  "root_elements": {
+   "PublicationDelivery": 2
+  },
+  "declared_versions": {
+   "None": 2
+  },
+  "type_of_frame_top": {
+   "BE:TypeOfFrame:NETEX_PARKING": 1
+  },
+  "counts": {
+   "DayType": 125
+  },
+  "ids": 800,
+  "refs": 2,
+  "refs_internal": 1,
+  "refs_unresolved": 1,
+  "refs_unresolved_same_codespace": 1,
+  "refs_unresolved_by_tag": {
+   "TypeOfFrameRef": 1
+  },
+  "refs_unresolved_versioned": 0,
+  "refs_unresolved_profile_types": 1,
+  "refs_internal_unversioned_same_file": 1,
+  "refs_unresolved_versioned_by_tag": {},
+  "version_mismatch": 0,
+  "duplicate_definitions": 0,
+  "duplicate_in_file": 0,
+  "validity_from_min": null,
+  "validity_to_max": null,
+  "calendar_min": null,
+  "calendar_max": null,
+  "encodings": {
+   "UTF-8": 2
+  },
+  "bom": 0,
+  "mojibake": 0,
+  "id_format_checked": 0,
+  "id_format_bad": 0,
+  "id_type_bad": 0,
+  "refs_internal_unversioned": 1,
+  "codespaces_declared": []
+ },
+ "findings": [
+  {
+   "rule": "VERSION-MISSING",
+   "severity": "info",
+   "count": 2,
+   "message": "PublicationDelivery has no version attribute.",
+   "examples": [],
+   "source": "NeTEx XSD (attribute optional); reported as a fact"
+  }
+ ],
+ "xsd": {
+  "netex_1_3_2": {
+   "documents_checked": 2,
+   "documents_valid": 2,
+   "documents_skipped": 0,
+   "dataset_valid": true,
+   "checked_valid": true,
+   "coverage_bytes": 1.0,
+   "errors": 0,
+   "by_category": {},
+   "top_messages": {}
+  },
+  "netex_2_0_0": {
+   "documents_checked": 2,
+   "documents_valid": 2,
+   "documents_skipped": 0,
+   "dataset_valid": true,
+   "checked_valid": true,
+   "coverage_bytes": 1.0,
+   "errors": 0,
+   "by_category": {},
+   "top_messages": {}
+  },
+  "epip": {
+   "documents_checked": 2,
+   "documents_valid": 0,
+   "documents_skipped": 0,
+   "dataset_valid": false,
+   "checked_valid": false,
+   "coverage_bytes": 1.0,
+   "errors": 2,
+   "by_category": {
+    "unexpected-element": 2
+   },
+   "top_messages": {
+    "Element 'parkings': This element is not expected. Expected is (...).": 1,
+    "Element 'GeneralFrame': This element is not expected. Expected is (...).": 1
+   }
+  }
+ },
+ "seconds": 8.6,
+ "rules_version": "3-upgraded-from-2",
+ "rechecked_at": "2026-10-02 23:26",
+ "xsd_params": {
+  "xsd_budget": 300000000,
+  "max_xsd_bytes": 400000000,
+  "errors_categorised_per_document": 20000,
+  "source": "inferred from run logs by 03b"
+ }
+}

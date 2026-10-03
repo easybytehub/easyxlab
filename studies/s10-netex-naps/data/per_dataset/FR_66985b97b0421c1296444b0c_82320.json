@@ -1,0 +1,168 @@
+{
+ "slug": "FR_66985b97b0421c1296444b0c_82320",
+ "country": "FR",
+ "nap": "transport.data.gouv.fr",
+ "dataset_id": "66985b97b0421c1296444b0c/82320",
+ "title": "Réseau urbain Baïa — Itinéraires  et courses NA Mobilités NeTEx",
+ "licence": "odc-odbl",
+ "updated": "2026-09-29",
+ "url": "https://www.data.gouv.fr/api/1/datasets/r/d063e662-638f-4548-8c1c-ff882d74befa",
+ "stratum": "FR-medium",
+ "snapshot_date": "2026-10-02",
+ "download_bytes": 866963,
+ "http_status": 200,
+ "content_type": "application/zip",
+ "xml_members": 16,
+ "uncompressed_bytes": 16111312,
+ "summary": {
+  "profile": "fr",
+  "members": 16,
+  "root_elements": {
+   "PublicationDelivery": 16
+  },
+  "declared_versions": {
+   "1.1:FR-NETEX_RESEAU-2.2": 14,
+   "1.1:FR-NETEX_CALENDRIER-2.2": 1,
+   "1.1:FR-NETEX_COMMUN-2.2": 1
+  },
+  "type_of_frame_top": {
+   "FR:TypeOfFrame:NETEX_RESEAUX:": 14,
+   "FR:TypeOfFrame:NETEX_LIGNE:": 14,
+   "FR:TypeOfFrame:NETEX_HORAIRE:": 14,
+   "FR:TypeOfFrame:NETEX_CALENDRIER:": 1,
+   "FR:TypeOfFrame:NETEX_COMMUN:": 1
+  },
+  "counts": {
+   "Route": 64,
+   "ServiceJourneyPattern": 64,
+   "ScheduledStopPoint": 1984,
+   "ServiceJourney": 1341,
+   "DayType": 20,
+   "Line": 14,
+   "Authority": 1,
+   "Operator": 1
+  },
+  "ids": 13176,
+  "refs": 13199,
+  "refs_internal": 11171,
+  "refs_unresolved": 2028,
+  "refs_unresolved_same_codespace": 0,
+  "refs_unresolved_by_tag": {
+   "QuayRef": 1984,
+   "TypeOfFrameRef": 44
+  },
+  "refs_unresolved_versioned": 0,
+  "refs_unresolved_profile_types": 44,
+  "refs_internal_unversioned_same_file": 14,
+  "refs_unresolved_versioned_by_tag": {},
+  "version_mismatch": 0,
+  "duplicate_definitions": 0,
+  "duplicate_in_file": 0,
+  "validity_from_min": "2026-09-08",
+  "validity_to_max": "2026-12-31",
+  "calendar_min": "2026-10-04",
+  "calendar_max": "2026-12-31",
+  "encodings": {
+   "UTF-8": 16
+  },
+  "bom": 0,
+  "mojibake": 0,
+  "replacement_chars": 0,
+  "validity_open_ended": 0,
+  "refs_unresolved_typeof_versioned": 0,
+  "id_format_checked": 13176,
+  "id_format_bad": 3,
+  "id_type_bad": 2,
+  "refs_internal_unversioned": 78,
+  "codespaces_declared": []
+ },
+ "findings": [
+  {
+   "rule": "FR-ID-NOT-PROPOSED-FORMAT",
+   "severity": "info",
+   "count": 3,
+   "message": "3 of 13176 ids do not follow the codification the French profile proposes (other structures are allowed if ids stay unique nationally).",
+   "examples": [
+    "CompositeFrame id=COBAS:CompositeFrame:NETEX_RESEAUX-LOC",
+    "GeneralFrame id=COBAS:NETEX_LIGNE-20260908091216Z:LOC",
+    "GeneralFrame id=COBAS:NETEX_HORAIRE-20260908091216Z:LOC"
+   ],
+   "source": "Profil NeTEx France, Éléments communs (codification 'proposée'; other structures allowed)"
+  },
+  {
+   "rule": "FR-ID-TYPE-NOT-TAG",
+   "severity": "info",
+   "count": 2,
+   "message": "Second part of the id is not the XML element name, as the proposed French codification suggests.",
+   "examples": [
+    "GeneralFrame id=COBAS:NETEX_LIGNE-20260908091216Z:LOC",
+    "GeneralFrame id=COBAS:NETEX_HORAIRE-20260908091216Z:LOC"
+   ],
+   "source": "Profil NeTEx France, Éléments communs (codification 'proposée')"
+  },
+  {
+   "rule": "FR-REF-UNVERSIONED-INTERNAL",
+   "severity": "warning",
+   "count": 78,
+   "message": "Profil NeTEx France: 78 of 11171 references to objects present in the dataset carry neither 'version' nor 'versionRef' ('any' is allowed).",
+   "examples": [
+    "COBAS_offre_Bus_BAIA_22_L01.xml: <LineRef ref=\"COBAS:Line:22:LOC\"/> (defined in the dataset)",
+    "COBAS_offre_Bus_BAIA_22_L01.xml: <LineRef ref=\"COBAS:Line:22:LOC\"/> (defined in the dataset)",
+    "COBAS_offre_Bus_BAIA_22_L01.xml: <LineRef ref=\"COBAS:Line:22:LOC\"/> (defined in the dataset)",
+    "COBAS_offre_Bus_BAIA_22_L01.xml: <LineRef ref=\"COBAS:Line:22:LOC\"/> (defined in the dataset)",
+    "COBAS_offre_Bus_BAIA_22_L01.xml: <LineRef ref=\"COBAS:Line:22:LOC\"/> (defined in the dataset)"
+   ],
+   "source": "Profil NeTEx France, Éléments communs, VersionOfObjectRef"
+  }
+ ],
+ "xsd": {
+  "netex_1_3_2": {
+   "documents_checked": 16,
+   "documents_valid": 16,
+   "documents_skipped": 0,
+   "dataset_valid": true,
+   "errors": 0,
+   "by_category": {},
+   "top_messages": {}
+  },
+  "netex_2_0_0": {
+   "documents_checked": 16,
+   "documents_valid": 2,
+   "documents_skipped": 0,
+   "dataset_valid": false,
+   "errors": 126774,
+   "by_category": {
+    "attribute-missing": 40789,
+    "unexpected-element": 40789,
+    "other": 40788
+   },
+   "top_messages": {
+    "Element 'TimetabledPassingTime': The attribute 'id' is required but missing.": 40789,
+    "Element 'ArrivalTime': This element is not expected. Expected is (...).": 40789,
+    "Element 'TimetabledPassingTime': Not all fields of key identity-constraint 'TimetabledPassingTime_AnyVersionedKey' evaluate to a node.": 40788
+   }
+  },
+  "epip": {
+   "documents_checked": 16,
+   "documents_valid": 0,
+   "documents_skipped": 0,
+   "dataset_valid": false,
+   "errors": 16,
+   "by_category": {
+    "unexpected-element": 16
+   },
+   "top_messages": {
+    "Element 'GeneralFrame': This element is not expected. Expected is (...).": 16
+   }
+  }
+ },
+ "seconds": 24.9,
+ "rules_version": 3,
+ "rechecked_at": "2026-10-03 05:56",
+ "xsd_params": {
+  "xsd_budget": 300000000,
+  "max_xsd_bytes": 400000000,
+  "errors_categorised_per_document": 20000,
+  "source": "inferred from run logs by 03b"
+ }
+}

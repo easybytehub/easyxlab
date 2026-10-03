@@ -1,0 +1,160 @@
+{
+ "slug": "NL_cxx",
+ "country": "NL",
+ "nap": "NDOV Loket",
+ "dataset_id": "cxx/NeTEx_CXX_ZLD_20261002_2026-10-04_202600239_9.3.0.xml.gz",
+ "title": "NeTEx_CXX_ZLD_20261002_2026-10-04_202600239_9.3.0.xml.gz",
+ "licence": "",
+ "updated": "2026-10-02",
+ "url": "https://data.ndovloket.nl/netex/cxx/NeTEx_CXX_ZLD_20261002_2026-10-04_202600239_9.3.0.xml.gz",
+ "stratum": "NL",
+ "snapshot_date": "2026-10-02",
+ "download_bytes": 845173,
+ "http_status": 200,
+ "content_type": "application/gzip",
+ "xml_members": 1,
+ "uncompressed_bytes": 22169276,
+ "summary": {
+  "profile": "nl",
+  "members": 1,
+  "root_elements": {
+   "PublicationDelivery": 1
+  },
+  "declared_versions": {
+   "ntx:1.1": 1
+  },
+  "type_of_frame_top": {
+   "NL:BISON:TypeOfFrame:NL_DOVA_LISTS": 3,
+   "NL:BISON:TypeOfFrame:NL_TT_BASELINE": 1,
+   "NL:BISON:TypeOfFrame:NL_TT_RESOURCE": 1,
+   "NL:BISON:TypeOfFrame:NL_TT_SERVICE": 1,
+   "NL:BISON:TypeOfFrame:NL_TT_TIMETABLE": 1,
+   "NL:BISON:TypeOfFrame:NL_TT_CALENDAR": 1,
+   "NL:BISON:TypeOfFrame:NL_TT_VEHICLE": 1,
+   "NL:BISON:TypeOfFrame:NL_CODESPACES": 1
+  },
+  "counts": {
+   "Authority": 2,
+   "Operator": 2,
+   "Route": 389,
+   "Line": 67,
+   "ScheduledStopPoint": 1079,
+   "ServiceJourneyPattern": 476,
+   "ServiceJourney": 3170,
+   "DayType": 19
+  },
+  "ids": 37298,
+  "refs": 78482,
+  "refs_internal": 77336,
+  "refs_unresolved": 1146,
+  "refs_unresolved_same_codespace": 1028,
+  "refs_unresolved_by_tag": {
+   "QuayRef": 1079,
+   "ExternalLineRef": 67
+  },
+  "refs_unresolved_versioned": 0,
+  "refs_unresolved_profile_types": 0,
+  "refs_internal_unversioned_same_file": 6,
+  "refs_unresolved_versioned_by_tag": {},
+  "version_mismatch": 0,
+  "duplicate_definitions": 0,
+  "duplicate_in_file": 0,
+  "validity_from_min": "2026-10-04",
+  "validity_to_max": "2026-12-12",
+  "calendar_min": null,
+  "calendar_max": null,
+  "encodings": {
+   "UTF-8": 1
+  },
+  "bom": 0,
+  "mojibake": 0,
+  "id_format_checked": 0,
+  "id_format_bad": 0,
+  "id_type_bad": 0,
+  "refs_internal_unversioned": 6,
+  "codespaces_declared": [
+   "BISON",
+   "CXX",
+   "DOVA"
+  ]
+ },
+ "findings": [],
+ "rules_version": "3-upgraded-from-2",
+ "xsd": {
+  "netex_1_3_2": {
+   "documents_checked": 1,
+   "documents_valid": 0,
+   "documents_skipped": 0,
+   "dataset_valid": false,
+   "checked_valid": false,
+   "coverage_bytes": 1.0,
+   "errors": 28423,
+   "by_category": {
+    "other": 18124,
+    "unexpected-element": 1876
+   },
+   "top_messages": {
+    "Element 'StopPointInJourneyPattern': Not all fields of key identity-constraint 'FarePointInPattern_AnyVersionedKey_ordered' evaluate to a node.": 6032,
+    "Element 'StopPointInJourneyPattern': Not all fields of key identity-constraint 'StopPointInJourneyPattern_AnyVersionedKey_ordered' evaluate to a node.": 6031,
+    "Element 'StopPointInJourneyPattern': Not all fields of key identity-constraint 'PointInJourneyPattern_AnyVersionedKey_ordered' evaluate to a node.": 6031,
+    "Element 'privateCodes': This element is not expected. Expected is (...).": 1876,
+    "Element 'TimingPointInJourneyPattern': Not all fields of key identity-constraint 'FarePointInPattern_AnyVersionedKey_ordered' evaluate to a node.": 10,
+    "Element 'TimingPointInJourneyPattern': Not all fields of key identity-constraint 'TimingPointInJourneyPattern_AnyVersionedKey_ordered' evaluate to a node.": 10,
+    "Element 'TimingPointInJourneyPattern': Not all fields of key identity-constraint 'PointInJourneyPattern_AnyVersionedKey_ordered' evaluate to a node.": 10
+   }
+  },
+  "netex_2_0_0": {
+   "documents_checked": 1,
+   "documents_valid": 0,
+   "documents_skipped": 0,
+   "dataset_valid": false,
+   "checked_valid": false,
+   "coverage_bytes": 1.0,
+   "errors": 1079,
+   "by_category": {
+    "keyref-unresolved": 1079
+   },
+   "top_messages": {
+    "Element 'QuayRef': No match found for key-sequence [..] of keyref 'Quay_KeyRef'.": 1079
+   }
+  },
+  "epip": {
+   "documents_checked": 1,
+   "documents_valid": 0,
+   "documents_skipped": 0,
+   "dataset_valid": false,
+   "checked_valid": false,
+   "coverage_bytes": 1.0,
+   "errors": 10961,
+   "by_category": {
+    "unexpected-element": 10948,
+    "keyref-unresolved": 10,
+    "missing-child": 3
+   },
+   "top_messages": {
+    "Element 'OnwardRouteLinkRef': This element is not expected.": 5012,
+    "Element 'validityConditions': This element is not expected. Expected is (...).": 3170,
+    "Element 'privateCodes': This element is not expected. Expected is (...).": 1376,
+    "Element 'OperationalContextRef': This element is not expected.": 1375,
+    "Element 'TypeOfFrameRef': No match found for key-sequence [..] of keyref 'TypeOfFrame_AnyKeyRef'.": 10,
+    "Element 'Name': This element is not expected. Expected is (...).": 4,
+    "Element 'GeneralFrame': This element is not expected. Expected is (...).": 4,
+    "Element 'Operator': Missing child element(s). Expected is (...).": 2,
+    "Element 'ShortName': This element is not expected. Expected is (...).": 1,
+    "Element 'Branding': This element is not expected. Expected is (...).": 1,
+    "Element 'Authority': Missing child element(s). Expected is (...).": 1,
+    "Element 'operationalContexts': This element is not expected. Expected is (...).": 1,
+    "Element 'stopAreas': This element is not expected. Expected is (...).": 1,
+    "Element 'AvailabilityCondition': This element is not expected. Expected is (...).": 1,
+    "Element 'dayTypes': This element is not expected. Expected is (...).": 1
+   }
+  }
+ },
+ "seconds": 71.4,
+ "xsd_params": {
+  "xsd_budget": 150000000,
+  "max_xsd_bytes": 150000000,
+  "errors_categorised_per_document": 20000,
+  "source": "inferred from run logs by 03b"
+ }
+}

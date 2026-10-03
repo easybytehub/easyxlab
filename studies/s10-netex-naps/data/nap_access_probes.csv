@@ -1,0 +1,7 @@
+country,nap,url,http_status,note
+ES,nap.transportes.gob.es,https://nap.transportes.gob.es/api/Fichero/GetList,401,
+FI,finap.fi,https://finap.fi/api/service-search?text=netex,401,
+SE,Trafiklab / Samtrafiken,https://opendata.samtrafiken.se/netex-sweden/sweden.zip,403,
+AT,mobilitydata.gv.at,https://www.mobilitydata.gv.at/api/3/action/package_search?q=netex,404,
+CH,opentransportdata.swiss,https://opentransportdata.swiss/api/3/action/package_search?q=netex,404,
+EU,data.europa.eu (format facet 'netex'),"https://data.europa.eu/api/hub/search/search?filter=dataset&limit=1&facets={""format"":[""netex""]}",200,count=29;countries=fr:29

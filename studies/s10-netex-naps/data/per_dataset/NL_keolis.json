@@ -1,0 +1,140 @@
+{
+ "slug": "NL_keolis",
+ "country": "NL",
+ "nap": "NDOV Loket",
+ "dataset_id": "keolis/NeTEx_KEOLIS_KEOLIS_20260824_20260830_new_0.xml.gz",
+ "title": "NeTEx_KEOLIS_KEOLIS_20260824_20260830_new_0.xml.gz",
+ "licence": "",
+ "updated": "2026-08-24",
+ "url": "https://data.ndovloket.nl/netex/keolis/NeTEx_KEOLIS_KEOLIS_20260824_20260830_new_0.xml.gz",
+ "stratum": "NL",
+ "snapshot_date": "2026-10-02",
+ "xsd_params": {
+  "xsd_budget": 400000000,
+  "max_xsd_bytes": 400000000,
+  "errors_categorised_per_document": 20000,
+  "source": "recorded by 03_validate.py"
+ },
+ "download_bytes": 4248623,
+ "http_status": 200,
+ "content_type": "application/gzip",
+ "xml_members": 1,
+ "uncompressed_bytes": 185232206,
+ "summary": {
+  "profile": "nl",
+  "members": 1,
+  "root_elements": {
+   "PublicationDelivery": 1
+  },
+  "declared_versions": {
+   "ntx:1.1": 1
+  },
+  "type_of_frame_top": {
+   "NL:BISON:TypeOfFrame:NL_TT_TIMETABLE": 4,
+   "NL:BISON:TypeOfFrame:NL_TT_BASELINE": 1,
+   "NL:BISON:TypeOfFrame:NL_TT_RESOURCE": 1,
+   "NL:BISON:TypeOfFrame:NL_TT_SERVICE": 1,
+   "NL:BISON:TypeOfFrame:NL_TT_VEHICLE": 1,
+   "NL:BISON:TypeOfFrame:NL_TT_CALENDAR": 1
+  },
+  "counts": {
+   "Operator": 4,
+   "Route": 528,
+   "Line": 105,
+   "ScheduledStopPoint": 2471,
+   "ServiceJourneyPattern": 528,
+   "ServiceJourney": 122714,
+   "DayType": 116
+  },
+  "ids": 244229,
+  "refs": 798755,
+  "refs_internal": 793480,
+  "refs_unresolved": 5275,
+  "refs_unresolved_same_codespace": 5170,
+  "refs_unresolved_by_tag": {
+   "TariffZoneRef": 2471,
+   "QuayRef": 2471,
+   "ExternalLineRef": 105,
+   "AuthorityRef": 105,
+   "TypeOfServiceRef": 105,
+   "TypeOfFrameRef": 9,
+   "ResponsibleOrganisationRef": 4,
+   "ResponsibleAreaRef": 4,
+   "DefaultCodespaceRef": 1
+  },
+  "refs_unresolved_versioned": 0,
+  "refs_unresolved_profile_types": 114,
+  "refs_internal_unversioned_same_file": 0,
+  "refs_unresolved_versioned_by_tag": {},
+  "version_mismatch": 0,
+  "duplicate_definitions": 0,
+  "duplicate_in_file": 0,
+  "validity_from_min": "2026-05-03",
+  "validity_to_max": "2026-12-12",
+  "calendar_min": null,
+  "calendar_max": null,
+  "encodings": {
+   "UTF-8": 1
+  },
+  "bom": 1,
+  "mojibake": 0,
+  "replacement_chars": 0,
+  "validity_open_ended": 0,
+  "refs_unresolved_typeof_versioned": 9,
+  "id_format_checked": 0,
+  "id_format_bad": 0,
+  "id_type_bad": 0,
+  "refs_internal_unversioned": 0,
+  "codespaces_declared": []
+ },
+ "findings": [
+  {
+   "rule": "ENCODING-BOM",
+   "severity": "info",
+   "count": 1,
+   "message": "Documents starting with a UTF-8 byte-order mark.",
+   "examples": [],
+   "source": "W3C XML 1.0 §4.3.3"
+  }
+ ],
+ "rules_version": 3,
+ "xsd": {
+  "netex_1_3_2": {
+   "documents_checked": 0,
+   "documents_valid": 0,
+   "documents_skipped": 1,
+   "dataset_valid": false,
+   "checked_valid": false,
+   "coverage_bytes": 0.0,
+   "skipped_memory_guard": 1,
+   "errors": 0,
+   "by_category": {},
+   "top_messages": {}
+  },
+  "netex_2_0_0": {
+   "documents_checked": 0,
+   "documents_valid": 0,
+   "documents_skipped": 1,
+   "dataset_valid": false,
+   "checked_valid": false,
+   "coverage_bytes": 0.0,
+   "skipped_memory_guard": 1,
+   "errors": 0,
+   "by_category": {},
+   "top_messages": {}
+  },
+  "epip": {
+   "documents_checked": 0,
+   "documents_valid": 0,
+   "documents_skipped": 1,
+   "dataset_valid": false,
+   "checked_valid": false,
+   "coverage_bytes": 0.0,
+   "skipped_memory_guard": 1,
+   "errors": 0,
+   "by_category": {},
+   "top_messages": {}
+  }
+ },
+ "seconds": 9.5
+}

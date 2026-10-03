@@ -1,0 +1,154 @@
+{
+ "slug": "NL_qbuzz",
+ "country": "NL",
+ "nap": "NDOV Loket",
+ "dataset_id": "qbuzz/NeTEx_QBUZZ_GD_20260923_20260928.xml.gz",
+ "title": "NeTEx_QBUZZ_GD_20260923_20260928.xml.gz",
+ "licence": "",
+ "updated": "2026-09-23",
+ "url": "https://data.ndovloket.nl/netex/qbuzz/NeTEx_QBUZZ_GD_20260923_20260928.xml.gz",
+ "stratum": "NL",
+ "snapshot_date": "2026-10-02",
+ "download_bytes": 3131413,
+ "http_status": 200,
+ "content_type": "application/gzip",
+ "xml_members": 1,
+ "uncompressed_bytes": 106785788,
+ "summary": {
+  "profile": "nl",
+  "members": 1,
+  "root_elements": {
+   "PublicationDelivery": 1
+  },
+  "declared_versions": {
+   "ntx:1.1": 1
+  },
+  "type_of_frame_top": {
+   "NL:BISON:TypeOfFrame:NL_TechnicalEnumerations": 2,
+   "NL:BISON:TypeOfFrame:NL_TT_BASELINE": 1,
+   "NL:BISON:TypeOfFrame:NL_TT_RESOURCE": 1,
+   "NL:BISON:TypeOfFrame:NL_TT_SERVICE": 1,
+   "NL:BISON:TypeOfFrame:NL_TT_TIMETABLE": 1,
+   "NL:BISON:TypeOfFrame:NL_CODESPACES": 1,
+   "NL:BISON:TypeOfFrame:NL_BISON_ENUMS": 1,
+   "NL:BISON:TypeOfFrame:NL_TypeOfServiceValues": 1
+  },
+  "counts": {
+   "Operator": 1,
+   "Route": 547,
+   "Line": 120,
+   "ScheduledStopPoint": 4052,
+   "ServiceJourneyPattern": 547,
+   "ServiceJourney": 36345,
+   "Authority": 1
+  },
+  "ids": 197711,
+  "refs": 399758,
+  "refs_internal": 395586,
+  "refs_unresolved": 4172,
+  "refs_unresolved_same_codespace": 4052,
+  "refs_unresolved_by_tag": {
+   "QuayRef": 4052,
+   "ExternalLineRef": 120
+  },
+  "refs_unresolved_versioned": 0,
+  "refs_unresolved_profile_types": 0,
+  "refs_internal_unversioned_same_file": 4,
+  "refs_unresolved_versioned_by_tag": {},
+  "version_mismatch": 0,
+  "duplicate_definitions": 0,
+  "duplicate_in_file": 0,
+  "validity_from_min": "2026-09-28",
+  "validity_to_max": "2026-12-13",
+  "calendar_min": null,
+  "calendar_max": null,
+  "encodings": {
+   "UTF-8": 1
+  },
+  "bom": 0,
+  "mojibake": 0,
+  "id_format_checked": 0,
+  "id_format_bad": 0,
+  "id_type_bad": 0,
+  "refs_internal_unversioned": 4,
+  "codespaces_declared": [
+   "BISON",
+   "CHB",
+   "DOVA",
+   "EPSG",
+   "QBUZZ"
+  ]
+ },
+ "findings": [],
+ "rules_version": "3-upgraded-from-2",
+ "xsd": {
+  "netex_1_3_2": {
+   "documents_checked": 1,
+   "documents_valid": 0,
+   "documents_skipped": 0,
+   "dataset_valid": false,
+   "checked_valid": false,
+   "coverage_bytes": 1.0,
+   "errors": 122830,
+   "by_category": {
+    "other": 16739,
+    "unexpected-element": 3259,
+    "invalid-value": 2
+   },
+   "top_messages": {
+    "Element 'PointOnRoute': Not all fields of key identity-constraint 'PointOnRoute_AnyVersionedKey_ordered' evaluate to a node.": 16739,
+    "Element 'privateCodes': This element is not expected. Expected is (...).": 3259,
+    "Element 'StakeholderRoleType': [facet 'enumeration'] The value '..' is not an element of the set {'Planning', 'Operation', 'Control', 'Reservation', 'EntityLegalOwnership', 'FareManagement', 'Financing', 'SecurityManagem": 1,
+    "Element 'StakeholderRoleType': '..' is not a valid value of the list type 'StakeholderRoleTypeListOfEnumerations'.": 1
+   }
+  },
+  "netex_2_0_0": {
+   "documents_checked": 1,
+   "documents_valid": 0,
+   "documents_skipped": 0,
+   "dataset_valid": false,
+   "checked_valid": false,
+   "coverage_bytes": 1.0,
+   "errors": 4052,
+   "by_category": {
+    "keyref-unresolved": 4052
+   },
+   "top_messages": {
+    "Element 'QuayRef': No match found for key-sequence [..] of keyref 'Quay_KeyRef'.": 4052
+   }
+  },
+  "epip": {
+   "documents_checked": 1,
+   "documents_valid": 0,
+   "documents_skipped": 0,
+   "dataset_valid": false,
+   "checked_valid": false,
+   "coverage_bytes": 1.0,
+   "errors": 96125,
+   "by_category": {
+    "unexpected-element": 10183,
+    "attribute-missing": 4908,
+    "other": 4908,
+    "missing-child": 1
+   },
+   "top_messages": {
+    "Element 'OperationalContextRef': This element is not expected.": 5428,
+    "Element 'PointOnRoute': The attribute 'order' is required but missing.": 4908,
+    "Element 'PointOnRoute': Not all fields of key identity-constraint 'PointOnRoute_AnyVersionedKey_ordered' evaluate to a node.": 4908,
+    "Element 'OnwardRouteLinkRef': This element is not expected.": 4749,
+    "Element 'Name': This element is not expected. Expected is (...).": 3,
+    "Element 'ShortName': This element is not expected. Expected is (...).": 1,
+    "Element 'Branding': This element is not expected. Expected is (...).": 1,
+    "Element 'Operator': Missing child element(s). Expected is (...).": 1,
+    "Element 'operationalContexts': This element is not expected. Expected is (...).": 1
+   }
+  }
+ },
+ "seconds": 397.7,
+ "xsd_params": {
+  "xsd_budget": 150000000,
+  "max_xsd_bytes": 150000000,
+  "errors_categorised_per_document": 20000,
+  "source": "inferred from run logs by 03b"
+ }
+}

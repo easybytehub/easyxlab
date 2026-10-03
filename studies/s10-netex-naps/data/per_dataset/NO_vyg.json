@@ -1,0 +1,126 @@
+{
+ "slug": "NO_vyg",
+ "country": "NO",
+ "nap": "Entur (data.entur.no)",
+ "dataset_id": "outbound/netex/rb_vyg-aggregated-netex.zip",
+ "title": "rb_vyg-aggregated-netex.zip",
+ "licence": "",
+ "updated": "2026-10-02",
+ "url": "https://storage.googleapis.com/download/storage/v1/b/marduk-production/o/outbound%2Fnetex%2Frb_vyg-aggregated-netex.zip?generation=1790947138375348&alt=media",
+ "stratum": "NO",
+ "snapshot_date": "2026-10-02",
+ "download_bytes": 6388020,
+ "http_status": 200,
+ "content_type": "application/octet-stream",
+ "xml_members": 25,
+ "uncompressed_bytes": 118772169,
+ "summary": {
+  "profile": "nordic",
+  "members": 25,
+  "root_elements": {
+   "PublicationDelivery": 25
+  },
+  "declared_versions": {
+   "1.15:NO-NeTEx-networktimetable:1.5": 25
+  },
+  "type_of_frame_top": {},
+  "counts": {
+   "Route": 47,
+   "Line": 24,
+   "JourneyPattern": 1910,
+   "ServiceJourney": 10209,
+   "Authority": 4,
+   "Operator": 4,
+   "ScheduledStopPoint": 587
+  },
+  "ids": 317260,
+  "refs": 505849,
+  "refs_internal": 505262,
+  "refs_unresolved": 587,
+  "refs_unresolved_same_codespace": 0,
+  "refs_unresolved_by_tag": {
+   "QuayRef": 587
+  },
+  "refs_unresolved_versioned": 0,
+  "refs_unresolved_profile_types": 0,
+  "refs_internal_unversioned_same_file": 0,
+  "refs_unresolved_versioned_by_tag": {},
+  "version_mismatch": 0,
+  "duplicate_definitions": 0,
+  "duplicate_in_file": 0,
+  "validity_from_min": "2026-09-30",
+  "validity_to_max": "2027-10-02",
+  "calendar_min": "2026-10-02",
+  "calendar_max": "2027-02-03",
+  "encodings": {
+   "UTF-8": 25
+  },
+  "bom": 0,
+  "mojibake": 0,
+  "id_format_checked": 317257,
+  "id_format_bad": 0,
+  "id_type_bad": 0,
+  "refs_internal_unversioned": 200128,
+  "codespaces_declared": [
+   "NSR",
+   "PEN",
+   "VYG"
+  ]
+ },
+ "findings": [],
+ "rules_version": "3-upgraded-from-2",
+ "xsd": {
+  "netex_1_3_2": {
+   "documents_checked": 25,
+   "documents_valid": 1,
+   "documents_skipped": 0,
+   "dataset_valid": false,
+   "checked_valid": false,
+   "coverage_bytes": 1.0,
+   "errors": 140224,
+   "by_category": {
+    "unexpected-element": 138689
+   },
+   "top_messages": {
+    "Element 'ServiceJourneyRef': This element is not expected. Expected is (...).": 138689
+   }
+  },
+  "netex_2_0_0": {
+   "documents_checked": 25,
+   "documents_valid": 8,
+   "documents_skipped": 0,
+   "dataset_valid": false,
+   "checked_valid": false,
+   "coverage_bytes": 1.0,
+   "errors": 22377,
+   "by_category": {
+    "unexpected-element": 22377
+   },
+   "top_messages": {
+    "Element 'DatedServiceJourneyRef': This element is not expected. Expected is (...).": 22377
+   }
+  },
+  "epip": {
+   "documents_checked": 25,
+   "documents_valid": 0,
+   "documents_skipped": 0,
+   "dataset_valid": false,
+   "checked_valid": false,
+   "coverage_bytes": 1.0,
+   "errors": 25,
+   "by_category": {
+    "unexpected-element": 25
+   },
+   "top_messages": {
+    "Element 'validityConditions': This element is not expected. Expected is (...).": 25
+   }
+  }
+ },
+ "seconds": 416.2,
+ "xsd_params": {
+  "xsd_budget": 150000000,
+  "max_xsd_bytes": 150000000,
+  "errors_categorised_per_document": 20000,
+  "source": "inferred from run logs by 03b"
+ }
+}

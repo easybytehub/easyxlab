@@ -14,3 +14,5 @@ studies/s3-ai-marks-survival/work/
 **/.pytest_cache/
 # raw third-party API dump (contains researchers' contact details)
 studies/s4-wikidata-drug-labels/data/reference/europepmc_*.json
+# per-study scratch (downloads, probes, schemas, raw catalogue dumps): never published
+**/work/

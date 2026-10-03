@@ -1,0 +1,157 @@
+{
+ "slug": "FR_668d09dea847603d391cbe9b_81935",
+ "country": "FR",
+ "nap": "transport.data.gouv.fr",
+ "dataset_id": "668d09dea847603d391cbe9b/81935",
+ "title": "Réseau scolaire interurbain ZOU ! — ZOU_Réseau Scolaires_NeTEx.Zip",
+ "licence": "lov2",
+ "updated": "2026-07-17",
+ "url": "https://www.data.gouv.fr/api/1/datasets/r/cf1e4e2a-8f78-439f-979b-30979c2f2b70",
+ "stratum": "FR-large",
+ "snapshot_date": "2026-10-02",
+ "download_bytes": 3605382,
+ "http_status": 200,
+ "content_type": "application/octet-stream",
+ "xml_members": 530,
+ "uncompressed_bytes": 61069652,
+ "summary": {
+  "profile": "fr",
+  "members": 530,
+  "root_elements": {
+   "PublicationDelivery": 530
+  },
+  "declared_versions": {
+   "1.09:FR-NETEX_RESEAU-2.1-1.0": 1,
+   "1.09:FR-NETEX_LIGNE-2.1-1.0": 1,
+   "1.09:FR-NETEX_ARRET-2.1-1.0": 1,
+   "1.09:FR-NETEX_CALENDRIER-2.1-1.0": 1,
+   "1.09:FR-NETEX_HORAIRE-2.1-1.0": 526
+  },
+  "type_of_frame_top": {},
+  "counts": {
+   "Line": 526,
+   "Operator": 57,
+   "Quay": 6140,
+   "StopPlace": 8108,
+   "DayType": 53,
+   "Route": 1047,
+   "ServiceJourneyPattern": 2453,
+   "ScheduledStopPoint": 25561,
+   "ServiceJourney": 3346
+  },
+  "ids": 143816,
+  "refs": 206537,
+  "refs_internal": 200428,
+  "refs_unresolved": 6109,
+  "refs_unresolved_same_codespace": 0,
+  "refs_unresolved_by_tag": {
+   "TariffZoneRef": 6109
+  },
+  "refs_unresolved_versioned": 0,
+  "refs_unresolved_profile_types": 0,
+  "refs_internal_unversioned_same_file": 82647,
+  "refs_unresolved_versioned_by_tag": {},
+  "version_mismatch": 0,
+  "duplicate_definitions": 0,
+  "duplicate_in_file": 0,
+  "validity_from_min": "2026-09-29",
+  "validity_to_max": "2026-12-31",
+  "calendar_min": null,
+  "calendar_max": null,
+  "encodings": {
+   "UTF-8": 530
+  },
+  "bom": 0,
+  "mojibake": 0,
+  "replacement_chars": 0,
+  "validity_open_ended": 0,
+  "refs_unresolved_typeof_versioned": 0,
+  "id_format_checked": 143816,
+  "id_format_bad": 1,
+  "id_type_bad": 0,
+  "refs_internal_unversioned": 200428,
+  "codespaces_declared": []
+ },
+ "findings": [
+  {
+   "rule": "FR-ID-NOT-PROPOSED-FORMAT",
+   "severity": "info",
+   "count": 1,
+   "message": "1 of 143816 ids do not follow the codification the French profile proposes (other structures are allowed if ids stay unique nationally).",
+   "examples": [
+    "ServiceFrame id=FR:ServiceFrame:ZOS:3:"
+   ],
+   "source": "Profil NeTEx France, Éléments communs (codification 'proposée'; other structures allowed)"
+  },
+  {
+   "rule": "FR-REF-UNVERSIONED-INTERNAL",
+   "severity": "warning",
+   "count": 200428,
+   "message": "Profil NeTEx France: 200428 of 200428 references to objects present in the dataset carry neither 'version' nor 'versionRef' ('any' is allowed).",
+   "examples": [
+    "correspondances.xml: <StopPlaceRef ref=\"FR:StopPlace:ZOS_00736-8312300C:\"/> (defined in the dataset)",
+    "correspondances.xml: <QuayRef ref=\"FR:Quay:ZOS_00737-8312300:\"/> (defined in the dataset)",
+    "correspondances.xml: <StopPlaceRef ref=\"FR:StopPlace:ZOS_00736-8312300C:\"/> (defined in the dataset)",
+    "correspondances.xml: <QuayRef ref=\"FR:Quay:ZOS_00737-8312300:\"/> (defined in the dataset)",
+    "correspondances.xml: <StopPlaceRef ref=\"FR:StopPlace:ZOP_01765-8409000C:\"/> (defined in the dataset)"
+   ],
+   "source": "Profil NeTEx France, Éléments communs, VersionOfObjectRef"
+  }
+ ],
+ "xsd": {
+  "netex_1_3_2": {
+   "documents_checked": 400,
+   "documents_valid": 400,
+   "documents_skipped": 130,
+   "dataset_valid": false,
+   "checked_valid": true,
+   "coverage_bytes": 0.659,
+   "errors": 0,
+   "by_category": {},
+   "top_messages": {}
+  },
+  "netex_2_0_0": {
+   "documents_checked": 400,
+   "documents_valid": 4,
+   "documents_skipped": 130,
+   "dataset_valid": false,
+   "checked_valid": false,
+   "coverage_bytes": 0.659,
+   "errors": 54927,
+   "by_category": {
+    "attribute-missing": 18309,
+    "unexpected-element": 18309,
+    "other": 18309
+   },
+   "top_messages": {
+    "Element 'TimetabledPassingTime': The attribute 'id' is required but missing.": 18309,
+    "Element 'ArrivalTime': This element is not expected. Expected is (...).": 18309,
+    "Element 'TimetabledPassingTime': Not all fields of key identity-constraint 'TimetabledPassingTime_AnyVersionedKey' evaluate to a node.": 18309
+   }
+  },
+  "epip": {
+   "documents_checked": 400,
+   "documents_valid": 1,
+   "documents_skipped": 130,
+   "dataset_valid": false,
+   "checked_valid": false,
+   "coverage_bytes": 0.659,
+   "errors": 399,
+   "by_category": {
+    "unexpected-element": 399
+   },
+   "top_messages": {
+    "Element 'GeneralFrame': This element is not expected. Expected is (...).": 399
+   }
+  }
+ },
+ "seconds": 106.5,
+ "rules_version": 3,
+ "rechecked_at": "2026-10-03 05:56",
+ "xsd_params": {
+  "xsd_budget": 300000000,
+  "max_xsd_bytes": 400000000,
+  "errors_categorised_per_document": 20000,
+  "source": "inferred from run logs by 03b"
+ }
+}

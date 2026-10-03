@@ -1,0 +1,170 @@
+{
+ "slug": "FR_5cec026c634f415f64fc9715_83580",
+ "country": "FR",
+ "nap": "transport.data.gouv.fr",
+ "dataset_id": "5cec026c634f415f64fc9715/83580",
+ "title": "Navettes Aéroport Paris Beauvais — Ligne A01 Aeroport Paris-Beauvais - Paris Porte-Maillot (NetexV2)",
+ "licence": "odc-odbl",
+ "updated": "2026-07-20",
+ "url": "https://www.data.gouv.fr/api/1/datasets/r/b7bfd97e-1343-4970-a5bd-af13fba2e950",
+ "stratum": "FR-small",
+ "snapshot_date": "2026-10-02",
+ "download_bytes": 45936,
+ "http_status": 200,
+ "content_type": "application/zip",
+ "xml_members": 4,
+ "uncompressed_bytes": 1274867,
+ "summary": {
+  "profile": "fr",
+  "members": 4,
+  "root_elements": {
+   "PublicationDelivery": 4
+  },
+  "declared_versions": {
+   "2.0:FR-NETEX-2.4": 2,
+   "1.0:FR-NETEX-2.0-1.0": 2
+  },
+  "type_of_frame_top": {
+   "FR:TypeOfFrame:NETEX_RESSOURCE:": 3,
+   "FR:TypeOfFrame:NETEX_OFFRE_LIGNE:": 2,
+   "FR:TypeOfFrame:NETEX_CALENDRIER:": 1,
+   "FR:TypeOfFrame:NETEX_LIGNE:": 1,
+   "FR:TypeOfFrame:NETEX_LIGNE_STRUCTURE:": 1,
+   "FR:TypeOfFrame:NETEX_HORAIRE:": 1,
+   "FR:TypeOfFrame:NETEX_STRUCTURE:": 1,
+   "FR:TypeOfFrame:NETEX_COMMUN:": 1
+  },
+  "counts": {
+   "DayType": 47,
+   "Route": 2,
+   "ServiceJourneyPattern": 2,
+   "ScheduledStopPoint": 2,
+   "ServiceJourney": 112,
+   "Operator": 1,
+   "Line": 1,
+   "StopPlace": 2,
+   "Quay": 2
+  },
+  "ids": 4048,
+  "refs": 4105,
+  "refs_internal": 4093,
+  "refs_unresolved": 12,
+  "refs_unresolved_same_codespace": 12,
+  "refs_unresolved_by_tag": {
+   "TypeOfFrameRef": 12
+  },
+  "refs_unresolved_versioned": 0,
+  "refs_unresolved_profile_types": 12,
+  "refs_internal_unversioned_same_file": 2355,
+  "refs_unresolved_versioned_by_tag": {},
+  "version_mismatch": 0,
+  "duplicate_definitions": 0,
+  "duplicate_in_file": 0,
+  "validity_from_min": "2026-03-19",
+  "validity_to_max": "2026-10-25",
+  "calendar_min": "2026-03-20",
+  "calendar_max": "2026-10-25",
+  "encodings": {
+   "UTF-8": 4
+  },
+  "bom": 0,
+  "mojibake": 0,
+  "replacement_chars": 0,
+  "validity_open_ended": 0,
+  "refs_unresolved_typeof_versioned": 0,
+  "id_format_checked": 4048,
+  "id_format_bad": 9,
+  "id_type_bad": 8,
+  "refs_internal_unversioned": 2471,
+  "codespaces_declared": []
+ },
+ "findings": [
+  {
+   "rule": "FR-ID-NOT-PROPOSED-FORMAT",
+   "severity": "info",
+   "count": 9,
+   "message": "9 of 4048 ids do not follow the codification the French profile proposes (other structures are allowed if ids stay unique nationally).",
+   "examples": [
+    "ResourceFrame id=PARISBEAUVAIS:ResourceFrame:LOC",
+    "PointProjection id=AEROBUS:RoutePoint:C02179_1_1:LOC:PROJ",
+    "PointProjection id=AEROBUS:RoutePoint:C02179_1_2:LOC:PROJ",
+    "PointProjection id=AEROBUS:RoutePoint:C02179_2_1:LOC:PROJ",
+    "PointProjection id=AEROBUS:RoutePoint:C02179_2_2:LOC:PROJ"
+   ],
+   "source": "Profil NeTEx France, Éléments communs (codification 'proposée'; other structures allowed)"
+  },
+  {
+   "rule": "FR-ID-TYPE-NOT-TAG",
+   "severity": "info",
+   "count": 8,
+   "message": "Second part of the id is not the XML element name, as the proposed French codification suggests.",
+   "examples": [
+    "PointProjection id=AEROBUS:RoutePoint:C02179_1_1:LOC:PROJ",
+    "PointProjection id=AEROBUS:RoutePoint:C02179_1_2:LOC:PROJ",
+    "PointProjection id=AEROBUS:RoutePoint:C02179_2_1:LOC:PROJ",
+    "PointProjection id=AEROBUS:RoutePoint:C02179_2_2:LOC:PROJ",
+    "StopPlace id=FR::monomodalStopPlace:461913:FR1"
+   ],
+   "source": "Profil NeTEx France, Éléments communs (codification 'proposée')"
+  },
+  {
+   "rule": "FR-REF-UNVERSIONED-INTERNAL",
+   "severity": "warning",
+   "count": 2471,
+   "message": "Profil NeTEx France: 2471 of 4093 references to objects present in the dataset carry neither 'version' nor 'versionRef' ('any' is allowed).",
+   "examples": [
+    "calendriers.xml: <DayTypeRef ref=\"AEROBUS:DayType:DT_Je_20260319_20261025:LOC\"/> (defined in the dataset)",
+    "calendriers.xml: <DayTypeRef ref=\"AEROBUS:DayType:DT_Je_20260319_20261025:LOC\"/> (defined in the dataset)",
+    "calendriers.xml: <DayTypeRef ref=\"AEROBUS:DayType:DT_Je_20260319_20261025:LOC\"/> (defined in the dataset)",
+    "calendriers.xml: <DayTypeRef ref=\"AEROBUS:DayType:DT_Je_20260319_20261025:LOC\"/> (defined in the dataset)",
+    "calendriers.xml: <DayTypeRef ref=\"AEROBUS:DayType:DT_Je_20260319_20261025:LOC\"/> (defined in the dataset)"
+   ],
+   "source": "Profil NeTEx France, Éléments communs, VersionOfObjectRef"
+  }
+ ],
+ "xsd": {
+  "netex_1_3_2": {
+   "documents_checked": 4,
+   "documents_valid": 4,
+   "documents_skipped": 0,
+   "dataset_valid": true,
+   "errors": 0,
+   "by_category": {},
+   "top_messages": {}
+  },
+  "netex_2_0_0": {
+   "documents_checked": 4,
+   "documents_valid": 4,
+   "documents_skipped": 0,
+   "dataset_valid": true,
+   "errors": 0,
+   "by_category": {},
+   "top_messages": {}
+  },
+  "epip": {
+   "documents_checked": 4,
+   "documents_valid": 0,
+   "documents_skipped": 0,
+   "dataset_valid": false,
+   "errors": 5,
+   "by_category": {
+    "unexpected-element": 4,
+    "missing-child": 1
+   },
+   "top_messages": {
+    "Element 'GeneralFrame': This element is not expected. Expected is (...).": 3,
+    "Element 'Operator': Missing child element(s). Expected is (...).": 1,
+    "Element 'GeneralFrame': This element is not expected.": 1
+   }
+  }
+ },
+ "seconds": 3.0,
+ "rules_version": 3,
+ "rechecked_at": "2026-10-03 05:56",
+ "xsd_params": {
+  "xsd_budget": 300000000,
+  "max_xsd_bytes": 400000000,
+  "errors_categorised_per_document": 20000,
+  "source": "inferred from run logs by 03b"
+ }
+}

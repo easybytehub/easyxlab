@@ -1,0 +1,157 @@
+{
+ "slug": "NL_wsf",
+ "country": "NL",
+ "nap": "NDOV Loket",
+ "dataset_id": "wsf/NeTEx_WSF_WSF_20260905_20260905.xml.gz",
+ "title": "NeTEx_WSF_WSF_20260905_20260905.xml.gz",
+ "licence": "",
+ "updated": "2026-09-05",
+ "url": "https://data.ndovloket.nl/netex/wsf/NeTEx_WSF_WSF_20260905_20260905.xml.gz",
+ "stratum": "NL",
+ "snapshot_date": "2026-10-02",
+ "download_bytes": 5687,
+ "http_status": 200,
+ "content_type": "application/gzip",
+ "xml_members": 1,
+ "uncompressed_bytes": 63881,
+ "summary": {
+  "profile": "nl",
+  "members": 1,
+  "root_elements": {
+   "PublicationDelivery": 1
+  },
+  "declared_versions": {
+   "ntx:1.1": 1
+  },
+  "type_of_frame_top": {
+   "NL:BISON:TypeOfFrame:NL_TT_BASELINE": 1,
+   "NL:BISON:TypeOfFrame:NL_TT_RESOURCE": 1,
+   "NL:BISON:TypeOfFrame:NL_TT_SERVICE": 1,
+   "NL:BISON:TypeOfFrame:NL_TT_TIMETABLE": 1
+  },
+  "counts": {
+   "Operator": 1,
+   "Authority": 1,
+   "Route": 2,
+   "Line": 1,
+   "ScheduledStopPoint": 2,
+   "ServiceJourneyPattern": 2,
+   "ServiceJourney": 50
+  },
+  "ids": 118,
+  "refs": 255,
+  "refs_internal": 245,
+  "refs_unresolved": 10,
+  "refs_unresolved_same_codespace": 8,
+  "refs_unresolved_by_tag": {
+   "TypeOfFrameRef": 4,
+   "QuayRef": 2,
+   "DefaultCodespaceRef": 1,
+   "ResponsibleAreaRef": 1,
+   "TypeOfResponsibilityRoleRef": 1,
+   "TypeOfServiceRef": 1
+  },
+  "refs_unresolved_versioned": 0,
+  "refs_unresolved_profile_types": 6,
+  "refs_internal_unversioned_same_file": 0,
+  "refs_unresolved_versioned_by_tag": {},
+  "version_mismatch": 0,
+  "duplicate_definitions": 0,
+  "duplicate_in_file": 0,
+  "validity_from_min": "2026-09-05",
+  "validity_to_max": "2026-12-04",
+  "calendar_min": null,
+  "calendar_max": null,
+  "encodings": {
+   "UTF-8": 1
+  },
+  "bom": 0,
+  "mojibake": 0,
+  "id_format_checked": 0,
+  "id_format_bad": 0,
+  "id_type_bad": 0,
+  "refs_internal_unversioned": 0,
+  "codespaces_declared": []
+ },
+ "findings": [],
+ "rules_version": "3-upgraded-from-2",
+ "xsd": {
+  "netex_1_3_2": {
+   "documents_checked": 1,
+   "documents_valid": 0,
+   "documents_skipped": 0,
+   "dataset_valid": false,
+   "checked_valid": false,
+   "coverage_bytes": 1.0,
+   "errors": 66,
+   "by_category": {
+    "unexpected-element": 57,
+    "keyref-unresolved": 9
+   },
+   "top_messages": {
+    "Element 'privateCodes': This element is not expected. Expected is (...).": 57,
+    "Element 'TypeOfFrameRef': No match found for key-sequence [..] of keyref 'TypeOfFrame_AnyKeyRef'.": 4,
+    "Element 'QuayRef': No match found for key-sequence [..] of keyref 'Quay_KeyRef'.": 2,
+    "Element 'DefaultCodespaceRef': No match found for key-sequence [..] of keyref 'Codespace_AnyKeyRef'.": 1,
+    "Element 'TypeOfResponsibilityRoleRef': No match found for key-sequence [..] of keyref 'TypeOfResponsibilityRole_AnyKeyRef'.": 1,
+    "Element 'ResponsibleAreaRef': No match found for key-sequence [..] of keyref 'TransportAdministrativeZone_KeyRef'.": 1
+   }
+  },
+  "netex_2_0_0": {
+   "documents_checked": 1,
+   "documents_valid": 0,
+   "documents_skipped": 0,
+   "dataset_valid": false,
+   "checked_valid": false,
+   "coverage_bytes": 1.0,
+   "errors": 10,
+   "by_category": {
+    "keyref-unresolved": 10
+   },
+   "top_messages": {
+    "Element 'TypeOfFrameRef': No match found for key-sequence [..] of keyref 'TypeOfFrame_AnyKeyRef'.": 4,
+    "Element 'QuayRef': No match found for key-sequence [..] of keyref 'Quay_KeyRef'.": 2,
+    "Element 'DefaultCodespaceRef': No match found for key-sequence [..] of keyref 'Codespace_AnyKeyRef'.": 1,
+    "Element 'TypeOfResponsibilityRoleRef': No match found for key-sequence [..] of keyref 'TypeOfResponsibilityRole_AnyKeyRef'.": 1,
+    "Element 'ResponsibleAreaRef': No match found for key-sequence [..] of keyref 'TransportAdministrativeZone_KeyRef'.": 1,
+    "Element 'TypeOfServiceRef': No match found for key-sequence [..] of keyref 'TypeOfService_AnyKeyRef'.": 1
+   }
+  },
+  "epip": {
+   "documents_checked": 1,
+   "documents_valid": 0,
+   "documents_skipped": 0,
+   "dataset_valid": false,
+   "checked_valid": false,
+   "coverage_bytes": 1.0,
+   "errors": 73,
+   "by_category": {
+    "unexpected-element": 67,
+    "keyref-unresolved": 5,
+    "missing-child": 1
+   },
+   "top_messages": {
+    "Element 'validityConditions': This element is not expected. Expected is (...).": 50,
+    "Element 'privateCodes': This element is not expected. Expected is (...).": 5,
+    "Element 'TypeOfFrameRef': No match found for key-sequence [..] of keyref 'TypeOfFrame_AnyKeyRef'.": 4,
+    "Element 'Name': This element is not expected. Expected is (...).": 3,
+    "Element 'OperationalContextRef': This element is not expected.": 2,
+    "Element 'OnwardRouteLinkRef': This element is not expected.": 2,
+    "Element 'ShortName': This element is not expected. Expected is (...).": 1,
+    "Element 'OperatorActivities': This element is not expected.": 1,
+    "Element 'Authority': Missing child element(s). Expected is (...).": 1,
+    "Element 'operationalContexts': This element is not expected. Expected is (...).": 1,
+    "Element 'stopAreas': This element is not expected. Expected is (...).": 1,
+    "Element 'AvailabilityCondition': This element is not expected. Expected is (...).": 1,
+    "Element 'DefaultCodespaceRef': No match found for key-sequence [..] of keyref 'Codespace_AnyKeyRef'.": 1
+   }
+  }
+ },
+ "seconds": 0.3,
+ "xsd_params": {
+  "xsd_budget": 150000000,
+  "max_xsd_bytes": 150000000,
+  "errors_categorised_per_document": 20000,
+  "source": "inferred from run logs by 03b"
+ }
+}

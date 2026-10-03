@@ -1,0 +1,10 @@
+country,nap,probe,http_status,observed,interpretation
+ES,nap.transportes.gob.es,https://nap.transportes.gob.es/api/Fichero/GetList,401,file-list API answers 401,registration required; lawful under Art. 4(4) ('where relevant subject to registration')
+SE,Trafiklab / Samtrafiken,https://opendata.samtrafiken.se/netex-sweden/sweden.zip,403,national NeTEx file answers 403 without a key,API key (registration) required; lawful under Art. 4(4)
+FI,finap.fi,https://finap.fi/api/service-search?text=netex,401,internal search API answers 401 'Invalid cookie',not assessed: a session cookie on an internal API is not evidence of a registration wall
+AT,mobilitydata.gv.at,https://www.mobilitydata.gv.at/api/3/action/package_search?q=netex,404,guessed CKAN path returned an HTML 'not found' page,"not assessed: wrong endpoint, not a refusal"
+CH,opentransportdata.swiss,https://opentransportdata.swiss/api/3/action/package_search?q=netex,404,guessed CKAN path returned an HTML 'not found' page,"wrong endpoint, not a refusal (see next rows)"
+CH,opentransportdata.swiss,https://data.opentransportdata.swiss/api/3/action/package_search?q=netex,403,CKAN API answers 403 to an anonymous client,API needs a key
+CH,opentransportdata.swiss,https://data.opentransportdata.swiss/dataset/timetablenetex_2026/permalink,302->302->206,anonymous 1 kB Range GET: prod_netex_tt_1.10_che_ski_2026_oev-schweiz__1_1_202609300709.zip; total size 663744713 bytes,"the national NeTEx timetable is anonymously downloadable; larger than the 300 MB limit of this study, so it would not have been sampled"
+DE,Mobilithek,offers/search + offer detail,200,metadata anonymous; no download URL without an account and contract offer,registration required for files; lawful under Art. 4(4)
+EU,data.europa.eu,"https://data.europa.eu/api/hub/search/search?filter=dataset&limit=1&facets={""format"":[""netex""]}",200,count=29;countries=fr:29,format metadata not harmonised: the 'netex' facet finds French datasets only

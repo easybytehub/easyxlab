@@ -1,0 +1,118 @@
+{
+ "slug": "NO_inn",
+ "country": "NO",
+ "nap": "Entur (data.entur.no)",
+ "dataset_id": "outbound/netex/rb_inn-aggregated-netex.zip",
+ "title": "rb_inn-aggregated-netex.zip",
+ "licence": "",
+ "updated": "2026-10-01",
+ "url": "https://storage.googleapis.com/download/storage/v1/b/marduk-production/o/outbound%2Fnetex%2Frb_inn-aggregated-netex.zip?generation=1790894673090688&alt=media",
+ "stratum": "NO",
+ "snapshot_date": "2026-10-02",
+ "download_bytes": 20249889,
+ "http_status": 200,
+ "content_type": "application/octet-stream",
+ "xml_members": 473,
+ "uncompressed_bytes": 244256804,
+ "summary": {
+  "profile": "nordic",
+  "members": 473,
+  "root_elements": {
+   "PublicationDelivery": 473
+  },
+  "declared_versions": {
+   "1.16:NO-NeTEx-networktimetable:1.6": 473
+  },
+  "type_of_frame_top": {},
+  "counts": {
+   "Route": 1038,
+   "Line": 373,
+   "JourneyPattern": 2538,
+   "ServiceJourney": 10828,
+   "Operator": 15,
+   "Authority": 1,
+   "ScheduledStopPoint": 12658,
+   "DayType": 374
+  },
+  "ids": 623492,
+  "refs": 649928,
+  "refs_internal": 637270,
+  "refs_unresolved": 12658,
+  "refs_unresolved_same_codespace": 0,
+  "refs_unresolved_by_tag": {
+   "QuayRef": 12658
+  },
+  "refs_unresolved_versioned": 0,
+  "refs_unresolved_profile_types": 0,
+  "refs_internal_unversioned_same_file": 0,
+  "refs_unresolved_versioned_by_tag": {},
+  "version_mismatch": 0,
+  "duplicate_definitions": 0,
+  "duplicate_in_file": 0,
+  "validity_from_min": "2026-09-30",
+  "validity_to_max": "2027-10-02",
+  "calendar_min": "2026-10-02",
+  "calendar_max": "2027-01-31",
+  "encodings": {
+   "UTF-8": 473
+  },
+  "bom": 0,
+  "mojibake": 0,
+  "id_format_checked": 623490,
+  "id_format_bad": 0,
+  "id_type_bad": 0,
+  "refs_internal_unversioned": 225492,
+  "codespaces_declared": [
+   "INN",
+   "NSR"
+  ]
+ },
+ "findings": [],
+ "rules_version": "3-upgraded-from-2",
+ "xsd": {
+  "netex_1_3_2": {
+   "documents_checked": 341,
+   "documents_valid": 341,
+   "documents_skipped": 132,
+   "dataset_valid": false,
+   "checked_valid": true,
+   "coverage_bytes": 0.614,
+   "errors": 0,
+   "by_category": {},
+   "top_messages": {}
+  },
+  "netex_2_0_0": {
+   "documents_checked": 341,
+   "documents_valid": 341,
+   "documents_skipped": 132,
+   "dataset_valid": false,
+   "checked_valid": true,
+   "coverage_bytes": 0.614,
+   "errors": 0,
+   "by_category": {},
+   "top_messages": {}
+  },
+  "epip": {
+   "documents_checked": 341,
+   "documents_valid": 0,
+   "documents_skipped": 132,
+   "dataset_valid": false,
+   "checked_valid": false,
+   "coverage_bytes": 0.614,
+   "errors": 341,
+   "by_category": {
+    "unexpected-element": 341
+   },
+   "top_messages": {
+    "Element 'validityConditions': This element is not expected. Expected is (...).": 341
+   }
+  }
+ },
+ "seconds": 332.9,
+ "xsd_params": {
+  "xsd_budget": 150000000,
+  "max_xsd_bytes": 150000000,
+  "errors_categorised_per_document": 20000,
+  "source": "inferred from run logs by 03b"
+ }
+}

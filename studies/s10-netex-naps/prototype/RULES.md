@@ -1,0 +1,35 @@
+# netex-lint rules and their open sources
+
+Every finding carries a `source` field with the short reference below. Rule history: v2 (during the
+run), v3 and v4 (after the independent review; see METHOD.md §6).
+
+Every rule cites an open text. None is taken from the CEN specification of EPIP (CEN/TS 16614-4),
+which is sold by national standards bodies. Quotes were retrieved on 2026-10-02.
+
+| Rule | Severity | What it checks | Open source |
+|---|---|---|---|
+| `XSD-INVALID` (optional, `--xsd`) | error | Document fails the open NeTEx XSD or the archived EPIP XSD | NeTEx XSD, GPL-3.0, github.com/TransmodelEcosystem/NeTEx (tags v1.3.2, v2.0.0); EPIP XSD, github.com/TransmodelEcosystem/NeTEx-Profile-EPIP (commit e5eaf83, archived) |
+| `REF-UNRESOLVED-VERSIONED` | error | A `…Ref` with `version` (not `any`) whose `ref` is defined nowhere in the dataset. `TypeOf…Ref` and `version="any"` are excluded, so "no unresolved versioned reference" partly holds by construction; unresolved `TypeOf…Ref` with an explicit version are counted in `refs_unresolved_typeof_versioned` | The open NeTEx XSD declares keyrefs on `@ref` **and** `@version`, e.g. `StopPlace_KeyRef` (selector `.//netex:StopPlaceRef`, fields `@ref`, `@version`), so a versioned reference must resolve inside the document. Nordic and French texts below extend that to the dataset |
+| `REF-VERSION-MISMATCH` | warning | The id exists, but not in the requested version | Same keyrefs: the key is (`@id`, `@version`) |
+| `ID-DUPLICATE-IN-FILE` | error | Same element + id + version defined twice inside one document (`Codespace` excluded) | NeTEx XSD `…_AnyVersionedKey` keys (e.g. `StopPlace_AnyVersionedKey`: selector `.//netex:StopPlace`, fields `@id`, `@version`) forbid it |
+| `ID-REDUNDANT-ACROSS-FILES` | info | Same object defined in several documents of one dataset. Frames, `ValueSet`, `DataSource`, `ResponsibilitySet`, `Codespace` and `TypeOf…` are excluded, because one-file-per-line exports legitimately repeat them | Not an XSD error (keys are per document); Nordic profile: objects used by several lines go in a common file "to avoid redundancy of unique objects" |
+| `VALIDITY-EXPIRED` | error | If frames carry validity conditions: all of them have a `ToDate` and the latest is before the run date. Otherwise: every object-level `ValidBetween`/`AvailabilityCondition` has a `ToDate` and the latest is before the run date. An open-ended validity (no `ToDate`) never expires (fixed in v3/v4 after a false positive) | Delegated Regulation (EU) 2017/1926 as amended by (EU) 2024/490, Art. 6(1): "Travel information services shall be based on the most recent accessible static, historic, observed and dynamic travel and traffic data." |
+| `CALENDAR-IN-PAST` | error | The latest operating date (`OperatingDay/CalendarDate`, `OperatingPeriod`/`UicOperatingPeriod`/`ServiceCalendar` `ToDate`) is before the run date | Same article |
+| `ENCODING-NOT-UTF8` | warning | XML declaration names an encoding other than UTF-8. A document **without** a declaration is not counted (fixed in v3 after a false positive) | W3C XML 1.0 §4.3.3 |
+| `ENCODING-NO-DECLARATION` | info | No XML declaration (the document is then UTF-8/UTF-16 by default) | W3C XML 1.0 §4.3.3 |
+| `ENCODING-BOM` | info | Document starts with a UTF-8 BOM | W3C XML 1.0 §4.3.3 (allowed, but some consumers fail) |
+| `ENCODING-MOJIBAKE` | warning | Text contains double-encoded UTF-8 (`Ã¤`, `Ã©`, `â€™`…) | Heuristic |
+| `ENCODING-REPLACEMENT-CHAR` | warning | Text contains U+FFFD: a character was lost before publication | Heuristic |
+| `VERSION-MISSING` | info | `PublicationDelivery` has no `version` attribute. Reported as a fact: the attribute is optional in the NeTEx XSD | NeTEx XSD |
+| `NORDIC-ID-FORMAT` | warning | Nordic datasets: id is not `[codespace]:[type]:[identification]` with a 3-letter codespace and only `0-9a-zA-Z-_` in the identification (NSR stop-registry ids exempt) | Nordic NeTEx Profile, *General information: NeTEx* (Entur, Confluence page 728563782, version of 2025-11-05): "The ID attribute of NeTEx objects must follow a common pattern, and should be structured in the following way: [codespace]:[type]:[identification] … the identification string can only use numbers (0-9), lowercase (a-z) and uppercase (A-Z) letters, dash (-) and underscore (_), in any combination." *Framework* page: "Each codespace is a URL with a unique three-letter code" |
+| `NORDIC-ID-TYPE` (warning) / `FR-ID-TYPE-NOT-TAG` (info) | | Second part of the id is not the element name | Nordic: "Type should always be the name of the NeTEx data type, using exactly the same spelling as implemented in the NeTEx XSD". France (proposed codification): `[type d'objet]` is "le nom du tag XML qui le porte" |
+| `NORDIC-REF-UNVERSIONED-INTERNAL` | warning | Nordic datasets: a reference to an object defined in the same XML file has no `version` | Nordic NeTEx Profile, *General information*: "A version attribute for references to a unique object defined in the same PublicationDelivery is required. This means that a reference to an element defined within the same XML-file must be versioned. References to external objects are not versioned." |
+| `FR-ID-NOT-PROPOSED-FORMAT` | info | French datasets: id does not follow the **proposed** `[CODESPACE]:[type d'objet]:[identifiantTechnique]:[LOC ou Nom attributaire]` (4 parts; the last may be empty), nor the stop codification "[Code PAYS]:[Code commune INSEE]:[Type d'objet]:[Code arrêt spécifique]:[Code émetteur du code technique ou LOC]" (ZE, LMO, PM, LMU, AC; "la forme actuellement envisagée"). Reported with the share of ids. **A recommendation, not a rule** | Profil NeTEx France, *Éléments communs*: "Si l'objet n'a encore jamais été échangé … la codification suivante est proposée", "La codification retenue est donc: [CODESPACE]:[type d'objet]:[identifiantTechnique]:[LOC ou Nom attributaire]", "L'utilisation de ce qualificatif est obligatoire quand l'identifiant est local", and "(même si, encore une fois, l'analyse du contenu d'un identifiant est plus que fortement déconseillée, et d'autres structures peuvent être utilisée, en fonction des systèmes attributaires, pour peu que l'unicité soit conservée au niveau national" |
+| `FR-REF-UNVERSIONED-INTERNAL` | warning | French datasets: a reference to an object present in the dataset carries neither `version` nor `versionRef` | Profil NeTEx France, *Éléments communs*, VersionOfObjectRef: "version … Version de l'objet référencé dans le jeu de données courant. Doit systématiquement être instancié pour un objet présent dans le jeu de donnée (mettre « any » si la version n'est pas connue)." |
+
+## What it does not check
+
+- Anything specific to EPIP beyond its archived XSD (the EPIP rule text is in the paid CEN document).
+- Semantics: travel times, geometry, stop sequences, fares logic.
+- Unversioned references to objects outside the dataset (national stop registries, other NAP
+  datasets): they are counted, not flagged, because the profiles allow them.

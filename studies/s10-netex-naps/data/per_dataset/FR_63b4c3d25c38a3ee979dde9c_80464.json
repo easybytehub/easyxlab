@@ -1,0 +1,191 @@
+{
+ "slug": "FR_63b4c3d25c38a3ee979dde9c_80464",
+ "country": "FR",
+ "nap": "transport.data.gouv.fr",
+ "dataset_id": "63b4c3d25c38a3ee979dde9c/80464",
+ "title": "Réseau urbain Colibri — Horaires théoriques du réseau Colibri (Terres Touloises) - NeTEx",
+ "licence": "lov2",
+ "updated": "2026-07-23",
+ "url": "https://transport.data.gouv.fr/resources/80464/download",
+ "stratum": "FR-medium",
+ "snapshot_date": "2026-10-02",
+ "download_bytes": 1666678,
+ "http_status": 200,
+ "content_type": "application/zip",
+ "xml_members": 32,
+ "uncompressed_bytes": 22024089,
+ "summary": {
+  "profile": "fr",
+  "members": 32,
+  "root_elements": {
+   "PublicationDelivery": 32
+  },
+  "declared_versions": {
+   "1.10:FR-NETEX-2.2": 32
+  },
+  "type_of_frame_top": {
+   "FR:TypeOfFrame:NETEX_FRANCE": 32,
+   "FR:TypeOfFrame:NETEX_RESEAU": 30,
+   "FR:TypeOfFrame:NETEX_HORAIRE": 29,
+   "FR:TypeOfFrame:NETEX_ARRET": 1,
+   "FR:TypeOfFrame:NETEX_CALENDRIER": 1
+  },
+  "counts": {
+   "StopPlace": 285,
+   "Quay": 285,
+   "DayType": 206,
+   "Route": 54,
+   "ServiceJourneyPattern": 116,
+   "ScheduledStopPoint": 622,
+   "ServiceJourney": 206,
+   "Authority": 1,
+   "Operator": 1,
+   "Line": 29
+  },
+  "ids": 61480,
+  "refs": 63607,
+  "refs_internal": 63607,
+  "refs_unresolved": 0,
+  "refs_unresolved_same_codespace": 0,
+  "refs_unresolved_by_tag": {},
+  "refs_unresolved_versioned": 0,
+  "refs_unresolved_profile_types": 0,
+  "refs_internal_unversioned_same_file": 60859,
+  "refs_unresolved_versioned_by_tag": {},
+  "version_mismatch": 0,
+  "duplicate_definitions": 674,
+  "duplicate_in_file": 0,
+  "validity_from_min": "2026-09-25",
+  "validity_to_max": "2028-09-30",
+  "calendar_min": null,
+  "calendar_max": null,
+  "encodings": {
+   "UTF-8": 32
+  },
+  "bom": 0,
+  "mojibake": 0,
+  "replacement_chars": 0,
+  "validity_open_ended": 0,
+  "refs_unresolved_typeof_versioned": 0,
+  "id_format_checked": 61480,
+  "id_format_bad": 38,
+  "id_type_bad": 28,
+  "refs_internal_unversioned": 378,
+  "codespaces_declared": []
+ },
+ "findings": [
+  {
+   "rule": "ID-REDUNDANT-ACROSS-FILES",
+   "severity": "info",
+   "count": 674,
+   "message": "Same object (not a frame or packaging object) defined in several documents of the dataset; consumers must deduplicate (the Nordic profile puts shared objects in one common file).",
+   "examples": [
+    "ScheduledStopPoint id=MOVIA:ScheduledStopPoint:TOULxxxVALCOURT:LOC version=1 in 4 files",
+    "ScheduledStopPoint id=MOVIA:ScheduledStopPoint:TOULxxxGARExROUTIERE:LOC version=1 in 24 files",
+    "ScheduledStopPoint id=MOVIA:ScheduledStopPoint:TOULxxxHOPITALxSTxCHARLESxA:LOC version=1 in 22 files",
+    "ScheduledStopPoint id=MOVIA:ScheduledStopPoint:TOULxxxRIONxA:LOC version=1 in 22 files",
+    "ScheduledStopPoint id=MOVIA:ScheduledStopPoint:TOULxxxAVANCEExPORTExDExMETZ:LOC version=1 in 23 files"
+   ],
+   "source": "Nordic profile, General information (common file 'to avoid redundancy of unique objects')"
+  },
+  {
+   "rule": "FR-ID-NOT-PROPOSED-FORMAT",
+   "severity": "info",
+   "count": 38,
+   "message": "38 of 61480 ids do not follow the codification the French profile proposes (other structures are allowed if ids stay unique nationally).",
+   "examples": [
+    "ResourceFrame id=FR:ResourceFrame:1",
+    "ValueSet id=FR:ValueSet:TypeOfFrame",
+    "TypeOfFrame id=FR:TypeOfFrame:NETEX_FRANCE",
+    "TypeOfFrame id=FR:TypeOfFrame:NETEX_ARRET",
+    "ValueSet id=FR:ValueSet:TypeOfPlace"
+   ],
+   "source": "Profil NeTEx France, Éléments communs (codification 'proposée'; other structures allowed)"
+  },
+  {
+   "rule": "FR-ID-TYPE-NOT-TAG",
+   "severity": "info",
+   "count": 28,
+   "message": "Second part of the id is not the XML element name, as the proposed French codification suggests.",
+   "examples": [
+    "StopPlace id=FR:0:LMO:AUTOx971606024:MOVIA",
+    "StopPlace id=FR:0:LMO:AUTOx1663974158:MOVIA",
+    "StopPlace id=FR:0:LMO:AUTOx260103709:MOVIA",
+    "StopPlace id=FR:0:LMO:AUTOx1375773732:MOVIA",
+    "StopPlace id=FR:0:LMO:AUTOx802964317:MOVIA"
+   ],
+   "source": "Profil NeTEx France, Éléments communs (codification 'proposée')"
+  },
+  {
+   "rule": "FR-REF-UNVERSIONED-INTERNAL",
+   "severity": "warning",
+   "count": 378,
+   "message": "Profil NeTEx France: 378 of 63607 references to objects present in the dataset carry neither 'version' nor 'versionRef' ('any' is allowed).",
+   "examples": [
+    "Arrets.xml: <TypeOfFrameRef ref=\"FR:TypeOfFrame:NETEX_FRANCE\"/> (defined in the dataset)",
+    "Arrets.xml: <TypeOfFrameRef ref=\"FR:TypeOfFrame:NETEX_ARRET\"/> (defined in the dataset)",
+    "Arrets.xml: <TypeOfPlaceRef ref=\"monomodalStopPlace\"/> (defined in the dataset)",
+    "Arrets.xml: <TypeOfPlaceRef ref=\"monomodalStopPlace\"/> (defined in the dataset)",
+    "Arrets.xml: <TypeOfPlaceRef ref=\"monomodalStopPlace\"/> (defined in the dataset)"
+   ],
+   "source": "Profil NeTEx France, Éléments communs, VersionOfObjectRef"
+  }
+ ],
+ "xsd": {
+  "netex_1_3_2": {
+   "documents_checked": 32,
+   "documents_valid": 32,
+   "documents_skipped": 0,
+   "dataset_valid": true,
+   "checked_valid": true,
+   "coverage_bytes": 1.0,
+   "errors": 0,
+   "by_category": {},
+   "top_messages": {}
+  },
+  "netex_2_0_0": {
+   "documents_checked": 32,
+   "documents_valid": 3,
+   "documents_skipped": 0,
+   "dataset_valid": false,
+   "checked_valid": false,
+   "coverage_bytes": 1.0,
+   "errors": 10281,
+   "by_category": {
+    "attribute-missing": 3427,
+    "unexpected-element": 3427,
+    "other": 3427
+   },
+   "top_messages": {
+    "Element 'TimetabledPassingTime': The attribute 'id' is required but missing.": 3427,
+    "Element 'TimetabledPassingTime': Not all fields of key identity-constraint 'TimetabledPassingTime_AnyVersionedKey' evaluate to a node.": 3427,
+    "Element 'ArrivalTime': This element is not expected. Expected is (...).": 3221,
+    "Element 'DepartureTime': This element is not expected. Expected is (...).": 206
+   }
+  },
+  "epip": {
+   "documents_checked": 32,
+   "documents_valid": 0,
+   "documents_skipped": 0,
+   "dataset_valid": false,
+   "checked_valid": false,
+   "coverage_bytes": 1.0,
+   "errors": 32,
+   "by_category": {
+    "unexpected-element": 32
+   },
+   "top_messages": {
+    "Element 'GeneralFrame': This element is not expected.": 32
+   }
+  }
+ },
+ "seconds": 47.6,
+ "rules_version": 3,
+ "rechecked_at": "2026-10-03 05:56",
+ "xsd_params": {
+  "xsd_budget": 300000000,
+  "max_xsd_bytes": 400000000,
+  "errors_categorised_per_document": 20000,
+  "source": "inferred from run logs by 03b"
+ }
+}

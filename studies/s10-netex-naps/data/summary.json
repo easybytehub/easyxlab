@@ -1,0 +1,586 @@
+{
+ "catalogue": [
+  {
+   "country": "BE",
+   "nap": "transportdata.be",
+   "resources": 7,
+   "feeds": 7,
+   "feeds_with_size": 6,
+   "total_mb": 270.4,
+   "median_mb": 15.39,
+   "max_mb": 141.4,
+   "feeds_under_10kb": 1,
+   "updated_le_7d": 1,
+   "updated_le_30d": 4,
+   "updated_gt_365d": 2,
+   "oldest": "2024-01-08",
+   "licence_machine_readable": 1,
+   "licences": "(none in API):4; Not specified:2; other-nc:1"
+  },
+  {
+   "country": "DE",
+   "nap": "Mobilithek",
+   "resources": 18,
+   "feeds": 18,
+   "feeds_with_size": 0,
+   "total_mb": 0.0,
+   "median_mb": "",
+   "max_mb": "",
+   "feeds_under_10kb": 0,
+   "updated_le_7d": 0,
+   "updated_le_30d": 9,
+   "updated_gt_365d": 8,
+   "oldest": "2023-01-18",
+   "licence_machine_readable": 9,
+   "licences": "LICENSE_FREE_USE_OPEN_DATA:9; NO_LICENSE:9"
+  },
+  {
+   "country": "FR",
+   "nap": "transport.data.gouv.fr",
+   "resources": 178,
+   "feeds": 178,
+   "feeds_with_size": 144,
+   "total_mb": 775.1,
+   "median_mb": 0.71,
+   "max_mb": 172.6,
+   "feeds_under_10kb": 10,
+   "updated_le_7d": 78,
+   "updated_le_30d": 115,
+   "updated_gt_365d": 9,
+   "oldest": "2025-01-22",
+   "licence_machine_readable": 169,
+   "licences": "odc-odbl:92; lov2:74; notspecified:9; mobility-licence:2; fr-lo:1"
+  },
+  {
+   "country": "LU",
+   "nap": "data.public.lu (mobiliteit.lu)",
+   "resources": 311,
+   "feeds": 1,
+   "feeds_with_size": 1,
+   "total_mb": 26.7,
+   "median_mb": 26.66,
+   "max_mb": 26.7,
+   "feeds_under_10kb": 0,
+   "updated_le_7d": 1,
+   "updated_le_30d": 1,
+   "updated_gt_365d": 0,
+   "oldest": "2026-10-01",
+   "licence_machine_readable": 1,
+   "licences": "cc-zero:1"
+  },
+  {
+   "country": "NL",
+   "nap": "NDOV Loket",
+   "resources": 62,
+   "feeds": 17,
+   "feeds_with_size": 17,
+   "total_mb": 38.4,
+   "median_mb": 0.79,
+   "max_mb": 9.7,
+   "feeds_under_10kb": 5,
+   "updated_le_7d": 9,
+   "updated_le_30d": 14,
+   "updated_gt_365d": 2,
+   "oldest": "2018-04-15",
+   "licence_machine_readable": 0,
+   "licences": "(none in API):17"
+  },
+  {
+   "country": "NO",
+   "nap": "Entur (data.entur.no)",
+   "resources": 63,
+   "feeds": 63,
+   "feeds_with_size": 63,
+   "total_mb": 538.8,
+   "median_mb": 0.11,
+   "max_mb": 290.0,
+   "feeds_under_10kb": 10,
+   "updated_le_7d": 32,
+   "updated_le_30d": 61,
+   "updated_gt_365d": 2,
+   "oldest": "2023-07-13",
+   "licence_machine_readable": 0,
+   "licences": "(none in API):63"
+  }
+ ],
+ "validated": 41,
+ "failed_download": [],
+ "netex132_ok": 13,
+ "netex200_ok": 6,
+ "either_netex_ok": 14,
+ "epip_ok": 0,
+ "validity_expired": 1,
+ "calendar_in_past": 0,
+ "netex132_verdict": {
+  "valid": 13,
+  "valid-partial": 6,
+  "invalid": 18,
+  "not-checked": 4
+ },
+ "netex200_verdict": {
+  "valid": 6,
+  "valid-partial": 4,
+  "invalid": 26,
+  "not-checked": 5
+ },
+ "epip_verdict": {
+  "invalid": 36,
+  "not-checked": 5
+ },
+ "best_netex_verdict": {
+  "valid": 14,
+  "valid-partial": 6,
+  "invalid": 17,
+  "not-checked": 4
+ },
+ "by_country": {
+  "BE": {
+   "netex132_ok": 3,
+   "netex200_ok": 2,
+   "either_netex_ok": 3,
+   "epip_ok": 0,
+   "validity_expired": 0,
+   "calendar_in_past": 0,
+   "n": 5,
+   "best_netex_verdict": {
+    "valid": 3,
+    "valid-partial": 2
+   },
+   "epip_verdict": {
+    "invalid": 5
+   },
+   "profiles": {
+    "unknown": 4,
+    "fr": 1
+   }
+  },
+  "FR": {
+   "netex132_ok": 10,
+   "netex200_ok": 3,
+   "either_netex_ok": 10,
+   "epip_ok": 0,
+   "validity_expired": 0,
+   "calendar_in_past": 0,
+   "n": 15,
+   "best_netex_verdict": {
+    "valid": 10,
+    "invalid": 2,
+    "valid-partial": 2,
+    "not-checked": 1
+   },
+   "epip_verdict": {
+    "invalid": 14,
+    "not-checked": 1
+   },
+   "profiles": {
+    "fr": 14,
+    "unknown": 1
+   }
+  },
+  "LU": {
+   "netex132_ok": 0,
+   "netex200_ok": 0,
+   "either_netex_ok": 0,
+   "epip_ok": 0,
+   "validity_expired": 0,
+   "calendar_in_past": 0,
+   "n": 1,
+   "best_netex_verdict": {
+    "valid-partial": 1
+   },
+   "epip_verdict": {
+    "invalid": 1
+   },
+   "profiles": {
+    "epip": 1
+   }
+  },
+  "NL": {
+   "netex132_ok": 0,
+   "netex200_ok": 1,
+   "either_netex_ok": 1,
+   "epip_ok": 0,
+   "validity_expired": 1,
+   "calendar_in_past": 0,
+   "n": 16,
+   "best_netex_verdict": {
+    "not-checked": 3,
+    "invalid": 12,
+    "valid": 1
+   },
+   "epip_verdict": {
+    "not-checked": 4,
+    "invalid": 12
+   },
+   "profiles": {
+    "nl": 15,
+    "unknown": 1
+   }
+  },
+  "NO": {
+   "netex132_ok": 0,
+   "netex200_ok": 0,
+   "either_netex_ok": 0,
+   "epip_ok": 0,
+   "validity_expired": 0,
+   "calendar_in_past": 0,
+   "n": 4,
+   "best_netex_verdict": {
+    "invalid": 3,
+    "valid-partial": 1
+   },
+   "epip_verdict": {
+    "invalid": 4
+   },
+   "profiles": {
+    "nordic": 4
+   }
+  }
+ },
+ "profiles": {
+  "unknown": 6,
+  "fr": 15,
+  "epip": 1,
+  "nl": 15,
+  "nordic": 4
+ },
+ "declared_versions": {
+  "None": 4,
+  "1.0": 2,
+  "1.0:FR-NETEX-2.0-1.0": 1,
+  "2.0:FR-NETEX-2.4": 1,
+  "1.10:FR-NETEX-2.2": 7,
+  "1.10:FR-NETEX-2.3": 1,
+  "1.1:FR-NETEX-2.2": 2,
+  "1.1:FR-NETEX_CALENDRIER-2.2": 3,
+  "1.1:FR-NETEX_COMMUN-2.2": 3,
+  "1.1:FR-NETEX_RESEAU-2.2": 3,
+  "1.09:FR-NETEX_ARRET-2.1-1.0": 1,
+  "1.09:FR-NETEX_CALENDRIER-2.1-1.0": 1,
+  "1.09:FR-NETEX_HORAIRE-2.1-1.0": 1,
+  "1.09:FR-NETEX_LIGNE-2.1-1.0": 1,
+  "1.09:FR-NETEX_RESEAU-2.1-1.0": 1,
+  "1.09": 1,
+  "ntx:1.1": 16,
+  "1.15:NO-NeTEx-networktimetable:1.5": 3,
+  "1.16:NO-NeTEx-networktimetable:1.6": 1
+ },
+ "findings": [
+  {
+   "rule": "FR-ID-NOT-PROPOSED-FORMAT",
+   "severity": "info",
+   "datasets": 15,
+   "total": 17397,
+   "countries": "BE:1|FR:14"
+  },
+  {
+   "rule": "FR-REF-UNVERSIONED-INTERNAL",
+   "severity": "warning",
+   "datasets": 14,
+   "total": 248286,
+   "countries": "FR:14"
+  },
+  {
+   "rule": "FR-ID-TYPE-NOT-TAG",
+   "severity": "info",
+   "datasets": 8,
+   "total": 3086,
+   "countries": "BE:1|FR:7"
+  },
+  {
+   "rule": "ID-REDUNDANT-ACROSS-FILES",
+   "severity": "info",
+   "datasets": 7,
+   "total": 126574,
+   "countries": "FR:6|LU:1"
+  },
+  {
+   "rule": "VERSION-MISSING",
+   "severity": "info",
+   "datasets": 4,
+   "total": 943,
+   "countries": "BE:3|NL:1"
+  },
+  {
+   "rule": "ID-DUPLICATE-IN-FILE",
+   "severity": "error",
+   "datasets": 3,
+   "total": 429,
+   "countries": "FR:2|NL:1"
+  },
+  {
+   "rule": "ENCODING-MOJIBAKE",
+   "severity": "warning",
+   "datasets": 2,
+   "total": 6,
+   "countries": "FR:2"
+  },
+  {
+   "rule": "ENCODING-NO-DECLARATION",
+   "severity": "info",
+   "datasets": 1,
+   "total": 1,
+   "countries": "BE:1"
+  },
+  {
+   "rule": "VALIDITY-EXPIRED",
+   "severity": "error",
+   "datasets": 1,
+   "total": 1,
+   "countries": "NL:1"
+  },
+  {
+   "rule": "ENCODING-REPLACEMENT-CHAR",
+   "severity": "warning",
+   "datasets": 1,
+   "total": 1,
+   "countries": "NL:1"
+  },
+  {
+   "rule": "ENCODING-BOM",
+   "severity": "info",
+   "datasets": 1,
+   "total": 1,
+   "countries": "NL:1"
+  }
+ ],
+ "profile_rule_denominators": {
+  "fr": 15,
+  "nordic": 4,
+  "nl": 15,
+  "epip": 1,
+  "unknown": 6
+ },
+ "peak_work_dir_bytes": 302214375,
+ "by_content": {
+  "codespace-list": {
+   "n": 1,
+   "best_netex_verdict": {
+    "invalid": 1
+   },
+   "slugs": [
+    "NL_enum"
+   ]
+  },
+  "parking": {
+   "n": 2,
+   "best_netex_verdict": {
+    "valid": 2
+   },
+   "slugs": [
+    "BE_indigo_open_data_be_d47e59fd_cd09_4e61_b4e8_36abbaea186e",
+    "BE_interparking_belgium_car_park_locations_and_number_of_spa"
+   ]
+  },
+  "scooter-sharing": {
+   "n": 1,
+   "best_netex_verdict": {
+    "valid": 1
+   },
+   "slugs": [
+    "BE_voi_netex_60a02ee4_e805_4a4d_87ec_1fcb7403f058"
+   ]
+  },
+  "stops": {
+   "n": 3,
+   "best_netex_verdict": {
+    "valid": 3
+   },
+   "slugs": [
+    "FR_5e3836e88b4c41404eb3d9aa_81423",
+    "FR_6038d0cdcb69d16225b11e23_83176",
+    "NL_epiap"
+   ]
+  },
+  "timetable": {
+   "n": 34,
+   "best_netex_verdict": {
+    "valid-partial": 6,
+    "valid": 8,
+    "invalid": 16,
+    "not-checked": 4
+   },
+   "slugs": [
+    "BE_stib_mivb_netex_4a733029_9ef9_4fd5_b3df_d4ab42ba1a9c",
+    "BE_tec_netex_a42f9975_3043_4e31_ad33_4fbafb897ff9",
+    "FR_5cec026c634f415f64fc9715_83580",
+    "FR_5ced52ed8b4c4177b679d377_82427",
+    "FR_632a56a74916728dc7eacfa6_82366",
+    "FR_63b4c3d22989785f7e9dde9c_82389",
+    "FR_63b4c3d25c38a3ee979dde9c_80464",
+    "FR_63b4c3d2998fd84635a80dca_80466",
+    "FR_63b4c3d2d7857ab0c49dde9a_83711",
+    "FR_63b4c3d35e8da006139dde9c_80426",
+    "FR_658626a9e96365230bac182c_81473",
+    "FR_668d09dea847603d391cbe9b_81935",
+    "FR_66985b97b0421c1296444b0c_82320",
+    "FR_66ce6955a79183f15b22771c_82156",
+    "FR_6853c089b3ed5781f6adfdf7_83195",
+    "LU_latest",
+    "NL_arr",
+    "NL_avv",
+    "NL_cxx",
+    "NL_ebs",
+    "NL_gvb",
+    "NL_htm",
+    "NL_keolis",
+    "NL_pnb",
+    "NL_qbuzz",
+    "NL_ret",
+    "NL_rvo",
+    "NL_teso",
+    "NL_wpd",
+    "NL_wsf",
+    "NO_goa",
+    "NO_inn",
+    "NO_sjn",
+    "NO_vyg"
+   ]
+  }
+ },
+ "valid_partial_coverage": {
+  "BE_stib_mivb_netex_4a733029_9ef9_4fd5_b3df_d4ab42ba1a9c": 0.103,
+  "BE_tec_netex_a42f9975_3043_4e31_ad33_4fbafb897ff9": 0.024,
+  "FR_63b4c3d2d7857ab0c49dde9a_83711": 0.611,
+  "FR_668d09dea847603d391cbe9b_81935": 0.659,
+  "LU_latest": 0.455,
+  "NO_inn": 0.614
+ },
+ "not_checked": {
+  "FR_6853c089b3ed5781f6adfdf7_83195": 631.0,
+  "NL_arr": 357.8,
+  "NL_gvb": 266.6,
+  "NL_keolis": 185.2
+ },
+ "nl_invalid_keyref_only_200": [
+  "NL_cxx",
+  "NL_ebs",
+  "NL_enum",
+  "NL_htm",
+  "NL_qbuzz",
+  "NL_ret",
+  "NL_rvo",
+  "NL_teso",
+  "NL_wpd",
+  "NL_wsf"
+ ],
+ "nl_invalid_200": [
+  "NL_cxx",
+  "NL_ebs",
+  "NL_enum",
+  "NL_htm",
+  "NL_pnb",
+  "NL_qbuzz",
+  "NL_ret",
+  "NL_rvo",
+  "NL_teso",
+  "NL_wpd",
+  "NL_wsf"
+ ],
+ "xsd_error_totals": {
+  "netex_1_3_2": {
+   "errors": 643267,
+   "categorised": 326030
+  },
+  "netex_2_0_0": {
+   "errors": 3357691,
+   "categorised": 928920
+  },
+  "epip": {
+   "errors": 288196,
+   "categorised": 134669
+  }
+ },
+ "datasets_per_message": {
+  "epip|Element 'GeneralFrame': This element is not expected": 18,
+  "epip|Element 'validityConditions': This element is not expected": 12,
+  "netex_2_0_0|Element 'TimetabledPassingTime': The attribute 'id' is required but missing": 11,
+  "netex_2_0_0|Element 'TimetabledPassingTime': Not all fields of key identity-constraint 'TimetabledPassingTime_AnyVersionedKey' evaluate to a node": 11,
+  "netex_2_0_0|Element 'ArrivalTime': This element is not expected": 11,
+  "epip|Element 'ShortName': This element is not expected": 11,
+  "netex_1_3_2|Element 'privateCodes': This element is not expected": 11,
+  "netex_2_0_0|Element 'QuayRef': No match found for key-sequence [..] of keyref 'Quay_KeyRef'": 10,
+  "epip|Element 'Name': This element is not expected": 10,
+  "epip|Element 'operationalContexts': This element is not expected": 10,
+  "epip|Element 'OnwardRouteLinkRef': This element is not expected": 9,
+  "epip|Element 'privateCodes': This element is not expected": 9,
+  "epip|Element 'OperationalContextRef': This element is not expected": 8,
+  "epip|Element 'TypeOfFrameRef': No match found for key-sequence [..] of keyref 'TypeOfFrame_AnyKeyRef'": 8,
+  "netex_2_0_0|Element 'DefaultCodespaceRef': No match found for key-sequence [..] of keyref 'Codespace_AnyKeyRef'": 8,
+  "netex_2_0_0|Element 'TypeOfFrameRef': No match found for key-sequence [..] of keyref 'TypeOfFrame_AnyKeyRef'": 8,
+  "epip|Element 'AvailabilityCondition': This element is not expected": 7,
+  "netex_2_0_0|Element 'TypeOfServiceRef': No match found for key-sequence [..] of keyref 'TypeOfService_AnyKeyRef'": 7,
+  "netex_2_0_0|Element 'TypeOfResponsibilityRoleRef': No match found for key-sequence [..] of keyref 'TypeOfResponsibilityRole_AnyKeyRef'": 7,
+  "epip|Element 'Operator': Missing child element(s)": 6,
+  "netex_2_0_0|Element 'DepartureTime': This element is not expected": 6,
+  "epip|Element 'stopAreas': This element is not expected": 6,
+  "netex_1_3_2|Element 'QuayRef': No match found for key-sequence [..] of keyref 'Quay_KeyRef'": 6,
+  "netex_1_3_2|Element 'DefaultCodespaceRef': No match found for key-sequence [..] of keyref 'Codespace_AnyKeyRef'": 6,
+  "netex_1_3_2|Element 'TypeOfFrameRef': No match found for key-sequence [..] of keyref 'TypeOfFrame_AnyKeyRef'": 6,
+  "epip|Element 'dayTypes': This element is not expected": 5,
+  "epip|Element 'DefaultCodespaceRef': No match found for key-sequence [..] of keyref 'Codespace_AnyKeyRef'": 5,
+  "epip|Element 'Branding': This element is not expected": 4,
+  "epip|Element 'CustomerServiceContactDetails': This element is not expected": 4,
+  "netex_1_3_2|Element 'TypeOfResponsibilityRoleRef': No match found for key-sequence [..] of keyref 'TypeOfResponsibilityRole_AnyKeyRef'": 4,
+  "netex_1_3_2|Element 'DayTypeAssignment': Not all fields of key identity-constraint 'DayTypeAssignment_AnyVersionedKey_ordered' evaluate to a node": 3,
+  "netex_1_3_2|Element 'PassengerStopAssignment': Not all fields of key identity-constraint 'PassengerStopAssignment_AnyVersionedKey_ordered' evaluate to a node": 3,
+  "epip|Element 'Authority': Missing child element(s)": 3,
+  "netex_2_0_0|Element 'ResponsibleAreaRef': No match found for key-sequence [..] of keyref 'TransportAdministrativeZone_KeyRef'": 3,
+  "netex_1_3_2|Element 'StakeholderRoleType': [facet 'enumeration'] The value '..' is not an element of the set {'Planning', 'Operation', 'Control', 'Reservation', 'EntityLegalOwnership', 'FareManagement', 'Financing', 'SecurityManagem": 3,
+  "netex_1_3_2|Element 'StakeholderRoleType': '..' is not a valid value of the list type 'StakeholderRoleTypeListOfEnumerations'": 3,
+  "epip|Element 'OperatorActivities': This element is not expected": 3,
+  "netex_1_3_2|Element 'ServiceJourneyRef': This element is not expected": 3,
+  "netex_2_0_0|Element 'DatedServiceJourneyRef': This element is not expected": 3
+ },
+ "tpt_id_missing_200": {
+  "datasets": 11,
+  "countries": {
+   "FR": 11
+  },
+  "also_valid_132": 9
+ },
+ "fr_profile": {
+  "n": 15,
+  "n_FR": 14,
+  "ids_share_le_1pct": 11,
+  "ids_share_ge_50pct": 2,
+  "refs_unversioned_total": 248286,
+  "refs_unversioned_max_dataset": 200428
+ },
+ "validity_expired_slugs": [
+  "NL_avv"
+ ],
+ "calendar_extracted": 12,
+ "mojibake_total": 6,
+ "replacement_total": 1,
+ "non_utf8_slugs": [],
+ "version_missing_slugs": [
+  "BE_indigo_open_data_be_d47e59fd_cd09_4e61_b4e8_36abbaea186e",
+  "BE_stib_mivb_netex_4a733029_9ef9_4fd5_b3df_d4ab42ba1a9c",
+  "BE_tec_netex_a42f9975_3043_4e31_ad33_4fbafb897ff9",
+  "NL_avv"
+ ],
+ "typeof_versioned_unresolved": 15,
+ "rules_versions": {
+  "3-upgraded-from-2": 21,
+  "3": 18,
+  "4": 2
+ },
+ "no_aggregate_mb": 290.0,
+ "fr_public_transit": 164,
+ "fr_frame": 131,
+ "de_categories": {
+  "PUBLIC_TRANSPORT_SCHEDULED_TRANSPORT": 6,
+  "CAR_UND_BIKE_SHARING": 10,
+  "RAILWAY_NETWORK": 2
+ },
+ "de_siri_offers": 1,
+ "sample_size": 44,
+ "not_completed": [
+  "NO_rut",
+  "NO_sky",
+  "BE_sncb_netex_scheduled_timetable_29b43378_2983_4ee9_a6d0_ad"
+ ],
+ "download_mb_total": 316.5,
+ "uncompressed_mb_total": 12327.2
+}

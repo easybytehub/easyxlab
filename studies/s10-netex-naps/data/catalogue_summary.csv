@@ -1,0 +1,7 @@
+country,nap,resources,feeds,feeds_with_size,total_mb,median_mb,max_mb,feeds_under_10kb,updated_le_7d,updated_le_30d,updated_gt_365d,oldest,licence_machine_readable,licences
+BE,transportdata.be,7,7,6,270.4,15.39,141.4,1,1,4,2,2024-01-08,1,(none in API):4; Not specified:2; other-nc:1
+DE,Mobilithek,18,18,0,0.0,,,0,0,9,8,2023-01-18,9,LICENSE_FREE_USE_OPEN_DATA:9; NO_LICENSE:9
+FR,transport.data.gouv.fr,178,178,144,775.1,0.71,172.6,10,78,115,9,2025-01-22,169,odc-odbl:92; lov2:74; notspecified:9; mobility-licence:2; fr-lo:1
+LU,data.public.lu (mobiliteit.lu),311,1,1,26.7,26.66,26.7,0,1,1,0,2026-10-01,1,cc-zero:1
+NL,NDOV Loket,62,17,17,38.4,0.79,9.7,5,9,14,2,2018-04-15,0,(none in API):17
+NO,Entur (data.entur.no),63,63,63,538.8,0.11,290.0,10,32,61,2,2023-07-13,0,(none in API):63

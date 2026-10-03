@@ -1,0 +1,127 @@
+{
+ "slug": "NL_enum",
+ "country": "NL",
+ "nap": "NDOV Loket",
+ "dataset_id": "enum/NeTEx_BISON_codespaces_2026-09-25.xml.gz",
+ "title": "NeTEx_BISON_codespaces_2026-09-25.xml.gz",
+ "licence": "",
+ "updated": "2026-09-25",
+ "url": "https://data.ndovloket.nl/netex/enum/NeTEx_BISON_codespaces_2026-09-25.xml.gz",
+ "stratum": "NL",
+ "snapshot_date": "2026-10-02",
+ "download_bytes": 2064,
+ "http_status": 200,
+ "content_type": "application/gzip",
+ "xml_members": 1,
+ "uncompressed_bytes": 22919,
+ "summary": {
+  "profile": "nl",
+  "members": 1,
+  "root_elements": {
+   "PublicationDelivery": 1
+  },
+  "declared_versions": {
+   "ntx:1.1": 1
+  },
+  "type_of_frame_top": {
+   "NL:BISON:TypeOfFrame:NL_CODESPACES": 2
+  },
+  "counts": {},
+  "ids": 82,
+  "refs": 4,
+  "refs_internal": 2,
+  "refs_unresolved": 2,
+  "refs_unresolved_same_codespace": 2,
+  "refs_unresolved_by_tag": {
+   "TypeOfFrameRef": 2
+  },
+  "refs_unresolved_versioned": 0,
+  "refs_unresolved_profile_types": 2,
+  "refs_internal_unversioned_same_file": 2,
+  "refs_unresolved_versioned_by_tag": {},
+  "version_mismatch": 0,
+  "duplicate_definitions": 0,
+  "duplicate_in_file": 0,
+  "validity_from_min": null,
+  "validity_to_max": null,
+  "calendar_min": null,
+  "calendar_max": null,
+  "encodings": {
+   "UTF-8": 1
+  },
+  "bom": 0,
+  "mojibake": 0,
+  "id_format_checked": 0,
+  "id_format_bad": 0,
+  "id_type_bad": 0,
+  "refs_internal_unversioned": 2,
+  "codespaces_declared": [
+   "ARR",
+   "AVV",
+   "BISON",
+   "CHB",
+   "CXX",
+   "DELIJN",
+   "DOEKSEN",
+   "DOVA",
+   "EBS",
+   "EPSG"
+  ]
+ },
+ "findings": [],
+ "rules_version": "3-upgraded-from-2",
+ "xsd": {
+  "netex_1_3_2": {
+   "documents_checked": 1,
+   "documents_valid": 0,
+   "documents_skipped": 0,
+   "dataset_valid": false,
+   "checked_valid": false,
+   "coverage_bytes": 1.0,
+   "errors": 2,
+   "by_category": {
+    "keyref-unresolved": 2
+   },
+   "top_messages": {
+    "Element 'TypeOfFrameRef': No match found for key-sequence [..] of keyref 'TypeOfFrame_AnyKeyRef'.": 2
+   }
+  },
+  "netex_2_0_0": {
+   "documents_checked": 1,
+   "documents_valid": 0,
+   "documents_skipped": 0,
+   "dataset_valid": false,
+   "checked_valid": false,
+   "coverage_bytes": 1.0,
+   "errors": 2,
+   "by_category": {
+    "keyref-unresolved": 2
+   },
+   "top_messages": {
+    "Element 'TypeOfFrameRef': No match found for key-sequence [..] of keyref 'TypeOfFrame_AnyKeyRef'.": 2
+   }
+  },
+  "epip": {
+   "documents_checked": 1,
+   "documents_valid": 0,
+   "documents_skipped": 0,
+   "dataset_valid": false,
+   "checked_valid": false,
+   "coverage_bytes": 1.0,
+   "errors": 2,
+   "by_category": {
+    "keyref-unresolved": 2
+   },
+   "top_messages": {
+    "Element 'TypeOfFrameRef': No match found for key-sequence [..] of keyref 'TypeOfFrame_AnyKeyRef'.": 2
+   }
+  }
+ },
+ "seconds": 1.4,
+ "xsd_params": {
+  "xsd_budget": 150000000,
+  "max_xsd_bytes": 150000000,
+  "errors_categorised_per_document": 20000,
+  "source": "inferred from run logs by 03b"
+ }
+}

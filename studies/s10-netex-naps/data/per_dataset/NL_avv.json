@@ -1,0 +1,152 @@
+{
+ "slug": "NL_avv",
+ "country": "NL",
+ "nap": "NDOV Loket",
+ "dataset_id": "avv/AVV-NeTEx-from-AVVDINO_2018-04-09.zip",
+ "title": "AVV-NeTEx-from-AVVDINO_2018-04-09.zip",
+ "licence": "",
+ "updated": "2018-04-15",
+ "url": "https://data.ndovloket.nl/netex/avv/AVV-NeTEx-from-AVVDINO_2018-04-09.zip",
+ "stratum": "NL",
+ "snapshot_date": "2026-10-02",
+ "xsd_params": {
+  "xsd_budget": 400000000,
+  "max_xsd_bytes": 400000000,
+  "errors_categorised_per_document": 20000,
+  "source": "recorded by 03_validate.py"
+ },
+ "download_bytes": 6924055,
+ "http_status": 200,
+ "content_type": "application/zip",
+ "xml_members": 1,
+ "uncompressed_bytes": 220548160,
+ "summary": {
+  "profile": "unknown",
+  "members": 1,
+  "root_elements": {
+   "PublicationDelivery": 1
+  },
+  "declared_versions": {
+   "None": 1
+  },
+  "type_of_frame_top": {},
+  "counts": {
+   "Operator": 27,
+   "DayType": 2144,
+   "Route": 4808,
+   "Line": 633,
+   "ScheduledStopPoint": 14777,
+   "ServiceJourneyPattern": 4808,
+   "ServiceJourney": 38890
+  },
+  "ids": 414747,
+  "refs": 1034608,
+  "refs_internal": 1005054,
+  "refs_unresolved": 29554,
+  "refs_unresolved_same_codespace": 1212,
+  "refs_unresolved_by_tag": {
+   "StopPlaceRef": 14777,
+   "QuayRef": 14777
+  },
+  "refs_unresolved_versioned": 0,
+  "refs_unresolved_profile_types": 0,
+  "refs_internal_unversioned_same_file": 0,
+  "refs_unresolved_versioned_by_tag": {},
+  "version_mismatch": 0,
+  "duplicate_definitions": 0,
+  "duplicate_in_file": 0,
+  "validity_from_min": "2017-12-10",
+  "validity_to_max": "2018-12-08",
+  "calendar_min": null,
+  "calendar_max": null,
+  "encodings": {
+   "UTF-8": 1
+  },
+  "bom": 0,
+  "mojibake": 0,
+  "replacement_chars": 0,
+  "validity_open_ended": 1953,
+  "frame_validity_to_max": "2018-12-08",
+  "frame_validity_open_ended": 0,
+  "refs_unresolved_typeof_versioned": 0,
+  "id_format_checked": 0,
+  "id_format_bad": 0,
+  "id_type_bad": 0,
+  "refs_internal_unversioned": 0,
+  "codespaces_declared": []
+ },
+ "findings": [
+  {
+   "rule": "VALIDITY-EXPIRED",
+   "severity": "error",
+   "count": 1,
+   "message": "Every frame-level validity condition has ended; the latest ends 2018-12-08, before 2026-10-02.",
+   "examples": [],
+   "source": "Delegated Regulation (EU) 2017/1926 as amended, Art. 6(1)"
+  },
+  {
+   "rule": "VERSION-MISSING",
+   "severity": "info",
+   "count": 1,
+   "message": "PublicationDelivery has no version attribute (optional in the XSD; reported as a fact).",
+   "examples": [],
+   "source": "NeTEx XSD (attribute optional); reported as a fact"
+  }
+ ],
+ "rules_version": 4,
+ "xsd": {
+  "netex_1_3_2": {
+   "documents_checked": 1,
+   "documents_valid": 0,
+   "documents_skipped": 0,
+   "dataset_valid": false,
+   "checked_valid": false,
+   "coverage_bytes": 1.0,
+   "skipped_memory_guard": 0,
+   "errors": 119994,
+   "by_category": {
+    "other": 14997,
+    "invalid-value": 5000,
+    "missing-child": 3
+   },
+   "top_messages": {
+    "Element 'DayTypeAssignment', attribute 'order': Warning: No precomputed value available, the value was either invalid or something strange happened.": 6946,
+    "Element 'DayTypeAssignment', attribute 'order': '..' is not a valid value of the atomic type 'xs:positiveInteger'.": 3473,
+    "Element 'DayTypeAssignment': Not all fields of key identity-constraint 'DayTypeAssignment_AnyVersionedKey_ordered' evaluate to a node.": 3473,
+    "Element 'PassengerStopAssignment', attribute 'order': Warning: No precomputed value available, the value was either invalid or something strange happened.": 3008,
+    "Element 'PassengerStopAssignment', attribute 'order': '..' is not a valid value of the atomic type 'xs:positiveInteger'.": 1505,
+    "Element 'PassengerStopAssignment': Not all fields of key identity-constraint 'PassengerStopAssignment_AnyVersionedKey_ordered' evaluate to a node.": 1504,
+    "Element 'NoticeAssignment', attribute 'order': Warning: No precomputed value available, the value was either invalid or something strange happened.": 44,
+    "Element 'NoticeAssignment', attribute 'order': '..' is not a valid value of the atomic type 'xs:positiveInteger'.": 22,
+    "Element 'NoticeAssignment': Not all fields of key identity-constraint 'NoticeAssignment_AnyVersionedKey_ordered' evaluate to a node.": 22,
+    "Element 'validityConditions': Missing child element(s). Expected is (...).": 3
+   }
+  },
+  "netex_2_0_0": {
+   "documents_checked": 0,
+   "documents_valid": 0,
+   "documents_skipped": 1,
+   "dataset_valid": false,
+   "checked_valid": false,
+   "coverage_bytes": 0.0,
+   "skipped_memory_guard": 1,
+   "errors": 0,
+   "by_category": {},
+   "top_messages": {}
+  },
+  "epip": {
+   "documents_checked": 0,
+   "documents_valid": 0,
+   "documents_skipped": 1,
+   "dataset_valid": false,
+   "checked_valid": false,
+   "coverage_bytes": 0.0,
+   "skipped_memory_guard": 1,
+   "errors": 0,
+   "by_category": {},
+   "top_messages": {}
+  }
+ },
+ "seconds": 169.9,
+ "rechecked_at": "2026-10-03 06:03"
+}

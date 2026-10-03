@@ -1,0 +1,16 @@
+repo,scope,licence,archived,stars,pushed,last_commit
+skinkie/DATA4PTTools,"Greenlight (DATA4PT), EPIP-oriented XSD + rules",MIT,False,0,2022-12-06,2022-12-06
+entur/netex-validator-java,Nordic profile library,EUPL-1.2,False,3,2026-09-28,2026-09-28
+entur/antu,Nordic validation service,EUPL-1.2,False,6,2026-10-01,2026-10-01
+entur/udug,frontend for Nordic validation reports,EUPL-1.2,True,0,2026-06-11,2026-06-09
+tmfg/digitraffic-tis-vaco,Fintraffic: GTFS + NeTEx Nordic profile,EUPL-1.2,False,1,2026-10-01,2026-09-25
+enroute-mobi/chouette-core,"French profile, data-management suite",AGPL-3.0,False,18,2026-09-06,2026-08-07
+enroute-mobi/netex-cli-validator,XSD only,Apache-2.0,False,2,2019-05-21,2019-05-21
+theoremus-urban-solutions/netex-validator,"Go, claims 'the EU NeTEx Profile'",MIT,False,1,2025-09-01,2025-09-01
+aschmid-code/netex-validator,NeTEx 2.0 XSD only (Swiss microservice),none,False,0,2026-06-22,2026-06-22
+Muspah/netex-belgium,validates the whole-Belgium EPIP export (data.gtfs.be),none,False,0,2026-09-24,2026-09-24
+ciaranmccormick/transidate,TransXChange + NeTEx validator,none,True,2,2023-11-29,2023-10-24
+hfjelstad/NeTEx-Nordic,Nordic profile proof of concept,none,False,1,2026-07-03,2026-07-03
+etalab/transport-site,French NAP; calls enRoute Chouette Valid for NeTEx,none,False,236,2026-10-02,2026-10-01
+napcore-tools/web-awesome_napcore_tools,NAPCORE tool catalogue,none,False,7,2026-06-24,2026-06-24
+docker:lekojson/greenlight,Greenlight Docker image,,,,2023-04-27,

@@ -1,0 +1,177 @@
+{
+ "slug": "FR_63b4c3d35e8da006139dde9c_80426",
+ "country": "FR",
+ "nap": "transport.data.gouv.fr",
+ "dataset_id": "63b4c3d35e8da006139dde9c/80426",
+ "title": "Réseau interurbain Fluo Grand-Est - Meuse (55) — Horaires théoriques du réseau Fluo Grand Est dans la Meuse (NeTEx)",
+ "licence": "lov2",
+ "updated": "2026-09-25",
+ "url": "https://transport.data.gouv.fr/resources/80426/download",
+ "stratum": "FR-medium",
+ "snapshot_date": "2026-10-02",
+ "download_bytes": 1296424,
+ "http_status": 200,
+ "content_type": "application/zip",
+ "xml_members": 299,
+ "uncompressed_bytes": 15346252,
+ "summary": {
+  "profile": "fr",
+  "members": 299,
+  "root_elements": {
+   "PublicationDelivery": 299
+  },
+  "declared_versions": {
+   "1.10:FR-NETEX-2.2": 299
+  },
+  "type_of_frame_top": {
+   "FR:TypeOfFrame:NETEX_FRANCE": 299,
+   "FR:TypeOfFrame:NETEX_RESEAU": 297,
+   "FR:TypeOfFrame:NETEX_HORAIRE": 296,
+   "FR:TypeOfFrame:NETEX_ARRET": 1,
+   "FR:TypeOfFrame:NETEX_CALENDRIER": 1
+  },
+  "counts": {
+   "StopPlace": 853,
+   "Quay": 854,
+   "DayType": 143,
+   "Route": 582,
+   "ServiceJourneyPattern": 703,
+   "ScheduledStopPoint": 2240,
+   "ServiceJourney": 1154,
+   "Authority": 1,
+   "Operator": 1,
+   "Line": 296
+  },
+  "ids": 27971,
+  "refs": 35621,
+  "refs_internal": 35621,
+  "refs_unresolved": 0,
+  "refs_unresolved_same_codespace": 0,
+  "refs_unresolved_by_tag": {},
+  "refs_unresolved_versioned": 0,
+  "refs_unresolved_profile_types": 0,
+  "refs_internal_unversioned_same_file": 28813,
+  "refs_unresolved_versioned_by_tag": {},
+  "version_mismatch": 0,
+  "duplicate_definitions": 2772,
+  "duplicate_in_file": 0,
+  "validity_from_min": "2026-10-01",
+  "validity_to_max": "2027-06-30",
+  "calendar_min": null,
+  "calendar_max": null,
+  "encodings": {
+   "UTF-8": 299
+  },
+  "bom": 0,
+  "mojibake": 0,
+  "replacement_chars": 0,
+  "validity_open_ended": 0,
+  "refs_unresolved_typeof_versioned": 0,
+  "id_format_checked": 27971,
+  "id_format_bad": 10,
+  "id_type_bad": 0,
+  "refs_internal_unversioned": 1747,
+  "codespaces_declared": []
+ },
+ "findings": [
+  {
+   "rule": "ID-REDUNDANT-ACROSS-FILES",
+   "severity": "info",
+   "count": 2772,
+   "message": "Same object (not a frame or packaging object) defined in several documents of the dataset; consumers must deduplicate (the Nordic profile puts shared objects in one common file).",
+   "examples": [
+    "ScheduledStopPoint id=RITM:ScheduledStopPoint:1010546:LOC version=1 in 4 files",
+    "ScheduledStopPoint id=RITM:ScheduledStopPoint:1011114:LOC version=1 in 3 files",
+    "ScheduledStopPoint id=RITM:ScheduledStopPoint:1010460:LOC version=1 in 3 files",
+    "ScheduledStopPoint id=RITM:ScheduledStopPoint:1011288:LOC version=1 in 3 files",
+    "ScheduledStopPoint id=RITM:ScheduledStopPoint:1010074:LOC version=1 in 15 files"
+   ],
+   "source": "Nordic profile, General information (common file 'to avoid redundancy of unique objects')"
+  },
+  {
+   "rule": "FR-ID-NOT-PROPOSED-FORMAT",
+   "severity": "info",
+   "count": 10,
+   "message": "10 of 27971 ids do not follow the codification the French profile proposes (other structures are allowed if ids stay unique nationally).",
+   "examples": [
+    "ResourceFrame id=FR:ResourceFrame:1",
+    "ValueSet id=FR:ValueSet:TypeOfFrame",
+    "TypeOfFrame id=FR:TypeOfFrame:NETEX_FRANCE",
+    "TypeOfFrame id=FR:TypeOfFrame:NETEX_ARRET",
+    "ValueSet id=FR:ValueSet:TypeOfPlace"
+   ],
+   "source": "Profil NeTEx France, Éléments communs (codification 'proposée'; other structures allowed)"
+  },
+  {
+   "rule": "FR-REF-UNVERSIONED-INTERNAL",
+   "severity": "warning",
+   "count": 1747,
+   "message": "Profil NeTEx France: 1747 of 35621 references to objects present in the dataset carry neither 'version' nor 'versionRef' ('any' is allowed).",
+   "examples": [
+    "Arrets.xml: <TypeOfFrameRef ref=\"FR:TypeOfFrame:NETEX_FRANCE\"/> (defined in the dataset)",
+    "Arrets.xml: <TypeOfFrameRef ref=\"FR:TypeOfFrame:NETEX_ARRET\"/> (defined in the dataset)",
+    "Arrets.xml: <TypeOfPlaceRef ref=\"monomodalStopPlace\"/> (defined in the dataset)",
+    "Arrets.xml: <TypeOfPlaceRef ref=\"monomodalStopPlace\"/> (defined in the dataset)",
+    "Arrets.xml: <TypeOfPlaceRef ref=\"monomodalStopPlace\"/> (defined in the dataset)"
+   ],
+   "source": "Profil NeTEx France, Éléments communs, VersionOfObjectRef"
+  }
+ ],
+ "xsd": {
+  "netex_1_3_2": {
+   "documents_checked": 299,
+   "documents_valid": 299,
+   "documents_skipped": 0,
+   "dataset_valid": true,
+   "checked_valid": true,
+   "coverage_bytes": 1.0,
+   "errors": 0,
+   "by_category": {},
+   "top_messages": {}
+  },
+  "netex_2_0_0": {
+   "documents_checked": 299,
+   "documents_valid": 3,
+   "documents_skipped": 0,
+   "dataset_valid": false,
+   "checked_valid": false,
+   "coverage_bytes": 1.0,
+   "errors": 29259,
+   "by_category": {
+    "attribute-missing": 9753,
+    "unexpected-element": 9753,
+    "other": 9753
+   },
+   "top_messages": {
+    "Element 'TimetabledPassingTime': The attribute 'id' is required but missing.": 9753,
+    "Element 'TimetabledPassingTime': Not all fields of key identity-constraint 'TimetabledPassingTime_AnyVersionedKey' evaluate to a node.": 9753,
+    "Element 'ArrivalTime': This element is not expected. Expected is (...).": 8599,
+    "Element 'DepartureTime': This element is not expected. Expected is (...).": 1154
+   }
+  },
+  "epip": {
+   "documents_checked": 299,
+   "documents_valid": 0,
+   "documents_skipped": 0,
+   "dataset_valid": false,
+   "checked_valid": false,
+   "coverage_bytes": 1.0,
+   "errors": 299,
+   "by_category": {
+    "unexpected-element": 299
+   },
+   "top_messages": {
+    "Element 'GeneralFrame': This element is not expected.": 299
+   }
+  }
+ },
+ "seconds": 33.8,
+ "rules_version": 3,
+ "rechecked_at": "2026-10-03 05:56",
+ "xsd_params": {
+  "xsd_budget": 300000000,
+  "max_xsd_bytes": 400000000,
+  "errors_categorised_per_document": 20000,
+  "source": "inferred from run logs by 03b"
+ }
+}

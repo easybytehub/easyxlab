@@ -1,0 +1,130 @@
+{
+ "slug": "BE_tec_netex_a42f9975_3043_4e31_ad33_4fbafb897ff9",
+ "country": "BE",
+ "nap": "transportdata.be",
+ "dataset_id": "tec-netex/a42f9975-3043-4e31-ad33-4fbafb897ff9",
+ "title": "LETEC NeTEx (EPIP Profile) — TEC NETEX data",
+ "licence": "",
+ "updated": "2026-09-11",
+ "url": "https://belgianmobilityversioned.blob.core.windows.net/netex/production/netex-tec-latest.zip",
+ "stratum": "BE",
+ "snapshot_date": "2026-10-02",
+ "download_bytes": 98193623,
+ "http_status": 200,
+ "content_type": "application/zip",
+ "xml_members": 849,
+ "uncompressed_bytes": 6161597850,
+ "summary": {
+  "profile": "unknown",
+  "members": 849,
+  "root_elements": {
+   "PublicationDelivery": 849
+  },
+  "declared_versions": {
+   "None": 849
+  },
+  "type_of_frame_top": {},
+  "counts": {
+   "StopPlace": 15721,
+   "Quay": 30856,
+   "Route": 5865,
+   "Line": 847,
+   "ScheduledStopPoint": 183356,
+   "ServiceJourneyPattern": 5865,
+   "ServiceJourney": 183805,
+   "Operator": 1,
+   "DayType": 351
+  },
+  "ids": 6551336,
+  "refs": 6871666,
+  "refs_internal": 6871610,
+  "refs_unresolved": 56,
+  "refs_unresolved_same_codespace": 56,
+  "refs_unresolved_by_tag": {
+   "TypeOfPlaceRef": 56
+  },
+  "refs_unresolved_versioned": 0,
+  "refs_unresolved_profile_types": 56,
+  "refs_internal_unversioned_same_file": 31990,
+  "refs_unresolved_versioned_by_tag": {},
+  "version_mismatch": 0,
+  "duplicate_definitions": 0,
+  "duplicate_in_file": 0,
+  "validity_from_min": null,
+  "validity_to_max": null,
+  "calendar_min": "2026-09-03",
+  "calendar_max": "2026-12-30",
+  "encodings": {
+   "UTF-8": 849
+  },
+  "bom": 0,
+  "mojibake": 0,
+  "id_format_checked": 0,
+  "id_format_bad": 0,
+  "id_type_bad": 0,
+  "refs_internal_unversioned": 399151,
+  "codespaces_declared": []
+ },
+ "findings": [
+  {
+   "rule": "VERSION-MISSING",
+   "severity": "info",
+   "count": 849,
+   "message": "PublicationDelivery has no version attribute.",
+   "examples": [],
+   "source": "NeTEx XSD (attribute optional); reported as a fact"
+  }
+ ],
+ "rules_version": "3-upgraded-from-2",
+ "xsd": {
+  "netex_1_3_2": {
+   "documents_checked": 37,
+   "documents_valid": 37,
+   "documents_skipped": 812,
+   "dataset_valid": false,
+   "checked_valid": true,
+   "coverage_bytes": 0.024,
+   "errors": 0,
+   "by_category": {},
+   "top_messages": {}
+  },
+  "netex_2_0_0": {
+   "documents_checked": 37,
+   "documents_valid": 37,
+   "documents_skipped": 812,
+   "dataset_valid": false,
+   "checked_valid": true,
+   "coverage_bytes": 0.024,
+   "errors": 0,
+   "by_category": {},
+   "top_messages": {}
+  },
+  "epip": {
+   "documents_checked": 37,
+   "documents_valid": 0,
+   "documents_skipped": 812,
+   "dataset_valid": false,
+   "checked_valid": false,
+   "coverage_bytes": 0.024,
+   "errors": 17038,
+   "by_category": {
+    "unexpected-element": 11058,
+    "missing-child": 5980
+   },
+   "top_messages": {
+    "Element 'projections': This element is not expected. Expected is (...).": 5988,
+    "Element 'ScheduledStopPoint': Missing child element(s). Expected is (...).": 5979,
+    "Element 'JourneyPatternRef': This element is not expected. Expected is (...).": 5069,
+    "Element 'Operator': Missing child element(s). Expected is (...).": 1,
+    "Element 'dayTypes': This element is not expected.": 1
+   }
+  }
+ },
+ "seconds": 1355.1,
+ "xsd_params": {
+  "xsd_budget": 150000000,
+  "max_xsd_bytes": 150000000,
+  "errors_categorised_per_document": 20000,
+  "source": "inferred from run logs by 03b"
+ }
+}

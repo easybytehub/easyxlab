@@ -1,0 +1,141 @@
+{
+ "slug": "FR_6853c089b3ed5781f6adfdf7_83195",
+ "country": "FR",
+ "nap": "transport.data.gouv.fr",
+ "dataset_id": "6853c089b3ed5781f6adfdf7/83195",
+ "title": "Réseau SNCF TGV, Intercités et TER — https://eu.ftp.opendatasoft.com/sncf/plandata/export-opendata-sncf-netex.zip",
+ "licence": "odc-odbl",
+ "updated": "2026-09-30",
+ "url": "https://www.data.gouv.fr/api/1/datasets/r/c5f6456e-1137-4e74-a10f-4b0a25c3cc61",
+ "stratum": "FR-large",
+ "snapshot_date": "2026-10-02",
+ "download_bytes": 30715609,
+ "http_status": 200,
+ "content_type": "application/zip",
+ "xml_members": 1,
+ "uncompressed_bytes": 630990909,
+ "summary": {
+  "profile": "unknown",
+  "members": 1,
+  "root_elements": {
+   "PublicationDelivery": 1
+  },
+  "declared_versions": {
+   "1.09": 1
+  },
+  "type_of_frame_top": {},
+  "counts": {
+   "Operator": 7,
+   "StopPlace": 3441,
+   "Route": 34788,
+   "Line": 728,
+   "ScheduledStopPoint": 3441,
+   "ServiceJourneyPattern": 10422,
+   "DayType": 9001,
+   "ServiceJourney": 59999
+  },
+  "ids": 1747987,
+  "refs": 2607089,
+  "refs_internal": 2546392,
+  "refs_unresolved": 60697,
+  "refs_unresolved_same_codespace": 60697,
+  "refs_unresolved_by_tag": {
+   "BrandingRef": 59999,
+   "ScheduledStopPointRef": 293,
+   "OperatorRef": 268,
+   "TypeOfLineRef": 125,
+   "DestinationDisplayRef": 12
+  },
+  "refs_unresolved_versioned": 0,
+  "refs_unresolved_profile_types": 125,
+  "refs_internal_unversioned_same_file": 2288982,
+  "refs_unresolved_versioned_by_tag": {},
+  "version_mismatch": 0,
+  "duplicate_definitions": 0,
+  "duplicate_in_file": 140,
+  "validity_from_min": "2018-10-08",
+  "validity_to_max": "2382-01-01",
+  "calendar_min": "2027-03-01",
+  "calendar_max": "2027-03-01",
+  "encodings": {
+   "UTF-8": 1
+  },
+  "bom": 0,
+  "mojibake": 1,
+  "id_format_checked": 0,
+  "id_format_bad": 0,
+  "id_type_bad": 0,
+  "refs_internal_unversioned": 2288982,
+  "codespaces_declared": []
+ },
+ "findings": [
+  {
+   "rule": "ID-DUPLICATE-IN-FILE",
+   "severity": "error",
+   "count": 140,
+   "message": "Same element, id and version defined twice in one document (the NeTEx XSD keys forbid it).",
+   "examples": [
+    "sncf_netexfr_20261002_2111.xml: StopPointInJourneyPattern id=FR:StopPointInServiceJourneyPattern::87640912_03e0991b-7dcb-4353-a3f4-767c9446ab82 version=any x2",
+    "sncf_netexfr_20261002_2111.xml: StopPointInJourneyPattern id=FR:StopPointInServiceJourneyPattern::87640912_4877c7f3-5a4b-4682-b27f-66a77df8e478 version=any x2",
+    "sncf_netexfr_20261002_2111.xml: StopPointInJourneyPattern id=FR:StopPointInServiceJourneyPattern::87640912_78d19701-bd47-400f-a973-5946552ce146 version=any x2",
+    "sncf_netexfr_20261002_2111.xml: StopPointInJourneyPattern id=FR:StopPointInServiceJourneyPattern::87640912_84aeb9f3-5b36-4cac-a467-c4ce4e0cf205 version=any x2",
+    "sncf_netexfr_20261002_2111.xml: StopPointInJourneyPattern id=FR:StopPointInServiceJourneyPattern::87640912_9d25860c-b57d-4bff-9081-93a43b94cf08 version=any x2"
+   ],
+   "source": "NeTEx XSD *_AnyVersionedKey identity constraints"
+  },
+  {
+   "rule": "ENCODING-MOJIBAKE",
+   "severity": "warning",
+   "count": 1,
+   "message": "Text looks double-encoded (UTF-8 read as Latin-1).",
+   "examples": [
+    "Provence-Alpes-CÃ´te dâAzur"
+   ],
+   "source": "heuristic (double-encoded UTF-8)"
+  }
+ ],
+ "xsd": {
+  "netex_1_3_2": {
+   "documents_checked": 0,
+   "documents_valid": 0,
+   "documents_skipped": 1,
+   "dataset_valid": false,
+   "checked_valid": false,
+   "coverage_bytes": 0.0,
+   "errors": 0,
+   "by_category": {},
+   "top_messages": {}
+  },
+  "netex_2_0_0": {
+   "documents_checked": 0,
+   "documents_valid": 0,
+   "documents_skipped": 1,
+   "dataset_valid": false,
+   "checked_valid": false,
+   "coverage_bytes": 0.0,
+   "errors": 0,
+   "by_category": {},
+   "top_messages": {}
+  },
+  "epip": {
+   "documents_checked": 0,
+   "documents_valid": 0,
+   "documents_skipped": 1,
+   "dataset_valid": false,
+   "checked_valid": false,
+   "coverage_bytes": 0.0,
+   "errors": 0,
+   "by_category": {},
+   "top_messages": {}
+  }
+ },
+ "seconds": 57.9,
+ "rules_version": "3-upgraded-from-2",
+ "rechecked_at": "2026-10-02 23:26",
+ "xsd_params": {
+  "xsd_budget": 300000000,
+  "max_xsd_bytes": 400000000,
+  "errors_categorised_per_document": 20000,
+  "source": "inferred from run logs by 03b"
+ }
+}

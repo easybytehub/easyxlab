@@ -1,0 +1,245 @@
+{
+ "slug": "FR_5ced52ed8b4c4177b679d377_82427",
+ "country": "FR",
+ "nap": "transport.data.gouv.fr",
+ "dataset_id": "5ced52ed8b4c4177b679d377/82427",
+ "title": "Agrégat des réseaux urbains et interurbains de Normandie — Base de données multimodale théorique des réseaux de transpor",
+ "licence": "lov2",
+ "updated": "2026-09-30",
+ "url": "https://transport.data.gouv.fr/resources/82427/download",
+ "stratum": "FR-large",
+ "snapshot_date": "2026-10-02",
+ "download_bytes": 38830166,
+ "http_status": 200,
+ "content_type": "application/zip",
+ "xml_members": 690,
+ "uncompressed_bytes": 894725984,
+ "summary": {
+  "profile": "fr",
+  "members": 690,
+  "root_elements": {
+   "PublicationDelivery": 690
+  },
+  "declared_versions": {
+   "1.10:FR-NETEX-2.2": 1,
+   "1.10:FR-NETEX-2.3": 689
+  },
+  "type_of_frame_top": {
+   "FR:TypeOfFrame:NETEX_FRANCE": 689,
+   "FR:TypeOfFrame:NETEX_RESEAU": 625,
+   "FR:TypeOfFrame:NETEX_HORAIRE": 593,
+   "FR:TypeOfFrame:NETEX_ARRET": 33,
+   "FR:TypeOfFrame:NETEX_CALENDRIER": 32,
+   "FR:TypeOfFrame:NETEX_COMMUN": 1
+  },
+  "counts": {
+   "Authority": 68,
+   "Operator": 63,
+   "StopPlace": 37572,
+   "Quay": 32716,
+   "DayType": 7299,
+   "Route": 1112,
+   "ServiceJourneyPattern": 4015,
+   "ScheduledStopPoint": 20332,
+   "ServiceJourney": 82275,
+   "Line": 593
+  },
+  "ids": 493577,
+  "refs": 599885,
+  "refs_internal": 599867,
+  "refs_unresolved": 18,
+  "refs_unresolved_same_codespace": 18,
+  "refs_unresolved_by_tag": {
+   "PlaceRef": 17,
+   "TypeOfFrameRef": 1
+  },
+  "refs_unresolved_versioned": 0,
+  "refs_unresolved_profile_types": 1,
+  "refs_internal_unversioned_same_file": 384074,
+  "refs_unresolved_versioned_by_tag": {},
+  "version_mismatch": 0,
+  "duplicate_definitions": 15263,
+  "duplicate_in_file": 279,
+  "validity_from_min": "2025-01-06",
+  "validity_to_max": "2028-06-30",
+  "calendar_min": null,
+  "calendar_max": null,
+  "encodings": {
+   "UTF-8": 690
+  },
+  "bom": 0,
+  "mojibake": 5,
+  "replacement_chars": 0,
+  "validity_open_ended": 0,
+  "refs_unresolved_typeof_versioned": 0,
+  "id_format_checked": 493577,
+  "id_format_bad": 57,
+  "id_type_bad": 1710,
+  "refs_internal_unversioned": 39544,
+  "codespaces_declared": []
+ },
+ "findings": [
+  {
+   "rule": "ID-DUPLICATE-IN-FILE",
+   "severity": "error",
+   "count": 279,
+   "message": "Same element, id and version defined twice in one document (the NeTEx XSD keys forbid it).",
+   "examples": [
+    "offres_atoumod/PT_TH_OFFER_HOBUS_netex_20260326_807_OPENDATA/Ligne_ATOUMOD021_A.xml: RouteLink id=ATOUMOD021:RouteLink:5860x91745x91767:LOC version=1 x2",
+    "offres_atoumod/PT_TH_OFFER_HOBUS_netex_20260326_807_OPENDATA/Ligne_ATOUMOD021_A.xml: RouteLink id=ATOUMOD021:RouteLink:5860x91767x91788:LOC version=1 x2",
+    "offres_atoumod/PT_TH_OFFER_HOBUS_netex_20260326_807_OPENDATA/Ligne_ATOUMOD021_A.xml: RouteLink id=ATOUMOD021:RouteLink:5860x91788x91796:LOC version=1 x2",
+    "offres_atoumod/PT_TH_OFFER_HOBUS_netex_20260326_807_OPENDATA/Ligne_ATOUMOD021_A.xml: RouteLink id=ATOUMOD021:RouteLink:5860x91796x91733:LOC version=1 x2",
+    "offres_atoumod/PT_TH_OFFER_HOBUS_netex_20260326_807_OPENDATA/Ligne_ATOUMOD021_A.xml: RouteLink id=ATOUMOD021:RouteLink:5860x91733x91737:LOC version=1 x2"
+   ],
+   "source": "NeTEx XSD *_AnyVersionedKey identity constraints"
+  },
+  {
+   "rule": "ID-REDUNDANT-ACROSS-FILES",
+   "severity": "info",
+   "count": 15263,
+   "message": "Same object (not a frame or packaging object) defined in several documents of the dataset; consumers must deduplicate (the Nordic profile puts shared objects in one common file).",
+   "examples": [
+    "Authority id=ATOUMOD000:Authority:001:LOC version=any in 2 files",
+    "Authority id=ATOUMOD000:Authority:035:LOC version=any in 2 files",
+    "Authority id=ATOUMOD000:Authority:006:LOC version=any in 2 files",
+    "Authority id=ATOUMOD000:Authority:036:LOC version=any in 2 files",
+    "Authority id=ATOUMOD000:Authority:051:LOC version=any in 2 files"
+   ],
+   "source": "Nordic profile, General information (common file 'to avoid redundancy of unique objects')"
+  },
+  {
+   "rule": "ENCODING-MOJIBAKE",
+   "severity": "warning",
+   "count": 5,
+   "message": "Text looks double-encoded (UTF-8 read as Latin-1).",
+   "examples": [
+    "53 Boulevard MarÃ©chal Leclerc",
+    "22, Rue Aviateur GuÃ©rin, 76600 LE HAVRE",
+    "22, Rue Aviateur GuÃ©rin, 76600 LE HAVRE"
+   ],
+   "source": "heuristic (double-encoded UTF-8)"
+  },
+  {
+   "rule": "FR-ID-NOT-PROPOSED-FORMAT",
+   "severity": "info",
+   "count": 57,
+   "message": "57 of 493577 ids do not follow the codification the French profile proposes (other structures are allowed if ids stay unique nationally).",
+   "examples": [
+    "StopPlace id=FR:0:LMU:AUTOAL2022092617570923929:ATOUMOD000",
+    "StopPlace id=FR:0:LMU:AUTOAL2022092617570937044:ATOUMOD000",
+    "StopPlace id=FR:GG.AL:LMU:AUTOAL2022092617570949377:ATOUMOD000",
+    "StopPlace id=FR:0:LMU:AUTOAL2022092617570949380:ATOUMOD000",
+    "StopPlace id=FR:0:LMU:AUTOAL2022092617570949383:ATOUMOD000"
+   ],
+   "source": "Profil NeTEx France, Éléments communs (codification 'proposée'; other structures allowed)"
+  },
+  {
+   "rule": "FR-ID-TYPE-NOT-TAG",
+   "severity": "info",
+   "count": 1710,
+   "message": "Second part of the id is not the XML element name, as the proposed French codification suggests.",
+   "examples": [
+    "StopPlace id=FR:0:LMU:AUTOAL2022092617570923929:ATOUMOD000",
+    "StopPlace id=FR:0:LMU:AUTOAL2022092617570937044:ATOUMOD000",
+    "StopPlace id=FR:GG.AL:LMU:AUTOAL2022092617570949377:ATOUMOD000",
+    "StopPlace id=FR:0:LMU:AUTOAL2022092617570949380:ATOUMOD000",
+    "StopPlace id=FR:0:LMU:AUTOAL2022092617570949383:ATOUMOD000"
+   ],
+   "source": "Profil NeTEx France, Éléments communs (codification 'proposée')"
+  },
+  {
+   "rule": "FR-REF-UNVERSIONED-INTERNAL",
+   "severity": "warning",
+   "count": 39544,
+   "message": "Profil NeTEx France: 39544 of 599867 references to objects present in the dataset carry neither 'version' nor 'versionRef' ('any' is allowed).",
+   "examples": [
+    "arrets_atoumod/StopPlaces_netex.xml: <TypeOfFrameRef ref=\"FR:TypeOfFrame:NETEX_ARRET\"/> (defined in the dataset)",
+    "arrets_atoumod/StopPlaces_netex.xml: <TypeOfPlaceRef ref=\"multimodalStopPlace\"/> (defined in the dataset)",
+    "arrets_atoumod/StopPlaces_netex.xml: <TypeOfPlaceRef ref=\"multimodalStopPlace\"/> (defined in the dataset)",
+    "arrets_atoumod/StopPlaces_netex.xml: <TypeOfPlaceRef ref=\"multimodalStopPlace\"/> (defined in the dataset)",
+    "arrets_atoumod/StopPlaces_netex.xml: <TypeOfPlaceRef ref=\"multimodalStopPlace\"/> (defined in the dataset)"
+   ],
+   "source": "Profil NeTEx France, Éléments communs, VersionOfObjectRef"
+  }
+ ],
+ "rules_version": 3,
+ "xsd": {
+  "netex_1_3_2": {
+   "documents_checked": 66,
+   "documents_valid": 63,
+   "documents_skipped": 624,
+   "dataset_valid": false,
+   "checked_valid": false,
+   "coverage_bytes": 0.168,
+   "errors": 30548,
+   "by_category": {
+    "keyref-unresolved": 11114,
+    "missing-child": 8856,
+    "invalid-value": 31,
+    "unexpected-element": 3
+   },
+   "top_messages": {
+    "Element 'Quay': No match found for key-sequence [..] of keyref 'DataSourceRef_AnyKeyRef'.": 11114,
+    "Element 'quays': Missing child element(s). Expected is (...).": 8856,
+    "Element 'BusSubmode': [facet 'enumeration'] The value '..' is not an element of the set {'unknown', 'undefined', 'localBus', 'regionalBus', 'expressBus', 'nightBus', 'postBus', 'specialNeedsBus', 'mobilityBus', 'mobility": 27,
+    "Element 'PlaceEquipment': This element is not expected. Expected is (...).": 3,
+    "Element 'gml:posList': '..' is not a valid value of the atomic type 'xs:double'.": 2,
+    "Element 'gml:posList': '..' is not a valid value of the list type 'gml:doubleList'.": 2
+   }
+  },
+  "netex_2_0_0": {
+   "documents_checked": 66,
+   "documents_valid": 12,
+   "documents_skipped": 624,
+   "dataset_valid": false,
+   "checked_valid": false,
+   "coverage_bytes": 0.168,
+   "errors": 418823,
+   "by_category": {
+    "unexpected-element": 47486,
+    "attribute-missing": 47483,
+    "other": 47479,
+    "keyref-unresolved": 11114,
+    "missing-child": 8856,
+    "invalid-value": 31
+   },
+   "top_messages": {
+    "Element 'TimetabledPassingTime': The attribute 'id' is required but missing.": 47483,
+    "Element 'TimetabledPassingTime': Not all fields of key identity-constraint 'TimetabledPassingTime_AnyVersionedKey' evaluate to a node.": 47479,
+    "Element 'ArrivalTime': This element is not expected. Expected is (...).": 45267,
+    "Element 'Quay': No match found for key-sequence [..] of keyref 'DataSourceRef_AnyKeyRef'.": 11114,
+    "Element 'quays': Missing child element(s). Expected is (...).": 8856,
+    "Element 'DepartureTime': This element is not expected. Expected is (...).": 2216,
+    "Element 'BusSubmode': [facet 'enumeration'] The value '..' is not an element of the set {'unknown', 'undefined', 'localBus', 'regionalBus', 'expressBus', 'nightBus', 'postBus', 'specialNeedsBus', 'mobilityBus', 'mobility": 27,
+    "Element 'PlaceEquipment': This element is not expected. Expected is (...).": 3,
+    "Element 'gml:posList': '..' is not a valid value of the atomic type 'xs:double'.": 2,
+    "Element 'gml:posList': '..' is not a valid value of the list type 'gml:doubleList'.": 2
+   }
+  },
+  "epip": {
+   "documents_checked": 66,
+   "documents_valid": 0,
+   "documents_skipped": 624,
+   "dataset_valid": false,
+   "checked_valid": false,
+   "coverage_bytes": 0.168,
+   "errors": 119,
+   "by_category": {
+    "unexpected-element": 119
+   },
+   "top_messages": {
+    "Element 'GeneralFrame': This element is not expected.": 65,
+    "Element 'TypeOfNotice': This element is not expected. Expected is (...).": 53,
+    "Element 'GeneralFrame': This element is not expected. Expected is (...).": 1
+   }
+  }
+ },
+ "seconds": 350.5,
+ "rechecked_at": "2026-10-03 05:57",
+ "xsd_params": {
+  "xsd_budget": 150000000,
+  "max_xsd_bytes": 150000000,
+  "errors_categorised_per_document": 20000,
+  "source": "inferred from run logs by 03b"
+ }
+}

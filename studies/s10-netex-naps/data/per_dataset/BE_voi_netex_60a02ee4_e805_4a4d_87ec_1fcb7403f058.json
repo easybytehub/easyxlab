@@ -1,0 +1,125 @@
+{
+ "slug": "BE_voi_netex_60a02ee4_e805_4a4d_87ec_1fcb7403f058",
+ "country": "BE",
+ "nap": "transportdata.be",
+ "dataset_id": "voi-netex/60a02ee4-e805-4a4d-87ec-1fcb7403f058",
+ "title": "voi/netex — Brusels Netex",
+ "licence": "Not specified",
+ "updated": "2024-01-08",
+ "url": "https://api.voiapp.io/gbfs/open/v1/253/netex.xml",
+ "stratum": "BE",
+ "snapshot_date": "2026-10-02",
+ "download_bytes": 474319,
+ "http_status": 200,
+ "content_type": "application/zip",
+ "xml_members": 1,
+ "uncompressed_bytes": 6416197,
+ "summary": {
+  "profile": "unknown",
+  "members": 1,
+  "root_elements": {
+   "PublicationDelivery": 1
+  },
+  "declared_versions": {
+   "1.0": 1
+  },
+  "type_of_frame_top": {},
+  "counts": {
+   "Operator": 1
+  },
+  "ids": 7528,
+  "refs": 5041,
+  "refs_internal": 5041,
+  "refs_unresolved": 0,
+  "refs_unresolved_same_codespace": 0,
+  "refs_unresolved_by_tag": {},
+  "refs_unresolved_versioned": 0,
+  "refs_unresolved_profile_types": 0,
+  "refs_internal_unversioned_same_file": 1,
+  "refs_unresolved_versioned_by_tag": {},
+  "version_mismatch": 0,
+  "duplicate_definitions": 0,
+  "duplicate_in_file": 0,
+  "validity_from_min": "2026-10-02",
+  "validity_to_max": null,
+  "calendar_min": null,
+  "calendar_max": null,
+  "encodings": {
+   "NONE": 1
+  },
+  "bom": 0,
+  "mojibake": 0,
+  "replacement_chars": 0,
+  "validity_open_ended": 1,
+  "refs_unresolved_typeof_versioned": 0,
+  "id_format_checked": 0,
+  "id_format_bad": 0,
+  "id_type_bad": 0,
+  "refs_internal_unversioned": 1,
+  "codespaces_declared": [
+   "VOI"
+  ]
+ },
+ "findings": [
+  {
+   "rule": "ENCODING-NO-DECLARATION",
+   "severity": "info",
+   "count": 1,
+   "message": "Documents without an XML declaration (read as UTF-8 by default; not an error).",
+   "examples": [],
+   "source": "W3C XML 1.0 §4.3.3 (no declaration = UTF-8/UTF-16)"
+  }
+ ],
+ "rules_version": 3,
+ "xsd": {
+  "netex_1_3_2": {
+   "documents_checked": 1,
+   "documents_valid": 1,
+   "documents_skipped": 0,
+   "dataset_valid": true,
+   "checked_valid": true,
+   "coverage_bytes": 1.0,
+   "errors": 0,
+   "by_category": {},
+   "top_messages": {}
+  },
+  "netex_2_0_0": {
+   "documents_checked": 1,
+   "documents_valid": 0,
+   "documents_skipped": 0,
+   "dataset_valid": false,
+   "checked_valid": false,
+   "coverage_bytes": 1.0,
+   "errors": 7533,
+   "by_category": {
+    "attribute-missing": 7533
+   },
+   "top_messages": {
+    "Element 'VehicleTypeZoneRestriction': The attribute 'id' is required but missing.": 7533
+   }
+  },
+  "epip": {
+   "documents_checked": 1,
+   "documents_valid": 0,
+   "documents_skipped": 0,
+   "dataset_valid": false,
+   "checked_valid": false,
+   "coverage_bytes": 1.0,
+   "errors": 1,
+   "by_category": {
+    "unexpected-element": 1
+   },
+   "top_messages": {
+    "Element 'PublicationRefreshInterval': This element is not expected. Expected is (...).": 1
+   }
+  }
+ },
+ "seconds": 16.9,
+ "rechecked_at": "2026-10-03 05:57",
+ "xsd_params": {
+  "xsd_budget": 150000000,
+  "max_xsd_bytes": 150000000,
+  "errors_categorised_per_document": 20000,
+  "source": "inferred from run logs by 03b"
+ }
+}

@@ -1,0 +1,133 @@
+{
+ "slug": "NL_arr",
+ "country": "NL",
+ "nap": "NDOV Loket",
+ "dataset_id": "arr/NeTEx_ARR_NL_20260930_20260930_1414.xml.gz",
+ "title": "NeTEx_ARR_NL_20260930_20260930_1414.xml.gz",
+ "licence": "",
+ "updated": "2026-09-30",
+ "url": "https://data.ndovloket.nl/netex/arr/NeTEx_ARR_NL_20260930_20260930_1414.xml.gz",
+ "stratum": "NL",
+ "snapshot_date": "2026-10-02",
+ "xsd_params": {
+  "xsd_budget": 400000000,
+  "max_xsd_bytes": 400000000,
+  "errors_categorised_per_document": 20000,
+  "source": "recorded by 03_validate.py"
+ },
+ "download_bytes": 10145648,
+ "http_status": 200,
+ "content_type": "application/gzip",
+ "xml_members": 1,
+ "uncompressed_bytes": 357827757,
+ "summary": {
+  "profile": "nl",
+  "members": 1,
+  "root_elements": {
+   "PublicationDelivery": 1
+  },
+  "declared_versions": {
+   "ntx:1.1": 1
+  },
+  "type_of_frame_top": {
+   "NL:BISON:TypeOfFrame:NL_TT_BASELINE": 1,
+   "NL:BISON:TypeOfFrame:NL_TT_RESOURCE": 1,
+   "NL:BISON:TypeOfFrame:NL_TT_SERVICE": 1,
+   "NL:BISON:TypeOfFrame:NL_TT_TIMETABLE": 1,
+   "NL:BISON:TypeOfFrame:NL_TT_CALENDAR": 1,
+   "NL:BISON:TypeOfFrame:NL_TT_VEHICLE": 1
+  },
+  "counts": {
+   "Authority": 3,
+   "Operator": 1,
+   "Route": 2421,
+   "Line": 469,
+   "ScheduledStopPoint": 10692,
+   "ServiceJourneyPattern": 3097,
+   "ServiceJourney": 101979,
+   "DayType": 172
+  },
+  "ids": 565042,
+  "refs": 1392007,
+  "refs_internal": 1369201,
+  "refs_unresolved": 22806,
+  "refs_unresolved_same_codespace": 22227,
+  "refs_unresolved_by_tag": {
+   "QuayRef": 10692,
+   "TariffZoneRef": 10638,
+   "ExternalLineRef": 469,
+   "TypeOfServiceRef": 469,
+   "AuthorityRef": 466,
+   "TypeOfResponsibilityRoleRef": 30,
+   "ResponsibleOrganisationRef": 27,
+   "ResponsibleAreaRef": 8,
+   "TypeOfFrameRef": 6,
+   "DefaultCodespaceRef": 1
+  },
+  "refs_unresolved_versioned": 0,
+  "refs_unresolved_profile_types": 505,
+  "refs_internal_unversioned_same_file": 0,
+  "refs_unresolved_versioned_by_tag": {},
+  "version_mismatch": 0,
+  "duplicate_definitions": 0,
+  "duplicate_in_file": 0,
+  "validity_from_min": "2026-09-30",
+  "validity_to_max": "2026-12-12",
+  "calendar_min": null,
+  "calendar_max": null,
+  "encodings": {
+   "UTF-8": 1
+  },
+  "bom": 0,
+  "mojibake": 0,
+  "replacement_chars": 0,
+  "validity_open_ended": 0,
+  "refs_unresolved_typeof_versioned": 6,
+  "id_format_checked": 0,
+  "id_format_bad": 0,
+  "id_type_bad": 0,
+  "refs_internal_unversioned": 0,
+  "codespaces_declared": []
+ },
+ "findings": [],
+ "rules_version": 3,
+ "xsd": {
+  "netex_1_3_2": {
+   "documents_checked": 0,
+   "documents_valid": 0,
+   "documents_skipped": 1,
+   "dataset_valid": false,
+   "checked_valid": false,
+   "coverage_bytes": 0.0,
+   "skipped_memory_guard": 1,
+   "errors": 0,
+   "by_category": {},
+   "top_messages": {}
+  },
+  "netex_2_0_0": {
+   "documents_checked": 0,
+   "documents_valid": 0,
+   "documents_skipped": 1,
+   "dataset_valid": false,
+   "checked_valid": false,
+   "coverage_bytes": 0.0,
+   "skipped_memory_guard": 1,
+   "errors": 0,
+   "by_category": {},
+   "top_messages": {}
+  },
+  "epip": {
+   "documents_checked": 0,
+   "documents_valid": 0,
+   "documents_skipped": 1,
+   "dataset_valid": false,
+   "checked_valid": false,
+   "coverage_bytes": 0.0,
+   "skipped_memory_guard": 1,
+   "errors": 0,
+   "by_category": {},
+   "top_messages": {}
+  }
+ },
+ "seconds": 14.4
+}

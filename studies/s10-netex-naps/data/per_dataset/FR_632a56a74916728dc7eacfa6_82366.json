@@ -1,0 +1,177 @@
+{
+ "slug": "FR_632a56a74916728dc7eacfa6_82366",
+ "country": "FR",
+ "nap": "transport.data.gouv.fr",
+ "dataset_id": "632a56a74916728dc7eacfa6/82366",
+ "title": "Réseau urbain Transcom — Itinéraires  et courses NA Mobilités NeTEx-FR",
+ "licence": "odc-odbl",
+ "updated": "2026-09-29",
+ "url": "https://www.data.gouv.fr/api/1/datasets/r/2a73215c-b857-4c2f-92a5-3cbb23b2516d",
+ "stratum": "FR-large",
+ "snapshot_date": "2026-10-02",
+ "download_bytes": 1852247,
+ "http_status": 200,
+ "content_type": "application/zip",
+ "xml_members": 54,
+ "uncompressed_bytes": 15170156,
+ "summary": {
+  "profile": "fr",
+  "members": 54,
+  "root_elements": {
+   "PublicationDelivery": 54
+  },
+  "declared_versions": {
+   "1.1:FR-NETEX_RESEAU-2.2": 52,
+   "1.1:FR-NETEX_CALENDRIER-2.2": 1,
+   "1.1:FR-NETEX_COMMUN-2.2": 1
+  },
+  "type_of_frame_top": {
+   "FR:TypeOfFrame:NETEX_RESEAUX:": 52,
+   "FR:TypeOfFrame:NETEX_LIGNE:": 52,
+   "FR:TypeOfFrame:NETEX_HORAIRE:": 52,
+   "FR:TypeOfFrame:NETEX_CALENDRIER:": 1,
+   "FR:TypeOfFrame:NETEX_COMMUN:": 1
+  },
+  "counts": {
+   "Route": 236,
+   "ServiceJourneyPattern": 236,
+   "ScheduledStopPoint": 3391,
+   "ServiceJourney": 437,
+   "DayType": 31,
+   "Line": 7,
+   "Operator": 1,
+   "Authority": 1
+  },
+  "ids": 17220,
+  "refs": 20006,
+  "refs_internal": 16457,
+  "refs_unresolved": 3549,
+  "refs_unresolved_same_codespace": 0,
+  "refs_unresolved_by_tag": {
+   "QuayRef": 3391,
+   "TypeOfFrameRef": 158
+  },
+  "refs_unresolved_versioned": 0,
+  "refs_unresolved_profile_types": 158,
+  "refs_internal_unversioned_same_file": 52,
+  "refs_unresolved_versioned_by_tag": {},
+  "version_mismatch": 0,
+  "duplicate_definitions": 0,
+  "duplicate_in_file": 0,
+  "validity_from_min": "2026-08-31",
+  "validity_to_max": "2027-08-29",
+  "calendar_min": "2027-06-30",
+  "calendar_max": "2027-08-29",
+  "encodings": {
+   "UTF-8": 54
+  },
+  "bom": 0,
+  "mojibake": 0,
+  "replacement_chars": 0,
+  "validity_open_ended": 0,
+  "refs_unresolved_typeof_versioned": 0,
+  "id_format_checked": 17220,
+  "id_format_bad": 3,
+  "id_type_bad": 47,
+  "refs_internal_unversioned": 288,
+  "codespaces_declared": []
+ },
+ "findings": [
+  {
+   "rule": "FR-ID-NOT-PROPOSED-FORMAT",
+   "severity": "info",
+   "count": 3,
+   "message": "3 of 17220 ids do not follow the codification the French profile proposes (other structures are allowed if ids stay unique nationally).",
+   "examples": [
+    "CompositeFrame id=CA_GRAND_COGNAC:CompositeFrame:NETEX_RESEAUX-LOC",
+    "GeneralFrame id=CA_GRAND_COGNAC:NETEX_LIGNE-20260928141641Z:LOC",
+    "GeneralFrame id=CA_GRAND_COGNAC:NETEX_HORAIRE-20260928141641Z:LOC"
+   ],
+   "source": "Profil NeTEx France, Éléments communs (codification 'proposée'; other structures allowed)"
+  },
+  {
+   "rule": "FR-ID-TYPE-NOT-TAG",
+   "severity": "info",
+   "count": 47,
+   "message": "Second part of the id is not the XML element name, as the proposed French codification suggests.",
+   "examples": [
+    "GeneralFrame id=CA_GRAND_COGNAC:NETEX_LIGNE-20260928141641Z:LOC",
+    "GeneralFrame id=CA_GRAND_COGNAC:NETEX_HORAIRE-20260928141641Z:LOC",
+    "FlexibleLine id=CA_GRAND_COGNAC:Line:91:LOC",
+    "FlexibleLine id=CA_GRAND_COGNAC:Line:11:LOC",
+    "FlexibleLine id=CA_GRAND_COGNAC:Line:12:LOC"
+   ],
+   "source": "Profil NeTEx France, Éléments communs (codification 'proposée')"
+  },
+  {
+   "rule": "FR-REF-UNVERSIONED-INTERNAL",
+   "severity": "warning",
+   "count": 288,
+   "message": "Profil NeTEx France: 288 of 16457 references to objects present in the dataset carry neither 'version' nor 'versionRef' ('any' is allowed).",
+   "examples": [
+    "CA_GRAND_COGNAC_offre_Bus_1_53_53.xml: <LineRef ref=\"CA_GRAND_COGNAC:Line:53:LOC\"/> (defined in the dataset)",
+    "CA_GRAND_COGNAC_offre_Bus_1_53_53.xml: <LineRef ref=\"CA_GRAND_COGNAC:Line:53:LOC\"/> (defined in the dataset)",
+    "CA_GRAND_COGNAC_offre_Bus_1_53_53.xml: <LineRef ref=\"CA_GRAND_COGNAC:Line:53:LOC\"/> (defined in the dataset)",
+    "CA_GRAND_COGNAC_offre_Bus_1_53_53.xml: <LineRef ref=\"CA_GRAND_COGNAC:Line:53:LOC\"/> (defined in the dataset)",
+    "CA_GRAND_COGNAC_offre_Bus_1_32_32.xml: <LineRef ref=\"CA_GRAND_COGNAC:Line:32:LOC\"/> (defined in the dataset)"
+   ],
+   "source": "Profil NeTEx France, Éléments communs, VersionOfObjectRef"
+  }
+ ],
+ "xsd": {
+  "netex_1_3_2": {
+   "documents_checked": 54,
+   "documents_valid": 54,
+   "documents_skipped": 0,
+   "dataset_valid": true,
+   "checked_valid": true,
+   "coverage_bytes": 1.0,
+   "errors": 0,
+   "by_category": {},
+   "top_messages": {}
+  },
+  "netex_2_0_0": {
+   "documents_checked": 54,
+   "documents_valid": 2,
+   "documents_skipped": 0,
+   "dataset_valid": false,
+   "checked_valid": false,
+   "coverage_bytes": 1.0,
+   "errors": 20415,
+   "by_category": {
+    "attribute-missing": 6805,
+    "unexpected-element": 6805,
+    "other": 6805
+   },
+   "top_messages": {
+    "Element 'TimetabledPassingTime': The attribute 'id' is required but missing.": 6805,
+    "Element 'ArrivalTime': This element is not expected. Expected is (...).": 6805,
+    "Element 'TimetabledPassingTime': Not all fields of key identity-constraint 'TimetabledPassingTime_AnyVersionedKey' evaluate to a node.": 6805
+   }
+  },
+  "epip": {
+   "documents_checked": 54,
+   "documents_valid": 0,
+   "documents_skipped": 0,
+   "dataset_valid": false,
+   "checked_valid": false,
+   "coverage_bytes": 1.0,
+   "errors": 54,
+   "by_category": {
+    "unexpected-element": 54
+   },
+   "top_messages": {
+    "Element 'GeneralFrame': This element is not expected. Expected is (...).": 54
+   }
+  }
+ },
+ "seconds": 15.3,
+ "rules_version": 3,
+ "rechecked_at": "2026-10-03 05:57",
+ "xsd_params": {
+  "xsd_budget": 150000000,
+  "max_xsd_bytes": 150000000,
+  "errors_categorised_per_document": 20000,
+  "source": "inferred from run logs by 03b"
+ }
+}
