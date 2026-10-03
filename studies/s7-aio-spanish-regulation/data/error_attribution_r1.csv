@@ -1,5 +1,5 @@
 reading,qid,fact_id,surface,answer_verdict,group,pages_read,pages_old_or_mixed,pages_current,attribution,attribution_loose
-1,F04-Q4,F04,aio,mixed,target,3,0,0,synthesis,synthesis
+1,F04-Q4,F04,aio,mixed,target,2,0,0,synthesis,synthesis
 1,F15-Q1,F15,mode,outdated,target,4,1,0,in_source,in_source
 1,F15-Q2,F15,mode,outdated,target,2,0,0,synthesis,synthesis
 1,F25-Q1,F25,aio,mixed,target,5,1,1,in_source,in_source
@@ -24,7 +24,7 @@ reading,qid,fact_id,surface,answer_verdict,group,pages_read,pages_old_or_mixed,p
 1,F19-Q1,F19,aio,current,control,5,0,4,synthesis,synthesis
 1,F03-Q2,F03,aio,current,control,1,1,0,synthesis,in_source
 1,F10-Q1,F10,mode,current,control,5,0,5,synthesis,synthesis
-1,F04-Q2,F04,aio,current,control,5,2,1,synthesis,in_source
+1,F04-Q2,F04,aio,current,control,4,2,0,synthesis,in_source
 1,F19-Q1,F19,mode,current,control,5,1,3,synthesis,in_source
 1,F03-Q1,F03,aio,current,control,3,1,2,synthesis,in_source
 1,F05-Q3,F05,aio,current,control,4,3,1,synthesis,in_source
@@ -34,7 +34,7 @@ reading,qid,fact_id,surface,answer_verdict,group,pages_read,pages_old_or_mixed,p
 1,F28-Q2,F28,mode,current,control,2,0,2,synthesis,synthesis
 1,F09-Q2,F09,mode,current,control,1,0,1,synthesis,synthesis
 1,F02-Q3,F02,aio,current,control,3,1,2,in_source,in_source
-1,F05-Q4,F05,mode,current,control,4,4,0,synthesis,in_source
+1,F05-Q4,F05,mode,current,control,3,3,0,synthesis,in_source
 1,F12-Q1,F12,aio,current,control,4,1,2,synthesis,in_source
 1,F26-Q3,F26,aio,current,control,6,1,3,synthesis,in_source
 1,F06-Q1,F06,mode,current,control,2,1,1,synthesis,in_source

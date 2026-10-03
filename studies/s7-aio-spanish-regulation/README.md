@@ -52,7 +52,7 @@ review that found it).
 | `data/citations.csv` | cited domain, type and URL (social-network paths withheld) |
 | `data/review_agent.csv`, `data/fn_check.csv` | the AI agent's re-reading of 120 answers; the 40-answer false-negative check |
 | `data/second_reader_sample.csv`, `data/second_reader.csv`, `data/second_reader_prompt.md` | blind second reader: strata, verdicts, prompt |
-| `data/page_checks_r*.csv`, `data/error_attribution_r*.csv` | cited pages of wrong answers and controls, checked by script |
+| `data/page_checks_r*.csv`, `data/error_attribution_r*.csv` | cited pages of wrong answers and controls, checked by script; six pages reserved by `robots.txt` removed (`METHOD.md` §8) |
 | `data/summary.json` and `by_*.csv`, `citation_types.csv`, `stability.csv`, `f16_case.csv` | all tables |
 | `data/spend.json` | DataForSEO ledger (USD 2.120) |
 | `scripts/run.sh` | `boe`, `status`, `reading N`, `classify`, `pages`, `analyse`; `scripts/check_headline.py` asserts every headline number |

@@ -1,0 +1,15 @@
+area,snapshot,period,active_with_number,distinct_numbers,numbers_on_2plus_listings,listings_sharing_a_number,numbers_on_2plus_hosts,listings_sharing_across_hosts
+barcelona,2026-03-21,before,5969,5144,394,1219,169,458
+barcelona,2026-06-24,after,6713,5860,423,1276,161,433
+girona,2026-03-31,before,10715,9733,597,1579,146,336
+girona,2026-06-30,after,12684,11404,739,2019,202,462
+valencia,2026-03-28,before,2965,2478,232,719,46,126
+valencia,2026-06-26,after,3689,2994,316,1011,75,216
+malaga,2026-03-31,before,6135,4930,503,1708,65,223
+malaga,2026-06-30,after,6942,5453,609,2098,86,308
+sevilla,2026-03-31,before,5626,4410,504,1720,59,197
+sevilla,2026-06-30,after,6214,4741,590,2063,83,260
+madrid,2026-03-24,before,2624,1735,260,1149,70,349
+madrid,2026-06-20,after,3315,1946,394,1763,99,524
+nyc,2026-03-16,before,2156,1859,238,535,5,14
+nyc,2026-06-14,after,2176,1882,238,532,3,6

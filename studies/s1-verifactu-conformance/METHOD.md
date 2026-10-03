@@ -36,6 +36,17 @@ A downloaded file enters the corpus only if it contains one of the byte markers
 Files are downloaded from `raw.githubusercontent.com` **pinned to a commit SHA**, so
 every reference in `private/references.csv` is immutable.
 
+**Access.** Searches, repository metadata and git trees were read through the
+authenticated GitHub REST API (`gh api`), with the pauses given above for the two
+searches and 6 tree requests in parallel. The files themselves were downloaded from
+`raw.githubusercontent.com`, unauthenticated, with Python's default User-Agent
+(`Python-urllib/3.x`), 8 requests in parallel and no pauses: 29,491 file requests
+(`private/occurrences.jsonl`), on the order of 20 per second (estimated from the
+timestamps of the kept files, written over about 23 minutes on 2026-10-02), plus
+239 test source files for the test-code check (§3.3), also 8 in parallel. The BOE
+texts and AEAT documents in `data/raw/norma/` come from `www.boe.es` and
+`sede.agenciatributaria.gob.es`.
+
 Third-party files are kept in `data/raw/` (git-ignored) and are **not redistributed**.
 
 ## 3. Classification (before linting)

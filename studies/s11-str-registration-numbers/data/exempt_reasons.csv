@@ -1,0 +1,66 @@
+area,snapshot,period,field,reason,n,denominator,pct,ci95_low,ci95_high
+barcelona,2026-03-21,before,national,unspecified,636,9575,6.6,6.2,7.2
+barcelona,2026-03-21,before,regional,unspecified,685,9575,7.2,6.7,7.7
+barcelona,2026-06-24,after,national,camping,4,9666,0.0,0.0,0.1
+barcelona,2026-06-24,after,national,hostel,374,9666,3.9,3.5,4.3
+barcelona,2026-06-24,after,national,hotel,207,9666,2.1,1.9,2.4
+barcelona,2026-06-24,after,national,motel,2,9666,0.0,0.0,0.1
+barcelona,2026-06-24,after,national,rural tourism accommodation,3,9666,0.0,0.0,0.1
+barcelona,2026-06-24,after,national,tourist apartment,267,9666,2.8,2.5,3.1
+barcelona,2026-06-24,after,national,unspecified,3,9666,0.0,0.0,0.1
+barcelona,2026-06-24,after,regional,seasonal rental,1616,9666,16.7,16.0,17.5
+barcelona,2026-06-24,after,regional,unspecified,1,9666,0.0,0.0,0.1
+girona,2026-03-31,before,national,unspecified,547,11505,4.8,4.4,5.2
+girona,2026-03-31,before,regional,unspecified,4,11505,0.0,0.0,0.1
+girona,2026-06-30,after,national,camping,24,13481,0.2,0.1,0.3
+girona,2026-06-30,after,national,hostel,66,13481,0.5,0.4,0.6
+girona,2026-06-30,after,national,hotel,172,13481,1.3,1.1,1.5
+girona,2026-06-30,after,national,hotel complex,36,13481,0.3,0.2,0.4
+girona,2026-06-30,after,national,motel,1,13481,0.0,0.0,0.0
+girona,2026-06-30,after,national,motorhome reception area,1,13481,0.0,0.0,0.0
+girona,2026-06-30,after,national,rural tourism accommodation,163,13481,1.2,1.0,1.4
+girona,2026-06-30,after,national,tourist apartment,359,13481,2.7,2.4,2.9
+girona,2026-06-30,after,national,unspecified,21,13481,0.2,0.1,0.2
+girona,2026-06-30,after,regional,seasonal rental,66,13481,0.5,0.4,0.6
+girona,2026-06-30,after,regional,unspecified,4,13481,0.0,0.0,0.1
+valencia,2026-03-28,before,national,unspecified,285,4123,6.9,6.2,7.7
+valencia,2026-03-28,before,regional,unspecified,2,4123,0.0,0.0,0.2
+valencia,2026-06-26,after,national,hostel,145,6219,2.3,2.0,2.7
+valencia,2026-06-26,after,national,hotel,120,6219,1.9,1.6,2.3
+valencia,2026-06-26,after,national,hotel complex,15,6219,0.2,0.1,0.4
+valencia,2026-06-26,after,national,motel,6,6219,0.1,0.0,0.2
+valencia,2026-06-26,after,national,tourist apartment,186,6219,3.0,2.6,3.4
+valencia,2026-06-26,after,regional,seasonal rental,1240,6219,19.9,19.0,21.0
+valencia,2026-06-26,after,regional,unspecified,6,6219,0.1,0.0,0.2
+malaga,2026-03-31,before,national,unspecified,429,6525,6.6,6.0,7.2
+malaga,2026-03-31,before,regional,unspecified,18,6525,0.3,0.2,0.4
+malaga,2026-06-30,after,national,hostel,30,7541,0.4,0.3,0.6
+malaga,2026-06-30,after,national,hotel,26,7541,0.3,0.2,0.5
+malaga,2026-06-30,after,national,hotel complex,13,7541,0.2,0.1,0.3
+malaga,2026-06-30,after,national,motel,1,7541,0.0,0.0,0.1
+malaga,2026-06-30,after,national,rural house,19,7541,0.3,0.2,0.4
+malaga,2026-06-30,after,national,tourist apartment,418,7541,5.5,5.0,6.1
+malaga,2026-06-30,after,national,tourist camp,5,7541,0.1,0.0,0.2
+malaga,2026-06-30,after,regional,seasonal rental,2,7541,0.0,0.0,0.1
+malaga,2026-06-30,after,regional,unspecified,85,7541,1.1,0.9,1.4
+sevilla,2026-03-31,before,national,unspecified,649,5972,10.9,10.1,11.7
+sevilla,2026-03-31,before,regional,unspecified,15,5972,0.3,0.2,0.4
+sevilla,2026-06-30,after,national,hostel,95,6706,1.4,1.2,1.7
+sevilla,2026-06-30,after,national,hotel,31,6706,0.5,0.3,0.7
+sevilla,2026-06-30,after,national,hotel complex,93,6706,1.4,1.1,1.7
+sevilla,2026-06-30,after,national,rural house,3,6706,0.0,0.0,0.1
+sevilla,2026-06-30,after,national,tourist apartment,621,6706,9.3,8.6,10.0
+sevilla,2026-06-30,after,national,tourist camp,3,6706,0.0,0.0,0.1
+sevilla,2026-06-30,after,regional,unspecified,74,6706,1.1,0.9,1.4
+madrid,2026-03-24,before,national,unspecified,1202,15238,7.9,7.5,8.3
+madrid,2026-03-24,before,regional,unspecified,73,15238,0.5,0.4,0.6
+madrid,2026-06-20,after,national,hostel,577,15782,3.7,3.4,4.0
+madrid,2026-06-20,after,national,hotel,109,15782,0.7,0.6,0.8
+madrid,2026-06-20,after,national,hotel complex,35,15782,0.2,0.2,0.3
+madrid,2026-06-20,after,national,motel,8,15782,0.1,0.0,0.1
+madrid,2026-06-20,after,national,tourist apartment,938,15782,5.9,5.6,6.3
+madrid,2026-06-20,after,national,unspecified,64,15782,0.4,0.3,0.5
+madrid,2026-06-20,after,regional,seasonal rental,6677,15782,42.3,41.5,43.1
+madrid,2026-06-20,after,regional,unspecified,77,15782,0.5,0.4,0.6
+nyc,2026-03-16,before,licence,unspecified,1706,10696,15.9,15.3,16.7
+nyc,2026-06-14,after,licence,unspecified,1784,10476,17.0,16.3,17.8

@@ -103,6 +103,15 @@ archived 2021 Data4PT XSD (§5).
 
 Italy and Portugal were not probed.
 
+**Access.** Catalogues were read anonymously through the endpoints above, with the User-Agent and pauses given at
+the top. The 44 sample files were downloaded from the URLs the catalogues give, one at a time per worker with 1 s
+pauses: 90 downloads in all across the first, resumed and re-check runs (`data/disk_log.csv`): www.data.gouv.fr
+resource links `/api/1/datasets/r/<id>` (9 files, 27 downloads), transport.data.gouv.fr (6, 20), Entur's public
+bucket on storage.googleapis.com (6, 8), data.ndovloket.nl (16, 21), the Belgian download hosts (6, 12) and
+download.data.public.lu (1, 2). The French files are under Licence Ouverte 2.0 or ODbL and the Luxembourg file under
+CC0, as their catalogues state; for NO, NL and part of BE the catalogues give no machine-readable licence, and we
+found no published API terms for transportdata.be, NDOV Loket or Mobilithek. No dataset is redistributed.
+
 Definitions:
 - **resource**: one listed file.
 - **feed**: the logical dataset. For NL, one operator directory; for LU, the 311 weekly snapshots

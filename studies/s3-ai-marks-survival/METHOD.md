@@ -94,13 +94,13 @@ We read the Next.js image optimizer from the published package `next@16.3.8/dist
 
 ## 6. Documentary evidence (section 5 of the report)
 
-We fetched official pages with `curl` on 2026-10-02 into `work/docs/` (not versioned), converted them to text with a minimal HTML stripper, and copied quotes **literally** from that text:
+We fetched official pages with `curl` on 2026-10-02 into `work/docs/` (not versioned), converted them to text with a minimal HTML stripper, and copied quotes **literally** from that text. Each page was requested once, between 17:30 and 17:32 CEST, with curl's default User-Agent (`curl/8.7.1`):
 - Cloudflare Images "Preserve Content Credentials" and "Transform via URL → metadata".
 - `WordPress/wordpress-develop` trunk `class-wp-image-editor-imagick.php`.
 - Pillow image-file-formats handbook.
 - Meta newsroom, February 2024.
 - TikTok newsroom, May 2024.
-- California SB 942 and AB 853, from leginfo.
+- California SB 942 and AB 853: one request each to their bill pages on `leginfo.legislature.ca.gov`.
 - AI Act Art. 50, from artificialintelligenceact.eu, because EUR-Lex blocked the automated fetch.
 
 None of these behaviours was measured.

@@ -1,0 +1,175 @@
+source,query,date_utc,n_results,relevant_hits,notes
+arxiv,Airbnb registration number,2026-10-03T12:00:35Z,0,,"arXiv API (export.arxiv.org), all terms ANDed in all fields, top 20 screened; robots.txt disallows crawlers, API used under its Terms of Use (1 request / 3 s) after the review"
+crossref,Airbnb registration number,2026-10-03T10:56:50Z,480363,10.2139/ssrn.4390232 10.1111/1540-6229.12537,"n_results = Crossref total-results (relevance-ranked, very loose); top 20 screened"
+openalex,Airbnb registration number,2026-10-03T10:56:52Z,3413,10.1016/j.annals.2023.103566,n_results = meta.count; top 25 screened
+arxiv,short-term rental registration compliance,2026-10-03T12:00:38Z,0,,"arXiv API (export.arxiv.org), all terms ANDed in all fields, top 20 screened; robots.txt disallows crawlers, API used under its Terms of Use (1 request / 3 s) after the review"
+crossref,short-term rental registration compliance,2026-10-03T10:56:53Z,1386406,10.2139/ssrn.4390232 10.2139/ssrn.7229455 10.2139/ssrn.7175437,"n_results = Crossref total-results (relevance-ranked, very loose); top 20 screened"
+openalex,short-term rental registration compliance,2026-10-03T10:56:54Z,12234,10.52915/kkkd3578 10.1177/09697764231155386 10.1080/00343404.2025.2533472,n_results = meta.count; top 25 screened
+arxiv,Airbnb licence number Barcelona,2026-10-03T12:00:41Z,0,,"arXiv API (export.arxiv.org), all terms ANDed in all fields, top 20 screened; robots.txt disallows crawlers, API used under its Terms of Use (1 request / 3 s) after the review"
+crossref,Airbnb licence number Barcelona,2026-10-03T10:56:54Z,448829,,"n_results = Crossref total-results (relevance-ranked, very loose); top 20 screened"
+openalex,Airbnb licence number Barcelona,2026-10-03T10:56:55Z,274,,n_results = meta.count; top 25 screened
+arxiv,Inside Airbnb license field,2026-10-03T12:00:44Z,0,,"arXiv API (export.arxiv.org), all terms ANDed in all fields, top 20 screened; robots.txt disallows crawlers, API used under its Terms of Use (1 request / 3 s) after the review"
+crossref,Inside Airbnb license field,2026-10-03T10:56:56Z,1412773,10.1177/13548166241273667,"n_results = Crossref total-results (relevance-ranked, very loose); top 20 screened"
+openalex,Inside Airbnb license field,2026-10-03T10:56:57Z,1628,,n_results = meta.count; top 25 screened
+arxiv,short-term rental registry validity,2026-10-03T12:00:47Z,0,,"arXiv API (export.arxiv.org), all terms ANDed in all fields, top 20 screened; robots.txt disallows crawlers, API used under its Terms of Use (1 request / 3 s) after the review"
+crossref,short-term rental registry validity,2026-10-03T10:56:58Z,1385980,10.2139/ssrn.7175437,"n_results = Crossref total-results (relevance-ranked, very loose); top 20 screened"
+openalex,short-term rental registry validity,2026-10-03T10:56:58Z,4259,10.1080/00343404.2026.2636091,n_results = meta.count; top 25 screened
+arxiv,vivienda de uso turístico número de registro Airbnb,2026-10-03T12:00:50Z,0,,"arXiv API (export.arxiv.org), all terms ANDed in all fields, top 20 screened; robots.txt disallows crawlers, API used under its Terms of Use (1 request / 3 s) after the review"
+crossref,vivienda de uso turístico número de registro Airbnb,2026-10-03T10:56:59Z,11866643,10.31009/indret.2023.i2.02 10.24310/mumaedmumaed.295176,"n_results = Crossref total-results (relevance-ranked, very loose); top 20 screened"
+openalex,vivienda de uso turístico número de registro Airbnb,2026-10-03T10:57:00Z,321,10.31009/indret.2023.i2.02,n_results = meta.count; top 25 screened
+arxiv,pisos turísticos ilegales Airbnb registro,2026-10-03T12:00:53Z,0,,"arXiv API (export.arxiv.org), all terms ANDed in all fields, top 20 screened; robots.txt disallows crawlers, API used under its Terms of Use (1 request / 3 s) after the review"
+crossref,pisos turísticos ilegales Airbnb registro,2026-10-03T10:57:01Z,17355,10.2139/ssrn.6673658,"n_results = Crossref total-results (relevance-ranked, very loose); top 20 screened"
+openalex,pisos turísticos ilegales Airbnb registro,2026-10-03T10:57:02Z,40,,n_results = meta.count; top 25 screened
+arxiv,Local Law 18 New York short-term rental,2026-10-03T12:00:57Z,0,,"arXiv API (export.arxiv.org), all terms ANDed in all fields, top 20 screened; robots.txt disallows crawlers, API used under its Terms of Use (1 request / 3 s) after the review"
+crossref,Local Law 18 New York short-term rental,2026-10-03T10:57:03Z,11327889,10.54254/2754-1169/2026.34798 10.1080/13683500.2024.2354521 10.2139/ssrn.7341298 10.1177/13548166241273667,"n_results = Crossref total-results (relevance-ranked, very loose); top 20 screened"
+openalex,Local Law 18 New York short-term rental,2026-10-03T10:57:03Z,39252,10.1016/j.annals.2023.103605,n_results = meta.count; top 25 screened
+arxiv,Regulation (EU) 2024/1028,2026-10-03T12:01:00Z,0,,"arXiv API (export.arxiv.org), all terms ANDed in all fields, top 20 screened; robots.txt disallows crawlers, API used under its Terms of Use (1 request / 3 s) after the review"
+crossref,Regulation (EU) 2024/1028,2026-10-03T10:57:04Z,10688896,,"n_results = Crossref total-results (relevance-ranked, very loose); top 20 screened"
+openalex,Regulation (EU) 2024/1028,2026-10-03T10:57:05Z,4052,,n_results = meta.count; top 25 screened
+arxiv,Airbnb unlicensed listings,2026-10-03T12:01:03Z,0,,"arXiv API (export.arxiv.org), all terms ANDed in all fields, top 20 screened; robots.txt disallows crawlers, API used under its Terms of Use (1 request / 3 s) after the review"
+crossref,Airbnb unlicensed listings,2026-10-03T10:57:06Z,9968,,"n_results = Crossref total-results (relevance-ranked, very loose); top 20 screened"
+openalex,Airbnb unlicensed listings,2026-10-03T10:57:07Z,246,10.1177/13548166241273667,n_results = meta.count; top 25 screened
+arxiv,Airbnb illegal listings licence enforcement,2026-10-03T12:01:06Z,0,,"arXiv API (export.arxiv.org), all terms ANDed in all fields, top 20 screened; robots.txt disallows crawlers, API used under its Terms of Use (1 request / 3 s) after the review"
+crossref,Airbnb illegal listings licence enforcement,2026-10-03T10:57:07Z,90164,10.1086/709243,"n_results = Crossref total-results (relevance-ranked, very loose); top 20 screened"
+openalex,Airbnb illegal listings licence enforcement,2026-10-03T10:57:08Z,241,10.1016/j.annals.2023.103566 10.1177/09697764231155386 10.52915/kkkd3578 10.1080/00343404.2026.2693559,n_results = meta.count; top 25 screened
+arxiv,short-term rental registration enforcement,2026-10-03T12:01:09Z,0,,"arXiv API (export.arxiv.org), all terms ANDed in all fields, top 20 screened; robots.txt disallows crawlers, API used under its Terms of Use (1 request / 3 s) after the review"
+crossref,short-term rental registration enforcement,2026-10-03T10:57:09Z,1329207,10.2139/ssrn.4390232 10.2139/ssrn.7229455 10.1080/00343404.2025.2533472 10.1080/00343404.2026.2693559,"n_results = Crossref total-results (relevance-ranked, very loose); top 20 screened"
+openalex,short-term rental registration enforcement,2026-10-03T10:57:10Z,15943,10.2139/ssrn.4390232 10.1016/j.annals.2023.103605 10.1080/00343404.2025.2533472 10.1177/09697764231155386 10.52915/kkkd3578,n_results = meta.count; top 25 screened
+arxiv,habitatges d'ús turístic Airbnb,2026-10-03T12:01:12Z,0,,"arXiv API (export.arxiv.org), all terms ANDed in all fields, top 20 screened; robots.txt disallows crawlers, API used under its Terms of Use (1 request / 3 s) after the review"
+crossref,habitatges d'ús turístic Airbnb,2026-10-03T10:57:11Z,2340,,"n_results = Crossref total-results (relevance-ranked, very loose); top 20 screened"
+openalex,habitatges d'ús turístic Airbnb,2026-10-03T10:57:11Z,51,10.1177/09697764231155386,n_results = meta.count; top 25 screened
+arxiv,viviendas turísticas Airbnb licencia,2026-10-03T12:01:15Z,0,,"arXiv API (export.arxiv.org), all terms ANDed in all fields, top 20 screened; robots.txt disallows crawlers, API used under its Terms of Use (1 request / 3 s) after the review"
+crossref,viviendas turísticas Airbnb licencia,2026-10-03T10:57:12Z,6180,10.31009/indret.2023.i2.02 10.21138/bage.3529,"n_results = Crossref total-results (relevance-ranked, very loose); top 20 screened"
+openalex,viviendas turísticas Airbnb licencia,2026-10-03T10:57:13Z,222,10.31009/indret.2023.i2.02,n_results = meta.count; top 25 screened
+arxiv,Airbnb regulation compliance Barcelona,2026-10-03T12:01:18Z,0,,"arXiv API (export.arxiv.org), all terms ANDed in all fields, top 20 screened; robots.txt disallows crawlers, API used under its Terms of Use (1 request / 3 s) after the review"
+crossref,Airbnb regulation compliance Barcelona,2026-10-03T10:57:14Z,804978,,"n_results = Crossref total-results (relevance-ranked, very loose); top 20 screened"
+openalex,Airbnb regulation compliance Barcelona,2026-10-03T10:57:14Z,525,,n_results = meta.count; top 25 screened
+arxiv,Airbnb New York short-term rental registration,2026-10-03T12:01:21Z,0,,"arXiv API (export.arxiv.org), all terms ANDed in all fields, top 20 screened; robots.txt disallows crawlers, API used under its Terms of Use (1 request / 3 s) after the review"
+arxiv,all:airbnb AND all:regulation,2026-10-03T12:01:44Z,8,2211.16617,"arXiv API, broader query added after the review; up to 30 screened; 2211.16617 detects short-term-let breaches in Irish Rent Pressure Zones from listing data, not registry numbers"
+arxiv,all:airbnb AND all:illegal,2026-10-03T12:01:47Z,1,,"arXiv API, broader query added after the review; up to 30 screened; none relevant"
+arxiv,all:airbnb AND all:license,2026-10-03T12:01:51Z,0,,"arXiv API, broader query added after the review; up to 30 screened; none relevant"
+arxiv,all:airbnb AND all:compliance,2026-10-03T12:01:55Z,0,,"arXiv API, broader query added after the review; up to 30 screened; none relevant"
+arxiv,"all:""short-term rental""",2026-10-03T12:01:58Z,14,2211.16617,"arXiv API, broader query added after the review; up to 30 screened; 2211.16617 detects short-term-let breaches in Irish Rent Pressure Zones from listing data, not registry numbers"
+crossref,Airbnb New York short-term rental registration,2026-10-03T10:57:15Z,6122149,10.2139/ssrn.4390232 10.1177/13548166241273667 10.1016/j.cities.2020.102803 10.1111/1540-6229.12537 10.2139/ssrn.7229455,"n_results = Crossref total-results (relevance-ranked, very loose); top 20 screened"
+openalex,Airbnb New York short-term rental registration,2026-10-03T10:57:16Z,780,10.1016/j.annals.2023.103605 10.52915/kkkd3578 10.1177/09697764231155386,n_results = meta.count; top 25 screened
+semanticscholar,Airbnb registration number,2026-10-03T10:57:58Z,error 429,,"HTTP 429 after 1 try + 2 retries (8 s, 16 s pauses); no API key"
+semanticscholar,short-term rental registration compliance,2026-10-03T10:58:24Z,error 429,,"HTTP 429 after 1 try + 2 retries (8 s, 16 s pauses); no API key"
+semanticscholar,Airbnb licence number Barcelona,2026-10-03T10:58:26Z,25,10.1080/00343404.2025.2533472 10.1177/13548166241281756,n_results = total; top 20 screened
+semanticscholar,Inside Airbnb license field,2026-10-03T10:58:51Z,error 429,,"HTTP 429 after 1 try + 2 retries (8 s, 16 s pauses); no API key"
+semanticscholar,short-term rental registry validity,2026-10-03T10:59:17Z,error 429,,"HTTP 429 after 1 try + 2 retries (8 s, 16 s pauses); no API key"
+semanticscholar,vivienda de uso turístico número de registro Airbnb,2026-10-03T10:59:43Z,error 429,,"HTTP 429 after 1 try + 2 retries (8 s, 16 s pauses); no API key"
+semanticscholar,pisos turísticos ilegales Airbnb registro,2026-10-03T11:00:09Z,error 429,,"HTTP 429 after 1 try + 2 retries (8 s, 16 s pauses); no API key"
+semanticscholar,Local Law 18 New York short-term rental,2026-10-03T11:00:34Z,error 429,,"HTTP 429 after 1 try + 2 retries (8 s, 16 s pauses); no API key"
+semanticscholar,Regulation (EU) 2024/1028,2026-10-03T11:01:00Z,error 429,,"HTTP 429 after 1 try + 2 retries (8 s, 16 s pauses); no API key"
+github-repos,insideairbnb license,2026-10-03T10:59:04Z,0,,gh CLI; up to 30 results screened
+github-repos,inside airbnb license,2026-10-03T10:59:07Z,0,,gh CLI; up to 30 results screened
+github-repos,airbnb license,2026-10-03T10:59:10Z,2,yvr-airbnb-license-model (owner withheld),gh CLI; up to 30 results screened
+github-repos,airbnb license number,2026-10-03T10:59:13Z,0,,gh CLI; up to 30 results screened
+github-repos,HUTB airbnb,2026-10-03T10:59:16Z,0,,gh CLI; up to 30 results screened
+github-repos,registro turistico airbnb,2026-10-03T10:59:19Z,0,,gh CLI; up to 30 results screened
+github-repos,airbnb licencia,2026-10-03T10:59:22Z,0,,gh CLI; up to 30 results screened
+github-repos,OSE-STRREG,2026-10-03T10:59:25Z,0,,gh CLI; up to 30 results screened
+github-repos,short-term rental registration,2026-10-03T10:59:28Z,4,city-of-toronto-short-term-rentals-registration (owner withheld),gh CLI; up to 30 results screened
+github-repos,short term rental registry,2026-10-03T10:59:32Z,0,,gh CLI; up to 30 results screened
+github-repos,airbnb registration number,2026-10-03T10:59:35Z,0,,gh CLI; up to 30 results screened
+github-repos,datahippo,2026-10-03T10:59:38Z,0,,gh CLI; up to 30 results screened
+github-repos,local law 18 airbnb,2026-10-03T10:59:41Z,0,,gh CLI; up to 30 results screened
+github-repos,viviendas turisticas,2026-10-03T10:59:44Z,10,tourism-watcher (owner withheld) dee-airbnb-valencia (owner withheld),gh CLI; up to 30 results screened
+github-repos,pisos turisticos airbnb,2026-10-03T10:59:48Z,0,,gh CLI; up to 30 results screened
+github-repos,habitatges us turistic,2026-10-03T10:59:51Z,0,,gh CLI; up to 30 results screened
+github-repos,alojamento local airbnb,2026-10-03T10:59:54Z,0,,gh CLI; up to 30 results screened
+github-repos,airbnb illegal listings,2026-10-03T10:59:57Z,0,,gh CLI; up to 30 results screened
+github-code,insideairbnb license,2026-10-03T11:00:00Z,0,,gh CLI; up to 30 results screened
+github-code,HUTB- airbnb,2026-10-03T11:00:08Z,0,,gh CLI; up to 30 results screened
+github-code,"""Exempt"" license listings airbnb",2026-10-03T11:00:15Z,0,,gh CLI; up to 30 results screened
+github-code,OSE-STRREG,2026-10-03T11:00:23Z,30,Citadel-ABNB (owner withheld) Airbnb-Regulatory-Compliance-NYC (owner withheld),gh CLI; up to 30 results screened
+github-code,registro turistico airbnb license,2026-10-03T11:00:31Z,0,,gh CLI; up to 30 results screened
+github-code,VFT/MA license,2026-10-03T11:00:38Z,0,,gh CLI; up to 30 results screened
+github-code,"""license"" insideairbnb barcelona",2026-10-03T11:00:46Z,0,,gh CLI; up to 30 results screened
+github-code,HUTG airbnb,2026-10-03T11:00:53Z,0,,gh CLI; up to 30 results screened
+github-code,ESFCTU,2026-10-03T11:01:01Z,30,web-scraping (owner withheld),gh CLI; up to 30 results screened
+semanticscholar,Airbnb unlicensed listings,2026-10-03T11:01:26Z,error 429,,"HTTP 429 after 1 try + 2 retries (8 s, 16 s pauses); no API key"
+semanticscholar,Airbnb illegal listings licence enforcement,2026-10-03T11:01:52Z,error 429,,"HTTP 429 after 1 try + 2 retries (8 s, 16 s pauses); no API key"
+semanticscholar,short-term rental registration enforcement,2026-10-03T11:02:18Z,error 429,,"HTTP 429 after 1 try + 2 retries (8 s, 16 s pauses); no API key"
+semanticscholar,habitatges d'ús turístic Airbnb,2026-10-03T11:02:44Z,error 429,,"HTTP 429 after 1 try + 2 retries (8 s, 16 s pauses); no API key"
+semanticscholar,viviendas turísticas Airbnb licencia,2026-10-03T11:03:09Z,error 429,,"HTTP 429 after 1 try + 2 retries (8 s, 16 s pauses); no API key"
+semanticscholar,Airbnb regulation compliance Barcelona,2026-10-03T11:03:35Z,error 429,,"HTTP 429 after 1 try + 2 retries (8 s, 16 s pauses); no API key"
+semanticscholar,Airbnb New York short-term rental registration,2026-10-03T11:03:37Z,258,10.1177/13548166241273667 10.1080/13683500.2024.2354521 10.1111/1540-6229.12537 10.54254/2754-1169/2026.34798 10.1080/00343404.2025.2533472 10.32479/tp.24016 10.2139/ssrn.4390232 10.2139/ssrn.4638022 10.1016/j.cities.2020.102803,n_results = total; top 20 screened
+crossref,Airbnb registration number Berlin Zweckentfremdung,2026-10-03T11:06:21Z,638093,10.2139/ssrn.4390232,"n_results = Crossref total-results (relevance-ranked, very loose); top 20 screened"
+openalex,Airbnb registration number Berlin Zweckentfremdung,2026-10-03T11:06:23Z,13,10.1080/00343404.2026.2636091,n_results = meta.count; top 25 screened
+crossref,Airbnb registration number Amsterdam compliance,2026-10-03T11:06:24Z,639389,10.2139/ssrn.4390232,"n_results = Crossref total-results (relevance-ranked, very loose); top 20 screened"
+openalex,Airbnb registration number Amsterdam compliance,2026-10-03T11:06:24Z,179,10.1080/00343404.2025.2533472 10.52915/kkkd3578 10.1177/09697764231155386,n_results = meta.count; top 25 screened
+crossref,alojamento local registo Airbnb Lisboa ilegal,2026-10-03T11:06:25Z,764878,10.2139/ssrn.7341298,"n_results = Crossref total-results (relevance-ranked, very loose); top 20 screened"
+openalex,alojamento local registo Airbnb Lisboa ilegal,2026-10-03T11:06:26Z,11,,n_results = meta.count; top 25 screened
+crossref,codice identificativo nazionale CIN affitti brevi Airbnb,2026-10-03T11:06:26Z,37010,,"n_results = Crossref total-results (relevance-ranked, very loose); top 20 screened"
+openalex,codice identificativo nazionale CIN affitti brevi Airbnb,2026-10-03T11:06:27Z,3,,n_results = meta.count; top 25 screened
+crossref,short-term let licence Scotland Airbnb listings,2026-10-03T11:06:28Z,1315163,10.1080/13683500.2024.2354521 10.2139/ssrn.4390232,"n_results = Crossref total-results (relevance-ranked, very loose); top 20 screened"
+openalex,short-term let licence Scotland Airbnb listings,2026-10-03T11:06:28Z,47,,n_results = meta.count; top 25 screened
+crossref,fake licence numbers short-term rental listings,2026-10-03T11:06:29Z,1355969,10.1080/00343404.2025.2533472,"n_results = Crossref total-results (relevance-ranked, very loose); top 20 screened"
+openalex,fake licence numbers short-term rental listings,2026-10-03T11:06:30Z,281,10.1177/09697764231155386,n_results = meta.count; top 25 screened
+crossref,short-term rental license validity listings matched registry,2026-10-03T11:06:31Z,1464378,10.1177/13548166241273667,"n_results = Crossref total-results (relevance-ranked, very loose); top 20 screened"
+openalex,short-term rental license validity listings matched registry,2026-10-03T11:06:31Z,720,10.1080/00343404.2026.2693559,n_results = meta.count; top 25 screened
+crossref,Montreal Airbnb CITQ registration number,2026-10-03T11:06:32Z,502269,10.2139/ssrn.4390232,"n_results = Crossref total-results (relevance-ranked, very loose); top 20 screened"
+openalex,Montreal Airbnb CITQ registration number,2026-10-03T11:06:33Z,0,,n_results = meta.count; top 25 screened
+crossref,Toronto short-term rental registration number listings,2026-10-03T11:06:33Z,1737174,10.2139/ssrn.4390232 10.2139/ssrn.7229455,"n_results = Crossref total-results (relevance-ranked, very loose); top 20 screened"
+openalex,Toronto short-term rental registration number listings,2026-10-03T11:06:34Z,1767,10.52915/kkkd3578,n_results = meta.count; top 25 screened
+crossref,Inside Airbnb license,2026-10-03T11:06:35Z,160195,10.1177/13548166241273667,"n_results = Crossref total-results (relevance-ranked, very loose); top 20 screened"
+openalex,Inside Airbnb license,2026-10-03T11:06:36Z,2025,,n_results = meta.count; top 25 screened
+semanticscholar,Airbnb registration number,2026-10-03T11:10:04Z,error 429,,"HTTP 429 after 1 try + 2 retries (8 s, 16 s pauses); no API key"
+semanticscholar,short-term rental registration compliance,2026-10-03T11:10:30Z,error 429,,"HTTP 429 after 1 try + 2 retries (8 s, 16 s pauses); no API key"
+semanticscholar,short-term rental registry validity,2026-10-03T11:10:56Z,error 429,,"HTTP 429 after 1 try + 2 retries (8 s, 16 s pauses); no API key"
+semanticscholar,short-term rental license validity listings matched registry,2026-10-03T11:10:58Z,1,,n_results = total; top 20 screened
+web-page,Consumo press release 2025-05-19 | https://www.dsca.gob.es/es/comunicacion/notas-prensa/consumo-impone-airbnb-bloqueo-mas-65000-anuncios-ilegales-pisos,2026-10-03T11:02:00Z,HTTP 200,dsca.gob.es,"65,935 Airbnb ads ordered blocked; reasons incl. no licence number and numbers 'que no corresponden a los expedidos'; no per-city split, no share"
+web-page,Consumo press release 2025-07-30 | https://www.dsca.gob.es/es/comunicacion/notas-prensa/consumo-logra-retirada-65000-anuncios-ilegales-airbnb-denuncia-otros,2026-10-03T11:01:56Z,HTTP 200,dsca.gob.es,"~65,000 removed; further 54,728 ads without registration number"
+web-page,Consumo press release 2025-12-15 | https://www.dsca.gob.es/es/comunicacion/notas-prensa/consumo-sanciona-64-millones-euros-airbnb-anunciar-viviendas-licencia,2026-10-03T11:02:02Z,HTTP 200,dsca.gob.es,"fine 64,055,311 EUR; infractions in 65,122 ads"
+web-page,Consumo press release 2026-03-23 | https://www.dsca.gob.es/es/comunicacion/notas-prensa/justicia-obliga-airbnb-pagar-64-millones-euros-previstos-multa-que-le,2026-10-03T11:02:06Z,HTTP 200,dsca.gob.es,"TSJ Madrid denies interim relief; repeats 65,122 ads"
+web-page,"Consumo press release (May 2025, Valencia) | https://www.dsca.gob.es/es/comunicacion/notas-prensa/bustinduy-insta-generalitat-valenciana-sancionar-empresas-hay-detras",2026-10-03T11:08:56Z,HTTP 200,dsca.gob.es,no Valencia-specific count of ads
+web-page,Catalan News 2025-05-23 | https://www.catalannews.com/society-science/item/catalonia-airbnb-illegal-tourist-apartments-23-may-2025,2026-10-03T11:02:08Z,HTTP 200,,"Generalitat listed 9,000 Airbnb ads; >10,000 illegal ads eliminated in 2024"
+web-page,3Cat 2025-07-18 | https://www.3cat.cat/3catinfo/retiren-almenys-un-miler-danuncis-de-pisos-turistics-irregulars-aquest-any-a-catalunya/noticia/3362684/,2026-10-03T11:08:34Z,HTTP 200,,"Talk&Code (Generalitat contractor): irregular ads 35% (2016) -> 5%; ~115,000 ads tracked monthly; method not published"
+web-page,Skift 2026-04-21 | https://skift.com/2026/04/21/nyc-27-percent-approved-short-term-rental-listings-converted-illegal-stays/,2026-10-03T11:02:11Z,HTTP 200,,OSE partial review: 27% of approved STR listings offering illegal stays
+web-page,Wayback CDX for OSE Data & Reports | https://web.archive.org/cdx/search/cdx?url=nyc.gov/site/specialenforcement/about/data-reports.page,2026-10-03T11:02:48Z,HTTP 200,,nyc.gov returns 403 to our UA; captures used
+web-page,OSE Data & Reports (Wayback 2026-06-06) | https://web.archive.org/web/20260606022938id_/https://www.nyc.gov/site/specialenforcement/about/data-reports.page,2026-10-03T11:02:53Z,HTTP 200,,lists LL18 registration reports FY23-FY25 and LL87 enforcement reports
+web-page,OSE LL18 registration report FY25 (Wayback) | https://web.archive.org/web/2026id_/https://www.nyc.gov/assets/specialenforcement/downloads/excel/Short_Term_Rental_Registration_Report_FY25.xlsx,2026-10-03T11:03:04Z,HTTP 302,,application counts/denials; no platform-verification outcome figures
+web-page,OSE LL18 registration report FY24 (Wayback) | https://web.archive.org/web/2026id_/https://www.nyc.gov/assets/specialenforcement/downloads/excel/Short_Term_Rental_Registration_Report_FY24.xlsx,2026-10-03T11:03:08Z,HTTP 302,,"2,290 active registrations at 2024-06-30; 6,425 applications 2023-03-06..2024-06-30"
+web-page,Axios Philadelphia 2026-06-23 | https://www.axios.com/local/philadelphia/2026/06/23/airbnb-rentals-unlicensed-controller-report,2026-10-03T11:03:46Z,HTTP 403,,HTTP 403 to our UA; primary source fetched instead
+web-page,CBC (Montreal Inside Airbnb) | https://www.cbc.ca/1.6797189,2026-10-03T11:04:16Z,robots-disallow,,robots.txt unreachable -> complete disallow (RFC 9309); not fetched
+web-page,CBC | https://www.cbc.ca/1.6439867,2026-10-03T11:04:46Z,robots-disallow,,robots.txt unreachable -> complete disallow; not fetched
+web-page,CBC Vancouver 2018 | https://www.cbc.ca/news/canada/british-columbia/thousands-of-vancouver-airbnb-listings-still-without-licence-in-lead-up-to-deadline-analyst-1.4805152,2026-10-03T11:05:17Z,robots-disallow,,robots.txt unreachable -> complete disallow; not fetched
+web-page,Philadelphia City Controller STR review June 2026 | https://controller.phila.gov/wp-content/uploads/2026/06/CityController_ShortTermRentalsReview_June2026.pdf,2026-10-03T11:05:36Z,HTTP 200,,"1,327 of 3,734 listing licences inactive/expired/ineligible; platform-submitted report, not public listings"
+web-page,Philadelphia Controller press release | https://controller.phila.gov/city-controller-finds-one-third-of-short-term-rentals-cannot-be-matched-to-citys-licensing-records/,2026-10-03T11:05:39Z,HTTP 200,,
+web-page,"Ajuntament de Barcelona note 70 (pla de xoc, c.2017) | https://ajuntament.barcelona.cat/turisme/sites/default/files/70._el_pla_de_xoc",2026-10-03T11:06:01Z,HTTP 200,,"2,332 cessation orders; 3,300 internet searches for ads without licence number"
+web-page,Nacio Digital (c.2017) | https://naciodigital.cat/societat/barcelona-sancionara-2577-pisos-turistics-illegals-anunciats-a-airbnb.html,2026-10-03T11:06:03Z,HTTP 200,,"Barcelona: 2,577 illegal flats advertised on Airbnb"
+web-page,Univ. Oviedo repository record (Boto-Garcia) | https://digibuo.uniovi.es/dspace/handle/10651/77743,2026-10-03T11:07:13Z,HTTP 200,10.1177/13548166241281756,
+web-page,Boto-Garcia accepted manuscript PDF | https://digibuo.uniovi.es/dspace/bitstream/handle/10651/77743/,2026-10-03T11:07:23Z,HTTP 200,10.1177/13548166241281756,"Menorca May 2024: 44.6% legal, 36.9% no licence, 3.1% duplicate, 0.7% cancelled, 14.7% not verifiable"
+web-page,Scripta Nova article 18573 (PDF) | https://revistes.ub.edu/index.php/ScriptaNova/article/download/18573/22698/46222,2026-10-03T11:07:13Z,robots-disallow,,robots.txt disallows; not fetched; content unknown
+web-page,Scripta Nova article 18573 (landing) | https://revistes.ub.edu/index.php/ScriptaNova/article/view/18573,2026-10-03T11:07:23Z,robots-disallow,,robots.txt disallows; not fetched
+web-page,Inside Airbnb home | https://insideairbnb.com/,2026-10-03T10:40:43Z,HTTP 200,,
+web-page,Inside Airbnb /reports/ | https://insideairbnb.com/reports/,2026-10-03T11:07:37Z,HTTP 404,,404
+web-page,Inside Airbnb /research/ | https://insideairbnb.com/research/,2026-10-03T11:07:39Z,HTTP 404,,404
+web-page,Inside Airbnb report: platform failures | https://insideairbnb.com/report/platform-failures/,2026-10-03T11:07:46Z,HTTP 200,,claims e.g. NYC 85% of active listings illegal; no registry-match method
+web-page,Inside Airbnb Barcelona page | https://insideairbnb.com/barcelona/,2026-10-03T11:07:48Z,HTTP 200,,no licence figures in static HTML
+web-page,Inside Airbnb NYC page | https://insideairbnb.com/new-york-city/,2026-10-03T11:07:50Z,HTTP 200,,no licence figures in static HTML
+web-page,"Inside Airbnb report 2026-03-31 (Cruvinel, Cox) | https://insideairbnb.com/report/the-threat-of-short-term-rentals-to-housing/",2026-10-03T11:07:52Z,HTTP 200,,uses presence of licence field as proxy; 82% of countries <1% entire homes licensed; no validity check
+web-page,Europa Press via Bolsamania 2025-09-02 | https://www.bolsamania.com/noticias/empresas/economia--el-nuevo-registro,2026-10-03T11:08:13Z,HTTP 200,,"Registro Unico: 34,529 of 68,594 Jul-Aug 2025 applications revoked; 51,692 revoked of 260,595 Jan-Aug 2025"
+web-page,Europa Press via Alicante Plaza 2025-09-14 | https://alicanteplaza.es/alicanteplaza/comunitat-valenciana/gobierno-notifica-53876,2026-10-03T11:08:54Z,HTTP 200,,"MIVAU notified 53,876 revoked registrations to platforms; Sevilla 2,289, Barcelona 1,564, Malaga 1,471, Madrid 1,257, Valencia 731"
+web-page,BOE-A-2026-17138 | https://www.boe.es/boe/dias/2026/08/06/pdfs/BOE-A-2026-17138.pdf,2026-10-03T11:08:14Z,HTTP 200,,"DGSJFP resolution (Granada registry); legal context, not prior work"
+web-page,blogTO 2021-01 (Toronto) | https://www.blogto.com/real-estate-toronto/2021/01/17000-illegal-airbnbs-toronto/,2026-10-03T11:11:25Z,HTTP 200,,"Toronto: 665 of 18,265 listings (3.64%) valid licence; 97 (0.53%) invalid; 95.40% none"
+web-page,NL Times 2024-09-30 (NRC analysis) | https://www.nltimes.nl/2024/09/30/dutch-municipalities-airbnb-registration-requirement-easily-bypassed-fake-number,2026-10-03T11:11:26Z,HTTP 301,,"NRC on Inside Airbnb data, 49,894 listings: >=142 obviously incorrect registration numbers (format check)"
+web-page,CTV Montreal (fake permit numbers) | https://montreal.ctvnews.ca/123456-are-quebec-airbnb-hosts-faking-permit-numbers-to-skirt-new-regulations-1.6335962,2026-10-03T11:11:29Z,HTTP 301,,redirected; article text not in static HTML
+web-page,Inside Menorca (data source of Boto-Garcia) | https://insidemenorca.com/,2026-10-03T11:11:44Z,robots-disallow,,robots.txt unreachable -> complete disallow; not fetched
+openalex,DOI batch lookup (11 DOIs) for abstracts,2026-10-03T11:06:51Z,11,10.1177/13548166241281756 10.1080/00343404.2025.2533472 10.1080/00343404.2026.2693559 10.2139/ssrn.4390232 10.1086/709243 10.2139/ssrn.4638022 10.32479/tp.24016 10.24310/mumaedmumaed.295176,abstracts / authors
+web-search,Consumo Airbnb anuncios número de licencia retirar 65.000 multa 64 millones,2026-10-03,n/a (result list),,"Claude Code WebSearch tool (US index); used only to locate URLs, every figure was then fetched and grepped; dsca.gob.es press releases located"
+web-search,dsca.gob.es nota prensa Consumo Airbnb anuncios viviendas turísticas sin licencia retirada 2025,2026-10-03,n/a (result list),,"Claude Code WebSearch tool (US index); used only to locate URLs, every figure was then fetched and grepped; Consumo 2025 releases located"
+web-search,Inside Airbnb report license registration listings Barcelona illegal unlicensed analysis,2026-10-03,n/a (result list),,"Claude Code WebSearch tool (US index); used only to locate URLs, every figure was then fetched and grepped; no Inside Airbnb Barcelona licence report found"
+web-search,New York Local Law 18 Airbnb listings registered share analysis Comptroller Office of Special Enforcement registrations approved 2025,2026-10-03,n/a (result list),,"Claude Code WebSearch tool (US index); used only to locate URLs, every figure was then fetched and grepped; Skift OSE 27%; no Comptroller LL18 compliance analysis found"
+web-search,Office of Special Enforcement annual report Local Law 18 booking service verification requests registration numbers fiscal year 2025 pdf,2026-10-03,n/a (result list),,"Claude Code WebSearch tool (US index); used only to locate URLs, every figure was then fetched and grepped; OSE reports page located"
+web-search,insideairbnb.com report license registration Inside Airbnb Murray Cox unlicensed listings registration numbers,2026-10-03,n/a (result list),,"Claude Code WebSearch tool (US index); used only to locate URLs, every figure was then fetched and grepped; led to Philadelphia Controller, Montreal/Vancouver press"
+web-search,Philadelphia City Controller report short-term rentals Airbnb listings invalid license numbers June 2026,2026-10-03,n/a (result list),,"Claude Code WebSearch tool (US index); used only to locate URLs, every figure was then fetched and grepped; Controller report located"
+web-search,Ajuntament de Barcelona anuncis pisos turístics il·legals plataformes sense número de registre HUTB 2025 2026 inspecció dades,2026-10-03,n/a (result list),,"Claude Code WebSearch tool (US index); used only to locate URLs, every figure was then fetched and grepped; Barcelona notes located (mostly 2016-2018)"
+web-search,Boto-García Illegal Airbnb properties and hosts' professionalism Menorca,2026-10-03,n/a (result list),,"Claude Code WebSearch tool (US index); used only to locate URLs, every figure was then fetched and grepped; open manuscript located (Univ. Oviedo)"
+web-search,Ministerio de Vivienda Registro Único de Arrendamientos solicitudes denegadas revocadas número de registro plataformas anuncios 2026,2026-10-03,n/a (result list),,"Claude Code WebSearch tool (US index); used only to locate URLs, every figure was then fetched and grepped; Registro Unico figures (Europa Press) located"
+web-search,Generalitat de Catalunya Turisme anuncis il·legals habitatges ús turístic plataformes Airbnb retirats 2025 2026 sense número registre,2026-10-03,n/a (result list),,"Claude Code WebSearch tool (US index); used only to locate URLs, every figure was then fetched and grepped; 3Cat Talk&Code article located"
+web-search,Junta de Andalucía anuncios viviendas turísticas sin número de registro plataformas detectados retirada Málaga Sevilla 2025 2026 inspección,2026-10-03,n/a (result list),,"Claude Code WebSearch tool (US index); used only to locate URLs, every figure was then fetched and grepped; only revocation counts per municipality (MIVAU)"
+web-search,Generalitat Valenciana anuncios ilegales viviendas turísticas plataformas sin número de registro retirados Valencia 2025 2026 cifra,2026-10-03,n/a (result list),,"Claude Code WebSearch tool (US index); used only to locate URLs, every figure was then fetched and grepped; MIVAU 53,876 notified; GVA 11,952 removed from regional register"
+web-search,European Commission Regulation 2024/1028 short-term rental registration numbers platforms compliance figures invalid registration numbers 2026 single digital entry point,2026-10-03,n/a (result list),,"Claude Code WebSearch tool (US index); used only to locate URLs, every figure was then fetched and grepped; no official compliance figures found"
+web-search,UPGo McGill Wachsmuth short-term rental registration numbers invalid fake listings Toronto Montreal Vancouver report percentage valid registration,2026-10-03,n/a (result list),,"Claude Code WebSearch tool (US index); used only to locate URLs, every figure was then fetched and grepped; Toronto 2021 analysis, NRC 2024, Quebec fake numbers located"

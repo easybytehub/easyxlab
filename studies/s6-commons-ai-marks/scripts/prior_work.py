@@ -4,8 +4,13 @@ import json, re, subprocess, sys, time, urllib.parse, urllib.request
 from pathlib import Path
 OUT = Path(__file__).resolve().parent.parent / "work" / "docs" / "prior"
 UA = "EasyxLab-research/1.0 (+https://github.com/easybytehub/easyxlab)"
+# arXiv API Terms of Use: "make no more than one request every three seconds, and limit requests to a single
+# connection at a time" (info.arxiv.org/help/api/tou.html). The run of 2026-10-03 paused only 1.1 s (METHOD.md §8).
+PAUSE = {"export.arxiv.org": 3.0}
+
+
 def get(url, name):
-    time.sleep(1.1)
+    time.sleep(PAUSE.get(urllib.parse.urlsplit(url).netloc, 1.1))   # serial: each pause follows the previous response
     try:
         raw = urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": UA}), timeout=60).read()
     except Exception as e:

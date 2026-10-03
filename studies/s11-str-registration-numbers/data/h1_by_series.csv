@@ -1,0 +1,149 @@
+area,snapshot,series,category,n,denominator,pct,ci95_low,ci95_high
+barcelona,2026-03-21,hotel,in_registry,361,422,85.5,81.9,88.6
+barcelona,2026-03-21,hotel,in_registry_other_municipality,7,422,1.7,0.8,3.4
+barcelona,2026-03-21,hotel,registered_wrong_form,43,422,10.2,7.7,13.4
+barcelona,2026-03-21,hotel,not_found,11,422,2.6,1.5,4.6
+barcelona,2026-03-21,tourist apartments,in_registry,20,28,71.4,52.9,84.7
+barcelona,2026-03-21,tourist apartments,in_registry_other_municipality,0,28,0.0,0.0,12.1
+barcelona,2026-03-21,tourist apartments,registered_wrong_form,6,28,21.4,10.2,39.5
+barcelona,2026-03-21,tourist apartments,not_found,2,28,7.1,2.0,22.6
+barcelona,2026-03-21,tourist dwelling,in_registry,4607,5370,85.8,84.8,86.7
+barcelona,2026-03-21,tourist dwelling,in_registry_other_municipality,48,5370,0.9,0.7,1.2
+barcelona,2026-03-21,tourist dwelling,registered_wrong_form,157,5370,2.9,2.5,3.4
+barcelona,2026-03-21,tourist dwelling,not_found,558,5370,10.4,9.6,11.2
+barcelona,2026-06-24,hotel,in_registry,403,463,87.0,83.7,89.8
+barcelona,2026-06-24,hotel,in_registry_other_municipality,7,463,1.5,0.7,3.1
+barcelona,2026-06-24,hotel,registered_wrong_form,39,463,8.4,6.2,11.3
+barcelona,2026-06-24,hotel,not_found,14,463,3.0,1.8,5.0
+barcelona,2026-06-24,shared home,in_registry,0,1,,,
+barcelona,2026-06-24,shared home,in_registry_other_municipality,1,1,,,
+barcelona,2026-06-24,shared home,registered_wrong_form,0,1,,,
+barcelona,2026-06-24,shared home,not_found,0,1,,,
+barcelona,2026-06-24,tourist apartments,in_registry,18,26,69.2,50.0,83.5
+barcelona,2026-06-24,tourist apartments,in_registry_other_municipality,0,26,0.0,0.0,12.9
+barcelona,2026-06-24,tourist apartments,registered_wrong_form,6,26,23.1,11.0,42.1
+barcelona,2026-06-24,tourist apartments,not_found,2,26,7.7,2.1,24.1
+barcelona,2026-06-24,tourist dwelling,in_registry,5217,6080,85.8,84.9,86.7
+barcelona,2026-06-24,tourist dwelling,in_registry_other_municipality,53,6080,0.9,0.7,1.1
+barcelona,2026-06-24,tourist dwelling,registered_wrong_form,168,6080,2.8,2.4,3.2
+barcelona,2026-06-24,tourist dwelling,not_found,642,6080,10.6,9.8,11.4
+girona,2026-03-31,campsite,in_registry,19,24,79.2,59.5,90.8
+girona,2026-03-31,campsite,in_registry_other_municipality,0,24,0.0,0.0,13.8
+girona,2026-03-31,campsite,registered_wrong_form,5,24,20.8,9.2,40.5
+girona,2026-03-31,campsite,not_found,0,24,0.0,0.0,13.8
+girona,2026-03-31,hotel,in_registry,174,206,84.5,78.9,88.8
+girona,2026-03-31,hotel,in_registry_other_municipality,12,206,5.8,3.4,9.9
+girona,2026-03-31,hotel,registered_wrong_form,7,206,3.4,1.7,6.8
+girona,2026-03-31,hotel,not_found,13,206,6.3,3.7,10.5
+girona,2026-03-31,rural tourism,in_registry,281,302,93.0,89.6,95.4
+girona,2026-03-31,rural tourism,in_registry_other_municipality,4,302,1.3,0.5,3.4
+girona,2026-03-31,rural tourism,registered_wrong_form,10,302,3.3,1.8,6.0
+girona,2026-03-31,rural tourism,not_found,7,302,2.3,1.1,4.7
+girona,2026-03-31,shared home,in_registry,124,136,91.2,85.2,94.9
+girona,2026-03-31,shared home,in_registry_other_municipality,5,136,3.7,1.6,8.3
+girona,2026-03-31,shared home,registered_wrong_form,3,136,2.2,0.8,6.3
+girona,2026-03-31,shared home,not_found,4,136,2.9,1.1,7.3
+girona,2026-03-31,tourist apartments,in_registry,205,213,96.2,92.8,98.1
+girona,2026-03-31,tourist apartments,in_registry_other_municipality,0,213,0.0,0.0,1.8
+girona,2026-03-31,tourist apartments,registered_wrong_form,7,213,3.3,1.6,6.6
+girona,2026-03-31,tourist apartments,not_found,1,213,0.5,0.1,2.6
+girona,2026-03-31,tourist dwelling,in_registry,8982,9832,91.4,90.8,91.9
+girona,2026-03-31,tourist dwelling,in_registry_other_municipality,259,9832,2.6,2.3,3.0
+girona,2026-03-31,tourist dwelling,registered_wrong_form,171,9832,1.7,1.5,2.0
+girona,2026-03-31,tourist dwelling,not_found,420,9832,4.3,3.9,4.7
+girona,2026-06-30,campsite,in_registry,42,45,93.3,82.1,97.7
+girona,2026-06-30,campsite,in_registry_other_municipality,0,45,0.0,0.0,7.9
+girona,2026-06-30,campsite,registered_wrong_form,3,45,6.7,2.3,17.9
+girona,2026-06-30,campsite,not_found,0,45,0.0,0.0,7.9
+girona,2026-06-30,hotel,in_registry,238,264,90.2,86.0,93.2
+girona,2026-06-30,hotel,in_registry_other_municipality,6,264,2.3,1.0,4.9
+girona,2026-06-30,hotel,registered_wrong_form,6,264,2.3,1.0,4.9
+girona,2026-06-30,hotel,not_found,14,264,5.3,3.2,8.7
+girona,2026-06-30,rural tourism,in_registry,312,333,93.7,90.6,95.8
+girona,2026-06-30,rural tourism,in_registry_other_municipality,3,333,0.9,0.3,2.6
+girona,2026-06-30,rural tourism,registered_wrong_form,10,333,3.0,1.6,5.4
+girona,2026-06-30,rural tourism,not_found,8,333,2.4,1.2,4.7
+girona,2026-06-30,shared home,in_registry,173,189,91.5,86.7,94.7
+girona,2026-06-30,shared home,in_registry_other_municipality,7,189,3.7,1.8,7.4
+girona,2026-06-30,shared home,registered_wrong_form,5,189,2.6,1.1,6.0
+girona,2026-06-30,shared home,not_found,4,189,2.1,0.8,5.3
+girona,2026-06-30,tourist apartments,in_registry,242,253,95.7,92.4,97.6
+girona,2026-06-30,tourist apartments,in_registry_other_municipality,1,253,0.4,0.1,2.2
+girona,2026-06-30,tourist apartments,registered_wrong_form,7,253,2.8,1.3,5.6
+girona,2026-06-30,tourist apartments,not_found,3,253,1.2,0.4,3.4
+girona,2026-06-30,tourist dwelling,in_registry,10564,11597,91.1,90.6,91.6
+girona,2026-06-30,tourist dwelling,in_registry_other_municipality,313,11597,2.7,2.4,3.0
+girona,2026-06-30,tourist dwelling,registered_wrong_form,184,11597,1.6,1.4,1.8
+girona,2026-06-30,tourist dwelling,not_found,536,11597,4.6,4.3,5.0
+valencia,2026-03-28,tourist dwelling,in_registry,2308,2567,89.9,88.7,91.0
+valencia,2026-03-28,tourist dwelling,in_registry_other_municipality,41,2567,1.6,1.2,2.2
+valencia,2026-03-28,tourist dwelling,registered_wrong_form,0,2567,0.0,0.0,0.1
+valencia,2026-03-28,tourist dwelling,not_found,218,2567,8.5,7.5,9.6
+valencia,2026-06-26,tourist dwelling,in_registry,2762,3117,88.6,87.4,89.7
+valencia,2026-06-26,tourist dwelling,in_registry_other_municipality,61,3117,2.0,1.5,2.5
+valencia,2026-06-26,tourist dwelling,registered_wrong_form,0,3117,0.0,0.0,0.1
+valencia,2026-06-26,tourist dwelling,not_found,294,3117,9.4,8.5,10.5
+malaga,2026-03-31,hotel,in_registry,33,34,97.1,85.1,99.5
+malaga,2026-03-31,hotel,in_registry_other_municipality,0,34,0.0,0.0,10.2
+malaga,2026-03-31,hotel,registered_wrong_form,0,34,0.0,0.0,10.2
+malaga,2026-03-31,hotel,not_found,1,34,2.9,0.5,14.9
+malaga,2026-03-31,rural house,in_registry,0,19,0.0,0.0,16.8
+malaga,2026-03-31,rural house,in_registry_other_municipality,0,19,0.0,0.0,16.8
+malaga,2026-03-31,rural house,registered_wrong_form,0,19,0.0,0.0,16.8
+malaga,2026-03-31,rural house,not_found,0,19,0.0,0.0,16.8
+malaga,2026-03-31,rural tourist dwelling,in_registry,19,22,86.4,66.7,95.3
+malaga,2026-03-31,rural tourist dwelling,in_registry_other_municipality,2,22,9.1,2.5,27.8
+malaga,2026-03-31,rural tourist dwelling,registered_wrong_form,0,22,0.0,0.0,14.9
+malaga,2026-03-31,rural tourist dwelling,not_found,1,22,4.5,0.8,21.8
+malaga,2026-03-31,tourist apartments,in_registry,0,697,0.0,0.0,0.5
+malaga,2026-03-31,tourist apartments,in_registry_other_municipality,0,697,0.0,0.0,0.5
+malaga,2026-03-31,tourist apartments,registered_wrong_form,0,697,0.0,0.0,0.5
+malaga,2026-03-31,tourist apartments,not_found,0,697,0.0,0.0,0.5
+malaga,2026-03-31,tourist dwelling,in_registry,4585,5041,91.0,90.1,91.7
+malaga,2026-03-31,tourist dwelling,in_registry_other_municipality,84,5041,1.7,1.3,2.1
+malaga,2026-03-31,tourist dwelling,registered_wrong_form,147,5041,2.9,2.5,3.4
+malaga,2026-03-31,tourist dwelling,not_found,225,5041,4.5,3.9,5.1
+malaga,2026-06-30,hotel,in_registry,49,55,89.1,78.2,94.9
+malaga,2026-06-30,hotel,in_registry_other_municipality,0,55,0.0,0.0,6.5
+malaga,2026-06-30,hotel,registered_wrong_form,0,55,0.0,0.0,6.5
+malaga,2026-06-30,hotel,not_found,6,55,10.9,5.1,21.8
+malaga,2026-06-30,rural house,in_registry,0,20,0.0,0.0,16.1
+malaga,2026-06-30,rural house,in_registry_other_municipality,0,20,0.0,0.0,16.1
+malaga,2026-06-30,rural house,registered_wrong_form,0,20,0.0,0.0,16.1
+malaga,2026-06-30,rural house,not_found,0,20,0.0,0.0,16.1
+malaga,2026-06-30,rural tourist dwelling,in_registry,22,26,84.6,66.5,93.9
+malaga,2026-06-30,rural tourist dwelling,in_registry_other_municipality,2,26,7.7,2.1,24.1
+malaga,2026-06-30,rural tourist dwelling,registered_wrong_form,0,26,0.0,0.0,12.9
+malaga,2026-06-30,rural tourist dwelling,not_found,2,26,7.7,2.1,24.1
+malaga,2026-06-30,tourist apartments,in_registry,0,833,0.0,0.0,0.5
+malaga,2026-06-30,tourist apartments,in_registry_other_municipality,0,833,0.0,0.0,0.5
+malaga,2026-06-30,tourist apartments,registered_wrong_form,0,833,0.0,0.0,0.5
+malaga,2026-06-30,tourist apartments,not_found,0,833,0.0,0.0,0.5
+malaga,2026-06-30,tourist dwelling,in_registry,5103,5651,90.3,89.5,91.0
+malaga,2026-06-30,tourist dwelling,in_registry_other_municipality,104,5651,1.8,1.5,2.2
+malaga,2026-06-30,tourist dwelling,registered_wrong_form,205,5651,3.6,3.2,4.1
+malaga,2026-06-30,tourist dwelling,not_found,239,5651,4.2,3.7,4.8
+sevilla,2026-03-31,hotel,in_registry,55,68,80.9,70.0,88.5
+sevilla,2026-03-31,hotel,in_registry_other_municipality,0,68,0.0,0.0,5.3
+sevilla,2026-03-31,hotel,registered_wrong_form,0,68,0.0,0.0,5.3
+sevilla,2026-03-31,hotel,not_found,13,68,19.1,11.5,30.0
+sevilla,2026-03-31,tourist apartments,in_registry,0,948,0.0,0.0,0.4
+sevilla,2026-03-31,tourist apartments,in_registry_other_municipality,0,948,0.0,0.0,0.4
+sevilla,2026-03-31,tourist apartments,registered_wrong_form,0,948,0.0,0.0,0.4
+sevilla,2026-03-31,tourist apartments,not_found,0,948,0.0,0.0,0.4
+sevilla,2026-03-31,tourist dwelling,in_registry,4094,4420,92.6,91.8,93.4
+sevilla,2026-03-31,tourist dwelling,in_registry_other_municipality,11,4420,0.2,0.1,0.4
+sevilla,2026-03-31,tourist dwelling,registered_wrong_form,0,4420,0.0,0.0,0.1
+sevilla,2026-03-31,tourist dwelling,not_found,315,4420,7.1,6.4,7.9
+sevilla,2026-06-30,hotel,in_registry,110,136,80.9,73.5,86.6
+sevilla,2026-06-30,hotel,in_registry_other_municipality,0,136,0.0,0.0,2.7
+sevilla,2026-06-30,hotel,registered_wrong_form,0,136,0.0,0.0,2.7
+sevilla,2026-06-30,hotel,not_found,26,136,19.1,13.4,26.5
+sevilla,2026-06-30,tourist apartments,in_registry,0,1082,0.0,0.0,0.4
+sevilla,2026-06-30,tourist apartments,in_registry_other_municipality,0,1082,0.0,0.0,0.4
+sevilla,2026-06-30,tourist apartments,registered_wrong_form,0,1082,0.0,0.0,0.4
+sevilla,2026-06-30,tourist apartments,not_found,0,1082,0.0,0.0,0.4
+sevilla,2026-06-30,tourist dwelling,in_registry,4415,4777,92.4,91.6,93.1
+sevilla,2026-06-30,tourist dwelling,in_registry_other_municipality,7,4777,0.1,0.1,0.3
+sevilla,2026-06-30,tourist dwelling,registered_wrong_form,0,4777,0.0,0.0,0.1
+sevilla,2026-06-30,tourist dwelling,not_found,355,4777,7.4,6.7,8.2

@@ -35,6 +35,10 @@ Languages: en es fr de it pt pl ru uk tr ar fa ur hi bn zh ja ko sw am (+ `mul` 
 - **WHO ATC alterations list (cumulative)**, from `atcddd.fhi.no/atc_ddd_alterations__cumulative/atc_alterations/`:
   355 rows of (previous code, substance, new code, year, note). Only these facts are stored.
 
+**Access.** All three sources were read with the same User-Agent as the Wikidata extraction, serially: four
+RxNav API requests (one per `tty`) one second apart, a single request to the DrugBank download URL (HTTP 403;
+no account was created and the request was not retried), and a single request for the ATC alterations page.
+
 ## 3. Detectors (`scripts/03_detect.py`) — one explicit rule each
 
 | id | subtype | rule |

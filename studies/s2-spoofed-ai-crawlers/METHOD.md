@@ -22,6 +22,16 @@ Log format (shared nginx `log_format`, identical on the three sites):
 `$remote_addr - [$time_local] "$request" $status $body_bytes_sent "$http_referer" "$http_user_agent" cf_ray=$http_cf_ray`.
 The parser also accepts the standard nginx/Apache *combined* format.
 
+**Third-party services.**
+- *Operators' IP-range files* (OpenAI, Anthropic, Perplexity, Google, Bing, Apple, Common Crawl, DuckDuckGo,
+  Mistral; the URLs are in `scripts/ai_bot_verify.py`): plain HTTPS GET with the User-Agent `ai-bot-verify/0.1.0`,
+  one request per file, cached for 24 h. The operators publish them for this check (§3).
+- *Team Cymru IP-to-ASN whois* (`whois.cymru.com`, TCP 43), a free public service: its documented bulk mode
+  (`begin` / `verbose` / IPs / `end`), one connection per batch of up to 5,000 IPs, for the non-verified IPs only (§6).
+- *Cloudflare GraphQL Analytics API*: our own account's API token, our own zones; serial requests, up to three
+  attempts 3 s apart.
+- *DNS*: reverse and forward lookups through the system resolver.
+
 ## 2. Which requests are in scope
 
 A request is in scope when its User-Agent contains the token of a crawler in the registry

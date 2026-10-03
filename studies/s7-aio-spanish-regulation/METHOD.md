@@ -47,8 +47,13 @@ for Spain, at one reading. Each query targets one **fact**, a Spanish rule. Answ
 
 ## 4. Collection (`scripts/probe.py`)
 
-- **Provider.** DataForSEO, a commercial SERP API. We did not query Google directly; compliance with Google's terms
-  for the retrieval is the provider's responsibility.
+- **Provider.** Readings were obtained through DataForSEO's commercial SERP API, which queries Google; we did not
+  query Google directly. DataForSEO's terms make the customer responsible for the use of SERP data, including "any
+  use of SERP data that violates the terms of service or legal rights of the search engine providers" (7.2,
+  dataforseo.com/terms-of-service, read on 2026-10-03). We publish only aggregates and extracts of at most 282
+  characters.
+- **Access.** Authenticated calls with our paid account and the HTTP library's default User-Agent, up to six in
+  parallel: 202 per reading, each reading in about six minutes. None was refused.
 - **AIO.** `POST /v3/serp/google/organic/live/advanced` with `location_name: Spain` (echoed as location code 2724),
   `language_code: es`, `device: desktop` (echoed `os: windows`, `se_domain: google.com`), `depth: 10` and
   `load_async_ai_overview: true`.
@@ -136,6 +141,20 @@ script fetches up to 6 cited URLs and applies the same regular expressions. Each
 `page_current`, `page_mixed`, `page_silent` or `fetch_failed`. No person or agent read the pages. They were fetched
 on 3 October, not when Google read them.
 
+**Access.** User-Agent `Mozilla/5.0 (compatible; EasyxLab-S7/0.1; research; +https://github.com/easybytehub/easyxlab)`,
+one request per distinct URL (163, 44 and 30 in readings 1–3; 206 distinct URLs on 135 hosts), up to 8 in parallel.
+Because the analysis mines the text of these pages, a `robots.txt` that disallows them is treated as a
+machine-readable reservation against text and data mining (Directive (EU) 2019/790, art. 4(3); Spanish TRLPI,
+art. 67). The run of 3 October did not read `robots.txt`. A check on 2026-10-03 found six fetched URLs whose
+`robots.txt` disallows all agents (`User-agent: *` / `Disallow: /`): five `www.facebook.com` posts and videos and
+one `legatiq.ai` page, in seven rows of `data/page_checks_r*.csv`. Those rows were removed and
+`data/error_attribution_r*.csv` was rebuilt from the rest (`check_pages.py --reattribute`, which reproduces the
+earlier files byte for byte when nothing is removed). Page text was never stored, so there was no copy to delete.
+The published files now hold 268 page rows (186, 51, 31) and 200 distinct URLs on 133 hosts. No answer changed
+attribution and no figure changed: of the 25 errors, 14 cite a page stating only the superseded rule, 8 a page
+stating both and 3 nothing readable on the rule; 2 of the 40 controls are `in_source` (strict), 23 (loose).
+`check_pages.py` now reads each host's `robots.txt` (RFC 9309 matching) and skips the URLs it disallows.
+
 ## 9. Headline definitions
 
 - **Scored set:** 27 facts (all except F16), 531 answered responses.
@@ -149,7 +168,15 @@ paper.md print them.
 ## 10. Ethics and licences
 
 The queries contain no personal data. Cited pages were fetched with an identifying User-Agent, and their text was
-not stored. Licences:
+not stored; six pages reserved by `robots.txt` were removed from the analysis (§8).
+
+**Other sources.** BOE texts and issue summaries: `www.boe.es` (open-data API, `/diario_boe/txt.php`,
+`/buscar/doc.php`), User-Agent `EasyxLab-S7/0.1` or `/0.2` with the lab's GitHub URL, one-second pauses between
+documents; reuse under the BOE's reuse conditions (www.boe.es/informacion/aviso_legal). Prior work: arXiv,
+Crossref and Semantic Scholar APIs, User-Agent `EasyxLab-S7/0.1 (research; https://github.com/easybytehub/easyxlab)`,
+eight queries each, serial, at least 3 s between arXiv requests as arXiv's API terms ask.
+
+Licences:
 - code: Apache-2.0;
 - our data and text: CC BY 4.0;
 - third-party content (Google's answers, DataForSEO responses): not redistributed. `data/answers.csv` keeps only
@@ -162,6 +189,6 @@ scripts/run.sh boe        # BOE texts + 55 quotations
 scripts/run.sh status     # later references, reading-day issues
 scripts/run.sh reading 1  # paid (DataForSEO credentials); ~USD 0.70
 scripts/run.sh classify   # needs data/raw/responses/ (not redistributed)
-scripts/run.sh pages      # online
+scripts/run.sh pages      # online; skips URLs disallowed by robots.txt (§8)
 scripts/run.sh analyse    # tables from published files + headline check
 ```

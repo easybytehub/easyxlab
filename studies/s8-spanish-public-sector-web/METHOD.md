@@ -45,6 +45,11 @@ municipality. We looked for one and document what we found:
   It is a single SPARQL query to the Wikidata Query Service (`scripts/fetch_sources.sh`), sent with the
   study's User-Agent, which carries a contact address. `query.wikidata.org/robots.txt` disallows `/sparql` for crawlers (`User-agent: *`, `Disallow: /sparql`). The Wikidata Query Service is an API meant for programs, and its terms are Wikimedia's User-Agent policy ("Scripts should use an informative User-Agent string with contact information, or they may be blocked without notice") and the service limits ("One client (user agent + IP) is allowed 60 seconds of processing time each 60 seconds"; "access to the service is limited to 5 parallel queries per IP"). Policies quoted on 2026-10-03.
 
+**Downloads.** The three directory files were each downloaded once with `curl` and the study's User-Agent
+(`scripts/fetch_sources.sh`): the REL export (`registroentidadeslocales.mpt.es/REL/frontend/export_data/…`), the INE
+municipality dictionary (`www.ine.es/daco/…`) and the Castilla-La Mancha directory
+(`datosabiertos.castillalamancha.es/sites/…`, CC BY 4.0).
+
 Precedence: URL override (1 case, written by the agent: Bilbao, whose only P856 value was the
 tourism site) > Castilla-La Mancha directory > Wikidata. Among several Wikidata values we prefer
 the preferred-rank one, then one that does not look like a tourism site, then a host that looks

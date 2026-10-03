@@ -1,0 +1,3 @@
+snapshot,period,active_short_stay,shows_ose_number,testable,found,found_same_borough,not_found,after_registry_date,found_registered,found_expired,found_terminated,listings_linked_by_ose,linked_same_number,shown_entire_home,exempt,empty,malformed
+2026-03-16,before,4191,2130,1974,1974,1970,0,156,1963,11,0,1935,1930,461,1690,371,0
+2026-06-14,after,4184,2149,1931,1931,1928,0,218,1927,4,0,1871,1866,502,1776,259,0

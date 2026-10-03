@@ -1,0 +1,53 @@
+{
+ "rtc": {
+  "name": "Establiments d’allotjament turístic inscrits al Registre de Turisme de Catalunya",
+  "url": "https://analisi.transparenciacatalunya.cat/resource/t2h3-cgys.csv?$select=tipus_establiment,n_mero_inscripci,d_git_de_control,estat,municipi,codi_municipi_idescat,prov_ncia,unitat_d_allotjament,total_places&$limit=500000&$order=:id",
+  "fetched_utc": "2026-10-03T10:56:56Z",
+  "rows_updated_utc": "2026-07-31T10:00:13Z",
+  "licence_metadata": "See Terms of Use",
+  "licence_link": "https://administraciodigital.gencat.cat/ca/dades/dades-obertes/informacio-practica/llicencies/",
+  "attribution": "Departament d'Empresa i Treball",
+  "columns_kept": "tipus_establiment,n_mero_inscripci,d_git_de_control,estat,municipi,codi_municipi_idescat,prov_ncia,unitat_d_allotjament,total_places",
+  "extra": "dígit de control",
+  "file": "data/raw/registries/rtc_min.csv",
+  "rows": 112714,
+  "sha256": "7f200186bf0ebc4d6fcac319ea82b9c2b7c899d0ef77f8bac750c6ea3cbd9fda"
+ },
+ "gva": {
+  "name": "Viviendas turísticas de la Comunitat Valenciana (tur-gestur-vt)",
+  "url": "https://dadesobertes.gva.es/dataset/758f8f8e-c5af-4622-b268-a6c591710a51/resource/b1bdc28e-9813-422a-ab7a-63c21290493d/download/lista-de-viviendas-turisticas.csv",
+  "fetched_utc": "2026-10-03T10:57:00Z",
+  "licence_metadata": "cc-by (CKAN license_id; license_url http://www.opendefinition.org/licenses/cc-by)",
+  "columns_kept": "signatura,cod_municipio,municipio,provincia,fecha_alta",
+  "file": "data/raw/registries/gva_min.csv",
+  "rows": 90097,
+  "sha256": "7bfe50771b2eab4cf12e5cc8a1ca66c4f314d60de42fdb4cc89af9d81e386d9b"
+ },
+ "rta": {
+  "name": "OpenRTA, Registro de Turismo de Andalucía",
+  "url": "https://datos.juntadeandalucia.es/api/v0/openrta/all?format=csv",
+  "fetched_utc": "2026-10-03T10:57:14Z",
+  "last_update_endpoint": "{\"date\":\"2026-10-03T04:07:03.000Z\"}",
+  "licence_metadata": "CC BY 4.0 (CKAN: http://creativecommons.org/licenses/by/4.0/deed.es_ES)",
+  "columns_kept": "registration_code, object type, municipality, province, group",
+  "row_layouts": {
+   "72": 30000,
+   "92": 145432,
+   "other": 0
+  },
+  "file": "data/raw/registries/rta_min.csv",
+  "rows": 175432,
+  "sha256": "17ee83011c0aeab8047ff978568ce12b7093d061c56d96ac6f3eb925d2daf623"
+ },
+ "ose": {
+  "name": "Office of Special Enforcement Short-Term Rental Registration Data, as of June 25, 2025",
+  "url": "https://web.archive.org/web/20251108004747id_/https://www.nyc.gov/assets/specialenforcement/downloads/excel/June_25_2025_STR_Registration_Dataset.xlsx",
+  "fetched_utc": "2026-10-03T10:57:51Z",
+  "original_url": "https://www.nyc.gov/assets/specialenforcement/downloads/excel/June_25_2025_STR_Registration_Dataset.xlsx",
+  "note": "rows of type 'registration' carry number, status, borough, zip, expiration date; rows of type 'listing:<service>' carry the listing number OSE associates with that registration",
+  "columns_dropped": "Street Address, Unit Number, BIN",
+  "file": "data/raw/registries/ose_min.csv",
+  "rows": 6199,
+  "sha256": "6ffa662a9748ebaa0521204d4da750a659b3362b7b8dba7d82b2c2cd35b35275"
+ }
+}

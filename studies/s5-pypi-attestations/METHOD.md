@@ -54,7 +54,10 @@ not published. Quotes below are copied from those files.
 | GitHub | `raw.githubusercontent.com/<repo>/HEAD/<path>`; `github.com/<repo>/commits/HEAD/<path>.atom`; `HEAD https://github.com/<repo>` (redirects) | stops and publisher changes only |
 
 **Rate and identification.** At most 7 requests per second per host to PyPI and npm, and 2–4 per
-second to GitHub. Every request in this snapshot (2026-10-02, including the list downloads, source
+second to GitHub. The GitHub reads were 307 workflow and related files from `raw.githubusercontent.com`
+(up to 4 per second), 347 `HEAD https://github.com/<repo>` requests (up to 2 per second) and about 290
+commit feeds from github.com, `https://github.com/<repo>/commits/HEAD/<path>.atom` (146 on 2026-10-02
+and 145 on 2026-10-03, up to 2 per second). Every request in this snapshot (2026-10-02, including the list downloads, source
 pages and GitHub reads) carried the User-Agent
 `EasyByteLab-research/0.1 (contact: contact@easybyte.es)`, the lab's name at the time. The scripts now
 send `EasyxLab-research/1.0 (+https://github.com/easybytehub/easyxlab)`, and data already collected

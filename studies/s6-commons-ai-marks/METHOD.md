@@ -137,7 +137,7 @@ The bootstrap is the interval to use. A sensitivity analysis removes the `AI-gen
 
 Run on 2026-10-02/03 (`--extra` for the post-review pass: four more arXiv queries, arXiv:2503.18156, Semantic Scholar retry). Raw responses are in `work/docs/prior/` (local only, not published). Sources:
 
-- arXiv API, 4 queries;
+- arXiv API, 4 queries (9 requests in all with the `--extra` pass); the script paused 1.1 s after each response instead of the 3 s between requests that arXiv's API Terms of Use ask for, and now waits 3 s;
 - Crossref, 2;
 - Semantic Scholar Graph API, 3 queries (HTTP 429 on the first attempt; 2 retried);
 - `gh search repos`, 4;

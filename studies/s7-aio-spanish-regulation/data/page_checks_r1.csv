@@ -1,6 +1,5 @@
 reading,qid,surface,answer_verdict,group,url,fetch,page_state
 1,F04-Q4,aio,mixed,target,https://velazquezyvilla.es/que-pasa-con-mi-trabajo-si-me-conceden-una-incapacidad/,URLError,fetch_failed
-1,F04-Q4,aio,mixed,target,https://www.facebook.com/61553424414096/videos/si-te-adaptan-el-puesto-puedes-perder-tu-pensi%C3%B3nincapacidad-permanente-total-pen/1742372370506115/,ok,page_silent
 1,F04-Q4,aio,mixed,target,https://www.elabogado.com/c/reserva-de-puesto-de-trabajo-por-incapacidad-permanente/,HTTPError,fetch_failed
 1,F04-Q4,aio,mixed,target,https://www.puntoseguro.com/blog/en-que-casos-se-concede-la-incapacidad-permanente-absoluta/,ok,page_silent
 1,F04-Q4,aio,mixed,target,https://www.bbva.es/finanzas-vistazo/ef/seguros/que-es-la-incapacidad-laboral-permanente-y-cuales-son-sus-tipos.html,HTTPError,fetch_failed
@@ -107,7 +106,6 @@ reading,qid,surface,answer_verdict,group,url,fetch,page_state
 1,F04-Q2,aio,current,control,https://spmprevencion.com/incapacidad-permanente-y-extincion-del-contrato-la-empresa-ya-no-puede-despedir-automaticamente-sin-valorar-ajustes-razonables/,ok,page_mixed
 1,F04-Q2,aio,current,control,https://www.tiktok.com/@leynverabogados/video/7356995442489576736,ok,page_silent
 1,F04-Q2,aio,current,control,https://www.youtube.com/watch?v=PvSAd3z7oes&t=28,ok,page_silent
-1,F04-Q2,aio,current,control,https://www.facebook.com/UNTIOLEGAL/posts/-jamas-te-pueden-despedir-autom%C3%A1ticamente-por-una-incapacidad-o-discapacidad-pod/1366846948145816/,ok,page_current
 1,F04-Q2,aio,current,control,https://www.supercontable.com/informacion/laboral/El_despido_de_un_empleado_tras_declararse_la_.html,URLError,fetch_failed
 1,F19-Q1,mode,current,control,https://www.mjusticia.gob.es/es/servicio-justicia/nuevo-modelo-organizativo-justicia/tribunales-instancia/competencias,ok,page_current
 1,F19-Q1,mode,current,control,https://www.justicia2030.es/-/11.-tribunales-de-instancia-y-oficina-judicial,ok,page_current
@@ -146,7 +144,6 @@ reading,qid,surface,answer_verdict,group,url,fetch,page_state
 1,F05-Q4,mode,current,control,https://www.grupo2000.es/ayudas-de-hasta-150-000-euros-por-reducir-la-jornada-laboral-a-4-dias/,ok,page_mixed
 1,F05-Q4,mode,current,control,https://securexrrhh.com/reduccion-de-jornada-a-375-horas-que-es-real-y-que-no-en-2026/,ok,page_mixed
 1,F05-Q4,mode,current,control,https://www.wolterskluwer.com/es-es/expert-insights/jornada-laboral-375-horas-semanales,HTTPError,fetch_failed
-1,F05-Q4,mode,current,control,https://legatiq.ai/guias/derechos-laborales/jornada-laboral-maxima-reduccion-de-jornada-2026,ok,page_mixed
 1,F12-Q1,aio,current,control,https://www.caixabank.com/es/esfera/content/pension-minima-maxima-2026,ok,page_current
 1,F12-Q1,aio,current,control,https://www.seg-social.es/wps/portal/wss/internet/Pensionistas/Revalorizacion/30458,ok,page_silent
 1,F12-Q1,aio,current,control,https://www.vidacaixa.es/articulos/jubilacion-y-pensiones/pension-minima-contributiva,ok,page_current

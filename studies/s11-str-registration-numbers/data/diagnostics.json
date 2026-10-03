@@ -1,0 +1,451 @@
+{
+ "registries": {
+  "rta_rows_not_keyed": 2464,
+  "nyc_registry_max_number": 3137,
+  "nyc_registry_registrations": 3136,
+  "nyc_registry_status": {
+   "Registered": 2958,
+   "Terminated": 60,
+   "Expired": 118
+  },
+  "nyc_registry_airbnb_listing_links": 2910,
+  "catalonia_registry_keys": 112714,
+  "valencia_registry_keys": 90097,
+  "andalucia_registry_keys": 172968
+ },
+ "chance_match": {
+  "barcelona 2026-03-21": {
+   "listings": 5370,
+   "in_range_chance_match_pct": 13.3,
+   "full_format_chance_match_pct": 1.1,
+   "not_found": 558,
+   "not_found_above_highest_registry_number": 426,
+   "not_found_frozen_rule": 715,
+   "not_found_frozen_rule_above_highest_registry_number": 577
+  },
+  "barcelona 2026-06-24": {
+   "listings": 6080,
+   "in_range_chance_match_pct": 13.3,
+   "full_format_chance_match_pct": 1.1,
+   "not_found": 642,
+   "not_found_above_highest_registry_number": 526,
+   "not_found_frozen_rule": 810,
+   "not_found_frozen_rule_above_highest_registry_number": 688
+  },
+  "girona 2026-03-31": {
+   "listings": 9832,
+   "in_range_chance_match_pct": 2.7,
+   "full_format_chance_match_pct": 0.2,
+   "not_found": 420,
+   "not_found_above_highest_registry_number": 293,
+   "not_found_frozen_rule": 591,
+   "not_found_frozen_rule_above_highest_registry_number": 321
+  },
+  "girona 2026-06-30": {
+   "listings": 11597,
+   "in_range_chance_match_pct": 2.7,
+   "full_format_chance_match_pct": 0.2,
+   "not_found": 536,
+   "not_found_above_highest_registry_number": 397,
+   "not_found_frozen_rule": 720,
+   "not_found_frozen_rule_above_highest_registry_number": 426
+  },
+  "valencia 2026-03-28": {
+   "listings": 2567,
+   "in_range_chance_match_pct": 1.1,
+   "full_format_chance_match_pct": 0.1,
+   "not_found": 218,
+   "not_found_above_highest_registry_number": 13,
+   "not_found_frozen_rule": 218,
+   "not_found_frozen_rule_above_highest_registry_number": 13
+  },
+  "valencia 2026-06-26": {
+   "listings": 3117,
+   "in_range_chance_match_pct": 1.1,
+   "full_format_chance_match_pct": 0.1,
+   "not_found": 294,
+   "not_found_above_highest_registry_number": 16,
+   "not_found_frozen_rule": 294,
+   "not_found_frozen_rule_above_highest_registry_number": 16
+  },
+  "malaga 2026-03-31": {
+   "listings": 5041,
+   "in_range_chance_match_pct": 12.2,
+   "full_format_chance_match_pct": 12.2,
+   "not_found": 225,
+   "not_found_above_highest_registry_number": 19,
+   "not_found_frozen_rule": 372,
+   "not_found_frozen_rule_above_highest_registry_number": 166
+  },
+  "malaga 2026-06-30": {
+   "listings": 5651,
+   "in_range_chance_match_pct": 12.3,
+   "full_format_chance_match_pct": 12.3,
+   "not_found": 239,
+   "not_found_above_highest_registry_number": 22,
+   "not_found_frozen_rule": 444,
+   "not_found_frozen_rule_above_highest_registry_number": 227
+  },
+  "sevilla 2026-03-31": {
+   "listings": 4420,
+   "in_range_chance_match_pct": 61.2,
+   "full_format_chance_match_pct": 9.5,
+   "not_found": 315,
+   "not_found_above_highest_registry_number": 108,
+   "not_found_frozen_rule": 315,
+   "not_found_frozen_rule_above_highest_registry_number": 108
+  },
+  "sevilla 2026-06-30": {
+   "listings": 4777,
+   "in_range_chance_match_pct": 61.2,
+   "full_format_chance_match_pct": 9.5,
+   "not_found": 355,
+   "not_found_above_highest_registry_number": 134,
+   "not_found_frozen_rule": 355,
+   "not_found_frozen_rule_above_highest_registry_number": 134
+  },
+  "nyc 2026-03-16": {
+   "listings": 2156,
+   "in_range_chance_match_pct": 36.0,
+   "full_format_chance_match_pct": 0.0,
+   "not_found": 0,
+   "not_found_above_highest_registry_number": 0,
+   "not_found_frozen_rule": 0,
+   "not_found_frozen_rule_above_highest_registry_number": 0
+  },
+  "nyc 2026-06-14": {
+   "listings": 2176,
+   "in_range_chance_match_pct": 35.9,
+   "full_format_chance_match_pct": 0.0,
+   "not_found": 0,
+   "not_found_above_highest_registry_number": 0,
+   "not_found_frozen_rule": 0,
+   "not_found_frozen_rule_above_highest_registry_number": 0
+  }
+ },
+ "catalan_control_digit": {
+  "2026-03-31 agree": 393,
+  "2026-03-31 differ": 4,
+  "2026-06-30 agree": 853,
+  "2026-06-30 differ": 12
+ },
+ "valencia_format_vs_found": {
+  "2026-03-28 current found=False": 10,
+  "2026-03-28 current found=True": 425,
+  "2026-03-28 old-format found=False": 205,
+  "2026-03-28 old-format found=True": 1797,
+  "2026-03-28 variant found=False": 3,
+  "2026-03-28 variant found=True": 127,
+  "2026-06-26 current found=False": 14,
+  "2026-06-26 current found=True": 531,
+  "2026-06-26 old-format found=False": 273,
+  "2026-06-26 old-format found=True": 2132,
+  "2026-06-26 variant found=False": 7,
+  "2026-06-26 variant found=True": 160
+ },
+ "andalucia_series_vs_found": {
+  "malaga 2026-03-31 VUT found=False": 157,
+  "malaga 2026-03-31 VUT found=True": 1805,
+  "malaga 2026-03-31 renamed-VFT found=False": 215,
+  "malaga 2026-03-31 renamed-VFT found=True": 2864,
+  "malaga 2026-06-30 VUT found=False": 175,
+  "malaga 2026-06-30 VUT found=True": 2043,
+  "malaga 2026-06-30 renamed-VFT found=False": 269,
+  "malaga 2026-06-30 renamed-VFT found=True": 3164,
+  "sevilla 2026-03-31 VUT found=False": 137,
+  "sevilla 2026-03-31 VUT found=True": 2046,
+  "sevilla 2026-03-31 renamed-VFT found=False": 178,
+  "sevilla 2026-03-31 renamed-VFT found=True": 2059,
+  "sevilla 2026-06-30 VUT found=False": 149,
+  "sevilla 2026-06-30 VUT found=True": 2183,
+  "sevilla 2026-06-30 renamed-VFT found=False": 206,
+  "sevilla 2026-06-30 renamed-VFT found=True": 2239
+ },
+ "deviations_evidence": {
+  "girona 2026-03-31 other municipality without aliases": [
+   1008,
+   9832
+  ],
+  "girona 2026-06-30 other municipality without aliases": [
+   1231,
+   11597
+  ],
+  "malaga 2026-03-31 apartment/rural numbers found in OpenRTA": [
+   27,
+   716
+  ],
+  "malaga 2026-06-30 apartment/rural numbers found in OpenRTA": [
+   30,
+   853
+  ],
+  "sevilla 2026-03-31 apartment/rural numbers found in OpenRTA": [
+   58,
+   948
+  ],
+  "sevilla 2026-06-30 apartment/rural numbers found in OpenRTA": [
+   75,
+   1082
+  ],
+  "openrta establishments by type": {
+   "Establecimiento Hotelero": 3757,
+   "Vivienda turística de alojamiento rural": 15444,
+   "Vivienda de uso turístico": 153506,
+   "Apartamento turístico": 178,
+   "Empresa de turismo activo": 31,
+   "Casa rural": 51,
+   "Complejo turístico rural": 1
+  }
+ },
+ "room_type_by_h1_category": {
+  "barcelona 2026-03-21": {
+   "in_registry | Entire home/apt": 4519,
+   "in_registry | Hotel room": 7,
+   "in_registry | Private room": 80,
+   "in_registry | Shared room": 1,
+   "in_registry_other_municipality | Entire home/apt": 29,
+   "in_registry_other_municipality | Private room": 19,
+   "not_found | Entire home/apt": 231,
+   "not_found | Hotel room": 1,
+   "not_found | Private room": 326,
+   "registered_wrong_form | Entire home/apt": 157
+  },
+  "barcelona 2026-06-24": {
+   "in_registry | Entire home/apt": 5140,
+   "in_registry | Hotel room": 13,
+   "in_registry | Private room": 63,
+   "in_registry | Shared room": 1,
+   "in_registry_other_municipality | Entire home/apt": 30,
+   "in_registry_other_municipality | Private room": 23,
+   "not_found | Entire home/apt": 253,
+   "not_found | Hotel room": 1,
+   "not_found | Private room": 388,
+   "registered_wrong_form | Entire home/apt": 168
+  },
+  "girona 2026-03-31": {
+   "in_registry | Entire home/apt": 8881,
+   "in_registry | Hotel room": 1,
+   "in_registry | Private room": 100,
+   "in_registry_other_municipality | Entire home/apt": 249,
+   "in_registry_other_municipality | Private room": 10,
+   "not_found | Entire home/apt": 387,
+   "not_found | Private room": 32,
+   "not_found | Shared room": 1,
+   "registered_wrong_form | Entire home/apt": 169,
+   "registered_wrong_form | Private room": 2
+  },
+  "girona 2026-06-30": {
+   "in_registry | Entire home/apt": 10436,
+   "in_registry | Hotel room": 1,
+   "in_registry | Private room": 127,
+   "in_registry_other_municipality | Entire home/apt": 301,
+   "in_registry_other_municipality | Private room": 12,
+   "not_found | Entire home/apt": 501,
+   "not_found | Private room": 35,
+   "registered_wrong_form | Entire home/apt": 183,
+   "registered_wrong_form | Private room": 1
+  },
+  "valencia 2026-03-28": {
+   "in_registry | Entire home/apt": 2271,
+   "in_registry | Hotel room": 1,
+   "in_registry | Private room": 36,
+   "in_registry_other_municipality | Entire home/apt": 41,
+   "not_found | Entire home/apt": 186,
+   "not_found | Private room": 31,
+   "not_found | Shared room": 1
+  },
+  "valencia 2026-06-26": {
+   "in_registry | Entire home/apt": 2702,
+   "in_registry | Hotel room": 2,
+   "in_registry | Private room": 58,
+   "in_registry_other_municipality | Entire home/apt": 57,
+   "in_registry_other_municipality | Private room": 4,
+   "not_found | Entire home/apt": 243,
+   "not_found | Private room": 50,
+   "not_found | Shared room": 1
+  },
+  "malaga 2026-03-31": {
+   "in_registry | Entire home/apt": 4287,
+   "in_registry | Private room": 298,
+   "in_registry_other_municipality | Entire home/apt": 80,
+   "in_registry_other_municipality | Private room": 4,
+   "not_found | Entire home/apt": 206,
+   "not_found | Private room": 19,
+   "registered_wrong_form | Entire home/apt": 135,
+   "registered_wrong_form | Private room": 12
+  },
+  "malaga 2026-06-30": {
+   "in_registry | Entire home/apt": 4694,
+   "in_registry | Private room": 409,
+   "in_registry_other_municipality | Entire home/apt": 95,
+   "in_registry_other_municipality | Private room": 9,
+   "not_found | Entire home/apt": 206,
+   "not_found | Private room": 32,
+   "not_found | Shared room": 1,
+   "registered_wrong_form | Entire home/apt": 184,
+   "registered_wrong_form | Private room": 21
+  },
+  "sevilla 2026-03-31": {
+   "in_registry | Entire home/apt": 3790,
+   "in_registry | Hotel room": 3,
+   "in_registry | Private room": 301,
+   "in_registry_other_municipality | Entire home/apt": 7,
+   "in_registry_other_municipality | Private room": 4,
+   "not_found | Entire home/apt": 269,
+   "not_found | Private room": 46
+  },
+  "sevilla 2026-06-30": {
+   "in_registry | Entire home/apt": 4041,
+   "in_registry | Hotel room": 2,
+   "in_registry | Private room": 372,
+   "in_registry_other_municipality | Entire home/apt": 6,
+   "in_registry_other_municipality | Private room": 1,
+   "not_found | Entire home/apt": 294,
+   "not_found | Private room": 60,
+   "not_found | Shared room": 1
+  }
+ },
+ "paired": {
+  "barcelona": {
+   "in_both": 12915,
+   "h1_not_found_before": 274,
+   "same_number_still_not_found_after": 272,
+   "active_in_both": 8105,
+   "regional_exempt_before": 603,
+   "regional_exempt_after": 1324,
+   "active_after_not_in_before_file": 1113,
+   "nt_after_in_before_file": 1741,
+   "nt_after_in_before_file_le4": 82,
+   "nt_after_new": 211,
+   "nt_after_new_le4": 25
+  },
+  "girona": {
+   "in_both": 16179,
+   "h1_not_found_before": 574,
+   "same_number_still_not_found_after": 546,
+   "active_in_both": 10837,
+   "regional_exempt_before": 3,
+   "regional_exempt_after": 10,
+   "active_after_not_in_before_file": 1810,
+   "nt_after_in_before_file": 93,
+   "nt_after_in_before_file_le4": 79,
+   "nt_after_new": 79,
+   "nt_after_new_le4": 18
+  },
+  "valencia": {
+   "in_both": 4623,
+   "h1_not_found_before": 224,
+   "same_number_still_not_found_after": 216,
+   "active_in_both": 3858,
+   "regional_exempt_before": 2,
+   "regional_exempt_after": 120,
+   "active_after_not_in_before_file": 2142,
+   "nt_after_in_before_file": 378,
+   "nt_after_in_before_file_le4": 273,
+   "nt_after_new": 1271,
+   "nt_after_new_le4": 74
+  },
+  "malaga": {
+   "in_both": 7768,
+   "h1_not_found_before": 243,
+   "same_number_still_not_found_after": 229,
+   "active_in_both": 6166,
+   "regional_exempt_before": 15,
+   "regional_exempt_after": 22,
+   "active_after_not_in_before_file": 1046,
+   "nt_after_in_before_file": 26,
+   "nt_after_in_before_file_le4": 20,
+   "nt_after_new": 71,
+   "nt_after_new_le4": 7
+  },
+  "sevilla": {
+   "in_both": 6779,
+   "h1_not_found_before": 338,
+   "same_number_still_not_found_after": 316,
+   "active_in_both": 5604,
+   "regional_exempt_before": 12,
+   "regional_exempt_after": 28,
+   "active_after_not_in_before_file": 810,
+   "nt_after_in_before_file": 33,
+   "nt_after_in_before_file_le4": 29,
+   "nt_after_new": 43,
+   "nt_after_new_le4": 10
+  },
+  "madrid": {
+   "in_both": 19910,
+   "h1_not_found_before": 0,
+   "same_number_still_not_found_after": 0,
+   "active_in_both": 13729,
+   "regional_exempt_before": 64,
+   "regional_exempt_after": 5726,
+   "active_after_not_in_before_file": 1449,
+   "nt_after_in_before_file": 6972,
+   "nt_after_in_before_file_le4": 5386,
+   "nt_after_new": 687,
+   "nt_after_new_le4": 486
+  },
+  "spain": {
+   "active_in_both": 48299,
+   "regional_exempt_before": 699,
+   "regional_exempt_after": 7230
+  }
+ },
+ "national_number_tail": {
+  "national-NT digits only": 19142,
+  "national-NT letters after prefix": 1070,
+  "national-TU digits only": 2455,
+  "national-TU letters after prefix": 54270
+ },
+ "catalan_number_embedded_in_national_TU": {
+  "barcelona | 2026-03-21 | found | embeds a different number not registered there": 34,
+  "barcelona | 2026-03-21 | found | embeds a different number registered in the municipality": 198,
+  "barcelona | 2026-03-21 | found | embeds the number shown": 3232,
+  "barcelona | 2026-03-21 | not found | embeds a different number not registered there": 11,
+  "barcelona | 2026-03-21 | not found | embeds a different number registered in the municipality": 97,
+  "barcelona | 2026-03-21 | not found | embeds the number shown": 40,
+  "barcelona | 2026-03-21 | other | embeds a different number not registered there": 3,
+  "barcelona | 2026-03-21 | other | embeds a different number registered in the municipality": 5,
+  "barcelona | 2026-03-21 | other | embeds the number shown": 13,
+  "barcelona | 2026-03-21 | wrong form | embeds a different number registered in the municipality": 93,
+  "barcelona | 2026-03-21 | wrong form | embeds the number shown": 2,
+  "barcelona | 2026-06-24 | found | embeds a different number not registered there": 32,
+  "barcelona | 2026-06-24 | found | embeds a different number registered in the municipality": 251,
+  "barcelona | 2026-06-24 | found | embeds the number shown": 3893,
+  "barcelona | 2026-06-24 | not found | embeds a different number not registered there": 18,
+  "barcelona | 2026-06-24 | not found | embeds a different number registered in the municipality": 123,
+  "barcelona | 2026-06-24 | not found | embeds the number shown": 64,
+  "barcelona | 2026-06-24 | other | embeds a different number not registered there": 2,
+  "barcelona | 2026-06-24 | other | embeds a different number registered in the municipality": 7,
+  "barcelona | 2026-06-24 | other | embeds the number shown": 16,
+  "barcelona | 2026-06-24 | wrong form | embeds a different number registered in the municipality": 112,
+  "barcelona | 2026-06-24 | wrong form | embeds the number shown": 2,
+  "girona | 2026-03-31 | found | embeds a different number not registered there": 49,
+  "girona | 2026-03-31 | found | embeds a different number registered in the municipality": 219,
+  "girona | 2026-03-31 | found | embeds the number shown": 5973,
+  "girona | 2026-03-31 | not found | embeds a different number not registered there": 10,
+  "girona | 2026-03-31 | not found | embeds a different number registered in the municipality": 97,
+  "girona | 2026-03-31 | not found | embeds the number shown": 35,
+  "girona | 2026-03-31 | other | embeds a different number not registered there": 1,
+  "girona | 2026-03-31 | other | embeds a different number registered in the municipality": 60,
+  "girona | 2026-03-31 | other | embeds the number shown": 46,
+  "girona | 2026-03-31 | wrong form | embeds a different number registered in the municipality": 83,
+  "girona | 2026-03-31 | wrong form | embeds the number shown": 3,
+  "girona | 2026-06-30 | found | embeds a different number not registered there": 68,
+  "girona | 2026-06-30 | found | embeds a different number registered in the municipality": 286,
+  "girona | 2026-06-30 | found | embeds the number shown": 7549,
+  "girona | 2026-06-30 | not found | embeds a different number not registered there": 13,
+  "girona | 2026-06-30 | not found | embeds a different number registered in the municipality": 168,
+  "girona | 2026-06-30 | not found | embeds the number shown": 52,
+  "girona | 2026-06-30 | other | embeds a different number not registered there": 4,
+  "girona | 2026-06-30 | other | embeds a different number registered in the municipality": 84,
+  "girona | 2026-06-30 | other | embeds the number shown": 81,
+  "girona | 2026-06-30 | wrong form | embeds a different number not registered there": 1,
+  "girona | 2026-06-30 | wrong form | embeds a different number registered in the municipality": 99,
+  "girona | 2026-06-30 | wrong form | embeds the number shown": 5
+ },
+ "malaga_extra_digit_in_national_number": {
+  "malaga | 2026-03-31 | national number ends with the same six digits": 129,
+  "malaga | 2026-03-31 | other": 18,
+  "malaga | 2026-06-30 | national number ends with the same six digits": 183,
+  "malaga | 2026-06-30 | other": 22
+ }
+}

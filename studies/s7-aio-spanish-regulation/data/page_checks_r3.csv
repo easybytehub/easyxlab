@@ -3,7 +3,6 @@ reading,qid,surface,answer_verdict,group,url,fetch,page_state
 3,F13-Q2,aio,outdated,target,https://www.vidacaixa.es/articulos/jubilacion-y-pensiones/tabla-edad-jubilacion-segun-ano-nacimiento,ok,page_mixed
 3,F13-Q2,aio,outdated,target,https://www.vidacaixa.es/articulos/jubilacion-y-pensiones/edad-jubilar-anticipadamente,ok,page_silent
 3,F13-Q2,aio,outdated,target,https://www.vidacaixa.es/anos-cotizados-para-jubilacion,ok,page_silent
-3,F13-Q2,aio,outdated,target,https://www.facebook.com/ugtandalucia/videos/-sabes-a-qu%C3%A9-edad-podr%C3%A1s-jubilarte-cu%C3%A1ntos-a%C3%B1os-tendr%C3%A1s-que-haber-cotizado-para-/991706809851558/,ok,page_silent
 3,F13-Q2,aio,outdated,target,https://www.vidacaixa.es/jubilacion-en-espana,ok,page_old
 3,F15-Q2,mode,outdated,target,https://www.mivau.gob.es/vivienda/ventanilla-unica/alquiler-de-alojamientos-de-corta-duracion,ok,page_silent
 3,F15-Q2,mode,outdated,target,https://www.youtube.com/watch?v=1aC163an2Jo&t=313,ok,page_silent
