@@ -1,0 +1,178 @@
+[
+ {
+  "key": "docs_actions_immutable",
+  "quote": "If you are ready to share an unchangeable version of your action, create a release",
+  "found_verbatim": true,
+  "source": "github.com/github/docs content/actions/how-tos/create-and-publish-actions/using-immutable-releases-and-tags-to-manage-your-actions-releases.md",
+  "last_commit": "43b64585a65f44be5f56d872100da327d42c1546",
+  "last_commit_date": "2026-03-13T17:15:01Z"
+ },
+ {
+  "key": "docs_actions_immutable",
+  "quote": "If you want to be able to update the Git tag of a release later, do not create a release",
+  "found_verbatim": true,
+  "source": "github.com/github/docs content/actions/how-tos/create-and-publish-actions/using-immutable-releases-and-tags-to-manage-your-actions-releases.md",
+  "last_commit": "43b64585a65f44be5f56d872100da327d42c1546",
+  "last_commit_date": "2026-03-13T17:15:01Z"
+ },
+ {
+  "key": "docs_actions_immutable",
+  "quote": "If your release contains breaking changes for existing workflows, create a major version tag (for example, `v1`).",
+  "found_verbatim": true,
+  "source": "github.com/github/docs content/actions/how-tos/create-and-publish-actions/using-immutable-releases-and-tags-to-manage-your-actions-releases.md",
+  "last_commit": "43b64585a65f44be5f56d872100da327d42c1546",
+  "last_commit_date": "2026-03-13T17:15:01Z"
+ },
+ {
+  "key": "docs_actions_immutable",
+  "quote": "For a major version, update the tag to point to the Git ref of the latest related minor version or patch version.",
+  "found_verbatim": true,
+  "source": "github.com/github/docs content/actions/how-tos/create-and-publish-actions/using-immutable-releases-and-tags-to-manage-your-actions-releases.md",
+  "last_commit": "43b64585a65f44be5f56d872100da327d42c1546",
+  "last_commit_date": "2026-03-13T17:15:01Z"
+ },
+ {
+  "key": "docs_concept_immutable",
+  "quote": "Once an immutable release is published, its associated Git tag is locked to a specific commit, cannot be changed, and cannot be deleted while the release exists.",
+  "found_verbatim": true,
+  "source": "github.com/github/docs content/code-security/concepts/supply-chain-security/immutable-releases.md",
+  "last_commit": "81e32d6ea3c99d664a9bd37bc506d4fb848b56c9",
+  "last_commit_date": "2026-09-03T14:08:41Z"
+ },
+ {
+  "key": "docs_concept_immutable",
+  "quote": "Only the assets and tag are locked.",
+  "found_verbatim": true,
+  "source": "github.com/github/docs content/code-security/concepts/supply-chain-security/immutable-releases.md",
+  "last_commit": "81e32d6ea3c99d664a9bd37bc506d4fb848b56c9",
+  "last_commit_date": "2026-09-03T14:08:41Z"
+ },
+ {
+  "key": "docs_concept_immutable",
+  "quote": "If you delete the immutable release, you can delete the tag, but you cannot reuse the same tag name.",
+  "found_verbatim": true,
+  "source": "github.com/github/docs content/code-security/concepts/supply-chain-security/immutable-releases.md",
+  "last_commit": "81e32d6ea3c99d664a9bd37bc506d4fb848b56c9",
+  "last_commit_date": "2026-09-03T14:08:41Z"
+ },
+ {
+  "key": "docs_actions_immutable",
+  "quote": "create a major version tag (for example, `v1`)",
+  "found_verbatim": true,
+  "source": "github.com/github/docs content/actions/how-tos/create-and-publish-actions/using-immutable-releases-and-tags-to-manage-your-actions-releases.md",
+  "last_commit": "43b64585a65f44be5f56d872100da327d42c1546",
+  "last_commit_date": "2026-03-13T17:15:01Z"
+ },
+ {
+  "key": "docs_prevent_release_changes",
+  "quote": "Be aware that immutability will only apply to future releases.",
+  "found_verbatim": true,
+  "source": "github.com/github/docs content/code-security/how-tos/secure-your-supply-chain/establish-provenance-and-integrity/prevent-release-changes.md",
+  "last_commit": "608fbdc0e306b0628cace58b2824884dfc3edd3f",
+  "last_commit_date": "2026-07-20T08:27:38Z"
+ },
+ {
+  "key": "docs_manage_custom_actions",
+  "quote": "Instead, you can recommend that your users specify a major version when using your action",
+  "found_verbatim": true,
+  "source": "github.com/github/docs content/actions/how-tos/create-and-publish-actions/manage-custom-actions.md",
+  "last_commit": "43ffdaddfbc0e3a789dae85f927b42f195bed054",
+  "last_commit_date": "2026-07-16T15:25:14Z"
+ },
+ {
+  "key": "docs_manage_custom_actions",
+  "quote": "Move the major version tag (for example, `v1`) to point to the Git ref of the current release.",
+  "found_verbatim": true,
+  "source": "github.com/github/docs content/actions/how-tos/create-and-publish-actions/manage-custom-actions.md",
+  "last_commit": "43ffdaddfbc0e3a789dae85f927b42f195bed054",
+  "last_commit_date": "2026-07-16T15:25:14Z"
+ },
+ {
+  "key": "docs_secure_use",
+  "quote": "Pinning an action to a full-length commit SHA is currently the only way to use an action as an immutable release.",
+  "found_verbatim": true,
+  "source": "github.com/github/docs content/actions/reference/security/secure-use.md",
+  "last_commit": "c008b66a92206bee5fbbad54ffbbde60451fb1f5",
+  "last_commit_date": "2026-09-29T07:20:00Z"
+ },
+ {
+  "key": "docs_aup",
+  "quote": "Researchers may use public, non-personal information from the Service for research purposes, only if any publications resulting from that research are [open access]",
+  "found_verbatim": true,
+  "source": "github.com/github/docs content/site-policy/acceptable-use-policies/github-acceptable-use-policies.md",
+  "last_commit": "ca0be3563766814ea73bbaedf2d3e2e7ad96f883",
+  "last_commit_date": "2026-07-09T13:42:19Z"
+ },
+ {
+  "key": "docs_aup",
+  "quote": "Scraping does not refer to the collection of information through our API.",
+  "found_verbatim": true,
+  "source": "github.com/github/docs content/site-policy/acceptable-use-policies/github-acceptable-use-policies.md",
+  "last_commit": "ca0be3563766814ea73bbaedf2d3e2e7ad96f883",
+  "last_commit_date": "2026-07-09T13:42:19Z"
+ },
+ {
+  "key": "zizmor_audits",
+  "quote": "GitHub does not have immutable\nbranches or tags",
+  "found_verbatim": true,
+  "source": "github.com/zizmorcore/zizmor docs/audits.md",
+  "last_commit": "39a097c0bced0d9a5217bb1587b625a83bf19f39",
+  "last_commit_date": "2026-10-02T02:52:18Z"
+ },
+ {
+  "key": "pinact_readme",
+  "quote": "Pinning an action to a full length commit SHA is currently the only way to use an action as an immutable release.",
+  "found_verbatim": true,
+  "source": "github.com/suzuki-shunsuke/pinact README.md",
+  "last_commit": "a4f45e095b184794ac1f82b6b07cc35b0b8cfe7b",
+  "last_commit_date": "2026-09-12T04:50:03Z"
+ },
+ {
+  "key": "cl_immutable",
+  "quote": "Tag protection : Tags for new immutable releases are protected and can’t be deleted or moved.",
+  "found_verbatim": true,
+  "source": "https://github.blog/changelog/2025-10-28-immutable-releases-are-now-generally-available",
+  "published": "2025-10-28T08:20:37",
+  "title": "Immutable releases are now generally available"
+ },
+ {
+  "key": "cl_immutable",
+  "quote": "Existing releases remain mutable unless you republish them.",
+  "found_verbatim": true,
+  "source": "https://github.blog/changelog/2025-10-28-immutable-releases-are-now-generally-available",
+  "published": "2025-10-28T08:20:37",
+  "title": "Immutable releases are now generally available"
+ },
+ {
+  "key": "cl_immutable",
+  "quote": "GitHub recommends that workflows pin dependency versions to a specific commit SHA",
+  "found_verbatim": true,
+  "source": "https://github.blog/changelog/2025-08-15-github-actions-policy-now-supports-blocking-and-sha-pinning-actions",
+  "published": "2025-08-15T08:05:08",
+  "title": "GitHub Actions policy now supports blocking and SHA pinning actions"
+ },
+ {
+  "key": "post_roadmap",
+  "quote": "We’re introducing a dependencies: section in workflow YAML that locks all direct and transitive dependencies with the commits SHA",
+  "found_verbatim": true,
+  "source": "https://github.blog/news-insights/product-news/whats-coming-to-our-github-actions-2026-security-roadmap/",
+  "published": "2026-03-26T09:49:14",
+  "title": "What’s coming to our GitHub Actions 2026 security roadmap"
+ },
+ {
+  "key": "post_roadmap",
+  "quote": "Our current milestones for lock files are as follows: Milestones: Phase Target Public preview 3-6 months General availability 6 months",
+  "found_verbatim": true,
+  "source": "https://github.blog/news-insights/product-news/whats-coming-to-our-github-actions-2026-security-roadmap/",
+  "published": "2026-03-26T09:49:14",
+  "title": "What’s coming to our GitHub Actions 2026 security roadmap"
+ },
+ {
+  "key": "post_roadmap",
+  "quote": "we’re moving away from mutable references and towards immutable releases with stricter release requirements",
+  "found_verbatim": true,
+  "source": "https://github.blog/news-insights/product-news/whats-coming-to-our-github-actions-2026-security-roadmap/",
+  "published": "2026-03-26T09:49:14",
+  "title": "What’s coming to our GitHub Actions 2026 security roadmap"
+ }
+]

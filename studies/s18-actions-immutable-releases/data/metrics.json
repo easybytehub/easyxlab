@@ -1,0 +1,1131 @@
+{
+ "reclassification_checked": 53694,
+ "reclassification_mismatches": 0,
+ "aggregate_inconsistencies": 0,
+ "population": {
+  "frame_sizes": {
+   "A": 1686,
+   "B": 20553
+  },
+  "a_cutoff_stars": 29565,
+  "seed": 20261003,
+  "pushed_since": "2026-07-05",
+  "qualifiers": "pushed:>=2026-07-05 archived:false fork:false is:public",
+  "enumerated_utc": "2026-10-03T11:21:00Z",
+  "population_sizes": {
+   "A": 1000,
+   "B": 500
+  },
+  "frame_files_sha256": {
+   "frame_a": "060a525059123e03a8218f1cbf5748fbb2c7d95f102a5c78fd5967bcb4dc3ee3",
+   "frame_b": "55d1ad84e6c947ed202151ba50484abb122ee24865144ff4b3ddff567e674ab9"
+  },
+  "frame_b_sample_note": "population B is stored sorted by repository id, not in random.sample() order",
+  "sha_pins": {
+   "distinct_action_sha_pairs": 1881,
+   "not_a_commit": 44
+  }
+ },
+ "A": {
+  "repos": {
+   "population": 1000,
+   "ok": 1000,
+   "excluded": {},
+   "organisation": 687,
+   "with_workflow_files": 892,
+   "with_remote_refs": 891,
+   "unreadable_files": 0,
+   "workflow_files": 10819
+  },
+  "uses": {
+   "uses_total": 67386,
+   "remote": 58690,
+   "local": 8297,
+   "local_actions_unread": 5925,
+   "self": 369,
+   "docker": 30,
+   "expression": 0,
+   "invalid": 0,
+   "reusable_workflow": 390
+  },
+  "verdicts": {
+   "sha": 32868,
+   "sha-unresolvable": 110,
+   "immutable-tag": 333,
+   "mutable-tag": 23720,
+   "branch": 1632,
+   "unresolved": 27
+  },
+  "verdict_pct": {
+   "sha": 56.0,
+   "sha-unresolvable": 0.2,
+   "immutable-tag": 0.6,
+   "mutable-tag": 40.4,
+   "branch": 2.8,
+   "unresolved": 0.0
+  },
+  "mutable_tag_forms": {
+   "major": 22543,
+   "minor": 96,
+   "full": 1025,
+   "other": 56
+  },
+  "immutable_tag_major": 37,
+  "ambiguous_tag_branch": 11,
+  "sha_share": {
+   "x": 32978,
+   "n": 58690,
+   "text": "32,978 of 58,690 (56.2%)",
+   "ci95_boot": [
+    50.7,
+    61.7
+   ]
+  },
+  "sha_share_without_top1": {
+   "x": 31826,
+   "n": 57538,
+   "text": "31,826 of 57,538 (55.3%)",
+   "dropped_refs": [
+    1152
+   ],
+   "dropped_named": [
+    "PostHog/posthog"
+   ]
+  },
+  "sha_share_without_top3": {
+   "x": 30016,
+   "n": 55728,
+   "text": "30,016 of 55,728 (53.9%)",
+   "dropped_refs": [
+    1152,
+    1077,
+    733
+   ],
+   "dropped_named": [
+    "PostHog/posthog",
+    "openclaw/openclaw",
+    "github/awesome-copilot"
+   ]
+  },
+  "sha_share_per_repo": {
+   "median_pct": 5.0,
+   "mean_pct": 39.3,
+   "repos": 891
+  },
+  "sha_with_version_comment": {
+   "x": 29924,
+   "n": 32978,
+   "text": "29,924 of 32,978 (90.7%)"
+  },
+  "repos_with_some_sha": 490,
+  "H1": {
+   "protected": 312,
+   "n": 6898,
+   "pct": 4.5,
+   "ci95_boot": [
+    2.8,
+    7.1
+   ],
+   "text": "312 of 6,898 (4.5%)",
+   "repos_with_such_refs": 516,
+   "repos_with_unprotected": 503,
+   "repos_all_protected": 13,
+   "mutable": 6586,
+   "mutable_with_immutable_alternative": 3238,
+   "alt_text": "3,238 of 6,586 (49.2%)",
+   "alt_ci95_boot": [
+    43.2,
+    56.0
+   ],
+   "top_contributor": {
+    "protected": 68,
+    "of_its_refs": 174,
+    "share_of_protected_pct": 21.8,
+    "repo": "langflow-ai/langflow"
+   },
+   "top5_protected": 132,
+   "leave_one_repo_out_pct": [
+    3.6,
+    4.6
+   ]
+  },
+  "H1_any_immutable": {
+   "protected": 333,
+   "n": 6926,
+   "pct": 4.8,
+   "ci95_boot": [
+    3.0,
+    7.4
+   ],
+   "text": "333 of 6,926 (4.8%)",
+   "repos_with_such_refs": 516,
+   "repos_with_unprotected": 503,
+   "repos_all_protected": 13,
+   "mutable": 6593,
+   "mutable_with_immutable_alternative": 3241,
+   "alt_text": "3,241 of 6,593 (49.2%)",
+   "alt_ci95_boot": [
+    43.2,
+    56.0
+   ],
+   "top_contributor": {
+    "protected": 70,
+    "of_its_refs": 176,
+    "share_of_protected_pct": 21.0,
+    "repo": "langflow-ai/langflow"
+   },
+   "top5_protected": 135,
+   "leave_one_repo_out_pct": [
+    3.9,
+    4.9
+   ]
+  },
+  "H3": {
+   "all_sha": 263,
+   "n": 891,
+   "pct": 29.5,
+   "text": "263 of 891 (29.5%)",
+   "with_unread_local_actions": 89,
+   "lower_bound": 174,
+   "lower_text": "174 of 891 (19.5%)",
+   "wilson95": null,
+   "lower_wilson95": null
+  },
+  "H3_third_party": {
+   "all_sha": 284,
+   "n": 783,
+   "pct": 36.3,
+   "text": "284 of 783 (36.3%)"
+  },
+  "own_latest_release_immutable": {
+   "x": 71,
+   "n": 806,
+   "text": "71 of 806 (8.8%)"
+  },
+  "own_latest_release_sbom_asset": {
+   "x": 23,
+   "n": 806,
+   "text": "23 of 806 (2.9%)"
+  },
+  "action_repos": {
+   "referenced": 1229,
+   "resolved": 1221,
+   "with_latest_release": 1039,
+   "latest_immutable": 154,
+   "latest_immutable_text": "154 of 1,221 (12.6%)",
+   "latest_immutable_of_releasing_text": "154 of 1,039 (14.8%)",
+   "any_immutable": 158,
+   "any_immutable_text": "158 of 1,221 (12.9%)"
+  },
+  "immutable_tag_by_action": [
+   [
+    "astral-sh/setup-uv",
+    82
+   ],
+   [
+    "github/codeql-action",
+    36
+   ],
+   [
+    "docker/login-action",
+    34
+   ],
+   [
+    "pnpm/action-setup",
+    25
+   ],
+   [
+    "user-action-0174",
+    21
+   ],
+   [
+    "actions/setup-python",
+    10
+   ],
+   [
+    "actions/setup-go",
+    9
+   ],
+   [
+    "slackapi/slack-github-action",
+    9
+   ],
+   [
+    "tj-actions/changed-files",
+    9
+   ],
+   [
+    "user-action-0447",
+    8
+   ]
+  ],
+  "H1_unprotected_by_action": [
+   [
+    "actions/setup-node",
+    1729
+   ],
+   [
+    "actions/setup-python",
+    1080
+   ],
+   [
+    "pnpm/action-setup",
+    445
+   ],
+   [
+    "actions/setup-go",
+    436
+   ],
+   [
+    "docker/login-action",
+    435
+   ],
+   [
+    "docker/setup-buildx-action",
+    314
+   ],
+   [
+    "docker/build-push-action",
+    267
+   ],
+   [
+    "astral-sh/setup-uv",
+    221
+   ],
+   [
+    "actions/setup-java",
+    215
+   ],
+   [
+    "github/codeql-action",
+    202
+   ],
+   [
+    "actions/create-github-app-token",
+    125
+   ],
+   [
+    "actions/stale",
+    124
+   ]
+  ],
+  "sha_unresolvable_action_repos": 25
+ },
+ "B": {
+  "repos": {
+   "population": 500,
+   "ok": 500,
+   "excluded": {},
+   "organisation": 276,
+   "with_workflow_files": 399,
+   "with_remote_refs": 398,
+   "unreadable_files": 0,
+   "workflow_files": 1945
+  },
+  "uses": {
+   "uses_total": 11140,
+   "remote": 10472,
+   "local": 666,
+   "local_actions_unread": 426,
+   "self": 2,
+   "docker": 0,
+   "expression": 0,
+   "invalid": 0,
+   "reusable_workflow": 93
+  },
+  "verdicts": {
+   "sha": 4806,
+   "sha-unresolvable": 6,
+   "immutable-tag": 87,
+   "mutable-tag": 5178,
+   "branch": 386,
+   "unresolved": 9
+  },
+  "verdict_pct": {
+   "sha": 45.9,
+   "sha-unresolvable": 0.1,
+   "immutable-tag": 0.8,
+   "mutable-tag": 49.4,
+   "branch": 3.7,
+   "unresolved": 0.1
+  },
+  "mutable_tag_forms": {
+   "major": 4949,
+   "minor": 23,
+   "full": 169,
+   "other": 37
+  },
+  "immutable_tag_major": 30,
+  "ambiguous_tag_branch": 8,
+  "sha_share": {
+   "x": 4812,
+   "n": 10472,
+   "text": "4,812 of 10,472 (46.0%)",
+   "ci95_boot": [
+    29.0,
+    60.1
+   ]
+  },
+  "sha_share_without_top1": {
+   "x": 3421,
+   "n": 9080,
+   "text": "3,421 of 9,080 (37.7%)",
+   "dropped_refs": [
+    1392
+   ],
+   "dropped_named": [
+    "open-telemetry/opentelemetry-python"
+   ]
+  },
+  "sha_share_without_top3": {
+   "x": 2402,
+   "n": 8024,
+   "text": "2,402 of 8,024 (29.9%)",
+   "dropped_refs": [
+    1392,
+    617,
+    439
+   ],
+   "dropped_named": [
+    "open-telemetry/opentelemetry-python",
+    "(user-owned)",
+    "cdxgen/cdxgen"
+   ]
+  },
+  "sha_share_per_repo": {
+   "median_pct": 0.0,
+   "mean_pct": 19.1,
+   "repos": 398
+  },
+  "sha_with_version_comment": {
+   "x": 4145,
+   "n": 4812,
+   "text": "4,145 of 4,812 (86.1%)"
+  },
+  "repos_with_some_sha": 100,
+  "H1": {
+   "protected": 76,
+   "n": 1564,
+   "pct": 4.9,
+   "ci95_boot": [
+    2.4,
+    8.2
+   ],
+   "text": "76 of 1,564 (4.9%)",
+   "repos_with_such_refs": 251,
+   "repos_with_unprotected": 245,
+   "repos_all_protected": 6,
+   "mutable": 1488,
+   "mutable_with_immutable_alternative": 743,
+   "alt_text": "743 of 1,488 (49.9%)",
+   "alt_ci95_boot": [
+    42.6,
+    56.8
+   ],
+   "top_contributor": {
+    "protected": 18,
+    "of_its_refs": 18,
+    "share_of_protected_pct": 23.7,
+    "repo": "libimobiledevice/idevicerestore"
+   },
+   "top5_protected": 44,
+   "leave_one_repo_out_pct": [
+    3.8,
+    5.1
+   ]
+  },
+  "H1_any_immutable": {
+   "protected": 87,
+   "n": 1579,
+   "pct": 5.5,
+   "ci95_boot": [
+    2.9,
+    8.9
+   ],
+   "text": "87 of 1,579 (5.5%)",
+   "repos_with_such_refs": 252,
+   "repos_with_unprotected": 246,
+   "repos_all_protected": 6,
+   "mutable": 1492,
+   "mutable_with_immutable_alternative": 745,
+   "alt_text": "745 of 1,492 (49.9%)",
+   "alt_ci95_boot": [
+    42.6,
+    56.7
+   ],
+   "top_contributor": {
+    "protected": 18,
+    "of_its_refs": 18,
+    "share_of_protected_pct": 20.7,
+    "repo": "libimobiledevice/idevicerestore"
+   },
+   "top5_protected": 44,
+   "leave_one_repo_out_pct": [
+    4.4,
+    5.8
+   ]
+  },
+  "H3": {
+   "all_sha": 65,
+   "n": 398,
+   "pct": 16.3,
+   "text": "65 of 398 (16.3%)",
+   "with_unread_local_actions": 10,
+   "lower_bound": 55,
+   "lower_text": "55 of 398 (13.8%)",
+   "wilson95": [
+    13.0,
+    20.3
+   ],
+   "lower_wilson95": [
+    10.8,
+    17.6
+   ]
+  },
+  "H3_third_party": {
+   "all_sha": 62,
+   "n": 329,
+   "pct": 18.8,
+   "text": "62 of 329 (18.8%)"
+  },
+  "own_latest_release_immutable": {
+   "x": 10,
+   "n": 353,
+   "text": "10 of 353 (2.8%)"
+  },
+  "own_latest_release_sbom_asset": {
+   "x": 4,
+   "n": 353,
+   "text": "4 of 353 (1.1%)"
+  },
+  "action_repos": {
+   "referenced": 496,
+   "resolved": 494,
+   "with_latest_release": 460,
+   "latest_immutable": 83,
+   "latest_immutable_text": "83 of 494 (16.8%)",
+   "latest_immutable_of_releasing_text": "83 of 460 (18.0%)",
+   "any_immutable": 85,
+   "any_immutable_text": "85 of 494 (17.2%)"
+  },
+  "immutable_tag_by_action": [
+   [
+    "user-action-0524",
+    19
+   ],
+   [
+    "github/codeql-action",
+    15
+   ],
+   [
+    "user-action-0174",
+    11
+   ],
+   [
+    "astral-sh/setup-uv",
+    10
+   ],
+   [
+    "gradle/actions",
+    7
+   ],
+   [
+    "user-action-0487",
+    6
+   ],
+   [
+    "actions/setup-dotnet",
+    3
+   ],
+   [
+    "actions/setup-node",
+    3
+   ],
+   [
+    "user-action-0447",
+    3
+   ],
+   [
+    "user-action-0128",
+    2
+   ]
+  ],
+  "H1_unprotected_by_action": [
+   [
+    "actions/setup-node",
+    284
+   ],
+   [
+    "actions/setup-python",
+    215
+   ],
+   [
+    "actions/setup-java",
+    168
+   ],
+   [
+    "docker/login-action",
+    98
+   ],
+   [
+    "actions/setup-go",
+    81
+   ],
+   [
+    "docker/setup-buildx-action",
+    70
+   ],
+   [
+    "github/codeql-action",
+    70
+   ],
+   [
+    "pnpm/action-setup",
+    66
+   ],
+   [
+    "docker/build-push-action",
+    65
+   ],
+   [
+    "astral-sh/setup-uv",
+    52
+   ],
+   [
+    "codecov/codecov-action",
+    39
+   ],
+   [
+    "docker/setup-qemu-action",
+    37
+   ]
+  ],
+  "sha_unresolvable_action_repos": 4
+ },
+ "H2": {
+  "top": 50,
+  "latest_immutable": 28,
+  "text": "28 of 50 (56.0%)",
+  "any_immutable": 28,
+  "top_first_party": 19,
+  "top_first_party_immutable": 10,
+  "table": [
+   {
+    "action_repo": "actions/checkout",
+    "first_party": true,
+    "repos_A": 874,
+    "refs_A": 18143,
+    "latest_release_tag": "v7.0.1",
+    "latest_release_immutable": false,
+    "any_immutable_release": false
+   },
+   {
+    "action_repo": "actions/upload-artifact",
+    "first_party": true,
+    "repos_A": 565,
+    "refs_A": 5422,
+    "latest_release_tag": "v7.0.1",
+    "latest_release_immutable": false,
+    "any_immutable_release": false
+   },
+   {
+    "action_repo": "actions/setup-node",
+    "first_party": true,
+    "repos_A": 446,
+    "refs_A": 3748,
+    "latest_release_tag": "v7.0.0",
+    "latest_release_immutable": true,
+    "any_immutable_release": true
+   },
+   {
+    "action_repo": "actions/download-artifact",
+    "first_party": true,
+    "repos_A": 410,
+    "refs_A": 3210,
+    "latest_release_tag": "v8.0.1",
+    "latest_release_immutable": false,
+    "any_immutable_release": false
+   },
+   {
+    "action_repo": "actions/cache",
+    "first_party": true,
+    "repos_A": 338,
+    "refs_A": 2532,
+    "latest_release_tag": "v6.1.0",
+    "latest_release_immutable": false,
+    "any_immutable_release": false
+   },
+   {
+    "action_repo": "actions/github-script",
+    "first_party": true,
+    "repos_A": 323,
+    "refs_A": 3367,
+    "latest_release_tag": "v9.0.0",
+    "latest_release_immutable": false,
+    "any_immutable_release": false
+   },
+   {
+    "action_repo": "actions/setup-python",
+    "first_party": true,
+    "repos_A": 312,
+    "refs_A": 1949,
+    "latest_release_tag": "v7.0.0",
+    "latest_release_immutable": true,
+    "any_immutable_release": true
+   },
+   {
+    "action_repo": "docker/login-action",
+    "first_party": false,
+    "repos_A": 245,
+    "refs_A": 977,
+    "latest_release_tag": "v4.6.0",
+    "latest_release_immutable": true,
+    "any_immutable_release": true
+   },
+   {
+    "action_repo": "docker/setup-buildx-action",
+    "first_party": false,
+    "repos_A": 224,
+    "refs_A": 699,
+    "latest_release_tag": "v4.4.1",
+    "latest_release_immutable": true,
+    "any_immutable_release": true
+   },
+   {
+    "action_repo": "github/codeql-action",
+    "first_party": true,
+    "repos_A": 214,
+    "refs_A": 615,
+    "latest_release_tag": "codeql-bundle-v2.27.1",
+    "latest_release_immutable": true,
+    "any_immutable_release": true
+   },
+   {
+    "action_repo": "actions/stale",
+    "first_party": true,
+    "repos_A": 203,
+    "refs_A": 251,
+    "latest_release_tag": "v11.0.0",
+    "latest_release_immutable": true,
+    "any_immutable_release": true
+   },
+   {
+    "action_repo": "docker/build-push-action",
+    "first_party": false,
+    "repos_A": 198,
+    "refs_A": 549,
+    "latest_release_tag": "v7.4.0",
+    "latest_release_immutable": true,
+    "any_immutable_release": true
+   },
+   {
+    "action_repo": "user-action-0145",
+    "first_party": false,
+    "repos_A": 129,
+    "refs_A": 253,
+    "latest_release_tag": "",
+    "latest_release_immutable": false,
+    "any_immutable_release": false
+   },
+   {
+    "action_repo": "pnpm/action-setup",
+    "first_party": false,
+    "repos_A": 128,
+    "refs_A": 965,
+    "latest_release_tag": "v6.1.0",
+    "latest_release_immutable": true,
+    "any_immutable_release": true
+   },
+   {
+    "action_repo": "actions/setup-go",
+    "first_party": true,
+    "repos_A": 128,
+    "refs_A": 849,
+    "latest_release_tag": "v7.0.0",
+    "latest_release_immutable": true,
+    "any_immutable_release": true
+   },
+   {
+    "action_repo": "docker/setup-qemu-action",
+    "first_party": false,
+    "repos_A": 128,
+    "refs_A": 207,
+    "latest_release_tag": "v4.4.0",
+    "latest_release_immutable": true,
+    "any_immutable_release": true
+   },
+   {
+    "action_repo": "docker/metadata-action",
+    "first_party": false,
+    "repos_A": 119,
+    "refs_A": 260,
+    "latest_release_tag": "v6.2.0",
+    "latest_release_immutable": true,
+    "any_immutable_release": true
+   },
+   {
+    "action_repo": "astral-sh/setup-uv",
+    "first_party": false,
+    "repos_A": 114,
+    "refs_A": 748,
+    "latest_release_tag": "v10.2.0",
+    "latest_release_immutable": true,
+    "any_immutable_release": true
+   },
+   {
+    "action_repo": "codecov/codecov-action",
+    "first_party": false,
+    "repos_A": 103,
+    "refs_A": 243,
+    "latest_release_tag": "v7.1.1",
+    "latest_release_immutable": true,
+    "any_immutable_release": true
+   },
+   {
+    "action_repo": "actions/create-github-app-token",
+    "first_party": true,
+    "repos_A": 102,
+    "refs_A": 627,
+    "latest_release_tag": "v3.2.0",
+    "latest_release_immutable": true,
+    "any_immutable_release": true
+   },
+   {
+    "action_repo": "user-action-0170",
+    "first_party": false,
+    "repos_A": 102,
+    "refs_A": 270,
+    "latest_release_tag": "",
+    "latest_release_immutable": true,
+    "any_immutable_release": true
+   },
+   {
+    "action_repo": "user-action-0506",
+    "first_party": false,
+    "repos_A": 93,
+    "refs_A": 236,
+    "latest_release_tag": "",
+    "latest_release_immutable": false,
+    "any_immutable_release": false
+   },
+   {
+    "action_repo": "user-action-0218",
+    "first_party": false,
+    "repos_A": 88,
+    "refs_A": 680,
+    "latest_release_tag": "",
+    "latest_release_immutable": false,
+    "any_immutable_release": false
+   },
+   {
+    "action_repo": "actions/setup-java",
+    "first_party": true,
+    "repos_A": 88,
+    "refs_A": 317,
+    "latest_release_tag": "v6.0.1",
+    "latest_release_immutable": true,
+    "any_immutable_release": true
+   },
+   {
+    "action_repo": "pypa/gh-action-pypi-publish",
+    "first_party": false,
+    "repos_A": 86,
+    "refs_A": 195,
+    "latest_release_tag": "v1.14.2",
+    "latest_release_immutable": true,
+    "any_immutable_release": true
+   },
+   {
+    "action_repo": "actions/deploy-pages",
+    "first_party": true,
+    "repos_A": 81,
+    "refs_A": 83,
+    "latest_release_tag": "v5.0.1",
+    "latest_release_immutable": false,
+    "any_immutable_release": false
+   },
+   {
+    "action_repo": "actions/upload-pages-artifact",
+    "first_party": true,
+    "repos_A": 75,
+    "refs_A": 77,
+    "latest_release_tag": "v5.0.0",
+    "latest_release_immutable": false,
+    "any_immutable_release": false
+   },
+   {
+    "action_repo": "user-action-0038",
+    "first_party": false,
+    "repos_A": 71,
+    "refs_A": 505,
+    "latest_release_tag": "",
+    "latest_release_immutable": false,
+    "any_immutable_release": false
+   },
+   {
+    "action_repo": "oven-sh/setup-bun",
+    "first_party": false,
+    "repos_A": 71,
+    "refs_A": 420,
+    "latest_release_tag": "v2.2.0",
+    "latest_release_immutable": false,
+    "any_immutable_release": false
+   },
+   {
+    "action_repo": "actions/labeler",
+    "first_party": true,
+    "repos_A": 68,
+    "refs_A": 69,
+    "latest_release_tag": "v7.0.0",
+    "latest_release_immutable": true,
+    "any_immutable_release": true
+   },
+   {
+    "action_repo": "ossf/scorecard-action",
+    "first_party": false,
+    "repos_A": 50,
+    "refs_A": 50,
+    "latest_release_tag": "v2.4.4",
+    "latest_release_immutable": false,
+    "any_immutable_release": false
+   },
+   {
+    "action_repo": "user-action-0028",
+    "first_party": false,
+    "repos_A": 48,
+    "refs_A": 217,
+    "latest_release_tag": "",
+    "latest_release_immutable": true,
+    "any_immutable_release": true
+   },
+   {
+    "action_repo": "user-action-0179",
+    "first_party": false,
+    "repos_A": 48,
+    "refs_A": 49,
+    "latest_release_tag": "",
+    "latest_release_immutable": false,
+    "any_immutable_release": false
+   },
+   {
+    "action_repo": "anthropics/claude-code-action",
+    "first_party": false,
+    "repos_A": 45,
+    "refs_A": 90,
+    "latest_release_tag": "v1",
+    "latest_release_immutable": false,
+    "any_immutable_release": false
+   },
+   {
+    "action_repo": "actions/configure-pages",
+    "first_party": true,
+    "repos_A": 45,
+    "refs_A": 46,
+    "latest_release_tag": "v6.0.0",
+    "latest_release_immutable": false,
+    "any_immutable_release": false
+   },
+   {
+    "action_repo": "zizmorcore/zizmor-action",
+    "first_party": false,
+    "repos_A": 42,
+    "refs_A": 43,
+    "latest_release_tag": "v0.6.4",
+    "latest_release_immutable": true,
+    "any_immutable_release": true
+   },
+   {
+    "action_repo": "ruby/setup-ruby",
+    "first_party": false,
+    "repos_A": 41,
+    "refs_A": 121,
+    "latest_release_tag": "v1.327.0",
+    "latest_release_immutable": false,
+    "any_immutable_release": false
+   },
+   {
+    "action_repo": "actions/dependency-review-action",
+    "first_party": true,
+    "repos_A": 41,
+    "refs_A": 41,
+    "latest_release_tag": "v5.0.0",
+    "latest_release_immutable": false,
+    "any_immutable_release": false
+   },
+   {
+    "action_repo": "golangci/golangci-lint-action",
+    "first_party": false,
+    "repos_A": 39,
+    "refs_A": 58,
+    "latest_release_tag": "v9.3.0",
+    "latest_release_immutable": true,
+    "any_immutable_release": true
+   },
+   {
+    "action_repo": "aws-actions/configure-aws-credentials",
+    "first_party": false,
+    "repos_A": 38,
+    "refs_A": 200,
+    "latest_release_tag": "v6.3.0",
+    "latest_release_immutable": true,
+    "any_immutable_release": true
+   },
+   {
+    "action_repo": "actions/attest-build-provenance",
+    "first_party": true,
+    "repos_A": 36,
+    "refs_A": 82,
+    "latest_release_tag": "v4.2.2",
+    "latest_release_immutable": true,
+    "any_immutable_release": true
+   },
+   {
+    "action_repo": "slackapi/slack-github-action",
+    "first_party": false,
+    "repos_A": 32,
+    "refs_A": 134,
+    "latest_release_tag": "v4.0.0",
+    "latest_release_immutable": true,
+    "any_immutable_release": true
+   },
+   {
+    "action_repo": "user-action-0100",
+    "first_party": false,
+    "repos_A": 31,
+    "refs_A": 31,
+    "latest_release_tag": "",
+    "latest_release_immutable": false,
+    "any_immutable_release": false
+   },
+   {
+    "action_repo": "sigstore/cosign-installer",
+    "first_party": false,
+    "repos_A": 30,
+    "refs_A": 53,
+    "latest_release_tag": "v4.1.2",
+    "latest_release_immutable": false,
+    "any_immutable_release": false
+   },
+   {
+    "action_repo": "actions/setup-dotnet",
+    "first_party": true,
+    "repos_A": 29,
+    "refs_A": 70,
+    "latest_release_tag": "v6.0.0",
+    "latest_release_immutable": true,
+    "any_immutable_release": true
+   },
+   {
+    "action_repo": "changesets/action",
+    "first_party": false,
+    "repos_A": 29,
+    "refs_A": 33,
+    "latest_release_tag": "v2.1.2",
+    "latest_release_immutable": true,
+    "any_immutable_release": true
+   },
+   {
+    "action_repo": "user-action-0175",
+    "first_party": false,
+    "repos_A": 28,
+    "refs_A": 72,
+    "latest_release_tag": "",
+    "latest_release_immutable": false,
+    "any_immutable_release": false
+   },
+   {
+    "action_repo": "gradle/actions",
+    "first_party": false,
+    "repos_A": 28,
+    "refs_A": 70,
+    "latest_release_tag": "v6.4.0",
+    "latest_release_immutable": true,
+    "any_immutable_release": true
+   },
+   {
+    "action_repo": "user-action-0150",
+    "first_party": false,
+    "repos_A": 27,
+    "refs_A": 43,
+    "latest_release_tag": "",
+    "latest_release_immutable": false,
+    "any_immutable_release": false
+   },
+   {
+    "action_repo": "user-action-0199",
+    "first_party": false,
+    "repos_A": 26,
+    "refs_A": 35,
+    "latest_release_tag": "",
+    "latest_release_immutable": true,
+    "any_immutable_release": true
+   }
+  ],
+  "first_party_actions": {
+   "x": 12,
+   "n": 28,
+   "text": "12 of 28 (42.9%)",
+   "immutable": [
+    "actions/attest",
+    "actions/attest-build-provenance",
+    "actions/attest-sbom",
+    "actions/create-github-app-token",
+    "actions/labeler",
+    "actions/setup-dotnet",
+    "actions/setup-go",
+    "actions/setup-java",
+    "actions/setup-node",
+    "actions/setup-python",
+    "actions/stale",
+    "actions/upload-code-coverage"
+   ],
+   "mutable": [
+    "actions/add-to-project",
+    "actions/ai-inference",
+    "actions/cache",
+    "actions/checkout",
+    "actions/configure-pages",
+    "actions/create-release",
+    "actions/delete-package-versions",
+    "actions/dependency-review-action",
+    "actions/deploy-pages",
+    "actions/download-artifact",
+    "actions/first-interaction",
+    "actions/github-script",
+    "actions/jekyll-build-pages",
+    "actions/upload-artifact",
+    "actions/upload-pages-artifact",
+    "actions/upload-release-asset"
+   ]
+  },
+  "first_party_github": {
+   "x": 3,
+   "n": 6,
+   "text": "3 of 6 (50.0%)",
+   "immutable": [
+    "github/codeql-action",
+    "github/gh-aw",
+    "github/gh-aw-actions"
+   ],
+   "mutable": [
+    "github/ai-assessment-comment-labeler",
+    "github/ai-moderator",
+    "github/issue-labeler"
+   ]
+  },
+  "first_party_all": {
+   "x": 15,
+   "n": 34,
+   "text": "15 of 34 (44.1%)"
+  },
+  "third_party_all": {
+   "x": 139,
+   "n": 1187,
+   "text": "139 of 1,187 (11.7%)"
+  }
+ },
+ "action_repos_total": {
+  "canonical": 1435,
+  "resolved": 1427
+ }
+}

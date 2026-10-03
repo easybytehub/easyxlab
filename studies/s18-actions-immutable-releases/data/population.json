@@ -1,0 +1,24 @@
+{
+ "frame_sizes": {
+  "A": 1686,
+  "B": 20553
+ },
+ "a_cutoff_stars": 29565,
+ "seed": 20261003,
+ "pushed_since": "2026-07-05",
+ "qualifiers": "pushed:>=2026-07-05 archived:false fork:false is:public",
+ "enumerated_utc": "2026-10-03T11:21:00Z",
+ "population_sizes": {
+  "A": 1000,
+  "B": 500
+ },
+ "frame_files_sha256": {
+  "frame_a": "060a525059123e03a8218f1cbf5748fbb2c7d95f102a5c78fd5967bcb4dc3ee3",
+  "frame_b": "55d1ad84e6c947ed202151ba50484abb122ee24865144ff4b3ddff567e674ab9"
+ },
+ "frame_b_sample_note": "population B is stored sorted by repository id, not in random.sample() order",
+ "sha_pins": {
+  "distinct_action_sha_pairs": 1881,
+  "not_a_commit": 44
+ }
+}
