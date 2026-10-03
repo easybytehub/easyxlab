@@ -1,0 +1,154 @@
+sha256,size,producer_domain,esma_table,single_xhtml,facts,valid,errors,warnings,assertions_evaluated,assertions_failed,assertions_failed_error_severity,error_families,identifiers_source,ix_version,seconds
+01027f312cb9d1db449dce71a9d568d2510bc184745f0bd1f24106e108e17f1a,536472,pepecoin.com,2,1,209,1,0,0,216,,,{},refetch-same-hash,1.1,4.9
+054bb8218e457564f96600ff895948e74d578d55723d920ae9ae810377d50c2e,345950,arbittechnologyltd.com,2,1,209,1,0,0,216,,,{},refetch-same-hash,1.1,4.6
+07be2eb84b8fc0bf7bbb619687591f86bd44da7ca0b014fbad5cbe99f9c3b136,3879711,socios.com,2,1,149,1,0,0,216,,,{},refetch-changed,1.1,4.6
+08afde8fa32de0e9d1502c4ebd8c58ff1e5cdf97755094f2595c23000ecadb88,306699,safefoundation.org,2,1,180,0,5,0,216,A6ConditionalRuleA4Country|E3TokenConditionalRuleE3Units|E4TokenConditionalRuleE4Units|E5TokenConditionalRuleE5Units,A6ConditionalRuleA4Country|E3TokenConditionalRuleE3Units|E4TokenConditionalRuleE4Units|E5TokenConditionalRuleE5Units,"{""assertion"": 4, ""inline-xbrl"": 1}",refetch-same-hash,1.1,4.5
+09c1781c5876e382bb1a3258efcb3a97d9fc22fba36cb5d8920a341d944b9a3f,411099,okx.com,2,1,178,0,2,1,216,B1B7ConditionalRuleB4Country|B1B7ConditionalRuleB5Country|B1trueConditionalRuleB6,B1B7ConditionalRuleB4Country|B1B7ConditionalRuleB5Country,"{""assertion"": 2}",refetch-same-hash,,4.6
+0a8a67b9bf51286d3d0827351b1434aa9f7410d4f4837b36bcb21448c9e3e705,679895,crypto-risk-metrics.com,2,1,220,1,0,0,216,,,{},refetch-same-hash,1.1,4.6
+0aec75d1b830ca7ed4e2cd5ea90ed09ce5e6d5243e668de8c1608e17fc2d0488,2991139,beldex.io,2,1,164,1,0,0,216,,,{},refetch-same-hash,1.1,4.6
+0c0410e4460510e4a7cd3d28a815eb0f36ba24a57a12c6310e83a3fc40bfa712,369983,wojakcto.com,2,1,118,1,0,0,216,,,{},refetch-same-hash,1.1,4.5
+0e2fb30d018fd490d16ef0ba085d0add7f400768127f604c77e0becc067ba6d3,626665,crypto-risk-metrics.com,2,1,221,1,0,0,216,,,{},refetch-same-hash,1.1,4.7
+0e31eafe937d971263c18726a29efb931c74c6cb4914a4dcf03fdd7b8240e7c4,580340,crypto-risk-metrics.com,2,1,213,1,0,0,216,,,{},refetch-same-hash,1.1,4.6
+112964a5a85d8956f0c698c8228def97ebc4fdcbf4dc44323fe51bdf6e48856c,3154237,socios.com,2,1,148,1,0,0,216,,,{},refetch-changed,1.1,4.6
+11491c7a48a1544e4a22f2e6406abfc7b207115f5896713607ca3ee43bde9643,574886,nesa.ai,2,1,265,1,0,0,216,,,{},refetch-same-hash,1.1,4.6
+11e0946df103dcff874c0d1b63e512e290692880d8ee9e0458ef071231cccca5,338336,nyks.tech,2,1,154,0,3,0,216,E3TokenConditionalRuleE3Units|E4TokenConditionalRuleE4Units|E5TokenConditionalRuleE5Units,E3TokenConditionalRuleE3Units|E4TokenConditionalRuleE4Units|E5TokenConditionalRuleE5Units,"{""assertion"": 3}",refetch-same-hash,1.1,4.6
+13e56849eb11816500b24b339ab975a5d66ee4d6658abcdb539420c81b245ff1,620439,crypto-risk-metrics.com,2,1,245,1,0,0,216,,,{},refetch-same-hash,1.1,5.0
+16ab22b7657f77d54495cfde6e5815222bb94b2a78edd552e17ae8b8cb781b7c,528279,bluefin.io,2,1,202,1,0,0,216,,,{},refetch-same-hash,1.1,4.6
+182da1e3a5fa5ee7d84c485927c40782cfeefb4d65dadeaadabd91ccfd25e964,173225,xpin.network,2,1,122,0,1,0,216,S2PresenceRule,S2PresenceRule,"{""assertion"": 1}",refetch-same-hash,1.1,4.5
+19fd47051db8b44bd5afb23949773ac488dbf87040dc36496edadb9def074af5,4671611,socios.com,2,1,151,1,0,0,216,,,{},refetch-changed,1.1,4.6
+1a4a2aa5cfba4e566d6ad021cacf85f6b8b528feee08819e15a2a2a4fcfc63cf,334764,digitalenergyplatform.com,2,1,187,0,3,0,216,E3UnitsConditionalRuleE3Token|E4UnitsConditionalRuleE4Token,E3UnitsConditionalRuleE3Token|E4UnitsConditionalRuleE4Token,"{""assertion"": 2, ""xbrl-core"": 1}",refetch-same-hash,1.1,4.7
+1a7085d86bd5fd7a9ee6570df623f6d04c7cfe99c407b8b13c4a06692fe81b1c,581937,crypto-risk-metrics.com,2,1,213,1,0,0,216,,,{},refetch-same-hash,1.1,4.6
+1b6922f325ef8056dec0d7e2412eddb8f96b449c1bc67bc02b461d91a280d4d1,595860,crypto-risk-metrics.com,2,1,225,1,0,0,216,,,{},refetch-same-hash,1.1,4.9
+1c276b0bffbde1a66eb743f369808e7e3b434b088ea8dbdea300f380769af4f4,332288,katana.network,2,1,148,0,4,0,216,A6ConditionalRuleA4Country|E3TokenConditionalRuleE3Units|E4TokenConditionalRuleE4Units|E5TokenConditionalRuleE5Units,A6ConditionalRuleA4Country|E3TokenConditionalRuleE3Units|E4TokenConditionalRuleE4Units|E5TokenConditionalRuleE5Units,"{""assertion"": 4}",refetch-same-hash,1.1,4.5
+1c3832cc6bd79ee4f01c4dd86e8d70bad94560a2d84f1008ddb3d82a86cb52c2,329372,polyhedra.network,2,1,128,0,5,0,216,A5PresenceRule|E1ConditionalRuleE37|F11PresenceRule|F14PresenceRule,A5PresenceRule|E1ConditionalRuleE37|F11PresenceRule|F14PresenceRule,"{""assertion"": 4, ""inline-xbrl"": 1}",same-file,1.1,5.0
+1da76543e05b7dd2692df7c3f4dabe0bfc1306ca2e900737ef8228f4ef0d844c,619599,crypto-risk-metrics.com,2,1,265,1,0,0,216,,,{},refetch-same-hash,1.1,4.6
+208886f66d4fae2d903e911f0206a58cbddc5d1b9bf9eb32bf316ee4dc3acdbf,353315,googleapis.com,2,1,206,0,1,1,216,E22ConditionalRuleE21,,"{""xbrl-core"": 1}",refetch-same-hash,1.1,4.7
+26006244e3f9f40775833bbb5e40d82d16c2894f3744c1f04559774e6a53c4c8,2873131,sbarter.com,2,1,173,1,0,0,216,,,{},refetch-same-hash,1.1,4.6
+26f23b15c1cb62a704a1763f76868048c7cc045b9173d240db6964eafa16e819,592043,crypto-risk-metrics.com,2,1,213,1,0,0,216,,,{},refetch-same-hash,1.1,4.6
+27a9feac4d43b4b7ce1945dec98565e9f9d22c85316b9ede406ce79d0389f338,618114,crypto-risk-metrics.com,2,1,221,1,0,0,216,,,{},refetch-same-hash,1.1,4.6
+2874cdb232f32e9d87f87b5b28aa45ff027074352d092c428dd972b457e859c1,594114,crypto-risk-metrics.com,2,1,212,1,0,0,216,,,{},same-file,1.1,4.9
+29c0081863955ddad9bfaef610998ddd27b693a5fdedf7bfae0c1914aca6305b,446420,opinion.foundation,2,1,,1,0,0,216,,,{},none,,4.7
+2b1ce0e315bf127ee8f291ebf59d9314b1fab9212add3db63ce2a77148cdb550,602875,crypto-risk-metrics.com,2,1,229,1,0,0,216,,,{},refetch-same-hash,1.1,4.7
+2e3f75459e139f7363bd7828741fe55d6418b90e712145aa6d5e9aab4e66f49c,618908,crypto-risk-metrics.com,2,1,209,1,0,0,216,,,{},refetch-same-hash,1.1,4.6
+2f3f55c4ae0f8357cb7a7ba18858d010c061ec1bc772361216f190229c68631a,612436,crypto-risk-metrics.com,2,1,221,1,0,0,216,,,{},refetch-same-hash,1.1,4.7
+310bbcb2235b54052424211ecb5b05b6e20ee556d8cd9a9ca9f198dd625c832f,317825,r2.dev,2,1,148,0,4,0,216,E3TokenConditionalRuleE3Units|E4TokenConditionalRuleE4Units|E5TokenConditionalRuleE5Units,E3TokenConditionalRuleE3Units|E4TokenConditionalRuleE4Units|E5TokenConditionalRuleE5Units,"{""assertion"": 3, ""inline-xbrl"": 1}",refetch-same-hash,1.1,4.7
+323789349e2a7bf1e4f8cf125cfb037ba67f4be0bb6358431b162fd941541ec1,290536,blueemi.com,4,0,140,0,62,0,109,,,"{""inline-xbrl"": 1, ""xbrl-core"": 61}",same-file,1.1,4.4
+36fe3c04a655129300fc00ca0d574671823b10c3d7c2c0e6af38425d016b418a,636869,crypto-risk-metrics.com,2,1,217,1,0,0,216,,,{},refetch-same-hash,1.1,4.6
+382902589e4eee77a4968d4602d91eed08e2cb3658cf7857b9138250bceb9a13,334428,katana.network,2,1,153,0,5,1,216,A6ConditionalRuleA4Country|E1ConditionalRuleE31|E1E10TokenConditionalRuleE10Units|E20ConditionalRuleE22|E4TokenConditionalRuleE4Units|E5TokenConditionalRuleE5Units,A6ConditionalRuleA4Country|E1ConditionalRuleE31|E1E10TokenConditionalRuleE10Units|E4TokenConditionalRuleE4Units|E5TokenConditionalRuleE5Units,"{""assertion"": 5}",refetch-same-hash,1.1,4.6
+3bcba1348749105a79bbd2d338ecc666523d651b23260c288cf0598c8ccf7f20,626814,crypto-risk-metrics.com,2,1,249,1,0,0,216,,,{},refetch-same-hash,1.1,4.6
+3deca181cf65e8084dba7bfb5f1c8f3ee57329d2752b0f4ffb62139f67b6e202,256780,metania.games,2,1,156,0,3,1,216,A8PresenceRule,,"{""assertion"": 3}",refetch-changed,1.1,4.6
+3fef6c236524df1c8d3e7d4074b47b758ab30f67f80eb6d317d62147656d56a0,340747,icon.foundation,2,1,138,0,3,0,216,A6ConditionalRuleA4Country|F9PresenceRule,A6ConditionalRuleA4Country|F9PresenceRule,"{""assertion"": 2, ""inline-xbrl"": 1}",refetch-same-hash,1.1,4.5
+419decae71be8df77452f4625291a73ff48eff3b134e6989351ad5f224157b92,337504,dual.org,2,1,149,0,4,0,216,B1B7ConditionalRuleB5Country|F14PresenceRule|F9PresenceRule,B1B7ConditionalRuleB5Country|F14PresenceRule|F9PresenceRule,"{""assertion"": 3, ""inline-xbrl"": 1}",refetch-same-hash,1.1,4.6
+4282b026d7ef94f51bf3e556e6a29650ebb88ed25039d06543603c093ef7e804,309918,injective.com,2,1,117,0,5,1,216,A6ConditionalRuleA3Subdivision|A6ConditionalRuleA4Subdivision|E1ConditionalRuleE34|E1ConditionalRuleE36|E1ConditionalRuleE37|S2PresenceRule,A6ConditionalRuleA3Subdivision|A6ConditionalRuleA4Subdivision|E1ConditionalRuleE34|E1ConditionalRuleE37|S2PresenceRule,"{""assertion"": 5}",refetch-same-hash,1.1,4.5
+4442ea333b7a8de5e529b988b8e0ff2791640b8d6bc3c83e7210abbf3b7d9d8e,619012,crypto-risk-metrics.com,2,1,233,1,0,0,216,,,{},refetch-same-hash,1.1,4.7
+472f594bd505c6f27cec88eef34ad4ae35411e4d66fda2a2549a02e74fa8d847,608933,crypto-risk-metrics.com,2,1,236,1,0,0,216,,,{},refetch-same-hash,1.1,4.7
+49a3b05f15281ec633152d3cc11c9de165ce51d0f63bc8aa699dc6510a5322a0,316975,hyperlend.finance,2,1,170,0,2,0,216,lei-fact-checksum|lei-fact-checksum-digits,lei-fact-checksum|lei-fact-checksum-digits,"{""assertion"": 2}",refetch-same-hash,1.1,4.8
+49fbfa4c8d1d5e247c339d6a07c02c1c98609ae4fd285edaf6aaadacc40144b5,608347,crypto-risk-metrics.com,2,1,241,1,0,0,216,,,{},refetch-same-hash,1.1,4.7
+4c7ca8584a6ac71e504e7ba7edc26635df15abb21235cd83eb18c3435fc44474,317136,spiritprotocol.io,2,1,164,0,3,0,216,lei-fact-checksum|lei-fact-checksum-digits,lei-fact-checksum|lei-fact-checksum-digits,"{""assertion"": 2, ""inline-xbrl"": 1}",refetch-same-hash,1.1,4.6
+4d140468ece4e3fa623f0d146fea16263567867f58ecf11bb8b265c358ae0249,332257,polygon.technology,2,1,162,0,6,0,216,B1B7ConditionalRuleB5Country|E3TokenConditionalRuleE3Units|E4TokenConditionalRuleE4Units|E5TokenConditionalRuleE5Units|F9PresenceRule,B1B7ConditionalRuleB5Country|E3TokenConditionalRuleE3Units|E4TokenConditionalRuleE4Units|E5TokenConditionalRuleE5Units|F9PresenceRule,"{""assertion"": 5, ""inline-xbrl"": 1}",refetch-same-hash,1.1,4.6
+55c1a957d0e41a545ad0dde50487fa1f53a188abead73580c63f9313e844c500,603911,crypto-risk-metrics.com,2,1,237,1,0,0,216,,,{},refetch-same-hash,1.1,4.6
+56e2a0f549ef7e03a6fbd594cd437dde0498091ee0b207b0325dc9be19121e77,116337,puffpaw.xyz,2,1,193,0,176,0,0,,A12BusinessAddressPresenceRule|A12FunctionPresenceRule|A12IdentityPresenceRule|B1ConditionalRuleB3|B1ConditionalRuleB7|B1falseConditionalRuleB2|B1falseConditionalRuleB6|C10BusinessAddressPresenceRule|C10FunctionPresenceRule|C10IdentityPresenceRule|C6C7ConditionalRuleA6|C6C7ConditionalRuleA7|D5NameOfPersonPresenceRule|D5TypeOfPersonPresenceRule|PartAConditionalRulePartC,"{""assertion"": 25, ""xbrl-core"": 151}",same-file,1.1,5.6
+5771b707bb6628caac719a0a339f554b6087312fbe50e74d70abee14e02a5e5c,614304,crypto-risk-metrics.com,2,1,220,1,0,0,216,,,{},refetch-same-hash,1.1,4.6
+5969def54fcdcf662b16b9a80240d188c174e2a1e19337f04a126e6ebe5f0498,421987,okx.com,2,1,193,0,1,0,216,D5DomicileOfCompanyPresenceRule,D5DomicileOfCompanyPresenceRule,"{""assertion"": 1}",refetch-same-hash,1.1,4.9
+59f408dc523902a7491b1d4f5667c54f620fa80b77efb6a3c21e1d90e9158c21,329590,crosstoken.io,2,1,177,0,4,0,216,A6ConditionalRuleA4Country|E3TokenConditionalRuleE3Units|E4TokenConditionalRuleE4Units|E5TokenConditionalRuleE5Units,A6ConditionalRuleA4Country|E3TokenConditionalRuleE3Units|E4TokenConditionalRuleE4Units|E5TokenConditionalRuleE5Units,"{""assertion"": 4}",refetch-same-hash,1.1,4.5
+5a5d67049216e3eb04ab6f09301561d5ed6511cc7a7f265da8301d2363496643,606424,crypto-risk-metrics.com,2,1,217,1,0,0,216,,,{},refetch-same-hash,1.1,4.6
+5bd98d928c0cb1ad798cdfe99ac3ce3e278505ffc615c226f9e765e2196a7cd6,600522,crypto-risk-metrics.com,2,1,213,1,0,0,216,,,{},refetch-same-hash,1.1,4.6
+5d52d78a1a119b1f4adc25ab3398828847a40591fddb9dc9bae14a07ff763a65,4401612,googleapis.com,2,1,133,1,0,0,216,,,{},refetch-same-hash,1.1,4.6
+5e9edbd324a7cfbda96e10e275c2104ac41ead980cdfa7eb7b097815db64d3d2,8768439,monerium.com,4,1,141,1,0,0,109,,,{},refetch-same-hash,1.1,4.2
+62f21b2b2ad070e7d942b7848612775af1dbed5c9b84ddd4cd8d99b6d7d2ad5f,582500,crypto-risk-metrics.com,2,1,212,1,0,0,216,,,{},refetch-same-hash,1.1,4.6
+63cd22039a19a35e5f9f57893da73dc190f404ce64ebe8eb041fa9178f31fa38,592147,crypto-risk-metrics.com,2,1,221,1,0,0,216,,,{},same-file,1.1,5.0
+68774765baa27b6161aa146b19a86be5f8435718447ced29e2e34f8f38204482,604456,crypto-risk-metrics.com,2,1,213,1,0,0,216,,,{},refetch-same-hash,1.1,4.6
+6975c50911acc795e58af18a64118f22927a207c043c9a9c1b44fa55fa6fd98b,353340,solstice.finance,2,1,206,0,1,1,216,E22ConditionalRuleE21,,"{""xbrl-core"": 1}",refetch-same-hash,1.1,4.7
+6c7c3aad8f64ba4794b9e8e0bc83a983fca7a2ea5064fdf15b779824281a9be5,200459,checkmate.foundation,2,1,132,1,0,0,216,,,{},refetch-same-hash,,4.5
+7055dc45824ac1340d1f56787f0e652e72817556d38561c45851ef351428baad,1058277,seda.xyz,2,0,0,0,5,0,0,,,"{""xbrl-core"": 5}",refetch-same-hash,1.1,0.0
+70fabf2f30ad5ef86fc6d14e030d44683917c29b6b0d013425354255d3dfd2c9,625018,crypto-risk-metrics.com,2,1,240,1,0,0,216,,,{},refetch-same-hash,1.1,4.6
+7842e94fd57f7ebdeb528c02bbffa9d405f0e41a5a2220986687a75d9482c539,208130,methprotocol.xyz,2,1,127,1,0,0,216,,,{},refetch-same-hash,1.1,4.5
+79f59d9e7cd1fba431d2081dbf606b92e7903d8e9f38a8f1b3824226a8d280a1,113689,irys.xyz,2,1,128,0,3,0,216,I05PresenceRule|I09PresenceRule|S2PresenceRule,I05PresenceRule|I09PresenceRule|S2PresenceRule,"{""assertion"": 3}",same-file,1.1,4.7
+7fb504d5111a0f3b0f28528a27d36937382c72cbdc02449d15e11cca5b9f7ebd,581421,crypto-risk-metrics.com,2,1,209,1,0,0,216,,,{},refetch-same-hash,1.1,4.6
+80eab5f4d73e285d53fca49b074e2aba926ab80f1928d678c4edeb9891fafb6e,592445,crypto-risk-metrics.com,2,1,217,1,0,0,216,,,{},refetch-same-hash,1.1,4.6
+80eedaf39990727de99b5d6eb34eb502d341c9de2bcdaf3ddefecec51b0240eb,607582,crypto-risk-metrics.com,2,1,233,1,0,0,216,,,{},refetch-same-hash,1.1,4.7
+81bedf674ac2dbd5480c726cce28dcbba83e644d446f8055f9bb1b3e38aff13d,620979,crypto-risk-metrics.com,2,1,237,1,0,0,216,,,{},refetch-same-hash,1.1,4.6
+82e7efff3832388fa3997190d34dc74e1caf1ccbabe586c44fbc4b8284446960,615070,crypto-risk-metrics.com,2,1,232,1,0,0,216,,,{},same-file,1.1,5.2
+845848d30e0c5c6c3040a57d0150f0c1482e2a28c6bed55c9023cdfd74b6b83e,582477,crypto-risk-metrics.com,2,1,209,1,0,0,216,,,{},refetch-same-hash,1.1,4.6
+8ae2b11fd04e562d566e2cb42dc5801cef5ab9ad82ac1e61285afcb8c21b1ac5,142004,collectorcrypt.com,2,1,193,0,153,2,0,,A1C1PresenceRule|A6A7ConditionalRuleC6|A6A7ConditionalRuleC7|B1ConditionalRuleB11|B1ConditionalRuleB12|B1ConditionalRuleB3|B1falseConditionalRuleB2|C10BusinessAddressPresenceRule|C10FunctionPresenceRule|C10IdentityPresenceRule|C6C7ConditionalRuleA6|C6C7ConditionalRuleA7|PartAConditionalRulePartC,"{""assertion"": 16, ""xbrl-core"": 137}",refetch-same-hash,1.1,4.7
+8af0dfc419bd1421482fc89c3f09cc490c87b852abacc9d133cf87e409100d9e,297105,googleapis.com,2,1,161,0,4,1,216,D8PastPresenceRule|E3TokenConditionalRuleE3Units|E4TokenConditionalRuleE4Units|E5TokenConditionalRuleE5Units,E3TokenConditionalRuleE3Units|E4TokenConditionalRuleE4Units|E5TokenConditionalRuleE5Units,"{""assertion"": 3, ""inline-xbrl"": 1}",refetch-same-hash,1.1,4.6
+8bb7f969408fd5b84690abe3f17b45fef9d3bb10b3e760812bf07e8f896c8c64,3474432,socios.com,2,1,151,0,16,1,216,E22ConditionalRuleE21,,"{""assertion"": 15, ""xbrl-core"": 1}",refetch-changed,1.1,4.6
+8e72ba2ee4c1a626bdbbe42e535a1783fc65f64d4ee35b172793d1ff270825f2,620911,crypto-risk-metrics.com,2,1,261,1,0,0,216,,,{},refetch-same-hash,1.1,4.7
+8ef087d9bc525f45c022689ed376080f74dc0c44768b0dbc187ef0f1ab439bf1,4385432,googleapis.com,2,1,132,1,0,0,216,,,{},refetch-same-hash,1.1,4.8
+8fabd87ac46fca3bb80bb58396a6f9ae8ee280e4e8af269ee42c132798f84efc,580820,crypto-risk-metrics.com,2,1,209,1,0,0,216,,,{},refetch-same-hash,1.1,4.7
+8fd6fcaf74434618630c1ea0944b223cdefd523d18f4d9d891f52bee1d28cbb6,397262,telcoin.org,2,1,197,0,3,1,216,E22ConditionalRuleE21,,"{""assertion"": 3}",refetch-same-hash,1.1,4.7
+91da8c6ff7ab4be3533a57ba8d0a04ce2cd54d5d248c7cd6dded365e4ad797dd,636070,crypto-risk-metrics.com,2,1,261,1,0,0,216,,,{},refetch-same-hash,1.1,4.7
+91f2cdb1e16a8aae0c233f72a633878a4b321ec48dadef728b1dce18e4d3d221,3610966,socios.com,2,1,148,1,0,0,216,,,{},refetch-changed,1.1,4.7
+93e60fb7b1f1521e9b66ded6d8fe625d6f352820bcf2f5001afb6476b0b3ea9d,1722343,googleapis.com,2,1,144,1,0,0,216,,,{},refetch-same-hash,1.1,4.6
+945f1c65756756af170e63f3ca03bca5fc97de3aa05c0c27028cec33ba4564e1,612980,crypto-risk-metrics.com,2,1,243,1,0,0,216,,,{},refetch-same-hash,1.1,4.6
+94ba046baee1300fa86932a8618cb597a6e4c93fe57a7e5c9cccd1243336028c,614829,crypto-risk-metrics.com,2,1,225,1,0,0,216,,,{},refetch-same-hash,1.1,4.6
+960804365ab234728dfc8e8a5b529dca9e06cc69849a056aa7589abc0897803a,187701,playnance.com,2,1,180,1,0,0,216,,,{},refetch-same-hash,1.1,4.6
+97b947259a13d9fbaafecef1d615e7b8268e4b5e893576b5204eac265f582e10,573205,crypto-risk-metrics.com,2,1,201,1,0,0,216,,,{},same-file,1.1,5.4
+9927756afe3ce8d1962da6578225e104f4e754842b2f3322bedfc82ecb81493f,718920,crypto-risk-metrics.com,2,1,288,1,0,0,216,,,{},refetch-same-hash,1.1,4.7
+a00da212a11b39930b96bd06488baa4c9411213b3597119bc0b44d38ea207420,582756,crypto-risk-metrics.com,2,1,201,1,0,0,216,,,{},refetch-same-hash,1.1,4.6
+a0148d305fba34369e166af3ae9db60c8db85f35aad2353ab9ef7cead7b71539,602834,crypto-risk-metrics.com,2,1,217,1,0,0,216,,,{},refetch-same-hash,1.1,4.7
+a18cf3acc5acce1645e22f68b80dd181c30e981bfd60b78bba37755b76347984,387556,sellbuyplay.com,2,1,240,1,0,0,216,,,{},refetch-same-hash,1.1,4.7
+a36d468c4785168435054c569b5dd0903d9f0d1209de568986e22ddadf4e869a,2802081,socios.com,2,1,151,0,1,0,216,,,"{""xbrl-core"": 1}",refetch-changed,1.1,4.9
+a5d53a544d0d8f900e3118f21333de90c394c37a6964b038d13f80b310095ea6,530029,ekubo.org,2,1,145,0,13,0,216,I02PresenceRule|I05PresenceRule|S1PresenceRule|S2PresenceRule|S3PresenceRule|S4PresenceRule|S5PresenceRule|S6PresenceRule|S7PresenceRule|S8PresenceRule|S9PresenceRule,I02PresenceRule|I05PresenceRule|S1PresenceRule|S2PresenceRule|S3PresenceRule|S4PresenceRule|S5PresenceRule|S6PresenceRule|S7PresenceRule|S8PresenceRule|S9PresenceRule,"{""assertion"": 11, ""xbrl-core"": 2}",refetch-same-hash,1.1,4.6
+a5f2a325abb15fdeefa363b1ac21b40e0a27597c680b176b7c1b15c5a62c2aa1,614086,crypto-risk-metrics.com,2,1,233,1,0,0,216,,,{},refetch-same-hash,1.1,4.8
+a7889d24a7c5a7254fc85882a8234f20ba52a350e0a6ae6aa79c743dea345e40,581859,crypto-risk-metrics.com,2,1,201,1,0,0,216,,,{},refetch-same-hash,1.1,4.9
+a7ec4033514e851742619c4cd5c9a0950ce883f9aa496e6f19699d910583a152,664950,crypto-risk-metrics.com,2,1,260,1,0,0,216,,,{},refetch-same-hash,1.1,4.9
+a801aee661d7327f4e931049361572859c13761ecee3e350413e1b42b80527c9,656905,crypto-risk-metrics.com,2,1,221,1,0,0,216,,,{},refetch-same-hash,1.1,5.0
+a8438616bf994db2f01d9fec83fc5877c3c922392aa4967ef47ba6aace4bd32a,647237,crypto-risk-metrics.com,2,1,237,1,0,0,216,,,{},refetch-same-hash,1.1,7.3
+a94d0801631e88805e94eca577b756ae1799fc3802c1cd78d099341af3aa3d64,596211,crypto-risk-metrics.com,2,1,221,1,0,0,216,,,{},same-file,1.1,5.3
+a95fad3b57c03c6df8cb33ccdffaabf4c0d62a741a03da03f08d0a0f0cc2037f,396478,okx.com,2,1,182,1,0,0,216,,,{},refetch-same-hash,,6.8
+ac9acc3c1657e8e301a52b8050d7107e10f8054663c2fc770d8b5266f9fda631,630148,crypto-risk-metrics.com,2,1,236,1,0,0,216,,,{},refetch-same-hash,1.1,5.3
+af1e3733b19ea7729a2fde9e9d262aa026b6540ec86655fe5a1153262dbd635e,314384,growtokens.io,2,1,156,0,13,1,216,E1ConditionalRuleE31|E1ConditionalRuleE32|E1E10TokenConditionalRuleE10Currency|E3UnitsConditionalRuleE3Token|E4UnitsConditionalRuleE4Token|E5UnitsConditionalRuleE5Token|S2PresenceRule|S3PresenceRule|S4PresenceRule|S5PresenceRule|S6PresenceRule|S7PresenceRule|S8PresenceRule|S9PresenceRule,E1ConditionalRuleE31|E1ConditionalRuleE32|E3UnitsConditionalRuleE3Token|E4UnitsConditionalRuleE4Token|E5UnitsConditionalRuleE5Token|S2PresenceRule|S3PresenceRule|S4PresenceRule|S5PresenceRule|S6PresenceRule|S7PresenceRule|S8PresenceRule|S9PresenceRule,"{""assertion"": 13}",refetch-same-hash,1.1,5.4
+afdc63fc028f3fa4df86a217930b583c395c82292fd88b7c35dadafd871bf7ff,89476,pepecoin.io,2,1,160,0,5,1,216,B1B7ConditionalRuleB4Country|B1B7ConditionalRuleB4Subdivision|B1B7ConditionalRuleB5Country|B1B7ConditionalRuleB5Subdivision|B1trueConditionalRuleB6,B1B7ConditionalRuleB4Country|B1B7ConditionalRuleB4Subdivision|B1B7ConditionalRuleB5Country|B1B7ConditionalRuleB5Subdivision,"{""assertion"": 5}",refetch-same-hash,1.1,5.5
+b04254d6d54951145b325858f742881fb4d2c3cd7f931cdc12fdd815b48c0cfd,347934,aleo.org,2,1,147,0,14,1,216,A6ConditionalRuleA4Country|A6ConditionalRuleA4Subdivision|B1B7ConditionalRuleB11|B1B7ConditionalRuleB4Country|B1B7ConditionalRuleB4Subdivision|B1B7ConditionalRuleB5Country|B1B7ConditionalRuleB5Subdivision|B1B7ConditionalRuleB8|B1B7ConditionalRuleB9|B1B8ConditionalRuleB7|B1trueConditionalRuleB10Address|B1trueConditionalRuleB10Function|B1trueConditionalRuleB6|F9PresenceRule,A6ConditionalRuleA4Country|A6ConditionalRuleA4Subdivision|B1B7ConditionalRuleB11|B1B7ConditionalRuleB4Country|B1B7ConditionalRuleB4Subdivision|B1B7ConditionalRuleB5Country|B1B7ConditionalRuleB5Subdivision|B1B7ConditionalRuleB8|B1B7ConditionalRuleB9|B1B8ConditionalRuleB7|B1trueConditionalRuleB10Address|B1trueConditionalRuleB10Function|F9PresenceRule,"{""assertion"": 13, ""inline-xbrl"": 1}",refetch-same-hash,1.1,5.3
+b0cabe88f9ae98f6f990e61d9a86361afa56ec176439906c3c87aa7a8af6097f,194012,verifiedx.io,2,1,206,1,0,0,216,,,{},refetch-same-hash,1.1,5.4
+b11a70cd2258b9a04699772be672e7c6c408d2785e757464294c06b9930e359f,569919,crypto-risk-metrics.com,2,1,201,1,0,0,216,,,{},refetch-same-hash,1.1,5.5
+b1a4318adb826bab2657ce428e1153d721f8499e033aba1f7213501b7e042af9,598638,crypto-risk-metrics.com,2,1,219,1,0,0,216,,,{},refetch-same-hash,1.1,5.4
+b1f6c1369d1f0c5f78a2e17795e8726927800dd62ab12731333b83c463fca680,590330,crypto-risk-metrics.com,2,1,201,1,0,0,216,,,{},refetch-same-hash,1.1,5.3
+b2075705536696e0fac06f588d55cc06764de8afd5f54e719efe6e306aa3a80c,585270,crypto-risk-metrics.com,2,1,205,1,0,0,216,,,{},refetch-same-hash,1.1,5.5
+b48ebf32283089edd0c504b738fda97797d4fd853b8ec33abfbc0121b41479a0,327920,infiniteuniverse.xyz,2,1,193,0,3,0,216,E3TokenConditionalRuleE3Units|E4TokenConditionalRuleE4Units|E5TokenConditionalRuleE5Units,E3TokenConditionalRuleE3Units|E4TokenConditionalRuleE4Units|E5TokenConditionalRuleE5Units,"{""assertion"": 3}",refetch-same-hash,1.1,5.4
+b59215e4ac656b25052a09c8f11ee8c288907e4e79786959381c11024bb061b6,584388,crypto-risk-metrics.com,2,1,213,1,0,0,216,,,{},refetch-same-hash,1.1,5.4
+b628fa744f1faad491490234ced3155ebc9e8f2d3a2cdc836698310e6f4c0336,4728004,mantrachain.io,2,1,143,1,0,0,216,,,{},refetch-same-hash,1.1,5.2
+b645ecc77cfc4ab1573a8440fa0a299cb080b48f3d6498b35dae26fc65a1ba6c,362410,antapi1.com,2,1,132,1,0,0,216,,,{},refetch-same-hash,1.1,5.1
+b6d4410b5e273916e2e064e0bd28a26d944f94f2c5a1a941f66832d24d576e9c,594082,crypto-risk-metrics.com,2,1,225,1,0,0,216,,,{},refetch-same-hash,1.1,5.3
+b866d281a3c84657b7c01e72999b7d67fc9a8f906f0586c609cbc46719bb9b38,134441,github.io,2,1,132,0,24,0,216,S2PresenceRule,S2PresenceRule,"{""assertion"": 1, ""inline-xbrl"": 23}",refetch-same-hash,1.1,5.3
+bbf95b52532ad8560d7ff46b53e6455bb3863221744d8becc29a8629d43a9fe2,544114,dgrid.ai,2,1,210,1,0,0,216,,,{},refetch-same-hash,1.1,5.3
+bc4cb2e084cdc2b849b2ad8bec70467c31a564c3b60bd0a889cfd66fa8f7cbc4,550407,pieverse.io,2,1,210,1,0,0,216,,,{},same-file,1.1,5.0
+bd04cf664101e3d78d6bd4504e568b1229cbe480df11de0072b6313353257318,605792,crypto-risk-metrics.com,2,1,213,1,0,0,216,,,{},refetch-same-hash,1.1,5.5
+bdb4f81c3d64990f2559c101dc479259430a818593a5bc47e15fa4893ba88576,596536,crypto-risk-metrics.com,2,1,217,1,0,0,216,,,{},refetch-same-hash,1.1,6.1
+bdfefc2a17aa66df59c388435637152d4863e64f052cc0ad840d67dcdc24c862,584787,crypto-risk-metrics.com,2,1,201,1,0,0,216,,,{},refetch-same-hash,1.1,5.6
+bf34cc2d338b323f622fa0cdf4379c805595d09ab64cfcdd9476e64dcb968d0f,594649,crypto-risk-metrics.com,2,1,209,1,0,0,216,,,{},refetch-same-hash,1.1,5.6
+c0aa098b2f5c026b57a9aebbb9975259cd01a307ca8bdd186289dbe76dd28723,135621,brevis.network,2,1,160,0,6,0,216,S2PresenceRule,S2PresenceRule,"{""assertion"": 1, ""inline-xbrl"": 1, ""xbrl-core"": 4}",same-file,1.1,5.7
+c1c8a420f408b45a8b0ab86c66e1a2e70b435cb558f0b87b8dc5cb3068578c26,604003,crypto-risk-metrics.com,2,1,245,1,0,0,216,,,{},refetch-same-hash,1.1,5.5
+c7976a2d8816d1eb95e45a3886e309db54b22ec01e489f8ac74eef23bba4adc5,582447,crypto-risk-metrics.com,2,1,213,1,0,0,216,,,{},refetch-same-hash,1.1,6.6
+c90410e49add78c3749eab045c76394571b1b6f6aebf6537b08796bd9122cf46,663087,crypto-risk-metrics.com,2,1,250,1,0,0,216,,,{},refetch-same-hash,1.1,6.2
+c9909d5260930748cbca6ea825662c31a90f5504f50d27152d1479dad0449e39,545960,confluxnetwork.org,2,1,223,0,3,0,216,,,"{""assertion"": 3}",refetch-changed,1.1,6.2
+cc2a238e898731788e61e08b76411206cdd1cfdf1ec6194421da866597482b9f,600362,crypto-risk-metrics.com,2,1,221,1,0,0,216,,,{},refetch-same-hash,1.1,6.2
+cccb8715d9504863cadd5e1f12cd0a2359a70335ab686134370ed330a2f98f9d,564812,memecore.com,2,1,245,1,0,0,216,,,{},refetch-same-hash,1.1,5.9
+cd9aa5399e8bf6cd1b07d79f20bf44cb1d216e3aa3a6a8f292287e707ead873b,603315,crypto-risk-metrics.com,2,1,239,1,0,0,216,,,{},refetch-same-hash,1.1,6.6
+ce6ce66815627c0dd0321f21ec1d318c1024cbf8576f9e4e84f6a89081a40cc0,581454,crypto-risk-metrics.com,2,1,212,1,0,0,216,,,{},refetch-same-hash,1.1,7.0
+ced8ed4518c59ad68edab73fc84e590abd5f1da754ecee88d376aaa56c4009f4,580868,crypto-risk-metrics.com,2,1,205,1,0,0,216,,,{},refetch-same-hash,1.1,8.5
+cf6acfae9cee9484e49a5a1d885cce0f42de259b9b80e2a63e5645374dc96315,500688,okx.com,2,1,185,0,2,1,216,B1B7ConditionalRuleB4Country|B1trueConditionalRuleB6|D5DomicileOfCompanyPresenceRule,B1B7ConditionalRuleB4Country|D5DomicileOfCompanyPresenceRule,"{""assertion"": 2}",same-file,1.1,6.4
+d0d97f786b0af601d1f7438fb078dbb4be6e6b569a21f160a67b5387a38e3e1b,546331,altlayer.io,2,1,209,1,0,0,216,,,{},refetch-same-hash,1.1,9.3
+d139388e4236b3a81343a1eb6bbedd24b88c2ad0307f5e3ea88654f6be815636,603337,crypto-risk-metrics.com,2,1,217,1,0,0,216,,,{},same-file,1.1,5.0
+d2406e9d2ca5dc3c7c8fac5ccabebdb1f454f81027c95332fa841097aa3fbf98,625886,crypto-risk-metrics.com,2,1,219,1,0,0,216,,,{},refetch-same-hash,1.1,5.9
+d43ca858dcf5081ba8cff3fb3b66e6df994b31c333c03f097ce079fe65b454bb,605490,crypto-risk-metrics.com,2,1,217,1,0,0,216,,,{},refetch-same-hash,1.1,6.0
+d510d1d19e9c650658d06d5e3bd4383411fc4934df8d342288769608ac4e69a0,604631,crypto-risk-metrics.com,2,1,217,1,0,0,216,,,{},refetch-same-hash,1.1,6.1
+d6d0639515e99fa6668d7b8c53bf33eb204d50c1e0cb673f77188e837bc55ac0,581349,crypto-risk-metrics.com,2,1,212,1,0,0,216,,,{},refetch-same-hash,1.1,5.9
+dbdd99b9580d99d82c0a6b5645a3e68daca30881a075de99c2f66c9dcbbd1271,607847,crypto-risk-metrics.com,2,1,221,1,0,0,216,,,{},refetch-same-hash,1.1,5.8
+dc82eaaef1bf74bc5136b4fca8af76accd4074882f345d69c2f65acc8fd6c430,597062,crypto-risk-metrics.com,2,1,216,1,0,0,216,,,{},refetch-same-hash,1.1,6.3
+dfa23a00504ed022c42500719c1445ff13c72266ed60d7f73f9ca81d943489a0,537427,liquidmercury.com,2,1,211,1,0,0,216,,,{},refetch-same-hash,1.1,5.8
+e20de9cc9a811d41a510c4f4720a1cbb534ce90dceb3e6b967ee6bc3c9ec763a,580303,crypto-risk-metrics.com,2,1,204,1,0,0,216,,,{},refetch-same-hash,1.1,5.3
+e2edbe1309fd004704f40f4e565a3c98bbfbd777c641635328b2f173cd8a596a,3444200,googleapis.com,2,1,156,1,0,0,216,,,{},refetch-same-hash,1.1,4.9
+e3416a1b1ead5c209256fc51c4638c26ab87e2a39081e08efc3952863566ef3a,606745,crypto-risk-metrics.com,2,1,225,1,0,0,216,,,{},refetch-same-hash,1.1,5.0
+e35024024c9e5fb6c34c1f67bfe0cc17bb52c9b5c81d129992311b380bb71e7c,632056,crypto-risk-metrics.com,2,1,201,1,0,0,216,,,{},refetch-same-hash,1.1,5.7
+e7837f6fbe495eb93e19bc1310e37d7d17d7943f7d94238c0641c9dd712a08d7,608333,crypto-risk-metrics.com,2,1,245,1,0,0,216,,,{},refetch-same-hash,1.1,5.8
+e8bed2298182b2e602249b29ade381fd2873d2e6e937bd16626f68fbd194557d,161775,cityprotocol.co,2,1,173,0,99,0,0,,B1ConditionalRuleB11|B1ConditionalRuleB12|B1ConditionalRuleB8|B1ConditionalRuleB9,"{""assertion"": 7, ""xbrl-core"": 92}",same-file,1.1,5.8
+e96e43666b54c606afca63d6288ecd45324321ea7d91ba464320fce01b5de350,645492,crypto-risk-metrics.com,2,1,272,1,0,0,216,,,{},refetch-same-hash,1.1,5.7
+ea06af9907246fb3bb5c1d40f5b1997a491a16ef664e55af2383fd9911f05e21,595330,crypto-risk-metrics.com,2,1,229,1,0,0,216,,,{},refetch-same-hash,1.1,5.6
+ea847c5ce97bb0592ddb7cce1668ba63015f0d0c9566f3e7c033bd7002428df5,3206523,bitcoin.org.ht,2,1,146,1,0,0,216,,,{},refetch-same-hash,1.1,5.9
+ec96967bdda414cc1a63d8c85eaf00a0eb72d46f43542c58c1499f90fd1b7086,4859330,sustainablebtc.org,2,1,146,1,0,0,216,,,{},refetch-same-hash,1.1,6.3
+f19a14a29348b5f53297fc62a44f4b9a6d76e17cfc2c4e701966827d83ba4671,355264,squidrouter.com,2,1,189,1,0,0,216,,,{},refetch-same-hash,1.1,5.9
+f1b0e857514d356c42842e84944df11a5ffed0f6d6bad892d99495a25dbf949a,602245,crypto-risk-metrics.com,2,1,217,1,0,0,216,,,{},refetch-same-hash,1.1,5.5
+fb8830c9f2962fa604b9c0161f78dda82e67c361abd45f6ba2b521dab8475afb,121874,duckchain.io,2,1,118,0,4,0,216,E1ConditionalRuleE37,E1ConditionalRuleE37,"{""assertion"": 4}",refetch-changed,1.1,5.4
+ff6433e4ee13e9ca70c03fa19fe8bab548fd5995b2130cef544fcb3b5f280059,628210,crypto-risk-metrics.com,2,1,227,1,0,0,216,,,{},refetch-same-hash,1.1,5.4

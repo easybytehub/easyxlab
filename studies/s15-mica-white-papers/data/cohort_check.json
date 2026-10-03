@@ -1,0 +1,58 @@
+{
+ "snapshot": "web.archive.org 20251223101326 OTHER.csv",
+ "snapshot_rows": 625,
+ "snapshot_max_wp_lastupdate": "2025-12-22",
+ "date_formats_in_register": {
+  "dd/mm/yyyy": 1057,
+  "dd.mm.yyyy": 13,
+  "empty": 6
+ },
+ "header_rows_inside_other_csv_dropped": [
+  763,
+  1027
+ ],
+ "current_rows_other": 1026,
+ "cohort_other_rows": 414,
+ "cohort_other_by_label": {
+  "changed": 11,
+  "new": 403
+ },
+ "noncohort_absent_from_snapshot": {
+  "earlier_date": 58,
+  "no_date": 3
+ },
+ "undated_rows": [
+  [
+   "OTHER",
+   1024
+  ],
+  [
+   "OTHER",
+   1025
+  ],
+  [
+   "OTHER",
+   1026
+  ],
+  [
+   "EMTWP",
+   7
+  ],
+  [
+   "EMTWP",
+   11
+  ],
+  [
+   "EMTWP",
+   27
+  ]
+ ],
+ "dated_after_register_update": [
+  [
+   "OTHER",
+   190,
+   "02/12/2026"
+  ]
+ ],
+ "snapshot_rows_gone": 62
+}

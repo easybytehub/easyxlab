@@ -1,0 +1,1668 @@
+{
+ "collection_date": "2026-10-03",
+ "register_last_update": "2026-09-30",
+ "register_rows": {
+  "OTHER": 1026,
+  "EMTWP": 50,
+  "excluded_placeholders": 2
+ },
+ "cohort_rule": "wp_lastupdate >= 23/12/2025",
+ "cohort": {
+  "rows": 440,
+  "distinct_urls": 425,
+  "outcomes": {
+   "ixbrl-esma": 143,
+   "html": 129,
+   "pdf": 69,
+   "http-error": 30,
+   "anti-bot": 24,
+   "xhtml-no-ixbrl": 20,
+   "net-error": 15,
+   "robots": 4,
+   "ixbrl-other": 3,
+   "zip-other": 2,
+   "ixbrl-1.0": 1
+  },
+  "available": 143,
+  "available_pct": 32.5,
+  "available_ci95": [
+   28.3,
+   37.0
+  ],
+  "available_direct": 51,
+  "available_one_hop": 92,
+  "valid_direct": 24,
+  "valid_one_hop": 86,
+  "available_distinct_files": 141,
+  "valid": 110,
+  "valid_pct_of_available": 76.9,
+  "valid_pct_of_rows": 25.0,
+  "valid_distinct_files": 108,
+  "not_retrievable": 73,
+  "available_frozen_rule": 139,
+  "available_frozen_rule_pct": 31.6,
+  "available_frozen_rule_ci95": [
+   27.4,
+   36.1
+  ],
+  "available_via_client_redirect": 2,
+  "ixbrl_1_0_rows": 1,
+  "ixbrl_1_0_distinct_files": 1,
+  "ix_version_not_rechecked_available": 4,
+  "failed_assertions_error_severity_rows": {
+   "E4TokenConditionalRuleE4Units": 9,
+   "E5TokenConditionalRuleE5Units": 9,
+   "E3TokenConditionalRuleE3Units": 8,
+   "A6ConditionalRuleA4Country": 6,
+   "S2PresenceRule": 5,
+   "B1B7ConditionalRuleB5Country": 5,
+   "F9PresenceRule": 4,
+   "B1B7ConditionalRuleB4Country": 3,
+   "A6ConditionalRuleA4Subdivision": 2,
+   "E1ConditionalRuleE37": 2
+  },
+  "outcomes_frozen_rule": {
+   "html": 142,
+   "ixbrl-esma": 139,
+   "pdf": 49,
+   "robots": 38,
+   "http-error": 27,
+   "anti-bot": 24,
+   "net-error": 14,
+   "ixbrl-other": 3,
+   "xhtml-no-ixbrl": 2,
+   "ixbrl-1.0": 1,
+   "zip-other": 1
+  },
+  "ids_not_checked": 2,
+  "lei_rows_with_register_lei": 103,
+  "lei_match": 103,
+  "dti_rows_with_register_dti": 136,
+  "dti_match": 134,
+  "ffg_rows_with_register_ffg": 134,
+  "ffg_match": 130,
+  "gleif_register_lei_available": {
+   "ISSUED/ACTIVE": 102,
+   "no-lei": 39,
+   "LAPSED/ACTIVE": 2
+  },
+  "gleif_doc_offeror_lei_available": {
+   "ISSUED/ACTIVE": 114,
+   "none-tagged": 26,
+   "LAPSED/ACTIVE": 3
+  },
+  "doc_notification_before_cutoff": 6,
+  "register_without_lei": 39,
+  "doc_notification_tagged": 141,
+  "producer_rows_available": {
+   "crypto-risk-metrics.com": 77,
+   "googleapis.com": 6,
+   "socios.com": 6,
+   "okx.com": 3,
+   "methprotocol.xyz": 2,
+   "katana.network": 2,
+   "injective.com": 1,
+   "playnance.com": 1,
+   "xpin.network": 1,
+   "github.io": 1,
+   "telcoin.org": 1,
+   "growtokens.io": 1,
+   "duckchain.io": 1,
+   "pepecoin.io": 1,
+   "beldex.io": 1,
+   "infiniteuniverse.xyz": 1,
+   "bluefin.io": 1,
+   "nesa.ai": 1,
+   "confluxnetwork.org": 1,
+   "pepecoin.com": 1,
+   "hyperlend.finance": 1,
+   "sustainablebtc.org": 1,
+   "ekubo.org": 1,
+   "dgrid.ai": 1,
+   "safefoundation.org": 1,
+   "spiritprotocol.io": 1,
+   "mantrachain.io": 1,
+   "liquidmercury.com": 1,
+   "icon.foundation": 1,
+   "wojakcto.com": 1,
+   "verifiedx.io": 1,
+   "bitcoin.org.ht": 1,
+   "solstice.finance": 1,
+   "antapi1.com": 1,
+   "crosstoken.io": 1,
+   "metania.games": 1,
+   "r2.dev": 1,
+   "nyks.tech": 1,
+   "memecore.com": 1,
+   "dual.org": 1,
+   "collectorcrypt.com": 1,
+   "aleo.org": 1,
+   "polygon.technology": 1,
+   "digitalenergyplatform.com": 1,
+   "altlayer.io": 1,
+   "checkmate.foundation": 1,
+   "arbittechnologyltd.com": 1,
+   "squidrouter.com": 1,
+   "sellbuyplay.com": 1,
+   "seda.xyz": 1,
+   "sbarter.com": 1,
+   "opinion.foundation": 1,
+   "monerium.com": 1
+  },
+  "producer_rows_valid": {
+   "crypto-risk-metrics.com": 77,
+   "googleapis.com": 4,
+   "socios.com": 4,
+   "methprotocol.xyz": 2,
+   "playnance.com": 1,
+   "beldex.io": 1,
+   "bluefin.io": 1,
+   "nesa.ai": 1,
+   "pepecoin.com": 1,
+   "sustainablebtc.org": 1,
+   "dgrid.ai": 1,
+   "mantrachain.io": 1,
+   "liquidmercury.com": 1,
+   "wojakcto.com": 1,
+   "verifiedx.io": 1,
+   "bitcoin.org.ht": 1,
+   "antapi1.com": 1,
+   "memecore.com": 1,
+   "altlayer.io": 1,
+   "checkmate.foundation": 1,
+   "arbittechnologyltd.com": 1,
+   "okx.com": 1,
+   "squidrouter.com": 1,
+   "sellbuyplay.com": 1,
+   "sbarter.com": 1,
+   "opinion.foundation": 1,
+   "monerium.com": 1
+  },
+  "xhtml_no_ixbrl_hosts": {
+   "assets.bitstamp.net": 18,
+   "gen6.me": 1,
+   "mica.enso.build": 1
+  },
+  "by_home_ms": {
+   "IE": {
+    "rows": 126,
+    "available": 41
+   },
+   "DE": {
+    "rows": 101,
+    "available": 77
+   },
+   "MT": {
+    "rows": 65,
+    "available": 17
+   },
+   "LU": {
+    "rows": 47,
+    "available": 2
+   },
+   "NL": {
+    "rows": 42,
+    "available": 1
+   },
+   "FR": {
+    "rows": 15,
+    "available": 0
+   },
+   "LV": {
+    "rows": 7,
+    "available": 0
+   },
+   "EE": {
+    "rows": 5,
+    "available": 1
+   },
+   "LI": {
+    "rows": 5,
+    "available": 0
+   },
+   "AT": {
+    "rows": 4,
+    "available": 0
+   },
+   "ES": {
+    "rows": 4,
+    "available": 0
+   },
+   "IT": {
+    "rows": 3,
+    "available": 2
+   },
+   "CZ": {
+    "rows": 2,
+    "available": 0
+   },
+   "FI": {
+    "rows": 2,
+    "available": 0
+   },
+   "LT": {
+    "rows": 2,
+    "available": 0
+   },
+   "BG": {
+    "rows": 2,
+    "available": 0
+   },
+   "PT": {
+    "rows": 2,
+    "available": 0
+   },
+   "CY": {
+    "rows": 1,
+    "available": 0
+   },
+   "DK": {
+    "rows": 1,
+    "available": 1
+   },
+   "HR": {
+    "rows": 1,
+    "available": 0
+   },
+   "HU": {
+    "rows": 1,
+    "available": 0
+   },
+   "IS": {
+    "rows": 1,
+    "available": 1
+   },
+   "SI": {
+    "rows": 1,
+    "available": 0
+   }
+  },
+  "html_with_blocked_document_link": 5,
+  "by_quarter": {
+   "2025-Q4": {
+    "rows": 4,
+    "available": 0,
+    "valid": 0
+   },
+   "2026-Q1": {
+    "rows": 177,
+    "available": 48,
+    "valid": 41
+   },
+   "2026-Q2": {
+    "rows": 121,
+    "available": 50,
+    "valid": 41
+   },
+   "2026-Q3": {
+    "rows": 137,
+    "available": 45,
+    "valid": 28
+   },
+   "2026-Q4": {
+    "rows": 1,
+    "available": 0,
+    "valid": 0
+   }
+  },
+  "invalid_rows_by_kind": {
+   "assertion-only": 16,
+   "xbrl-or-ixbrl-errors": 17
+  },
+  "by_casp": {
+   "549300XIBGTJ0PLIEO72": {
+    "rows": 38,
+    "available": 0,
+    "valid": 0,
+    "outcomes": {
+     "anti-bot": 20,
+     "xhtml-no-ixbrl": 18
+    }
+   },
+   "9845003D98SCC2851458": {
+    "rows": 19,
+    "available": 5,
+    "valid": 2,
+    "outcomes": {
+     "html": 5,
+     "ixbrl-esma": 5,
+     "pdf": 3
+    }
+   },
+   "2138007WXW95L989QP22": {
+    "rows": 6,
+    "available": 3,
+    "valid": 0,
+    "outcomes": {
+     "ixbrl-esma": 3,
+     "pdf": 1,
+     "http-error": 1
+    }
+   },
+   "254900BBV7FA7LUG5913": {
+    "rows": 3,
+    "available": 0,
+    "valid": 0,
+    "outcomes": {
+     "pdf": 2,
+     "html": 1
+    }
+   }
+  },
+  "top_producer_available": {
+   "domain": "crypto-risk-metrics.com",
+   "rows": 77,
+   "distinct_files": 76,
+   "valid_rows": 77,
+   "valid_distinct_files": 76,
+   "register_lei_most_common": [
+    "39120077M9TG0O1FE242",
+    77
+   ],
+   "rows_register_lei_equals_tagged_offeror_lei": 77
+  },
+  "other_producers": {
+   "rows": 66,
+   "valid_rows": 33,
+   "domains": 52,
+   "hosting_platform_rows": 8
+  },
+  "top_producer_valid": {
+   "domain": "crypto-risk-metrics.com",
+   "rows": 77,
+   "pct": 70.0
+  }
+ },
+ "cohort_by_register": {
+  "OTHER": 414,
+  "EMTWP": 26
+ },
+ "cohort_title_ii_by_wayback_label": {
+  "changed": 11,
+  "new": 403
+ },
+ "cohort_new_only": {
+  "rows": 403,
+  "distinct_urls": 395,
+  "outcomes": {
+   "ixbrl-esma": 141,
+   "html": 123,
+   "pdf": 46,
+   "http-error": 27,
+   "anti-bot": 24,
+   "xhtml-no-ixbrl": 20,
+   "net-error": 12,
+   "robots": 4,
+   "ixbrl-other": 3,
+   "zip-other": 2,
+   "ixbrl-1.0": 1
+  },
+  "available": 141,
+  "available_pct": 35.0,
+  "available_ci95": [
+   30.5,
+   39.8
+  ],
+  "available_direct": 50,
+  "available_one_hop": 91,
+  "valid_direct": 23,
+  "valid_one_hop": 85,
+  "available_distinct_files": 139,
+  "valid": 108,
+  "valid_pct_of_available": 76.6,
+  "valid_pct_of_rows": 26.8,
+  "valid_distinct_files": 106,
+  "not_retrievable": 67,
+  "available_frozen_rule": 137,
+  "available_frozen_rule_pct": 34.0,
+  "available_frozen_rule_ci95": [
+   29.5,
+   38.8
+  ],
+  "available_via_client_redirect": 2,
+  "ixbrl_1_0_rows": 1,
+  "ixbrl_1_0_distinct_files": 1,
+  "ix_version_not_rechecked_available": 4,
+  "failed_assertions_error_severity_rows": {
+   "E4TokenConditionalRuleE4Units": 9,
+   "E5TokenConditionalRuleE5Units": 9,
+   "E3TokenConditionalRuleE3Units": 8,
+   "A6ConditionalRuleA4Country": 6,
+   "S2PresenceRule": 5,
+   "B1B7ConditionalRuleB5Country": 5,
+   "F9PresenceRule": 4,
+   "B1B7ConditionalRuleB4Country": 3,
+   "A6ConditionalRuleA4Subdivision": 2,
+   "E1ConditionalRuleE37": 2
+  },
+  "outcomes_frozen_rule": {
+   "ixbrl-esma": 137,
+   "html": 131,
+   "robots": 36,
+   "pdf": 33,
+   "http-error": 24,
+   "anti-bot": 24,
+   "net-error": 11,
+   "ixbrl-other": 3,
+   "xhtml-no-ixbrl": 2,
+   "ixbrl-1.0": 1,
+   "zip-other": 1
+  },
+  "ids_not_checked": 2,
+  "lei_rows_with_register_lei": 101,
+  "lei_match": 101,
+  "dti_rows_with_register_dti": 134,
+  "dti_match": 132,
+  "ffg_rows_with_register_ffg": 132,
+  "ffg_match": 128,
+  "gleif_register_lei_available": {
+   "ISSUED/ACTIVE": 100,
+   "no-lei": 39,
+   "LAPSED/ACTIVE": 2
+  },
+  "gleif_doc_offeror_lei_available": {
+   "ISSUED/ACTIVE": 113,
+   "none-tagged": 25,
+   "LAPSED/ACTIVE": 3
+  },
+  "doc_notification_before_cutoff": 6,
+  "register_without_lei": 39,
+  "doc_notification_tagged": 139,
+  "producer_rows_available": {
+   "crypto-risk-metrics.com": 76,
+   "googleapis.com": 6,
+   "socios.com": 6,
+   "okx.com": 3,
+   "methprotocol.xyz": 2,
+   "katana.network": 2,
+   "injective.com": 1,
+   "playnance.com": 1,
+   "xpin.network": 1,
+   "github.io": 1,
+   "telcoin.org": 1,
+   "growtokens.io": 1,
+   "duckchain.io": 1,
+   "pepecoin.io": 1,
+   "beldex.io": 1,
+   "infiniteuniverse.xyz": 1,
+   "bluefin.io": 1,
+   "nesa.ai": 1,
+   "confluxnetwork.org": 1,
+   "pepecoin.com": 1,
+   "hyperlend.finance": 1,
+   "sustainablebtc.org": 1,
+   "ekubo.org": 1,
+   "dgrid.ai": 1,
+   "safefoundation.org": 1,
+   "spiritprotocol.io": 1,
+   "mantrachain.io": 1,
+   "liquidmercury.com": 1,
+   "icon.foundation": 1,
+   "wojakcto.com": 1,
+   "verifiedx.io": 1,
+   "bitcoin.org.ht": 1,
+   "solstice.finance": 1,
+   "antapi1.com": 1,
+   "crosstoken.io": 1,
+   "metania.games": 1,
+   "r2.dev": 1,
+   "nyks.tech": 1,
+   "memecore.com": 1,
+   "dual.org": 1,
+   "collectorcrypt.com": 1,
+   "aleo.org": 1,
+   "polygon.technology": 1,
+   "digitalenergyplatform.com": 1,
+   "altlayer.io": 1,
+   "checkmate.foundation": 1,
+   "arbittechnologyltd.com": 1,
+   "squidrouter.com": 1,
+   "sellbuyplay.com": 1,
+   "seda.xyz": 1,
+   "sbarter.com": 1,
+   "opinion.foundation": 1
+  },
+  "producer_rows_valid": {
+   "crypto-risk-metrics.com": 76,
+   "googleapis.com": 4,
+   "socios.com": 4,
+   "methprotocol.xyz": 2,
+   "playnance.com": 1,
+   "beldex.io": 1,
+   "bluefin.io": 1,
+   "nesa.ai": 1,
+   "pepecoin.com": 1,
+   "sustainablebtc.org": 1,
+   "dgrid.ai": 1,
+   "mantrachain.io": 1,
+   "liquidmercury.com": 1,
+   "wojakcto.com": 1,
+   "verifiedx.io": 1,
+   "bitcoin.org.ht": 1,
+   "antapi1.com": 1,
+   "memecore.com": 1,
+   "altlayer.io": 1,
+   "checkmate.foundation": 1,
+   "arbittechnologyltd.com": 1,
+   "okx.com": 1,
+   "squidrouter.com": 1,
+   "sellbuyplay.com": 1,
+   "sbarter.com": 1,
+   "opinion.foundation": 1
+  },
+  "xhtml_no_ixbrl_hosts": {
+   "assets.bitstamp.net": 18,
+   "gen6.me": 1,
+   "mica.enso.build": 1
+  },
+  "by_home_ms": {
+   "IE": {
+    "rows": 125,
+    "available": 41
+   },
+   "DE": {
+    "rows": 94,
+    "available": 76
+   },
+   "MT": {
+    "rows": 60,
+    "available": 17
+   },
+   "LU": {
+    "rows": 44,
+    "available": 2
+   },
+   "NL": {
+    "rows": 38,
+    "available": 1
+   },
+   "FR": {
+    "rows": 9,
+    "available": 0
+   },
+   "LI": {
+    "rows": 5,
+    "available": 0
+   },
+   "LV": {
+    "rows": 5,
+    "available": 0
+   },
+   "EE": {
+    "rows": 4,
+    "available": 1
+   },
+   "ES": {
+    "rows": 4,
+    "available": 0
+   },
+   "IT": {
+    "rows": 3,
+    "available": 2
+   },
+   "AT": {
+    "rows": 2,
+    "available": 0
+   },
+   "CZ": {
+    "rows": 2,
+    "available": 0
+   },
+   "BG": {
+    "rows": 2,
+    "available": 0
+   },
+   "CY": {
+    "rows": 1,
+    "available": 0
+   },
+   "DK": {
+    "rows": 1,
+    "available": 1
+   },
+   "FI": {
+    "rows": 1,
+    "available": 0
+   },
+   "HR": {
+    "rows": 1,
+    "available": 0
+   },
+   "HU": {
+    "rows": 1,
+    "available": 0
+   },
+   "LT": {
+    "rows": 1,
+    "available": 0
+   }
+  },
+  "html_with_blocked_document_link": 5,
+  "by_quarter": {
+   "2025-Q4": {
+    "rows": 3,
+    "available": 0,
+    "valid": 0
+   },
+   "2026-Q1": {
+    "rows": 156,
+    "available": 46,
+    "valid": 39
+   },
+   "2026-Q2": {
+    "rows": 113,
+    "available": 50,
+    "valid": 41
+   },
+   "2026-Q3": {
+    "rows": 130,
+    "available": 45,
+    "valid": 28
+   },
+   "2026-Q4": {
+    "rows": 1,
+    "available": 0,
+    "valid": 0
+   }
+  },
+  "invalid_rows_by_kind": {
+   "assertion-only": 16,
+   "xbrl-or-ixbrl-errors": 17
+  },
+  "by_casp": {
+   "549300XIBGTJ0PLIEO72": {
+    "rows": 38,
+    "available": 0,
+    "valid": 0,
+    "outcomes": {
+     "anti-bot": 20,
+     "xhtml-no-ixbrl": 18
+    }
+   },
+   "9845003D98SCC2851458": {
+    "rows": 19,
+    "available": 5,
+    "valid": 2,
+    "outcomes": {
+     "html": 5,
+     "ixbrl-esma": 5,
+     "pdf": 3
+    }
+   },
+   "2138007WXW95L989QP22": {
+    "rows": 6,
+    "available": 3,
+    "valid": 0,
+    "outcomes": {
+     "ixbrl-esma": 3,
+     "pdf": 1,
+     "http-error": 1
+    }
+   },
+   "254900BBV7FA7LUG5913": {
+    "rows": 3,
+    "available": 0,
+    "valid": 0,
+    "outcomes": {
+     "pdf": 2,
+     "html": 1
+    }
+   }
+  },
+  "top_producer_available": {
+   "domain": "crypto-risk-metrics.com",
+   "rows": 76,
+   "distinct_files": 75,
+   "valid_rows": 76,
+   "valid_distinct_files": 75,
+   "register_lei_most_common": [
+    "39120077M9TG0O1FE242",
+    76
+   ],
+   "rows_register_lei_equals_tagged_offeror_lei": 76
+  },
+  "other_producers": {
+   "rows": 65,
+   "valid_rows": 32,
+   "domains": 51,
+   "hosting_platform_rows": 8
+  },
+  "top_producer_valid": {
+   "domain": "crypto-risk-metrics.com",
+   "rows": 76,
+   "pct": 70.4
+  }
+ },
+ "context_all_other_rows": {
+  "rows": 634,
+  "distinct_urls": 623,
+  "outcomes": {
+   "pdf": 411,
+   "html": 117,
+   "http-error": 43,
+   "net-error": 23,
+   "ixbrl-esma": 20,
+   "anti-bot": 6,
+   "robots": 6,
+   "xhtml-no-ixbrl": 3,
+   "ixbrl-other": 3,
+   "invalid-url": 2
+  },
+  "available": 20,
+  "available_pct": 3.2,
+  "available_ci95": [
+   2.1,
+   4.8
+  ],
+  "available_direct": 7,
+  "available_one_hop": 13,
+  "valid_direct": 1,
+  "valid_one_hop": 11,
+  "available_distinct_files": 20,
+  "valid": 12,
+  "valid_pct_of_available": 60.0,
+  "valid_pct_of_rows": 1.9,
+  "valid_distinct_files": 12,
+  "not_retrievable": 78,
+  "available_frozen_rule": 20,
+  "available_frozen_rule_pct": 3.2,
+  "available_frozen_rule_ci95": [
+   2.1,
+   4.8
+  ],
+  "available_via_client_redirect": 0,
+  "ixbrl_1_0_rows": 0,
+  "ixbrl_1_0_distinct_files": 0,
+  "ix_version_not_rechecked_available": 0,
+  "failed_assertions_error_severity_rows": {
+   "S2PresenceRule": 2,
+   "A6ConditionalRuleA4Country": 1,
+   "E3TokenConditionalRuleE3Units": 1,
+   "E4TokenConditionalRuleE4Units": 1,
+   "E5TokenConditionalRuleE5Units": 1,
+   "A5PresenceRule": 1,
+   "E1ConditionalRuleE37": 1,
+   "F11PresenceRule": 1,
+   "F14PresenceRule": 1,
+   "B1ConditionalRuleB11": 1
+  },
+  "outcomes_frozen_rule": {
+   "pdf": 408,
+   "html": 120,
+   "http-error": 43,
+   "net-error": 23,
+   "ixbrl-esma": 20,
+   "anti-bot": 6,
+   "robots": 6,
+   "xhtml-no-ixbrl": 3,
+   "ixbrl-other": 3,
+   "invalid-url": 2
+  },
+  "ids_not_checked": 0,
+  "lei_rows_with_register_lei": 14,
+  "lei_match": 14,
+  "dti_rows_with_register_dti": 1,
+  "dti_match": 1,
+  "ffg_rows_with_register_ffg": 1,
+  "ffg_match": 1,
+  "gleif_register_lei_available": {
+   "ISSUED/ACTIVE": 13,
+   "no-lei": 6,
+   "LAPSED/ACTIVE": 1
+  },
+  "gleif_doc_offeror_lei_available": {
+   "ISSUED/ACTIVE": 11,
+   "none-tagged": 8,
+   "LAPSED/ACTIVE": 1
+  },
+  "doc_notification_before_cutoff": 6,
+  "register_without_lei": 6,
+  "doc_notification_tagged": 20,
+  "producer_rows_available": {
+   "crypto-risk-metrics.com": 10,
+   "crosstoken.io": 1,
+   "pieverse.io": 1,
+   "googleapis.com": 1,
+   "polyhedra.network": 1,
+   "cityprotocol.co": 1,
+   "puffpaw.xyz": 1,
+   "okx.com": 1,
+   "irys.xyz": 1,
+   "brevis.network": 1,
+   "blueemi.com": 1
+  },
+  "producer_rows_valid": {
+   "crypto-risk-metrics.com": 10,
+   "pieverse.io": 1,
+   "googleapis.com": 1
+  },
+  "xhtml_no_ixbrl_hosts": {
+   "invest4b.eu": 1,
+   "cdn.humanity.org": 1,
+   "www.dogplanet.no": 1
+  },
+  "by_home_ms": {
+   "IE": {
+    "rows": 263,
+    "available": 3
+   },
+   "MT": {
+    "rows": 106,
+    "available": 1
+   },
+   "LI": {
+    "rows": 68,
+    "available": 0
+   },
+   "DE": {
+    "rows": 65,
+    "available": 10
+   },
+   "NL": {
+    "rows": 48,
+    "available": 2
+   },
+   "FR": {
+    "rows": 20,
+    "available": 0
+   },
+   "LU": {
+    "rows": 12,
+    "available": 2
+   },
+   "FI": {
+    "rows": 8,
+    "available": 0
+   },
+   "LV": {
+    "rows": 8,
+    "available": 0
+   },
+   "LT": {
+    "rows": 7,
+    "available": 2
+   },
+   "AT": {
+    "rows": 6,
+    "available": 0
+   },
+   "CZ": {
+    "rows": 5,
+    "available": 0
+   },
+   "IT": {
+    "rows": 5,
+    "available": 0
+   },
+   "CY": {
+    "rows": 4,
+    "available": 0
+   },
+   "ES": {
+    "rows": 4,
+    "available": 0
+   },
+   "NO": {
+    "rows": 3,
+    "available": 0
+   },
+   "DK": {
+    "rows": 2,
+    "available": 0
+   }
+  },
+  "html_with_blocked_document_link": 4,
+  "by_quarter": {
+   "2022-Q1": {
+    "rows": 1,
+    "available": 0,
+    "valid": 0
+   },
+   "2024-Q4": {
+    "rows": 4,
+    "available": 0,
+    "valid": 0
+   },
+   "2025-Q1": {
+    "rows": 33,
+    "available": 1,
+    "valid": 1
+   },
+   "2025-Q2": {
+    "rows": 160,
+    "available": 4,
+    "valid": 3
+   },
+   "2025-Q3": {
+    "rows": 201,
+    "available": 6,
+    "valid": 5
+   },
+   "2025-Q4": {
+    "rows": 230,
+    "available": 9,
+    "valid": 3
+   },
+   "?": {
+    "rows": 5,
+    "available": 0,
+    "valid": 0
+   }
+  },
+  "invalid_rows_by_kind": {
+   "assertion-only": 3,
+   "xbrl-or-ixbrl-errors": 5
+  },
+  "by_casp": {
+   "9845003D98SCC2851458": {
+    "rows": 116,
+    "available": 0,
+    "valid": 0,
+    "outcomes": {
+     "pdf": 111,
+     "html": 5
+    }
+   },
+   "529900SN07Z6RTX8R418": {
+    "rows": 62,
+    "available": 0,
+    "valid": 0,
+    "outcomes": {
+     "pdf": 58,
+     "http-error": 4
+    }
+   },
+   "2138007WXW95L989QP22": {
+    "rows": 5,
+    "available": 0,
+    "valid": 0,
+    "outcomes": {
+     "html": 2,
+     "net-error": 2,
+     "pdf": 1
+    }
+   },
+   "254900641D8KNHUZYX24": {
+    "rows": 3,
+    "available": 0,
+    "valid": 0,
+    "outcomes": {
+     "pdf": 2,
+     "html": 1
+    }
+   }
+  },
+  "top_producer_available": {
+   "domain": "crypto-risk-metrics.com",
+   "rows": 10,
+   "distinct_files": 10,
+   "valid_rows": 10,
+   "valid_distinct_files": 10,
+   "register_lei_most_common": [
+    "39120077M9TG0O1FE242",
+    10
+   ],
+   "rows_register_lei_equals_tagged_offeror_lei": 10
+  },
+  "other_producers": {
+   "rows": 10,
+   "valid_rows": 2,
+   "domains": 10,
+   "hosting_platform_rows": 1
+  },
+  "top_producer_valid": {
+   "domain": "crypto-risk-metrics.com",
+   "rows": 10,
+   "pct": 83.3
+  }
+ },
+ "whole_register": {
+  "rows": 1074,
+  "distinct_urls": 1039,
+  "outcomes": {
+   "pdf": 480,
+   "html": 246,
+   "ixbrl-esma": 163,
+   "http-error": 73,
+   "net-error": 38,
+   "anti-bot": 30,
+   "xhtml-no-ixbrl": 23,
+   "robots": 10,
+   "ixbrl-other": 6,
+   "invalid-url": 2,
+   "zip-other": 2,
+   "ixbrl-1.0": 1
+  },
+  "available": 163,
+  "available_pct": 15.2,
+  "available_ci95": [
+   13.2,
+   17.4
+  ],
+  "available_direct": 58,
+  "available_one_hop": 105,
+  "valid_direct": 25,
+  "valid_one_hop": 97,
+  "available_distinct_files": 153,
+  "valid": 122,
+  "valid_pct_of_available": 74.8,
+  "valid_pct_of_rows": 11.4,
+  "valid_distinct_files": 113,
+  "not_retrievable": 151,
+  "available_frozen_rule": 159,
+  "available_frozen_rule_pct": 14.8,
+  "available_frozen_rule_ci95": [
+   12.8,
+   17.1
+  ],
+  "available_via_client_redirect": 2,
+  "ixbrl_1_0_rows": 1,
+  "ixbrl_1_0_distinct_files": 1,
+  "ix_version_not_rechecked_available": 4,
+  "failed_assertions_error_severity_rows": {
+   "E4TokenConditionalRuleE4Units": 10,
+   "E5TokenConditionalRuleE5Units": 10,
+   "E3TokenConditionalRuleE3Units": 9,
+   "S2PresenceRule": 7,
+   "A6ConditionalRuleA4Country": 7,
+   "B1B7ConditionalRuleB5Country": 5,
+   "B1B7ConditionalRuleB4Country": 4,
+   "F9PresenceRule": 4,
+   "E1ConditionalRuleE37": 3,
+   "A6ConditionalRuleA4Subdivision": 2
+  },
+  "outcomes_frozen_rule": {
+   "pdf": 457,
+   "html": 262,
+   "ixbrl-esma": 159,
+   "http-error": 70,
+   "robots": 44,
+   "net-error": 37,
+   "anti-bot": 30,
+   "ixbrl-other": 6,
+   "xhtml-no-ixbrl": 5,
+   "invalid-url": 2,
+   "ixbrl-1.0": 1,
+   "zip-other": 1
+  },
+  "ids_not_checked": 2,
+  "lei_rows_with_register_lei": 117,
+  "lei_match": 117,
+  "dti_rows_with_register_dti": 137,
+  "dti_match": 135,
+  "ffg_rows_with_register_ffg": 135,
+  "ffg_match": 131,
+  "gleif_register_lei_available": {
+   "ISSUED/ACTIVE": 115,
+   "no-lei": 45,
+   "LAPSED/ACTIVE": 3
+  },
+  "gleif_doc_offeror_lei_available": {
+   "ISSUED/ACTIVE": 125,
+   "none-tagged": 34,
+   "LAPSED/ACTIVE": 4
+  },
+  "doc_notification_before_cutoff": 12,
+  "register_without_lei": 45,
+  "doc_notification_tagged": 161,
+  "producer_rows_available": {
+   "crypto-risk-metrics.com": 87,
+   "googleapis.com": 7,
+   "socios.com": 6,
+   "okx.com": 4,
+   "crosstoken.io": 2,
+   "methprotocol.xyz": 2,
+   "katana.network": 2,
+   "injective.com": 1,
+   "playnance.com": 1,
+   "pieverse.io": 1,
+   "xpin.network": 1,
+   "github.io": 1,
+   "telcoin.org": 1,
+   "growtokens.io": 1,
+   "duckchain.io": 1,
+   "pepecoin.io": 1,
+   "beldex.io": 1,
+   "infiniteuniverse.xyz": 1,
+   "bluefin.io": 1,
+   "nesa.ai": 1,
+   "confluxnetwork.org": 1,
+   "pepecoin.com": 1,
+   "hyperlend.finance": 1,
+   "sustainablebtc.org": 1,
+   "ekubo.org": 1,
+   "dgrid.ai": 1,
+   "safefoundation.org": 1,
+   "spiritprotocol.io": 1,
+   "mantrachain.io": 1,
+   "liquidmercury.com": 1,
+   "icon.foundation": 1,
+   "wojakcto.com": 1,
+   "verifiedx.io": 1,
+   "bitcoin.org.ht": 1,
+   "solstice.finance": 1,
+   "antapi1.com": 1,
+   "metania.games": 1,
+   "r2.dev": 1,
+   "nyks.tech": 1,
+   "memecore.com": 1,
+   "dual.org": 1,
+   "collectorcrypt.com": 1,
+   "aleo.org": 1,
+   "polygon.technology": 1,
+   "digitalenergyplatform.com": 1,
+   "polyhedra.network": 1,
+   "cityprotocol.co": 1,
+   "puffpaw.xyz": 1,
+   "altlayer.io": 1,
+   "checkmate.foundation": 1,
+   "arbittechnologyltd.com": 1,
+   "squidrouter.com": 1,
+   "sellbuyplay.com": 1,
+   "seda.xyz": 1,
+   "sbarter.com": 1,
+   "irys.xyz": 1,
+   "brevis.network": 1,
+   "opinion.foundation": 1,
+   "monerium.com": 1,
+   "blueemi.com": 1
+  },
+  "producer_rows_valid": {
+   "crypto-risk-metrics.com": 87,
+   "googleapis.com": 5,
+   "socios.com": 4,
+   "methprotocol.xyz": 2,
+   "playnance.com": 1,
+   "pieverse.io": 1,
+   "beldex.io": 1,
+   "bluefin.io": 1,
+   "nesa.ai": 1,
+   "pepecoin.com": 1,
+   "sustainablebtc.org": 1,
+   "dgrid.ai": 1,
+   "mantrachain.io": 1,
+   "liquidmercury.com": 1,
+   "wojakcto.com": 1,
+   "verifiedx.io": 1,
+   "bitcoin.org.ht": 1,
+   "antapi1.com": 1,
+   "memecore.com": 1,
+   "altlayer.io": 1,
+   "checkmate.foundation": 1,
+   "arbittechnologyltd.com": 1,
+   "okx.com": 1,
+   "squidrouter.com": 1,
+   "sellbuyplay.com": 1,
+   "sbarter.com": 1,
+   "opinion.foundation": 1,
+   "monerium.com": 1
+  },
+  "xhtml_no_ixbrl_hosts": {
+   "assets.bitstamp.net": 18,
+   "invest4b.eu": 1,
+   "gen6.me": 1,
+   "cdn.humanity.org": 1,
+   "mica.enso.build": 1,
+   "www.dogplanet.no": 1
+  },
+  "by_home_ms": {
+   "IE": {
+    "rows": 389,
+    "available": 44
+   },
+   "MT": {
+    "rows": 171,
+    "available": 18
+   },
+   "DE": {
+    "rows": 166,
+    "available": 87
+   },
+   "NL": {
+    "rows": 90,
+    "available": 3
+   },
+   "LI": {
+    "rows": 73,
+    "available": 0
+   },
+   "LU": {
+    "rows": 59,
+    "available": 4
+   },
+   "FR": {
+    "rows": 35,
+    "available": 0
+   },
+   "LV": {
+    "rows": 15,
+    "available": 0
+   },
+   "AT": {
+    "rows": 10,
+    "available": 0
+   },
+   "FI": {
+    "rows": 10,
+    "available": 0
+   },
+   "LT": {
+    "rows": 9,
+    "available": 2
+   },
+   "ES": {
+    "rows": 8,
+    "available": 0
+   },
+   "IT": {
+    "rows": 8,
+    "available": 2
+   },
+   "CZ": {
+    "rows": 7,
+    "available": 0
+   },
+   "CY": {
+    "rows": 5,
+    "available": 0
+   },
+   "EE": {
+    "rows": 5,
+    "available": 1
+   },
+   "DK": {
+    "rows": 3,
+    "available": 1
+   },
+   "NO": {
+    "rows": 3,
+    "available": 0
+   },
+   "BG": {
+    "rows": 2,
+    "available": 0
+   },
+   "PT": {
+    "rows": 2,
+    "available": 0
+   },
+   "HR": {
+    "rows": 1,
+    "available": 0
+   },
+   "HU": {
+    "rows": 1,
+    "available": 0
+   },
+   "IS": {
+    "rows": 1,
+    "available": 1
+   },
+   "SI": {
+    "rows": 1,
+    "available": 0
+   }
+  },
+  "html_with_blocked_document_link": 9,
+  "by_quarter": {
+   "2022-Q1": {
+    "rows": 1,
+    "available": 0,
+    "valid": 0
+   },
+   "2024-Q4": {
+    "rows": 4,
+    "available": 0,
+    "valid": 0
+   },
+   "2025-Q1": {
+    "rows": 33,
+    "available": 1,
+    "valid": 1
+   },
+   "2025-Q2": {
+    "rows": 160,
+    "available": 4,
+    "valid": 3
+   },
+   "2025-Q3": {
+    "rows": 201,
+    "available": 6,
+    "valid": 5
+   },
+   "2025-Q4": {
+    "rows": 234,
+    "available": 9,
+    "valid": 3
+   },
+   "2026-Q1": {
+    "rows": 177,
+    "available": 48,
+    "valid": 41
+   },
+   "2026-Q2": {
+    "rows": 121,
+    "available": 50,
+    "valid": 41
+   },
+   "2026-Q3": {
+    "rows": 137,
+    "available": 45,
+    "valid": 28
+   },
+   "2026-Q4": {
+    "rows": 1,
+    "available": 0,
+    "valid": 0
+   },
+   "?": {
+    "rows": 5,
+    "available": 0,
+    "valid": 0
+   }
+  },
+  "invalid_rows_by_kind": {
+   "assertion-only": 19,
+   "xbrl-or-ixbrl-errors": 22
+  },
+  "by_casp": {
+   "9845003D98SCC2851458": {
+    "rows": 135,
+    "available": 5,
+    "valid": 2,
+    "outcomes": {
+     "pdf": 114,
+     "html": 10,
+     "ixbrl-esma": 5
+    }
+   },
+   "529900SN07Z6RTX8R418": {
+    "rows": 62,
+    "available": 0,
+    "valid": 0,
+    "outcomes": {
+     "pdf": 58,
+     "http-error": 4
+    }
+   },
+   "549300XIBGTJ0PLIEO72": {
+    "rows": 38,
+    "available": 0,
+    "valid": 0,
+    "outcomes": {
+     "anti-bot": 20,
+     "xhtml-no-ixbrl": 18
+    }
+   },
+   "2138007WXW95L989QP22": {
+    "rows": 11,
+    "available": 3,
+    "valid": 0,
+    "outcomes": {
+     "ixbrl-esma": 3,
+     "html": 2,
+     "pdf": 2
+    }
+   },
+   "254900BBV7FA7LUG5913": {
+    "rows": 4,
+    "available": 0,
+    "valid": 0,
+    "outcomes": {
+     "pdf": 3,
+     "html": 1
+    }
+   },
+   "254900641D8KNHUZYX24": {
+    "rows": 3,
+    "available": 0,
+    "valid": 0,
+    "outcomes": {
+     "pdf": 2,
+     "html": 1
+    }
+   }
+  },
+  "top_producer_available": {
+   "domain": "crypto-risk-metrics.com",
+   "rows": 87,
+   "distinct_files": 80,
+   "valid_rows": 87,
+   "valid_distinct_files": 80,
+   "register_lei_most_common": [
+    "39120077M9TG0O1FE242",
+    87
+   ],
+   "rows_register_lei_equals_tagged_offeror_lei": 87
+  },
+  "other_producers": {
+   "rows": 76,
+   "valid_rows": 35,
+   "domains": 59,
+   "hosting_platform_rows": 9
+  },
+  "top_producer_valid": {
+   "domain": "crypto-risk-metrics.com",
+   "rows": 87,
+   "pct": 71.3
+  }
+ },
+ "documents": {
+  "distinct_files_validated": 153,
+  "valid": 113,
+  "single_xhtml": 151,
+  "failed_assertions": {
+   "E4TokenConditionalRuleE4Units": 9,
+   "E5TokenConditionalRuleE5Units": 9,
+   "E3TokenConditionalRuleE3Units": 8,
+   "S2PresenceRule": 7,
+   "A6ConditionalRuleA4Country": 6,
+   "B1B7ConditionalRuleB5Country": 5,
+   "B1B7ConditionalRuleB4Country": 4,
+   "B1trueConditionalRuleB6": 4,
+   "E22ConditionalRuleE21": 4,
+   "F9PresenceRule": 4,
+   "E1ConditionalRuleE37": 3,
+   "E3UnitsConditionalRuleE3Token": 2,
+   "E4UnitsConditionalRuleE4Token": 2,
+   "F14PresenceRule": 2,
+   "E1ConditionalRuleE31": 2,
+   "A6ConditionalRuleA4Subdivision": 2,
+   "lei-fact-checksum": 2,
+   "lei-fact-checksum-digits": 2,
+   "D5DomicileOfCompanyPresenceRule": 2,
+   "I05PresenceRule": 2
+  },
+  "files_with_failed_assertions": 33,
+  "esma_table": {
+   "2": 151,
+   "4": 2
+  },
+  "median_size_kb": 578
+ },
+ "cohort_check": {
+  "snapshot": "web.archive.org 20251223101326 OTHER.csv",
+  "snapshot_rows": 625,
+  "snapshot_max_wp_lastupdate": "2025-12-22",
+  "date_formats_in_register": {
+   "dd/mm/yyyy": 1057,
+   "dd.mm.yyyy": 13,
+   "empty": 6
+  },
+  "header_rows_inside_other_csv_dropped": [
+   763,
+   1027
+  ],
+  "current_rows_other": 1026,
+  "cohort_other_rows": 414,
+  "cohort_other_by_label": {
+   "changed": 11,
+   "new": 403
+  },
+  "noncohort_absent_from_snapshot": {
+   "earlier_date": 58,
+   "no_date": 3
+  },
+  "undated_rows": [
+   [
+    "OTHER",
+    1024
+   ],
+   [
+    "OTHER",
+    1025
+   ],
+   [
+    "OTHER",
+    1026
+   ],
+   [
+    "EMTWP",
+    7
+   ],
+   [
+    "EMTWP",
+    11
+   ],
+   [
+    "EMTWP",
+    27
+   ]
+  ],
+  "dated_after_register_update": [
+   [
+    "OTHER",
+    190,
+    "02/12/2026"
+   ]
+  ],
+  "snapshot_rows_gone": 62
+ },
+ "paper_pairs": [
+  "0 of 0",
+  "0 of 1",
+  "0 of 10",
+  "0 of 116",
+  "0 of 15",
+  "0 of 2",
+  "0 of 20",
+  "0 of 3",
+  "0 of 35",
+  "0 of 38",
+  "0 of 4",
+  "0 of 5",
+  "0 of 6",
+  "0 of 62",
+  "0 of 634",
+  "0 of 68",
+  "0 of 7",
+  "0 of 73",
+  "0 of 8",
+  "0 of 9",
+  "1 of 1",
+  "1 of 106",
+  "1 of 1074",
+  "1 of 26",
+  "1 of 3",
+  "1 of 33",
+  "1 of 38",
+  "1 of 4",
+  "1 of 403",
+  "1 of 42",
+  "1 of 440",
+  "1 of 5",
+  "1 of 7",
+  "10 of 10",
+  "10 of 12",
+  "10 of 65",
+  "101 of 101",
+  "103 of 103",
+  "106 of 139",
+  "108 of 141",
+  "11 of 13",
+  "110 of 143",
+  "113 of 153",
+  "117 of 117",
+  "12 of 20",
+  "122 of 163",
+  "128 of 132",
+  "130 of 134",
+  "131 of 135",
+  "132 of 134",
+  "134 of 136",
+  "135 of 137",
+  "137 of 403",
+  "139 of 440",
+  "14 of 14",
+  "141 of 403",
+  "143 of 440",
+  "151 of 1074",
+  "151 of 153",
+  "159 of 1074",
+  "163 of 1074",
+  "17 of 60",
+  "17 of 65",
+  "18 of 171",
+  "2 of 10",
+  "2 of 12",
+  "2 of 3",
+  "2 of 44",
+  "2 of 47",
+  "2 of 48",
+  "2 of 5",
+  "2 of 7",
+  "2 of 8",
+  "2 of 9",
+  "20 of 634",
+  "23 of 50",
+  "24 of 51",
+  "25 of 58",
+  "28 of 45",
+  "3 of 11",
+  "3 of 263",
+  "3 of 4",
+  "3 of 6",
+  "3 of 9",
+  "3 of 90",
+  "32 of 65",
+  "33 of 66",
+  "35 of 76",
+  "39 of 46",
+  "4 of 160",
+  "4 of 59",
+  "41 of 125",
+  "41 of 126",
+  "41 of 48",
+  "41 of 50",
+  "44 of 389",
+  "45 of 130",
+  "45 of 137",
+  "46 of 156",
+  "48 of 177",
+  "5 of 135",
+  "5 of 19",
+  "5 of 6",
+  "50 of 113",
+  "50 of 121",
+  "6 of 201",
+  "67 of 403",
+  "73 of 440",
+  "75 of 106",
+  "76 of 108",
+  "76 of 76",
+  "76 of 94",
+  "77 of 101",
+  "77 of 110",
+  "77 of 77",
+  "78 of 634",
+  "80 of 113",
+  "85 of 91",
+  "86 of 92",
+  "87 of 122",
+  "87 of 166",
+  "87 of 87",
+  "9 of 230",
+  "9 of 234",
+  "97 of 105"
+ ]
+}

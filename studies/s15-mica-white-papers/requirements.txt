@@ -1,0 +1,4 @@
+arelle-release==2.46.0
+lxml>=5
+requests>=2.31
+pytest>=8
