@@ -1,0 +1,365 @@
+{
+ "hosts_robots_3xx": 51,
+ "hosts": [
+  {
+   "host": "agriculture.gov.mt",
+   "robots_after_redirects": "absent",
+   "status": 403,
+   "requests_made": 1,
+   "would_be_disallowed": 0
+  },
+  {
+   "host": "apps.sgu.se",
+   "robots_after_redirects": "server-error",
+   "status": 502,
+   "requests_made": 1,
+   "would_be_disallowed": 0
+  },
+  {
+   "host": "data.europa.eu",
+   "robots_after_redirects": "ok",
+   "status": 200,
+   "requests_made": 1,
+   "would_be_disallowed": 0
+  },
+  {
+   "host": "datacvr.virk.dk",
+   "robots_after_redirects": "ok",
+   "status": 200,
+   "requests_made": 1,
+   "would_be_disallowed": 0
+  },
+  {
+   "host": "geoservices.madeira.gov.pt",
+   "robots_after_redirects": "server-error",
+   "status": 503,
+   "requests_made": 1,
+   "would_be_disallowed": 0
+  },
+  {
+   "host": "heis.vuv.cz",
+   "robots_after_redirects": "ok",
+   "status": 200,
+   "requests_made": 4,
+   "would_be_disallowed": 0
+  },
+  {
+   "host": "inspire.rdw.nl",
+   "robots_after_redirects": "error:TimeoutError: The read operation timed out",
+   "status": null,
+   "requests_made": 1,
+   "would_be_disallowed": 0
+  },
+  {
+   "host": "kort.plandata.dk",
+   "robots_after_redirects": "ok",
+   "status": 200,
+   "requests_made": 1,
+   "would_be_disallowed": 1
+  },
+  {
+   "host": "mapas.igme.es",
+   "robots_after_redirects": "absent",
+   "status": 404,
+   "requests_made": 1,
+   "would_be_disallowed": 0
+  },
+  {
+   "host": "miljoegis.mim.dk",
+   "robots_after_redirects": "ok",
+   "status": 200,
+   "requests_made": 1,
+   "would_be_disallowed": 1
+  },
+  {
+   "host": "opendata.chmi.cz",
+   "robots_after_redirects": "absent",
+   "status": 404,
+   "requests_made": 2,
+   "would_be_disallowed": 0
+  },
+  {
+   "host": "publications.europa.eu",
+   "robots_after_redirects": "ok",
+   "status": 200,
+   "requests_made": 2,
+   "would_be_disallowed": 0
+  },
+  {
+   "host": "s3.storage.pub.lvdc.gov.lv",
+   "robots_after_redirects": "absent",
+   "status": 404,
+   "requests_made": 3,
+   "would_be_disallowed": 0
+  },
+  {
+   "host": "veterinarstvo.hr",
+   "robots_after_redirects": "html",
+   "status": 200,
+   "requests_made": 2,
+   "would_be_disallowed": 0
+  },
+  {
+   "host": "waterlevel.ie",
+   "robots_after_redirects": "ok",
+   "status": 200,
+   "requests_made": 3,
+   "would_be_disallowed": 0
+  },
+  {
+   "host": "www.pria.ee",
+   "robots_after_redirects": "ok",
+   "status": 200,
+   "requests_made": 1,
+   "would_be_disallowed": 0
+  },
+  {
+   "host": "www.raa.se",
+   "robots_after_redirects": "ok",
+   "status": 200,
+   "requests_made": 1,
+   "would_be_disallowed": 0
+  },
+  {
+   "host": "www.rapportage.eaufrance.fr",
+   "robots_after_redirects": "error:URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)>",
+   "status": null,
+   "requests_made": 7,
+   "would_be_disallowed": 0
+  },
+  {
+   "host": "www.veterinarstvo.hr",
+   "robots_after_redirects": "html",
+   "status": 200,
+   "requests_made": 3,
+   "would_be_disallowed": 0
+  },
+  {
+   "host": "aks.maaruum.ee",
+   "robots_after_redirects": "absent",
+   "status": 404,
+   "requests_made": 3,
+   "would_be_disallowed": 0
+  },
+  {
+   "host": "app.geology.cz",
+   "robots_after_redirects": "html",
+   "status": 200,
+   "requests_made": 3,
+   "would_be_disallowed": 0
+  },
+  {
+   "host": "confluence.sdfi.dk",
+   "robots_after_redirects": "ok",
+   "status": 200,
+   "requests_made": 1,
+   "would_be_disallowed": 0
+  },
+  {
+   "host": "dataplatform.omgeving.vlaanderen.be",
+   "robots_after_redirects": "absent",
+   "status": 400,
+   "requests_made": 2,
+   "would_be_disallowed": 0
+  },
+  {
+   "host": "daten-hamburg.de",
+   "robots_after_redirects": "absent",
+   "status": 404,
+   "requests_made": 1,
+   "would_be_disallowed": 0
+  },
+  {
+   "host": "doi.org",
+   "robots_after_redirects": "absent",
+   "status": 404,
+   "requests_made": 1,
+   "would_be_disallowed": 0
+  },
+  {
+   "host": "esploradati.istat.it",
+   "robots_after_redirects": "html",
+   "status": 200,
+   "requests_made": 9,
+   "would_be_disallowed": 0
+  },
+  {
+   "host": "geoportal.hessen.de",
+   "robots_after_redirects": "ok",
+   "status": 200,
+   "requests_made": 2,
+   "would_be_disallowed": 0
+  },
+  {
+   "host": "geoservices.ign.fr",
+   "robots_after_redirects": "ok",
+   "status": 200,
+   "requests_made": 1,
+   "would_be_disallowed": 0
+  },
+  {
+   "host": "geotorget.lantmateriet.se",
+   "robots_after_redirects": "html",
+   "status": 200,
+   "requests_made": 1,
+   "would_be_disallowed": 0
+  },
+  {
+   "host": "gisportal.mst.dk",
+   "robots_after_redirects": "html",
+   "status": 200,
+   "requests_made": 8,
+   "would_be_disallowed": 0
+  },
+  {
+   "host": "ilmateenistus.ee",
+   "robots_after_redirects": "ok",
+   "status": 200,
+   "requests_made": 4,
+   "would_be_disallowed": 0
+  },
+  {
+   "host": "inspire-geoportal.lt",
+   "robots_after_redirects": "absent",
+   "status": 404,
+   "requests_made": 10,
+   "would_be_disallowed": 0
+  },
+  {
+   "host": "inspire.brandenburg.de",
+   "robots_after_redirects": "html",
+   "status": 200,
+   "requests_made": 2,
+   "would_be_disallowed": 0
+  },
+  {
+   "host": "inspire.rdw.nl",
+   "robots_after_redirects": "error:TimeoutError: The read operation timed out",
+   "status": null,
+   "requests_made": 1,
+   "would_be_disallowed": 0
+  },
+  {
+   "host": "kyst.dk",
+   "robots_after_redirects": "absent",
+   "status": 404,
+   "requests_made": 1,
+   "would_be_disallowed": 0
+  },
+  {
+   "host": "maps.bodemdata.nl",
+   "robots_after_redirects": "html",
+   "status": 200,
+   "requests_made": 4,
+   "would_be_disallowed": 0
+  },
+  {
+   "host": "meteohub.agenziaitaliameteo.it",
+   "robots_after_redirects": "html",
+   "status": 200,
+   "requests_made": 2,
+   "would_be_disallowed": 0
+  },
+  {
+   "host": "opendata.lounaistieto.fi",
+   "robots_after_redirects": "absent",
+   "status": 404,
+   "requests_made": 1,
+   "would_be_disallowed": 0
+  },
+  {
+   "host": "satiladu.maaamet.ee",
+   "robots_after_redirects": "html",
+   "status": 200,
+   "requests_made": 1,
+   "would_be_disallowed": 0
+  },
+  {
+   "host": "search.vpb.lt",
+   "robots_after_redirects": "absent",
+   "status": 403,
+   "requests_made": 2,
+   "would_be_disallowed": 0
+  },
+  {
+   "host": "sle.mps.hr",
+   "robots_after_redirects": "html",
+   "status": 200,
+   "requests_made": 1,
+   "would_be_disallowed": 0
+  },
+  {
+   "host": "sniambgeoviewer.apambiente.pt",
+   "robots_after_redirects": "error:robots-too-many-redirects",
+   "status": null,
+   "requests_made": 5,
+   "would_be_disallowed": 0
+  },
+  {
+   "host": "statistikbanken.dk",
+   "robots_after_redirects": "html",
+   "status": 200,
+   "requests_made": 9,
+   "would_be_disallowed": 0
+  },
+  {
+   "host": "tpdr.planuojustatau.lt",
+   "robots_after_redirects": "absent",
+   "status": 400,
+   "requests_made": 3,
+   "would_be_disallowed": 0
+  },
+  {
+   "host": "tpdris.planuojustatau.lt",
+   "robots_after_redirects": "absent",
+   "status": 400,
+   "requests_made": 2,
+   "would_be_disallowed": 0
+  },
+  {
+   "host": "wms.inspire.geoportail.lu",
+   "robots_after_redirects": "error:robots-too-many-redirects",
+   "status": null,
+   "requests_made": 10,
+   "would_be_disallowed": 0
+  },
+  {
+   "host": "www.era.org.mt",
+   "robots_after_redirects": "absent",
+   "status": 403,
+   "requests_made": 1,
+   "would_be_disallowed": 0
+  },
+  {
+   "host": "www.geoportal-raumordnung-bw.de",
+   "robots_after_redirects": "html",
+   "status": 200,
+   "requests_made": 3,
+   "would_be_disallowed": 0
+  },
+  {
+   "host": "www.kulturarv.dk",
+   "robots_after_redirects": "error:TimeoutError: timed out",
+   "status": null,
+   "requests_made": 10,
+   "would_be_disallowed": 0
+  },
+  {
+   "host": "www.mapama.es",
+   "robots_after_redirects": "html",
+   "status": 200,
+   "requests_made": 1,
+   "would_be_disallowed": 0
+  },
+  {
+   "host": "www.mapama.gob.es",
+   "robots_after_redirects": "ok",
+   "status": 200,
+   "requests_made": 20,
+   "would_be_disallowed": 0
+  }
+ ],
+ "requests_made_total": 162,
+ "would_be_disallowed_total": 2,
+ "robots_unreadable_after_redirects": 8
+}

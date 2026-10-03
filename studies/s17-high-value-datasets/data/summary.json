@@ -1,0 +1,286 @@
+{
+ "snapshot_utc": "2026-10-03T11:12:44Z",
+ "census_total": 27972,
+ "census_member_states": 27909,
+ "census_non_ms": 63,
+ "member_states_with_hvd": 20,
+ "member_states_zero": [
+  "BG",
+  "CY",
+  "HU",
+  "PL",
+  "RO",
+  "SI",
+  "SK"
+ ],
+ "de_hvd": 19162,
+ "de_share_pct": 68.5,
+ "portal_total_datasets": 1728744,
+ "category_without_eli_total": 13948,
+ "category_without_eli_member_states": 12457,
+ "eli_without_category_census": 1033,
+ "eli_datasets_rdf": {
+  "0": 1047,
+  "1": 26950
+ },
+ "malformed_eli_triples": 25,
+ "datasets_only_malformed_eli": 0,
+ "distributions": 152679,
+ "distributions_with_eli": 133332,
+ "distributions_with_eli_pct": 87.3,
+ "distribution_licence_classes": {
+  "A": 58133,
+  "B": 53327,
+  "C": 2414,
+  "D": 29602,
+  "E": 4291,
+  "N": 4912
+ },
+ "datasets_licence": {
+  "pass": 17104,
+  "fail": 7483,
+  "unclear": 1577,
+  "none": 1808
+ },
+ "datasets_licence_pct": {
+  "pass": 61.1,
+  "fail": 26.8,
+  "unclear": 5.6,
+  "none": 6.5
+ },
+ "datasets_licence_D1": {
+  "pass": 17813,
+  "fail": 7483,
+  "unclear": 868,
+  "none": 1808
+ },
+ "datasets_with_closed_or_nc": 7374,
+ "datasets_with_share_alike": 127,
+ "licence_none_confirmed_rdf": 1456,
+ "licence_none_rights_only": 225,
+ "licence_none_but_in_rdf": 127,
+ "licence_none_confirmed_pct": 5.2,
+ "ttl_sample_n": 50,
+ "ttl_sample_without_licence_or_rights": 50,
+ "api_modelled": 5146,
+ "api_modelled_pct": 18.4,
+ "api_inferable_only": 18145,
+ "api_none": 4681,
+ "odm_p12_yes": 25,
+ "odm_q5_yes": 21,
+ "gap_classes": {
+  "consistent-yes": 19,
+  "consistent-no": 1,
+  "self-yes-portal-zero": 6,
+  "self-no-portal-some": 1
+ },
+ "self_yes_portal_zero": [
+  "CY",
+  "HU",
+  "PL",
+  "RO",
+  "SI",
+  "SK"
+ ],
+ "self_no_portal_some": [
+  "GR"
+ ],
+ "reach_sampled": 1699,
+ "reach_requested": 1510,
+ "reach_ok": 1387,
+ "reach_ok_pct": 91.9,
+ "reach_ok_weighted_pct": 95.5,
+ "reach_outcomes": {
+  "ok": 1387,
+  "skipped_robots": 188,
+  "client_error_notfound": 45,
+  "client_error_auth": 35,
+  "client_error_other": 22,
+  "server_error": 5,
+  "network": 16,
+  "bad_url": 1
+ },
+ "reach_ok_html_of_range_get": [
+  301,
+  998
+ ],
+ "reach_member_states": 20,
+ "reach_hosts": 435,
+ "gap_classes_q5": {
+  "consistent-yes": 18,
+  "consistent-no": 4,
+  "self-yes-portal-zero": 3,
+  "self-no-portal-some": 2
+ },
+ "zero_states_q5": {
+  "BG": "no",
+  "CY": "yes",
+  "HU": "no",
+  "PL": "no",
+  "RO": "no",
+  "SI": "yes",
+  "SK": "yes"
+ },
+ "q5_no_with_hvd": {
+  "EE": 87,
+  "GR": 1281
+ },
+ "licence_other_closed_as_E": {
+  "pass": 17104,
+  "fail": 1628,
+  "unclear": 7432,
+  "none": 1808
+ },
+ "licence_other_closed_as_E_fail_pct": 5.8,
+ "licence_fail_only_other_closed": 5855,
+ "licence_verdicts_recomputed_from_values_mismatch": 0,
+ "de_komserv4gdi_rlp": 10032,
+ "de_komserv4gdi_rlp_pct_of_de": 52.4,
+ "de_rlp_sources": 12798,
+ "de_rlp_pct_of_de": 66.8,
+ "de_rlp_pct_of_census": 45.8,
+ "de_rlp_fail": 6963,
+ "census_surplus_records_same_base_id": 446,
+ "surplus_records_by_ms": {
+  "DE": 2,
+  "ES": 421,
+  "IT": 6,
+  "LV": 17
+ },
+ "census_distinct_base_ids": 27526,
+ "half_tagged_records": 13948,
+ "half_tagged_distinct_base_ids": 13054,
+ "half_tagged_twins_of_census": 992,
+ "half_tagged_distinct_not_in_census": 12062,
+ "govdata_tilde_records": 1111,
+ "half_tagged_twins_of_govdata": 255,
+ "half_tagged_twins_of_govdata_by_catalogue": {
+  "gdi-de": 183,
+  "none": 72
+ },
+ "robots_redirect_audit": {
+  "hosts_robots_3xx": 51,
+  "requests_made_total": 162,
+  "would_be_disallowed_total": 2,
+  "robots_unreadable_after_redirects": 8
+ },
+ "reach_d5_sensitivity": {
+  "hosts_excluded": 7,
+  "requested": 1484,
+  "ok": 1361,
+  "ok_pct": 91.7
+ },
+ "poland_id_ranges": {
+  "found_max_id": 9156,
+  "missing_min_id": 18216,
+  "advertised_last_page": "https://api.dane.gov.pl/1.4/catalog.rdf?page=500&sort=id",
+  "items_per_page": 20,
+  "advertised_pages_x_per_page": 10000,
+  "total_items": 28132,
+  "page_500_last_id": 12585,
+  "page_501_serves_datasets": 20,
+  "page_501_first_id": 12586,
+  "edp_dane_gov_pl_records": 9989
+ },
+ "poland_feed_hvd_pages": {
+  "4": {
+   "ec_list_ids_on_page": [
+    137
+   ],
+   "applicableLegislation": 0,
+   "hvdCategory": 0,
+   "eli_2023_138": 0,
+   "dcat_license": 78,
+   "dct_license": 0
+  },
+  "9": {
+   "ec_list_ids_on_page": [
+    313
+   ],
+   "applicableLegislation": 0,
+   "hvdCategory": 0,
+   "eli_2023_138": 0,
+   "dcat_license": 140,
+   "dct_license": 0
+  },
+  "21": {
+   "ec_list_ids_on_page": [
+    733
+   ],
+   "applicableLegislation": 0,
+   "hvdCategory": 0,
+   "eli_2023_138": 0,
+   "dcat_license": 2422,
+   "dct_license": 0
+  },
+  "27": {
+   "ec_list_ids_on_page": [
+    925
+   ],
+   "applicableLegislation": 0,
+   "hvdCategory": 0,
+   "eli_2023_138": 0,
+   "dcat_license": 1258,
+   "dct_license": 0
+  },
+  "43": {
+   "ec_list_ids_on_page": [
+    1499
+   ],
+   "applicableLegislation": 0,
+   "hvdCategory": 0,
+   "eli_2023_138": 0,
+   "dcat_license": 209,
+   "dct_license": 0
+  },
+  "60": {
+   "ec_list_ids_on_page": [
+    2059,
+    2060
+   ],
+   "applicableLegislation": 0,
+   "hvdCategory": 0,
+   "eli_2023_138": 0,
+   "dcat_license": 152,
+   "dct_license": 0
+  }
+ },
+ "poland": {
+  "source_flag_ec_list": 120,
+  "source_flag_national": 18297,
+  "ec_list_found_on_edp": 96,
+  "ec_list_found_with_eli": 0,
+  "ec_list_found_with_category": 0,
+  "ec_list_found_with_dist_licence": 0
+ },
+ "poland_edp_catalogue": {
+  "count_reported": 9989,
+  "records": 9989,
+  "with_eli": 0,
+  "with_category": 0,
+  "with_hvd_keyword": 1,
+  "with_dist_licence": 0
+ },
+ "poland_feed_page1": {
+  "status": 200,
+  "bytes": 1600438,
+  "datasets": 20,
+  "distributions": 970,
+  "applicableLegislation": 0,
+  "hvdCategory": 0,
+  "eli_2023_138": 0,
+  "dct_license": 0,
+  "dcat_license": 970,
+  "hydra_next_page": true,
+  "ns": [
+   [
+    "dcat",
+    "http://www.w3.org/ns/dcat#"
+   ],
+   [
+    "dct",
+    "http://purl.org/dc/terms/"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,45 @@
+member_state,rank,source_in_dataset_id,records,share_of_member_state_pct
+AT,1,(no host in ID),32,100.0
+BE,1,(no host in ID),441,58.1
+BE,2,geodata-wallonie-be,246,32.4
+BE,3,doi-10-24417-bmdc-be,72,9.5
+CZ,1,geoportal-gov,115,40.8
+CZ,2,data-csu-gov,76,27.0
+CZ,3,heis-vuv-cz,30,10.6
+DE,1,komserv4gdi-service24-rlp-de,10032,52.4
+DE,2,(no host in ID),5972,31.2
+DE,3,geoportal-koblenz-de,555,2.9
+DK,1,(no host in ID),47,34.3
+DK,2,envi-data-gov,39,28.5
+DK,3,haleconnect-com,25,18.2
+EE,1,(no host in ID),71,81.6
+EE,2,oai-andmed-eesti-ee,16,18.4
+ES,1,(no host in ID),1501,79.9
+ES,2,datosabiertos-navarra-es,193,10.3
+ES,3,urn-ine-es,185,9.8
+EUROPE,1,(no host in ID),54,100.0
+FI,1,(no host in ID),49,100.0
+FR,1,sandre-eaufrance-fr,423,55.2
+FR,2,(no host in ID),170,22.2
+FR,3,shom-fr,53,6.9
+GR,1,(no host in ID),1281,100.0
+HR,1,(no host in ID),71,91.0
+HR,2,v2-imovina-hr,2,2.6
+HR,3,data-gov,1,1.3
+IE,1,(no host in ID),330,95.7
+IE,2,arcgis-com,15,4.3
+IS,1,(no host in ID),2,100.0
+IT,1,(no host in ID),186,100.0
+LT,1,data-gov,382,68.0
+LT,2,(no host in ID),180,32.0
+LU,1,(no host in ID),410,100.0
+LV,1,(no host in ID),622,100.0
+MT,1,(no host in ID),133,84.2
+MT,2,-https-irisapi-nso-gov,25,15.8
+NL,1,(no host in ID),451,100.0
+NO,1,(no host in ID),3,100.0
+PT,1,(no host in ID),305,100.0
+RS,1,(no host in ID),4,100.0
+SE,1,geodata-se,132,36.9
+SE,2,data-naturvardsverket-se,74,20.7
+SE,3,opendata-catalog-smhi-se,56,15.6

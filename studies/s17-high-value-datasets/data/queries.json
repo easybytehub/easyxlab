@@ -1,0 +1,149 @@
+[
+ {
+  "kind": "census-scroll",
+  "url": "https://data.europa.eu/api/hub/search/search?filter=dataset&facets=%7B%22is_hvd%22%3A+%5B%22true%22%5D%7D&limit=500&scroll=true&includes=id%2Ccountry.id%2Ccatalog.id%2Cis_hvd%2Chvd_category.id%2Capplicable_legislation%2Ckeywords.id%2Caccess_right.resource%2Cdistributions.id%2Cdistributions.license.id%2Cdistributions.license.resource%2Cdistributions.access_url%2Cdistributions.download_url%2Cdistributions.format.id%2Cdistributions.access_service%2Cdistributions.applicable_legislation%2Cdistributions.rights",
+  "utc": "2026-10-03T11:12:41Z",
+  "result": {
+   "count_reported": 27972,
+   "records_written": 27972,
+   "started": "2026-10-03T11:11:39Z",
+   "finished": "2026-10-03T11:12:41Z"
+  }
+ },
+ {
+  "kind": "country_totals",
+  "url": "https://data.europa.eu/api/hub/search/search?filter=dataset&limit=0&facetGroupOperator=AND",
+  "utc": "2026-10-03T11:12:43Z",
+  "result": {
+   "count": 1728744
+  }
+ },
+ {
+  "kind": "hvd_facets",
+  "url": "https://data.europa.eu/api/hub/search/search?filter=dataset&limit=0&facetGroupOperator=AND&facets=%7B%22is_hvd%22%3A+%5B%22true%22%5D%7D",
+  "utc": "2026-10-03T11:12:44Z",
+  "result": {
+   "count": 27972
+  }
+ },
+ {
+  "kind": "catalogues",
+  "url": "https://data.europa.eu/api/hub/search/search?filter=catalogue",
+  "utc": "2026-10-03T11:12:47Z",
+  "result": {
+   "catalogues": 212
+  }
+ },
+ {
+  "kind": "h1-category-without-eli",
+  "endpoint": "https://data.europa.eu/sparql",
+  "query": "PREFIX dcat:<http://www.w3.org/ns/dcat#> PREFIX dcatap:<http://data.europa.eu/r5r/> PREFIX dct:<http://purl.org/dc/terms/> SELECT (COUNT(DISTINCT ?d) AS ?n) WHERE { ?d a dcat:Dataset ; dcatap:hvdCategory ?c . FILTER NOT EXISTS { ?d dcatap:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj> } }",
+  "utc": "2026-10-03T11:14:10Z",
+  "result": 13948
+ },
+ {
+  "kind": "h1-by-catalogue",
+  "endpoint": "https://data.europa.eu/sparql",
+  "query": "PREFIX dcat:<http://www.w3.org/ns/dcat#> PREFIX dcatap:<http://data.europa.eu/r5r/> PREFIX dct:<http://purl.org/dc/terms/> SELECT ?cat (COUNT(DISTINCT ?d) AS ?n) WHERE { ?d a dcat:Dataset ; dcatap:hvdCategory ?c . FILTER NOT EXISTS { ?d dcatap:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj> } OPTIONAL { ?cat dcat:dataset ?d } } GROUP BY ?cat",
+  "utc": "2026-10-03T11:14:10Z",
+  "result": 20
+ },
+ {
+  "kind": "eli-datasets-by-category",
+  "endpoint": "https://data.europa.eu/sparql",
+  "query": "PREFIX dcat:<http://www.w3.org/ns/dcat#> PREFIX dcatap:<http://data.europa.eu/r5r/> PREFIX dct:<http://purl.org/dc/terms/> SELECT ?hasCat (COUNT(DISTINCT ?d) AS ?n) WHERE { ?d a dcat:Dataset ; dcatap:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj> . BIND(EXISTS { ?d dcatap:hvdCategory ?c } AS ?hasCat) } GROUP BY ?hasCat",
+  "utc": "2026-10-03T11:14:11Z",
+  "result": {
+   "0": 1047,
+   "1": 26950
+  }
+ },
+ {
+  "kind": "h2-malformed-eli",
+  "endpoint": "https://data.europa.eu/sparql",
+  "query": "PREFIX dcat:<http://www.w3.org/ns/dcat#> PREFIX dcatap:<http://data.europa.eu/r5r/> PREFIX dct:<http://purl.org/dc/terms/> SELECT ?l ?t (COUNT(DISTINCT ?s) AS ?n) WHERE { ?s dcatap:applicableLegislation ?l . FILTER(?l != <http://data.europa.eu/eli/reg_impl/2023/138/oj> && (CONTAINS(STR(?l),'2023/138') || CONTAINS(STR(?l),'32023R0138') || CONTAINS(LCASE(STR(?l)),'2023_138'))) OPTIONAL { ?s a ?t } } GROUP BY ?l ?t",
+  "utc": "2026-10-03T11:14:18Z",
+  "result": 5
+ },
+ {
+  "kind": "h2-datasets-only-malformed",
+  "endpoint": "https://data.europa.eu/sparql",
+  "query": "PREFIX dcat:<http://www.w3.org/ns/dcat#> PREFIX dcatap:<http://data.europa.eu/r5r/> PREFIX dct:<http://purl.org/dc/terms/> SELECT ?l ?cat (COUNT(DISTINCT ?d) AS ?n) WHERE { ?d a dcat:Dataset ; dcatap:applicableLegislation ?l . FILTER(?l != <http://data.europa.eu/eli/reg_impl/2023/138/oj> && (CONTAINS(STR(?l),'2023/138') || CONTAINS(STR(?l),'32023R0138') || CONTAINS(LCASE(STR(?l)),'2023_138'))) FILTER NOT EXISTS { ?d dcatap:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj> } OPTIONAL { ?cat dcat:dataset ?d } } GROUP BY ?l ?cat",
+  "utc": "2026-10-03T11:14:26Z",
+  "result": 0
+ },
+ {
+  "kind": "eli-subjects-by-type",
+  "endpoint": "https://data.europa.eu/sparql",
+  "query": "PREFIX dcat:<http://www.w3.org/ns/dcat#> PREFIX dcatap:<http://data.europa.eu/r5r/> PREFIX dct:<http://purl.org/dc/terms/> SELECT ?t (COUNT(DISTINCT ?s) AS ?n) WHERE { ?s dcatap:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj> . ?s a ?t } GROUP BY ?t",
+  "utc": "2026-10-03T11:14:32Z",
+  "result": {
+   "http://entryscape.com/terms/ServiceDistribution": 132,
+   "https://data.gov.cz/slovník/nkod/typ-datové-sady-dle-zdroje/Formulář": 6,
+   "https://data.dia.gov.cz/zdroj/číselníky/typ-datové-sady/položky/datová-sada-s-vysokou-hodnotou-hvd": 270,
+   "http://www.w3.org/ns/dcat#Dataset": 27997,
+   "http://www.w3.org/ns/dcat#DatasetSeries": 21,
+   "http://www.w3.org/ns/adms#Identifier": 248,
+   "https://data.gov.cz/slovník/nkod/typ-datové-sady-dle-zdroje/DokumentyDCAT": 276,
+   "http://entryscape.com/terms/ServedByDataService": 165,
+   "http://www.w3.org/2000/01/rdf-schema#Resource": 407,
+   "http://www.w3.org/ns/dcat#DataService": 5036,
+   "https://data.dia.gov.cz/zdroj/číselníky/typ-datové-sady/položky/otevřená-data": 270,
+   "http://xmlns.com/foaf/0.1/Document": 431,
+   "http://entryscape.com/terms/IndependentDataService": 70,
+   "http://dati.gov.it/onto/dcatapit#Distribution": 228,
+   "http://www.w3.org/ns/dcat#Distribution": 134054,
+   "https://data.gov.cz/slovník/nkod/typ-datové-sady-dle-zdroje/LKOD": 276,
+   "http://dati.gov.it/onto/dcatapit#Dataset": 180
+  }
+ },
+ {
+  "kind": "api-served-eli-datasets",
+  "endpoint": "https://data.europa.eu/sparql",
+  "query": "PREFIX dcat:<http://www.w3.org/ns/dcat#> PREFIX dcatap:<http://data.europa.eu/r5r/> PREFIX dct:<http://purl.org/dc/terms/> SELECT DISTINCT ?d WHERE { ?d a dcat:Dataset ; dcatap:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj> . { ?s dcat:servesDataset ?d } UNION { ?d dcat:distribution ?x . ?x dcat:accessService ?s } }",
+  "utc": "2026-10-03T11:14:33Z",
+  "result": 5169
+ },
+ {
+  "kind": "licence-confirmation",
+  "endpoint": "https://data.europa.eu/sparql",
+  "query": "VALUES batches of 150 over the 'no licence in index' datasets (see scripts/02_sparql.py)",
+  "utc": "2026-10-03T11:14:46Z",
+  "result": {
+   "datasets": 1808,
+   "not_found": 0
+  }
+ },
+ {
+  "kind": "cz-terms-of-use",
+  "endpoint": "https://data.europa.eu/sparql",
+  "query": "PREFIX dcat:<http://www.w3.org/ns/dcat#> PREFIX dcatap:<http://data.europa.eu/r5r/> PREFIX dct:<http://purl.org/dc/terms/> SELECT ?p ?o (COUNT(DISTINCT ?x) AS ?n) WHERE { ?cat dcat:dataset ?d . FILTER(?cat = <http://data.europa.eu/88u/catalogue/nkod-opendata-cz>) ?d dcatap:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj> ; dcat:distribution ?x . ?x dct:license ?t . ?t ?p ?o . FILTER(isIRI(?o)) } GROUP BY ?p ?o ORDER BY DESC(?n) LIMIT 60",
+  "utc": "2026-10-03T11:17:25Z",
+  "result": 18
+ },
+ {
+  "kind": "ttl-sample-50",
+  "endpoint": "https://data.europa.eu/sparql",
+  "query": "https://data.europa.eu/api/hub/repo/datasets/{id}.ttl for 50 ids (seed 17)",
+  "utc": "2026-10-03T11:17:25Z",
+  "result": {
+   "with_license": 0,
+   "with_rights": 0,
+   "ok": 50
+  }
+ },
+ {
+  "kind": "other-closed-description",
+  "endpoint": "https://data.europa.eu/sparql",
+  "query": "SELECT DISTINCT ?p ?o WHERE { <http://dcat-ap.de/def/licenses/other-closed> ?p ?o } LIMIT 200",
+  "utc": "2026-10-03T12:02:41Z",
+  "result": 3
+ },
+ {
+  "kind": "half-tagged-ids",
+  "endpoint": "https://data.europa.eu/sparql",
+  "query": "per catalogue: PREFIX dcat:<http://www.w3.org/ns/dcat#> PREFIX dcatap:<http://data.europa.eu/r5r/> PREFIX dct:<http://purl.org/dc/terms/> SELECT DISTINCT ?d WHERE { <http://data.europa.eu/88u/catalogue/paikkatietohakemisto> dcat:dataset ?d . ?d a dcat:Dataset ; dcatap:hvdCategory ?c . FILTER NOT EXISTS { ?d dcatap:applicableLegislation <http://data.europa.eu/eli/reg_impl/2023/138/oj> } } LIMIT 10000",
+  "utc": "2026-10-03T12:03:01Z",
+  "result": 13948
+ }
+]

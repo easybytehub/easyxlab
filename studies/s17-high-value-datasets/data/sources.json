@@ -1,0 +1,39 @@
+[
+ {
+  "what": "Implementing Regulation (EU) 2023/138, English, Cellar",
+  "url": "http://publications.europa.eu/resource/celex/32023R0138",
+  "sha256": "043f36cb25cbe2eb3a22d3413acb74f2b14c5f696c23099ea079f94fcb550762",
+  "retrieved": "2026-10-03"
+ },
+ {
+  "what": "ODM 2025 report",
+  "url": "https://data.europa.eu/sites/default/files/2025-12/2025_odm_report_6.pdf",
+  "note": "byte-identical to 2025_odm_report_7.pdf at the same path (cmp, 2026-10-03)",
+  "sha256": "3a1ce0d5cd9618606d530f297600e2e12daf18dc76d0296bb94e0af4cef3f9b3",
+  "retrieved": "2026-10-03"
+ },
+ {
+  "what": "ODM 2025 questionnaire data",
+  "url": "https://data.europa.eu/sites/default/files/2025-12/2025_odm_questionnaire_data.xlsx",
+  "sha256": "add8309d94ef7116349d49da9934b46e6674952c13fd541a756826d925356f75",
+  "retrieved": "2026-10-03"
+ },
+ {
+  "what": "DCAT-AP HVD 3.0.0",
+  "url": "https://semiceu.github.io/DCAT-AP/releases/3.0.0-hvd/",
+  "sha256": "83edfaf89275fbabe965b573cbb4520cc06705d8e1b01186c2272babe23cb452",
+  "retrieved": "2026-10-03"
+ },
+ {
+  "what": "ETC DI Report 2025/5",
+  "url": "https://zenodo.org/records/21377126/files/ETCDIReport_Ongoing_initiatives_for_once-only_publication_of_HVD_v2.pdf",
+  "sha256": "7b5666fa8ad168a39f96dbb96a47eacd859c26ff0dc5d77a2bd4b5097246d4d8",
+  "retrieved": "2026-10-03"
+ },
+ {
+  "what": "dane.gov.pl DCAT-AP feed, page 1",
+  "url": "https://api.dane.gov.pl/1.4/catalog.rdf",
+  "sha256": "2e11380e5d24cae6d186263a87c59da4990e47d30fcb5de6393cacff7775c1c5",
+  "retrieved": "2026-10-03"
+ }
+]

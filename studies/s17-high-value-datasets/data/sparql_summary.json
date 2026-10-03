@@ -1,0 +1,505 @@
+{
+ "census_snapshot_utc": "2026-10-03T11:12:44Z",
+ "portal_total_datasets": 1728744,
+ "hvd_facet_total": 27972,
+ "h1_category_without_eli_total": 13948,
+ "eli_datasets_by_category": {
+  "0": 1047,
+  "1": 26950
+ },
+ "malformed_eli": [
+  {
+   "value": "https://eur-lex.europa.eu/eli/reg_impl/2023/138/oj",
+   "type": "http://www.w3.org/ns/dcat#Distribution",
+   "n": 18
+  },
+  {
+   "value": "http://data.europa.eu/eli/reg_impl/2023/138/o",
+   "type": "http://www.w3.org/ns/dcat#Distribution",
+   "n": 2
+  },
+  {
+   "value": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32023R0138#ntr86-L_2023019EN.01004801-E0086",
+   "type": "http://www.w3.org/ns/dcat#Dataset",
+   "n": 1
+  },
+  {
+   "value": "http://data.europa.eu/eli/reg/2023/138",
+   "type": "http://www.w3.org/ns/dcat#Dataset",
+   "n": 2
+  },
+  {
+   "value": "http://data.europa.eu/eli/reg/2023/138",
+   "type": "http://www.w3.org/ns/dcat#Distribution",
+   "n": 2
+  }
+ ],
+ "datasets_only_malformed_eli": [],
+ "eli_subjects_by_type": {
+  "http://entryscape.com/terms/ServiceDistribution": 132,
+  "https://data.gov.cz/slovn\u00edk/nkod/typ-datov\u00e9-sady-dle-zdroje/Formul\u00e1\u0159": 6,
+  "https://data.dia.gov.cz/zdroj/\u010d\u00edseln\u00edky/typ-datov\u00e9-sady/polo\u017eky/datov\u00e1-sada-s-vysokou-hodnotou-hvd": 270,
+  "http://www.w3.org/ns/dcat#Dataset": 27997,
+  "http://www.w3.org/ns/dcat#DatasetSeries": 21,
+  "http://www.w3.org/ns/adms#Identifier": 248,
+  "https://data.gov.cz/slovn\u00edk/nkod/typ-datov\u00e9-sady-dle-zdroje/DokumentyDCAT": 276,
+  "http://entryscape.com/terms/ServedByDataService": 165,
+  "http://www.w3.org/2000/01/rdf-schema#Resource": 407,
+  "http://www.w3.org/ns/dcat#DataService": 5036,
+  "https://data.dia.gov.cz/zdroj/\u010d\u00edseln\u00edky/typ-datov\u00e9-sady/polo\u017eky/otev\u0159en\u00e1-data": 270,
+  "http://xmlns.com/foaf/0.1/Document": 431,
+  "http://entryscape.com/terms/IndependentDataService": 70,
+  "http://dati.gov.it/onto/dcatapit#Distribution": 228,
+  "http://www.w3.org/ns/dcat#Distribution": 134054,
+  "https://data.gov.cz/slovn\u00edk/nkod/typ-datov\u00e9-sady-dle-zdroje/LKOD": 276,
+  "http://dati.gov.it/onto/dcatapit#Dataset": 180
+ },
+ "api_rdf_served_datasets": 5169,
+ "licence_confirmation_population": 1808,
+ "cz_terms_of_use": [
+  {
+   "p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+   "o": "https://data.gov.cz/slovn\u00edk/podm\u00ednky-u\u017eit\u00ed/Specifikace",
+   "n": 844
+  },
+  {
+   "p": "https://data.gov.cz/slovn\u00edk/podm\u00ednky-u\u017eit\u00ed/osobn\u00ed-\u00fadaje",
+   "o": "https://data.gov.cz/podm\u00ednky-u\u017eit\u00ed/neobsahuje-osobn\u00ed-\u00fadaje/",
+   "n": 843
+  },
+  {
+   "p": "https://data.gov.cz/slovn\u00edk/podm\u00ednky-u\u017eit\u00ed/datab\u00e1ze-chr\u00e1n\u011bn\u00e1-zvl\u00e1\u0161tn\u00edmi-pr\u00e1vy",
+   "o": "https://data.gov.cz/podm\u00ednky-u\u017eit\u00ed/nen\u00ed-chr\u00e1n\u011bna-zvl\u00e1\u0161tn\u00edm-pr\u00e1vem-po\u0159izovatele-datab\u00e1ze/",
+   "n": 794
+  },
+  {
+   "p": "https://data.gov.cz/slovn\u00edk/podm\u00ednky-u\u017eit\u00ed/datab\u00e1ze-jako-autorsk\u00e9-d\u00edlo",
+   "o": "https://creativecommons.org/licenses/by/4.0/",
+   "n": 517
+  },
+  {
+   "p": "https://data.gov.cz/slovn\u00edk/podm\u00ednky-u\u017eit\u00ed/autorsk\u00e9-d\u00edlo",
+   "o": "https://creativecommons.org/licenses/by/4.0/",
+   "n": 517
+  },
+  {
+   "p": "http://www.w3.org/2004/02/skos/core#narrowMatch",
+   "o": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0",
+   "n": 467
+  },
+  {
+   "p": "https://data.gov.cz/slovn\u00edk/podm\u00ednky-u\u017eit\u00ed/datab\u00e1ze-jako-autorsk\u00e9-d\u00edlo",
+   "o": "https://data.gov.cz/podm\u00ednky-u\u017eit\u00ed/nen\u00ed-autorskopr\u00e1vn\u011b-chr\u00e1n\u011bnou-datab\u00e1z\u00ed/",
+   "n": 301
+  },
+  {
+   "p": "https://data.gov.cz/slovn\u00edk/podm\u00ednky-u\u017eit\u00ed/autorsk\u00e9-d\u00edlo",
+   "o": "https://data.gov.cz/podm\u00ednky-u\u017eit\u00ed/neobsahuje-autorsk\u00e1-d\u00edla/",
+   "n": 301
+  },
+  {
+   "p": "http://www.w3.org/2004/02/skos/core#narrowMatch",
+   "o": "http://publications.europa.eu/resource/authority/licence/CC0",
+   "n": 301
+  },
+  {
+   "p": "http://www.w3.org/2004/02/skos/core#exactMatch",
+   "o": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0",
+   "n": 50
+  },
+  {
+   "p": "https://data.gov.cz/slovn\u00edk/podm\u00ednky-u\u017eit\u00ed/datab\u00e1ze-chr\u00e1n\u011bn\u00e1-zvl\u00e1\u0161tn\u00edmi-pr\u00e1vy",
+   "o": "https://creativecommons.org/licenses/by/4.0/",
+   "n": 50
+  },
+  {
+   "p": "https://data.gov.cz/slovn\u00edk/podm\u00ednky-u\u017eit\u00ed/autorsk\u00e9-d\u00edlo",
+   "o": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "n": 16
+  },
+  {
+   "p": "https://data.gov.cz/slovn\u00edk/podm\u00ednky-u\u017eit\u00ed/datab\u00e1ze-jako-autorsk\u00e9-d\u00edlo",
+   "o": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "n": 16
+  },
+  {
+   "p": "https://data.gov.cz/slovn\u00edk/podm\u00ednky-u\u017eit\u00ed/autorsk\u00e9-d\u00edlo",
+   "o": "https://creativecommons.org/licenses/by/4.0",
+   "n": 5
+  },
+  {
+   "p": "https://data.gov.cz/slovn\u00edk/podm\u00ednky-u\u017eit\u00ed/autorsk\u00e9-d\u00edlo",
+   "o": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "n": 5
+  },
+  {
+   "p": "https://data.gov.cz/slovn\u00edk/podm\u00ednky-u\u017eit\u00ed/datab\u00e1ze-jako-autorsk\u00e9-d\u00edlo",
+   "o": "https://creativecommons.org/licenses/by/4.0",
+   "n": 5
+  },
+  {
+   "p": "https://data.gov.cz/slovn\u00edk/podm\u00ednky-u\u017eit\u00ed/datab\u00e1ze-jako-autorsk\u00e9-d\u00edlo",
+   "o": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "n": 5
+  },
+  {
+   "p": "https://data.gov.cz/slovn\u00edk/podm\u00ednky-u\u017eit\u00ed/osobn\u00ed-\u00fadaje",
+   "o": "https://data.gov.cz/podm\u00ednky-u\u017eit\u00ed/obsahuje-osobn\u00ed-\u00fadaje/",
+   "n": 1
+  }
+ ],
+ "cz_eli_distributions": 844,
+ "ttl_sample": [
+  {
+   "id": "e9737f34-2790-4f3e-b10a-8edca8aa1e7d",
+   "status": 200,
+   "license": 0,
+   "rights": 0,
+   "accessRights": 0
+  },
+  {
+   "id": "b6eb140e-4eee-4537-9be0-5e12db129e68",
+   "status": 200,
+   "license": 0,
+   "rights": 0,
+   "accessRights": 1
+  },
+  {
+   "id": "87d3fb95-dd52-4d01-b238-7b2fbe9674a1",
+   "status": 200,
+   "license": 0,
+   "rights": 0,
+   "accessRights": 0
+  },
+  {
+   "id": "a1601aea-247c-4ec5-9039-e8ecd5c0b4d5",
+   "status": 200,
+   "license": 0,
+   "rights": 0,
+   "accessRights": 0
+  },
+  {
+   "id": "82677435-ce93-4a79-94dd-bbc87fb61f36",
+   "status": 200,
+   "license": 0,
+   "rights": 0,
+   "accessRights": 1
+  },
+  {
+   "id": "4f5595c1-db27-4b87-8a40-a8d2cf4ed5af",
+   "status": 200,
+   "license": 0,
+   "rights": 0,
+   "accessRights": 0
+  },
+  {
+   "id": "spacarsenorientacion",
+   "status": 200,
+   "license": 0,
+   "rights": 0,
+   "accessRights": 0
+  },
+  {
+   "id": "spacargeologia",
+   "status": 200,
+   "license": 0,
+   "rights": 0,
+   "accessRights": 0
+  },
+  {
+   "id": "f17c8da9-4002-45f6-a069-fb82de73b767",
+   "status": 200,
+   "license": 0,
+   "rights": 0,
+   "accessRights": 0
+  },
+  {
+   "id": "https-www-geodata-se-resources-703e7a68-714d-477e-a508-a482f291a69b",
+   "status": 200,
+   "license": 0,
+   "rights": 0,
+   "accessRights": 1
+  },
+  {
+   "id": "7de447ad-5f8d-43a0-befe-10eb8faa172a",
+   "status": 200,
+   "license": 0,
+   "rights": 0,
+   "accessRights": 0
+  },
+  {
+   "id": "33c06a35-2234-4982-a5c9-95925076cf64",
+   "status": 200,
+   "license": 0,
+   "rights": 0,
+   "accessRights": 0
+  },
+  {
+   "id": "0deb6c22-a6ae-453d-a956-205f52141ca1",
+   "status": 200,
+   "license": 0,
+   "rights": 0,
+   "accessRights": 6
+  },
+  {
+   "id": "70e74534-7ae9-4968-93cd-20cc2290b701",
+   "status": 200,
+   "license": 0,
+   "rights": 0,
+   "accessRights": 0
+  },
+  {
+   "id": "a929ca55-3986-4931-8ea5-48be7c8145e6",
+   "status": 200,
+   "license": 0,
+   "rights": 0,
+   "accessRights": 0
+  },
+  {
+   "id": "b8667cbc-db42-4dcb-ab49-4b25697d9522",
+   "status": 200,
+   "license": 0,
+   "rights": 0,
+   "accessRights": 0
+  },
+  {
+   "id": "71605ab4-2f43-4dea-95b7-c161648b3e28",
+   "status": 200,
+   "license": 0,
+   "rights": 0,
+   "accessRights": 0
+  },
+  {
+   "id": "e01871aa-db88-4f09-ad6c-a4b5d1eef35e",
+   "status": 200,
+   "license": 0,
+   "rights": 0,
+   "accessRights": 0
+  },
+  {
+   "id": "8e3ed4e9-9a4e-4378-a205-15960dc70d35~~1",
+   "status": 200,
+   "license": 0,
+   "rights": 0,
+   "accessRights": 0
+  },
+  {
+   "id": "https-www-geodata-se-resources-223e1f42-2992-4ccb-9acb-aec9cd47deb2",
+   "status": 200,
+   "license": 0,
+   "rights": 0,
+   "accessRights": 1
+  },
+  {
+   "id": "https-www-geodata-se-resources-c952b07e-854f-460c-9306-392eadfc099c",
+   "status": 200,
+   "license": 0,
+   "rights": 0,
+   "accessRights": 1
+  },
+  {
+   "id": "b03fda43-ce09-43c8-a423-c5ffb72741b6",
+   "status": 200,
+   "license": 0,
+   "rights": 0,
+   "accessRights": 0
+  },
+  {
+   "id": "40a721ff-10a4-4cc5-b221-480f0acf6987",
+   "status": 200,
+   "license": 0,
+   "rights": 0,
+   "accessRights": 0
+  },
+  {
+   "id": "f44056a5-773f-4ec0-be6f-117b121e29ca",
+   "status": 200,
+   "license": 0,
+   "rights": 0,
+   "accessRights": 0
+  },
+  {
+   "id": "1e1baf48-74e9-4108-aa88-c34fd166c18e",
+   "status": 200,
+   "license": 0,
+   "rights": 0,
+   "accessRights": 0
+  },
+  {
+   "id": "41b046a8-5790-4309-9e64-cee084755738",
+   "status": 200,
+   "license": 0,
+   "rights": 0,
+   "accessRights": 0
+  },
+  {
+   "id": "5951efa2-1ff3-4763-a966-a2f5497679ee",
+   "status": 200,
+   "license": 0,
+   "rights": 0,
+   "accessRights": 2
+  },
+  {
+   "id": "45c35068-d8d5-4d64-b6b2-fdcab87e3648",
+   "status": 200,
+   "license": 0,
+   "rights": 0,
+   "accessRights": 0
+  },
+  {
+   "id": "spacarsiose",
+   "status": 200,
+   "license": 0,
+   "rights": 0,
+   "accessRights": 0
+  },
+  {
+   "id": "ef2a7962-8bb4-483f-ac78-851b619f357f",
+   "status": 200,
+   "license": 0,
+   "rights": 0,
+   "accessRights": 1
+  },
+  {
+   "id": "f7c1120d-82bd-4824-8ccc-969e008ce34d",
+   "status": 200,
+   "license": 0,
+   "rights": 0,
+   "accessRights": 0
+  },
+  {
+   "id": "https-www-geodata-se-resources-d39cb05b-94ed-e402-efde-a22e2158e877",
+   "status": 200,
+   "license": 0,
+   "rights": 0,
+   "accessRights": 1
+  },
+  {
+   "id": "5ef14b8a-45be-4780-a524-198bda9e3939",
+   "status": 200,
+   "license": 0,
+   "rights": 0,
+   "accessRights": 1
+  },
+  {
+   "id": "92397fc4-a24b-4530-9a01-18860e122246~~1",
+   "status": 200,
+   "license": 0,
+   "rights": 0,
+   "accessRights": 1
+  },
+  {
+   "id": "f14bc0b5-8daa-4a59-a0a1-5f0d2c80d0c8",
+   "status": 200,
+   "license": 0,
+   "rights": 0,
+   "accessRights": 0
+  },
+  {
+   "id": "3a58c08f-346c-4aa5-8e68-9a8717ec45ba",
+   "status": 200,
+   "license": 0,
+   "rights": 0,
+   "accessRights": 0
+  },
+  {
+   "id": "https-www-geodata-se-resources-1e3c8e08-df6c-4999-90ac-225d7bdae1a6",
+   "status": 200,
+   "license": 0,
+   "rights": 0,
+   "accessRights": 1
+  },
+  {
+   "id": "23167ce0-4fa3-4f6b-9786-825ddf632e2b",
+   "status": 200,
+   "license": 0,
+   "rights": 0,
+   "accessRights": 0
+  },
+  {
+   "id": "89b35a6c-c099-456b-8eaf-2b83c7a35c74",
+   "status": 200,
+   "license": 0,
+   "rights": 0,
+   "accessRights": 1
+  },
+  {
+   "id": "b4c6ba17-5daa-47b5-a029-341e2cf772e5",
+   "status": 200,
+   "license": 0,
+   "rights": 0,
+   "accessRights": 1
+  },
+  {
+   "id": "27acf7b9-0185-4efb-b5af-9b2b995d85a4",
+   "status": 200,
+   "license": 0,
+   "rights": 0,
+   "accessRights": 0
+  },
+  {
+   "id": "e27fe529b7159e87895420ce4613123d",
+   "status": 200,
+   "license": 0,
+   "rights": 0,
+   "accessRights": 1
+  },
+  {
+   "id": "d48ddeb9-7d3c-4911-a9a7-f4a3c19f7973",
+   "status": 200,
+   "license": 0,
+   "rights": 0,
+   "accessRights": 0
+  },
+  {
+   "id": "https-data-geocatalogue-fr-id-dataset-6f92fd3c-61d1-4929-b8af-71911c93bb03",
+   "status": 200,
+   "license": 0,
+   "rights": 0,
+   "accessRights": 1
+  },
+  {
+   "id": "4206f8a1-e040-4d51-bf99-f7233bf620bf",
+   "status": 200,
+   "license": 0,
+   "rights": 0,
+   "accessRights": 0
+  },
+  {
+   "id": "https-www-geodata-se-resources-c4451697-5616-43c6-b14d-38ea6ab6e4ff",
+   "status": 200,
+   "license": 0,
+   "rights": 0,
+   "accessRights": 1
+  },
+  {
+   "id": "b44ddda4-db9c-4890-9fd5-f061a843bf87",
+   "status": 200,
+   "license": 0,
+   "rights": 0,
+   "accessRights": 0
+  },
+  {
+   "id": "e207504e-aa2e-4aac-8270-f1fb8778d3a6",
+   "status": 200,
+   "license": 0,
+   "rights": 0,
+   "accessRights": 0
+  },
+  {
+   "id": "94b336d3-1741-4ad6-ba66-c69abfe0a731",
+   "status": 200,
+   "license": 0,
+   "rights": 0,
+   "accessRights": 0
+  },
+  {
+   "id": "0ac1d6e427277ef3ee533597ab1f7818",
+   "status": 200,
+   "license": 0,
+   "rights": 0,
+   "accessRights": 1
+  }
+ ],
+ "ttl_sample_population": 1456
+}
