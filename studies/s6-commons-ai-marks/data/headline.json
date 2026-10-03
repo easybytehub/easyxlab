@@ -1,0 +1,1408 @@
+{
+ "ai_modified_main": 149,
+ "aigc": {
+  "double_main": 1,
+  "double_union": 3,
+  "readable_main": 0,
+  "readable_union": 1
+ },
+ "aug1_main": [
+  16,
+  3
+ ],
+ "c2pa_main": 554,
+ "c2pa_union": 627,
+ "cfg": {
+  "ai-mark-lint 0.1.0 default (c2pa-python 0.38.0, no trust list, no EKU list)": [
+   625,
+   0,
+   323,
+   302
+  ],
+  "ai-mark-lint 0.1.1 rule, no trust list (emulated)": [
+   625,
+   0,
+   508,
+   117
+  ],
+  "ai-mark-lint 0.1.1 rule, official list + TSA list (emulated)": [
+   624,
+   452,
+   53,
+   119
+  ],
+  "c2pa-python 0.10.0 (c2pa-rs 0.55.0), defaults; cannot read 329": [
+   296,
+   "–",
+   "–",
+   105
+  ],
+  "c2patool 0.27.22, defaults": [
+   625,
+   "–",
+   "–",
+   118
+  ],
+  "reader: interim list + its store.cfg": [
+   625,
+   48,
+   456,
+   121
+  ],
+  "reader: no trust list + c2pa-rs default EKU list": [
+   624,
+   0,
+   503,
+   121
+  ],
+  "reader: official + interim + store.cfg": [
+   625,
+   501,
+   5,
+   119
+  ],
+  "reader: official list + TSA list + default EKU list (strict §15.8.2)": [
+   624,
+   452,
+   53,
+   119
+  ],
+  "reader: official list + TSA list, no EKU list (= 0.1.0 --trust-anchors)": [
+   625,
+   299,
+   22,
+   304
+  ]
+ },
+ "class_D_by_signer": {
+  "Anthropic": 2,
+  "Microsoft": 28,
+  "OpenAI": 153,
+  "Samsung": 4
+ },
+ "class_E_signer": {
+  "Microsoft Paint app User": 12
+ },
+ "class_F_generator": {
+  "ChatGPT": 24,
+  "Microsoft_Designer": 1,
+  "Sora": 1
+ },
+ "classes": {
+  "A": [
+   32,
+   31
+  ],
+  "B": [
+   85,
+   77
+  ],
+  "B'": [
+   4,
+   4
+  ],
+  "C": [
+   9,
+   9
+  ],
+  "D": [
+   187,
+   161
+  ],
+  "E": [
+   12,
+   12
+  ],
+  "F": [
+   26,
+   24
+  ],
+  "G": [
+   16,
+   16
+  ]
+ },
+ "cmp|main excl. coats of arms|any|junjul-janmay": [
+  50.7,
+  25.8,
+  24.9,
+  17.8,
+  31.8,
+  14.5,
+  34.8
+ ],
+ "cmp|main excl. coats of arms|any|post-junjul": [
+  53.3,
+  50.7,
+  2.6,
+  -5.2,
+  10.4,
+  -8.0,
+  14.1
+ ],
+ "cmp|main excl. coats of arms|any|post-pre": [
+  53.3,
+  35.5,
+  17.8,
+  11.6,
+  24.0,
+  9.2,
+  27.0
+ ],
+ "cmp|main|any|junjul-janmay": [
+  50.2,
+  25.8,
+  24.4,
+  17.6,
+  31.0,
+  14.7,
+  33.6
+ ],
+ "cmp|main|any|post-junjul": [
+  43.4,
+  50.2,
+  -6.7,
+  -13.7,
+  0.4,
+  -16.7,
+  4.6
+ ],
+ "cmp|main|any|post-pre": [
+  43.4,
+  35.0,
+  8.4,
+  3.0,
+  13.9,
+  0.2,
+  16.8
+ ],
+ "cmp|main|valid011|junjul-janmay": [
+  45.4,
+  15.5,
+  29.8,
+  23.5,
+  36.0,
+  20.4,
+  39.2
+ ],
+ "cmp|main|valid011|post-junjul": [
+  38.0,
+  45.4,
+  -7.4,
+  -14.4,
+  -0.3,
+  -18.1,
+  4.6
+ ],
+ "cmp|main|valid011|post-pre": [
+  38.0,
+  26.9,
+  11.1,
+  6.0,
+  16.4,
+  2.4,
+  20.2
+ ],
+ "cmp|union|any|junjul-janmay": [
+  46.3,
+  21.6,
+  24.7,
+  18.9,
+  30.4,
+  15.9,
+  33.0
+ ],
+ "cmp|union|any|post-junjul": [
+  38.6,
+  46.3,
+  -7.7,
+  -13.9,
+  -1.4,
+  -16.7,
+  2.0
+ ],
+ "cmp|union|any|post-pre": [
+  38.6,
+  30.6,
+  8.0,
+  3.4,
+  12.7,
+  1.0,
+  15.2
+ ],
+ "coa_aug": [
+  96,
+  224,
+  10
+ ],
+ "decomp": {
+  "Google": [
+   8.8,
+   14.1,
+   5.3
+  ],
+  "IPTC/AIGC only": [
+   0.7,
+   1.0,
+   0.2
+  ],
+  "Microsoft": [
+   1.0,
+   5.4,
+   4.4
+  ],
+  "OpenAI": [
+   14.4,
+   28.8,
+   14.4
+  ],
+  "other C2PA": [
+   1.0,
+   1.0,
+   -0.0
+  ]
+ },
+ "exclcoa|any|junjul": [
+  50.7,
+  44.9,
+  56.4,
+  146,
+  288
+ ],
+ "exclcoa|any|post": [
+  53.3,
+  48.1,
+  58.5,
+  185,
+  347
+ ],
+ "exclcoa|any|pre": [
+  35.5,
+  32.2,
+  38.9,
+  267,
+  757
+ ],
+ "fails010": [
+  302,
+  267
+ ],
+ "fails011": [
+  117,
+  108
+ ],
+ "gen": {
+  "Adobe Firefly": [
+   3,
+   66.7
+  ],
+  "DALL-E": [
+   51,
+   21.6
+  ],
+  "Flux": [
+   4,
+   0.0
+  ],
+  "Google (Gemini / Imagen / Nano Banana)": [
+   86,
+   48.8
+  ],
+  "Grok / xAI": [
+   12,
+   0.0
+  ],
+  "Leonardo": [
+   2,
+   0.0
+  ],
+  "Microsoft (Bing Image Creator / Designer / Copilot)": [
+   20,
+   55.0
+  ],
+  "Midjourney": [
+   12,
+   16.7
+  ],
+  "OpenAI GPT-4o / gpt-image / ChatGPT": [
+   88,
+   45.5
+  ],
+  "Other named generator": [
+   5,
+   20.0
+  ],
+  "Stable Diffusion": [
+   14,
+   7.1
+  ],
+  "multiple: DALL-E + Microsoft (Bing Image Creator / Designer / Copilot)": [
+   2,
+   50.0
+  ],
+  "multiple: DALL-E + OpenAI GPT-4o / gpt-image / ChatGPT": [
+   11,
+   9.1
+  ],
+  "multiple: Microsoft (Bing Image Creator / Designer / Copilot) + Other named generator": [
+   1,
+   100.0
+  ],
+  "multiple: Stable Diffusion + Other named generator": [
+   2,
+   0.0
+  ],
+  "unspecified": [
+   1272,
+   34.7
+  ]
+ },
+ "http404": 7,
+ "inspected": 2091,
+ "main_n": 1585,
+ "main|C2PA declaring AI (any validity)|2024": [
+  16.8,
+  10.8,
+  25.1,
+  19,
+  122
+ ],
+ "main|C2PA declaring AI (any validity)|2025": [
+  24.8,
+  18.2,
+  32.8,
+  34,
+  133
+ ],
+ "main|C2PA declaring AI (any validity)|janmay": [
+  25.0,
+  21.5,
+  28.9,
+  133,
+  532
+ ],
+ "main|C2PA declaring AI (any validity)|junjul": [
+  49.2,
+  43.7,
+  54.7,
+  154,
+  313
+ ],
+ "main|C2PA declaring AI (any validity)|post": [
+  41.0,
+  36.7,
+  45.5,
+  189,
+  461
+ ],
+ "main|C2PA declaring AI (any validity)|pre": [
+  34.2,
+  31.2,
+  37.4,
+  287,
+  845
+ ],
+ "main|C2PA declaring AI, trusted (official list + EKU)|2024": [
+  0.0,
+  0.0,
+  3.1,
+  0,
+  122
+ ],
+ "main|C2PA declaring AI, trusted (official list + EKU)|2025": [
+  0.0,
+  0.0,
+  2.8,
+  0,
+  133
+ ],
+ "main|C2PA declaring AI, trusted (official list + EKU)|janmay": [
+  14.8,
+  12.0,
+  18.0,
+  78,
+  532
+ ],
+ "main|C2PA declaring AI, trusted (official list + EKU)|junjul": [
+  41.6,
+  36.3,
+  47.1,
+  130,
+  313
+ ],
+ "main|C2PA declaring AI, trusted (official list + EKU)|post": [
+  37.8,
+  33.5,
+  42.3,
+  174,
+  461
+ ],
+ "main|C2PA declaring AI, trusted (official list + EKU)|pre": [
+  24.9,
+  22.3,
+  27.8,
+  208,
+  845
+ ],
+ "main|C2PA declaring AI, valid (ai-mark-lint 0.1.1)|2024": [
+  15.8,
+  10.1,
+  24.0,
+  18,
+  122
+ ],
+ "main|C2PA declaring AI, valid (ai-mark-lint 0.1.1)|2025": [
+  3.9,
+  1.8,
+  8.5,
+  6,
+  133
+ ],
+ "main|C2PA declaring AI, valid (ai-mark-lint 0.1.1)|janmay": [
+  15.5,
+  12.8,
+  18.8,
+  82,
+  532
+ ],
+ "main|C2PA declaring AI, valid (ai-mark-lint 0.1.1)|junjul": [
+  45.4,
+  39.9,
+  50.9,
+  142,
+  313
+ ],
+ "main|C2PA declaring AI, valid (ai-mark-lint 0.1.1)|post": [
+  38.0,
+  33.7,
+  42.5,
+  175,
+  461
+ ],
+ "main|C2PA declaring AI, valid (ai-mark-lint 0.1.1)|pre": [
+  26.9,
+  24.1,
+  29.8,
+  224,
+  845
+ ],
+ "main|C2PA present, failing (0.1.1)|2024": [
+  0.9,
+  0.2,
+  5.2,
+  1,
+  122
+ ],
+ "main|C2PA present, failing (0.1.1)|2025": [
+  20.8,
+  14.8,
+  28.4,
+  28,
+  133
+ ],
+ "main|C2PA present, failing (0.1.1)|janmay": [
+  9.5,
+  7.3,
+  12.2,
+  51,
+  532
+ ],
+ "main|C2PA present, failing (0.1.1)|junjul": [
+  4.4,
+  2.7,
+  7.3,
+  14,
+  313
+ ],
+ "main|C2PA present, failing (0.1.1)|post": [
+  3.0,
+  1.8,
+  5.0,
+  14,
+  461
+ ],
+ "main|C2PA present, failing (0.1.1)|pre": [
+  7.6,
+  6.0,
+  9.5,
+  65,
+  845
+ ],
+ "main|IPTC DigitalSourceType AI (XMP)|2024": [
+  0.6,
+  0.1,
+  3.3,
+  1,
+  122
+ ],
+ "main|IPTC DigitalSourceType AI (XMP)|2025": [
+  4.5,
+  2.1,
+  9.6,
+  6,
+  133
+ ],
+ "main|IPTC DigitalSourceType AI (XMP)|janmay": [
+  2.3,
+  1.3,
+  3.9,
+  12,
+  532
+ ],
+ "main|IPTC DigitalSourceType AI (XMP)|junjul": [
+  1.3,
+  0.5,
+  3.2,
+  4,
+  313
+ ],
+ "main|IPTC DigitalSourceType AI (XMP)|post": [
+  2.6,
+  1.5,
+  4.5,
+  12,
+  461
+ ],
+ "main|IPTC DigitalSourceType AI (XMP)|pre": [
+  1.9,
+  1.2,
+  3.0,
+  16,
+  845
+ ],
+ "main|[0.1.0] C2PA declaring AI, valid|2024": [
+  9.7,
+  5.4,
+  17.0,
+  12,
+  122
+ ],
+ "main|[0.1.0] C2PA declaring AI, valid|2025": [
+  1.6,
+  0.6,
+  4.6,
+  3,
+  133
+ ],
+ "main|[0.1.0] C2PA declaring AI, valid|janmay": [
+  11.7,
+  9.3,
+  14.7,
+  62,
+  532
+ ],
+ "main|[0.1.0] C2PA declaring AI, valid|junjul": [
+  27.8,
+  23.1,
+  33.0,
+  87,
+  313
+ ],
+ "main|[0.1.0] C2PA declaring AI, valid|post": [
+  23.2,
+  19.6,
+  27.3,
+  107,
+  461
+ ],
+ "main|[0.1.0] C2PA declaring AI, valid|pre": [
+  17.8,
+  15.4,
+  20.5,
+  149,
+  845
+ ],
+ "main|[0.1.0] C2PA present, failing|2024": [
+  7.0,
+  3.4,
+  13.9,
+  7,
+  122
+ ],
+ "main|[0.1.0] C2PA present, failing|2025": [
+  23.1,
+  16.8,
+  31.0,
+  31,
+  133
+ ],
+ "main|[0.1.0] C2PA present, failing|janmay": [
+  13.3,
+  10.7,
+  16.5,
+  71,
+  532
+ ],
+ "main|[0.1.0] C2PA present, failing|junjul": [
+  22.3,
+  18.1,
+  27.2,
+  70,
+  313
+ ],
+ "main|[0.1.0] C2PA present, failing|post": [
+  18.2,
+  15.0,
+  22.0,
+  84,
+  461
+ ],
+ "main|[0.1.0] C2PA present, failing|pre": [
+  16.7,
+  14.4,
+  19.4,
+  141,
+  845
+ ],
+ "main|any machine-readable AI mark|2024": [
+  17.4,
+  11.3,
+  25.7,
+  20,
+  122
+ ],
+ "main|any machine-readable AI mark|2025": [
+  29.3,
+  22.2,
+  37.6,
+  40,
+  133
+ ],
+ "main|any machine-readable AI mark|janmay": [
+  25.8,
+  22.2,
+  29.7,
+  137,
+  532
+ ],
+ "main|any machine-readable AI mark|junjul": [
+  50.2,
+  44.6,
+  55.7,
+  157,
+  313
+ ],
+ "main|any machine-readable AI mark|post": [
+  43.4,
+  39.1,
+  47.9,
+  200,
+  461
+ ],
+ "main|any machine-readable AI mark|pre": [
+  35.0,
+  31.9,
+  38.2,
+  294,
+  845
+ ],
+ "main|any|2024-25": [
+  24.5,
+  19.5,
+  30.4,
+  60,
+  255
+ ],
+ "main|no AI mark|2024": [
+  82.6,
+  74.3,
+  88.7,
+  102,
+  122
+ ],
+ "main|no AI mark|2025": [
+  70.7,
+  62.4,
+  77.8,
+  93,
+  133
+ ],
+ "main|no AI mark|janmay": [
+  74.2,
+  70.3,
+  77.8,
+  395,
+  532
+ ],
+ "main|no AI mark|junjul": [
+  49.8,
+  44.3,
+  55.4,
+  156,
+  313
+ ],
+ "main|no AI mark|post": [
+  56.6,
+  52.1,
+  60.9,
+  261,
+  461
+ ],
+ "main|no AI mark|pre": [
+  65.0,
+  61.8,
+  68.1,
+  551,
+  845
+ ],
+ "measured": 2084,
+ "month": {
+  "2026-01": {
+   "Google": 3,
+   "IPTC/AIGC only": 1,
+   "Microsoft": 0,
+   "OpenAI": 10,
+   "coa_marked": 0,
+   "coa_n": 5,
+   "excl_coa_pct": 22.2,
+   "k": 14,
+   "msa": 0,
+   "n": 68,
+   "other C2PA": 0,
+   "pct": 20.6
+  },
+  "2026-02": {
+   "Google": 5,
+   "IPTC/AIGC only": 0,
+   "Microsoft": 0,
+   "OpenAI": 7,
+   "coa_marked": 1,
+   "coa_n": 7,
+   "excl_coa_pct": 24.0,
+   "k": 13,
+   "msa": 0,
+   "n": 57,
+   "other C2PA": 1,
+   "pct": 22.8
+  },
+  "2026-03": {
+   "Google": 8,
+   "IPTC/AIGC only": 1,
+   "Microsoft": 0,
+   "OpenAI": 18,
+   "coa_marked": 4,
+   "coa_n": 20,
+   "excl_coa_pct": 26.6,
+   "k": 29,
+   "msa": 0,
+   "n": 114,
+   "other C2PA": 2,
+   "pct": 25.4
+  },
+  "2026-04": {
+   "Google": 16,
+   "IPTC/AIGC only": 2,
+   "Microsoft": 1,
+   "OpenAI": 9,
+   "coa_marked": 5,
+   "coa_n": 14,
+   "excl_coa_pct": 27.4,
+   "k": 28,
+   "msa": 7,
+   "n": 98,
+   "other C2PA": 0,
+   "pct": 28.6
+  },
+  "2026-05": {
+   "Google": 15,
+   "IPTC/AIGC only": 0,
+   "Microsoft": 4,
+   "OpenAI": 32,
+   "coa_marked": 6,
+   "coa_n": 17,
+   "excl_coa_pct": 26.4,
+   "k": 53,
+   "msa": 31,
+   "n": 195,
+   "other C2PA": 2,
+   "pct": 27.2
+  },
+  "2026-06": {
+   "Google": 17,
+   "IPTC/AIGC only": 2,
+   "Microsoft": 16,
+   "OpenAI": 37,
+   "coa_marked": 8,
+   "coa_n": 12,
+   "excl_coa_pct": 50.4,
+   "k": 75,
+   "msa": 35,
+   "n": 145,
+   "other C2PA": 3,
+   "pct": 51.7
+  },
+  "2026-07": {
+   "Google": 27,
+   "IPTC/AIGC only": 1,
+   "Microsoft": 1,
+   "OpenAI": 53,
+   "coa_marked": 3,
+   "coa_n": 13,
+   "excl_coa_pct": 51.0,
+   "k": 82,
+   "msa": 53,
+   "n": 168,
+   "other C2PA": 0,
+   "pct": 48.8
+  },
+  "2026-08": {
+   "Google": 17,
+   "IPTC/AIGC only": 0,
+   "Microsoft": 2,
+   "OpenAI": 52,
+   "coa_marked": 10,
+   "coa_n": 96,
+   "excl_coa_pct": 49.2,
+   "k": 73,
+   "msa": 52,
+   "n": 224,
+   "other C2PA": 2,
+   "pct": 32.6
+  },
+  "2026-09": {
+   "Google": 10,
+   "IPTC/AIGC only": 11,
+   "Microsoft": 4,
+   "OpenAI": 99,
+   "coa_marked": 5,
+   "coa_n": 18,
+   "excl_coa_pct": 55.7,
+   "k": 127,
+   "msa": 98,
+   "n": 237,
+   "other C2PA": 3,
+   "pct": 53.6
+  }
+ },
+ "ms_batch_0608": 9,
+ "msa_first_month": "2026-04",
+ "n_main": {
+  "2024": 122,
+  "2024-25": 255,
+  "2025": 133,
+  "janmay": 532,
+  "junjul": 313,
+  "post": 461,
+  "pre": 845
+ },
+ "n_union": {
+  "2024": 180,
+  "2024-25": 360,
+  "2025": 180,
+  "janmay": 716,
+  "junjul": 391,
+  "post": 592,
+  "pre": 1107
+ },
+ "old_unreadable": {
+  "Google": 2,
+  "Microsoft": 6,
+  "OpenAI": 320,
+  "Samsung": 1
+ },
+ "only_config": [
+  185,
+  {
+   "C": 2,
+   "D": 183
+  }
+ ],
+ "pd_admitted": [
+  85,
+  {
+   "AI-word only": 21,
+   "ai-generated": 12,
+   "chatgpt": 11,
+   "grok": 7,
+   "myheritage": 7,
+   "upscal": 24
+  }
+ ],
+ "pd_only_noevidence_n": 499,
+ "profile": {
+  "C2PA invalid (0.1.1), AI declared": [
+   106,
+   6.7
+  ],
+  "C2PA invalid (0.1.1), no AI declaration": [
+   2,
+   0.1
+  ],
+  "C2PA remote-reference-only (0.1.1), no AI declaration": [
+   1,
+   0.1
+  ],
+  "C2PA valid (0.1.1), AI declared": [
+   423,
+   26.7
+  ],
+  "C2PA valid (0.1.1), no AI declaration": [
+   22,
+   1.4
+  ],
+  "IPTC AI only": [
+   23,
+   1.5
+  ],
+  "no AI mark": [
+   1008,
+   63.6
+  ]
+ },
+ "readable": [
+  625,
+  553
+ ],
+ "sha1_ok": 2084,
+ "signer": {
+  "(none)": [
+   2,
+   0,
+   0,
+   0,
+   0
+  ],
+  "Adobe": [
+   9,
+   9,
+   0,
+   0,
+   9
+  ],
+  "Anthropic": [
+   2,
+   2,
+   0,
+   0,
+   2
+  ],
+  "ByteDance": [
+   1,
+   1,
+   0,
+   0,
+   1
+  ],
+  "Canva": [
+   11,
+   0,
+   11,
+   0,
+   0
+  ],
+  "Google": [
+   149,
+   138,
+   11,
+   135,
+   0
+  ],
+  "Microsoft": [
+   44,
+   25,
+   19,
+   0,
+   25
+  ],
+  "OpenAI": [
+   403,
+   327,
+   76,
+   317,
+   10
+  ],
+  "Samsung": [
+   4,
+   4,
+   0,
+   0,
+   4
+  ],
+  "xAI (self-signed)": [
+   2,
+   2,
+   0,
+   0,
+   2
+  ]
+ },
+ "union_n": 2084,
+ "union|C2PA declaring AI (any validity)|2024": [
+  11.7,
+  7.5,
+  17.7,
+  20,
+  180
+ ],
+ "union|C2PA declaring AI (any validity)|2025": [
+  19.6,
+  14.4,
+  26.1,
+  36,
+  180
+ ],
+ "union|C2PA declaring AI (any validity)|janmay": [
+  21.1,
+  18.3,
+  24.2,
+  150,
+  716
+ ],
+ "union|C2PA declaring AI (any validity)|junjul": [
+  45.3,
+  40.4,
+  50.2,
+  177,
+  391
+ ],
+ "union|C2PA declaring AI (any validity)|post": [
+  36.5,
+  32.8,
+  40.5,
+  216,
+  592
+ ],
+ "union|C2PA declaring AI (any validity)|pre": [
+  29.8,
+  27.3,
+  32.5,
+  327,
+  1107
+ ],
+ "union|C2PA declaring AI, trusted (official list + EKU)|2024": [
+  0.0,
+  0.0,
+  2.1,
+  0,
+  180
+ ],
+ "union|C2PA declaring AI, trusted (official list + EKU)|2025": [
+  0.0,
+  0.0,
+  2.1,
+  0,
+  180
+ ],
+ "union|C2PA declaring AI, trusted (official list + EKU)|janmay": [
+  12.7,
+  10.5,
+  15.3,
+  90,
+  716
+ ],
+ "union|C2PA declaring AI, trusted (official list + EKU)|junjul": [
+  38.9,
+  34.2,
+  43.8,
+  152,
+  391
+ ],
+ "union|C2PA declaring AI, trusted (official list + EKU)|post": [
+  33.5,
+  29.8,
+  37.4,
+  198,
+  592
+ ],
+ "union|C2PA declaring AI, trusted (official list + EKU)|pre": [
+  22.2,
+  20.0,
+  24.6,
+  242,
+  1107
+ ],
+ "union|C2PA declaring AI, valid (ai-mark-lint 0.1.1)|2024": [
+  11.1,
+  7.0,
+  17.0,
+  19,
+  180
+ ],
+ "union|C2PA declaring AI, valid (ai-mark-lint 0.1.1)|2025": [
+  2.9,
+  1.3,
+  6.4,
+  6,
+  180
+ ],
+ "union|C2PA declaring AI, valid (ai-mark-lint 0.1.1)|janmay": [
+  13.3,
+  11.1,
+  15.9,
+  94,
+  716
+ ],
+ "union|C2PA declaring AI, valid (ai-mark-lint 0.1.1)|junjul": [
+  41.9,
+  37.1,
+  46.9,
+  164,
+  391
+ ],
+ "union|C2PA declaring AI, valid (ai-mark-lint 0.1.1)|post": [
+  34.0,
+  30.3,
+  37.9,
+  201,
+  592
+ ],
+ "union|C2PA declaring AI, valid (ai-mark-lint 0.1.1)|pre": [
+  23.7,
+  21.4,
+  26.1,
+  258,
+  1107
+ ],
+ "union|C2PA present, failing (0.1.1)|2024": [
+  0.6,
+  0.1,
+  3.5,
+  1,
+  180
+ ],
+ "union|C2PA present, failing (0.1.1)|2025": [
+  16.7,
+  11.9,
+  22.8,
+  30,
+  180
+ ],
+ "union|C2PA present, failing (0.1.1)|janmay": [
+  7.8,
+  6.0,
+  9.9,
+  56,
+  716
+ ],
+ "union|C2PA present, failing (0.1.1)|junjul": [
+  3.8,
+  2.3,
+  6.1,
+  15,
+  391
+ ],
+ "union|C2PA present, failing (0.1.1)|post": [
+  2.5,
+  1.5,
+  4.1,
+  15,
+  592
+ ],
+ "union|C2PA present, failing (0.1.1)|pre": [
+  6.3,
+  5.1,
+  7.9,
+  71,
+  1107
+ ],
+ "union|IPTC DigitalSourceType AI (XMP)|2024": [
+  0.4,
+  0.1,
+  2.2,
+  1,
+  180
+ ],
+ "union|IPTC DigitalSourceType AI (XMP)|2025": [
+  3.4,
+  1.5,
+  7.3,
+  6,
+  180
+ ],
+ "union|IPTC DigitalSourceType AI (XMP)|janmay": [
+  1.7,
+  1.0,
+  2.9,
+  12,
+  716
+ ],
+ "union|IPTC DigitalSourceType AI (XMP)|junjul": [
+  1.3,
+  0.5,
+  2.9,
+  5,
+  391
+ ],
+ "union|IPTC DigitalSourceType AI (XMP)|post": [
+  2.2,
+  1.3,
+  3.7,
+  13,
+  592
+ ],
+ "union|IPTC DigitalSourceType AI (XMP)|pre": [
+  1.5,
+  1.0,
+  2.5,
+  17,
+  1107
+ ],
+ "union|[0.1.0] C2PA declaring AI, valid|2024": [
+  7.0,
+  4.0,
+  12.1,
+  13,
+  180
+ ],
+ "union|[0.1.0] C2PA declaring AI, valid|2025": [
+  1.2,
+  0.4,
+  3.5,
+  3,
+  180
+ ],
+ "union|[0.1.0] C2PA declaring AI, valid|janmay": [
+  9.3,
+  7.4,
+  11.6,
+  66,
+  716
+ ],
+ "union|[0.1.0] C2PA declaring AI, valid|junjul": [
+  26.1,
+  22.0,
+  30.7,
+  102,
+  391
+ ],
+ "union|[0.1.0] C2PA declaring AI, valid|post": [
+  20.8,
+  17.7,
+  24.2,
+  123,
+  592
+ ],
+ "union|[0.1.0] C2PA declaring AI, valid|pre": [
+  15.4,
+  13.4,
+  17.6,
+  168,
+  1107
+ ],
+ "union|[0.1.0] C2PA present, failing|2024": [
+  4.7,
+  2.3,
+  9.5,
+  7,
+  180
+ ],
+ "union|[0.1.0] C2PA present, failing|2025": [
+  18.4,
+  13.4,
+  24.7,
+  33,
+  180
+ ],
+ "union|[0.1.0] C2PA present, failing|janmay": [
+  11.9,
+  9.7,
+  14.5,
+  85,
+  716
+ ],
+ "union|[0.1.0] C2PA present, failing|junjul": [
+  19.9,
+  16.3,
+  24.1,
+  78,
+  391
+ ],
+ "union|[0.1.0] C2PA present, failing|post": [
+  16.1,
+  13.3,
+  19.2,
+  95,
+  592
+ ],
+ "union|[0.1.0] C2PA present, failing|pre": [
+  14.8,
+  12.9,
+  17.0,
+  163,
+  1107
+ ],
+ "union|any machine-readable AI mark|2024": [
+  12.1,
+  7.9,
+  18.1,
+  21,
+  180
+ ],
+ "union|any machine-readable AI mark|2025": [
+  23.0,
+  17.4,
+  29.7,
+  42,
+  180
+ ],
+ "union|any machine-readable AI mark|janmay": [
+  21.6,
+  18.8,
+  24.8,
+  154,
+  716
+ ],
+ "union|any machine-readable AI mark|junjul": [
+  46.3,
+  41.4,
+  51.2,
+  181,
+  391
+ ],
+ "union|any machine-readable AI mark|post": [
+  38.6,
+  34.8,
+  42.5,
+  228,
+  592
+ ],
+ "union|any machine-readable AI mark|pre": [
+  30.6,
+  28.0,
+  33.2,
+  335,
+  1107
+ ],
+ "union|no AI mark|2024": [
+  87.9,
+  81.9,
+  92.1,
+  159,
+  180
+ ],
+ "union|no AI mark|2025": [
+  77.0,
+  70.3,
+  82.6,
+  138,
+  180
+ ],
+ "union|no AI mark|janmay": [
+  78.4,
+  75.2,
+  81.2,
+  562,
+  716
+ ],
+ "union|no AI mark|junjul": [
+  53.7,
+  48.8,
+  58.6,
+  210,
+  391
+ ],
+ "union|no AI mark|post": [
+  61.4,
+  57.5,
+  65.2,
+  364,
+  592
+ ],
+ "union|no AI mark|pre": [
+  69.4,
+  66.8,
+  72.0,
+  772,
+  1107
+ ]
+}
