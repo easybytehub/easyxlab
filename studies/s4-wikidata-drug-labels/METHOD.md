@@ -19,6 +19,7 @@ Languages: en es fr de it pt pl ru uk tr ar fa ur hi bn zh ja ko sw am (+ `mul` 
   sent the User-Agent `EasyByteLab-research/0.1 (contact: contact@easybyte.es)` and was a POST. There
   was a 1 s pause between queries. On HTTP 429/503 the client waits for `Retry-After` and tries at most 5 times.
 - **Load**: 101 queries in total, run on 2026-10-02 between 15:24 and 15:29 UTC. The service returned no 429 responses.
+- **Terms**: `query.wikidata.org/robots.txt` disallows `/sparql` for crawlers (`User-agent: *`, `Disallow: /sparql`). The Wikidata Query Service is an API meant for programs, and its terms are Wikimedia's User-Agent policy ("Scripts should use an informative User-Agent string with contact information, or they may be blocked without notice") and the service limits ("One client (user agent + IP) is allowed 60 seconds of processing time each 60 seconds"; "access to the service is limited to 5 parallel queries per IP"). Policies quoted on 2026-10-03. Our queries were serial, one at a time with a 1 s pause, under that User-Agent with a contact address.
 - **Fields stored per item**: `lastrevid` (schema:version), `dateModified`, sitelink count, ATC codes
   with rank and end date, labels, aliases, P2275 (WHO INN, non-deprecated), P31/P279, and the titles
   of the item's Wikipedia sitelinks in the 20 languages. The dataset is therefore pinned to exact

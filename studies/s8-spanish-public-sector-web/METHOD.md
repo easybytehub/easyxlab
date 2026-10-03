@@ -42,6 +42,8 @@ municipality. We looked for one and document what we found:
 - **Wikidata**: every item with an INE municipality code (P772), with all non-deprecated
   official-website (P856) statements and without a dissolution date (P576). Querying by the
   code rather than by class avoids the class problem that hides some cities (e.g. Barcelona).
+  It is a single SPARQL query to the Wikidata Query Service (`scripts/fetch_sources.sh`), sent with the
+  study's User-Agent, which carries a contact address. `query.wikidata.org/robots.txt` disallows `/sparql` for crawlers (`User-agent: *`, `Disallow: /sparql`). The Wikidata Query Service is an API meant for programs, and its terms are Wikimedia's User-Agent policy ("Scripts should use an informative User-Agent string with contact information, or they may be blocked without notice") and the service limits ("One client (user agent + IP) is allowed 60 seconds of processing time each 60 seconds"; "access to the service is limited to 5 parallel queries per IP"). Policies quoted on 2026-10-03.
 
 Precedence: URL override (1 case, written by the agent: Bilbao, whose only P856 value was the
 tourism site) > Castilla-La Mancha directory > Wikidata. Among several Wikidata values we prefer
