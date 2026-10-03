@@ -1,0 +1,41 @@
+reading,qid,surface,fact_id,rule_verdict,agent_verdict,note
+1,F01-Q2,aio,F01,current,current,agent agrees
+2,F01-Q3,aio,F01,current,current,agent agrees
+1,F02-Q2,aio,F02,current,current,agent agrees
+1,F02-Q4,mode,F02,current,current,agent agrees
+2,F02-Q3,aio,F02,current,current,agent agrees
+2,F02-Q1,mode,F02,current,current,agent agrees
+1,F03-Q2,mode,F03,current,current,agent agrees
+1,F04-Q3,mode,F04,current,current,agent agrees
+2,F04-Q4,mode,F04,current,current,agent agrees
+3,F04-Q2,mode,F04,current,current,correct rule; cites art. 49.1.e (now 49.1.n): non-temporal inaccuracy
+1,F05-Q1,mode,F05,current,current,agent agrees
+2,F05-Q3,aio,F05,current,current,agent agrees
+2,F05-Q4,mode,F05,current,current,agent agrees
+3,F05-Q1,aio,F05,current,current,agent agrees
+3,F06-Q1,aio,F06,current,current,agent agrees
+3,F06-Q4,mode,F06,current,current,agent agrees
+2,F08-Q2,mode,F08,current,current,agent agrees
+3,F08-Q2,mode,F08,current,current,agent agrees
+1,F09-Q1,mode,F09,current,current,"correct (PNC +11.4 % matches 7,905.80 -> 8,803.20)"
+2,F09-Q2,mode,F09,current,current,agent agrees
+3,F09-Q2,mode,F09,current,current,agent agrees
+1,F10-Q2,mode,F10,current,current,agent agrees
+1,F10-Q3,mode,F10,current,current,agent agrees
+1,F11-Q4,mode,F11,current,current,agent agrees
+1,F17-Q4,aio,F17,current,current,agent agrees
+2,F18-Q4,mode,F18,current,current,agent agrees
+3,F18-Q2,mode,F18,current,current,agent agrees
+2,F20-Q4,mode,F20,current,current,"correct; omits the 12-month adaptation (imprecise, not counted)"
+2,F20-Q2,mode,F20,current,current,"correct; omits the 12-month adaptation (imprecise, not counted)"
+1,F22-Q3,mode,F22,current,current,agent agrees
+3,F22-Q3,mode,F22,current,current,agent agrees
+1,F23-Q2,aio,F23,current,current,agent agrees
+2,F23-Q4,aio,F23,current,current,agent agrees
+2,F23-Q2,mode,F23,current,current,agent agrees
+1,F24-Q4,aio,F24,current,current,agent agrees
+2,F24-Q2,aio,F24,current,current,agent agrees
+3,F26-Q4,aio,F26,current,current,agent agrees
+3,F26-Q2,mode,F26,current,current,agent agrees
+2,F27-Q3,mode,F27,current,current,agent agrees
+3,F27-Q2,aio,F27,current,current,agent agrees

@@ -1,0 +1,645 @@
+{
+ "responses_total": 606,
+ "responses_scored": 582,
+ "facts_scored": 27,
+ "queries_scored": 97,
+ "readings": {
+  "1": {
+   "aio": {
+    "queries": 97,
+    "answered": 75,
+    "presence_pct": 77.3,
+    "final": {
+     "current": 67,
+     "mixed": 2,
+     "outdated": 1,
+     "incorrect": 1,
+     "not_stated": 4
+    },
+    "wrong": 4,
+    "rule_flagged": 3,
+    "first_utc": "2026-10-02T19:32:36+00:00",
+    "last_utc": "2026-10-02T19:38:32+00:00"
+   },
+   "mode": {
+    "queries": 97,
+    "answered": 97,
+    "presence_pct": 100.0,
+    "final": {
+     "current": 92,
+     "mixed": 0,
+     "outdated": 3,
+     "incorrect": 0,
+     "not_stated": 2
+    },
+    "wrong": 3,
+    "rule_flagged": 2,
+    "first_utc": "2026-10-02T19:32:36+00:00",
+    "last_utc": "2026-10-02T19:38:32+00:00"
+   }
+  },
+  "2": {
+   "aio": {
+    "queries": 97,
+    "answered": 83,
+    "presence_pct": 85.6,
+    "final": {
+     "current": 72,
+     "mixed": 1,
+     "outdated": 3,
+     "incorrect": 1,
+     "not_stated": 6
+    },
+    "wrong": 5,
+    "rule_flagged": 7,
+    "first_utc": "2026-10-02T23:05:44+00:00",
+    "last_utc": "2026-10-02T23:11:46+00:00"
+   },
+   "mode": {
+    "queries": 97,
+    "answered": 97,
+    "presence_pct": 100.0,
+    "final": {
+     "current": 86,
+     "mixed": 2,
+     "outdated": 3,
+     "incorrect": 2,
+     "not_stated": 4
+    },
+    "wrong": 7,
+    "rule_flagged": 8,
+    "first_utc": "2026-10-02T23:05:44+00:00",
+    "last_utc": "2026-10-02T23:11:52+00:00"
+   }
+  },
+  "3": {
+   "aio": {
+    "queries": 97,
+    "answered": 82,
+    "presence_pct": 84.5,
+    "final": {
+     "current": 74,
+     "mixed": 1,
+     "outdated": 1,
+     "incorrect": 1,
+     "not_stated": 5
+    },
+    "wrong": 3,
+    "rule_flagged": 6,
+    "first_utc": "2026-10-02T23:42:16+00:00",
+    "last_utc": "2026-10-02T23:47:16+00:00"
+   },
+   "mode": {
+    "queries": 97,
+    "answered": 97,
+    "presence_pct": 100.0,
+    "final": {
+     "current": 89,
+     "mixed": 2,
+     "outdated": 1,
+     "incorrect": 0,
+     "not_stated": 5
+    },
+    "wrong": 3,
+    "rule_flagged": 5,
+    "first_utc": "2026-10-02T23:42:16+00:00",
+    "last_utc": "2026-10-02T23:47:19+00:00"
+   }
+  }
+ },
+ "pooled": {
+  "aio": {
+   "answered": 240,
+   "wrong": 12,
+   "wrong_pct": 5.0,
+   "wrong_ci95": [
+    2.9,
+    8.5
+   ],
+   "temporal_wrong": 9,
+   "temporal_wrong_pct": 3.8,
+   "temporal_ci95": [
+    2.0,
+    7.0
+   ],
+   "final": {
+    "current": 213,
+    "mixed": 4,
+    "not_stated": 15,
+    "outdated": 5,
+    "incorrect": 3
+   },
+   "current_pct": 88.8,
+   "rule_only_wrong": 16,
+   "distinct_pairs_with_error": 8,
+   "wrong_without_invoicing": 8,
+   "answered_without_invoicing": 210,
+   "cites_boe_pct": 5.4,
+   "cites_official_pct": 57.5,
+   "wrong_if_official": [
+    3,
+    138
+   ],
+   "wrong_if_not_official": [
+    9,
+    102
+   ],
+   "presence_range_pct": [
+    77.3,
+    85.6
+   ],
+   "references": 1255,
+   "distinct_domains": 340,
+   "forum_social_pct": 13.2,
+   "yt_fb_ig_pct": 11.6,
+   "top_domains": [
+    [
+     "youtube.com",
+     70
+    ],
+    [
+     "seg-social.es",
+     44
+    ],
+    [
+     "facebook.com",
+     39
+    ],
+    [
+     "grupo2000.es",
+     38
+    ],
+    [
+     "instagram.com",
+     36
+    ],
+    [
+     "vidacaixa.es",
+     36
+    ],
+    [
+     "wolterskluwer.com",
+     33
+    ],
+    [
+     "caixabank.com",
+     26
+    ]
+   ]
+  },
+  "mode": {
+   "answered": 291,
+   "wrong": 13,
+   "wrong_pct": 4.5,
+   "wrong_ci95": [
+    2.6,
+    7.5
+   ],
+   "temporal_wrong": 11,
+   "temporal_wrong_pct": 3.8,
+   "temporal_ci95": [
+    2.1,
+    6.6
+   ],
+   "final": {
+    "current": 267,
+    "not_stated": 11,
+    "outdated": 7,
+    "mixed": 4,
+    "incorrect": 2
+   },
+   "current_pct": 91.8,
+   "rule_only_wrong": 15,
+   "distinct_pairs_with_error": 9,
+   "wrong_without_invoicing": 7,
+   "answered_without_invoicing": 258,
+   "cites_boe_pct": 15.8,
+   "cites_official_pct": 74.2,
+   "wrong_if_official": [
+    11,
+    216
+   ],
+   "wrong_if_not_official": [
+    2,
+    75
+   ],
+   "references": 1148,
+   "distinct_domains": 274,
+   "forum_social_pct": 1.8,
+   "yt_fb_ig_pct": 1.8,
+   "top_domains": [
+    [
+     "seg-social.es",
+     63
+    ],
+    [
+     "lamoncloa.gob.es",
+     49
+    ],
+    [
+     "boe.es",
+     47
+    ],
+    [
+     "grupo2000.es",
+     28
+    ],
+    [
+     "caixabank.com",
+     27
+    ],
+    [
+     "mivau.gob.es",
+     27
+    ],
+    [
+     "vidacaixa.es",
+     26
+    ],
+    [
+     "wolterskluwer.com",
+     26
+    ]
+   ]
+  }
+ },
+ "errors": [
+  {
+   "reading": 1,
+   "qid": "F04-Q4",
+   "fact_id": "F04",
+   "surface": "aio",
+   "rule_verdict": "mixed",
+   "final_verdict": "mixed",
+   "extract": "…e cualquier profesión u oficio. - ✅ extinción del contrato: la empresa finaliza la relación laboral automáticamente al ser incompatible con cualquier trabajo. - ⚠️ pérdida de derechos activos: cesan los derechos vinculados al puesto de trabajo activo. - 💡 pensión vitalicia: pasas…"
+  },
+  {
+   "reading": 2,
+   "qid": "F13-Q2",
+   "fact_id": "F13",
+   "surface": "aio",
+   "rule_verdict": "outdated",
+   "final_verdict": "outdated",
+   "extract": "…a los 65 años si has cotizado al menos 38 años y 3 meses , o a los 66 años y 8 meses si no reaches esa cotización. requisitos principales en 2026 - a los 65 años: necesitas tener cotizados 38 años y 3 meses o más. - a los 66 años y 8 meses: es la edad ordinaria si tienes menos d…"
+  },
+  {
+   "reading": 3,
+   "qid": "F13-Q2",
+   "fact_id": "F13",
+   "surface": "aio",
+   "rule_verdict": "outdated",
+   "final_verdict": "outdated",
+   "extract": "…a los 65 años si has cotizado al menos 38 años y 3 meses , o a los 66 años y 8 meses si no reaches esa cotización. requisitos principales en 2026 - a los 65 años: necesitas tener cotizados 38 años y 3 meses o más. - a los 66 años y 8 meses: es la edad ordinaria si tienes menos d…"
+  },
+  {
+   "reading": 2,
+   "qid": "F15-Q1",
+   "fact_id": "F15",
+   "surface": "aio",
+   "rule_verdict": "outdated",
+   "final_verdict": "outdated",
+   "extract": "…entos (que otorga el número de registro de alquiler o nrua) es obligatorio en españa para todos los alquileres de corta duración que se anuncien en plataformas digitales. 💡 cuándo es obligatorio - alquileres turísticos : imprescindible para operar y anunciarse en airbnb o booking…"
+  },
+  {
+   "reading": 1,
+   "qid": "F15-Q1",
+   "fact_id": "F15",
+   "surface": "mode",
+   "rule_verdict": "not_stated",
+   "final_verdict": "outdated",
+   "extract": "…sí, es obligatorio , pero con un matiz fundamental: depende exclusivamente del tipo de alquiler . la obligatoriedad del registro único de arrendamientos y la obtención de un número o código de comercialización se aplica…"
+  },
+  {
+   "reading": 1,
+   "qid": "F15-Q2",
+   "fact_id": "F15",
+   "surface": "mode",
+   "rule_verdict": "not_stated",
+   "final_verdict": "outdated",
+   "extract": "…el número de registro de alquiler (nra) es el código único obligatorio en españa para comercializar viviendas o habitaciones de corta duración (incluidos los alquileres de temporada y turísticos) a través de plataformas digitales con contratación a distancia (…"
+  },
+  {
+   "reading": 2,
+   "qid": "F15-Q2",
+   "fact_id": "F15",
+   "surface": "mode",
+   "rule_verdict": "not_stated",
+   "final_verdict": "outdated",
+   "extract": "…el número de registro de alquiler (nra o nrua) es un código obligatorio para ofrecer viviendas o habitaciones de corta y media duración —incluyendo el alquiler turístico, de temporada, por estudios, trabajo o motivos médicos— inferior a un año que se anuncien en plat…"
+  },
+  {
+   "reading": 3,
+   "qid": "F15-Q2",
+   "fact_id": "F15",
+   "surface": "mode",
+   "rule_verdict": "outdated",
+   "final_verdict": "outdated",
+   "extract": "…lave sobre el número de registro: - ¿cuándo es obligatorio? es un requisito indispensable si vas a publicitar el inmueble o habitaciones en plataformas online (como airbnb, booking, etc.). quedan excluidos los alquileres de larga estancia tradicionales (bajo la lau) y los canales…"
+  },
+  {
+   "reading": 2,
+   "qid": "F15-Q3",
+   "fact_id": "F15",
+   "surface": "mode",
+   "rule_verdict": "not_stated",
+   "final_verdict": "outdated",
+   "extract": "…1 de julio de 2025 . desde esa fecha (1 de julio de 2025), es un requisito indispensable disponer del número de registro único para poder publicitar y comercializar cualquier alojamiento de corta duración —tanto turístico como de temporada o por habitaciones— en plataformas en l…"
+  },
+  {
+   "reading": 3,
+   "qid": "F19-Q2",
+   "fact_id": "F19",
+   "surface": "aio",
+   "rule_verdict": "mixed",
+   "final_verdict": "mixed",
+   "extract": "…sí, los juzgados de primera instancia siguen existiendo en españa , aunque están en un proceso de transformación hacia los nuevos tribunales de instancia debido a la ley orgánica 1/2025 de eficiencia del servicio público de…"
+  },
+  {
+   "reading": 2,
+   "qid": "F21-Q2",
+   "fact_id": "F21",
+   "surface": "mode",
+   "rule_verdict": "outdated",
+   "final_verdict": "outdated",
+   "extract": "…- el ministerio de consumo y organismos europeos señalan un plazo máximo general de 30 días para dar respuesta a la queja o incidencia del consumidor. 3. sectores regulados específicos (bancos, luz, teléfono, seguros) si la reclamación va dirigida a empresas de sectores con norma…"
+  },
+  {
+   "reading": 1,
+   "qid": "F25-Q1",
+   "fact_id": "F25",
+   "surface": "aio",
+   "rule_verdict": "not_stated",
+   "final_verdict": "mixed",
+   "extract": "…antación - el plazo general fijado por la normativa es de 2 años desde la entrada en vigor de la ley (fines de 2025), lo que sitúa la fecha límite principal a finales de 2026 para miles de compañías en el país. requisitos y medidas principales del plan - diagnóstico previo : anal…"
+  },
+  {
+   "reading": 1,
+   "qid": "F25-Q2",
+   "fact_id": "F25",
+   "surface": "aio",
+   "rule_verdict": "not_stated",
+   "final_verdict": "outdated",
+   "extract": "…implantar un plan de movilidad sostenible al trabajo (pmst) antes del 5 de diciembre de 2027 (en el plazo de 24 meses desde su entrada en vigor). obligaciones principales para las empresas - planes de movilidad sostenible al trabajo (pmst): los centros afectados deben diseñar e i…"
+  },
+  {
+   "reading": 2,
+   "qid": "F25-Q2",
+   "fact_id": "F25",
+   "surface": "aio",
+   "rule_verdict": "outdated",
+   "final_verdict": "outdated",
+   "extract": "…ovilidad sostenible al trabajo (pmst) en un plazo máximo de 24 meses desde su entrada en vigor (hasta diciembre de 2027). empresas afectadas - obligadas: centros de trabajo con más de 200 personas trabajadoras o que superen los 100 trabajadores por turno . - ayudas y voluntarieda…"
+  },
+  {
+   "reading": 1,
+   "qid": "F25-Q3",
+   "fact_id": "F25",
+   "surface": "mode",
+   "rule_verdict": "outdated",
+   "final_verdict": "outdated",
+   "extract": "…o de implementación: las compañías afectadas disponen de un periodo de 24 meses desde la entrada en vigor de la ley para tenerlo implementado y negociado con la representación legal de las personas trabajadoras (el límite se sitúa en diciembre de [2027]). - seguimiento: se exige…"
+  },
+  {
+   "reading": 2,
+   "qid": "F28-Q1",
+   "fact_id": "F28",
+   "surface": "mode",
+   "rule_verdict": "mixed",
+   "final_verdict": "mixed",
+   "extract": "…e aplicación tras aprobarse la normativa es el siguiente: - 1 de octubre de 2027 (12 meses desde la aprobación de la orden de desarrollo prevista para finales de 2026): - grandes empresas: aquellas con una facturación anual superior a los 8 millones. - 1 de octubre de 2028 (24 me…"
+  },
+  {
+   "reading": 3,
+   "qid": "F28-Q1",
+   "fact_id": "F28",
+   "surface": "mode",
+   "rule_verdict": "current",
+   "final_verdict": "mixed",
+   "extract": "…orden ministerial técnica: 📅 calendario de obligatoriedad - 1 de octubre de 2027 (12 meses desde el inicio del despliegue): - obligatorio para grandes empresas con una facturación anual superior a 8 millones de euros . - incluye la obligación de emitir/recibir facturas electrónic…"
+  },
+  {
+   "reading": 2,
+   "qid": "F28-Q2",
+   "fact_id": "F28",
+   "surface": "mode",
+   "rule_verdict": "mixed",
+   "final_verdict": "incorrect",
+   "extract": "…ón obligatoria de la factura electrónica es el siguiente: - 1 de octubre de 2027 (fase 1): empresas y entidades con una facturación anual superior a 8 millones. estarán obligadas a emitir y recibir facturas electrónicas en sus relaciones comerciales b2b, además de reportar los es…"
+  },
+  {
+   "reading": 3,
+   "qid": "F28-Q2",
+   "fact_id": "F28",
+   "surface": "mode",
+   "rule_verdict": "mixed",
+   "final_verdict": "mixed",
+   "extract": "…resas (facturación anual superior a 8 millones de euros): - fecha límite: 1 de octubre de 2027 (12 meses tras la entrada en vigor de la orden de desarrollo prevista para octubre de 2026). - resto de empresas, pymes y autónomos: - fecha límite: 1 de octubre de 2028 (24 meses tras…"
+  },
+  {
+   "reading": 1,
+   "qid": "F28-Q3",
+   "fact_id": "F28",
+   "surface": "aio",
+   "rule_verdict": "outdated",
+   "final_verdict": "incorrect",
+   "extract": "…l para las operaciones entre empresas y profesionales (b2b) a partir del 1 de octubre de 2028 para aquellos que facturen menos de 8 millones de euros. plazos de obligatoriedad - grandes empresas ( 8 millones de euros de facturación): desde el 1 de octubre de 2027 (un año tras la…"
+  },
+  {
+   "reading": 2,
+   "qid": "F28-Q3",
+   "fact_id": "F28",
+   "surface": "aio",
+   "rule_verdict": "outdated",
+   "final_verdict": "incorrect",
+   "extract": "…l para las operaciones entre empresas y profesionales (b2b) a partir del 1 de octubre de 2028 para aquellos que facturen menos de 8 millones de euros. plazos de obligatoriedad - grandes empresas ( 8 millones de euros de facturación): desde el 1 de octubre de 2027 (un año tras la…"
+  },
+  {
+   "reading": 3,
+   "qid": "F28-Q3",
+   "fact_id": "F28",
+   "surface": "aio",
+   "rule_verdict": "outdated",
+   "final_verdict": "incorrect",
+   "extract": "…l para las operaciones entre empresas y profesionales (b2b) a partir del 1 de octubre de 2028 para aquellos que facturen menos de 8 millones de euros. plazos de obligatoriedad - grandes empresas ( 8 millones de euros de facturación): desde el 1 de octubre de 2027 (un año tras la…"
+  },
+  {
+   "reading": 2,
+   "qid": "F28-Q3",
+   "fact_id": "F28",
+   "surface": "mode",
+   "rule_verdict": "mixed",
+   "final_verdict": "mixed",
+   "extract": "…será obligatoria para todos los autónomos y pymes en españa el 1 de octubre de 2028 para sus operaciones comerciales con otros empresarios y profesionales (b2b), según el desarrollo de la ley crea y crece y el real decreto aprobado en marzo de 2026. para las grandes empresas con…"
+  },
+  {
+   "reading": 2,
+   "qid": "F28-Q4",
+   "fact_id": "F28",
+   "surface": "aio",
+   "rule_verdict": "mixed",
+   "final_verdict": "mixed",
+   "extract": "…ada a partir de la entrada en vigor de la orden ministerial prevista para el 1 de octubre de 2026. 🗓️ calendario de aplicación b2b - octubre de 2027 : grandes empresas con facturación superior a 8 millones de euros. - octubre de 2028 : resto de empresas y autónomos. 💡 diferencia…"
+  },
+  {
+   "reading": 2,
+   "qid": "F28-Q4",
+   "fact_id": "F28",
+   "surface": "mode",
+   "rule_verdict": "mixed",
+   "final_verdict": "incorrect",
+   "extract": "…oriedad | grupo de contribuyente | volumen de facturación | fecha límite de aplicación | |---|---|---| | grandes empresas | más de 8 millones de euros | octubre de 2027 | | resto de empresas (pymes) | menos de 8 millones de euros | octubre de 2028 | | autónomos y profesionales |…"
+  }
+ ],
+ "f16_case": [
+  {
+   "reading": 1,
+   "surface": "aio",
+   "first_utc": "2026-10-02T19:35:20+00:00",
+   "current": 1,
+   "outdated": 0,
+   "mixed": 0,
+   "not_stated": 2,
+   "no_answer": 1
+  },
+  {
+   "reading": 1,
+   "surface": "mode",
+   "first_utc": "2026-10-02T19:35:25+00:00",
+   "current": 2,
+   "outdated": 1,
+   "mixed": 0,
+   "not_stated": 1,
+   "no_answer": 0
+  },
+  {
+   "reading": 2,
+   "surface": "aio",
+   "first_utc": "2026-10-02T23:08:47+00:00",
+   "current": 2,
+   "outdated": 0,
+   "mixed": 0,
+   "not_stated": 2,
+   "no_answer": 0
+  },
+  {
+   "reading": 2,
+   "surface": "mode",
+   "first_utc": "2026-10-02T23:08:50+00:00",
+   "current": 1,
+   "outdated": 2,
+   "mixed": 0,
+   "not_stated": 1,
+   "no_answer": 0
+  },
+  {
+   "reading": 3,
+   "surface": "aio",
+   "first_utc": "2026-10-02T23:44:55+00:00",
+   "current": 1,
+   "outdated": 1,
+   "mixed": 0,
+   "not_stated": 2,
+   "no_answer": 0
+  },
+  {
+   "reading": 3,
+   "surface": "mode",
+   "first_utc": "2026-10-02T23:44:56+00:00",
+   "current": 2,
+   "outdated": 1,
+   "mixed": 0,
+   "not_stated": 1,
+   "no_answer": 0
+  }
+ ],
+ "review": {
+  "items": 120,
+  "flagged": 39,
+  "flagged_confirmed": 22,
+  "full_review_items": 81,
+  "full_review_new_errors": 8,
+  "changes": {
+   "not_stated->current": 5,
+   "not_stated->outdated": 6,
+   "outdated->not_stated": 4,
+   "not_stated->mixed": 1,
+   "mixed->current": 10,
+   "outdated->incorrect": 3,
+   "mixed->incorrect": 2,
+   "outdated->current": 1,
+   "mixed->not_stated": 2,
+   "current->mixed": 1
+  }
+ },
+ "fn_check": {
+  "n": 40,
+  "missed_errors": 0,
+  "ci95": [
+   0.0,
+   8.8
+  ],
+  "seed": 20261003,
+  "pool": "answered, rule verdict current/not_stated, facts not fully re-read (all except F14 F15 F16 F21 F25 F28)"
+ },
+ "second_reader": {
+  "n": 60,
+  "agreement_pct": 83.3,
+  "kappa": 0.758,
+  "binary_wrong_agreement_pct": 93.3,
+  "binary_wrong_kappa": 0.857,
+  "per_stratum": {
+   "A": {
+    "n": 20,
+    "agreement_pct": 75.0,
+    "binary_agreement_pct": 100.0,
+    "disagreements": {
+     "mixed->incorrect": 3,
+     "mixed->outdated": 2
+    }
+   },
+   "B": {
+    "n": 17,
+    "agreement_pct": 88.2,
+    "binary_agreement_pct": 88.2,
+    "disagreements": {
+     "current->mixed": 2
+    }
+   },
+   "C": {
+    "n": 23,
+    "agreement_pct": 87.0,
+    "binary_agreement_pct": 91.3,
+    "disagreements": {
+     "current->mixed": 2,
+     "not_stated->current": 1
+    }
+   }
+  }
+ },
+ "stability": {
+  "aio": {
+   "pairs": 97,
+   "same_pct": 66.0
+  },
+  "mode": {
+   "pairs": 97,
+   "same_pct": 89.7
+  }
+ },
+ "page_check": {
+  "errors_checked": 25,
+  "strict": {
+   "synthesis": 11,
+   "in_source": 14
+  },
+  "three_way": {
+   "pages silent on the rule or unreadable (undetermined)": 3,
+   "a cited page states only the superseded rule": 14,
+   "a cited page states both (ambiguous)": 8
+  },
+  "distinct_texts_note": "identical answers in two readings are counted once per reading",
+  "control_n": 40,
+  "control_strict_in_source": 2,
+  "control_loose_in_source": 23
+ }
+}

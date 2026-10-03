@@ -1,0 +1,61 @@
+item,second_reader_verdict,note
+1,current,"Plan Estatal de Vivienda 2026-2030, RD 326/2026"
+2,current,only the connected V16 beacon is the legal device from 1 January 2026
+3,current,"66 years and 10 months, or 65 with 38 years 3 months"
+4,incorrect,fixed date 'obligatoria el 1 de octubre de 2028' instead of months after ministerial order
+5,current,66 años y 10 meses; 65 con 38 años y 3 meses
+6,incorrect,fixed '1 de octubre de 2028' and 2027 dates
+7,outdated,RDL 8/2026 limits updates to '2% máximo'; presented as in force
+8,outdated,"'Sí, es obligatorio' state register, no mention of annulment"
+9,mixed,"12/24 months after order stated, but adds 'autónomos 3 años' phase"
+10,not_stated,"gives thresholds only, no twelve-month deadline"
+11,current,95% of calls under 3 minutes; adaptation until December 2026
+12,outdated,"NRA 'código obligatorio', no mention of Supreme Court annulment"
+13,not_stated,10 días hábiles / 1 mes regional regimes; never states 15 days
+14,not_stated,'10 días hábiles' only; no 15-day rule
+15,outdated,'Todavía operan' tradicional juzgados; transformation 'progresiva'
+16,not_stated,10 días hábiles regional; no 15-day rule
+17,current,Plan Estatal 2026-2030 regulated by RD 326/2026
+18,current,Tribunal Supremo anuló el NRUA; no longer required
+19,current,65 con 38 años y 3 meses; 66 años y 10 meses
+20,current,"fecha clave diciembre 2026 según RDL 7/2026, with vague 2027 hedge"
+21,current,95% of calls answered in under 3 minutes
+22,current,Supreme Court annulled state registration number in May 2026
+23,incorrect,"fixed dates 1 octubre 2027, 2028, 2029"
+24,mixed,"12/24 months after order, 'previsto', but adds 36 months for autónomos"
+25,not_stated,10 días hábiles standard; no 15-day rule
+26,current,1.221 euros brutos mensuales en 14 pagas
+27,current,"40 horas semanales; 37,5 reduction has no entry into force"
+28,incorrect,order 'prevista para el 1 de octubre de 2026'; fixed Oct 2027/2028
+29,current,2% cap 'no sigue vigente'
+30,outdated,"NRUA obligatorio, tasa 27,05; no annulment"
+31,current,"40 horas semanales promedio; 37,5 not in force"
+32,current,tope del 2% no sigue vigente
+33,incorrect,fixed '1 de octubre de 2028' and 2027
+34,not_stated,only IRAV/IPC regimes; no mention of 2% cap
+35,outdated,'tope del 2% sigue vigente' until 31 December 2027
+36,outdated,plazo general '2 años' desde entrada en vigor
+37,current,32 semanas en familias monoparentales
+38,current,obligatorio desde el 2 de enero de 2026
+39,mixed,total: can request adaptation; absoluta/gran invalidez 'extinción automáticamente'
+40,current,Sociedades a partir del 1 de enero de 2027
+41,current,autónomos 1 de julio de 2027
+42,outdated,"NRA obligatorio, procedure; no mention of annulment"
+43,current,"MASC requisito de procedibilidad, LO 1/2025"
+44,incorrect,'1 de octubre de 2027' and 2028 fixed dates
+45,not_stated,"10 días hábiles regional; 15 or one month, no rule stated"
+46,current,"12 meses / 24 meses after orden ministerial, estimated"
+47,incorrect,fixed 'Octubre de 2027' and 'Octubre de 2028'
+48,mixed,15 días hábiles for Ley 10/2025 firms; 1 month or 10 días elsewhere
+49,outdated,'66 años y 8 meses' for 2026
+50,not_stated,10 días hábiles; no 15-day rule
+51,outdated,RDL 26/2026 'tope máximo del 2%' presented in force
+52,current,tope del 2% 'no sigue vigente'
+53,current,2% cap 'decayó tras el trámite parlamentario'
+54,current,"MEI al 0,9%; same tramos as 2025"
+55,outdated,'66 años y 8 meses'
+56,current,derecho a solicitar hablar con una persona; 95% under 3 minutes
+57,outdated,'24 meses desde su entrada en vigor (hasta diciembre de 2027)'
+58,mixed,"15 días hábiles for covered firms, 10 días hábiles for autonomic sheets"
+59,current,general maximum 15 días; previously one month
+60,current,15 días hábiles for large and basic-service firms

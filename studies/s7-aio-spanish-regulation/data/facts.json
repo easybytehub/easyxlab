@@ -1,0 +1,1139 @@
+[
+ {
+  "id": "F01",
+  "area": "labour",
+  "topic": "Minimum wage (SMI) 2026",
+  "current": "1.221 €/mes en 14 pagas (40,70 €/día), con efectos desde el 1-ene-2026",
+  "since": "2026-02-19",
+  "old": "1.184 €/mes (39,47 €/día) en 2025",
+  "boe": [
+   {
+    "boe_id": "BOE-A-2026-3815",
+    "consolidated": false,
+    "rx": "40,70 euros/día o 1 221 euros/mes",
+    "note": "",
+    "ok": true,
+    "quote": "…sexo ni edad de las personas trabajadoras, queda fijado en 40,70 euros/día o 1 221 euros/mes, según el salario esté fijado por días o por meses. En el s…",
+    "matched": "40,70 euros/día o 1 221 euros/mes",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-3815"
+   }
+  ],
+  "boe_old": [
+   {
+    "boe_id": "BOE-A-2025-2576",
+    "consolidated": false,
+    "rx": "39,47 euros/día o 1184 euros/mes",
+    "note": "",
+    "ok": true,
+    "quote": "…inción de sexo ni edad de los trabajadores, queda fijado en 39,47 euros/día o 1184 euros/mes, según el salario esté fijado por días o por meses. En el s…",
+    "matched": "39,47 euros/día o 1184 euros/mes",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-2576"
+   }
+  ],
+  "cur_patterns": [
+   "\\b1221\\s*(€|euros|eur)",
+   "\\b40,70\\b"
+  ],
+  "old_patterns": [
+   "\\b1184\\s*(€|euros|eur)",
+   "\\b39,47\\b"
+  ]
+ },
+ {
+  "id": "F02",
+  "area": "labour",
+  "topic": "Birth leave length",
+  "current": "19 semanas por progenitor (RDL 9/2025, en vigor 31-jul-2025)",
+  "since": "2025-07-31",
+  "old": "16 semanas",
+  "boe": [
+   {
+    "boe_id": "BOE-A-2025-15741",
+    "consolidated": false,
+    "rx": "ampliación del permiso de nacimiento a diecinueve semanas",
+    "note": "",
+    "ok": true,
+    "quote": "…ión con otros países, del permiso de nacimiento español. La ampliación del permiso de nacimiento a diecinueve semanas que opera el presente real decreto-ley tiene una trascenden…",
+    "matched": "ampliación del permiso de nacimiento a diecinueve semanas",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-15741"
+   },
+   {
+    "boe_id": "BOE-A-2015-11430",
+    "consolidated": true,
+    "rx": "progenitor distinto de la madre biológica durante diecinueve semanas",
+    "note": "",
+    "ok": true,
+    "quote": "…nderá el contrato de trabajo de la madre biológica y el del progenitor distinto de la madre biológica durante diecinueve semanas. En el supuesto de monoparentalidad, por existir una única…",
+    "matched": "progenitor distinto de la madre biológica durante diecinueve semanas",
+    "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2015-11430/texto"
+   }
+  ],
+  "boe_old": [],
+  "cur_patterns": [
+   "\\b19 semanas",
+   "diecinueve semanas"
+  ],
+  "old_patterns": [
+   "\\b16 semanas",
+   "dieciséis semanas"
+  ]
+ },
+ {
+  "id": "F03",
+  "area": "labour",
+  "topic": "Birth leave, single-parent families",
+  "current": "32 semanas en familias monoparentales (RDL 9/2025)",
+  "since": "2025-07-31",
+  "old": "26 semanas (criterio transitorio tras la STC 140/2024) o 16 semanas",
+  "boe": [
+   {
+    "boe_id": "BOE-A-2015-11430",
+    "consolidated": true,
+    "rx": "monoparentalidad, por existir una única persona progenitora, el periodo de suspensión será de treinta y dos semanas",
+    "note": "",
+    "ok": true,
+    "quote": "…dre biológica durante diecinueve semanas. En el supuesto de monoparentalidad, por existir una única persona progenitora, el periodo de suspensión será de treinta y dos semanas. En los casos de parto prematuro y en aquellos en que, por…",
+    "matched": "monoparentalidad, por existir una única persona progenitora, el periodo de suspensión será de treinta y dos semanas",
+    "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2015-11430/texto"
+   }
+  ],
+  "boe_old": [],
+  "cur_patterns": [
+   "\\b32 semanas",
+   "treinta y dos semanas"
+  ],
+  "old_patterns": [
+   "\\b26 semanas",
+   "veintiséis semanas"
+  ]
+ },
+ {
+  "id": "F04",
+  "area": "labour",
+  "topic": "Permanent disability no longer ends the job automatically",
+  "current": "la incapacidad permanente total, absoluta o gran invalidez ya no extingue automáticamente el contrato: la persona trabajadora puede pedir ajustes razonables o cambio de puesto (Ley 2/2025)",
+  "since": "2025-05-01",
+  "old": "extinción automática del contrato (antiguo art. 49.1.e ET)",
+  "boe": [
+   {
+    "boe_id": "BOE-A-2025-8567",
+    "consolidated": false,
+    "rx": "condiciona la posibilidad de extinción del contrato por «declaración de gran incapacidad, incapacidad permanente absoluta o total de la persona trabajadora» a la voluntad de la persona trabajadora",
+    "note": "",
+    "ok": true,
+    "quote": "…e incorpora una nueva letra n) al citado artículo 49.1, que condiciona la posibilidad de extinción del contrato por «declaración de gran incapacidad, incapacidad permanente absoluta o total de la persona trabajadora» a la voluntad de la persona trabajadora y a la posibilidad de acometer los ajustes razonables. Adic…",
+    "matched": "condiciona la posibilidad de extinción del contrato por «declaración de gran incapacidad, incapacidad permanente absoluta o total de la persona trabajadora» a la voluntad de la persona trabajadora",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-8567"
+   }
+  ],
+  "boe_old": [],
+  "cur_patterns": [
+   "ajustes razonables",
+   "ley 2/2025",
+   "ya no (se )?extingue",
+   "no (se )?extingue (de forma )?autom",
+   "(cambio|adaptaci[oó]n) (de|del) puesto"
+  ],
+  "old_patterns": [
+   "(extingue|extinci[oó]n|fin|finaliza|termina)[^.]{0,50}autom[aá]tic",
+   "causa de (despido|extinci[oó]n)"
+  ]
+ },
+ {
+  "id": "F05",
+  "area": "labour",
+  "topic": "Maximum working week (37.5h bill not passed)",
+  "current": "40 horas semanales de promedio anual (art. 34.1 ET); la reducción a 37,5 h no se aprobó",
+  "since": "(unchanged)",
+  "old": "afirmar que la jornada de 37,5 h está aprobada o en vigor",
+  "boe": [
+   {
+    "boe_id": "BOE-A-2015-11430",
+    "consolidated": true,
+    "rx": "La duración máxima de la jornada ordinaria de trabajo será de cuarenta horas semanales",
+    "note": "",
+    "ok": true,
+    "quote": "…pactada en los convenios colectivos o contratos de trabajo. La duración máxima de la jornada ordinaria de trabajo será de cuarenta horas semanales de trabajo efectivo de promedio en cómputo anual. 2. Median…",
+    "matched": "La duración máxima de la jornada ordinaria de trabajo será de cuarenta horas semanales",
+    "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2015-11430/texto"
+   }
+  ],
+  "boe_old": [],
+  "cur_patterns": [
+   "\\b40 horas",
+   "cuarenta horas",
+   "no (se )?(ha )?(sido )?aprobad",
+   "rechaz",
+   "tumb",
+   "no sali[oó] adelante",
+   "no prosper",
+   "decay"
+  ],
+  "old_patterns": [
+   "37[,.]5 horas"
+  ]
+ },
+ {
+  "id": "F06",
+  "area": "social-security",
+  "topic": "Maximum contribution base 2026",
+  "current": "5.101,20 €/mes desde el 1-ene-2026",
+  "since": "2026-02-04",
+  "old": "4.909,50 €/mes en 2025",
+  "boe": [
+   {
+    "boe_id": "BOE-A-2026-7296",
+    "consolidated": false,
+    "rx": "será, desde el 1 de enero de 2026, de 5\\.101,20 euros mensuales",
+    "note": "",
+    "ok": true,
+    "quote": "…ase de cotización al Régimen General de la Seguridad Social será, desde el 1 de enero de 2026, de 5.101,20 euros mensuales, de conformidad con lo dispuesto en el artículo 3 del Real…",
+    "matched": "será, desde el 1 de enero de 2026, de 5.101,20 euros mensuales",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-7296"
+   }
+  ],
+  "boe_old": [
+   {
+    "boe_id": "BOE-A-2025-3780",
+    "consolidated": false,
+    "rx": "será, desde el 1 de enero de 2025, de 4\\.909,50 euros mensuales",
+    "note": "",
+    "ok": true,
+    "quote": "…ase de cotización al Régimen General de la Seguridad Social será, desde el 1 de enero de 2025, de 4.909,50 euros mensuales, de conformidad con lo dispuesto en el artículo 66 del Real…",
+    "matched": "será, desde el 1 de enero de 2025, de 4.909,50 euros mensuales",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-3780"
+   }
+  ],
+  "cur_patterns": [
+   "\\b5101,20\\b"
+  ],
+  "old_patterns": [
+   "\\b4909,50\\b"
+  ]
+ },
+ {
+  "id": "F07",
+  "area": "social-security",
+  "topic": "Intergenerational Equity Mechanism (MEI) 2026",
+  "current": "0,90 % (0,75 % empresa + 0,15 % trabajador) en 2026",
+  "since": "2026-01-01",
+  "old": "0,80 % (0,67 % + 0,13 %) en 2025",
+  "boe": [
+   {
+    "boe_id": "BOE-A-2026-7296",
+    "consolidated": false,
+    "rx": "tipo del 0,90 por ciento sobre la base de cotización por contingencias comunes, del que el 0,75 por ciento será a cargo del empleador y el 0,15 por ciento",
+    "note": "",
+    "ok": true,
+    "quote": "…General de la Seguridad Social se determinará aplicando el tipo del 0,90 por ciento sobre la base de cotización por contingencias comunes, del que el 0,75 por ciento será a cargo del empleador y el 0,15 por ciento, a cargo de la persona trabajadora. En el Sistema Especial…",
+    "matched": "tipo del 0,90 por ciento sobre la base de cotización por contingencias comunes, del que el 0,75 por ciento será a cargo del empleador y el 0,15 por ciento",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-7296"
+   }
+  ],
+  "boe_old": [
+   {
+    "boe_id": "BOE-A-2025-3780",
+    "consolidated": false,
+    "rx": "tipo del 0,80 por ciento sobre la base de cotización por contingencias comunes, del que el 0,67 por ciento será a cargo del empleador y el 0,13 por ciento",
+    "note": "",
+    "ok": true,
+    "quote": "…General de la Seguridad Social se determinará aplicando el tipo del 0,80 por ciento sobre la base de cotización por contingencias comunes, del que el 0,67 por ciento será a cargo del empleador y el 0,13 por ciento, a cargo de la persona trabajadora. En el Sistema Especial…",
+    "matched": "tipo del 0,80 por ciento sobre la base de cotización por contingencias comunes, del que el 0,67 por ciento será a cargo del empleador y el 0,13 por ciento",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-3780"
+   }
+  ],
+  "cur_patterns": [
+   "\\b0,90?\\s*(%|por ciento)",
+   "\\b0,75\\s*(%|por ciento)",
+   "\\b0,15\\s*(%|por ciento)"
+  ],
+  "old_patterns": [
+   "\\b0,80?\\s*(%|por ciento)",
+   "\\b0,67\\s*(%|por ciento)",
+   "\\b0,13\\s*(%|por ciento)"
+  ]
+ },
+ {
+  "id": "F08",
+  "area": "social-security",
+  "topic": "Solidarity contribution 2026",
+  "current": "1,15 % / 1,25 % / … sobre la retribución que supera la base máxima (5.101,21 €) en 2026",
+  "since": "2026-01-01",
+  "old": "0,92 % / 1 % / 1,17 % en 2025",
+  "boe": [
+   {
+    "boe_id": "BOE-A-2026-7296",
+    "consolidated": false,
+    "rx": "La cuota de solidaridad será el resultado de aplicar un tipo del 1,15 por ciento a la parte de la retribución comprendida entre 5\\.101,21 euros",
+    "note": "",
+    "ok": true,
+    "quote": "…y el 0,15 por ciento, a cargo de la persona trabajadora. 3. La cuota de solidaridad será el resultado de aplicar un tipo del 1,15 por ciento a la parte de la retribución comprendida entre 5.101,21 euros y 5.611,32 euros, siendo el 0,96 por ciento a cargo de la e…",
+    "matched": "La cuota de solidaridad será el resultado de aplicar un tipo del 1,15 por ciento a la parte de la retribución comprendida entre 5.101,21 euros",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-7296"
+   }
+  ],
+  "boe_old": [
+   {
+    "boe_id": "BOE-A-2025-3780",
+    "consolidated": false,
+    "rx": "La cuota de solidaridad será el resultado de aplicar un tipo del 0,92 por ciento",
+    "note": "",
+    "ok": true,
+    "quote": "…y el 0,13 por ciento, a cargo de la persona trabajadora. 3. La cuota de solidaridad será el resultado de aplicar un tipo del 0,92 por ciento a la parte de retribución comprendida entre 4.909,51 y 5.40…",
+    "matched": "La cuota de solidaridad será el resultado de aplicar un tipo del 0,92 por ciento",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-3780"
+   }
+  ],
+  "cur_patterns": [
+   "\\b1,15\\s*(%|por ciento)",
+   "\\b1,25\\s*(%|por ciento)"
+  ],
+  "old_patterns": [
+   "\\b0,92\\s*(%|por ciento)",
+   "\\b1,17\\s*(%|por ciento)"
+  ]
+ },
+ {
+  "id": "F09",
+  "area": "social-security",
+  "topic": "Pension uprating 2026",
+  "current": "+2,7 % para las pensiones contributivas en 2026",
+  "since": "2026-02-04",
+  "old": "+2,8 % en 2025",
+  "boe": [
+   {
+    "boe_id": "BOE-A-2026-2548",
+    "consolidated": false,
+    "rx": "se revalorizarán en 2026 con carácter general el 2,7 por ciento",
+    "note": "",
+    "ok": true,
+    "quote": "…y extraordinarias del Régimen de Clases Pasivas del Estado se revalorizarán en 2026 con carácter general el 2,7 por ciento respecto del importe que tuvieran a 31 de diciembre de 2025…",
+    "matched": "se revalorizarán en 2026 con carácter general el 2,7 por ciento",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-2548"
+   }
+  ],
+  "boe_old": [
+   {
+    "boe_id": "BOE-A-2025-1560",
+    "consolidated": false,
+    "rx": "se revalorizarán en 2025 con carácter general el 2,8 por ciento",
+    "note": "",
+    "ok": true,
+    "quote": "…rdinarias del Régimen Especial de Clases Pasivas del Estado se revalorizarán en 2025 con carácter general el 2,8 por ciento respecto del importe que tuvieran a 31 de diciembre de 2024…",
+    "matched": "se revalorizarán en 2025 con carácter general el 2,8 por ciento",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-1560"
+   }
+  ],
+  "cur_patterns": [
+   "\\b2,7\\s*(%|por ciento)"
+  ],
+  "old_patterns": [
+   "\\b2,8\\s*(%|por ciento)"
+  ]
+ },
+ {
+  "id": "F10",
+  "area": "social-security",
+  "topic": "Non-contributory pension 2026",
+  "current": "8.803,20 €/año (628,80 €/mes en 14 pagas)",
+  "since": "2026-02-04",
+  "old": "7.905,80 €/año (564,70 €/mes) en 2025",
+  "boe": [
+   {
+    "boe_id": "BOE-A-2026-2548",
+    "consolidated": false,
+    "rx": "tendrán un importe anual de 8\\.803,20 euros",
+    "note": "",
+    "ok": true,
+    "quote": "…sistema de la Seguridad Social de incapacidad y jubilación tendrán un importe anual de 8.803,20 euros. 6. Con efectos de 1 de enero de 2026, la cuantía anual de…",
+    "matched": "tendrán un importe anual de 8.803,20 euros",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-2548"
+   }
+  ],
+  "boe_old": [
+   {
+    "boe_id": "BOE-A-2025-1560",
+    "consolidated": false,
+    "rx": "tendrán un importe anual de 7\\.905,80 euros",
+    "note": "",
+    "ok": true,
+    "quote": "…el sistema de la Seguridad Social de invalidez y jubilación tendrán un importe anual de 7.905,80 euros. 6. Con efectos de 1 de enero de 2025, la cuantía anual de…",
+    "matched": "tendrán un importe anual de 7.905,80 euros",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-1560"
+   }
+  ],
+  "cur_patterns": [
+   "\\b8803,20\\b",
+   "\\b628,80\\b"
+  ],
+  "old_patterns": [
+   "\\b7905,80\\b",
+   "\\b564,70\\b"
+  ]
+ },
+ {
+  "id": "F11",
+  "area": "social-security",
+  "topic": "Maximum pension 2026",
+  "current": "3.359,60 €/mes o 47.034,40 €/año",
+  "since": "2026-02-04",
+  "old": "3.267,60 €/mes o 45.746,40 €/año en 2025",
+  "boe": [
+   {
+    "boe_id": "BOE-A-2026-2548",
+    "consolidated": false,
+    "rx": "será de 3\\.359,60 euros mensuales o 47\\.034,40 euros anuales",
+    "note": "",
+    "ok": true,
+    "quote": "…idad Social y de Clases Pasivas del Estado causadas en 2026 será de 3.359,60 euros mensuales o 47.034,40 euros anuales. Artículo 2. Revalorización de las pensiones y de otras pre…",
+    "matched": "será de 3.359,60 euros mensuales o 47.034,40 euros anuales",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-2548"
+   }
+  ],
+  "boe_old": [
+   {
+    "boe_id": "BOE-A-2025-1560",
+    "consolidated": false,
+    "rx": "3\\.267,60 euros",
+    "note": "",
+    "ok": true,
+    "quote": "…Seguridad social y clases pasivas causadas en 2025 será de 3.267,60 euros mensuales o 45.746,40 euros anuales. Artículo 65. Revaloriz…",
+    "matched": "3.267,60 euros",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-1560"
+   }
+  ],
+  "cur_patterns": [
+   "\\b3359,60\\b",
+   "\\b47034,40\\b"
+  ],
+  "old_patterns": [
+   "\\b3267,60\\b",
+   "\\b45746,40\\b"
+  ]
+ },
+ {
+  "id": "F12",
+  "area": "social-security",
+  "topic": "Minimum retirement pension 2026",
+  "current": "jubilación con 65 años: 17.592,40 €/año con cónyuge a cargo; 13.106,80 sin cónyuge; 12.441,80 con cónyuge no a cargo",
+  "since": "2026-02-04",
+  "old": "jubilación con 65 años en 2025: 15.786,40 / 12.241,60 / 11.620,00 €/año (con cónyuge a cargo / sin cónyuge / cónyuge no a cargo)",
+  "boe": [
+   {
+    "boe_id": "BOE-A-2026-2548",
+    "consolidated": false,
+    "rx": "Titular con sesenta y cinco años\\. 17\\.592,40 13\\.106,80 12\\.441,80",
+    "note": "",
+    "ok": true,
+    "quote": "…l − Euros/año Con cónyuge no a cargo − Euros/año Jubilación Titular con sesenta y cinco años. 17.592,40 13.106,80 12.441,80 Titular menor de sesenta y cinco años. 17.592,40 12.262,60…",
+    "matched": "Titular con sesenta y cinco años. 17.592,40 13.106,80 12.441,80",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-2548"
+   }
+  ],
+  "boe_old": [
+   {
+    "boe_id": "BOE-A-2025-1560",
+    "consolidated": false,
+    "rx": "Titular con sesenta y cinco años\\.? [\\d.]+,\\d\\d [\\d.]+,\\d\\d [\\d.]+,\\d\\d",
+    "note": "",
+    "ok": true,
+    "quote": "…l — Euros/año Con cónyuge no a cargo — Euros/año Jubilación Titular con sesenta y cinco años 15.786,40 12.241,60 11.620,00 Titular menor de sesenta y cinco años 15.786,40 11.452,00 1…",
+    "matched": "Titular con sesenta y cinco años 15.786,40 12.241,60 11.620,00",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-1560"
+   }
+  ],
+  "old_rx_note": "old patterns derived from the 2025 BOE annex",
+  "old_patterns": [
+   "\\b15786,40\\b",
+   "\\b12241,60\\b",
+   "\\b11620,00\\b",
+   "\\b1127,60\\b",
+   "\\b874,40\\b",
+   "\\b830,00\\b"
+  ],
+  "cur_patterns": [
+   "\\b17592,40\\b",
+   "\\b13106,80\\b",
+   "\\b12441,80\\b",
+   "\\b1256,60\\b",
+   "\\b936,20\\b",
+   "\\b888,70\\b"
+  ]
+ },
+ {
+  "id": "F13",
+  "area": "social-security",
+  "topic": "Ordinary retirement age 2026",
+  "current": "66 años y 10 meses (65 si se acreditan 38 años y 3 meses cotizados)",
+  "since": "2026-01-01",
+  "old": "66 años y 8 meses en 2025",
+  "boe": [
+   {
+    "boe_id": "BOE-A-2015-11724",
+    "consolidated": true,
+    "rx": "2026 38 años y 3 meses o más\\. 65 años\\. Menos de 38 años y 3 meses\\. 66 años y 10 meses",
+    "note": "",
+    "ok": true,
+    "quote": "…ás. 65 años. Menos de 38 años y 3 meses. 66 años y 8 meses. 2026 38 años y 3 meses o más. 65 años. Menos de 38 años y 3 meses. 66 años y 10 meses. A partir del año 2027 38 años y 6 meses o más. 65 años. Me…",
+    "matched": "2026 38 años y 3 meses o más. 65 años. Menos de 38 años y 3 meses. 66 años y 10 meses",
+    "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2015-11724/texto"
+   }
+  ],
+  "boe_old": [
+   {
+    "boe_id": "BOE-A-2015-11724",
+    "consolidated": true,
+    "rx": "2025 38 años y 3 meses o más\\. 65 años\\. Menos de 38 años y 3 meses\\. 66 años y 8 meses",
+    "note": "",
+    "ok": true,
+    "quote": "…8 o más años. 65 años. Menos de 38 años. 66 años y 6 meses. 2025 38 años y 3 meses o más. 65 años. Menos de 38 años y 3 meses. 66 años y 8 meses. 2026 38 años y 3 meses o más. 65 años. Menos de 38 años y…",
+    "matched": "2025 38 años y 3 meses o más. 65 años. Menos de 38 años y 3 meses. 66 años y 8 meses",
+    "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2015-11724/texto"
+   }
+  ],
+  "cur_patterns": [
+   "66 años y 10 meses"
+  ],
+  "old_patterns": [
+   "66 años y 8 meses",
+   "66 años y 6 meses"
+  ]
+ },
+ {
+  "id": "F14",
+  "area": "self-employed",
+  "topic": "Self-employed contribution brackets 2026",
+  "current": "los tramos de rendimientos y las bases mínimas de 2026 son los mismos que en 2025 (tabla reducida tramo 1: 653,59 €; tabla general tramo 1: 950,98 €); la base máxima general sube a 5.101,20 €; las cuotas suben ligeramente porque el MEI pasa del 0,8 % al 0,9 %",
+  "since": "2026-03-31",
+  "old": "una tabla nueva de tramos y cuotas para 2026 (la propuesta retirada) o subidas generales de cuota por tramos",
+  "boe": [
+   {
+    "boe_id": "BOE-A-2026-7296",
+    "consolidated": false,
+    "rx": "Tramos de rendimientos netos 2026 – Euros/mes Base mínima – Euros/mes Base máxima – Euros/mes Tabla reducida\\. Tramo 1 ≤ 670 653,59 718,94",
+    "note": "",
+    "ok": true,
+    "quote": "…ferentes tramos de rendimientos netos serán las siguientes: Tramos de rendimientos netos 2026 – Euros/mes Base mínima – Euros/mes Base máxima – Euros/mes Tabla reducida. Tramo 1 ≤ 670 653,59 718,94 Tramo 2 > 670 y ≤ 900 718,95 900,00 Tramo 3 > 900 y < 1.166…",
+    "matched": "Tramos de rendimientos netos 2026 – Euros/mes Base mínima – Euros/mes Base máxima – Euros/mes Tabla reducida. Tramo 1 ≤ 670 653,59 718,94",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-7296"
+   }
+  ],
+  "boe_old": [
+   {
+    "boe_id": "BOE-A-2025-3780",
+    "consolidated": false,
+    "rx": "Tramos de rendimientos netos 2025 – Euros/mes Base mínima – Euros/mes Base máxima – Euros/mes Tabla reducida Tramo 1 ≤ 670 653,59 718,94",
+    "note": "",
+    "ok": true,
+    "quote": "…erentes tramos de rendimientos netos, serán las siguientes: Tramos de rendimientos netos 2025 – Euros/mes Base mínima – Euros/mes Base máxima – Euros/mes Tabla reducida Tramo 1 ≤ 670 653,59 718,94 Tramo 2 > 670 y ≤ 900 718,95 900,00 Tramo 3 > 900 y < 1.166…",
+    "matched": "Tramos de rendimientos netos 2025 – Euros/mes Base mínima – Euros/mes Base máxima – Euros/mes Tabla reducida Tramo 1 ≤ 670 653,59 718,94",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-3780"
+   }
+  ],
+  "cur_patterns": [
+   "(tramos|bases|tablas?)[^.]{0,40}(congelad|se mantienen|sin cambios|iguales|mismos|mismas|prorrogad)",
+   "(congelad|se mantienen|sin cambios|prorrogad)[^.]{0,40}(tramos|bases|tablas?)",
+   "mismas? (tablas?|bases|tramos) que (en )?2025"
+  ],
+  "old_patterns": [
+   "(nueva tabla|nuevos tramos)[^.]{0,80}2026",
+   "(suben|subirán|aumentan|se incrementan) (las )?cuotas[^.]{0,40}(entre|hasta) \\d"
+  ]
+ },
+ {
+  "id": "F15",
+  "area": "housing",
+  "topic": "Single Rental Register (short-term lets): obligation annulled",
+  "current": "no hay obligación estatal de registro: el Tribunal Supremo anuló los preceptos del RD 1312/2024 sobre el registro único y la inscripción para obtener número de registro (sentencias de 19-may, 21-may y 1-jun-2026, BOE de 8-jun, 26-jun y 18-jul-2026); siguen los registros autonómicos de vivienda turística",
+  "since": "2026-06-08",
+  "old": "registro único estatal obligatorio desde el 1-jul-2025 (RD 1312/2024, texto original)",
+  "boe": [
+   {
+    "boe_id": "BOE-A-2026-12300",
+    "consolidated": false,
+    "rx": "Anular los preceptos del Real Decreto impugnado referidos al procedimiento de registro único de arrendamientos y la obligación de la inscripción en el Registro de la Propiedad o en el de Bienes Muebles para obtener un numero de registro",
+    "note": "",
+    "ok": true,
+    "quote": "…en el BOE del 24 de diciembre de 2024, y, en consecuencia: Anular los preceptos del Real Decreto impugnado referidos al procedimiento de registro único de arrendamientos y la obligación de la inscripción en el Registro de la Propiedad o en el de Bienes Muebles para obtener un numero de registro que permita ofrecer los servicios de alquiler de alojamient…",
+    "matched": "Anular los preceptos del Real Decreto impugnado referidos al procedimiento de registro único de arrendamientos y la obligación de la inscripción en el Registro de la Propiedad o en el de Bienes Muebles para obtener un numero de registro",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12300"
+   },
+   {
+    "boe_id": "BOE-A-2026-13893",
+    "consolidated": false,
+    "rx": "declarándose nulos los artículos 2",
+    "note": "",
+    "ok": true,
+    "quote": "…os servicios de alquiler de alojamientos de corta duración, declarándose nulos los artículos 2, apartados f) y i), 5, 6, 8, 9, 10 y 12.b) del citado real…",
+    "matched": "declarándose nulos los artículos 2",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13893"
+   },
+   {
+    "boe_id": "BOE-A-2026-15677",
+    "consolidated": false,
+    "rx": "declarándose nulos los siguientes preceptos y apartados del citado real decreto",
+    "note": "",
+    "ok": true,
+    "quote": "…os servicios de alquiler de alojamientos de corta duración, declarándose nulos los siguientes preceptos y apartados del citado real decreto: artículo 1 (en cuanto hace referencia al desarrollo del pr…",
+    "matched": "declarándose nulos los siguientes preceptos y apartados del citado real decreto",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-15677"
+   }
+  ],
+  "boe_old": [
+   {
+    "boe_id": "BOE-A-2024-26931",
+    "consolidated": false,
+    "rx": "entrará en vigor el día 2 de enero de 2025, desplegando efectos sus disposiciones el 1 de julio de 2025",
+    "note": "",
+    "ok": true,
+    "quote": "…ón final cuarta. Entrada en vigor. El presente real decreto entrará en vigor el día 2 de enero de 2025, desplegando efectos sus disposiciones el 1 de julio de 2025, para otorgar un plazo suficiente para realizar las adaptac…",
+    "matched": "entrará en vigor el día 2 de enero de 2025, desplegando efectos sus disposiciones el 1 de julio de 2025",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-26931"
+   }
+  ],
+  "cur_patterns": [
+   "\\banul",
+   "\\bnul(o|a|os|as|idad)\\b",
+   "tribunal supremo",
+   "\\bsupremo\\b",
+   "ya no (es|son) obligatori"
+  ],
+  "old_patterns": [
+   "(registro [úu]nico|n[úu]mero de registro|c[óo]digo (de registro|[úu]nico))[^.]{0,80}(es|son|ser[áa]|resulta) obligatori",
+   "(es|son|ser[áa]|resulta) obligatori[oa][^.]{0,80}(registro [úu]nico|n[úu]mero de registro|c[óo]digo [úu]nico)"
+  ]
+ },
+ {
+  "id": "F16",
+  "area": "housing",
+  "topic": "2% cap on rent updates: no cap in force at any reading (case study)",
+  "current": "no hay tope del 2 % en ninguna lectura: el RDL 8/2026 se derogó el 30-abr-2026; el RDL 26/2026 (BOE 30-sep, en vigor 1-oct) lo reintrodujo y el Congreso lo derogó el 2-oct-2026 (BOE extraordinario núm. 245, PDF de las 14:59:41 UTC), antes de la primera lectura (19:32 UTC)",
+  "since": "2026-10-02",
+  "old": "afirmar que el tope del 2 % está vigente (RDL 8/2026 o RDL 26/2026)",
+  "boe": [
+   {
+    "boe_id": "BOE-A-2026-9359",
+    "consolidated": false,
+    "rx": "derogaci[oó]n del Real Decreto-ley 8/2026",
+    "note": "",
+    "ok": true,
+    "quote": "…putados, por la que se ordena la publicación del Acuerdo de derogación del Real Decreto-ley 8/2026, de 20 de marzo, de medidas en el alquiler en respuesta a l…",
+    "matched": "derogación del Real Decreto-ley 8/2026",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9359"
+   },
+   {
+    "boe_id": "BOE-A-2026-20526",
+    "consolidated": false,
+    "rx": "acordó derogar el Real Decreto-ley 26/2026, de 29 de septiembre",
+    "note": "",
+    "ok": true,
+    "quote": "…el Congreso de los Diputados, en su sesión del día de hoy, acordó derogar el Real Decreto-ley 26/2026, de 29 de septiembre, por el que se adoptan medidas urgentes para la protección…",
+    "matched": "acordó derogar el Real Decreto-ley 26/2026, de 29 de septiembre",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20526"
+   }
+  ],
+  "boe_old": [
+   {
+    "boe_id": "BOE-A-2026-6545",
+    "consolidated": false,
+    "rx": "sin que la variación anual de la renta pueda exceder del dos por ciento",
+    "note": "",
+    "ok": true,
+    "quote": "…renta será el que resulte del nuevo pacto entre las partes, sin que la variación anual de la renta pueda exceder del dos por ciento. En ausencia de este nuevo pacto entre las partes, el incre…",
+    "matched": "sin que la variación anual de la renta pueda exceder del dos por ciento",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-6545"
+   },
+   {
+    "boe_id": "BOE-A-2026-20266",
+    "consolidated": false,
+    "rx": "En ausencia de este nuevo pacto entre las partes, el incremento de la renta a aplicar no podrá ser superior al dos por ciento",
+    "note": "",
+    "ok": true,
+    "quote": "…renta será el que resulte del nuevo pacto entre las partes. En ausencia de este nuevo pacto entre las partes, el incremento de la renta a aplicar no podrá ser superior al dos por ciento. Disposición final séptima. Salvaguarda de rango reglamenta…",
+    "matched": "En ausencia de este nuevo pacto entre las partes, el incremento de la renta a aplicar no podrá ser superior al dos por ciento",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20266"
+   }
+  ],
+  "cur_patterns": [
+   "derog",
+   "no (fue )?convalid",
+   "decay",
+   "tumb",
+   "ya no (est[aá] )?(vigente|en vigor)",
+   "no est[aá] (vigente|en vigor)",
+   "no sigue vigente"
+  ],
+  "old_patterns": [
+   "(?<![\\d,.])2\\s*%",
+   "dos por ciento"
+  ]
+ },
+ {
+  "id": "F17",
+  "area": "housing",
+  "topic": "State Housing Plan in force",
+  "current": "Plan Estatal de Vivienda 2026-2030 (RD 326/2026, BOE 23-abr-2026)",
+  "since": "2026-04-23",
+  "old": "Plan Estatal 2022-2025",
+  "boe": [
+   {
+    "boe_id": "BOE-A-2026-8872",
+    "consolidated": false,
+    "rx": "Real Decreto 326/2026, de 22 de abril, por el que se regula el Plan Estatal de Vivienda 2026-2030",
+    "note": "",
+    "ok": true,
+    "quote": "…BOE-A-2026-8872 RETRIEVED: 2026-10-02 21:22 BOE-A-2026-8872 Real Decreto 326/2026, de 22 de abril, por el que se regula el Plan Estatal de Vivienda 2026-2030. Agencia Estatal Boletín Oficial del Estado Ir a contenido…",
+    "matched": "Real Decreto 326/2026, de 22 de abril, por el que se regula el Plan Estatal de Vivienda 2026-2030",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-8872"
+   }
+  ],
+  "boe_old": [],
+  "cur_patterns": [
+   "2026\\s*[-–‑/]\\s*2030",
+   "326/2026"
+  ],
+  "old_patterns": [
+   "2022\\s*[-–‑/]\\s*2025",
+   "42/2022"
+  ]
+ },
+ {
+  "id": "F18",
+  "area": "justice",
+  "topic": "Mandatory ADR attempt (MASC) before civil suits",
+  "current": "desde el 3-abr-2025 intentar un MASC es requisito de procedibilidad en la jurisdicción civil (LO 1/2025)",
+  "since": "2025-04-03",
+  "old": "voluntario / no exigido",
+  "boe": [
+   {
+    "boe_id": "BOE-A-2025-76",
+    "consolidated": false,
+    "rx": "no se exigirá actividad negociadora previa como requisito de procedibilidad",
+    "note": "",
+    "ok": true,
+    "quote": "…udicial del acuerdo alcanzado. El artículo 5 especifica que no se exigirá actividad negociadora previa como requisito de procedibilidad cuando se pretenda iniciar un procedimiento para la tutela…",
+    "matched": "no se exigirá actividad negociadora previa como requisito de procedibilidad",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-76"
+   },
+   {
+    "boe_id": "BOE-A-2025-76",
+    "consolidated": false,
+    "rx": "La presente ley entrará en vigor a los tres meses de su publicación",
+    "note": "",
+    "ok": true,
+    "quote": "….» Disposición final trigésima octava. Entrada en vigor. 1. La presente ley entrará en vigor a los tres meses de su publicación en el Boletín oficial del Estado. 2. El título I; la dispos…",
+    "matched": "La presente ley entrará en vigor a los tres meses de su publicación",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-76"
+   }
+  ],
+  "boe_old": [],
+  "cur_patterns": [
+   "requisito de procedibilidad",
+   "obligatori",
+   "orgánica 1/2025",
+   "3 de abril de 2025"
+  ],
+  "old_patterns": [
+   "(mediaci[oó]n|masc|negociaci[oó]n previa)[^.]{0,25}(es|son|sigue siendo) (totalmente )?voluntari",
+   "no es obligatorio (intentar|acudir|pasar)"
+  ]
+ },
+ {
+  "id": "F19",
+  "area": "justice",
+  "topic": "Courts of first instance turned into Tribunales de Instancia",
+  "current": "desde el 31-dic-2025 todos los juzgados unipersonales se han transformado en secciones de los tribunales de instancia (LO 1/2025)",
+  "since": "2025-12-31",
+  "old": "juzgados de primera instancia como órganos vigentes / implantación futura",
+  "boe": [
+   {
+    "boe_id": "BOE-A-2025-76",
+    "consolidated": false,
+    "rx": "El día 31 de diciembre de 2025, los restantes Juzgados, no comprendidos en los supuestos anteriores, se transformarán en las respectivas Secciones",
+    "note": "",
+    "ok": true,
+    "quote": "…de Instrucción y Secciones de Violencia sobre la Mujer. 3.º El día 31 de diciembre de 2025, los restantes Juzgados, no comprendidos en los supuestos anteriores, se transformarán en las respectivas Secciones conforme a lo previsto en la presente ley. Hasta la definit…",
+    "matched": "El día 31 de diciembre de 2025, los restantes Juzgados, no comprendidos en los supuestos anteriores, se transformarán en las respectivas Secciones",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-76"
+   }
+  ],
+  "boe_old": [],
+  "cur_patterns": [
+   "tribunal(es)? de instancia",
+   "31 de diciembre de 2025",
+   "secci[oó]n(es)? civil"
+  ],
+  "old_patterns": [
+   "juzgados? de primera instancia"
+  ]
+ },
+ {
+  "id": "F20",
+  "area": "consumer",
+  "topic": "Customer-service phone wait limit (Ley 10/2025)",
+  "current": "el 95 % de las llamadas debe atenderse en menos de 3 minutos de media (Ley 10/2025, empresas de servicios básicos y grandes empresas); en vigor el 28-dic-2025, con doce meses para que las empresas de su ámbito se adapten (hasta el 28-dic-2026, disposición transitoria única); recurso de inconstitucionalidad 2331/2026 pendiente contra varios artículos",
+  "since": "2025-12-28",
+  "old": "sin límite legal / ley en tramitación",
+  "boe": [
+   {
+    "boe_id": "BOE-A-2025-26698",
+    "consolidated": false,
+    "rx": "sean atendidas, de media, en un plazo inferior a tres minutos",
+    "note": "",
+    "ok": true,
+    "quote": "…o que el 95 % de las solicitudes de atención personalizadas sean atendidas, de media, en un plazo inferior a tres minutos desde que la clientela efectúe la solicitud. 3. En caso de…",
+    "matched": "sean atendidas, de media, en un plazo inferior a tres minutos",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-26698"
+   },
+   {
+    "boe_id": "BOE-A-2025-26698",
+    "consolidated": false,
+    "rx": "deberán adaptar sus servicios de atención a la clientela a las disposiciones de la misma en el plazo de doce meses desde su entrada en vigor",
+    "note": "",
+    "ok": true,
+    "quote": "…sas incluidas en el ámbito de aplicación de la presente ley deberán adaptar sus servicios de atención a la clientela a las disposiciones de la misma en el plazo de doce meses desde su entrada en vigor. 2. En el caso de las entidades sin ánimo de lucro referida…",
+    "matched": "deberán adaptar sus servicios de atención a la clientela a las disposiciones de la misma en el plazo de doce meses desde su entrada en vigor",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-26698"
+   }
+  ],
+  "boe_old": [],
+  "cur_patterns": [
+   "\\b3 minutos",
+   "tres minutos",
+   "ley 10/2025"
+  ],
+  "old_patterns": [
+   "proyecto de ley",
+   "anteproyecto",
+   "en tramitaci[oó]n",
+   "cuando se apruebe"
+  ]
+ },
+ {
+  "id": "F21",
+  "area": "consumer",
+  "topic": "Deadline to answer consumer complaints (Ley 10/2025, TRLGDCU art. 21.3)",
+  "current": "15 días: el art. 21.3 TRLGDCU, modificado por la Ley 10/2025 (en vigor 28-dic-2025), obliga a todas las empresas a responder en un máximo de quince días (antes, un mes); las empresas del ámbito de la Ley 10/2025 deben resolver en 15 días hábiles, con adaptación hasta el 28-dic-2026; salvo normativa sectorial",
+  "since": "2025-12-28",
+  "old": "un mes (art. 21.3 TRLGDCU anterior)",
+  "boe": [
+   {
+    "boe_id": "BOE-A-2007-20555",
+    "consolidated": true,
+    "rx": "en todo caso, en el plazo máximo de quince días desde la presentación de la reclamación",
+    "note": "",
+    "ok": true,
+    "quote": "…as reclamaciones recibidas en el plazo más breve posible y, en todo caso, en el plazo máximo de quince días desde la presentación de la reclamación. 4. En el supuesto de que el empresario no hubiera resuelto…",
+    "matched": "en todo caso, en el plazo máximo de quince días desde la presentación de la reclamación",
+    "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2007-20555/texto"
+   },
+   {
+    "boe_id": "BOE-A-2025-26698",
+    "consolidated": false,
+    "rx": "en todo caso, en el plazo máximo de quince días hábiles desde su presentación",
+    "note": "",
+    "ok": true,
+    "quote": "…s breve posible en función de la naturaleza del problema y, en todo caso, en el plazo máximo de quince días hábiles desde su presentación, salvo que la normativa sectorial establezca un plazo disti…",
+    "matched": "en todo caso, en el plazo máximo de quince días hábiles desde su presentación",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-26698"
+   }
+  ],
+  "boe_old": [
+   {
+    "boe_id": "BOE-A-2007-20555",
+    "consolidated": true,
+    "rx": "en todo caso, en el plazo máximo de un mes desde la presentación de la reclamación",
+    "note": "",
+    "ok": true,
+    "quote": "…as reclamaciones recibidas en el plazo más breve posible y, en todo caso, en el plazo máximo de un mes desde la presentación de la reclamación. 4. En el supuesto de que el empresario no hubiera resuelto…",
+    "matched": "en todo caso, en el plazo máximo de un mes desde la presentación de la reclamación",
+    "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2007-20555/texto"
+   }
+  ],
+  "cur_patterns": [
+   "\\b15 d[ií]as",
+   "quince d[ií]as"
+  ],
+  "old_patterns": [
+   "(plazo|m[áa]ximo)[^.]{0,40}(de )?(un|1) mes\\b",
+   "\\b30 d[ií]as"
+  ]
+ },
+ {
+  "id": "F22",
+  "area": "consumer",
+  "topic": "Right to be attended by a person (Ley 10/2025)",
+  "current": "derecho a una atención personalizada prestada por personas, no solo por sistemas automáticos (Ley 10/2025); en vigor el 28-dic-2025, con doce meses para que las empresas de su ámbito se adapten (hasta el 28-dic-2026, disposición transitoria única); recurso de inconstitucionalidad 2331/2026 pendiente contra varios artículos",
+  "since": "2025-12-28",
+  "old": "sin obligación legal general / ley en tramitación",
+  "boe": [
+   {
+    "boe_id": "BOE-A-2025-26698",
+    "consolidated": false,
+    "rx": "la clientela pueda acceder, si así lo desea, a una atención personalizada por parte de la empresa, que deberá ser prestada por personas",
+    "note": "",
+    "ok": true,
+    "quote": "…entre las partes. No obstante, se considera fundamental que la clientela pueda acceder, si así lo desea, a una atención personalizada por parte de la empresa, que deberá ser prestada por personas formadas para ello. Con independencia de los medios elegido…",
+    "matched": "la clientela pueda acceder, si así lo desea, a una atención personalizada por parte de la empresa, que deberá ser prestada por personas",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-26698"
+   }
+  ],
+  "boe_old": [],
+  "cur_patterns": [
+   "atenci[oó]n personalizada",
+   "(hablar|atendid[oa]s?) (con|por) una persona",
+   "ley 10/2025",
+   "atenci[oó]n humana"
+  ],
+  "old_patterns": [
+   "proyecto de ley",
+   "anteproyecto",
+   "en tramitaci[oó]n",
+   "no (hay|existe) (ninguna )?(obligaci[oó]n|ley)"
+  ]
+ },
+ {
+  "id": "F23",
+  "area": "traffic",
+  "topic": "Connected V-16 beacon replaces warning triangles",
+  "current": "desde el 1-ene-2026 solo vale la baliza V-16 conectada; los triángulos ya no sirven como señal V-16 (RD 159/2021)",
+  "since": "2026-01-01",
+  "old": "triángulos válidos / V-16 obligatoria en el futuro",
+  "boe": [
+   {
+    "boe_id": "BOE-A-2021-4194",
+    "consolidated": true,
+    "rx": "Hasta el 1 de enero de 2026 se podrán seguir utilizando como señal V-16",
+    "note": "",
+    "ok": true,
+    "quote": "…ehículos antes de la entrada en vigor de este real decreto. Hasta el 1 de enero de 2026 se podrán seguir utilizando como señal V-16, en los supuestos contemplados en el Reglamento General de…",
+    "matched": "Hasta el 1 de enero de 2026 se podrán seguir utilizando como señal V-16",
+    "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2021-4194/texto"
+   }
+  ],
+  "boe_old": [],
+  "cur_patterns": [
+   "1 de enero de 2026",
+   "(ya no|dejan de|dejaron de)[^.]{0,30}(v[aá]lid|servir|ser legales)",
+   "\\bconectada"
+  ],
+  "old_patterns": [
+   "(puedes|se pueden|podr[aá]s|pueden) (seguir )?(usar|utilizar|llevar) (los )?tri[aá]ngulos",
+   "tri[aá]ngulos[^.]{0,40}(siguen siendo|son) (v[aá]lidos|obligatorios|legales)"
+  ]
+ },
+ {
+  "id": "F24",
+  "area": "traffic",
+  "topic": "Compulsory insurance for e-scooters (VMP)",
+  "current": "seguro de responsabilidad civil obligatorio para vehículos personales ligeros desde el 2-ene-2026 (Ley 5/2025)",
+  "since": "2026-01-02",
+  "old": "no obligatorio",
+  "boe": [
+   {
+    "boe_id": "BOE-A-2025-15424",
+    "consolidated": false,
+    "rx": "Lo establecido en la disposición adicional primera entrará en vigor el 2 de enero de 2026",
+    "note": "",
+    "ok": true,
+    "quote": "…previsto en el artículo 49.2 del mismo texto refundido. 2. Lo establecido en la disposición adicional primera entrará en vigor el 2 de enero de 2026, salvo que la norma reglamentaria del Consejo de Ministros…",
+    "matched": "Lo establecido en la disposición adicional primera entrará en vigor el 2 de enero de 2026",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-15424"
+   },
+   {
+    "boe_id": "BOE-A-2025-15424",
+    "consolidated": false,
+    "rx": "estará obligado a suscribir y mantener en vigor un contrato de seguro",
+    "note": "",
+    "ok": true,
+    "quote": "…los a motor que tenga su estacionamiento habitual en España estará obligado a suscribir y mantener en vigor un contrato de seguro por cada vehículo de que sea titular, que cubra hasta la cu…",
+    "matched": "estará obligado a suscribir y mantener en vigor un contrato de seguro",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-15424"
+   }
+  ],
+  "boe_old": [],
+  "cur_patterns": [
+   "\\bobligatori",
+   "2 de enero de 2026",
+   "ley 5/2025"
+  ],
+  "old_patterns": [
+   "no es obligatori",
+   "no (es|son) necesari"
+  ]
+ },
+ {
+  "id": "F25",
+  "area": "mobility",
+  "topic": "Workplace sustainable-mobility plans: deadline cut to 12 months (RDL 7/2026)",
+  "current": "planes de movilidad sostenible al trabajo obligatorios en centros de más de 200 personas trabajadoras o 100 por turno en el plazo de doce meses desde la entrada en vigor de la Ley 9/2025 (5-dic-2025), es decir desde el 5-dic-2026 (art. 26.1 modificado por el RDL 7/2026, en vigor 22-mar-2026, convalidado el 26-mar-2026)",
+  "since": "2026-03-22",
+  "old": "veinticuatro meses (hasta diciembre de 2027), texto original de la Ley 9/2025; o sin obligación / proyecto de ley",
+  "boe": [
+   {
+    "boe_id": "BOE-A-2026-6544",
+    "consolidated": false,
+    "rx": "«1\\. En el plazo de doce meses desde la entrada en vigor de esta ley, las empresas",
+    "note": "",
+    "ok": true,
+    "quote": "…vilidad Sostenible, que quedan queda redactados como sigue: «1. En el plazo de doce meses desde la entrada en vigor de esta ley, las empresas y las entidades pertenecientes al sector público de acuerdo…",
+    "matched": "«1. En el plazo de doce meses desde la entrada en vigor de esta ley, las empresas",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-6544"
+   },
+   {
+    "boe_id": "BOE-A-2026-7125",
+    "consolidated": false,
+    "rx": "acordó convalidar el Real Decreto-ley 7/2026",
+    "note": "",
+    "ok": true,
+    "quote": "…el Congreso de los Diputados, en su sesión del día de hoy, acordó convalidar el Real Decreto-ley 7/2026, de 20 de marzo, por el que se aprueba el Plan Integral de…",
+    "matched": "acordó convalidar el Real Decreto-ley 7/2026",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-7125"
+   }
+  ],
+  "boe_old": [
+   {
+    "boe_id": "BOE-A-2025-24545",
+    "consolidated": false,
+    "rx": "deberán disponer de planes de movilidad sostenible al trabajo para aquellos centros de trabajo con más de 200 personas trabajadoras o 100 por turno",
+    "note": "",
+    "ok": true,
+    "quote": "…5, de 1 de octubre, de Régimen Jurídico del Sector Público, deberán disponer de planes de movilidad sostenible al trabajo para aquellos centros de trabajo con más de 200 personas trabajadoras o 100 por turno cuyo centro de trabajo habitual sea dicho centro de activid…",
+    "matched": "deberán disponer de planes de movilidad sostenible al trabajo para aquellos centros de trabajo con más de 200 personas trabajadoras o 100 por turno",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-24545"
+   }
+  ],
+  "cur_patterns": [
+   "\\b(12|doce) meses",
+   "diciembre de 2026",
+   "\\b7/2026"
+  ],
+  "old_patterns": [
+   "\\b(24|veinticuatro) meses",
+   "diciembre de 2027",
+   "proyecto de ley",
+   "anteproyecto"
+  ]
+ },
+ {
+  "id": "F26",
+  "area": "invoicing",
+  "topic": "Verifactu deadline, companies",
+  "current": "1-ene-2027 para contribuyentes del Impuesto sobre Sociedades (RDL 15/2025)",
+  "since": "2025-12-03",
+  "old": "1-ene-2026",
+  "boe": [
+   {
+    "boe_id": "BOE-A-2025-24446",
+    "consolidated": false,
+    "rx": "deberán tener adaptados los sistemas informáticos a las características y requisitos establecidos en este reglamento y en su normativa de desarrollo antes del 1 de enero de 2027",
+    "note": "",
+    "ok": true,
+    "quote": "…s obligados tributarios a que se refiere el artículo 3.1.a) deberán tener adaptados los sistemas informáticos a las características y requisitos establecidos en este reglamento y en su normativa de desarrollo antes del 1 de enero de 2027. El resto de obligados tributarios mencionados en el artícu…",
+    "matched": "deberán tener adaptados los sistemas informáticos a las características y requisitos establecidos en este reglamento y en su normativa de desarrollo antes del 1 de enero de 2027",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-24446"
+   }
+  ],
+  "boe_old": [
+   {
+    "boe_id": "BOE-A-2023-24840",
+    "consolidated": true,
+    "rx": "antes del 1 de enero de 2026",
+    "note": "",
+    "ok": true,
+    "quote": "…cen en el citado reglamento y en su normativa de desarrollo antes del 1 de enero de 2026. El resto de obligados tributarios mencionados en el artícu…",
+    "matched": "antes del 1 de enero de 2026",
+    "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2023-24840/texto"
+   }
+  ],
+  "cur_patterns": [
+   "enero de 2027",
+   "\\b2027\\b"
+  ],
+  "old_patterns": [
+   "enero de 2026"
+  ]
+ },
+ {
+  "id": "F27",
+  "area": "invoicing",
+  "topic": "Verifactu deadline, self-employed and others",
+  "current": "1-jul-2027 para el resto de obligados (autónomos) (RDL 15/2025)",
+  "since": "2025-12-03",
+  "old": "1-jul-2026",
+  "boe": [
+   {
+    "boe_id": "BOE-A-2025-24446",
+    "consolidated": false,
+    "rx": "El resto de obligados tributarios mencionados en el artículo 3\\.1 deberán tener operativos los citados sistemas informáticos antes del 1 de julio de 2027",
+    "note": "",
+    "ok": true,
+    "quote": "…en su normativa de desarrollo antes del 1 de enero de 2027. El resto de obligados tributarios mencionados en el artículo 3.1 deberán tener operativos los citados sistemas informáticos antes del 1 de julio de 2027. Los obligados tributarios del artículo 3.2, en relación co…",
+    "matched": "El resto de obligados tributarios mencionados en el artículo 3.1 deberán tener operativos los citados sistemas informáticos antes del 1 de julio de 2027",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-24446"
+   }
+  ],
+  "boe_old": [
+   {
+    "boe_id": "BOE-A-2023-24840",
+    "consolidated": true,
+    "rx": "antes del 1 de julio de 2026",
+    "note": "",
+    "ok": true,
+    "quote": "…cen en el citado reglamento y en su normativa de desarrollo antes del 1 de julio de 2026. Los obligados tributarios a que se refiere el artículo 3.2…",
+    "matched": "antes del 1 de julio de 2026",
+    "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2023-24840/texto"
+   }
+  ],
+  "cur_patterns": [
+   "julio de 2027"
+  ],
+  "old_patterns": [
+   "julio de 2026"
+  ]
+ },
+ {
+  "id": "F28",
+  "area": "invoicing",
+  "topic": "Mandatory B2B e-invoicing regulation (RD 238/2026)",
+  "current": "reglamento aprobado (RD 238/2026, BOE 31-mar-2026); obligatoria 12 meses después de la orden ministerial para >8 M€ y 24 meses para el resto",
+  "since": "2026-03-31",
+  "old": "reglamento pendiente de aprobación / fechas fijas anteriores",
+  "boe": [
+   {
+    "boe_id": "BOE-A-2026-7295",
+    "consolidated": false,
+    "rx": "a\\) Doce meses después, para los empresarios y profesionales cuyo volumen de operaciones",
+    "note": "",
+    "ok": true,
+    "quote": "…prevista en el apartado 1 de la disposición final tercera: a) Doce meses después, para los empresarios y profesionales cuyo volumen de operaciones, calculado conforme al artículo 121 de la Ley 37/1992, de 2…",
+    "matched": "a) Doce meses después, para los empresarios y profesionales cuyo volumen de operaciones",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-7295"
+   },
+   {
+    "boe_id": "BOE-A-2026-7295",
+    "consolidated": false,
+    "rx": "b\\) Veinticuatro meses después, para el resto de los empresarios y profesionales",
+    "note": "",
+    "ok": true,
+    "quote": "…illones de euros durante el año natural inmediato anterior. b) Veinticuatro meses después, para el resto de los empresarios y profesionales. 2. Lo dispuesto en los artículos 6, 8, 9 y 13, en lo relat…",
+    "matched": "b) Veinticuatro meses después, para el resto de los empresarios y profesionales",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-7295"
+   }
+  ],
+  "boe_old": [],
+  "cur_patterns": [
+   "238/2026",
+   "\\b(12|doce) meses",
+   "\\b(24|veinticuatro) meses",
+   "orden ministerial"
+  ],
+  "old_patterns": [
+   "\\b(1 de )?(enero|julio|octubre) de 202[78]\\b",
+   "(pendiente|a la espera|falta)[^.]{0,30}(reglamento|aprobaci[oó]n)",
+   "no (se )?ha (sido )?aprobado",
+   "proyecto de real decreto",
+   "borrador"
+  ]
+ }
+]

@@ -1,0 +1,9 @@
+age,surface,facts,answers,wrong,wrong_pct,ci95
+6-12 months,aio,20,173,10,5.8,"[3.2, 10.3]"
+6-12 months,mode,20,213,8,3.8,"[1.9, 7.2]"
+< 6 months,aio,2,18,1,5.6,"[1.0, 25.8]"
+< 6 months,mode,2,21,5,23.8,"[10.6, 45.1]"
+> 12 months,aio,4,41,1,2.4,"[0.4, 12.6]"
+> 12 months,mode,4,45,0,0.0,"[0.0, 7.9]"
+no change (control F05),aio,1,8,0,0.0,"[0.0, 32.4]"
+no change (control F05),mode,1,12,0,0.0,"[0.0, 24.3]"

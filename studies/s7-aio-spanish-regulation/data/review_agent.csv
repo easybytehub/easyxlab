@@ -1,0 +1,121 @@
+reading,qid,surface,fact_id,rule_verdict,agent_verdict,scope,extract,note
+1,F04-Q4,aio,F04,mixed,mixed,flagged,…e cualquier profesión u oficio. - ✅ extinción del contrato: la empresa finaliza la relación laboral automáticamente al ser incompatible con cualquier trabajo. - ⚠️ pérdida de derechos activos: cesan los derechos vinculados al puesto de trabajo activo. - 💡 pensión vitalicia: pasas…,cites the adaptation route but lists automatic termination as the effect for absolute disability
+1,F14-Q1,aio,F14,not_stated,not_stated,full review of corrected fact,,agent agrees with the rule verdict
+1,F14-Q1,mode,F14,not_stated,current,full review of corrected fact,,freeze of the lower brackets plus a slight rise from the MEI
+1,F14-Q2,mode,F14,not_stated,current,full review of corrected fact,,'se mantienen sin cambios respecto a 2025'
+1,F14-Q3,mode,F14,not_stated,not_stated,full review of corrected fact,,agent agrees with the rule verdict
+1,F14-Q4,aio,F14,not_stated,not_stated,full review of corrected fact,,agent agrees with the rule verdict
+1,F14-Q4,mode,F14,not_stated,not_stated,full review of corrected fact,,agent agrees with the rule verdict
+1,F15-Q1,mode,F15,not_stated,outdated,full review of corrected fact,"…sí, es obligatorio , pero con un matiz fundamental: depende exclusivamente del tipo de alquiler . la obligatoriedad del registro único de arrendamientos y la obtención de un número o código de comercialización se aplica…","'sí, es obligatorio' citing RD 1312/2024 as in force"
+1,F15-Q2,aio,F15,current,current,full review of corrected fact,,agent agrees with the rule verdict
+1,F15-Q2,mode,F15,not_stated,outdated,full review of corrected fact,…el número de registro de alquiler (nra) es el código único obligatorio en españa para comercializar viviendas o habitaciones de corta duración (incluidos los alquileres de temporada y turísticos) a través de plataformas digitales con contratación a distancia (…,'código único obligatorio' managed by the Colegio de Registradores
+1,F15-Q3,mode,F15,current,current,full review of corrected fact,,agent agrees with the rule verdict
+1,F16-Q1,aio,F16,not_stated,not_stated,full review of corrected fact,,agent agrees with the rule verdict
+1,F16-Q1,mode,F16,not_stated,not_stated,full review of corrected fact,,agent agrees with the rule verdict
+1,F16-Q2,aio,F16,not_stated,not_stated,full review of corrected fact,,agent agrees with the rule verdict
+1,F16-Q2,mode,F16,outdated,outdated,flagged,…/2026) establecen medidas de contención extraordinarias que limitan las actualizaciones al 2% máximo en determinados supuestos de prórroga y protección si no hay acuerdo entre las partes. si me indicas la fecha exacta en la que firmaste tu contrato y el índice o porcentaje que me…,"2% cap presented as in force (RDL 8/2026, repealed 30-Apr-2026)"
+1,F16-Q3,aio,F16,current,current,full review of corrected fact,,agent agrees with the rule verdict
+1,F16-Q3,mode,F16,current,current,full review of corrected fact,,agent agrees with the rule verdict
+1,F16-Q4,mode,F16,not_stated,current,full review of corrected fact,,says there is no general extraordinary cap ('el antiguo límite del 2%')
+1,F21-Q1,aio,F21,not_stated,not_stated,full review of corrected fact,,agent agrees with the rule verdict
+1,F21-Q1,mode,F21,current,current,full review of corrected fact,,agent agrees with the rule verdict
+1,F21-Q2,aio,F21,outdated,not_stated,flagged,,regional complaint-form deadline (10 working days) only; general rule not stated
+1,F21-Q2,mode,F21,current,current,full review of corrected fact,,agent agrees with the rule verdict
+1,F21-Q3,mode,F21,current,current,full review of corrected fact,,agent agrees with the rule verdict
+1,F25-Q1,aio,F25,not_stated,mixed,full review of corrected fact,"…antación - el plazo general fijado por la normativa es de 2 años desde la entrada en vigor de la ley (fines de 2025), lo que sitúa la fecha límite principal a finales de 2026 para miles de compañías en el país. requisitos y medidas principales del plan - diagnóstico previo : anal…",'2 años desde la entrada en vigor' with an end-2026 deadline: self-contradictory
+1,F25-Q1,mode,F25,current,current,full review of corrected fact,,agent agrees with the rule verdict
+1,F25-Q2,aio,F25,not_stated,outdated,full review of corrected fact,…implantar un plan de movilidad sostenible al trabajo (pmst) antes del 5 de diciembre de 2027 (en el plazo de 24 meses desde su entrada en vigor). obligaciones principales para las empresas - planes de movilidad sostenible al trabajo (pmst): los centros afectados deben diseñar e i…,"before 5 Dec 2027, 24 months: superseded by RDL 7/2026"
+1,F25-Q2,mode,F25,current,current,full review of corrected fact,,agent agrees with the rule verdict
+1,F25-Q3,mode,F25,outdated,outdated,flagged,…o de implementación: las compañías afectadas disponen de un periodo de 24 meses desde la entrada en vigor de la ley para tenerlo implementado y negociado con la representación legal de las personas trabajadoras (el límite se sitúa en diciembre de [2027]). - seguimiento: se exige…,24-month deadline (December 2027): superseded by RDL 7/2026 (12 months)
+1,F28-Q1,aio,F28,current,current,full review of corrected fact,,agent agrees with the rule verdict
+1,F28-Q1,mode,F28,mixed,current,flagged,,12/24 months from the order; dates given as estimates (previsto)
+1,F28-Q2,aio,F28,current,current,full review of corrected fact,,agent agrees with the rule verdict
+1,F28-Q2,mode,F28,current,current,full review of corrected fact,,agent agrees with the rule verdict
+1,F28-Q3,aio,F28,outdated,incorrect,flagged,…l para las operaciones entre empresas y profesionales (b2b) a partir del 1 de octubre de 2028 para aquellos que facturen menos de 8 millones de euros. plazos de obligatoriedad - grandes empresas ( 8 millones de euros de facturación): desde el 1 de octubre de 2027 (un año tras la…,firm date (1 Oct 2028) with no dependency on the unpublished order
+1,F28-Q3,mode,F28,current,current,full review of corrected fact,,agent agrees with the rule verdict
+1,F28-Q4,aio,F28,current,current,full review of corrected fact,,agent agrees with the rule verdict
+1,F28-Q4,mode,F28,current,current,full review of corrected fact,,agent agrees with the rule verdict
+2,F05-Q2,mode,F05,mixed,current,flagged,,37.5 h described as blocked; 40 h stated as law
+2,F05-Q3,mode,F05,mixed,current,flagged,,37.5 h not in force; 40 h stated as law
+2,F13-Q2,aio,F13,outdated,outdated,flagged,"…a los 65 años si has cotizado al menos 38 años y 3 meses , o a los 66 años y 8 meses si no reaches esa cotización. requisitos principales en 2026 - a los 65 años: necesitas tener cotizados 38 años y 3 meses o más. - a los 66 años y 8 meses: es la edad ordinaria si tienes menos d…",gives 66 years 8 months (2025) as the 2026 age
+2,F14-Q1,aio,F14,not_stated,not_stated,full review of corrected fact,,agent agrees with the rule verdict
+2,F14-Q1,mode,F14,not_stated,not_stated,full review of corrected fact,,agent agrees with the rule verdict
+2,F14-Q2,aio,F14,current,current,full review of corrected fact,,agent agrees with the rule verdict
+2,F14-Q2,mode,F14,current,current,full review of corrected fact,,agent agrees with the rule verdict
+2,F14-Q3,aio,F14,not_stated,not_stated,full review of corrected fact,,agent agrees with the rule verdict
+2,F14-Q3,mode,F14,not_stated,not_stated,full review of corrected fact,,agent agrees with the rule verdict
+2,F14-Q4,aio,F14,not_stated,not_stated,full review of corrected fact,,agent agrees with the rule verdict
+2,F14-Q4,mode,F14,not_stated,not_stated,full review of corrected fact,,agent agrees with the rule verdict
+2,F15-Q1,aio,F15,outdated,outdated,flagged,…entos (que otorga el número de registro de alquiler o nrua) es obligatorio en españa para todos los alquileres de corta duración que se anuncien en plataformas digitales. 💡 cuándo es obligatorio - alquileres turísticos : imprescindible para operar y anunciarse en airbnb o booking…,state register presented as mandatory; annulled by the Supreme Court (May-Jun 2026)
+2,F15-Q1,mode,F15,current,current,full review of corrected fact,,agent agrees with the rule verdict
+2,F15-Q2,mode,F15,not_stated,outdated,full review of corrected fact,"…el número de registro de alquiler (nra o nrua) es un código obligatorio para ofrecer viviendas o habitaciones de corta y media duración —incluyendo el alquiler turístico, de temporada, por estudios, trabajo o motivos médicos— inferior a un año que se anuncien en plat…",registration number presented as mandatory
+2,F15-Q3,aio,F15,current,current,full review of corrected fact,,agent agrees with the rule verdict
+2,F15-Q3,mode,F15,not_stated,outdated,full review of corrected fact,"…1 de julio de 2025 . desde esa fecha (1 de julio de 2025), es un requisito indispensable disponer del número de registro único para poder publicitar y comercializar cualquier alojamiento de corta duración —tanto turístico como de temporada o por habitaciones— en plataformas en l…",'es un requisito indispensable disponer del número de registro único' (present tense)
+2,F16-Q1,aio,F16,not_stated,not_stated,full review of corrected fact,,agent agrees with the rule verdict
+2,F16-Q1,mode,F16,outdated,outdated,flagged,"…en el boe): 1. límite general para la actualización anual - tope máximo del 2%: para las revisiones de contratos de alquiler sujetos a la lau (ley de arrendamientos urbanos) vigentes hasta el 31 de diciembre de 2027, la subida máxima aplicable está topada a un 2% como regla gener…","presents the RDL 26/2026 2% cap as in force; repealed 2-Oct 14:59 UTC, before the reading"
+2,F16-Q2,aio,F16,not_stated,not_stated,full review of corrected fact,,agent agrees with the rule verdict
+2,F16-Q2,mode,F16,outdated,outdated,flagged,"…eferencia de garantía de competitividad ( irav ), o bien el tope extraordinario del 2% establecido por el reciente decreto de urgencia para contener las rentas hasta finales de 2027 (quedando congelado al 0% si ya supera el índice de referencia estatal). el último irav publicado…",2% cap 'by the recent decree' presented as in force; repealed
+2,F16-Q3,aio,F16,mixed,current,flagged,,says the cap is not in force
+2,F16-Q3,mode,F16,mixed,current,flagged,,says the cap is not in force
+2,F16-Q4,aio,F16,current,current,full review of corrected fact,,agent agrees with the rule verdict
+2,F16-Q4,mode,F16,not_stated,not_stated,full review of corrected fact,,agent agrees with the rule verdict
+2,F21-Q1,aio,F21,mixed,current,flagged,,15 working days under Ley 10/2025; one month only for regional forms
+2,F21-Q1,mode,F21,current,current,full review of corrected fact,,agent agrees with the rule verdict
+2,F21-Q2,aio,F21,outdated,not_stated,flagged,,regional complaint-form deadline only
+2,F21-Q2,mode,F21,outdated,outdated,flagged,"…- el ministerio de consumo y organismos europeos señalan un plazo máximo general de 30 días para dar respuesta a la queja o incidencia del consumidor. 3. sectores regulados específicos (bancos, luz, teléfono, seguros) si la reclamación va dirigida a empresas de sectores con norma…",'plazo máximo general de 30 días' = the superseded TRLGDCU art. 21.3 rule (now 15 days)
+2,F21-Q3,mode,F21,mixed,current,flagged,,15 working days; one month only under sectoral headings
+2,F25-Q1,aio,F25,current,current,full review of corrected fact,,agent agrees with the rule verdict
+2,F25-Q1,mode,F25,current,current,full review of corrected fact,,agent agrees with the rule verdict
+2,F25-Q2,aio,F25,outdated,outdated,flagged,…ovilidad sostenible al trabajo (pmst) en un plazo máximo de 24 meses desde su entrada en vigor (hasta diciembre de 2027). empresas afectadas - obligadas: centros de trabajo con más de 200 personas trabajadoras o que superen los 100 trabajadores por turno . - ayudas y voluntarieda…,"24 months, until December 2027: superseded by RDL 7/2026"
+2,F25-Q2,mode,F25,current,current,full review of corrected fact,,agent agrees with the rule verdict
+2,F25-Q3,aio,F25,current,current,full review of corrected fact,,agent agrees with the rule verdict
+2,F25-Q3,mode,F25,not_stated,not_stated,full review of corrected fact,,agent agrees with the rule verdict
+2,F28-Q1,aio,F28,current,current,full review of corrected fact,,agent agrees with the rule verdict
+2,F28-Q1,mode,F28,mixed,mixed,flagged,…e aplicación tras aprobarse la normativa es el siguiente: - 1 de octubre de 2027 (12 meses desde la aprobación de la orden de desarrollo prevista para finales de 2026): - grandes empresas: aquellas con una facturación anual superior a los 8 millones. - 1 de octubre de 2028 (24 me…,explains the dependency on the order but calls 1 Oct 2027/2028 the 'calendario oficial'
+2,F28-Q2,aio,F28,current,current,full review of corrected fact,,agent agrees with the rule verdict
+2,F28-Q2,mode,F28,mixed,incorrect,flagged,"…ón obligatoria de la factura electrónica es el siguiente: - 1 de octubre de 2027 (fase 1): empresas y entidades con una facturación anual superior a 8 millones. estarán obligadas a emitir y recibir facturas electrónicas en sus relaciones comerciales b2b, además de reportar los es…",firm calendar (1 Oct 2027) without the dependency on the unpublished order
+2,F28-Q3,aio,F28,outdated,incorrect,flagged,…l para las operaciones entre empresas y profesionales (b2b) a partir del 1 de octubre de 2028 para aquellos que facturen menos de 8 millones de euros. plazos de obligatoriedad - grandes empresas ( 8 millones de euros de facturación): desde el 1 de octubre de 2027 (un año tras la…,firm date (1 Oct 2028) with no dependency on the order
+2,F28-Q3,mode,F28,mixed,mixed,flagged,"…será obligatoria para todos los autónomos y pymes en españa el 1 de octubre de 2028 para sus operaciones comerciales con otros empresarios y profesionales (b2b), según el desarrollo de la ley crea y crece y el real decreto aprobado en marzo de 2026. para las grandes empresas con…",mentions the 12 months from regulatory development but gives 1 Oct 2028 as the date
+2,F28-Q4,aio,F28,mixed,mixed,flagged,…ada a partir de la entrada en vigor de la orden ministerial prevista para el 1 de octubre de 2026. 🗓️ calendario de aplicación b2b - octubre de 2027 : grandes empresas con facturación superior a 8 millones de euros. - octubre de 2028 : resto de empresas y autónomos. 💡 diferencia…,states the order is 'prevista para el 1 de octubre de 2026' and fixes Oct 2027/2028
+2,F28-Q4,mode,F28,mixed,incorrect,flagged,…oriedad | grupo de contribuyente | volumen de facturación | fecha límite de aplicación | |---|---|---| | grandes empresas | más de 8 millones de euros | octubre de 2027 | | resto de empresas (pymes) | menos de 8 millones de euros | octubre de 2028 | | autónomos y profesionales |…,table of firm 'fecha límite' (Oct 2027/2028); dependency not stated
+3,F13-Q2,aio,F13,outdated,outdated,flagged,"…a los 65 años si has cotizado al menos 38 años y 3 meses , o a los 66 años y 8 meses si no reaches esa cotización. requisitos principales en 2026 - a los 65 años: necesitas tener cotizados 38 años y 3 meses o más. - a los 66 años y 8 meses: es la edad ordinaria si tienes menos d…",same text as reading 2: 66 years 8 months
+3,F14-Q1,aio,F14,current,current,full review of corrected fact,,agent agrees with the rule verdict
+3,F14-Q1,mode,F14,not_stated,current,full review of corrected fact,,freeze of the lower brackets plus a slight rise from the MEI
+3,F14-Q2,aio,F14,current,current,full review of corrected fact,,agent agrees with the rule verdict
+3,F14-Q2,mode,F14,current,current,full review of corrected fact,,agent agrees with the rule verdict
+3,F14-Q3,aio,F14,not_stated,not_stated,full review of corrected fact,,agent agrees with the rule verdict
+3,F14-Q3,mode,F14,not_stated,not_stated,full review of corrected fact,,agent agrees with the rule verdict
+3,F14-Q4,aio,F14,not_stated,not_stated,full review of corrected fact,,agent agrees with the rule verdict
+3,F14-Q4,mode,F14,not_stated,not_stated,full review of corrected fact,,agent agrees with the rule verdict
+3,F15-Q1,aio,F15,mixed,current,flagged,,reports the Supreme Court annulment
+3,F15-Q1,mode,F15,current,current,full review of corrected fact,,agent agrees with the rule verdict
+3,F15-Q2,aio,F15,current,current,full review of corrected fact,,agent agrees with the rule verdict
+3,F15-Q2,mode,F15,outdated,outdated,flagged,"…lave sobre el número de registro: - ¿cuándo es obligatorio? es un requisito indispensable si vas a publicitar el inmueble o habitaciones en plataformas online (como airbnb, booking, etc.). quedan excluidos los alquileres de larga estancia tradicionales (bajo la lau) y los canales…",registration number presented as a current requirement for platforms
+3,F15-Q3,aio,F15,current,current,full review of corrected fact,,agent agrees with the rule verdict
+3,F15-Q3,mode,F15,current,current,full review of corrected fact,,agent agrees with the rule verdict
+3,F16-Q1,aio,F16,not_stated,not_stated,full review of corrected fact,,agent agrees with the rule verdict
+3,F16-Q1,mode,F16,not_stated,current,full review of corrected fact,,'no existe un tope extraordinario único y general del 2%'
+3,F16-Q2,aio,F16,not_stated,not_stated,full review of corrected fact,,agent agrees with the rule verdict
+3,F16-Q2,mode,F16,not_stated,not_stated,full review of corrected fact,,agent agrees with the rule verdict
+3,F16-Q3,aio,F16,mixed,current,flagged,,says the cap is not in force
+3,F16-Q3,mode,F16,outdated,outdated,flagged,"…sí, el tope del 2% para la actualización anual de los contratos de alquiler sigue vigente . de acuerdo con las últimas normativas y decretos de vivienda aprobados, esta limitación extraordinaria se ha prorrogado hasta el 31…","'sí, el tope del 2% ... sigue vigente'; repealed before the reading"
+3,F16-Q4,aio,F16,not_stated,outdated,full review of corrected fact,"…ar ninguna subida . si no hay pacto específico de revisión, el límite ante ausencia de acuerdo es del 2% . 🗒 contratos anteriores al 26 de mayo de 2023 - índice aplicable: rige lo que se haya acordado por escrito (habitualmente ligado a la variación del ipc ). - límite actual: la…",'el límite ante ausencia de acuerdo es del 2%' = repealed RDL 26/2026 rule
+3,F16-Q4,mode,F16,outdated,current,flagged,,says the 2% cap lapsed
+3,F19-Q2,aio,F19,mixed,mixed,flagged,"…sí, los juzgados de primera instancia siguen existiendo en españa , aunque están en un proceso de transformación hacia los nuevos tribunales de instancia debido a la ley orgánica 1/2025 de eficiencia del servicio público de…",says courts of first instance still exist and operate; all transformed on 31-Dec-2025
+3,F21-Q1,aio,F21,outdated,not_stated,flagged,,regional complaint-form deadlines only
+3,F21-Q1,mode,F21,mixed,not_stated,flagged,,"borderline: one month framed as ADR practice, not as the general rule"
+3,F21-Q2,aio,F21,outdated,not_stated,flagged,,regional complaint-form deadline only
+3,F21-Q2,mode,F21,mixed,not_stated,flagged,,regional 10 days and a vague European 30 days; general rule not stated
+3,F21-Q3,mode,F21,mixed,current,flagged,,15 days as the general maximum; one month only for sectoral regimes
+3,F25-Q1,mode,F25,current,current,full review of corrected fact,,agent agrees with the rule verdict
+3,F25-Q2,aio,F25,current,current,full review of corrected fact,,agent agrees with the rule verdict
+3,F25-Q2,mode,F25,current,current,full review of corrected fact,,agent agrees with the rule verdict
+3,F25-Q3,aio,F25,not_stated,not_stated,full review of corrected fact,,agent agrees with the rule verdict
+3,F25-Q3,mode,F25,not_stated,not_stated,full review of corrected fact,,agent agrees with the rule verdict
+3,F28-Q1,aio,F28,current,current,full review of corrected fact,,agent agrees with the rule verdict
+3,F28-Q1,mode,F28,current,mixed,full review of corrected fact,…orden ministerial técnica: 📅 calendario de obligatoriedad - 1 de octubre de 2027 (12 meses desde el inicio del despliegue): - obligatorio para grandes empresas con una facturación anual superior a 8 millones de euros . - incluye la obligación de emitir/recibir facturas electrónic…,"dependency on the order stated, then a fixed 1 Oct 2027 calendar"
+3,F28-Q2,mode,F28,mixed,mixed,flagged,"…resas (facturación anual superior a 8 millones de euros): - fecha límite: 1 de octubre de 2027 (12 meses tras la entrada en vigor de la orden de desarrollo prevista para octubre de 2026). - resto de empresas, pymes y autónomos: - fecha límite: 1 de octubre de 2028 (24 meses tras…","12 months after the order, but the order is said to be due Oct 2026 and dates are fixed"
+3,F28-Q3,aio,F28,outdated,incorrect,flagged,…l para las operaciones entre empresas y profesionales (b2b) a partir del 1 de octubre de 2028 para aquellos que facturen menos de 8 millones de euros. plazos de obligatoriedad - grandes empresas ( 8 millones de euros de facturación): desde el 1 de octubre de 2027 (un año tras la…,firm date (1 Oct 2028) with no dependency on the order
+3,F28-Q3,mode,F28,current,current,full review of corrected fact,,agent agrees with the rule verdict
+3,F28-Q4,aio,F28,current,current,full review of corrected fact,,agent agrees with the rule verdict
+3,F28-Q4,mode,F28,current,current,full review of corrected fact,,agent agrees with the rule verdict

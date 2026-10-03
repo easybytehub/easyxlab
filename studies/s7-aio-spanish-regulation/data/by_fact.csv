@@ -1,0 +1,29 @@
+fact_id,area,topic,in_force_since,days_before_2026_10_02,aio_current,aio_mixed,aio_outdated,aio_incorrect,aio_not_stated,aio_no_answer,mode_current,mode_mixed,mode_outdated,mode_incorrect,mode_not_stated,mode_no_answer
+F01,labour,Minimum wage (SMI) 2026,2026-02-19,225,11,0,0,0,0,1,12,0,0,0,0,0
+F02,labour,Birth leave length,2025-07-31,428,11,0,0,0,0,1,12,0,0,0,0,0
+F03,labour,"Birth leave, single-parent families",2025-07-31,428,8,0,0,0,0,1,9,0,0,0,0,0
+F04,labour,Permanent disability no longer ends the job automatically,2025-05-01,519,9,1,0,0,1,1,12,0,0,0,0,0
+F05,labour,Maximum working week (37.5h bill not passed),(unchanged),,8,0,0,0,0,4,12,0,0,0,0,0
+F06,social-security,Maximum contribution base 2026,2026-02-04,240,11,0,0,0,0,1,12,0,0,0,0,0
+F07,social-security,Intergenerational Equity Mechanism (MEI) 2026,2026-01-01,274,9,0,0,0,0,0,9,0,0,0,0,0
+F08,social-security,Solidarity contribution 2026,2026-01-01,274,8,0,0,0,0,1,9,0,0,0,0,0
+F09,social-security,Pension uprating 2026,2026-02-04,240,7,0,0,0,0,5,12,0,0,0,0,0
+F10,social-security,Non-contributory pension 2026,2026-02-04,240,9,0,0,0,0,0,9,0,0,0,0,0
+F11,social-security,Maximum pension 2026,2026-02-04,240,11,0,0,0,0,1,12,0,0,0,0,0
+F12,social-security,Minimum retirement pension 2026,2026-02-04,240,9,0,0,0,0,0,9,0,0,0,0,0
+F13,social-security,Ordinary retirement age 2026,2026-01-01,274,10,0,2,0,0,0,12,0,0,0,0,0
+F14,self-employed,Self-employed contribution brackets 2026,2026-03-31,185,3,0,0,0,7,2,5,0,0,0,7,0
+F15,housing,Single Rental Register (short-term lets): obligation annulled,2026-06-08,116,5,0,1,0,0,3,4,0,5,0,0,0
+F16,housing,2% cap on rent updates: no cap in force at any reading (case study),2026-10-02,0,4,0,1,0,6,1,5,0,4,0,3,0
+F17,housing,State Housing Plan in force,2026-04-23,162,11,0,0,0,1,0,12,0,0,0,0,0
+F18,justice,Mandatory ADR attempt (MASC) before civil suits,2025-04-03,547,11,0,0,0,0,1,12,0,0,0,0,0
+F19,justice,Courts of first instance turned into Tribunales de Instancia,2025-12-31,275,7,1,0,0,0,1,9,0,0,0,0,0
+F20,consumer,Customer-service phone wait limit (Ley 10/2025),2025-12-28,278,3,0,0,0,0,9,12,0,0,0,0,0
+F21,consumer,"Deadline to answer consumer complaints (Ley 10/2025, TRLGDCU art. 21.3)",2025-12-28,278,1,0,0,0,5,3,6,0,1,0,2,0
+F22,consumer,Right to be attended by a person (Ley 10/2025),2025-12-28,278,1,0,0,0,0,8,9,0,0,0,0,0
+F23,traffic,Connected V-16 beacon replaces warning triangles,2026-01-01,274,11,0,0,0,0,1,12,0,0,0,0,0
+F24,traffic,Compulsory insurance for e-scooters (VMP),2026-01-02,273,10,0,0,0,0,2,12,0,0,0,0,0
+F25,mobility,Workplace sustainable-mobility plans: deadline cut to 12 months (RDL 7/2026),2026-03-22,194,3,1,2,0,1,2,6,0,1,0,2,0
+F26,invoicing,"Verifactu deadline, companies",2025-12-03,303,11,0,0,0,0,1,12,0,0,0,0,0
+F27,invoicing,"Verifactu deadline, self-employed and others",2025-12-03,303,8,0,0,0,0,1,9,0,0,0,0,0
+F28,invoicing,Mandatory B2B e-invoicing regulation (RD 238/2026),2026-03-31,185,7,1,0,3,0,1,6,4,0,2,0,0

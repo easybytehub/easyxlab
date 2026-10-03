@@ -1,0 +1,33 @@
+reading,qid,surface,answer_verdict,group,url,fetch,page_state
+3,F13-Q2,aio,outdated,target,https://prestaciones.seg-social.es/servicio/pension-jubilacion.html,ok,page_silent
+3,F13-Q2,aio,outdated,target,https://www.vidacaixa.es/articulos/jubilacion-y-pensiones/tabla-edad-jubilacion-segun-ano-nacimiento,ok,page_mixed
+3,F13-Q2,aio,outdated,target,https://www.vidacaixa.es/articulos/jubilacion-y-pensiones/edad-jubilar-anticipadamente,ok,page_silent
+3,F13-Q2,aio,outdated,target,https://www.vidacaixa.es/anos-cotizados-para-jubilacion,ok,page_silent
+3,F13-Q2,aio,outdated,target,https://www.facebook.com/ugtandalucia/videos/-sabes-a-qu%C3%A9-edad-podr%C3%A1s-jubilarte-cu%C3%A1ntos-a%C3%B1os-tendr%C3%A1s-que-haber-cotizado-para-/991706809851558/,ok,page_silent
+3,F13-Q2,aio,outdated,target,https://www.vidacaixa.es/jubilacion-en-espana,ok,page_old
+3,F15-Q2,mode,outdated,target,https://www.mivau.gob.es/vivienda/ventanilla-unica/alquiler-de-alojamientos-de-corta-duracion,ok,page_silent
+3,F15-Q2,mode,outdated,target,https://www.youtube.com/watch?v=1aC163an2Jo&t=313,ok,page_silent
+3,F15-Q2,mode,outdated,target,https://www.homyspace.com/blog/nueva-normativa-en-relacion-con-el-nrua/,ok,page_silent
+3,F15-Q2,mode,outdated,target,https://www.lodgify.com/blog/es/registro-unico-alquiler-turistico/,ok,page_mixed
+3,F15-Q2,mode,outdated,target,https://www.registradores.org/documents/33383/229101/Manual_de_Solicitud_de_Numero_de_Registro_de_Alquiler.pdf/51d50715-4c30-05f3-baf9-79db36d79c84?t=1749813031486,content-type application/pdf,fetch_failed
+3,F19-Q2,aio,mixed,target,https://www.iberley.es/revista/los-nuevos-tribunales-instancia-fin-los-juzgados-unipersonales-1284,TimeoutError,fetch_failed
+3,F19-Q2,aio,mixed,target,https://www.diariovasco.com/gipuzkoa/juzgados-gipuzkoa-reestructuran-mejorar-eficiencia-fin-ano-20250605235935-nt.html,ok,page_current
+3,F19-Q2,aio,mixed,target,https://www.conceptosjuridicos.com/juzgado-de-primera-instancia/,ok,page_silent
+3,F19-Q2,aio,mixed,target,https://www.poderjudicial.es/stfls/TRIBUNALES%20SUPERIORES%20DE%20JUSTICIA/TSJ%20Comunidad%20Valenciana/MEMORIAS/20260211%20Memoria%20TSJCV%202024.pdf,content-type application/octet-stream,fetch_failed
+3,F19-Q2,aio,mixed,target,https://www.hayderecho.com/tag/serie-ley-de-eficiencia-procesal/,ok,page_mixed
+3,F28-Q1,mode,mixed,target,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-7295,ok,page_current
+3,F28-Q1,mode,mixed,target,https://edicomgroup.com/es/blog/la-facturacion-electronica-sera-obligatoria-para-las-empresas-espanolas,ok,page_mixed
+3,F28-Q1,mode,mixed,target,https://sede.agenciatributaria.gob.es/Sede/todas-noticias/2026/marzo/31/facturacion-electronica-obligatoria.html,ok,page_current
+3,F28-Q1,mode,mixed,target,https://www.supercontable.com/boletin/H/articulos/calendario_definitivo_implementacion_factura_electronica_obligatoria_empresas_autonomos.html,URLError,fetch_failed
+3,F28-Q1,mode,mixed,target,https://www.esker.com/es/soluciones/facturacion-electronica/espana/,ok,page_mixed
+3,F28-Q1,mode,mixed,target,https://www.youtube.com/watch?v=8fWMv2LTWO0&t=11,ok,page_silent
+3,F28-Q2,mode,mixed,target,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-7295,ok,page_current
+3,F28-Q2,mode,mixed,target,https://www.wolterskluwer.com/es-es/expert-insights/ley-crea-crece-claves-novedades,ok,page_mixed
+3,F28-Q2,mode,mixed,target,https://getquipu.com/blog/ley-crea-y-crece-y-factura-electronica/,ok,page_old
+3,F28-Q2,mode,mixed,target,https://sede.agenciatributaria.gob.es/Sede/todas-noticias/2026/marzo/31/facturacion-electronica-obligatoria.html,ok,page_current
+3,F28-Q2,mode,mixed,target,https://garrido.es/real-decreto-238-2026-aprueba-el-desarrollo-reglamentario-de-la-factura-electronica/,URLError,fetch_failed
+3,F28-Q2,mode,mixed,target,https://www.b2brouter.net/es/ley-crea-crece-factura-electronica/,ok,page_mixed
+3,F28-Q3,aio,incorrect,target,https://declarando.es/factura-electronica,ok,page_current
+3,F28-Q3,aio,incorrect,target,https://www.infoautonomos.com/blog/factura-electronica-obligatoria-autonomos/,ok,page_old
+3,F28-Q3,aio,incorrect,target,https://www.youtube.com/watch?v=V5wQCkU5xBk&t=134,ok,page_silent
+3,F28-Q3,aio,incorrect,target,https://www.youtube.com/watch?v=D7oqUmrDHpk&t=8,ok,page_silent

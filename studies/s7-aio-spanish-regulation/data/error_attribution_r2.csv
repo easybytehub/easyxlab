@@ -1,0 +1,13 @@
+reading,qid,fact_id,surface,answer_verdict,group,pages_read,pages_old_or_mixed,pages_current,attribution,attribution_loose
+2,F13-Q2,F13,aio,outdated,target,6,2,0,in_source,in_source
+2,F15-Q1,F15,aio,outdated,target,6,1,1,in_source,in_source
+2,F15-Q2,F15,mode,outdated,target,3,2,0,in_source,in_source
+2,F15-Q3,F15,mode,outdated,target,3,1,1,synthesis,in_source
+2,F21-Q2,F21,mode,outdated,target,4,1,2,in_source,in_source
+2,F25-Q2,F25,aio,outdated,target,5,3,0,in_source,in_source
+2,F28-Q1,F28,mode,mixed,target,3,2,1,synthesis,in_source
+2,F28-Q2,F28,mode,incorrect,target,4,2,2,synthesis,in_source
+2,F28-Q3,F28,aio,incorrect,target,4,1,1,in_source,in_source
+2,F28-Q3,F28,mode,mixed,target,3,1,2,in_source,in_source
+2,F28-Q4,F28,aio,mixed,target,4,2,1,synthesis,in_source
+2,F28-Q4,F28,mode,incorrect,target,6,4,2,synthesis,in_source

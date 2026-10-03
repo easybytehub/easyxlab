@@ -1,0 +1,102 @@
+qid,fact_id,query
+F01-Q1,F01,cuál es el salario mínimo interprofesional
+F01-Q2,F01,cuánto es el SMI en 2026
+F01-Q3,F01,salario mínimo en España al mes
+F01-Q4,F01,SMI 14 pagas cuánto es
+F02-Q1,F02,cuántas semanas es la baja por paternidad
+F02-Q2,F02,permiso por nacimiento cuántas semanas
+F02-Q3,F02,baja de maternidad cuánto dura en España
+F02-Q4,F02,permiso de paternidad 2026
+F03-Q1,F03,permiso de maternidad familia monoparental cuántas semanas
+F03-Q2,F03,baja por nacimiento madre soltera semanas
+F03-Q3,F03,permiso por nacimiento familias monoparentales
+F04-Q1,F04,la incapacidad permanente total extingue el contrato de trabajo
+F04-Q2,F04,me dan la incapacidad permanente total me pueden despedir
+F04-Q3,F04,incapacidad permanente total y contrato de trabajo
+F04-Q4,F04,qué pasa con mi trabajo si me dan la incapacidad permanente
+F05-Q1,F05,cuántas horas es la jornada laboral máxima en España
+F05-Q2,F05,"jornada laboral 37,5 horas cuándo entra en vigor"
+F05-Q3,F05,jornada máxima semanal 2026
+F05-Q4,F05,"se ha aprobado la reducción de jornada a 37,5 horas"
+F06-Q1,F06,base máxima de cotización 2026
+F06-Q2,F06,cuál es la base máxima de cotización a la seguridad social
+F06-Q3,F06,tope máximo cotización seguridad social
+F06-Q4,F06,cuánto es la base máxima de cotización este año
+F07-Q1,F07,MEI 2026 porcentaje
+F07-Q2,F07,mecanismo de equidad intergeneracional cuánto es
+F07-Q3,F07,cotización MEI trabajador y empresa
+F08-Q1,F08,cuota de solidaridad 2026
+F08-Q2,F08,cuota de solidaridad seguridad social cuánto es
+F08-Q3,F08,cotización de solidaridad salarios altos porcentaje
+F09-Q1,F09,cuánto suben las pensiones este año
+F09-Q2,F09,subida de las pensiones 2026
+F09-Q3,F09,revalorización pensiones contributivas
+F09-Q4,F09,subida pensiones enero
+F10-Q1,F10,cuánto es la pensión no contributiva
+F10-Q2,F10,pensión no contributiva 2026 cuantía
+F10-Q3,F10,pensión no contributiva jubilación al mes
+F11-Q1,F11,pensión máxima 2026
+F11-Q2,F11,cuál es la pensión máxima de jubilación
+F11-Q3,F11,pensión máxima seguridad social al mes
+F11-Q4,F11,pensión máxima de jubilación este año
+F12-Q1,F12,pensión mínima de jubilación con cónyuge a cargo
+F12-Q2,F12,pensión mínima jubilación 2026
+F12-Q3,F12,cuánto es la pensión mínima de jubilación
+F13-Q1,F13,edad de jubilación 2026
+F13-Q2,F13,a qué edad me puedo jubilar
+F13-Q3,F13,edad ordinaria de jubilación en España
+F13-Q4,F13,edad de jubilación este año
+F14-Q1,F14,cuota de autónomos 2026
+F14-Q2,F14,suben las cuotas de autónomos en 2026
+F14-Q3,F14,cuánto paga un autónomo al mes 2026
+F14-Q4,F14,cuota mínima autónomos 2026
+F15-Q1,F15,registro único de arrendamientos es obligatorio
+F15-Q2,F15,número de registro alquiler de temporada
+F15-Q3,F15,registro único alquiler turístico desde cuándo
+F16-Q1,F16,límite subida alquiler 2026
+F16-Q2,F16,cuánto puede subir el alquiler este año
+F16-Q3,F16,tope del 2% alquiler sigue vigente
+F16-Q4,F16,actualización renta alquiler 2026 límite
+F17-Q1,F17,plan estatal de vivienda vigente
+F17-Q2,F17,plan estatal de vivienda ayudas alquiler
+F17-Q3,F17,nuevo plan estatal de vivienda
+F17-Q4,F17,plan estatal de vivienda 2026
+F18-Q1,F18,es obligatorio intentar mediación antes de demandar
+F18-Q2,F18,MASC obligatorio antes de ir a juicio
+F18-Q3,F18,medios adecuados de solución de controversias desde cuándo
+F18-Q4,F18,qué es el requisito de procedibilidad MASC
+F19-Q1,F19,qué son los tribunales de instancia
+F19-Q2,F19,siguen existiendo los juzgados de primera instancia
+F19-Q3,F19,tribunales de instancia cuándo entran en funcionamiento
+F20-Q1,F20,tiempo máximo de espera atención al cliente por teléfono
+F20-Q2,F20,ley atención al cliente 3 minutos
+F20-Q3,F20,ley de servicios de atención a la clientela en vigor
+F20-Q4,F20,cuánto tiempo pueden tenerme esperando al teléfono atención al cliente
+F21-Q1,F21,plazo para responder una reclamación de un consumidor
+F21-Q2,F21,cuánto tiempo tiene una empresa para contestar una reclamación
+F21-Q3,F21,plazo máximo respuesta reclamación atención al cliente
+F22-Q1,F22,derecho a hablar con una persona atención al cliente
+F22-Q2,F22,las empresas están obligadas a atender por una persona y no por una máquina
+F22-Q3,F22,atención al cliente con persona obligatoria ley
+F23-Q1,F23,son obligatorios los triángulos de emergencia
+F23-Q2,F23,baliza V16 obligatoria desde cuándo
+F23-Q3,F23,puedo seguir usando los triángulos en 2026
+F23-Q4,F23,triángulos de emergencia 2026
+F24-Q1,F24,es obligatorio el seguro para patinete eléctrico
+F24-Q2,F24,seguro obligatorio patinetes desde cuándo
+F24-Q3,F24,necesito seguro para mi patinete eléctrico
+F24-Q4,F24,seguro patinete eléctrico 2026
+F25-Q1,F25,plan de movilidad sostenible obligatorio empresas
+F25-Q2,F25,ley de movilidad sostenible obligaciones empresas
+F25-Q3,F25,plan de movilidad al trabajo cuántos trabajadores
+F26-Q1,F26,cuándo es obligatorio verifactu para sociedades
+F26-Q2,F26,verifactu fecha obligatoria
+F26-Q3,F26,verifactu 2026 obligatorio
+F26-Q4,F26,verifactu se ha aplazado
+F27-Q1,F27,verifactu autónomos cuándo es obligatorio
+F27-Q2,F27,verifactu autónomos fecha
+F27-Q3,F27,verifactu autónomos julio
+F28-Q1,F28,factura electrónica obligatoria entre empresas cuándo
+F28-Q2,F28,ley crea y crece factura electrónica fecha
+F28-Q3,F28,factura electrónica obligatoria autónomos
+F28-Q4,F28,factura electrónica obligatoria 2026
