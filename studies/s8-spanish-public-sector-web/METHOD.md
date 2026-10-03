@@ -3,7 +3,7 @@
 *EasyxLab · study S8 · data collected 2026-10-02 · status: working draft, not peer-reviewed*
 
 This file says exactly what was measured, how, what went wrong, and what the scanner refuses
-to do. The numbers are in `paper.md` and `data/`.
+to do. The numbers are in [the paper](https://easybyte.es/lab/studies/s8/paper/) and `data/`.
 
 ## 1. Population and where the URLs come from
 
@@ -301,7 +301,7 @@ left blank when its denominator is under 10.
 
 ## 6. The correction of 2026-10-02 (evening)
 
-An adversarial review by a second AI agent (`paper.md` §11) found the `robots.txt` failures of
+An adversarial review by a second AI agent ([the paper](https://easybyte.es/lab/studies/s8/paper/) §11) found the `robots.txt` failures of
 §2 and other errors. The corrections were made the same evening with
 `scripts/recheck.py`, which uses the Session of scanner version 2 (§7): `robots.txt` read before
 any request to a host and honoured for every request and every redirect hop; at most four
@@ -349,7 +349,7 @@ second per host. User-Agent: `EasyxLab-research/1.0 (+https://github.com/easybyt
    `robots.txt` phase (several municipal domains whose `robots.txt` redirects into one provincial
    platform).
 6. **One fetch against robots.txt outside the scan.** While searching for prior work
-   (`paper.md` §2), the agent followed a link from the European Commission's site to a news page
+   ([the paper](https://easybyte.es/lab/studies/s8/paper/) §2), the agent followed a link from the European Commission's site to a news page
    of administracionelectronica.gob.es whose URL carried `?idioma=es`, a pattern that site's
    `robots.txt` disallows (`Disallow: /*?idioma=`). The page was deleted and not used; every later
    fetch for the prior-work search was checked against the site's `robots.txt` first.
@@ -393,6 +393,6 @@ Without arguments, `run.sh` builds `data/records.jsonl.gz` from `data/raw/` when
 are present (EasyxLab's working copy), runs `aggregate.py` and `check_numbers.py`. Anyone else
 starts from the published `data/records.jsonl.gz`. `--new-measurement` downloads the sources
 again, rebuilds the population and scans with version 2; it is a new measurement (websites
-change, Wikidata changes daily), and its figures will not match `paper.md`. Python ≥ 3.10;
+change, Wikidata changes daily), and its figures will not match [the paper](https://easybyte.es/lab/studies/s8/paper/). Python ≥ 3.10;
 `xlrd` and `openpyxl` only to read the REL and INE spreadsheets. The published run used
 Python 3.14.4 and OpenSSL 3.6.2; `ssl` defaults differ across versions.

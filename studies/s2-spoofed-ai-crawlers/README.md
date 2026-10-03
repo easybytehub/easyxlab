@@ -1,5 +1,7 @@
 # S2 — Spoofed AI crawlers
 
+
+**Paper:** [easybyte.es/lab/studies/s2/paper/](https://easybyte.es/lab/studies/s2/paper/) · [PDF](https://easybyte.es/lab/studies/s2/paper.pdf)
 **How much traffic claiming to be an AI or search bot is real?**
 
 EasyxLab · study S2 · working draft · data as of 2026-10-02
@@ -27,7 +29,7 @@ access log that outputs aggregates only and refuses to write IP addresses.
 
 | file | |
 |---|---|
-| `paper.md` | paper-style draft (EN) |
+| [paper](https://easybyte.es/lab/studies/s2/paper/) (web) | paper-style draft (EN) |
 | `METHOD.md` | data sources, verification rules with literal operator documentation, privacy |
 | `scripts/ai_bot_verify.py`, `scripts/ai-bot-verify` | the verifier (Python ≥ 3.10, stdlib only) |
 | `scripts/cf_declared_bots.py` | same checks on Cloudflare GraphQL analytics |
@@ -66,7 +68,7 @@ Verdicts: `verified` (in the operator's published ranges or passes FCrDNS), `spo
 
 Sites are anonymised as Site A (a calculator site) and Sites B and C (two niche tool sites
 launched in September 2026). The work was done by AI agents and has not yet been reviewed by a
-person (`paper.md` §8).
+person ([the paper](https://easybyte.es/lab/studies/s2/paper/) §8).
 
 License: code MIT; data and text CC BY 4.0 (pending confirmation).
 

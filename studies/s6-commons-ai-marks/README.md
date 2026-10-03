@@ -1,6 +1,8 @@
 # S6 — Do AI-generated images on Wikimedia Commons carry provenance marks?
 *EasyxLab · study S6 · data collected 2026-10-02 · status: working draft, not peer-reviewed*
 
+**Paper:** [easybyte.es/lab/studies/s6/paper/](https://easybyte.es/lab/studies/s6/paper/) · [PDF](https://easybyte.es/lab/studies/s6/paper.pdf)
+
 ## Abstract
 
 Wikimedia Commons stores uploaded files byte for byte. It therefore shows which AI provenance marks reach a public archive when the host does not strip them. We enumerated every file Commons labels as AI-generated: the `Category:AI-generated images` tree (530 categories) and `{{PD-algorithm}}`, 8,971 files in total. We then inspected 2,084 originals from a month-stratified sample with ai-mark-lint, downloading, checking and deleting each one.
@@ -28,7 +30,7 @@ With the official C2PA Trust List, 452 of 624 manifests (72%) are valid and trus
 
 | path | content |
 |---|---|
-| `paper.md` | the paper: prior work, method, results, competing interests, limitations, automation and review |
+| [paper](https://easybyte.es/lab/studies/s6/paper/) (web) | the paper: prior work, method, results, competing interests, limitations, automation and review |
 | `METHOD.md` | population, sample and stop rule, measurement, access policy, statistics |
 | `scripts/run.sh` | setup → enumerate → sample → measure (resumable) → follow-up → sanitize → tables → headline check |
 | `scripts/analyze.py` | every table and number in README and paper, from `data/` only (`python3 scripts/analyze.py`, stdlib only) |

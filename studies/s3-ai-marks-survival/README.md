@@ -2,6 +2,8 @@
 
 *EasyxLab · study S3 · October 2026 · status: working draft, not peer-reviewed*
 
+**Paper:** [easybyte.es/lab/studies/s3/paper/](https://easybyte.es/lab/studies/s3/paper/) · [PDF](https://easybyte.es/lab/studies/s3/paper.pdf)
+
 ## Abstract
 
 The EU AI Act (Art. 50(2)), California's AI Transparency Act (SB 942 as amended by AB 853) and China's GB 45438-2025 require synthetic media to carry machine-readable marks. In practice these are: a C2PA manifest whose actions declare an IPTC `digitalSourceType` (`trainedAlgorithmicMedia`), the same IPTC term in XMP (`Iptc4xmpExt:DigitalSourceType`), and the Chinese `TC260:AIGC` XMP field.
@@ -15,7 +17,7 @@ We built a reproducible local lab: 23 synthetic fixtures (JPEG, PNG, WebP, MP4, 
 | path | content |
 |---|---|
 | `METHOD.md` | corpus, pipelines, detection, classification rules |
-| `paper.md` | paper-style report |
+| [paper](https://easybyte.es/lab/studies/s3/paper/) (web) | paper-style report |
 | `scripts/run.sh` | one command: setup + corpus + all pipelines + matrix |
 | `fixtures/` | reusable corpus (< 3 MB), documented in `fixtures/README.md` |
 | `data/matrix.csv` | one row per output file × mark carried by its input |

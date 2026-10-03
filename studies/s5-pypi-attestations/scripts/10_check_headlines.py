@@ -55,9 +55,13 @@ pyb = {b["band"]: b for b in pa["bands"]}
 for b in na["bands"][:3]:
     a, z = b["band"].split("-"); py = pyb[b["band"]]["latest_attested"]
     paper_only.append(f"| {int(a):,}–{int(z):,} | {pct(b['latest_attested']['yes'], b['latest_attested']['n'])} | {pct(py['yes'], py['n'])} |")
-txt = {f: re.sub(r"\s+", " ", open(os.path.join(ROOT, f)).read()) for f in ("README.md", "paper.md")}
+docs = [f for f in ("README.md", "paper.md") if os.path.exists(os.path.join(ROOT, f))]
+if "paper.md" not in docs:  # the public package on GitHub ships without the paper
+    print("paper.md is not in the public package: the paper is at https://easybyte.es/lab/studies/s5/paper/")
+    paper_only = []
+txt = {f: re.sub(r"\s+", " ", open(os.path.join(ROOT, f)).read()) for f in docs}
 bad = [(f, s) for s in both for f in txt if s not in txt[f]] + [("paper.md", s) for s in paper_only if s not in txt["paper.md"]]
 for f, s in bad:
     print("MISSING in", f, ":", s)
-print(f"headline check: {len(both) * 2 + len(paper_only) - len(bad)} passed, {len(bad)} failed")
+print(f"headline check: {len(both) * len(txt) + len(paper_only) - len(bad)} passed, {len(bad)} failed")
 sys.exit(1 if bad else 0)

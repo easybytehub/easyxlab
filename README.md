@@ -21,7 +21,7 @@ Original research by EasyxLab, the research lab of [EasyByte Hub S. Coop. Mad.](
 | [S8](studies/s8-spanish-public-sector-web/) | What can a machine verify on Spain's public-sector websites? | Of 5,130 public-sector home pages served over HTTPS, 1,688 (32.9%) send HSTS; of 5,570 entities, 4 serve a `security.txt` that is strictly valid under RFC 9116. |
 | [S10](studies/s10-netex-naps/) | Are the public-transport NeTEx timetables on Europe's national access points valid against the open schemas? | 8 of 34 timetable datasets from five national access points are fully valid against the NeTEx XSD, all of them French; the static MMTIS deadlines passed in 2019–2025, and the 1 December 2026 date covers parking and vehicle sharing, not timetables. |
 
-Each study folder contains `README.md` (abstract), `METHOD.md`, `paper.md` (the full report), the scripts that regenerate every figure, and the aggregated data.
+**The full papers are published at [easybyte.es/lab](https://easybyte.es/lab/studies/)**, in HTML and PDF. This repository holds what is needed to check and reproduce each study: its abstract, method, verification, scripts and aggregated data.
 
 ## How these studies were made
 

@@ -12,7 +12,9 @@ S = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 D = os.path.join(S, "data")
 R = [json.load(open(p)) for p in sorted(glob.glob(os.path.join(D, "per_dataset", "*.json")))]
 CAT = list(csv.DictReader(open(os.path.join(D, "catalogue_netex.csv"))))
-TXT = {f: open(os.path.join(S, f)).read() for f in ("README.md", "paper.md")}
+TXT = {f: open(os.path.join(S, f)).read() for f in ("README.md", "paper.md") if os.path.exists(os.path.join(S, f))}
+if "paper.md" not in TXT:  # the public package on GitHub ships without the paper
+    print("paper.md is not in the public package: the paper is at https://easybyte.es/lab/studies/s10/paper/")
 
 
 def content(r):
@@ -104,6 +106,7 @@ CHECKS = [  # (name, recomputed, expected, literal text, files)
 ]
 bad = 0
 for name, got, exp, text, files in CHECKS:
+    files = [f for f in files if f in TXT]
     missing = [f for f in files if text not in TXT[f]]
     ok = got == exp and not missing
     bad += not ok

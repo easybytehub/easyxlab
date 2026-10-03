@@ -1,6 +1,8 @@
 # S5 — Who publishes attestations on PyPI and npm — and who stopped?
 EasyxLab · study S5 · snapshot of 2026-10-02 · working draft, not peer-reviewed
 
+**Paper:** [easybyte.es/lab/studies/s5/paper/](https://easybyte.es/lab/studies/s5/paper/) · [PDF](https://easybyte.es/lab/studies/s5/paper.pdf)
+
 ## Abstract
 
 PEP 740 attestations let anyone check that a PyPI file was built by a named repository and
@@ -35,7 +37,7 @@ For 138, the line `pip` installs had attestations and its latest version has non
 | unknown | 26 |
 
 In 53 of the tool or workflow changes, the publishing workflow now runs `uv publish` with no
-attestation step. Examples, each backed by a commit in `paper.md` §5.3: fastapi, typer, fastmcp and
+attestation step. Examples, each backed by a commit in [the paper](https://easybyte.es/lab/studies/s5/paper/) §5.3: fastapi, typer, fastmcp and
 supabase. Stopping is a change of release tooling, not a sign of compromise.
 
 **Publisher changes.** At least 307 attested projects changed publisher. Of the 188 changes that
@@ -49,16 +51,16 @@ cross repositories or publisher kinds:
 
 **Prior work.** The closest existing measurement is Trail of Bits' tracker, which covers the top
 360 PyPI packages by latest release. This study adds the distribution beyond those 360, the history,
-the stops and their causes, and the publisher audit (`paper.md` §2).
+the stops and their causes, and the publisher audit ([the paper](https://easybyte.es/lab/studies/s5/paper/) §2).
 
 **Automation and review.** AI agents ran the study and wrote the text. An independent AI reviewer
-checked it (`paper.md` §4.1).
+checked it ([the paper](https://easybyte.es/lab/studies/s5/paper/) §4.1).
 
 ## Contents
 
 | path | what |
 |---|---|
-| `paper.md` | paper-style draft (EN) |
+| [paper](https://easybyte.es/lab/studies/s5/paper/) (web) | paper-style draft (EN) |
 | `METHOD.md` | definitions, literal source text, rules, pinned inputs, reproduction |
 | `scripts/` | `run.sh` + numbered Python steps (stdlib + `packaging`); `10_check_headlines.py` asserts every headline number |
 | `data/pypi_packages.csv` | one row per PyPI project (rank, latest version, attestation flags, stop flags; no download counts) |

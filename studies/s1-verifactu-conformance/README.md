@@ -2,6 +2,8 @@
 
 *EasyxLab · study S1 · snapshot 2026-10-02 · status: working draft, not peer-reviewed*
 
+**Paper:** [easybyte.es/lab/studies/s1/paper/](https://easybyte.es/lab/studies/s1/paper/) · [PDF](https://easybyte.es/lab/studies/s1/paper.pdf)
+
 ## Abstract
 
 Spain's Verifactu regime (RD 1007/2023, Orden HAC/1177/2024) requires invoicing
@@ -29,11 +31,10 @@ commercial Verifactu services.
 
 | File | What |
 |---|---|
-| `paper.md` | Paper-style draft (EN). |
+| [paper](https://easybyte.es/lab/studies/s1/paper/) (web) | Paper-style draft (EN). |
 | `METHOD.md` | Sampling frame, classification rules, deduplication, statistics, ethics. |
 | `VERIFICATION.md` | One-by-one review (by the LLM-based study agent) of every ERROR and of the classification. |
 | `instrument-issues.md` | Issues found in verifactu-lint 0.4.0 (none filed). |
-| `blog-es.md` | Divulgative version in Spanish for easybyte.es/papers. |
 | `run.sh`, `scripts/` | Reproducible pipeline (collect → classify → lint → stats → sample). |
 | `data/summary.json`, `data/rules.csv`, `data/repos_anon.csv`, `data/files_anon.csv` | Aggregates and anonymised references only. |
 

@@ -12,7 +12,10 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 S = json.load(open(os.path.join(ROOT, "data", "summary.json"), encoding="utf-8"))
 REG = {r["group"]: r for r in csv.DictReader(open(os.path.join(ROOT, "data", "summary_by_region.csv"), encoding="utf-8"))}
 SIZE = {r["group"]: r for r in csv.DictReader(open(os.path.join(ROOT, "data", "summary_by_size.csv"), encoding="utf-8"))}
-DOCS = {f: re.sub(r"\s+", " ", open(os.path.join(ROOT, f), encoding="utf-8").read()) for f in ("README.md", "paper.md")}
+DOCS = {f: re.sub(r"\s+", " ", open(os.path.join(ROOT, f), encoding="utf-8").read())
+        for f in ("README.md", "paper.md") if os.path.exists(os.path.join(ROOT, f))}
+if "paper.md" not in DOCS:  # the public package on GitHub ships without the paper
+    print("paper.md is not in the public package: the paper is at https://easybyte.es/lab/studies/s8/paper/")
 
 
 def n(x):
@@ -259,6 +262,7 @@ claim("README.md", "| security.txt strictly valid (entities) | " +
       " | ".join(str(T[t]["sectxt_strict_ok"]["k"]) for t in order) + " |")
 
 # --- run
+claims = [(d, t) for d, t in claims if d in DOCS]
 missing = [(d, t) for d, t in claims if t and re.sub(r"\s+", " ", t) not in DOCS[d]]
 for d, t in missing:
     print(f"MISSING in {d}: {t}")

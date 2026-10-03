@@ -2,6 +2,8 @@
 
 *EasyxLab · study S8 · data collected 2026-10-02 · status: working draft, not peer-reviewed*
 
+**Paper:** [easybyte.es/lab/studies/s8/paper/](https://easybyte.es/lab/studies/s8/paper/) · [PDF](https://easybyte.es/lab/studies/s8/paper.pdf)
+
 ## Abstract
 
 Some obligations and good practices for public websites leave a trace a program can check
@@ -39,7 +41,7 @@ own site.
 
 | file | |
 |---|---|
-| `paper.md` | the full report |
+| [paper](https://easybyte.es/lab/studies/s8/paper/) (web) | the full report |
 | `METHOD.md` | sources, fetch budget, every check and denominator, what went wrong, privacy |
 | `run.sh` | rebuilds `data/` from the scan records and checks the figures; `--new-measurement` scans again |
 | `scripts/fetch_sources.sh` | downloads REL, INE, Wikidata and the Castilla-La Mancha directory |
@@ -50,7 +52,7 @@ own site.
 | `scripts/build_records.py` | builds `data/records.jsonl.gz` from the raw records |
 | `scripts/aggregate.py` | builds every table in `data/` |
 | `scripts/draw_audit_sample.py` | drew the date-audit sample (run once) |
-| `scripts/check_numbers.py` | asserts the figures in this README and `paper.md` against `data/summary.json` |
+| `scripts/check_numbers.py` | asserts the figures in this README and [the paper](https://easybyte.es/lab/studies/s8/paper/) against `data/summary.json` |
 | `data/records.jsonl.gz` | cleaned per-entity scan records: the input of `aggregate.py` |
 | `data/population.csv` | the 8,275 entities and the URL tested for each, with its source |
 | `data/entities.csv` | one row per entity (8,275), all indicators, public URLs only |
@@ -80,7 +82,7 @@ Each cell is a percentage of the denominator given below it in `data/summary_by_
 
 Statement dates by type are not in this table: for the non-municipal entities and the largest
 municipalities they were read only by the first, unaudited version of the date extractor and
-are left out (`paper.md` §6.4).
+are left out ([the paper](https://easybyte.es/lab/studies/s8/paper/) §6.4).
 
 ## Reading `data/entities.csv`
 
@@ -102,7 +104,7 @@ are left out (`paper.md` §6.4).
 The study was run by AI agents: source search, code, scan, re-checks, analysis and writing. An
 independent AI reviewer then checked it adversarially — recomputing the figures, re-fetching a
 sample of sites and checking every quotation — and its findings were addressed in this version
-(`paper.md` §11); the reviewer has not yet re-read the corrected version. No administration was
+([the paper](https://easybyte.es/lab/studies/s8/paper/) §11); the reviewer has not yet re-read the corrected version. No administration was
 contacted.
 
 ## Licence

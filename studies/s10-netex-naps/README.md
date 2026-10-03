@@ -1,6 +1,8 @@
 # S10 — Past the static deadlines: NeTEx on five European access points, checked against open schemas
 *EasyxLab · study S10 · snapshot of 2026-10-02 · status: working draft, not peer-reviewed*
 
+**Paper:** [easybyte.es/lab/studies/s10/paper/](https://easybyte.es/lab/studies/s10/paper/) · [PDF](https://easybyte.es/lab/studies/s10/paper.pdf)
+
 *EasyxLab · a research lab by EasyByte*
 
 ## Abstract
@@ -45,10 +47,8 @@ We release `netex-lint` as a prototype.
 
 | Path | Content |
 |---|---|
-| `paper.md` | The study (English) |
+| [paper](https://easybyte.es/lab/studies/s10/paper/) (web) | The study (English) |
 | `METHOD.md` | Legal quotes, sources, sample rules, schema pins, budgets, threats to validity |
-| `RD-MEMO.md` | R&D memo (Spanish) |
-| `STATUS.md` | Phases, open items, disk use |
 | `scripts/00_prior_work.py`, `00_landscape.py` | Prior-work searches and validator metadata → `data/prior_work.csv`, `data/validator_landscape.csv` |
 | `scripts/01_catalogues.py`, `01b_access.py` | Census → `data/catalogue_netex.csv`; access findings → `data/nap_access.csv` |
 | `scripts/02_sample.py` | Deterministic sample → `data/sample.csv` |

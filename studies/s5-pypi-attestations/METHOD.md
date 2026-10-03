@@ -2,7 +2,7 @@
 
 EasyxLab · study S5 · snapshot of 2026-10-02
 
-This file defines every quantity in `paper.md`, lists the sources with the literal text we rely on,
+This file defines every quantity in [the paper](https://easybyte.es/lab/studies/s5/paper/), lists the sources with the literal text we rely on,
 and gives the rules used to classify regressions and publisher changes. Everything here is computed
 by the scripts in `scripts/` (Python 3 standard library plus `packaging`).
 

@@ -138,7 +138,7 @@ sample interval gives a much larger, unreliable upper bound, so it is not used.
   distinct IPs per verdict, summed over sites (an upper bound), is `distinct_ips_upper_bound`.
 - `data/spoofing_by_asn.csv`: `unique_ips_summed_over_sites` is likewise an upper bound.
 - Edge files (`data/cloudflare/`) cover the 30 days before the run; re-running moves the window.
-- Who did the work: see `paper.md` §8 ("Automation and review"). All checks described here were
+- Who did the work: see [the paper](https://easybyte.es/lab/studies/s2/paper/) §8 ("Automation and review"). All checks described here were
   performed by AI agents.
 
 ## 8. Reproducing

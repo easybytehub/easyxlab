@@ -16,7 +16,9 @@ sys.path.insert(0, str(Path(__file__).parent))
 import analyze  # noqa: E402
 
 HERE = Path(__file__).resolve().parent.parent
-DOCS = {"README": (HERE / "README.md").read_text(), "paper": (HERE / "paper.md").read_text()}
+DOCS = {"README": (HERE / "README.md").read_text()}
+if (HERE / "paper.md").exists():  # the public package on GitHub ships without the paper
+    DOCS["paper"] = (HERE / "paper.md").read_text()
 
 
 def f1(x: float) -> str:
@@ -86,6 +88,10 @@ def main() -> int:
     for mo, v in H["month"].items():
         name = ["January", "February", "March", "April", "May", "June", "July", "August", "September"][int(mo[-2:]) - 1]
         checks.append((f"month {mo}", v["pct"], f"| {name} | {f1(v['pct'])}% ({v['n']}) | {f1(v['excl_coa_pct'])}% |", ("paper",)))
+    if "paper" not in DOCS:
+        print("paper.md is not in the public package: the paper is at https://easybyte.es/lab/studies/s6/paper/")
+    checks = [(label, val, text, tuple(d for d in docs if d in DOCS)) for label, val, text, docs in checks]
+    checks = [c for c in checks if c[3]]
     bad = 0
     for label, val, text, docs in checks:
         missing = [d for d in docs if text not in DOCS[d]]

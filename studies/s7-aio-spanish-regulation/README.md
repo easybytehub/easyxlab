@@ -1,6 +1,8 @@
 # S7 — Do Google's AI Overviews and AI Mode keep up with Spanish rule changes? About one answer in twenty did not
 *EasyxLab · study S7 · readings of 2026-10-02 · status: working draft, not peer-reviewed*
 
+**Paper:** [easybyte.es/lab/studies/s7/paper/](https://easybyte.es/lab/studies/s7/paper/) · [PDF](https://easybyte.es/lab/studies/s7/paper.pdf)
+
 ## Abstract
 
 We asked Google, from Spain and in Spanish, 101 questions about 28 Spanish rules: 27 that changed in 2025–2026
@@ -35,14 +37,14 @@ Court annulment and a decree-law amendment published months earlier, plus a tran
 | AI Mode | 291 | 267 | 4 | 7 | 2 | 11 | 13 (4.5 %, 2.6–7.5 %) |
 
 An earlier draft reported 4 of 240 and 0 of 291. It was wrong because three fact sheets missed later changes in the
-law and one exclusion rested on a misread repeal (`paper.md` §3 and §5.2; `private/REVIEW.md` is the adversarial
+law and one exclusion rested on a misread repeal ([the paper](https://easybyte.es/lab/studies/s7/paper/) §3 and §5.2; `private/REVIEW.md` is the adversarial
 review that found it).
 
 ## Contents
 
 | file | |
 |---|---|
-| `paper.md` | paper-style draft (EN) |
+| [paper](https://easybyte.es/lab/studies/s7/paper/) (web) | paper-style draft (EN) |
 | `METHOD.md` | facts, status checks, queries, collection, rules (with SHA-256), review, second reader, ethics |
 | `data/facts.json`, `data/facts.csv`, `data/facts_in_force.csv`, `data/fact_status.json` | facts, BOE quotations (55/55 verified), rule in force at each reading, later amendments/annulments listed by the BOE |
 | `data/queries.csv` | the 101 queries |
@@ -61,7 +63,7 @@ review that found it).
 The study was run by AI agents: choosing and verifying the facts, writing the queries, collecting, writing the
 regex rules, re-reading flagged answers, typing cited domains and drafting. The second reader was a separate AI agent
 (a Claude Sonnet model), blind to all labels. An independent AI agent reviewed the first draft adversarially
-(`private/REVIEW.md`); its findings were applied in this version (`paper.md` §9).
+(`private/REVIEW.md`); its findings were applied in this version ([the paper](https://easybyte.es/lab/studies/s7/paper/) §9).
 
 ## Competing interests
 

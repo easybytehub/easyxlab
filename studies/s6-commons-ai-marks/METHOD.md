@@ -145,8 +145,8 @@ Run on 2026-10-02/03 (`--extra` for the post-review pass: four more arXiv querie
 - wikitext of `Commons:AI-generated media`, `Commons:Signs of AI media` and two Village pump archives;
 - Phabricator Conduit `maniphest.search`, which refused anonymous access ("Session key is not present").
 
-The exact queries and results are in `paper.md` §2.
+The exact queries and results are in [the paper](https://easybyte.es/lab/studies/s6/paper/) §2.
 
 ## 9. Known limitations of the design
 
-See `paper.md` §7. In short: Commons uploaders are a self-selected group; a file without a mark may never have had one or may have lost it before upload (we cannot tell which); invisible watermarks (SynthID and others) are not examined; revocation is not checked (no network); the category tree is cut at depth 6 and `{{PD-algorithm}}` also covers non-AI algorithmic works; the timestamp is that of the current file version, which for re-uploaded files is later than the first upload.
+See [the paper](https://easybyte.es/lab/studies/s6/paper/) §7. In short: Commons uploaders are a self-selected group; a file without a mark may never have had one or may have lost it before upload (we cannot tell which); invisible watermarks (SynthID and others) are not examined; revocation is not checked (no network); the category tree is cut at depth 6 and `{{PD-algorithm}}` also covers non-AI algorithmic works; the timestamp is that of the current file version, which for re-uploaded files is later than the first upload.

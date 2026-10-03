@@ -16,7 +16,11 @@ def wilson(k, n, z=1.96):
     return f"{100*max(0,c-h):.1f}–{100*(c+h):.1f}"
 A = [r for r in csv.DictReader(open(D / "answers.csv", encoding="utf-8")) if r["fact_id"] != "F16" and r["has_answer"] == "True"]
 S = json.load(open(D / "summary.json", encoding="utf-8"))
-docs = (R / "README.md").read_text(encoding="utf-8") + (R / "paper.md").read_text(encoding="utf-8")
+docs = (R / "README.md").read_text(encoding="utf-8")
+if (R / "paper.md").exists():  # the public package on GitHub ships without the paper
+    docs += (R / "paper.md").read_text(encoding="utf-8")
+else:
+    print("paper.md is not in the public package: the paper is at https://easybyte.es/lab/studies/s7/paper/")
 bad = []
 def need(label, value, text=None):
     print(f"{label}: {value}")
