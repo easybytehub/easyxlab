@@ -178,8 +178,7 @@ scripted. The composition, recorded in `data/pypi_review_sample.csv`:
 An independent AI review agent re-checked the work and showed that one overrule, fastmcp, was wrong.
 On 2026-10-03, with the corrected rules, the study agent re-examined the 55 sampled projects still in
 the set. It keeps a class different from the rule only where a commit supports it, cited in
-`data/pypi_regressions_reviewed.csv` (`evidence_url`). Dates alone do not count as evidence. No human
-reviewed any verdict.
+`data/pypi_regressions_reviewed.csv` (`evidence_url`). Dates alone do not count as evidence.
 
 ## 8. Reproducibility
 

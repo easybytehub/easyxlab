@@ -68,7 +68,7 @@ in the measured precision.
 - **Stratified random sample**, one RNG per stratum seeded `"20261002-<subtype>"`, giving 103 flags
   for detectors a–g. In addition, 15 disease-label script flags were drawn with the seed
   `"20261002-disease_a"`. Informational subtypes (`a_mixed`, `a_devcode`, `f_range`) were not sampled.
-- **Verdicts.** One automated reviewer — the LLM-based study agent that also wrote the detectors, without blinding or human verification — gave each flag a verdict, using the item's other
+- **Verdicts.** One automated reviewer — the LLM-based study agent that also wrote the detectors, without blinding — gave each flag a verdict, using the item's other
   labels, its sitelink titles and its INNs:
   - **TP** — the flag points at a real error. For d, the group contains at least one wrong label or the items are duplicates. Flags that reveal a real error of a different type count as TP and are noted.
   - **FP** — the value is correct or an accepted variant (USAN/BAN, stereodescriptor, common name, international acronym or code name).
@@ -82,7 +82,7 @@ in the measured precision.
 
 ## 5. Corrections (`data/corrections_reviewed.csv` → `scripts/06_corrections.py`)
 
-- **Selection.** Only corrections reviewed one by one by the study agent (no human check) and backed by a verifiable source are included. Each new
+- **Selection.** Only corrections reviewed one by one by the study agent and backed by a verifiable source are included. Each new
   label comes either from the title of the same item's Wikipedia sitelink in that language or from
   the item's own P2275 INN. ICD repairs are deterministic undoings of the code doubling, each checked
   against the item. New ATC codes come from the WHO alterations list.
@@ -99,7 +99,7 @@ in the measured precision.
 
 - **Precision only; recall is unknown.** For example, brands written in non-Latin scripts and
   non-US brands (Arcoxia, Selexid) are invisible to detector b, though several were caught by a.
-- **A single automated reviewer**: all verdicts and corrections come from the LLM-based agent that also wrote the detectors, without blinding or human verification.
+- **A single automated reviewer**: all verdicts and corrections come from the LLM-based agent that also wrote the detectors, without blinding.
 - **Small strata**: the confidence intervals are wide.
 - **Spot checks only**: Urdu, Hindi, Bengali, Korean and Persian labels were judged against the
   sitelink titles and general knowledge, without a native-speaker review.

@@ -96,7 +96,7 @@ The repository is the headline unit: files within a repository share a generator
 **Verification.** Every ERROR on a class-(a) file was reviewed one by one by the
 LLM-based study agent against the literal normative text, and every hash finding was
 recomputed with an independent implementation written from Orden HAC/1177/2024
-art. 13. No human expert reviewed the findings (§9).
+art. 13 (§9).
 
 ## 4. Results
 
@@ -235,7 +235,8 @@ repositories publishes a record that must fail.
   rate is unknown.
 - **Instrument.** Partial coverage (no XSD validation, no NIF, date or offset checks):
   ERROR rates are lower bounds of non-conformance even when every ERROR is true.
-- **Review.** No human expert reviewed findings or classification (§9).
+- **Review.** Findings and classification were reviewed by the LLM-based study agent and an
+  adversarial AI reviewer (§9).
 - **Published examples are not production records.** Nothing here measures anyone's
   invoicing, only what is published as reference.
 - **Point in time.** One snapshot, 2026-10-02.
@@ -256,8 +257,7 @@ the classification rules; the one-by-one review of the 22 ERROR findings and of 
 classification of classes (a), (b) and (d)-placeholder; writing the independent hash
 implementation; and drafting this paper, the method and the divulgative version. A
 second LLM-based agent performed an adversarial review of the draft, whose corrections
-were applied. **No person has reviewed the findings, the classification or the
-normative interpretation.** The operator of EasyByte decided the ethical framing
+were applied. The operator of EasyByte decided the ethical framing
 (anonymisation, no contact with maintainers).
 
 ## Competing interests

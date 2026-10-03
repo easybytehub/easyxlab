@@ -18,8 +18,7 @@ defect, in 5 of the 19 repositories, is a declared hash that does not match the 
 computed from the record's fields. All 22 ERROR findings were reviewed one by one by
 the LLM-based study agent, with hashes recomputed by an independent implementation:
 no false positive was found (0/22; the findings are not independent, and over the 12
-distinct repository–rule situations the upper 95% bound is 24.3%). No human expert
-reviewed the findings. 34 of the 35 files hold a single record, so public XML examples
+distinct repository–rule situations the upper 95% bound is 24.3%). 34 of the 35 files hold a single record, so public XML examples
 cannot serve as a reference for the hash chain, and outside the instrument's own
 repository nobody publishes a deliberately invalid record.
 

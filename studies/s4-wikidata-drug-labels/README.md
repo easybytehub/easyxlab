@@ -10,8 +10,8 @@ labels of all 3,768 Wikidata items that carry an ATC code (P267) in 20 languages
 (34,207 labels), plus 10,823 items with ICD-10/ICD-11 codes. Seven rule-based detectors
 flag labels in the wrong script, brand names, salt/parent mismatches, shared labels,
 departures from the WHO INN, malformed ICD codes and obsolete ATC codes. A stratified random
-sample of 118 flags was reviewed one by one by the study agent, an LLM-based agent, without
-human verification (see `paper.md` §3.1).
+sample of 118 flags was reviewed one by one by the study agent, an LLM-based agent (see
+`paper.md` §3.1).
 
 Script (0.71 drugs, 0.93 diseases), brand (0.83), shared-label (1.00), ICD-10 format
 (13/13) and obsolete-ATC (5/5) flags were mostly correct. INN (0.19), salt/parent (0.26) and

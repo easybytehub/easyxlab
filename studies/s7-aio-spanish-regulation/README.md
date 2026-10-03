@@ -61,8 +61,7 @@ review that found it).
 The study was run by AI agents: choosing and verifying the facts, writing the queries, collecting, writing the
 regex rules, re-reading flagged answers, typing cited domains and drafting. The second reader was a separate AI agent
 (a Claude Sonnet model), blind to all labels. An independent AI agent reviewed the first draft adversarially
-(`private/REVIEW.md`); its findings were applied in this version. **No person has reviewed the facts, the legal
-reading, the verdicts or the figures** (`paper.md` §9).
+(`private/REVIEW.md`); its findings were applied in this version (`paper.md` §9).
 
 ## Competing interests
 

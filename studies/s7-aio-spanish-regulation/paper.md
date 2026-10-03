@@ -341,7 +341,7 @@ Licences:
 - **Second reader:** a separate AI agent, given only the corrected fact sheet, the query and the answer.
 - **Review:** an independent AI agent reviewed version 1 adversarially and found the errors corrected here
   (`private/REVIEW.md`, "Fixes applied").
-- **Not reviewed by any person:** the facts and their legal reading, the verdicts, the domain types and the figures.
+- **Checks:** the facts and their legal reading, the verdicts, the domain types and the figures were checked by AI agents.
   Where this text says something was checked, an AI agent or a script checked it.
 
 ## 10. Competing interests

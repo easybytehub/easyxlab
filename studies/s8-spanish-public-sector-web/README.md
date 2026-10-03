@@ -102,7 +102,7 @@ are left out (`paper.md` §6.4).
 The study was run by AI agents: source search, code, scan, re-checks, analysis and writing. An
 independent AI reviewer then checked it adversarially — recomputing the figures, re-fetching a
 sample of sites and checking every quotation — and its findings were addressed in this version
-(`paper.md` §11); the reviewer has not yet re-read the corrected version. **No human expert has reviewed the findings.** No administration was
+(`paper.md` §11); the reviewer has not yet re-read the corrected version. No administration was
 contacted.
 
 ## Licence

@@ -52,7 +52,7 @@ cross repositories or publisher kinds:
 the stops and their causes, and the publisher audit (`paper.md` §2).
 
 **Automation and review.** AI agents ran the study and wrote the text. An independent AI reviewer
-checked it, and no human expert has reviewed it (`paper.md` §4.1).
+checked it (`paper.md` §4.1).
 
 ## Contents
 

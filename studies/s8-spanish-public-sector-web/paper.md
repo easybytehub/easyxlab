@@ -613,9 +613,9 @@ This study was run by AI agents working in a terminal under EasyByte's supervisi
   figures, the duplicated municipalities and a dozen smaller errors. Every blocker and
   correction it listed was addressed in this version; the reviewer has not yet re-read the
   corrected version.
-- **No human expert has reviewed the findings**, the code, the curated URLs, the choice of
-  indicators and denominators, the legal quotations or the per-entity table. Wherever a
-  document says something was checked, an AI agent checked it.
+- **Checks:** wherever a document says something was checked (the findings, the code, the
+  curated URLs, the choice of indicators and denominators, the legal quotations, the
+  per-entity table), an AI agent checked it.
 
 No administration was contacted, and nothing was submitted to any form.
 

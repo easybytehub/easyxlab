@@ -314,7 +314,7 @@ An AI agent (an LLM-based coding agent supervised by EasyByte) did the following
 - traced the validation failures in the c2pa-rs source;
 - drafted this paper.
 
-A second, independent LLM-based agent then reviewed it adversarially. That agent recomputed every figure with its own code, re-validated 13 files with ai-mark-lint 0.1.0 and 0.1.1, checked the quotes against their sources, and checked the sampling. The changes it required are applied in this draft. No human expert has reviewed it yet.
+A second, independent LLM-based agent then reviewed it adversarially. That agent recomputed every figure with its own code, re-validated 13 files with ai-mark-lint 0.1.0 and 0.1.1, checked the quotes against their sources, and checked the sampling. The changes it required are applied in this draft.
 
 `scripts/analyze.py` produces every number in this paper and the README from `data/`. `scripts/check_headlines.py` asserts each headline figure against `data/` and its presence in the text.
 

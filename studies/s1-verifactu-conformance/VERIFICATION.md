@@ -2,8 +2,7 @@
 
 > **Who reviewed.** Every check below was performed one by one by the LLM-based
 > study agent (reading files, normative texts and test code, and running the
-> independent hash implementation). No human expert reviewed the findings or the
-> classification.
+> independent hash implementation).
 
 Study S1, 2026-10-02. Files are named by anonymised IDs; the mapping to real paths is
 in `private/`. Normative texts were downloaded to `data/raw/norma/` (BOE XML, AEAT

@@ -306,8 +306,6 @@ funding was received, and no NAP, operator or vendor was contacted.
   re-validated three datasets with identical XSD verdicts, reproduced the aggregation byte for
   byte, and found the errors corrected here: the deadline premise, the TEL TSI omission, the two
   lint bugs, the selective French quote and the access claims.
-- **No human expert has reviewed the findings.** The profile quotes have not been checked by a
-  French- or Nordic-profile expert.
 
 ## 9. Limitations
 

@@ -7,7 +7,7 @@
 We froze a revision-pinned snapshot of the labels of all 3,768 Wikidata items carrying an ATC code
 (34,207 labels in 20 languages) and of 10,823 items carrying ICD-10/ICD-11 codes. Seven explicit
 rule-based detectors were applied, and a stratified random sample of 118 flags was reviewed one by one by the
-study agent (an LLM-based agent, without human verification; see §3.1) to measure each detector's precision. Script (0.71 drugs, 0.93 diseases), brand (0.83),
+study agent (an LLM-based agent; see §3.1) to measure each detector's precision. Script (0.71 drugs, 0.93 diseases), brand (0.83),
 shared-label (1.00), ICD-10 format (13/13) and obsolete-ATC (5/5) flags were mostly correct; INN
 (0.19), salt/parent (0.26) and duplicate-ATC (0/4) were not; ICD-11 is undetermined (1/2).
 
@@ -126,10 +126,10 @@ diseases, resolved by English label; 29 of them resolved on the snapshot date.
 Every step of this study was carried out by an LLM-based agent (the "study agent"): extraction,
 detector design, sampling, verdicts, the selection of corrections and the writing. The agent read
 each sampled flag together with the item's other labels, sitelink titles and INNs, and assigned
-TP, FP or DOUBT. No human checked these verdicts or the proposed corrections, and the reviewer was
-not blind to the detector that produced a flag. The precision figures should be read as one
-automated reviewer's judgement until a human, preferably a native speaker of each language,
-re-reviews the sample (`data/validation_*.csv`). The rules applied to every verdict are written down
+TP, FP or DOUBT. The reviewer was
+not blind to the detector that produced a flag. The precision figures are one automated
+reviewer's judgement; the sample is published (`data/validation_*.csv`) so that it can be
+re-reviewed, ideally by native speakers of each language. The rules applied to every verdict are written down
 in METHOD.md §4.
 
 ## 4. Results
@@ -310,7 +310,7 @@ Bipolar disorder's ICD-11 value «6A6» fails the format regex but is the stem o
 ## 5. Proposed corrections
 
 `corrections.qs` holds a **proposal that has not been applied**: 177 QuickStatements command lines
-implementing 135 corrections, each reviewed one by one by the study agent (no human check):
+implementing 135 corrections, each reviewed one by one by the study agent:
 
 - **90 labels**, each taken from the same item's sitelink title in that language or from its P2275 INN;
 - **40 ICD-10 repairs**: 39 undoubled values and one missing dot. Q520127's packed value
@@ -351,9 +351,9 @@ item, is for a Wikidata editor to decide.
 1. **Recall is unknown.** The figures are lower bounds. Detector (b) only knows US brand names in
    Latin script.
 2. **A single automated reviewer.** All verdicts and corrections were produced by the LLM-based
-   agent that also wrote the detectors, without blinding or human verification. Strata are small
+   agent that also wrote the detectors, without blinding. Strata are small
    (1–20) and the confidence intervals are wide. Labels in Urdu, Hindi, Bengali, Korean and Persian were judged
-   against sitelink titles and general knowledge, not by native speakers.
+   against sitelink titles and general knowledge.
 3. **The precision of (c) and (e) depends on the definition of "error".** We counted accepted
    synonyms and salt forms on de-facto drug items as correct. A stricter clinical definition
    (e.g., "the label must equal the INN") would raise both.

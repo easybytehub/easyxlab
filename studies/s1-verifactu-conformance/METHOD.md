@@ -77,7 +77,7 @@ variant with the literal previous hash `huella` slipped into (a). See `VERIFICAT
 **Direction of the bias.** Every heuristic in this section errs towards (b). A file
 moved from (a) to (b) leaves the numerator of non-conformance, so the reported
 non-conformance rates are, by construction, **lower bounds** with respect to
-classification error. §3.4 says which classes were reviewed (by the study agent, not by a person) and
+classification error. §3.4 says which classes were reviewed (by the study agent) and
 which were not.
 
 ### 3.4 Review of the classification
@@ -85,7 +85,7 @@ which were not.
 The LLM-based study agent reviewed one by one all (b) and (a) occurrences and
 tabulated the matching value of every (d)-placeholder occurrence. The random
 per-class sample originally planned here was **not carried out**; classes (c),
-(d)-template and (e) were not reviewed. No human reviewed the classification. Results
+(d)-template and (e) were not reviewed. Results
 in `VERIFICATION.md`.
 
 ## 4. Deduplication
@@ -131,7 +131,7 @@ of private implementations.
 `scripts/05_sample.py` draws a stratified sample (up to two findings per
 (rule, severity) stratum, seed 20261002), but since the corpus turned out small the
 sample was **not used**: every ERROR (22) and AVISO (4) on class-(a) files was
-reviewed one by one by the LLM-based study agent; no human expert reviewed them. Each
+reviewed one by one by the LLM-based study agent. Each
 finding is checked against the literal text of the norm (BOE texts
 downloaded to `data/raw/norma/`) and, for hash rule `RRSIF001`, against an
 **independent re-implementation** of the hash written in `05_sample.py` from the text

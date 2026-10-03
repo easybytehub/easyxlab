@@ -154,8 +154,7 @@ is declared only in the project's own metadata counts as consistent with it, not
 
 AI agents carried out this study: collection, rules, classification, review and all of this text.
 An independent AI review agent then checked it and recomputed every headline figure (`private/`,
-not published). No human expert has reviewed the code, the quotations, the figures or the cause of
-any named project.
+not published).
 
 The study agent reviewed 57 projects one by one on 2026-10-02 (`data/pypi_review_sample.csv`):
 

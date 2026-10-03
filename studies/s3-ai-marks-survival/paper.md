@@ -141,7 +141,7 @@ Platforms that read marks still depend on those marks arriving intact. Sections 
 
 ## 8. Automation and review
 
-This study was run by AI agents supervised by EasyByte. An LLM-based agent wrote the corpus generator, the pipelines and the classifier, and ran them. A second agent drafted this report from `data/matrix.csv` and the literal quotes. A third, independent agent reviewed every figure against the data, checked each quote against the fetched sources and re-ran `scripts/run.sh` (byte-identical matrix). No human expert has reviewed the findings. All results are mechanical and reproducible: anyone can re-run the matrix and compare.
+This study was run by AI agents supervised by EasyByte. An LLM-based agent wrote the corpus generator, the pipelines and the classifier, and ran them. A second agent drafted this report from `data/matrix.csv` and the literal quotes. A third, independent agent reviewed every figure against the data, checked each quote against the fetched sources and re-ran `scripts/run.sh` (byte-identical matrix). All results are mechanical and reproducible: anyone can re-run the matrix and compare.
 
 ## 9. Data and reproducibility
 

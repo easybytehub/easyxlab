@@ -38,7 +38,6 @@ herramienta de código abierto que mantenemos en EasyByte.
 comerciales relacionados con Verifactu. Segunda: el estudio lo han hecho agentes de
 IA, de la recogida a la redacción. El agente revisó uno a uno los errores contra el
 texto literal de la norma y recalculó cada huella con una implementación independiente.
-Ninguna persona experta ha revisado los hallazgos.
 
 ## Lo primero: casi nadie publica registros reales
 

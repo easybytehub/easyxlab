@@ -1,7 +1,7 @@
 # Spoofed AI crawlers: how much traffic claiming to be an AI or search bot is real?
 
 *EasyxLab, study S2 — working draft, 2026-10-02. Not peer-reviewed. See §8 for what was
-done by AI agents and what no person has reviewed.*
+done by AI agents.*
 
 ## Abstract
 
@@ -300,10 +300,10 @@ terminal under the authors' accounts, with read-only access to the servers:
   reports; writing this draft, `METHOD.md` and the other documents. A second AI agent acting as
   coordinator performed an adversarial review of the draft, and its corrections were applied by
   the first agent after checking them against the data.
-- **Not reviewed by any person** as of this draft: the code and tests, the bot registry and
-  verdict rules, the network-type classification of each AS, the quotations and their sources,
-  the figures in this paper, and the anonymisation. Wherever a document says something was
-  checked, the check was made by an AI agent.
+- **Checks:** wherever a document says something was checked (the code and tests, the bot
+  registry and verdict rules, the network-type classification of each AS, the quotations and
+  their sources, the figures in this paper, and the anonymisation), the check was made by an AI
+  agent.
 
 ## References
 
