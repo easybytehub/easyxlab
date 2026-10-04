@@ -1,0 +1,6 @@
+district,province,year,value,max_earlier,rule
+TARAZONA,ZARAGOZA,2023,0,50,drop_to_zero
+MEDINA DE RIOSECO,VALLADOLID,2023,0,62,drop_to_zero
+OCAÑA,TOLEDO,2023,0,163,drop_to_zero
+RIBADAVIA,OURENSE,2025,2944,11,jump
+SAN LORENZO DE EL ESCORIAL,MADRID,2025,0,119,drop_to_zero

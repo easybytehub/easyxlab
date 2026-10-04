@@ -1,0 +1,402 @@
+{
+  "DQ1": {
+    "province_year_type_differences": 306,
+    "years_with_differences": [
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2024,
+      2025
+    ],
+    "national_P_TOT_difference_by_year": {
+      "2013": -118.0,
+      "2014": -82.0,
+      "2015": -85.0,
+      "2016": -50.0,
+      "2017": -84.0,
+      "2018": -15.0,
+      "2019": -27.0,
+      "2020": -10.0,
+      "2021": -11.0,
+      "2022": 4.0,
+      "2023": 0.0,
+      "2024": -1.0,
+      "2025": 2943.0
+    },
+    "national_P_LAU_difference_by_year": {
+      "2013": -71.0,
+      "2014": -52.0,
+      "2015": -53.0,
+      "2016": -25.0,
+      "2017": -14.0,
+      "2018": -4.0,
+      "2019": -20.0,
+      "2020": -6.0,
+      "2021": -7.0,
+      "2022": 1.0,
+      "2023": 0.0,
+      "2024": 0.0,
+      "2025": 1783.0
+    },
+    "outliers": [
+      {
+        "district": "TARAZONA",
+        "province": "ZARAGOZA",
+        "year": 2023,
+        "value": 0.0,
+        "max_earlier": 50.0,
+        "rule": "drop_to_zero"
+      },
+      {
+        "district": "MEDINA DE RIOSECO",
+        "province": "VALLADOLID",
+        "year": 2023,
+        "value": 0.0,
+        "max_earlier": 62.0,
+        "rule": "drop_to_zero"
+      },
+      {
+        "district": "OCAÑA",
+        "province": "TOLEDO",
+        "year": 2023,
+        "value": 0.0,
+        "max_earlier": 163.0,
+        "rule": "drop_to_zero"
+      },
+      {
+        "district": "RIBADAVIA",
+        "province": "OURENSE",
+        "year": 2025,
+        "value": 2944.0,
+        "max_earlier": 11.0,
+        "rule": "jump"
+      },
+      {
+        "district": "SAN LORENZO DE EL ESCORIAL",
+        "province": "MADRID",
+        "year": 2025,
+        "value": 0.0,
+        "max_earlier": 119.0,
+        "rule": "drop_to_zero"
+      }
+    ],
+    "ceuta_melilla": {
+      "CEUTA": {
+        "host": "CADIZ",
+        "abs_diff_2013_2024_if_included": 3.0,
+        "abs_diff_2013_2024_if_excluded": 490.0
+      },
+      "MELILLA": {
+        "host": "MALAGA",
+        "abs_diff_2013_2024_if_included": 0.0,
+        "abs_diff_2013_2024_if_excluded": 1086.0
+      }
+    }
+  },
+  "DQ2": {
+    "province_quarter_series_revised": 124,
+    "listed_(>=5%_and_>=10)": 15,
+    "national_revisions": [
+      {
+        "quarter": "2025Q3",
+        "series": "P-TOT",
+        "first_vintage": 5053.0,
+        "latest_vintage": 4839.0,
+        "revision": -214.0
+      },
+      {
+        "quarter": "2025Q3",
+        "series": "P-HIP",
+        "first_vintage": 874.0,
+        "latest_vintage": 847.0,
+        "revision": -27.0
+      },
+      {
+        "quarter": "2025Q3",
+        "series": "P-LAU",
+        "first_vintage": 3743.0,
+        "latest_vintage": 3581.0,
+        "revision": -162.0
+      },
+      {
+        "quarter": "2025Q3",
+        "series": "P-OTR",
+        "first_vintage": 436.0,
+        "latest_vintage": 411.0,
+        "revision": -25.0
+      },
+      {
+        "quarter": "2026Q1",
+        "series": "P-LAU",
+        "first_vintage": 2249.0,
+        "latest_vintage": 2600.0,
+        "revision": 351.0
+      },
+      {
+        "quarter": "2026Q1",
+        "series": "P-OTR",
+        "first_vintage": 785.0,
+        "latest_vintage": 434.0,
+        "revision": -351.0
+      }
+    ]
+  },
+  "DQ3": {
+    "2025Q3": {
+      "districts": 64,
+      "by_phase": {
+        "1": 63,
+        "2": 0,
+        "3": 1
+      },
+      "provinces": [
+        "A CORUNA",
+        "ALBACETE",
+        "ASTURIAS",
+        "AVILA",
+        "BADAJOZ",
+        "BARCELONA",
+        "BURGOS",
+        "CADIZ",
+        "CANTABRIA",
+        "CIUDAD REAL",
+        "CUENCA",
+        "GIPUZKOA",
+        "JAEN",
+        "LA RIOJA",
+        "LEON",
+        "LUGO",
+        "MADRID",
+        "MALAGA",
+        "MURCIA",
+        "NAVARRA",
+        "OURENSE",
+        "PALENCIA",
+        "PONTEVEDRA",
+        "SANTA CRUZ DE TENERIFE",
+        "SEVILLA",
+        "TARRAGONA",
+        "TOLEDO",
+        "ZARAGOZA"
+      ]
+    },
+    "2025Q4": {
+      "districts": 4,
+      "by_phase": {
+        "1": 4,
+        "2": 0,
+        "3": 0
+      },
+      "provinces": [
+        "CADIZ",
+        "NAVARRA",
+        "SANTA CRUZ DE TENERIFE"
+      ]
+    },
+    "2026Q1": {
+      "districts": 3,
+      "by_phase": {
+        "1": 0,
+        "2": 0,
+        "3": 3
+      },
+      "provinces": [
+        "ASTURIAS",
+        "CASTELLON",
+        "GIPUZKOA"
+      ]
+    }
+  },
+  "DQ4": {
+    "checks": 8427,
+    "failures": 3,
+    "province_quarters_failing_type_identity": 1,
+    "share_province_quarters_failing": 0.0003773584905660377,
+    "press_figures": {
+      "P-TOT": {
+        "published": 4005,
+        "series": 4005.0,
+        "published_change": -0.454,
+        "series_change": -0.4539,
+        "match": true
+      },
+      "SC-REC": {
+        "published": 16167,
+        "series": 16167.0,
+        "published_change": 0.192,
+        "series_change": 0.192,
+        "match": true
+      },
+      "SC-POS": {
+        "published": 7696,
+        "series": 7696.0,
+        "published_change": 0.166,
+        "series_change": 0.1664,
+        "match": true
+      }
+    },
+    "q1_2026_type_split": {
+      "P-TOT": {
+        "release_provincias_sheet": 4005.0,
+        "series_file": 4005.0,
+        "madrid_release": 582.0,
+        "madrid_series": 582.0
+      },
+      "P-HIP": {
+        "release_provincias_sheet": 971.0,
+        "series_file": 971.0,
+        "madrid_release": 107.0,
+        "madrid_series": 107.0
+      },
+      "P-LAU": {
+        "release_provincias_sheet": 2249.0,
+        "series_file": 2600.0,
+        "madrid_release": 103.0,
+        "madrid_series": 454.0
+      },
+      "P-OTR": {
+        "release_provincias_sheet": 785.0,
+        "series_file": 434.0,
+        "madrid_release": 372.0,
+        "madrid_series": 21.0
+      }
+    }
+  },
+  "DQ5": [
+    {
+      "release": "2025Q3",
+      "sheet": "Lanzamientos practic. total TSJ",
+      "position": 7,
+      "label": "25-T3*",
+      "expected": "2025Q3",
+      "issue": "starred"
+    },
+    {
+      "release": "2025Q3",
+      "sheet": "Lanzamientos E.hipotecaria TSJ",
+      "position": 7,
+      "label": "25-T3*",
+      "expected": "2025Q3",
+      "issue": "starred"
+    },
+    {
+      "release": "2025Q3",
+      "sheet": "Lanzamientos L.A.U  TSJ",
+      "position": 7,
+      "label": "25-T3*",
+      "expected": "2025Q3",
+      "issue": "starred"
+    },
+    {
+      "release": "2025Q3",
+      "sheet": "Lanzamientos. Otros TSJ",
+      "position": 7,
+      "label": "25-T3*",
+      "expected": "2025Q3",
+      "issue": "starred"
+    },
+    {
+      "release": "2026Q1",
+      "sheet": "Lanzamientos L.A.U  TSJ",
+      "position": 5,
+      "label": "25-T1",
+      "expected": "2026Q1",
+      "issue": "label differs"
+    }
+  ],
+  "DQ6": {
+    "phase_counts": {
+      "1": 315,
+      "2": 16,
+      "3": 100
+    },
+    "expected": {
+      "1": 315,
+      "2": 16,
+      "3": 100
+    },
+    "unmatched_district_file": [],
+    "seat_problems": [],
+    "mju_phase3_seats_in_remainder": 30,
+    "former_courts_outside_DT1_types": 0,
+    "pilot_seats": [
+      "San Javier (Murcia)"
+    ]
+  },
+  "DQ7": {
+    "phase2_xls": [
+      "ALCOBENDAS",
+      "ARONA",
+      "BADALONA",
+      "DENIA",
+      "FUENGIROLA",
+      "FUENLABRADA",
+      "INCA",
+      "L'HOSPITALET DE LLOBREGAT",
+      "MANACOR",
+      "MARBELLA",
+      "SAN BARTOLOME DE TIRAJANA",
+      "SAN CRISTOBAL DE LA LAGUNA",
+      "TELDE",
+      "TORREJON DE ARDOZ",
+      "TORREMOLINOS",
+      "TORRENT"
+    ],
+    "matches_madrid_bar_list": true
+  },
+  "DQ8": [
+    {
+      "year": 2022,
+      "Q3_over_Q2": 0.6838942307692307,
+      "Q1_next_over_Q4": 0.7325464870281706
+    },
+    {
+      "year": 2023,
+      "Q3_over_Q2": 0.7520263772496222,
+      "Q1_next_over_Q4": 1.0132387061553159
+    },
+    {
+      "year": 2024,
+      "Q3_over_Q2": 0.6761783439490446,
+      "Q1_next_over_Q4": 1.050415353766829
+    },
+    {
+      "year": 2025,
+      "Q3_over_Q2": 0.6952586206896552,
+      "Q1_next_over_Q4": 0.7407064915849825
+    }
+  ],
+  "DQ10": {
+    "provinces_without_SC_receipts_in_some_quarter_2024Q1_2026Q1": [
+      "HUESCA",
+      "TERUEL",
+      "AVILA",
+      "SEGOVIA",
+      "SORIA"
+    ]
+  },
+  "DQ11": {
+    "q1_2026": 4005.0,
+    "previous_minimum_quarter": "2020Q2",
+    "previous_minimum": 1383.0,
+    "previous_minimum_first_quarter": "2023Q1",
+    "previous_minimum_first_quarter_value": 6579.0,
+    "earlier_quarters_at_or_below_q1_2026": [
+      "2020Q2"
+    ]
+  },
+  "gate": {
+    "unmatched_districts": 0,
+    "unmatched_limit": 22,
+    "type_identity_failure_share": 0.0003773584905660377,
+    "failure_share_limit": 0.1,
+    "confirmatory_tests_allowed": true
+  }
+}

@@ -1,0 +1,4 @@
+check,unit,quarter,lhs,rhs
+sum provinces=TSJ,"P-OTR MADRID, COMUNIDAD",2019Q1,45,46
+total=hip+lau+otr,ALMERIA,2022Q4,252,253
+total=hip+lau+otr,TOTAL,2022Q4,8981,8982

@@ -1,0 +1,52 @@
+{
+  "national_Q1_2025": 7334.0,
+  "national_Q1_2026_observed": 4005.0,
+  "log_change": -0.6049774891288118,
+  "pct_change": -0.45391328061085356,
+  "imputed_Q1_2026": 4034.725365050377,
+  "imputed_provinces": {
+    "GIPUZKOA": 0.3959731543624161,
+    "ASTURIAS": 0.20689655172413793,
+    "CASTELLON": 0.2506053268765133
+  },
+  "counterfactual_Q1_2026": 2396.9995485537925,
+  "counterfactual_ci95": [
+    2079.142927291324,
+    5235.292270565286
+  ],
+  "counterfactual_pct_change": -0.6731661373665404,
+  "components_log": {
+    "a_reported_missing": -0.007394655700645458,
+    "b_phase_counting": 0.5207204691067471,
+    "c_national_residual": -1.1183033025349136
+  },
+  "b_ci95": [
+    -0.2604844295294171,
+    0.662982533220265
+  ],
+  "share_of_log_fall_a_plus_b": -0.8485039900332627,
+  "previous_minimum_all_quarters": {
+    "value": 1383.0,
+    "quarter": "2020Q2"
+  },
+  "previous_minimum_first_quarters": {
+    "value": 6579.0,
+    "quarter": "2023Q1"
+  },
+  "record_low_all_quarters": "not supported",
+  "record_low_first_quarters": "robust",
+  "rho_used": {
+    "0": -0.32684055227489744,
+    "1": -0.11256281725041498,
+    "2": 2.9999999999999876
+  },
+  "exploratory_h1a_transient": {
+    "note": "EXPLORATORY, not registered: Y*_p = Y_imp,p / (1 + rho·W3_p), rho = exp(b3_H1a) − 1, phase 1 and 2 effects set to 0 in Q1-2026",
+    "rho": -0.7074914122326478,
+    "counterfactual": 7092.630721410291,
+    "counterfactual_at_ci95_bounds_of_b3": [
+      10471.297365936383,
+      2768.716333980635
+    ]
+  }
+}

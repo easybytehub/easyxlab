@@ -1,0 +1,325 @@
+test,tag,province,reason
+H1a,primary,AVILA,count<10
+H1a,primary,CACERES,count<10
+H1a,primary,CUENCA,count<10
+H1a,primary,OURENSE,count<10
+H1a,primary,SALAMANCA,count<10
+H1a,primary,SEGOVIA,count<10
+H1a,primary,SORIA,count<10
+H1a,primary,TERUEL,count<10
+H1a,primary,ZAMORA,count<10
+H1b,primary,CUENCA,count<10
+H1b,primary,SALAMANCA,count<10
+H1b,primary,SEGOVIA,count<10
+H1b,primary,SORIA,count<10
+H1b,primary,TERUEL,count<10
+H1b,primary,ZAMORA,count<10
+H2,primary,ALBACETE,count<10
+H2,primary,AVILA,filter
+H2,primary,CACERES,count<10
+H2,primary,CUENCA,count<10
+H2,primary,GUADALAJARA,count<10
+H2,primary,HUESCA,filter
+H2,primary,LA RIOJA,count<10
+H2,primary,LAS PALMAS,count<10
+H2,primary,LLEIDA,count<10
+H2,primary,NAVARRA,count<10
+H2,primary,OURENSE,count<10
+H2,primary,PALENCIA,count<10
+H2,primary,SEGOVIA,filter
+H2,primary,SORIA,filter
+H2,primary,TERUEL,filter
+H2,primary,VALLADOLID,count<10
+H2,primary,ZAMORA,count<10
+H2,primary,ZARAGOZA,count<10
+H2-SC-REC (exploratory),exploratory,ALBACETE,count<10
+H2-SC-REC (exploratory),exploratory,AVILA,filter
+H2-SC-REC (exploratory),exploratory,GUADALAJARA,count<10
+H2-SC-REC (exploratory),exploratory,HUESCA,filter
+H2-SC-REC (exploratory),exploratory,LA RIOJA,count<10
+H2-SC-REC (exploratory),exploratory,OURENSE,count<10
+H2-SC-REC (exploratory),exploratory,SEGOVIA,filter
+H2-SC-REC (exploratory),exploratory,SORIA,filter
+H2-SC-REC (exploratory),exploratory,TERUEL,filter
+H2-SC-REC (exploratory),exploratory,VALLADOLID,count<10
+H2-SC-REC (exploratory),exploratory,ZAMORA,count<10
+SC-POS phase 1 (exploratory),exploratory,ARABA/ALAVA,count<10
+SC-POS phase 1 (exploratory),exploratory,AVILA,filter
+SC-POS phase 1 (exploratory),exploratory,BURGOS,count<10
+SC-POS phase 1 (exploratory),exploratory,CACERES,count<10
+SC-POS phase 1 (exploratory),exploratory,CUENCA,count<10
+SC-POS phase 1 (exploratory),exploratory,HUESCA,filter
+SC-POS phase 1 (exploratory),exploratory,NAVARRA,count<10
+SC-POS phase 1 (exploratory),exploratory,PALENCIA,count<10
+SC-POS phase 1 (exploratory),exploratory,SEGOVIA,filter
+SC-POS phase 1 (exploratory),exploratory,SORIA,filter
+SC-POS phase 1 (exploratory),exploratory,TERUEL,filter
+SC-POS phase 1 (exploratory),exploratory,ZAMORA,count<10
+SC-REC phase 1 (exploratory),exploratory,ARABA/ALAVA,count<10
+SC-REC phase 1 (exploratory),exploratory,AVILA,filter
+SC-REC phase 1 (exploratory),exploratory,CUENCA,count<10
+SC-REC phase 1 (exploratory),exploratory,HUESCA,filter
+SC-REC phase 1 (exploratory),exploratory,PALENCIA,count<10
+SC-REC phase 1 (exploratory),exploratory,SEGOVIA,filter
+SC-REC phase 1 (exploratory),exploratory,SORIA,filter
+SC-REC phase 1 (exploratory),exploratory,TERUEL,filter
+H3,primary,ALBACETE,"count<10 in either series, or undefined"
+H3,primary,AVILA,filter
+H3,primary,CACERES,"count<10 in either series, or undefined"
+H3,primary,CUENCA,"count<10 in either series, or undefined"
+H3,primary,GUADALAJARA,"count<10 in either series, or undefined"
+H3,primary,HUESCA,filter
+H3,primary,LA RIOJA,"count<10 in either series, or undefined"
+H3,primary,LAS PALMAS,"count<10 in either series, or undefined"
+H3,primary,LLEIDA,"count<10 in either series, or undefined"
+H3,primary,NAVARRA,"count<10 in either series, or undefined"
+H3,primary,OURENSE,"count<10 in either series, or undefined"
+H3,primary,PALENCIA,"count<10 in either series, or undefined"
+H3,primary,SALAMANCA,"count<10 in either series, or undefined"
+H3,primary,SEGOVIA,filter
+H3,primary,SORIA,filter
+H3,primary,TERUEL,filter
+H3,primary,VALLADOLID,"count<10 in either series, or undefined"
+H3,primary,ZAMORA,"count<10 in either series, or undefined"
+H3,primary,ZARAGOZA,"count<10 in either series, or undefined"
+H4,primary,A CORUNA,count<10
+H4,primary,ALBACETE,count<10
+H4,primary,ARABA/ALAVA,count<10
+H4,primary,AVILA,count<10
+H4,primary,BADAJOZ,count<10
+H4,primary,BIZKAIA,count<10
+H4,primary,BURGOS,count<10
+H4,primary,CACERES,count<10
+H4,primary,CANTABRIA,count<10
+H4,primary,CASTELLON,count<10
+H4,primary,CIUDAD REAL,count<10
+H4,primary,CUENCA,count<10
+H4,primary,GIPUZKOA,count<10
+H4,primary,GUADALAJARA,count<10
+H4,primary,HUELVA,count<10
+H4,primary,HUESCA,count<10
+H4,primary,ILLES BALEARS,count<10
+H4,primary,JAEN,count<10
+H4,primary,LA RIOJA,count<10
+H4,primary,LEON,count<10
+H4,primary,LUGO,count<10
+H4,primary,NAVARRA,count<10
+H4,primary,OURENSE,count<10
+H4,primary,PALENCIA,count<10
+H4,primary,PONTEVEDRA,count<10
+H4,primary,SALAMANCA,count<10
+H4,primary,SEGOVIA,count<10
+H4,primary,SORIA,count<10
+H4,primary,TERUEL,count<10
+H4,primary,VALLADOLID,count<10
+H4,primary,ZAMORA,count<10
+H4,primary,ZARAGOZA,count<10
+H4-LAU (reference),secondary-ref,ALBACETE,count<10
+H4-LAU (reference),secondary-ref,AVILA,count<10
+H4-LAU (reference),secondary-ref,BADAJOZ,count<10
+H4-LAU (reference),secondary-ref,BURGOS,count<10
+H4-LAU (reference),secondary-ref,CACERES,count<10
+H4-LAU (reference),secondary-ref,CUENCA,count<10
+H4-LAU (reference),secondary-ref,LA RIOJA,count<10
+H4-LAU (reference),secondary-ref,LAS PALMAS,count<10
+H4-LAU (reference),secondary-ref,LEON,count<10
+H4-LAU (reference),secondary-ref,OURENSE,count<10
+H4-LAU (reference),secondary-ref,PALENCIA,count<10
+H4-LAU (reference),secondary-ref,SALAMANCA,count<10
+H4-LAU (reference),secondary-ref,SEGOVIA,count<10
+H4-LAU (reference),secondary-ref,SORIA,count<10
+H4-LAU (reference),secondary-ref,TERUEL,count<10
+H4-LAU (reference),secondary-ref,ZAMORA,count<10
+H4-difference LAU-HIP,secondary-ref,A CORUNA,"count<10 in either series, or undefined"
+H4-difference LAU-HIP,secondary-ref,ALBACETE,"count<10 in either series, or undefined"
+H4-difference LAU-HIP,secondary-ref,ARABA/ALAVA,"count<10 in either series, or undefined"
+H4-difference LAU-HIP,secondary-ref,AVILA,"count<10 in either series, or undefined"
+H4-difference LAU-HIP,secondary-ref,BADAJOZ,"count<10 in either series, or undefined"
+H4-difference LAU-HIP,secondary-ref,BIZKAIA,"count<10 in either series, or undefined"
+H4-difference LAU-HIP,secondary-ref,BURGOS,"count<10 in either series, or undefined"
+H4-difference LAU-HIP,secondary-ref,CACERES,"count<10 in either series, or undefined"
+H4-difference LAU-HIP,secondary-ref,CANTABRIA,"count<10 in either series, or undefined"
+H4-difference LAU-HIP,secondary-ref,CASTELLON,"count<10 in either series, or undefined"
+H4-difference LAU-HIP,secondary-ref,CIUDAD REAL,"count<10 in either series, or undefined"
+H4-difference LAU-HIP,secondary-ref,CUENCA,"count<10 in either series, or undefined"
+H4-difference LAU-HIP,secondary-ref,GIPUZKOA,"count<10 in either series, or undefined"
+H4-difference LAU-HIP,secondary-ref,GUADALAJARA,"count<10 in either series, or undefined"
+H4-difference LAU-HIP,secondary-ref,HUELVA,"count<10 in either series, or undefined"
+H4-difference LAU-HIP,secondary-ref,HUESCA,"count<10 in either series, or undefined"
+H4-difference LAU-HIP,secondary-ref,ILLES BALEARS,"count<10 in either series, or undefined"
+H4-difference LAU-HIP,secondary-ref,JAEN,"count<10 in either series, or undefined"
+H4-difference LAU-HIP,secondary-ref,LA RIOJA,"count<10 in either series, or undefined"
+H4-difference LAU-HIP,secondary-ref,LAS PALMAS,"count<10 in either series, or undefined"
+H4-difference LAU-HIP,secondary-ref,LEON,"count<10 in either series, or undefined"
+H4-difference LAU-HIP,secondary-ref,LUGO,"count<10 in either series, or undefined"
+H4-difference LAU-HIP,secondary-ref,NAVARRA,"count<10 in either series, or undefined"
+H4-difference LAU-HIP,secondary-ref,OURENSE,"count<10 in either series, or undefined"
+H4-difference LAU-HIP,secondary-ref,PALENCIA,"count<10 in either series, or undefined"
+H4-difference LAU-HIP,secondary-ref,PONTEVEDRA,"count<10 in either series, or undefined"
+H4-difference LAU-HIP,secondary-ref,SALAMANCA,"count<10 in either series, or undefined"
+H4-difference LAU-HIP,secondary-ref,SEGOVIA,"count<10 in either series, or undefined"
+H4-difference LAU-HIP,secondary-ref,SORIA,"count<10 in either series, or undefined"
+H4-difference LAU-HIP,secondary-ref,TERUEL,"count<10 in either series, or undefined"
+H4-difference LAU-HIP,secondary-ref,VALLADOLID,"count<10 in either series, or undefined"
+H4-difference LAU-HIP,secondary-ref,ZAMORA,"count<10 in either series, or undefined"
+H4-difference LAU-HIP,secondary-ref,ZARAGOZA,"count<10 in either series, or undefined"
+placebo H1a 2025Q1,placebo,CUENCA,count<10
+placebo H1a 2025Q1,placebo,SORIA,count<10
+placebo H1a 2025Q1,placebo,TERUEL,count<10
+placebo H1a 2025Q1,placebo,ZAMORA,count<10
+placebo H1a 2024Q1,placebo,ARABA/ALAVA,count<10
+placebo H1a 2024Q1,placebo,CUENCA,count<10
+placebo H1a 2024Q1,placebo,SEGOVIA,count<10
+placebo H1a 2024Q1,placebo,SORIA,count<10
+placebo H1a 2024Q1,placebo,TERUEL,count<10
+placebo H1a 2024Q1,placebo,ZAMORA,count<10
+placebo H1b 2024Q3,placebo,AVILA,count<10
+placebo H1b 2024Q3,placebo,CUENCA,count<10
+placebo H1b 2024Q3,placebo,SEGOVIA,count<10
+placebo H1b 2024Q3,placebo,SORIA,count<10
+placebo H1b 2024Q3,placebo,TERUEL,count<10
+placebo H1b 2024Q3,placebo,ZAMORA,count<10
+placebo H1b 2023Q3,placebo,AVILA,count<10
+placebo H1b 2023Q3,placebo,CUENCA,count<10
+placebo H1b 2023Q3,placebo,SEGOVIA,count<10
+placebo H1b 2023Q3,placebo,SORIA,count<10
+placebo H1b 2023Q3,placebo,TERUEL,count<10
+placebo H1b 2023Q3,placebo,ZAMORA,count<10
+NC-EH on H1a model,control,PALENCIA,count<10
+NC-EH on H1a model,control,SORIA,count<10
+NC-EH on H1a model,control,TERUEL,count<10
+NC-EH on H1b model,control,PALENCIA,count<10
+NC-EH on H1b model,control,SEGOVIA,count<10
+NC-EH on H1b model,control,SORIA,count<10
+NC-EH on H1b model,control,TERUEL,count<10
+NC-EH on H1b model,control,ZAMORA,count<10
+H1a S1 unweighted,sensitivity,AVILA,count<10
+H1a S1 unweighted,sensitivity,CACERES,count<10
+H1a S1 unweighted,sensitivity,CUENCA,count<10
+H1a S1 unweighted,sensitivity,OURENSE,count<10
+H1a S1 unweighted,sensitivity,SALAMANCA,count<10
+H1a S1 unweighted,sensitivity,SEGOVIA,count<10
+H1a S1 unweighted,sensitivity,SORIA,count<10
+H1a S1 unweighted,sensitivity,TERUEL,count<10
+H1a S1 unweighted,sensitivity,ZAMORA,count<10
+H1b S1 unweighted,sensitivity,CUENCA,count<10
+H1b S1 unweighted,sensitivity,SALAMANCA,count<10
+H1b S1 unweighted,sensitivity,SEGOVIA,count<10
+H1b S1 unweighted,sensitivity,SORIA,count<10
+H1b S1 unweighted,sensitivity,TERUEL,count<10
+H1b S1 unweighted,sensitivity,ZAMORA,count<10
+H1a S2 without Barcelona and Madrid,sensitivity,AVILA,count<10
+H1a S2 without Barcelona and Madrid,sensitivity,CACERES,count<10
+H1a S2 without Barcelona and Madrid,sensitivity,CUENCA,count<10
+H1a S2 without Barcelona and Madrid,sensitivity,OURENSE,count<10
+H1a S2 without Barcelona and Madrid,sensitivity,SALAMANCA,count<10
+H1a S2 without Barcelona and Madrid,sensitivity,SEGOVIA,count<10
+H1a S2 without Barcelona and Madrid,sensitivity,SORIA,count<10
+H1a S2 without Barcelona and Madrid,sensitivity,TERUEL,count<10
+H1a S2 without Barcelona and Madrid,sensitivity,ZAMORA,count<10
+H1b S2 without Barcelona and Madrid,sensitivity,CUENCA,count<10
+H1b S2 without Barcelona and Madrid,sensitivity,SALAMANCA,count<10
+H1b S2 without Barcelona and Madrid,sensitivity,SEGOVIA,count<10
+H1b S2 without Barcelona and Madrid,sensitivity,SORIA,count<10
+H1b S2 without Barcelona and Madrid,sensitivity,TERUEL,count<10
+H1b S2 without Barcelona and Madrid,sensitivity,ZAMORA,count<10
+H1a S3 without provinces with CGPJ-flagged districts,sensitivity,AVILA,count<10
+H1a S3 without provinces with CGPJ-flagged districts,sensitivity,CACERES,count<10
+H1a S3 without provinces with CGPJ-flagged districts,sensitivity,CUENCA,count<10
+H1a S3 without provinces with CGPJ-flagged districts,sensitivity,OURENSE,count<10
+H1a S3 without provinces with CGPJ-flagged districts,sensitivity,SALAMANCA,count<10
+H1a S3 without provinces with CGPJ-flagged districts,sensitivity,SEGOVIA,count<10
+H1a S3 without provinces with CGPJ-flagged districts,sensitivity,SORIA,count<10
+H1a S3 without provinces with CGPJ-flagged districts,sensitivity,TERUEL,count<10
+H1a S3 without provinces with CGPJ-flagged districts,sensitivity,ZAMORA,count<10
+H1b S3 without provinces with CGPJ-flagged districts,sensitivity,SALAMANCA,count<10
+H1b S3 without provinces with CGPJ-flagged districts,sensitivity,SEGOVIA,count<10
+H1b S3 without provinces with CGPJ-flagged districts,sensitivity,SORIA,count<10
+H1b S3 without provinces with CGPJ-flagged districts,sensitivity,TERUEL,count<10
+H1b S3 without provinces with CGPJ-flagged districts,sensitivity,ZAMORA,count<10
+H1a S4a impute Q1-2026 no-data districts,sensitivity,AVILA,count<10
+H1a S4a impute Q1-2026 no-data districts,sensitivity,CACERES,count<10
+H1a S4a impute Q1-2026 no-data districts,sensitivity,CUENCA,count<10
+H1a S4a impute Q1-2026 no-data districts,sensitivity,OURENSE,count<10
+H1a S4a impute Q1-2026 no-data districts,sensitivity,SALAMANCA,count<10
+H1a S4a impute Q1-2026 no-data districts,sensitivity,SEGOVIA,count<10
+H1a S4a impute Q1-2026 no-data districts,sensitivity,SORIA,count<10
+H1a S4a impute Q1-2026 no-data districts,sensitivity,TERUEL,count<10
+H1a S4a impute Q1-2026 no-data districts,sensitivity,ZAMORA,count<10
+H1b S4a impute Q1-2026 no-data districts,sensitivity,CUENCA,count<10
+H1b S4a impute Q1-2026 no-data districts,sensitivity,SALAMANCA,count<10
+H1b S4a impute Q1-2026 no-data districts,sensitivity,SEGOVIA,count<10
+H1b S4a impute Q1-2026 no-data districts,sensitivity,SORIA,count<10
+H1b S4a impute Q1-2026 no-data districts,sensitivity,TERUEL,count<10
+H1b S4a impute Q1-2026 no-data districts,sensitivity,ZAMORA,count<10
+H1a S4b also treat Q4-2025 partial districts as missing,sensitivity,AVILA,count<10
+H1a S4b also treat Q4-2025 partial districts as missing,sensitivity,CACERES,count<10
+H1a S4b also treat Q4-2025 partial districts as missing,sensitivity,CUENCA,count<10
+H1a S4b also treat Q4-2025 partial districts as missing,sensitivity,OURENSE,count<10
+H1a S4b also treat Q4-2025 partial districts as missing,sensitivity,SALAMANCA,count<10
+H1a S4b also treat Q4-2025 partial districts as missing,sensitivity,SEGOVIA,count<10
+H1a S4b also treat Q4-2025 partial districts as missing,sensitivity,SORIA,count<10
+H1a S4b also treat Q4-2025 partial districts as missing,sensitivity,TERUEL,count<10
+H1a S4b also treat Q4-2025 partial districts as missing,sensitivity,ZAMORA,count<10
+H1b S4b also treat Q4-2025 partial districts as missing,sensitivity,CUENCA,count<10
+H1b S4b also treat Q4-2025 partial districts as missing,sensitivity,SALAMANCA,count<10
+H1b S4b also treat Q4-2025 partial districts as missing,sensitivity,SEGOVIA,count<10
+H1b S4b also treat Q4-2025 partial districts as missing,sensitivity,SORIA,count<10
+H1b S4b also treat Q4-2025 partial districts as missing,sensitivity,TERUEL,count<10
+H1b S4b also treat Q4-2025 partial districts as missing,sensitivity,ZAMORA,count<10
+H1a S5 weights from 2024 only,sensitivity,AVILA,count<10
+H1a S5 weights from 2024 only,sensitivity,CACERES,count<10
+H1a S5 weights from 2024 only,sensitivity,CUENCA,count<10
+H1a S5 weights from 2024 only,sensitivity,OURENSE,count<10
+H1a S5 weights from 2024 only,sensitivity,SALAMANCA,count<10
+H1a S5 weights from 2024 only,sensitivity,SEGOVIA,count<10
+H1a S5 weights from 2024 only,sensitivity,SORIA,count<10
+H1a S5 weights from 2024 only,sensitivity,TERUEL,count<10
+H1a S5 weights from 2024 only,sensitivity,ZAMORA,count<10
+H1b S5 weights from 2024 only,sensitivity,CUENCA,count<10
+H1b S5 weights from 2024 only,sensitivity,SALAMANCA,count<10
+H1b S5 weights from 2024 only,sensitivity,SEGOVIA,count<10
+H1b S5 weights from 2024 only,sensitivity,SORIA,count<10
+H1b S5 weights from 2024 only,sensitivity,TERUEL,count<10
+H1b S5 weights from 2024 only,sensitivity,ZAMORA,count<10
+H1a S9 rent (P-LAU) as outcome,sensitivity,ALBACETE,count<10
+H1a S9 rent (P-LAU) as outcome,sensitivity,AVILA,count<10
+H1a S9 rent (P-LAU) as outcome,sensitivity,BADAJOZ,count<10
+H1a S9 rent (P-LAU) as outcome,sensitivity,BURGOS,count<10
+H1a S9 rent (P-LAU) as outcome,sensitivity,CACERES,count<10
+H1a S9 rent (P-LAU) as outcome,sensitivity,CUENCA,count<10
+H1a S9 rent (P-LAU) as outcome,sensitivity,LA RIOJA,count<10
+H1a S9 rent (P-LAU) as outcome,sensitivity,LAS PALMAS,count<10
+H1a S9 rent (P-LAU) as outcome,sensitivity,LEON,count<10
+H1a S9 rent (P-LAU) as outcome,sensitivity,OURENSE,count<10
+H1a S9 rent (P-LAU) as outcome,sensitivity,PALENCIA,count<10
+H1a S9 rent (P-LAU) as outcome,sensitivity,SALAMANCA,count<10
+H1a S9 rent (P-LAU) as outcome,sensitivity,SEGOVIA,count<10
+H1a S9 rent (P-LAU) as outcome,sensitivity,SORIA,count<10
+H1a S9 rent (P-LAU) as outcome,sensitivity,TERUEL,count<10
+H1a S9 rent (P-LAU) as outcome,sensitivity,ZAMORA,count<10
+H1b S9 rent (P-LAU) as outcome,sensitivity,AVILA,count<10
+H1b S9 rent (P-LAU) as outcome,sensitivity,CACERES,count<10
+H1b S9 rent (P-LAU) as outcome,sensitivity,CIUDAD REAL,count<10
+H1b S9 rent (P-LAU) as outcome,sensitivity,CUENCA,count<10
+H1b S9 rent (P-LAU) as outcome,sensitivity,PALENCIA,count<10
+H1b S9 rent (P-LAU) as outcome,sensitivity,SALAMANCA,count<10
+H1b S9 rent (P-LAU) as outcome,sensitivity,SEGOVIA,count<10
+H1b S9 rent (P-LAU) as outcome,sensitivity,SORIA,count<10
+H1b S9 rent (P-LAU) as outcome,sensitivity,TERUEL,count<10
+H1b S9 rent (P-LAU) as outcome,sensitivity,ZAMORA,count<10
+H1a S10 without Murcia (San Javier pilot),sensitivity,AVILA,count<10
+H1a S10 without Murcia (San Javier pilot),sensitivity,CACERES,count<10
+H1a S10 without Murcia (San Javier pilot),sensitivity,CUENCA,count<10
+H1a S10 without Murcia (San Javier pilot),sensitivity,OURENSE,count<10
+H1a S10 without Murcia (San Javier pilot),sensitivity,SALAMANCA,count<10
+H1a S10 without Murcia (San Javier pilot),sensitivity,SEGOVIA,count<10
+H1a S10 without Murcia (San Javier pilot),sensitivity,SORIA,count<10
+H1a S10 without Murcia (San Javier pilot),sensitivity,TERUEL,count<10
+H1a S10 without Murcia (San Javier pilot),sensitivity,ZAMORA,count<10
+H1b S10 without Murcia (San Javier pilot),sensitivity,CUENCA,count<10
+H1b S10 without Murcia (San Javier pilot),sensitivity,SALAMANCA,count<10
+H1b S10 without Murcia (San Javier pilot),sensitivity,SEGOVIA,count<10
+H1b S10 without Murcia (San Javier pilot),sensitivity,SORIA,count<10
+H1b S10 without Murcia (San Javier pilot),sensitivity,TERUEL,count<10
+H1b S10 without Murcia (San Javier pilot),sensitivity,ZAMORA,count<10

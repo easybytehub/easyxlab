@@ -1,0 +1,21 @@
+{
+  "registered_in": "PROTOCOL.md §7",
+  "quantity": "Δg_p(2026Q2) = [ln Y(2026Q2) − ln Y(2025Q2)] − [ln Y(2026Q1) − ln Y(2025Q1)], P-TOT, province series file of the Q2-2026 release",
+  "deviation": "Δg_p minus its B_2024-weighted mean over the provinces that pass the count rule",
+  "count_rule": "Y >= 10 in 2026Q2, 2026Q1, 2025Q2 and 2025Q1",
+  "readings": {
+    "pred_dev_transient": "rho_0 = -0.326841 (pooled model, §6.2), rho_k = 0 for k >= 1 (primary)",
+    "pred_dev_persistent": "rho_k = rho_0 for all k >= 0: no cross-province deviation (primary)",
+    "pred_dev_transient_h1a": "as transient, with rho_0 = exp(b3_H1a) − 1 = -0.707491 (descriptive)"
+  },
+  "test": "Δg_p(2026Q2) = a + b3'·W3 + b2'·W2 + u, weights B_2024, HC3, as H1a",
+  "b3_H1a": -1.2292612528528353,
+  "classification": {
+    "transient": "b3' > 0 with one-sided p <= 0.05",
+    "persistent": "upper bound of the 95% CI of b3' < −b3_H1a/2 = 0.614631",
+    "otherwise": "undetermined",
+    "read_only_if": "H1a supported (now: inconclusive)"
+  },
+  "scoring": "B_2024-weighted RMSE of predicted vs observed deviations, provinces passing the count rule",
+  "revision_check": "Q1-2026 in the Q2 release vs the locked vintage: national P-TOT ±5%; province ±10% and ±10"
+}
