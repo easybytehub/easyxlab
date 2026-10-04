@@ -1,0 +1,101 @@
+edition,region,places_mean,occupied_mean,centres,centres_imm
+2016,Spain,19124,16437,902,
+2016,Andalucía,1808,1530,108,
+2016,Aragón,975,813,66,
+2016,Asturias,911,752,35,
+2016,Balearic Islands,614,547,14,
+2016,Basque Country,2933,2372,244,
+2016,Canary Islands,659,610,24,
+2016,Cantabria,131,104,5,
+2016,Castilla y León,971,688,59,
+2016,Castilla-La Mancha,618,445,32,
+2016,Catalonia,1863,1731,61,
+2016,Ceuta,950,949,4,
+2016,Extremadura,164,148,10,
+2016,Galicia,950,798,60,
+2016,La Rioja,238,102,11,
+2016,Madrid,2415,2241,69,
+2016,Melilla,699,750,3,
+2016,Murcia,804,734,39,
+2016,Navarre,354,200,19,
+2016,Valencian Community,1070,927,39,
+2018,Spain,20219,18001,974,
+2018,Andalucía,2321,1936,137,
+2018,Aragón,731,561,53,
+2018,Asturias,983,744,37,
+2018,Balearic Islands,332,321,13,
+2018,Basque Country,3755,2979,276,
+2018,Canary Islands,727,708,24,
+2018,Cantabria,198,154,8,
+2018,Castilla y León,1246,996,74,
+2018,Castilla-La Mancha,549,405,27,
+2018,Catalonia,1753,1695,58,
+2018,Ceuta,583,631,3,
+2018,Extremadura,287,216,18,
+2018,Galicia,1304,1069,73,
+2018,La Rioja,189,128,11,
+2018,Madrid,2294,2118,63,
+2018,Melilla,546,1223,3,
+2018,Murcia,1098,1032,49,
+2018,Navarre,525,385,18,
+2018,Valencian Community,801,705,29,
+2020,Spain,20613,17772,1019,167
+2020,Andalucía,2123,1787,120,24
+2020,Aragón,600,454,38,2
+2020,Asturias,905,754,38,10
+2020,Balearic Islands,483,414,19,0
+2020,Basque Country,4260,3471,299,42
+2020,Canary Islands,641,538,29,1
+2020,Cantabria,95,73,8,1
+2020,Castilla y León,1541,1202,93,29
+2020,Castilla-La Mancha,407,348,27,9
+2020,Catalonia,2367,1896,61,4
+2020,Ceuta,330,323,2,1
+2020,Extremadura,340,299,20,3
+2020,Galicia,1163,906,90,5
+2020,La Rioja,272,158,11,2
+2020,Madrid,2459,2082,56,3
+2020,Melilla,834,1636,3,1
+2020,Murcia,642,495,55,23
+2020,Navarre,452,395,23,4
+2020,Valencian Community,703,547,27,3
+2022,Spain,26690,21684,1175,235
+2022,Andalucía,2464,2061,131,31
+2022,Aragón,1051,898,49,8
+2022,Asturias,1048,858,40,9
+2022,Balearic Islands,430,378,19,0
+2022,Basque Country,4313,3410,276,44
+2022,Canary Islands,2339,1582,68,5
+2022,Cantabria,366,213,9,1
+2022,Castilla y León,1964,1611,94,30
+2022,Castilla-La Mancha,687,600,29,14
+2022,Catalonia,2810,2628,93,5
+2022,Ceuta,525,421,2,1
+2022,Extremadura,355,329,18,2
+2022,Galicia,1092,833,102,24
+2022,La Rioja,288,165,11,1
+2022,Madrid,2989,2638,56,7
+2022,Melilla,840,199,4,1
+2022,Murcia,1117,955,93,34
+2022,Navarre,845,801,25,4
+2022,Valencian Community,1170,1109,56,14
+2024,Spain,39888,34145,1376,360
+2024,Andalucía,3029,2654,154,45
+2024,Aragón,1347,1171,50,13
+2024,Asturias,1073,973,43,12
+2024,Balearic Islands,844,787,25,0
+2024,Basque Country,5242,4230,281,42
+2024,Canary Islands,4855,3847,74,5
+2024,Cantabria,213,175,9,2
+2024,Castilla y León,2193,1825,114,49
+2024,Castilla-La Mancha,1397,1277,52,33
+2024,Catalonia,5305,4447,189,48
+2024,Ceuta,525,491,2,1
+2024,Extremadura,1291,1218,18,5
+2024,Galicia,1649,1410,113,28
+2024,La Rioja,275,186,10,3
+2024,Madrid,4919,4407,81,10
+2024,Melilla,932,784,6,1
+2024,Murcia,2702,2354,78,38
+2024,Navarre,790,692,18,4
+2024,Valencian Community,1312,1222,59,21

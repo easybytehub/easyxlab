@@ -1,0 +1,41 @@
+date,source,query,n_results,relevant,notes
+2026-10-04,OpenAlex,golden visa housing,5150,1,Pereira dos Santos & Strohmaier 2024; Foremny et al. 2025 (via title search)
+2026-10-04,OpenAlex,golden visa Portugal house prices,1224,1,Pereira dos Santos & Strohmaier 2024
+2026-10-04,OpenAlex,residence by investment real estate,64432,1,Surak & Tsuzuki 2021
+2026-10-04,OpenAlex,golden visa Spain,6126,1,Holleran 2019; SAGE case 2024
+2026-10-04,OpenAlex,investor residence schemes European Union,36173,1,Surak 2020
+2026-10-04,OpenAlex,foreign buyers Spain housing,11318,1,BdE 2020 (Boletín Económico 2/2020)
+2026-10-04,OpenAlex,visado residencia inversores vivienda,188,1,legal commentary only
+2026-10-04,OpenAlex,golden visa vivienda España,61,1,Antràs Porta 2025 (Esade Law Review); Galán Azofra 2025
+2026-10-04,OpenAlex,autorização de residência para investimento habitação,2494,0,none with data on the 2023 end
+2026-10-04,OpenAlex,vistos gold imobiliário,298,1,sociology of Chinese ARI migrants
+2026-10-04,OpenAlex,non-resident buyers housing market,33628,1,Paris non-resident demand 2015 (background)
+2026-10-04,OpenAlex,inversión extranjera mercado inmobiliario residencial español,515,1,BdE 2020
+2026-10-04,OpenAlex,golden visa abolition housing market effect,353,0,none on Spain 2025
+2026-10-04,OpenAlex,Mais Habitação golden visa,284,0,none with data
+2026-10-04,OpenAlex,title.search: golden visas real estate,4,1,"Foremny, Li, Martínez-Toledano & Segú 2025"
+2026-10-04,OpenAlex,title.search: all that glitters golden visas,1,1,Pereira dos Santos & Strohmaier 2024
+2026-10-04,OpenAlex,title.search: golden visa,87,1,87 titles screened
+2026-10-04,OpenAlex,Banco de España (source) + vivienda,129,1,DO 2433 (2024)
+2026-10-04,OpenAlex,Banco de España (source) + housing,140,0,
+2026-10-04,OpenAlex,Banco de España (source) + inmobiliario,69,0,
+2026-10-04,OpenAlex,Banco de España (source) + extranjeros,57,1,BE 2025 foreign population and GDP (background)
+2026-10-04,OpenAlex,Banco de España (source) + non-resident,60,0,
+2026-10-04,OpenAlex,European Getaway golden visas,113,1,TI/Global Witness report not indexed
+2026-10-04,OpenAlex,investor citizenship and residence schemes European Union Commission report,,1,commentaries on COM(2019) 12
+2026-10-04,OpenAlex,Oxfam golden visa Spain,72,0,none
+2026-10-04,OpenAlex,golden visa money laundering Transparency International,,0,none on Spain housing
+2026-10-04,Crossref,works/10.2139/ssrn.5347820,1,1,abstract read (none for Housing Studies 2026)
+2026-10-04,Crossref,works/10.2139/ssrn.5276559,1,1,abstract read (none for Housing Studies 2026)
+2026-10-04,Crossref,works/10.2139/ssrn.4761334,1,1,abstract read (none for Housing Studies 2026)
+2026-10-04,Crossref,works/10.1080/02673037.2026.2724837,1,1,abstract read (none for Housing Studies 2026)
+2026-10-04,Banco de España,"sitemap.xml, sitemap_html_es.xml, sitemap_files.xml (grep: golden, visad, no residentes, extranjer, foreign)",,1,BE 2/2020 art. 14 and DO 2433 read; Informe Anual 2023 cap. 4 failed; repositorio.bde.es unreachable robots.txt (skipped)
+2026-10-04,GDELT DOC 2.0,"""golden visa"" sourcecountry:spain",HTTP 429,0,rate-limited
+2026-10-04,GDELT DOC 2.0,"""del 100%"" extranjeros vivienda sourcecountry:spain",HTTP 429,0,rate-limited
+2026-10-04,El País,/noticias/golden-visa/,HTTP 403,0,blocked our User-Agent; not bypassed
+2026-10-04,elDiario.es,/temas/golden-visa/,HTTP 404,0,
+2026-10-04,elEconomista,/tags/golden-visa,HTTP 403,0,blocked; not bypassed
+2026-10-04,idealista/news,/news/etiquetas/golden-visa,36,1,legislative timeline; permits Jan-Oct 2024 (parliamentary answer via Europa Press); no post-repeal purchase figures
+2026-10-04,Transparency International,/en/publications/european-getaway-inside-the-murky-world-of-golden-visas,HTTP 403,0,"redirected to /golden-visas, blocked; not bypassed"
+2026-10-04,EUR-Lex,COM(2019) 12 final,1,1,background; no Spanish housing figures in the communication
+2026-10-04,WebSearch,(session budget exhausted: 200/200),,0,no open web search was possible

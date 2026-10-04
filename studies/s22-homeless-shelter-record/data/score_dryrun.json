@@ -1,0 +1,14 @@
+{
+ "q1": 0.04564656270791571,
+ "q1_oth": 0.07630838390177573,
+ "q2_pp": 1.1404433782129075,
+ "P3": "A",
+ "delta_imm_occupied": 10128.0,
+ "delta_imm_places": 10696.0,
+ "delta_core_occupied": 2334.0,
+ "P4": "A on both",
+ "reception_change_pct": 43.126711726425285,
+ "reading_B_falsified": true,
+ "reading_A_falsified": false,
+ "verdict": "A supported"
+}

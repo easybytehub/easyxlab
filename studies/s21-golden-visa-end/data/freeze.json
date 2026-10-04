@@ -1,0 +1,13 @@
+{
+ "plan_file": "METHOD.md",
+ "plan_block": "text between the markers <!-- FROZEN-PLAN:BEGIN --> and <!-- FROZEN-PLAN:END -->, markers excluded, UTF-8",
+ "plan_sha256": "3f0e6b4c7f756155bf2e42f93929fc02e7845334a59e9e2a5b6e34dae7d15914",
+ "plan_frozen_at_utc": "2026-10-04T19:09:48Z",
+ "predictions_md_first_commit": "204bcf6",
+ "frozen_csv": "data/predictions_2026Q3_frozen.csv",
+ "frozen_csv_sha256": "9f9d6afad07e7dce0dba31f0ff7eb34bac9942b1dd83eb1589acc922b5d6e68a",
+ "target_quarter": "2026Q3",
+ "release": "2026-12-16 (PEN 2026 calendar, operation 9198)",
+ "tests_revised_on": "2026-10-04, after the independent review; see PREDICTIONS.md, «Deviations»",
+ "verify": "python3 scripts/check_headlines.py (recomputes both hashes)"
+}

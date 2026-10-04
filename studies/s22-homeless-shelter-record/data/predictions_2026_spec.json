@@ -1,0 +1,92 @@
+{
+ "registered_in": "PROTOCOL.md §5, before INE publishes ECAPSH 2026 (expected September 2027)",
+ "baseline_2024": {
+  "core_segments": [
+   "GBV",
+   "OTH"
+  ],
+  "core_occupied_mean": 15973.0,
+  "core_accommodation_centres": 753.0,
+  "core_places_mean": 18591.0,
+  "core_occupied_per_centre": 21.212483399734396,
+  "core_occupancy_pct": 85.91791727179819,
+  "imm_occupied_mean": 18173.0,
+  "imm_places_mean": 21298.0,
+  "total_occupied_mean": 34145.0,
+  "reception_places_dec2024": 56963.0
+ },
+ "in_sample_2022_2024": {
+  "core_per_centre_log_change": 0.04564656270791571,
+  "core_occupancy_pp_change": 1.1404433782129075,
+  "abs_imm_change": 10128.0,
+  "abs_core_change": 2334.0
+ },
+ "P1_core_per_centre_log_change": {
+  "A": [
+   -0.1,
+   0.1
+  ],
+  "B": [
+   ">",
+   0.1
+  ],
+  "A_bounds_occupied_per_centre": [
+   19.19,
+   23.44
+  ]
+ },
+ "P2_core_occupancy_pp_change": {
+  "A": [
+   -4.0,
+   4.0
+  ],
+  "B": [
+   ">",
+   4.0
+  ],
+  "A_bounds_pct": [
+   81.9,
+   89.9
+  ]
+ },
+ "P3_driver": {
+  "A": "|ΔIMM occupied| > |Δcore occupied|",
+  "B": "|Δcore occupied| >= |ΔIMM occupied|"
+ },
+ "P4_imm_vs_reception": {
+  "A": "sign(ΔIMM occupied) = sign(Δ reception places, Dec-2024 -> Dec-2026), scored only if |Δ reception| >= 10%",
+  "B": "no prediction"
+ },
+ "deviation_D1_2026_10_04": {
+  "note": "PROTOCOL.md §12, D1. Clarifies scoring; the registered intervals above are unchanged.",
+  "oth_baseline_2024": {
+   "occupied_mean": 14932.0,
+   "accommodation_centres": 653.0,
+   "places_mean": 17055.0,
+   "occupied_per_centre": 22.866768759571208,
+   "occupancy_pct": 87.5520375256523
+  },
+  "P1_oth_only_bounds_occupied_per_centre": [
+   20.69,
+   25.27
+  ],
+  "q1": "ln(o_core,2026 / o_core,2024), o = occupied per centre offering accommodation, core = GBV+OTH",
+  "q1_oth": "the same with core = OTH only",
+  "q2": "core occupancy 2026 minus 2024, percentage points (occupied adults / all places)",
+  "per_centre_pressure": "q1 > +0.10 AND q1_oth > +0.10 AND q2 > +4",
+  "no_per_centre_pressure": "|q1| <= 0.10 AND |q1_oth| <= 0.10 AND |q2| <= 4",
+  "reading_B_falsified_iff": "no_per_centre_pressure",
+  "reading_A_falsified_iff": "per_centre_pressure OR (P4 scored AND P4 sign mismatch, on occupied and on places)",
+  "verdicts": {
+   "B supported (per-centre pressure in the core)": "per_centre_pressure (P4 reported alongside)",
+   "A supported": "no_per_centre_pressure AND P4 scored AND P4 = A on both occupied and places",
+   "no per-centre pressure; A and growth through new centres not separable": "no_per_centre_pressure AND (P4 not scored OR P4 mixed)",
+   "A rejected on P4; no per-centre pressure": "no_per_centre_pressure AND P4 = mismatch on both",
+   "undetermined": "any other combination (stated, with the values)"
+  },
+  "P3": "reported, not used in the verdict",
+  "P4_places_variant": "sign(ΔIMM places) against the same reception change; reported with P4",
+  "classification_break": "if INE changes the specialisation item, the ETHOS-based scope, the adults-only rule or the reference dates, all values are reported and the verdict is 'not scored (classification break)'",
+  "reception_places_dec2024": 56963.0
+ }
+}

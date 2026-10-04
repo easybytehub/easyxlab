@@ -1,0 +1,4 @@
+edition,places_december,places_mean,imm_places_mean,coverage_december_pct,coverage_mean_pct,coverage_mean_without_imm_pct
+2020,20191.0,20613.0,5420.0,70.7166,72.1946,53.2117
+2022,28026.0,26690.0,10602.0,98.1577,93.4786,56.3463
+2024,42274.0,39888.0,21298.0,148.0597,139.703,65.1093

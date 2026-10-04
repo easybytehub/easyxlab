@@ -1,0 +1,10 @@
+series,source,note
+asylum_applicants_total / _first,"Eurostat migr_asyappctza (geo=ES, citizen=TOTAL), updated 2026-09-03T11:00:00+0200",persons; first-time = FRST
+sapi_places / humanitarian_places,https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/inclusion/Documents/2025/200625-Informe-Sistema-Proteccion-Internacional-Espanol-jun25.pdf,Gráficos 1 y 2; year-end except 2025 = 15 June 2025
+arrivals 2019,"AIDA (ECRE) country report Spain, citing the Ministry of the Interior","AIDA ES 2020 update: «compared to 2019 (32,449 arrivals)»"
+arrivals 2020,"AIDA (ECRE) country report Spain, citing the Ministry of the Interior","AIDA ES 2020 update: «a total of 41,861 persons arrived in Spain in 2020»"
+arrivals 2021,"AIDA (ECRE) country report Spain, citing the Ministry of the Interior","AIDA ES 2021 update: «a total of 41,945 persons arrived in Spain by land and sea in 2021»"
+arrivals 2022,"AIDA (ECRE) country report Spain, citing the Ministry of the Interior","AIDA ES 2022 update: «In 2022, 31,219 migrants arrived to Spain by land and sea»"
+arrivals 2023,"AIDA (ECRE) country report Spain, citing the Ministry of the Interior","AIDA ES 2023 update: «In 2023, 56,852 migrants arrived to Spain by land and sea» … «39,910 persons arrived by sea on the archipelago»"
+arrivals 2024,"AIDA (ECRE) country report Spain, citing the Ministry of the Interior","AIDA ES 2024 update: «In 2024, 63,970 migrants arrived in Spain by land and sea» … «46,843 persons arrived by sea on the archipelago» (the 2025 update revises 2024 to 64,019)"
+arrivals 2025,"AIDA (ECRE) country report Spain, citing the Ministry of the Interior","AIDA ES 2025 update: «In 2025, 36,775 migrants arrived in Spain by land and sea» … «the Canary Islands, with 17,788 persons reaching the archipelago by sea»"

@@ -1,0 +1,13 @@
+# v7-2025d · COM(2025) 794 · proposed 2025-12-17 · CELEX 52025PC0794
+
+## C2.I2 — Programme to support the construction of social rental housing in energy-efficient buildings
+
+The objective of this measure is to support energy-efficient social rental dwellings. The measure consists in providing dwellings under the Programme to support the construction of social rental housing in energy-efficient buildings (Programa de ayuda a la construcción de viviendas en alquiler social en edificios energéticamente eficientes). Each construction of a dwelling under this measure may also receive complementary support from the ICO Loan Facility for the Promotion of Social Housing (C2.I7) to the extent that it does not cover the same costs.
+
+### 30 (M) Entry into force of the Royal Decree on the definition of the regulatory framework for the implementation of the programme on energy efficient social rental dwellings compliant with energy efficient criteria
+
+30 | C2.I2 | M | Entry into force of the Royal Decree on the definition of the regulatory framework for the implementation of the programme on energy efficient social rental dwellings compliant with energy efficient criteria | Provision in the Royal Decree on the entry into force |  |  |  | Q3 | 2021 | Adoption of the Royal Decree defining the regulatory framework for the implementation of the Programme on energy efficient social rental dwellings compliant with energy efficient criteria. The Royal Decree shall set out the technical requirements to ensure in the construction of buildings the objective of achieving a primary energy demand at least 20 % lower than the nearly zero-energy buildings requirement according to national guidelines. To this end, a requirement shall be to limit the value of non-renewable primary energy consumption to 80 % of the limit set in section HE 0 of the Basic Energy Saving Document (DB-HE) of the Technical Building Code (CTE). The Sectoral Conference on Housing shall be held and the public information phase and other legal procedures shall be completed before finalisation of the Royal Decree.
+
+### 31 (T) Provision of dwellings
+
+31 | C2.I2 | T | Provision of dwellings |  | Number | 0 | 17 365 | Q2 | 2026 | Provision of a total of 17 365 dwellings under the Programme to support the construction of social rental housing in energy-efficient buildings (Programa de ayuda a la construcción de viviendas en alquiler social en edificios energéticamente eficientes).

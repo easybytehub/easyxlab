@@ -1,0 +1,161 @@
+edition,region,date,indicator,value
+2022,Spain,15 de junio,places,25353
+2022,Spain,15 de diciembre,places,28026
+2022,Spain,15 de junio,occupied,21057
+2022,Spain,15 de diciembre,occupied,22310
+2022,Andalucía,15 de junio,places,2256
+2022,Andalucía,15 de diciembre,places,2672
+2022,Andalucía,15 de junio,occupied,1865
+2022,Andalucía,15 de diciembre,occupied,2256
+2022,Aragón,15 de junio,places,959
+2022,Aragón,15 de diciembre,places,1143
+2022,Aragón,15 de junio,occupied,852
+2022,Aragón,15 de diciembre,occupied,943
+2022,Asturias,15 de junio,places,986
+2022,Asturias,15 de diciembre,places,1109
+2022,Asturias,15 de junio,occupied,805
+2022,Asturias,15 de diciembre,occupied,910
+2022,Balearic Islands,15 de junio,places,428
+2022,Balearic Islands,15 de diciembre,places,431
+2022,Balearic Islands,15 de junio,occupied,382
+2022,Balearic Islands,15 de diciembre,occupied,373
+2022,Canary Islands,15 de junio,places,1824
+2022,Canary Islands,15 de diciembre,places,2854
+2022,Canary Islands,15 de junio,occupied,1598
+2022,Canary Islands,15 de diciembre,occupied,1565
+2022,Cantabria,15 de junio,places,377
+2022,Cantabria,15 de diciembre,places,355
+2022,Cantabria,15 de junio,occupied,221
+2022,Cantabria,15 de diciembre,occupied,205
+2022,Castilla y León,15 de junio,places,1951
+2022,Castilla y León,15 de diciembre,places,1977
+2022,Castilla y León,15 de junio,occupied,1577
+2022,Castilla y León,15 de diciembre,occupied,1644
+2022,Castilla-La Mancha,15 de junio,places,735
+2022,Castilla-La Mancha,15 de diciembre,places,638
+2022,Castilla-La Mancha,15 de junio,occupied,643
+2022,Castilla-La Mancha,15 de diciembre,occupied,556
+2022,Catalonia,15 de junio,places,2648
+2022,Catalonia,15 de diciembre,places,2972
+2022,Catalonia,15 de junio,occupied,2460
+2022,Catalonia,15 de diciembre,occupied,2796
+2022,Valencian Community,15 de junio,places,1123
+2022,Valencian Community,15 de diciembre,places,1216
+2022,Valencian Community,15 de junio,occupied,1069
+2022,Valencian Community,15 de diciembre,occupied,1149
+2022,Extremadura,15 de junio,places,336
+2022,Extremadura,15 de diciembre,places,373
+2022,Extremadura,15 de junio,occupied,309
+2022,Extremadura,15 de diciembre,occupied,348
+2022,Galicia,15 de junio,places,1102
+2022,Galicia,15 de diciembre,places,1082
+2022,Galicia,15 de junio,occupied,827
+2022,Galicia,15 de diciembre,occupied,839
+2022,Madrid,15 de junio,places,2831
+2022,Madrid,15 de diciembre,places,3147
+2022,Madrid,15 de junio,occupied,2471
+2022,Madrid,15 de diciembre,occupied,2804
+2022,Murcia,15 de junio,places,1067
+2022,Murcia,15 de diciembre,places,1167
+2022,Murcia,15 de junio,occupied,899
+2022,Murcia,15 de diciembre,occupied,1011
+2022,Navarre,15 de junio,places,859
+2022,Navarre,15 de diciembre,places,831
+2022,Navarre,15 de junio,occupied,815
+2022,Navarre,15 de diciembre,occupied,787
+2022,Basque Country,15 de junio,places,4217
+2022,Basque Country,15 de diciembre,places,4408
+2022,Basque Country,15 de junio,occupied,3346
+2022,Basque Country,15 de diciembre,occupied,3473
+2022,La Rioja,15 de junio,places,288
+2022,La Rioja,15 de diciembre,places,288
+2022,La Rioja,15 de junio,occupied,157
+2022,La Rioja,15 de diciembre,occupied,172
+2022,Ceuta,15 de junio,places,525
+2022,Ceuta,15 de diciembre,places,525
+2022,Ceuta,15 de junio,occupied,398
+2022,Ceuta,15 de diciembre,occupied,444
+2022,Melilla,15 de junio,places,841
+2022,Melilla,15 de diciembre,places,838
+2022,Melilla,15 de junio,occupied,363
+2022,Melilla,15 de diciembre,occupied,35
+2024,Spain,14 de junio,places,37501
+2024,Spain,16 de diciembre,places,42274
+2024,Spain,14 de junio,occupied,31294
+2024,Spain,16 de diciembre,occupied,36996
+2024,Andalucía,14 de junio,places,2591
+2024,Andalucía,16 de diciembre,places,3466
+2024,Andalucía,14 de junio,occupied,2230
+2024,Andalucía,16 de diciembre,occupied,3078
+2024,Aragón,14 de junio,places,1270
+2024,Aragón,16 de diciembre,places,1423
+2024,Aragón,14 de junio,occupied,1105
+2024,Aragón,16 de diciembre,occupied,1236
+2024,Asturias,14 de junio,places,1066
+2024,Asturias,16 de diciembre,places,1079
+2024,Asturias,14 de junio,occupied,969
+2024,Asturias,16 de diciembre,occupied,977
+2024,Balearic Islands,14 de junio,places,850
+2024,Balearic Islands,16 de diciembre,places,838
+2024,Balearic Islands,14 de junio,occupied,804
+2024,Balearic Islands,16 de diciembre,occupied,769
+2024,Canary Islands,14 de junio,places,4163
+2024,Canary Islands,16 de diciembre,places,5546
+2024,Canary Islands,14 de junio,occupied,2692
+2024,Canary Islands,16 de diciembre,occupied,5001
+2024,Cantabria,14 de junio,places,216
+2024,Cantabria,16 de diciembre,places,209
+2024,Cantabria,14 de junio,occupied,177
+2024,Cantabria,16 de diciembre,occupied,172
+2024,Castilla y León,14 de junio,places,2053
+2024,Castilla y León,16 de diciembre,places,2332
+2024,Castilla y León,14 de junio,occupied,1713
+2024,Castilla y León,16 de diciembre,occupied,1937
+2024,Castilla-La Mancha,14 de junio,places,1383
+2024,Castilla-La Mancha,16 de diciembre,places,1411
+2024,Castilla-La Mancha,14 de junio,occupied,1268
+2024,Castilla-La Mancha,16 de diciembre,occupied,1286
+2024,Catalonia,14 de junio,places,5002
+2024,Catalonia,16 de diciembre,places,5607
+2024,Catalonia,14 de junio,occupied,4168
+2024,Catalonia,16 de diciembre,occupied,4726
+2024,Valencian Community,14 de junio,places,1261
+2024,Valencian Community,16 de diciembre,places,1362
+2024,Valencian Community,14 de junio,occupied,1172
+2024,Valencian Community,16 de diciembre,occupied,1272
+2024,Extremadura,14 de junio,places,1244
+2024,Extremadura,16 de diciembre,places,1338
+2024,Extremadura,14 de junio,occupied,1164
+2024,Extremadura,16 de diciembre,occupied,1272
+2024,Galicia,14 de junio,places,1500
+2024,Galicia,16 de diciembre,places,1797
+2024,Galicia,14 de junio,occupied,1243
+2024,Galicia,16 de diciembre,occupied,1576
+2024,Madrid,14 de junio,places,4739
+2024,Madrid,16 de diciembre,places,5099
+2024,Madrid,14 de junio,occupied,4198
+2024,Madrid,16 de diciembre,occupied,4616
+2024,Murcia,14 de junio,places,2540
+2024,Murcia,16 de diciembre,places,2864
+2024,Murcia,14 de junio,occupied,2272
+2024,Murcia,16 de diciembre,occupied,2435
+2024,Navarre,14 de junio,places,783
+2024,Navarre,16 de diciembre,places,796
+2024,Navarre,14 de junio,occupied,687
+2024,Navarre,16 de diciembre,occupied,696
+2024,Basque Country,14 de junio,places,5122
+2024,Basque Country,16 de diciembre,places,5361
+2024,Basque Country,14 de junio,occupied,4164
+2024,Basque Country,16 de diciembre,occupied,4296
+2024,La Rioja,14 de junio,places,261
+2024,La Rioja,16 de diciembre,places,289
+2024,La Rioja,14 de junio,occupied,149
+2024,La Rioja,16 de diciembre,occupied,222
+2024,Ceuta,14 de junio,places,525
+2024,Ceuta,16 de diciembre,places,525
+2024,Ceuta,14 de junio,occupied,548
+2024,Ceuta,16 de diciembre,occupied,433
+2024,Melilla,14 de junio,places,932
+2024,Melilla,16 de diciembre,places,932
+2024,Melilla,14 de junio,occupied,571
+2024,Melilla,16 de diciembre,occupied,996

@@ -1,0 +1,8 @@
+edition,centres,accommodation_centres,places_mean,occupied_mean,occupancy_pct,occupied_scope,response_rate_pct,response_rate_source
+2012,736,604,15638,13991,89.5,all ages,,
+2014,794,619,16684,13645,81.8,all ages,,
+2016,902,691,19124,16437,85.9,all ages,,
+2018,974,742,20219,18001,89.0,all ages,77.8,"INE, nota de prensa ECAPSH 2018: «obteniéndose un nivel de respuesta del 77,8%»"
+2020,1019,792,20613,17772,86.2,all ages,79.5,"INE, nota de prensa ECAPSH 2020: «obteniéndose un nivel de respuesta del 79,5%»"
+2022,1175,914,26690,21684,81.2,18+,,
+2024,1376,1120,39888,34145,85.6,18+,80.0,"INE, metodología/nota 2024: «nivel de respuesta del 80,0 %»; IME: «la tasa de respuesta fue el 79,9%»"

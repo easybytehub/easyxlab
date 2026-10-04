@@ -1,0 +1,15 @@
+measure,number,m_or_t,due,goal,status,instalment,loans_grants,disbursement_dates,cid_versions_with_same_text,scoreboard_last_refresh
+C2.R3,22,milestone,2022-Q3,-,Fulfilled,4,Grants,26/07/2024,v0-2021;v1-2023;v2-2024a;v3-2024b;v4-2025a;v5-2025b;v6-2025c;v7-2025d;v8-2026a;v9-2026b,04/10/2026
+C2.I2,30,milestone,2021-Q3,-,Fulfilled,2,Grants,29/07/2022,v0-2021;v1-2023;v2-2024a;v3-2024b;v4-2025a;v5-2025b;v6-2025c;v7-2025d;v8-2026a;v9-2026b,04/10/2026
+C2.I2,31,target,2026-Q2,15718,Not Assessed,7,Grants,,v9-2026b,04/10/2026
+C2.R7,L2a,milestone,2025-Q4,-,Fulfilled,3,Loans,11/08/2026,v7-2025d;v8-2026a;v9-2026b,04/10/2026
+C2.R7,L3,milestone,2025-Q4,-,Fulfilled,3,Loans,11/08/2026,v7-2025d;v8-2026a;v9-2026b,04/10/2026
+C2.I7,L4,milestone,2023-Q4,-,Fulfilled,2,Loans,08/08/2025,v1-2023;v2-2024a;v3-2024b;v4-2025a;v5-2025b;v6-2025c;v7-2025d;v8-2026a;v9-2026b,04/10/2026
+C2.I7,L6,milestone,2026-Q2,-,Not Assessed,4,Loans,,v9-2026b,04/10/2026
+C13.I13,L51,milestone,2023-Q2,-,Fulfilled,1,Loans,08/08/2025,,04/10/2026
+C13.I13,L52,target,2025-Q2,100,Fulfilled,3,Loans,11/08/2026,v1-2023;v2-2024a;v3-2024b;v4-2025a;v5-2025b;v6-2025c;v7-2025d;v8-2026a;v9-2026b,04/10/2026
+C13.I13,L53,milestone,2025-Q4,-,Fulfilled,2,Loans,08/08/2025,v3-2024b;v4-2025a;v5-2025b;v6-2025c;v7-2025d;v8-2026a;v9-2026b,04/10/2026
+C13.I13,L57,target,2026-Q2,100,Not Assessed,4,Loans,,v9-2026b,04/10/2026
+C13.I13,L59,milestone,2026-Q2,-,Not Assessed,4,Loans,,v9-2026b,04/10/2026
+C13.I13,L62,milestone,2026-Q2,-,Not Assessed,4,Loans,,v9-2026b,04/10/2026
+C13.I13,L60,milestone,2026-Q2,-,Not Assessed,4,Loans,,v9-2026b,04/10/2026

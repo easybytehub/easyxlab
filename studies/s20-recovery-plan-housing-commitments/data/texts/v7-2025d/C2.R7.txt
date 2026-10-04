@@ -1,0 +1,13 @@
+# v7-2025d · COM(2025) 794 · proposed 2025-12-17 · CELEX 52025PC0794
+
+## C2.R7 — Accessibility of housing
+
+The objective of this measure is to enhance the accessibility and affordability of housing. The measure consists in the entry into force of a legal act to update the Statute of the Entidad Pública Empresarial de Suelo (SEPES), and in the publication of the Guide to recommendations and best practices for urban planning licences in the residential sector (Guía de recomendaciones y buenas prácticas en materia de licencias urbanísticas en el ámbito residencial).
+
+### L2a (M) Entry into force of a legal act to update the Statute of the Entidad Pública Empresarial de Suelo (SEPES)
+
+L2a | C2.R7 | M | Entry into force of a legal act to update the Statute of the Entidad Pública Empresarial de Suelo (SEPES) | Entry into force of a legal act |  |  |  | Q4 | 2025 | A legal act shall have entered into force to update the Statute of the Entidad Pública Empresarial de Suelo (SEPES).
+
+### L3 (M) Publication of the Guide to recommendations and best practices for urban planning licences in the residential sector (Guía de recomendaciones y buenas prácticas en materia de licencias urbanísticas en el ámbito residencial)
+
+L3 | C2.R7 | M | Publication of the Guide to recommendations and best practices for urban planning licences in the residential sector (Guía de recomendaciones y buenas prácticas en materia de licencias urbanísticas en el ámbito residencial) | Publication online |  |  |  | Q4 | 2025 | Publication of the Guide to recommendations and best practices for urban planning licences in the residential sector (Guía de recomendaciones y buenas prácticas en materia de licencias urbanísticas en el ámbito residencial).

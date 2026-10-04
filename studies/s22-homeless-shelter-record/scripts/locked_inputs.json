@@ -1,0 +1,272 @@
+[
+ {
+  "local": "ine2012/9711.csv",
+  "url": "https://www.ine.es/jaxi/files/tpx/es/csv_bdsc/9711.csv",
+  "sha256": "7d30087b5cc47068f0b0d06d074ae27f662d15f3bf1170af917c9b861b09a27d"
+ },
+ {
+  "local": "ine2012/9737.csv",
+  "url": "https://www.ine.es/jaxi/files/tpx/es/csv_bdsc/9737.csv",
+  "sha256": "536b593bc34b94d46e2eff41e0cc5e2eddba7bd623f88b7972b7955675789f98"
+ },
+ {
+  "local": "ine2012/9743.csv",
+  "url": "https://www.ine.es/jaxi/files/tpx/es/csv_bdsc/9743.csv",
+  "sha256": "4cd1996a794695110c4112abd411e6792c6d537e37b98dcea6fcba038e2b531d"
+ },
+ {
+  "local": "ine2014/14037.csv",
+  "url": "https://www.ine.es/jaxi/files/tpx/es/csv_bdsc/14037.csv",
+  "sha256": "abc196fa36fd341f7ba5d82c08a0dd4fd87aee0366d5b095ef58d589dc6679ba"
+ },
+ {
+  "local": "ine2014/14038.csv",
+  "url": "https://www.ine.es/jaxi/files/tpx/es/csv_bdsc/14038.csv",
+  "sha256": "42aa6d9524a6f3f06a413d71ed6ca38040b108acc3feafc4b2f5fb0b01476651"
+ },
+ {
+  "local": "ine2014/14047.csv",
+  "url": "https://www.ine.es/jaxi/files/tpx/es/csv_bdsc/14047.csv",
+  "sha256": "25b9f2f0482f4b9a74f2dc5e5748f4ca46d0cf797391dfa8427d166a379a0c4e"
+ },
+ {
+  "local": "ine2014/14049.csv",
+  "url": "https://www.ine.es/jaxi/files/tpx/es/csv_bdsc/14049.csv",
+  "sha256": "073bbd692ee1fa6f2a4bf3af84ee4320991ae2a4cd7a9ef54e7218db63a265bb"
+ },
+ {
+  "local": "ine2016/25818.csv",
+  "url": "https://www.ine.es/jaxi/files/tpx/es/csv_bdsc/25818.csv",
+  "sha256": "a0113b5a28d6416cc274ef567c0f6678c0cd748e2e5d826773c43f857526e120"
+ },
+ {
+  "local": "ine2016/25819.csv",
+  "url": "https://www.ine.es/jaxi/files/tpx/es/csv_bdsc/25819.csv",
+  "sha256": "ccc29f76bacfb32391077496b5be66c79325b3cec62b8c8b0fbc989aacd4595f"
+ },
+ {
+  "local": "ine2016/25828.csv",
+  "url": "https://www.ine.es/jaxi/files/tpx/es/csv_bdsc/25828.csv",
+  "sha256": "249a82753d359975e1c333817809685964afd6eac56f9595c56fb3b1fcb3ee57"
+ },
+ {
+  "local": "ine2016/25829.csv",
+  "url": "https://www.ine.es/jaxi/files/tpx/es/csv_bdsc/25829.csv",
+  "sha256": "bf3307b08635700ddf43c862867676325ef18938b17b904b0af196a2cdd01dbc"
+ },
+ {
+  "local": "ine2016/25830.csv",
+  "url": "https://www.ine.es/jaxi/files/tpx/es/csv_bdsc/25830.csv",
+  "sha256": "e972ee63ae0ebefd63e782391fe7ba9761f5979e885d02f217e732a9484df767"
+ },
+ {
+  "local": "ine2016/25846.csv",
+  "url": "https://www.ine.es/jaxi/files/tpx/es/csv_bdsc/25846.csv",
+  "sha256": "ddc2f3cef1da668157327be77b55cbee34dd6d99428ff1fad845d138c2368cf1"
+ },
+ {
+  "local": "ine2016/25859.csv",
+  "url": "https://www.ine.es/jaxi/files/tpx/es/csv_bdsc/25859.csv",
+  "sha256": "8ec12ba2f7c53001f130fa6654a5261bcdcdd36268ebf84e2d2be690c789fca4"
+ },
+ {
+  "local": "ine2018/32376.csv",
+  "url": "https://www.ine.es/jaxi/files/tpx/es/csv_bdsc/32376.csv",
+  "sha256": "8e1d53273e31da7dbf3e06a35307de79c66fe6f08b310a68a52321267b7e1514"
+ },
+ {
+  "local": "ine2018/32377.csv",
+  "url": "https://www.ine.es/jaxi/files/tpx/es/csv_bdsc/32377.csv",
+  "sha256": "1cbde503aaf69738474b8ad73714d7e32678745a617ca69182edbb435d22fc31"
+ },
+ {
+  "local": "ine2018/32386.csv",
+  "url": "https://www.ine.es/jaxi/files/tpx/es/csv_bdsc/32386.csv",
+  "sha256": "1474438fc2cdbb089d5ab1c3269fc4862c8c3851665e62c6cf41d89ac1b7279a"
+ },
+ {
+  "local": "ine2018/32387.csv",
+  "url": "https://www.ine.es/jaxi/files/tpx/es/csv_bdsc/32387.csv",
+  "sha256": "a0bfed72ff7c484e2a139b327ed4badcf007d7d5df1d05d3685cca0f693ff3ff"
+ },
+ {
+  "local": "ine2018/32388.csv",
+  "url": "https://www.ine.es/jaxi/files/tpx/es/csv_bdsc/32388.csv",
+  "sha256": "c6e7dbdefabf7aed5e468733bb0f56c3d0f3d3e0601125175944f32f12388212"
+ },
+ {
+  "local": "ine2018/32404.csv",
+  "url": "https://www.ine.es/jaxi/files/tpx/es/csv_bdsc/32404.csv",
+  "sha256": "35516b31c8820b003e599ec70df761a858ab302c01560db193b29e5ed5d0a6cb"
+ },
+ {
+  "local": "ine2018/32417.csv",
+  "url": "https://www.ine.es/jaxi/files/tpx/es/csv_bdsc/32417.csv",
+  "sha256": "5dfd294db495dba59775a4e213ef512695dd07a5c05c0e30f7b401bd8493fee2"
+ },
+ {
+  "local": "ine2020/49454.csv",
+  "url": "https://www.ine.es/jaxi/files/tpx/es/csv_bdsc/49454.csv",
+  "sha256": "47464770442bc38d42a7e2d6c7d52cdf666a40c5c105853f3d65ef24fe2bbc7e"
+ },
+ {
+  "local": "ine2020/49456.csv",
+  "url": "https://www.ine.es/jaxi/files/tpx/es/csv_bdsc/49456.csv",
+  "sha256": "9fb0f5e48553381cdd1e47ff350473d46e5e04e9dae9d5fadad586181a5575bc"
+ },
+ {
+  "local": "ine2020/49457.csv",
+  "url": "https://www.ine.es/jaxi/files/tpx/es/csv_bdsc/49457.csv",
+  "sha256": "c254fb549a75df3524cf4465295edc3baebb604050f1f2a4be7e18a86c151db0"
+ },
+ {
+  "local": "ine2020/49467.csv",
+  "url": "https://www.ine.es/jaxi/files/tpx/es/csv_bdsc/49467.csv",
+  "sha256": "fcb2909faa25a96c7f69217b2dc51cb5e2917803c04250cabc798aa91b7e71bd"
+ },
+ {
+  "local": "ine2020/49468.csv",
+  "url": "https://www.ine.es/jaxi/files/tpx/es/csv_bdsc/49468.csv",
+  "sha256": "42d56ad553ae333d73ab65fe941d32cd14e37001b1a2c8690e34d0645d65ce83"
+ },
+ {
+  "local": "ine2020/49469.csv",
+  "url": "https://www.ine.es/jaxi/files/tpx/es/csv_bdsc/49469.csv",
+  "sha256": "fa665149a9d074bb4b5ca2c231e1791eb1b5d9fb08783ab511157a47647e1ec3"
+ },
+ {
+  "local": "ine2020/49485.csv",
+  "url": "https://www.ine.es/jaxi/files/tpx/es/csv_bdsc/49485.csv",
+  "sha256": "81cb5ec864d10032d44ee93f816a9fb82b945c0df0dea538745b4bf4c40c2383"
+ },
+ {
+  "local": "ine2020/49486.csv",
+  "url": "https://www.ine.es/jaxi/files/tpx/es/csv_bdsc/49486.csv",
+  "sha256": "f49785c09b722b42bb2271a4cc95df10e6a4acfab8cd043475011fddfcc7e5ab"
+ },
+ {
+  "local": "ine2020/49499.csv",
+  "url": "https://www.ine.es/jaxi/files/tpx/es/csv_bdsc/49499.csv",
+  "sha256": "306662fc19dbeee0c5268ed1d080bd28856dc96afcc2a8b591d663979661c046"
+ },
+ {
+  "local": "ine2022/59698.csv",
+  "url": "https://www.ine.es/jaxi/files/tpx/es/csv_bdsc/59698.csv",
+  "sha256": "d67f1d04cd8414ad7017437f2420e8ab043fdbad37693f3489e575a330b3fc9e"
+ },
+ {
+  "local": "ine2022/59700.csv",
+  "url": "https://www.ine.es/jaxi/files/tpx/es/csv_bdsc/59700.csv",
+  "sha256": "13a6259ea7ae021b3e1c6e13cf22c7f40e93327a011a87e963a25d4d2e8463f8"
+ },
+ {
+  "local": "ine2022/59701.csv",
+  "url": "https://www.ine.es/jaxi/files/tpx/es/csv_bdsc/59701.csv",
+  "sha256": "877da9862c3cec22cc2b39b7b0830438cb7c7dfe4c16dd61d0c623e07d8f68d7"
+ },
+ {
+  "local": "ine2022/59711.csv",
+  "url": "https://www.ine.es/jaxi/files/tpx/es/csv_bdsc/59711.csv",
+  "sha256": "8a089214140c0de2f8ce4d80c140111c57981d8749be2f8cfab7feb5f4fd019f"
+ },
+ {
+  "local": "ine2022/59712.csv",
+  "url": "https://www.ine.es/jaxi/files/tpx/es/csv_bdsc/59712.csv",
+  "sha256": "3208b38b2e8b4bd14ef9de22a418f7c31aa66914438db39ecb790e82d6310520"
+ },
+ {
+  "local": "ine2022/59713.csv",
+  "url": "https://www.ine.es/jaxi/files/tpx/es/csv_bdsc/59713.csv",
+  "sha256": "42db97eca9a1c3e769ab5e99fd80dc305dadf4fc254b3f8d389985ee7e1ad8c9"
+ },
+ {
+  "local": "ine2022/59729.csv",
+  "url": "https://www.ine.es/jaxi/files/tpx/es/csv_bdsc/59729.csv",
+  "sha256": "dd0834c3c8293e5154140e68084cddd6d75f7b7fb5e6f559e058483de55f86e5"
+ },
+ {
+  "local": "ine2022/59730.csv",
+  "url": "https://www.ine.es/jaxi/files/tpx/es/csv_bdsc/59730.csv",
+  "sha256": "62bb36df41a4a771dd00dfbf080209f39c8362b88dbac5390a85206819794726"
+ },
+ {
+  "local": "ine2022/59742.csv",
+  "url": "https://www.ine.es/jaxi/files/tpx/es/csv_bdsc/59742.csv",
+  "sha256": "9d3934018960ff691e0ff420c554dc1fbb8fd44299ea5c614aae31130e20bfb4"
+ },
+ {
+  "local": "ine2022/59743.csv",
+  "url": "https://www.ine.es/jaxi/files/tpx/es/csv_bdsc/59743.csv",
+  "sha256": "9f5d454bc0d5c477f9a88e60fcc335c3d55fc506770812b371f63dfd5259967a"
+ },
+ {
+  "local": "ine2024/75637.csv",
+  "url": "https://www.ine.es/jaxi/files/tpx/es/csv_bdsc/75637.csv",
+  "sha256": "3a20c0cf535835b08fc3c5990a9a11a642a83689bd05f83a9d431caf3a7cabf9"
+ },
+ {
+  "local": "ine2024/75639.csv",
+  "url": "https://www.ine.es/jaxi/files/tpx/es/csv_bdsc/75639.csv",
+  "sha256": "4f85108aa6db95c5b0816133b9c238f1b137419eac55218c452dddbaf1f2bee6"
+ },
+ {
+  "local": "ine2024/75640.csv",
+  "url": "https://www.ine.es/jaxi/files/tpx/es/csv_bdsc/75640.csv",
+  "sha256": "009fca97f50f0f9cdd340de1c97d75008b460e4112db974db52cc1784a0a859f"
+ },
+ {
+  "local": "ine2024/75650.csv",
+  "url": "https://www.ine.es/jaxi/files/tpx/es/csv_bdsc/75650.csv",
+  "sha256": "bbc2a5d20b2a628a6f2a04fbeeadcec50ec6c813ccb6057df54b609124fba340"
+ },
+ {
+  "local": "ine2024/75651.csv",
+  "url": "https://www.ine.es/jaxi/files/tpx/es/csv_bdsc/75651.csv",
+  "sha256": "6aac10c869123592c5113f018cd963a997250cad19e9744331c284e2b45a3741"
+ },
+ {
+  "local": "ine2024/75652.csv",
+  "url": "https://www.ine.es/jaxi/files/tpx/es/csv_bdsc/75652.csv",
+  "sha256": "b01b614d03f96884a5d2dc954799460131d6dc621d10172952136179f5978782"
+ },
+ {
+  "local": "ine2024/75668.csv",
+  "url": "https://www.ine.es/jaxi/files/tpx/es/csv_bdsc/75668.csv",
+  "sha256": "01ac188a015eb14f7149252ae8f078aac527179916d3baa0530dfac0d6a91f23"
+ },
+ {
+  "local": "ine2024/75669.csv",
+  "url": "https://www.ine.es/jaxi/files/tpx/es/csv_bdsc/75669.csv",
+  "sha256": "38556c94b641ad142e77ecc9731b9c4222e7f953d146c7f1e002413cfc93acdb"
+ },
+ {
+  "local": "ine2024/75681.csv",
+  "url": "https://www.ine.es/jaxi/files/tpx/es/csv_bdsc/75681.csv",
+  "sha256": "dca54b3a277e16933f1869c4ffda8dac2b643fe5709a3d8017e52e62bd1b95fe"
+ },
+ {
+  "local": "ine2024/75682.csv",
+  "url": "https://www.ine.es/jaxi/files/tpx/es/csv_bdsc/75682.csv",
+  "sha256": "262560d1d1e12de943550d47a9fc69edecd9c13f32fbfa5ac1a6c0091288b0d1"
+ },
+ {
+  "local": "ine_press/ECAPSH2024.htm",
+  "url": "https://www.ine.es/dyngs/Prensa/es/ECAPSH2024.htm",
+  "sha256": "87409beca5d4ff50ba1c4aac555074f27c76d2efcce5c73dd8cbfe8d6044d778"
+ },
+ {
+  "local": "eurostat/migr_asyappctza_ES.json",
+  "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/migr_asyappctza?geo=ES&citizen=TOTAL&sex=T&age=TOTAL&unit=PER&lang=EN",
+  "sha256": "2bb0b02c40046fa4cda0b64742cf98d70f09b110d57a5c8f1151d1cb79a20516"
+ },
+ {
+  "local": "ministry/informe_SPI_jun25.pdf",
+  "url": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/inclusion/Documents/2025/200625-Informe-Sistema-Proteccion-Internacional-Espanol-jun25.pdf",
+  "sha256": "b665ca33cfc8f7d5fe747779859fa4d40f44c21d60735e013b7337a3e8830a3a"
+ },
+ {
+  "local": "wayback/ECAPSH2024_20250926132524.htm",
+  "url": "https://web.archive.org/web/20250926132524id_/https://www.ine.es/dyngs/Prensa/ECAPSH2024.htm",
+  "sha256": "4621abf5982d5d68c7a58f8214f3ca716488274fe9c62850a537cc1a23bdae41"
+ }
+]

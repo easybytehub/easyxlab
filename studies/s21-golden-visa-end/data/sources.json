@@ -1,0 +1,84 @@
+{
+ "mivau": {
+  "fetched": "2026-10-04",
+  "mivau_last_modified": "Thu, 01 Oct 2026 06:48:35 GMT (table 1.6), 06:48:38 GMT (table 1.7)",
+  "files": {
+   "data/raw/mivau/34010110.XLS": "7e1570b406b277e68455d64d41dadd4b5280e0e6d064fb2e95b3f3eb45b88e44",
+   "data/raw/mivau/34010120.XLS": "e9de6de95ea086978feb06f546715d3fa5b6a4f5314027b93e85fb0c5bcfac32",
+   "data/raw/mivau/340101a0.XLS": "800d586efeea5ae465b221909e3feb16e0ebea82bafca600481240710cd77ca6",
+   "data/raw/mivau/340101d0.XLS": "1efd447a9ac38e8c252f48c7e6d65f344b85a7677a5986f6b85df9c15851c2cd",
+   "data/raw/mivau/340101l0.XLS": "ad7b310a5675df840c5b80c0959dcc43e717c7e119664d9548711e6bd3c2b0c9",
+   "data/raw/mivau/34020110.XLS": "22d821e40589a85b0aca2997f60025e6f38729d521017bc6cd7bcaf94ba444cc",
+   "data/raw/mivau/34020140.XLS": "2505c988eba46b32de6386bb53f2a7b5a839ae572ae9bb25f13c48943674815c",
+   "data/raw/mivau/34020150.XLS": "049d65eff1cf9f693c4f6b0424934fda21c2a6834a7d5b66a71a4e6bbaa8b30c",
+   "data/raw/wayback/340101d0_20230530073450.XLS": "5d4f15b7000769519bb981fdba8acf040010fa12d2b719b543ed77ae48517e9b",
+   "data/raw/wayback/340101d0_20251006134433.XLS": "3911eb9d1e3f4dfc0ec3532cbaf1c4a322636e1f941d6b7fefbe6884738b5ac3",
+   "data/raw/wayback/340101l0_20211005195153.XLS": "5133d289c54fe1e668805f36715890f760b11536cf31e376d5ba50244d5c7724",
+   "data/raw/wayback/340101l0_20230116105232.XLS": "b3ba8b513bd1eb6721afd16db465bf82dfcdf3ab14bbee7dc2d452d5b5e26733",
+   "data/raw/wayback/340101l0_20230529192926.XLS": "245839572e2032178a03bb482dd5a07c16971c2bff3c1bd3be03cb67a0c75eeb",
+   "data/raw/wayback/340101l0_20251006131616.XLS": "da798defa4e69fedfa6c4a13e709920a8f036439b6207ae5562796fc4c52132e"
+  },
+  "identity_failures_live_table_1_6": 2,
+  "provisional_quarters": [
+   "2026Q2"
+  ],
+  "value_band_quarters": {
+   "2021Q1": "340101l0_20211005195153.XLS",
+   "2022Q1": "340101l0_20230116105232.XLS",
+   "2025Q1": "340101l0_20251006131616.XLS",
+   "2026Q1": "340101l0.XLS"
+  }
+ },
+ "ecb": {
+  "fetched": "2026-10-04",
+  "series": [
+   "EXR.Q.USD.EUR.SP00.A",
+   "EXR.Q.GBP.EUR.SP00.A",
+   "EXR.Q.CNY.EUR.SP00.A"
+  ],
+  "url": "https://data-api.ecb.europa.eu/service/data/EXR/Q.<CUR>.EUR.SP00.A?format=csvdata",
+  "files": {
+   "data/raw/fx/ecb_EXR_Q.CNY.EUR.SP00.A.csv": "ac37e3926ca29841d8000180f1b12300fb0b417dc6890752f642eea89f8af549",
+   "data/raw/fx/ecb_EXR_Q.GBP.EUR.SP00.A.csv": "7dd562f8472e1e49739f76e79d81c429e1b7b8d6e2c7ce0f7867cbab035e01e8",
+   "data/raw/fx/ecb_EXR_Q.USD.EUR.SP00.A.csv": "6da0004d0147a534ce700aecd8a93e1be0e34fe93a7d8fc531ab10fa134a509d"
+  },
+  "note": "MXN returned HTTP 504 and is not used"
+ },
+ "ine_pt": {
+  "fetched": "2026-10-04",
+  "indicators": {
+   "0012785": "Transações (N.º) de alojamentos familiares por Localização geográfica (NUTS - 2024), Categoria do alojamento familiar, Domicílio fiscal do comprador e Setor institucional do comprador; Trimestral - INE, Índice de preços da habitação",
+   "0012786": "Transações (€) …, same dimensions"
+  },
+  "api": "https://www.ine.pt/ine/json_indicador/pindica.jsp?op=2&varcd=<code>&Dim1=<quarters>&Dim3=H1&Dim5=T&lang=PT",
+  "last_update": "2026-09-22",
+  "coverage": "by domicile only at national level; regional cells are 'x' (Dado não disponível)",
+  "robots": "www.ine.pt/robots.txt returns HTTP 403: under RFC 9309 a 4xx means no restrictions; the API answered 200"
+ },
+ "legal_and_calendar": {
+  "fetched": "2026-10-04",
+  "files": {
+   "data/raw/legal/cat_dleg1_2024_a641-1_2024.html": "e3de04e57e4c1130e5c46d7c650865661fdc73ca3f54476999124dfee9c7a339",
+   "data/raw/legal/cat_dleg1_2024_consolidado.html": "99f6c827e72457d71b79c98ea31b83f7f01d7ca2bf1c0af26b219b7df6977fc7",
+   "data/raw/legal/datosgob_transacciones.html": "d0a8f44ccd0dd2ee459a146733e6fb61f98cec93fceb7cd441b2ed9979719866",
+   "data/raw/legal/ine_etdp_resultados.html": "64caf03ad6cf36ae5f1860d32d4c0f61d64a3889a06e8f33965763273ab7ed4a",
+   "data/raw/legal/ine_ioe_25003.html": "1f2910908632691ab8ded708e3808b749d038854daa37a79c3df392844292667",
+   "data/raw/legal/ine_pen_calendario2026.pdf": "2acfdb38e294dc56e212b12158fa79c1f1d761d174a94dd3f9e15c9b0fbe62f3",
+   "data/raw/legal/ley14_2013_consolidado.html": "9cc7e8931ff1f8fa869b0716873fa243363e8c355a139a4c5b44183c82763faa",
+   "data/raw/legal/ley14_a63_2015.html": "e702ebf2d06f84bc06ac4c334d230530489dfa803be4dbfd58177954a9bbb8ae",
+   "data/raw/legal/ley14_a64_2015.html": "2cfcaa81d0eb924313ee4eaa75bd3f6860d2b87090758259dff5f2f46937a65b",
+   "data/raw/legal/lo1_2025_consolidado.html": "a1cbc32eda14ecfc28f072ac7401234b7415ba18005c8b0fe53634d4ea0f2325",
+   "data/raw/legal/lo1_2025_doc.html": "c8127a7a72dd970dcd5e5d69b31592f3c3eb21d135fd131b791db4bac39fd459",
+   "data/raw/legal/lo1_2025_original.html": "71835e361dafe60aa86cb457df89b58b4903b038bc9b8a5ab2a3d58ef3899073",
+   "data/raw/legal/mad_dleg1_2010_consolidado.html": "54e5002a167f04cb255ccb5d8d019d5a62af5e2fb43af039bbf9e282f4af86f1",
+   "data/raw/legal/moncloa/080424-sanchez-anuncia-fin-golden-visa.aspx": "c7ecfda194d4d4ceefcd21d8e4d332005d620a6c06c37170020984d6294bb2c6",
+   "data/raw/legal/moncloa/090424-rueda-de-prensa-ministros.aspx": "b2a65af5555f93a3f7e22439cf5eacf28fc329374c6caaf00c957644a6770194",
+   "data/raw/legal/moncloa/130125-sanchez-foro-vivienda.aspx": "996d659b47876db3f6d6719df4a872b0c1cea5b12f2a57b3d421be41a2285c08",
+   "data/raw/legal/moncloa/20240409-referencia-rueda-de-prensa-ministros.aspx": "2e5f2deeb7efb76a06cfc3c48102667000f7fce4f19282abad94a2ac3424f5d4",
+   "data/raw/legal/moncloa/20260929-referencia-rueda-de-prensa-ministros.aspx": "a99c472f333826d766eb4d44b07718b9e7bd2ab71f7bf63613bb462584bab68b",
+   "data/raw/legal/pt_cm_2023-02-16.html": "988ccacdd094f5ae2d0166255d3e823775844d7565a2072a71baa9bcebc43254",
+   "data/raw/legal/rdl26_2026.html": "027c7c877f5ee6f96a28c4bfa54df8186312e4f330019be8e03ed315d3eaf110",
+   "data/raw/legal/trlitpajd_consolidado.html": "0f77e2ce8c0d4df6d55a5d17439bfb62fc2d3bad5c9aeeabe4820c876bfd839c"
+  }
+ }
+}

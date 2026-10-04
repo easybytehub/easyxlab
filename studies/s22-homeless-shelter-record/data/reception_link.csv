@@ -1,0 +1,7 @@
+edition,centres_oriented_immigration_ip,imm_only_centres,imm_places_mean,imm_occupied_mean,sapi_places_yearend,humanitarian_places_yearend,reception_places_yearend,asylum_applicants_first,arrivals_land_sea,imm_places_as_pct_of_reception_places
+2014,156,,,,,,,5460.0,,
+2016,157,,,,4629.0,1486.0,6115.0,15570.0,,
+2018,206,,,,11917.0,4359.0,16276.0,52745.0,,
+2020,209,167.0,5420.0,5377.0,13826.0,17913.0,31739.0,86385.0,41861.0,17.0768
+2022,301,235.0,10602.0,8045.0,29964.0,9835.0,39799.0,116150.0,31219.0,26.6389
+2024,437,360.0,21298.0,18173.0,29444.0,27519.0,56963.0,165465.0,63970.0,37.3892

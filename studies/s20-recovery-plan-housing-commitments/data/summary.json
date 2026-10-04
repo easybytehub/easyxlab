@@ -1,0 +1,199 @@
+{
+ "n_versions": 10,
+ "versions_adopted_per_commission_recital": 9,
+ "core_measures": [
+  "C2.I2",
+  "C2.I7",
+  "C2.R3",
+  "C2.R7"
+ ],
+ "core_rows_ever": [
+  "C2.I2 30",
+  "C2.I2 31",
+  "C2.I7 L4",
+  "C2.I7 L5",
+  "C2.I7 L6",
+  "C2.I7 L7",
+  "C2.R3 22",
+  "C2.R7 L2",
+  "C2.R7 L2a",
+  "C2.R7 L3"
+ ],
+ "n_core_rows_ever": 10,
+ "core_changes_consecutive": 19,
+ "core_changes_by_version": {
+  "v3-2024b": [
+   "C2.I2",
+   "C2.I7",
+   "C2.I2 31"
+  ],
+  "v7-2025d": [
+   "C2.I2",
+   "C2.I7",
+   "C2.R7",
+   "C2.I2 31",
+   "C2.I7 L5",
+   "C2.I7 L6",
+   "C2.I7 L7",
+   "C2.R7 L2",
+   "C2.R7 L3"
+  ],
+  "v9-2026b": [
+   "C2.I2",
+   "C2.I7",
+   "C2.summary",
+   "C2.I2 30",
+   "C2.I2 31",
+   "C2.I7 L6"
+  ],
+  "v5-2025b": [
+   "C2.I7"
+  ]
+ },
+ "core_change_categories": {
+  "definition": 13,
+  "deadline": 5,
+  "quantity": 7,
+  "editorial": 2,
+  "amount": 6,
+  "removed": 3
+ },
+ "versions_with_core_changes": [
+  "v3-2024b",
+  "v5-2025b",
+  "v7-2025d",
+  "v9-2026b"
+ ],
+ "target31_by_version": {
+  "v0-2021": 20000,
+  "v1-2023": 20000,
+  "v2-2024a": 20000,
+  "v3-2024b": 20000,
+  "v4-2025a": 20000,
+  "v5-2025b": 20000,
+  "v6-2025c": 20000,
+  "v7-2025d": 17365,
+  "v8-2026a": 17365,
+  "v9-2026b": 15718
+ },
+ "target31_first": 20000,
+ "target31_dec2025": 17365,
+ "target31_last": 15718,
+ "target31_change_pct": -21.4,
+ "target31_dec2025_change_pct": -13.2,
+ "target31_aug2026_change_pct": -9.5,
+ "ico_by_version": {
+  "v0-2021": null,
+  "v1-2023": 4000000000,
+  "v2-2024a": 4000000000,
+  "v3-2024b": 4000000000,
+  "v4-2025a": 4000000000,
+  "v5-2025b": 4000000000,
+  "v6-2025c": 4000000000,
+  "v7-2025d": 750000000,
+  "v8-2026a": 750000000,
+  "v9-2026b": 567854983
+ },
+ "ico_first": 4000000000,
+ "ico_dec2025": 750000000,
+ "ico_last": 567854983,
+ "ico_change_pct": -85.8,
+ "ico_dec2025_change_pct": -81.3,
+ "ico_aug2026_change_pct": -24.3,
+ "swd_cost_eur_m": {
+  "C2.I2": {
+   "v0-2021": 1000.0,
+   "v1-2023": 1000.0,
+   "v2-2024a": null,
+   "v3-2024b": null,
+   "v4-2025a": null,
+   "v5-2025b": null,
+   "v6-2025c": 1000.0,
+   "v7-2025d": 1920.0,
+   "v8-2026a": 1920.0,
+   "v9-2026b": 1885.0
+  },
+  "C2.I7": {
+   "v0-2021": null,
+   "v1-2023": 4000.0,
+   "v2-2024a": null,
+   "v3-2024b": null,
+   "v4-2025a": null,
+   "v5-2025b": null,
+   "v6-2025c": 4000.0,
+   "v7-2025d": 751.0,
+   "v8-2026a": 751.0,
+   "v9-2026b": null
+  },
+  "C13.I13": {
+   "v0-2021": null,
+   "v1-2023": 9750.0,
+   "v2-2024a": null,
+   "v3-2024b": null,
+   "v4-2025a": null,
+   "v5-2025b": null,
+   "v6-2025c": 9750.0,
+   "v7-2025d": 2400.0,
+   "v8-2026a": 2400.0,
+   "v9-2026b": 2195.0
+  }
+ },
+ "c2i2_cost_per_target_dwelling_eur": {
+  "v0-2021": 50000,
+  "v1-2023": 50000,
+  "v6-2025c": 50000,
+  "v7-2025d": 110567,
+  "v8-2026a": 110567,
+  "v9-2026b": 119926
+ },
+ "council_core_items_compared": 206,
+ "council_core_items_identical": 206,
+ "council_versions_compared": 9,
+ "adoption": {
+  "v0-2021": [
+   "2021-07-13",
+   "adopted"
+  ],
+  "v1-2023": [
+   "2023-10-17",
+   "adopted"
+  ],
+  "v2-2024a": [
+   "2024-05-14",
+   "adopted"
+  ],
+  "v3-2024b": [
+   "2025-01-21",
+   "adopted"
+  ],
+  "v4-2025a": [
+   "2025-05-13",
+   "adopted"
+  ],
+  "v5-2025b": [
+   "2025-06-12",
+   "adopted"
+  ],
+  "v6-2025c": [
+   "2025-10-10",
+   "adopted"
+  ],
+  "v7-2025d": [
+   "2026-01-20",
+   "adopted"
+  ],
+  "v8-2026a": [
+   "2026-06-12",
+   "adopted"
+  ],
+  "v9-2026b": [
+   "2026-08-27",
+   "reported adopted (Spanish Government); no EU record retrieved"
+  ]
+ },
+ "scoreboard_last_refresh": "04/10/2026",
+ "scoreboard_t31": "15718",
+ "scoreboard_t31_status": "Not Assessed",
+ "scoreboard_t31_text_version": "v9-2026b",
+ "scoreboard_L6_text_version": "v9-2026b"
+}

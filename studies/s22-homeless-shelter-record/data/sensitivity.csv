@@ -1,0 +1,13 @@
+variant,from,to,value,count,core,total_growth_pct,IMM_share_of_change_pct,core_growth_pct,core_centres_growth_pct,core_per_centre_growth_pct,all_centres_growth_pct,note
+"S0 headline: occupied, accommodation centres, core = GBV+OTH",2022,2024,occupied_mean,accommodation_centres,GBV+OTH,57.4663,81.2776,17.1127,11.8871,4.6704,17.1064,
+S2 places instead of occupied places,2022,2024,places_mean,accommodation_centres,GBV+OTH,49.4492,81.0426,15.5582,11.8871,3.2811,17.1064,
+S3 all centres instead of centres offering accommodation,2022,2024,occupied_mean,centres,GBV+OTH,57.4663,81.2776,17.1127,8.0851,8.3523,17.1064,
+S4 core = OTH only (gender-violence shelters set aside),2022,2024,occupied_mean,accommodation_centres,OTH,57.4663,81.2776,19.657,10.8659,7.9295,17.1064,
+"S4b core = OTH only, places",2022,2024,places_mean,accommodation_centres,OTH,49.4492,81.0426,17.3536,10.8659,5.8519,17.1064,
+"S4c core = OTH only, all centres as denominator",2022,2024,occupied_mean,centres,OTH,57.4663,81.2776,19.657,6.9006,11.933,17.1064,
+S5 base 2020 (occupied of all ages in 2020; adults only from 2022),2020,2024,occupied_mean,accommodation_centres,GBV+OTH,92.1281,78.1531,28.8561,21.4516,6.0966,35.0343,scope break: INE counts occupied places of adults only from 2022
+S9 previous edition 2020->2022,2020,2022,occupied_mean,accommodation_centres,GBV+OTH,22.0122,68.2004,10.0274,8.5484,1.3626,15.3091,same scope break
+"S1 first-published 2024 figures (26-Sep-2025, before INE's revision)",2022,2024,occupied_mean,,GBV+OTH,55.6816,80.6775,17.1054,,,17.0213,segment centre counts of the first vintage were not published in the release
+"S6a June only (15-Jun-2022 -> 14-Jun-2024), national total",2022,2024,occupied (snapshot),,,48.6157,,,,,,INE does not split the snapshots by specialisation
+"S6b December only (15-Dec-2022 -> 16-Dec-2024), national total",2022,2024,occupied (snapshot),,,65.827,,,,,,INE does not split the snapshots by specialisation
+"S7 Spain without the Canary Islands, national total",2022,2024,occupied_mean,,,50.7213,,,,,,"Canary Islands 1582 -> 3847, 18.2% of the national change"

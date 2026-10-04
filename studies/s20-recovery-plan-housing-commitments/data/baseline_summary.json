@@ -1,0 +1,106 @@
+{
+ "v6-2025c->v7-2025d": {
+  "measures": {
+   "n": 234,
+   "changed": 136,
+   "lost_more_than_30pct": 109,
+   "share_lost_more_than_30pct": 0.466,
+   "median_ratio": 0.868,
+   "excluded_over_cap": 0,
+   "housing_ratios": {
+    "C2.I2": 0.519,
+    "C2.I7": 0.986,
+    "C2.R3": 1.0,
+    "C2.R7": 0.448
+   },
+   "housing_rank_from_most_cut": {
+    "C2.I2": 102,
+    "C2.I7": 128,
+    "C2.R3": 134,
+    "C2.R7": 95
+   }
+  },
+  "milestones_targets": {
+   "n": 460,
+   "changed": 205,
+   "lost_more_than_30pct": 79,
+   "share_lost_more_than_30pct": 0.172,
+   "median_ratio": 1.0,
+   "housing_ratios": {
+    "C2.I2 30": 1.0,
+    "C2.I2 31": 0.303,
+    "C2.I7 L4": 1.0,
+    "C2.I7 L6": 1.196,
+    "C2.R3 22": 1.0,
+    "C2.R7 L3": 0.533
+   },
+   "housing_rank_from_most_cut": {
+    "C2.I2 30": 109,
+    "C2.I2 31": 31,
+    "C2.I7 L4": 109,
+    "C2.I7 L6": 380,
+    "C2.R3 22": 109,
+    "C2.R7 L3": 61
+   },
+   "housing_rows_removed": [
+    "C2.I7 L5",
+    "C2.I7 L7",
+    "C2.R7 L2"
+   ],
+   "housing_rows_from": 9,
+   "removed_rows": 140,
+   "rows_from": 600
+  }
+ },
+ "v8-2026a->v9-2026b": {
+  "measures": {
+   "n": 237,
+   "changed": 43,
+   "lost_more_than_30pct": 2,
+   "share_lost_more_than_30pct": 0.008,
+   "median_ratio": 1.0,
+   "excluded_over_cap": 0,
+   "housing_ratios": {
+    "C2.I2": 0.855,
+    "C2.I7": 0.887,
+    "C2.R3": 1.0,
+    "C2.R7": 1.0
+   },
+   "housing_rank_from_most_cut": {
+    "C2.I2": 8,
+    "C2.I7": 11,
+    "C2.R3": 21,
+    "C2.R7": 21
+   }
+  },
+  "milestones_targets": {
+   "n": 480,
+   "changed": 95,
+   "lost_more_than_30pct": 5,
+   "share_lost_more_than_30pct": 0.01,
+   "median_ratio": 1.0,
+   "housing_ratios": {
+    "C2.I2 30": 0.992,
+    "C2.I2 31": 0.568,
+    "C2.I7 L4": 1.0,
+    "C2.I7 L6": 0.687,
+    "C2.R3 22": 1.0,
+    "C2.R7 L2a": 1.0,
+    "C2.R7 L3": 1.0
+   },
+   "housing_rank_from_most_cut": {
+    "C2.I2 30": 26,
+    "C2.I2 31": 3,
+    "C2.I7 L4": 27,
+    "C2.I7 L6": 6,
+    "C2.R3 22": 27,
+    "C2.R7 L2a": 27,
+    "C2.R7 L3": 27
+   },
+   "housing_rows_removed": [],
+   "housing_rows_from": 7,
+   "removed_rows": 3,
+   "rows_from": 483
+  }
+ }
+}

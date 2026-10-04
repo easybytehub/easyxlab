@@ -1,0 +1,3641 @@
+quarter,region_code,region,domicile_group,n_transactions,value_keur
+2009Q1,1,Continente,EU,,
+2009Q1,1,Continente,PT,,
+2009Q1,1,Continente,nonEU,,
+2009Q1,1,Continente,total,20428,2483606.0
+2009Q1,11,Norte,EU,,
+2009Q1,11,Norte,PT,,
+2009Q1,11,Norte,nonEU,,
+2009Q1,11,Norte,total,6262,617131.0
+2009Q1,15,Algarve,EU,,
+2009Q1,15,Algarve,PT,,
+2009Q1,15,Algarve,nonEU,,
+2009Q1,15,Algarve,total,2033,332657.0
+2009Q1,19,Centro,EU,,
+2009Q1,19,Centro,PT,,
+2009Q1,19,Centro,nonEU,,
+2009Q1,19,Centro,total,2721,253284.0
+2009Q1,1A,Grande Lisboa,EU,,
+2009Q1,1A,Grande Lisboa,PT,,
+2009Q1,1A,Grande Lisboa,nonEU,,
+2009Q1,1A,Grande Lisboa,total,4665,772564.0
+2009Q1,1B,Península de Setúbal,EU,,
+2009Q1,1B,Península de Setúbal,PT,,
+2009Q1,1B,Península de Setúbal,nonEU,,
+2009Q1,1B,Península de Setúbal,total,2038,238341.0
+2009Q1,1C,Alentejo,EU,,
+2009Q1,1C,Alentejo,PT,,
+2009Q1,1C,Alentejo,nonEU,,
+2009Q1,1C,Alentejo,total,953,79569.0
+2009Q1,1D,Oeste e Vale do Tejo,EU,,
+2009Q1,1D,Oeste e Vale do Tejo,PT,,
+2009Q1,1D,Oeste e Vale do Tejo,nonEU,,
+2009Q1,1D,Oeste e Vale do Tejo,total,1755,190061.0
+2009Q1,2,Região Autónoma dos Açores,EU,,
+2009Q1,2,Região Autónoma dos Açores,PT,,
+2009Q1,2,Região Autónoma dos Açores,nonEU,,
+2009Q1,2,Região Autónoma dos Açores,total,393,56431.0
+2009Q1,20,Região Autónoma dos Açores,EU,,
+2009Q1,20,Região Autónoma dos Açores,PT,,
+2009Q1,20,Região Autónoma dos Açores,nonEU,,
+2009Q1,20,Região Autónoma dos Açores,total,393,56431.0
+2009Q1,3,Região Autónoma da Madeira,EU,,
+2009Q1,3,Região Autónoma da Madeira,PT,,
+2009Q1,3,Região Autónoma da Madeira,nonEU,,
+2009Q1,3,Região Autónoma da Madeira,total,398,54178.0
+2009Q1,30,Região Autónoma da Madeira,EU,,
+2009Q1,30,Região Autónoma da Madeira,PT,,
+2009Q1,30,Região Autónoma da Madeira,nonEU,,
+2009Q1,30,Região Autónoma da Madeira,total,398,54178.0
+2009Q1,PT,Portugal,EU,,
+2009Q1,PT,Portugal,PT,,
+2009Q1,PT,Portugal,nonEU,,
+2009Q1,PT,Portugal,total,21219,2594215.0
+2009Q2,1,Continente,EU,,
+2009Q2,1,Continente,PT,,
+2009Q2,1,Continente,nonEU,,
+2009Q2,1,Continente,total,23270,2871508.0
+2009Q2,11,Norte,EU,,
+2009Q2,11,Norte,PT,,
+2009Q2,11,Norte,nonEU,,
+2009Q2,11,Norte,total,7085,723853.0
+2009Q2,15,Algarve,EU,,
+2009Q2,15,Algarve,PT,,
+2009Q2,15,Algarve,nonEU,,
+2009Q2,15,Algarve,total,2359,388128.0
+2009Q2,19,Centro,EU,,
+2009Q2,19,Centro,PT,,
+2009Q2,19,Centro,nonEU,,
+2009Q2,19,Centro,total,3035,298053.0
+2009Q2,1A,Grande Lisboa,EU,,
+2009Q2,1A,Grande Lisboa,PT,,
+2009Q2,1A,Grande Lisboa,nonEU,,
+2009Q2,1A,Grande Lisboa,total,5264,864468.0
+2009Q2,1B,Península de Setúbal,EU,,
+2009Q2,1B,Península de Setúbal,PT,,
+2009Q2,1B,Península de Setúbal,nonEU,,
+2009Q2,1B,Península de Setúbal,total,2308,260035.0
+2009Q2,1C,Alentejo,EU,,
+2009Q2,1C,Alentejo,PT,,
+2009Q2,1C,Alentejo,nonEU,,
+2009Q2,1C,Alentejo,total,1121,96777.0
+2009Q2,1D,Oeste e Vale do Tejo,EU,,
+2009Q2,1D,Oeste e Vale do Tejo,PT,,
+2009Q2,1D,Oeste e Vale do Tejo,nonEU,,
+2009Q2,1D,Oeste e Vale do Tejo,total,2099,240194.0
+2009Q2,2,Região Autónoma dos Açores,EU,,
+2009Q2,2,Região Autónoma dos Açores,PT,,
+2009Q2,2,Região Autónoma dos Açores,nonEU,,
+2009Q2,2,Região Autónoma dos Açores,total,388,40573.0
+2009Q2,20,Região Autónoma dos Açores,EU,,
+2009Q2,20,Região Autónoma dos Açores,PT,,
+2009Q2,20,Região Autónoma dos Açores,nonEU,,
+2009Q2,20,Região Autónoma dos Açores,total,388,40573.0
+2009Q2,3,Região Autónoma da Madeira,EU,,
+2009Q2,3,Região Autónoma da Madeira,PT,,
+2009Q2,3,Região Autónoma da Madeira,nonEU,,
+2009Q2,3,Região Autónoma da Madeira,total,571,80186.0
+2009Q2,30,Região Autónoma da Madeira,EU,,
+2009Q2,30,Região Autónoma da Madeira,PT,,
+2009Q2,30,Região Autónoma da Madeira,nonEU,,
+2009Q2,30,Região Autónoma da Madeira,total,571,80186.0
+2009Q2,PT,Portugal,EU,,
+2009Q2,PT,Portugal,PT,,
+2009Q2,PT,Portugal,nonEU,,
+2009Q2,PT,Portugal,total,24229,2992266.0
+2009Q3,1,Continente,EU,,
+2009Q3,1,Continente,PT,,
+2009Q3,1,Continente,nonEU,,
+2009Q3,1,Continente,total,25988,3172270.0
+2009Q3,11,Norte,EU,,
+2009Q3,11,Norte,PT,,
+2009Q3,11,Norte,nonEU,,
+2009Q3,11,Norte,total,7994,785769.0
+2009Q3,15,Algarve,EU,,
+2009Q3,15,Algarve,PT,,
+2009Q3,15,Algarve,nonEU,,
+2009Q3,15,Algarve,total,2210,368450.0
+2009Q3,19,Centro,EU,,
+2009Q3,19,Centro,PT,,
+2009Q3,19,Centro,nonEU,,
+2009Q3,19,Centro,total,3468,328908.0
+2009Q3,1A,Grande Lisboa,EU,,
+2009Q3,1A,Grande Lisboa,PT,,
+2009Q3,1A,Grande Lisboa,nonEU,,
+2009Q3,1A,Grande Lisboa,total,6061,1012694.0
+2009Q3,1B,Península de Setúbal,EU,,
+2009Q3,1B,Península de Setúbal,PT,,
+2009Q3,1B,Península de Setúbal,nonEU,,
+2009Q3,1B,Península de Setúbal,total,2681,316958.0
+2009Q3,1C,Alentejo,EU,,
+2009Q3,1C,Alentejo,PT,,
+2009Q3,1C,Alentejo,nonEU,,
+2009Q3,1C,Alentejo,total,1216,101852.0
+2009Q3,1D,Oeste e Vale do Tejo,EU,,
+2009Q3,1D,Oeste e Vale do Tejo,PT,,
+2009Q3,1D,Oeste e Vale do Tejo,nonEU,,
+2009Q3,1D,Oeste e Vale do Tejo,total,2358,257639.0
+2009Q3,2,Região Autónoma dos Açores,EU,,
+2009Q3,2,Região Autónoma dos Açores,PT,,
+2009Q3,2,Região Autónoma dos Açores,nonEU,,
+2009Q3,2,Região Autónoma dos Açores,total,463,47766.0
+2009Q3,20,Região Autónoma dos Açores,EU,,
+2009Q3,20,Região Autónoma dos Açores,PT,,
+2009Q3,20,Região Autónoma dos Açores,nonEU,,
+2009Q3,20,Região Autónoma dos Açores,total,463,47766.0
+2009Q3,3,Região Autónoma da Madeira,EU,,
+2009Q3,3,Região Autónoma da Madeira,PT,,
+2009Q3,3,Região Autónoma da Madeira,nonEU,,
+2009Q3,3,Região Autónoma da Madeira,total,626,95849.0
+2009Q3,30,Região Autónoma da Madeira,EU,,
+2009Q3,30,Região Autónoma da Madeira,PT,,
+2009Q3,30,Região Autónoma da Madeira,nonEU,,
+2009Q3,30,Região Autónoma da Madeira,total,626,95849.0
+2009Q3,PT,Portugal,EU,,
+2009Q3,PT,Portugal,PT,,
+2009Q3,PT,Portugal,nonEU,,
+2009Q3,PT,Portugal,total,27077,3315884.0
+2009Q4,1,Continente,EU,,
+2009Q4,1,Continente,PT,,
+2009Q4,1,Continente,nonEU,,
+2009Q4,1,Continente,total,26251,3212031.0
+2009Q4,11,Norte,EU,,
+2009Q4,11,Norte,PT,,
+2009Q4,11,Norte,nonEU,,
+2009Q4,11,Norte,total,8194,828403.0
+2009Q4,15,Algarve,EU,,
+2009Q4,15,Algarve,PT,,
+2009Q4,15,Algarve,nonEU,,
+2009Q4,15,Algarve,total,2293,380834.0
+2009Q4,19,Centro,EU,,
+2009Q4,19,Centro,PT,,
+2009Q4,19,Centro,nonEU,,
+2009Q4,19,Centro,total,3422,329303.0
+2009Q4,1A,Grande Lisboa,EU,,
+2009Q4,1A,Grande Lisboa,PT,,
+2009Q4,1A,Grande Lisboa,nonEU,,
+2009Q4,1A,Grande Lisboa,total,6192,1025082.0
+2009Q4,1B,Península de Setúbal,EU,,
+2009Q4,1B,Península de Setúbal,PT,,
+2009Q4,1B,Península de Setúbal,nonEU,,
+2009Q4,1B,Península de Setúbal,total,2629,313295.0
+2009Q4,1C,Alentejo,EU,,
+2009Q4,1C,Alentejo,PT,,
+2009Q4,1C,Alentejo,nonEU,,
+2009Q4,1C,Alentejo,total,1298,111243.0
+2009Q4,1D,Oeste e Vale do Tejo,EU,,
+2009Q4,1D,Oeste e Vale do Tejo,PT,,
+2009Q4,1D,Oeste e Vale do Tejo,nonEU,,
+2009Q4,1D,Oeste e Vale do Tejo,total,2223,223872.0
+2009Q4,2,Região Autónoma dos Açores,EU,,
+2009Q4,2,Região Autónoma dos Açores,PT,,
+2009Q4,2,Região Autónoma dos Açores,nonEU,,
+2009Q4,2,Região Autónoma dos Açores,total,661,75317.0
+2009Q4,20,Região Autónoma dos Açores,EU,,
+2009Q4,20,Região Autónoma dos Açores,PT,,
+2009Q4,20,Região Autónoma dos Açores,nonEU,,
+2009Q4,20,Região Autónoma dos Açores,total,661,75317.0
+2009Q4,3,Região Autónoma da Madeira,EU,,
+2009Q4,3,Região Autónoma da Madeira,PT,,
+2009Q4,3,Região Autónoma da Madeira,nonEU,,
+2009Q4,3,Região Autónoma da Madeira,total,655,87440.0
+2009Q4,30,Região Autónoma da Madeira,EU,,
+2009Q4,30,Região Autónoma da Madeira,PT,,
+2009Q4,30,Região Autónoma da Madeira,nonEU,,
+2009Q4,30,Região Autónoma da Madeira,total,655,87440.0
+2009Q4,PT,Portugal,EU,,
+2009Q4,PT,Portugal,PT,,
+2009Q4,PT,Portugal,nonEU,,
+2009Q4,PT,Portugal,total,27567,3374788.0
+2010Q1,1,Continente,EU,,
+2010Q1,1,Continente,PT,,
+2010Q1,1,Continente,nonEU,,
+2010Q1,1,Continente,total,26301,3322702.0
+2010Q1,11,Norte,EU,,
+2010Q1,11,Norte,PT,,
+2010Q1,11,Norte,nonEU,,
+2010Q1,11,Norte,total,8072,825304.0
+2010Q1,15,Algarve,EU,,
+2010Q1,15,Algarve,PT,,
+2010Q1,15,Algarve,nonEU,,
+2010Q1,15,Algarve,total,2296,366384.0
+2010Q1,19,Centro,EU,,
+2010Q1,19,Centro,PT,,
+2010Q1,19,Centro,nonEU,,
+2010Q1,19,Centro,total,3540,359833.0
+2010Q1,1A,Grande Lisboa,EU,,
+2010Q1,1A,Grande Lisboa,PT,,
+2010Q1,1A,Grande Lisboa,nonEU,,
+2010Q1,1A,Grande Lisboa,total,6533,1122291.0
+2010Q1,1B,Península de Setúbal,EU,,
+2010Q1,1B,Península de Setúbal,PT,,
+2010Q1,1B,Península de Setúbal,nonEU,,
+2010Q1,1B,Península de Setúbal,total,2638,320346.0
+2010Q1,1C,Alentejo,EU,,
+2010Q1,1C,Alentejo,PT,,
+2010Q1,1C,Alentejo,nonEU,,
+2010Q1,1C,Alentejo,total,1079,101702.0
+2010Q1,1D,Oeste e Vale do Tejo,EU,,
+2010Q1,1D,Oeste e Vale do Tejo,PT,,
+2010Q1,1D,Oeste e Vale do Tejo,nonEU,,
+2010Q1,1D,Oeste e Vale do Tejo,total,2143,226841.0
+2010Q1,2,Região Autónoma dos Açores,EU,,
+2010Q1,2,Região Autónoma dos Açores,PT,,
+2010Q1,2,Região Autónoma dos Açores,nonEU,,
+2010Q1,2,Região Autónoma dos Açores,total,406,43494.0
+2010Q1,20,Região Autónoma dos Açores,EU,,
+2010Q1,20,Região Autónoma dos Açores,PT,,
+2010Q1,20,Região Autónoma dos Açores,nonEU,,
+2010Q1,20,Região Autónoma dos Açores,total,406,43494.0
+2010Q1,3,Região Autónoma da Madeira,EU,,
+2010Q1,3,Região Autónoma da Madeira,PT,,
+2010Q1,3,Região Autónoma da Madeira,nonEU,,
+2010Q1,3,Região Autónoma da Madeira,total,505,73924.0
+2010Q1,30,Região Autónoma da Madeira,EU,,
+2010Q1,30,Região Autónoma da Madeira,PT,,
+2010Q1,30,Região Autónoma da Madeira,nonEU,,
+2010Q1,30,Região Autónoma da Madeira,total,505,73924.0
+2010Q1,PT,Portugal,EU,,
+2010Q1,PT,Portugal,PT,,
+2010Q1,PT,Portugal,nonEU,,
+2010Q1,PT,Portugal,total,27213,3440120.0
+2010Q2,1,Continente,EU,,
+2010Q2,1,Continente,PT,,
+2010Q2,1,Continente,nonEU,,
+2010Q2,1,Continente,total,26876,3331718.0
+2010Q2,11,Norte,EU,,
+2010Q2,11,Norte,PT,,
+2010Q2,11,Norte,nonEU,,
+2010Q2,11,Norte,total,8238,868209.0
+2010Q2,15,Algarve,EU,,
+2010Q2,15,Algarve,PT,,
+2010Q2,15,Algarve,nonEU,,
+2010Q2,15,Algarve,total,2164,337163.0
+2010Q2,19,Centro,EU,,
+2010Q2,19,Centro,PT,,
+2010Q2,19,Centro,nonEU,,
+2010Q2,19,Centro,total,3500,345449.0
+2010Q2,1A,Grande Lisboa,EU,,
+2010Q2,1A,Grande Lisboa,PT,,
+2010Q2,1A,Grande Lisboa,nonEU,,
+2010Q2,1A,Grande Lisboa,total,6748,1109355.0
+2010Q2,1B,Península de Setúbal,EU,,
+2010Q2,1B,Península de Setúbal,PT,,
+2010Q2,1B,Península de Setúbal,nonEU,,
+2010Q2,1B,Península de Setúbal,total,2734,331543.0
+2010Q2,1C,Alentejo,EU,,
+2010Q2,1C,Alentejo,PT,,
+2010Q2,1C,Alentejo,nonEU,,
+2010Q2,1C,Alentejo,total,1191,102680.0
+2010Q2,1D,Oeste e Vale do Tejo,EU,,
+2010Q2,1D,Oeste e Vale do Tejo,PT,,
+2010Q2,1D,Oeste e Vale do Tejo,nonEU,,
+2010Q2,1D,Oeste e Vale do Tejo,total,2300,237319.0
+2010Q2,2,Região Autónoma dos Açores,EU,,
+2010Q2,2,Região Autónoma dos Açores,PT,,
+2010Q2,2,Região Autónoma dos Açores,nonEU,,
+2010Q2,2,Região Autónoma dos Açores,total,461,49401.0
+2010Q2,20,Região Autónoma dos Açores,EU,,
+2010Q2,20,Região Autónoma dos Açores,PT,,
+2010Q2,20,Região Autónoma dos Açores,nonEU,,
+2010Q2,20,Região Autónoma dos Açores,total,461,49401.0
+2010Q2,3,Região Autónoma da Madeira,EU,,
+2010Q2,3,Região Autónoma da Madeira,PT,,
+2010Q2,3,Região Autónoma da Madeira,nonEU,,
+2010Q2,3,Região Autónoma da Madeira,total,577,74490.0
+2010Q2,30,Região Autónoma da Madeira,EU,,
+2010Q2,30,Região Autónoma da Madeira,PT,,
+2010Q2,30,Região Autónoma da Madeira,nonEU,,
+2010Q2,30,Região Autónoma da Madeira,total,577,74490.0
+2010Q2,PT,Portugal,EU,,
+2010Q2,PT,Portugal,PT,,
+2010Q2,PT,Portugal,nonEU,,
+2010Q2,PT,Portugal,total,27914,3455609.0
+2010Q3,1,Continente,EU,,
+2010Q3,1,Continente,PT,,
+2010Q3,1,Continente,nonEU,,
+2010Q3,1,Continente,total,24898,3092552.0
+2010Q3,11,Norte,EU,,
+2010Q3,11,Norte,PT,,
+2010Q3,11,Norte,nonEU,,
+2010Q3,11,Norte,total,7711,804937.0
+2010Q3,15,Algarve,EU,,
+2010Q3,15,Algarve,PT,,
+2010Q3,15,Algarve,nonEU,,
+2010Q3,15,Algarve,total,2163,336169.0
+2010Q3,19,Centro,EU,,
+2010Q3,19,Centro,PT,,
+2010Q3,19,Centro,nonEU,,
+2010Q3,19,Centro,total,3559,350585.0
+2010Q3,1A,Grande Lisboa,EU,,
+2010Q3,1A,Grande Lisboa,PT,,
+2010Q3,1A,Grande Lisboa,nonEU,,
+2010Q3,1A,Grande Lisboa,total,5839,999801.0
+2010Q3,1B,Península de Setúbal,EU,,
+2010Q3,1B,Península de Setúbal,PT,,
+2010Q3,1B,Península de Setúbal,nonEU,,
+2010Q3,1B,Península de Setúbal,total,2407,282262.0
+2010Q3,1C,Alentejo,EU,,
+2010Q3,1C,Alentejo,PT,,
+2010Q3,1C,Alentejo,nonEU,,
+2010Q3,1C,Alentejo,total,1160,104429.0
+2010Q3,1D,Oeste e Vale do Tejo,EU,,
+2010Q3,1D,Oeste e Vale do Tejo,PT,,
+2010Q3,1D,Oeste e Vale do Tejo,nonEU,,
+2010Q3,1D,Oeste e Vale do Tejo,total,2058,214368.0
+2010Q3,2,Região Autónoma dos Açores,EU,,
+2010Q3,2,Região Autónoma dos Açores,PT,,
+2010Q3,2,Região Autónoma dos Açores,nonEU,,
+2010Q3,2,Região Autónoma dos Açores,total,432,43422.0
+2010Q3,20,Região Autónoma dos Açores,EU,,
+2010Q3,20,Região Autónoma dos Açores,PT,,
+2010Q3,20,Região Autónoma dos Açores,nonEU,,
+2010Q3,20,Região Autónoma dos Açores,total,432,43422.0
+2010Q3,3,Região Autónoma da Madeira,EU,,
+2010Q3,3,Região Autónoma da Madeira,PT,,
+2010Q3,3,Região Autónoma da Madeira,nonEU,,
+2010Q3,3,Região Autónoma da Madeira,total,565,80828.0
+2010Q3,30,Região Autónoma da Madeira,EU,,
+2010Q3,30,Região Autónoma da Madeira,PT,,
+2010Q3,30,Região Autónoma da Madeira,nonEU,,
+2010Q3,30,Região Autónoma da Madeira,total,565,80828.0
+2010Q3,PT,Portugal,EU,,
+2010Q3,PT,Portugal,PT,,
+2010Q3,PT,Portugal,nonEU,,
+2010Q3,PT,Portugal,total,25895,3216802.0
+2010Q4,1,Continente,EU,,
+2010Q4,1,Continente,PT,,
+2010Q4,1,Continente,nonEU,,
+2010Q4,1,Continente,total,24696,3088862.0
+2010Q4,11,Norte,EU,,
+2010Q4,11,Norte,PT,,
+2010Q4,11,Norte,nonEU,,
+2010Q4,11,Norte,total,7925,830101.0
+2010Q4,15,Algarve,EU,,
+2010Q4,15,Algarve,PT,,
+2010Q4,15,Algarve,nonEU,,
+2010Q4,15,Algarve,total,2187,381547.0
+2010Q4,19,Centro,EU,,
+2010Q4,19,Centro,PT,,
+2010Q4,19,Centro,nonEU,,
+2010Q4,19,Centro,total,3291,325697.0
+2010Q4,1A,Grande Lisboa,EU,,
+2010Q4,1A,Grande Lisboa,PT,,
+2010Q4,1A,Grande Lisboa,nonEU,,
+2010Q4,1A,Grande Lisboa,total,5867,993877.0
+2010Q4,1B,Península de Setúbal,EU,,
+2010Q4,1B,Península de Setúbal,PT,,
+2010Q4,1B,Península de Setúbal,nonEU,,
+2010Q4,1B,Península de Setúbal,total,2290,257345.0
+2010Q4,1C,Alentejo,EU,,
+2010Q4,1C,Alentejo,PT,,
+2010Q4,1C,Alentejo,nonEU,,
+2010Q4,1C,Alentejo,total,1131,93185.0
+2010Q4,1D,Oeste e Vale do Tejo,EU,,
+2010Q4,1D,Oeste e Vale do Tejo,PT,,
+2010Q4,1D,Oeste e Vale do Tejo,nonEU,,
+2010Q4,1D,Oeste e Vale do Tejo,total,2005,207109.0
+2010Q4,2,Região Autónoma dos Açores,EU,,
+2010Q4,2,Região Autónoma dos Açores,PT,,
+2010Q4,2,Região Autónoma dos Açores,nonEU,,
+2010Q4,2,Região Autónoma dos Açores,total,692,79511.0
+2010Q4,20,Região Autónoma dos Açores,EU,,
+2010Q4,20,Região Autónoma dos Açores,PT,,
+2010Q4,20,Região Autónoma dos Açores,nonEU,,
+2010Q4,20,Região Autónoma dos Açores,total,692,79511.0
+2010Q4,3,Região Autónoma da Madeira,EU,,
+2010Q4,3,Região Autónoma da Madeira,PT,,
+2010Q4,3,Região Autónoma da Madeira,nonEU,,
+2010Q4,3,Região Autónoma da Madeira,total,578,79563.0
+2010Q4,30,Região Autónoma da Madeira,EU,,
+2010Q4,30,Região Autónoma da Madeira,PT,,
+2010Q4,30,Região Autónoma da Madeira,nonEU,,
+2010Q4,30,Região Autónoma da Madeira,total,578,79563.0
+2010Q4,PT,Portugal,EU,,
+2010Q4,PT,Portugal,PT,,
+2010Q4,PT,Portugal,nonEU,,
+2010Q4,PT,Portugal,total,25965,3247936.0
+2011Q1,1,Continente,EU,,
+2011Q1,1,Continente,PT,,
+2011Q1,1,Continente,nonEU,,
+2011Q1,1,Continente,total,19763,2438156.0
+2011Q1,11,Norte,EU,,
+2011Q1,11,Norte,PT,,
+2011Q1,11,Norte,nonEU,,
+2011Q1,11,Norte,total,6250,646173.0
+2011Q1,15,Algarve,EU,,
+2011Q1,15,Algarve,PT,,
+2011Q1,15,Algarve,nonEU,,
+2011Q1,15,Algarve,total,1851,305260.0
+2011Q1,19,Centro,EU,,
+2011Q1,19,Centro,PT,,
+2011Q1,19,Centro,nonEU,,
+2011Q1,19,Centro,total,2837,276283.0
+2011Q1,1A,Grande Lisboa,EU,,
+2011Q1,1A,Grande Lisboa,PT,,
+2011Q1,1A,Grande Lisboa,nonEU,,
+2011Q1,1A,Grande Lisboa,total,4649,780277.0
+2011Q1,1B,Península de Setúbal,EU,,
+2011Q1,1B,Península de Setúbal,PT,,
+2011Q1,1B,Península de Setúbal,nonEU,,
+2011Q1,1B,Península de Setúbal,total,1785,198236.0
+2011Q1,1C,Alentejo,EU,,
+2011Q1,1C,Alentejo,PT,,
+2011Q1,1C,Alentejo,nonEU,,
+2011Q1,1C,Alentejo,total,861,74107.0
+2011Q1,1D,Oeste e Vale do Tejo,EU,,
+2011Q1,1D,Oeste e Vale do Tejo,PT,,
+2011Q1,1D,Oeste e Vale do Tejo,nonEU,,
+2011Q1,1D,Oeste e Vale do Tejo,total,1530,157820.0
+2011Q1,2,Região Autónoma dos Açores,EU,,
+2011Q1,2,Região Autónoma dos Açores,PT,,
+2011Q1,2,Região Autónoma dos Açores,nonEU,,
+2011Q1,2,Região Autónoma dos Açores,total,507,50273.0
+2011Q1,20,Região Autónoma dos Açores,EU,,
+2011Q1,20,Região Autónoma dos Açores,PT,,
+2011Q1,20,Região Autónoma dos Açores,nonEU,,
+2011Q1,20,Região Autónoma dos Açores,total,507,50273.0
+2011Q1,3,Região Autónoma da Madeira,EU,,
+2011Q1,3,Região Autónoma da Madeira,PT,,
+2011Q1,3,Região Autónoma da Madeira,nonEU,,
+2011Q1,3,Região Autónoma da Madeira,total,550,69904.0
+2011Q1,30,Região Autónoma da Madeira,EU,,
+2011Q1,30,Região Autónoma da Madeira,PT,,
+2011Q1,30,Região Autónoma da Madeira,nonEU,,
+2011Q1,30,Região Autónoma da Madeira,total,550,69904.0
+2011Q1,PT,Portugal,EU,,
+2011Q1,PT,Portugal,PT,,
+2011Q1,PT,Portugal,nonEU,,
+2011Q1,PT,Portugal,total,20820,2558333.0
+2011Q2,1,Continente,EU,,
+2011Q2,1,Continente,PT,,
+2011Q2,1,Continente,nonEU,,
+2011Q2,1,Continente,total,18881,2236516.0
+2011Q2,11,Norte,EU,,
+2011Q2,11,Norte,PT,,
+2011Q2,11,Norte,nonEU,,
+2011Q2,11,Norte,total,5913,579497.0
+2011Q2,15,Algarve,EU,,
+2011Q2,15,Algarve,PT,,
+2011Q2,15,Algarve,nonEU,,
+2011Q2,15,Algarve,total,1644,249803.0
+2011Q2,19,Centro,EU,,
+2011Q2,19,Centro,PT,,
+2011Q2,19,Centro,nonEU,,
+2011Q2,19,Centro,total,2784,249368.0
+2011Q2,1A,Grande Lisboa,EU,,
+2011Q2,1A,Grande Lisboa,PT,,
+2011Q2,1A,Grande Lisboa,nonEU,,
+2011Q2,1A,Grande Lisboa,total,4492,772338.0
+2011Q2,1B,Península de Setúbal,EU,,
+2011Q2,1B,Península de Setúbal,PT,,
+2011Q2,1B,Península de Setúbal,nonEU,,
+2011Q2,1B,Península de Setúbal,total,1705,180439.0
+2011Q2,1C,Alentejo,EU,,
+2011Q2,1C,Alentejo,PT,,
+2011Q2,1C,Alentejo,nonEU,,
+2011Q2,1C,Alentejo,total,769,61862.0
+2011Q2,1D,Oeste e Vale do Tejo,EU,,
+2011Q2,1D,Oeste e Vale do Tejo,PT,,
+2011Q2,1D,Oeste e Vale do Tejo,nonEU,,
+2011Q2,1D,Oeste e Vale do Tejo,total,1574,143208.0
+2011Q2,2,Região Autónoma dos Açores,EU,,
+2011Q2,2,Região Autónoma dos Açores,PT,,
+2011Q2,2,Região Autónoma dos Açores,nonEU,,
+2011Q2,2,Região Autónoma dos Açores,total,306,26865.0
+2011Q2,20,Região Autónoma dos Açores,EU,,
+2011Q2,20,Região Autónoma dos Açores,PT,,
+2011Q2,20,Região Autónoma dos Açores,nonEU,,
+2011Q2,20,Região Autónoma dos Açores,total,306,26865.0
+2011Q2,3,Região Autónoma da Madeira,EU,,
+2011Q2,3,Região Autónoma da Madeira,PT,,
+2011Q2,3,Região Autónoma da Madeira,nonEU,,
+2011Q2,3,Região Autónoma da Madeira,total,419,56176.0
+2011Q2,30,Região Autónoma da Madeira,EU,,
+2011Q2,30,Região Autónoma da Madeira,PT,,
+2011Q2,30,Região Autónoma da Madeira,nonEU,,
+2011Q2,30,Região Autónoma da Madeira,total,419,56176.0
+2011Q2,PT,Portugal,EU,,
+2011Q2,PT,Portugal,PT,,
+2011Q2,PT,Portugal,nonEU,,
+2011Q2,PT,Portugal,total,19606,2319557.0
+2011Q3,1,Continente,EU,,
+2011Q3,1,Continente,PT,,
+2011Q3,1,Continente,nonEU,,
+2011Q3,1,Continente,total,16816,1871072.0
+2011Q3,11,Norte,EU,,
+2011Q3,11,Norte,PT,,
+2011Q3,11,Norte,nonEU,,
+2011Q3,11,Norte,total,5860,547135.0
+2011Q3,15,Algarve,EU,,
+2011Q3,15,Algarve,PT,,
+2011Q3,15,Algarve,nonEU,,
+2011Q3,15,Algarve,total,1544,237637.0
+2011Q3,19,Centro,EU,,
+2011Q3,19,Centro,PT,,
+2011Q3,19,Centro,nonEU,,
+2011Q3,19,Centro,total,2532,213031.0
+2011Q3,1A,Grande Lisboa,EU,,
+2011Q3,1A,Grande Lisboa,PT,,
+2011Q3,1A,Grande Lisboa,nonEU,,
+2011Q3,1A,Grande Lisboa,total,3313,546519.0
+2011Q3,1B,Península de Setúbal,EU,,
+2011Q3,1B,Península de Setúbal,PT,,
+2011Q3,1B,Península de Setúbal,nonEU,,
+2011Q3,1B,Península de Setúbal,total,1371,137310.0
+2011Q3,1C,Alentejo,EU,,
+2011Q3,1C,Alentejo,PT,,
+2011Q3,1C,Alentejo,nonEU,,
+2011Q3,1C,Alentejo,total,758,53437.0
+2011Q3,1D,Oeste e Vale do Tejo,EU,,
+2011Q3,1D,Oeste e Vale do Tejo,PT,,
+2011Q3,1D,Oeste e Vale do Tejo,nonEU,,
+2011Q3,1D,Oeste e Vale do Tejo,total,1438,136003.0
+2011Q3,2,Região Autónoma dos Açores,EU,,
+2011Q3,2,Região Autónoma dos Açores,PT,,
+2011Q3,2,Região Autónoma dos Açores,nonEU,,
+2011Q3,2,Região Autónoma dos Açores,total,294,24023.0
+2011Q3,20,Região Autónoma dos Açores,EU,,
+2011Q3,20,Região Autónoma dos Açores,PT,,
+2011Q3,20,Região Autónoma dos Açores,nonEU,,
+2011Q3,20,Região Autónoma dos Açores,total,294,24023.0
+2011Q3,3,Região Autónoma da Madeira,EU,,
+2011Q3,3,Região Autónoma da Madeira,PT,,
+2011Q3,3,Região Autónoma da Madeira,nonEU,,
+2011Q3,3,Região Autónoma da Madeira,total,423,54990.0
+2011Q3,30,Região Autónoma da Madeira,EU,,
+2011Q3,30,Região Autónoma da Madeira,PT,,
+2011Q3,30,Região Autónoma da Madeira,nonEU,,
+2011Q3,30,Região Autónoma da Madeira,total,423,54990.0
+2011Q3,PT,Portugal,EU,,
+2011Q3,PT,Portugal,PT,,
+2011Q3,PT,Portugal,nonEU,,
+2011Q3,PT,Portugal,total,17534,1950085.0
+2011Q4,1,Continente,EU,,
+2011Q4,1,Continente,PT,,
+2011Q4,1,Continente,nonEU,,
+2011Q4,1,Continente,total,18131,2018536.0
+2011Q4,11,Norte,EU,,
+2011Q4,11,Norte,PT,,
+2011Q4,11,Norte,nonEU,,
+2011Q4,11,Norte,total,6218,610722.0
+2011Q4,15,Algarve,EU,,
+2011Q4,15,Algarve,PT,,
+2011Q4,15,Algarve,nonEU,,
+2011Q4,15,Algarve,total,1945,269077.0
+2011Q4,19,Centro,EU,,
+2011Q4,19,Centro,PT,,
+2011Q4,19,Centro,nonEU,,
+2011Q4,19,Centro,total,2680,222295.0
+2011Q4,1A,Grande Lisboa,EU,,
+2011Q4,1A,Grande Lisboa,PT,,
+2011Q4,1A,Grande Lisboa,nonEU,,
+2011Q4,1A,Grande Lisboa,total,3586,573066.0
+2011Q4,1B,Península de Setúbal,EU,,
+2011Q4,1B,Península de Setúbal,PT,,
+2011Q4,1B,Península de Setúbal,nonEU,,
+2011Q4,1B,Península de Setúbal,total,1480,138292.0
+2011Q4,1C,Alentejo,EU,,
+2011Q4,1C,Alentejo,PT,,
+2011Q4,1C,Alentejo,nonEU,,
+2011Q4,1C,Alentejo,total,833,70625.0
+2011Q4,1D,Oeste e Vale do Tejo,EU,,
+2011Q4,1D,Oeste e Vale do Tejo,PT,,
+2011Q4,1D,Oeste e Vale do Tejo,nonEU,,
+2011Q4,1D,Oeste e Vale do Tejo,total,1388,134459.0
+2011Q4,2,Região Autónoma dos Açores,EU,,
+2011Q4,2,Região Autónoma dos Açores,PT,,
+2011Q4,2,Região Autónoma dos Açores,nonEU,,
+2011Q4,2,Região Autónoma dos Açores,total,311,26957.0
+2011Q4,20,Região Autónoma dos Açores,EU,,
+2011Q4,20,Região Autónoma dos Açores,PT,,
+2011Q4,20,Região Autónoma dos Açores,nonEU,,
+2011Q4,20,Região Autónoma dos Açores,total,311,26957.0
+2011Q4,3,Região Autónoma da Madeira,EU,,
+2011Q4,3,Região Autónoma da Madeira,PT,,
+2011Q4,3,Região Autónoma da Madeira,nonEU,,
+2011Q4,3,Região Autónoma da Madeira,total,525,61637.0
+2011Q4,30,Região Autónoma da Madeira,EU,,
+2011Q4,30,Região Autónoma da Madeira,PT,,
+2011Q4,30,Região Autónoma da Madeira,nonEU,,
+2011Q4,30,Região Autónoma da Madeira,total,525,61637.0
+2011Q4,PT,Portugal,EU,,
+2011Q4,PT,Portugal,PT,,
+2011Q4,PT,Portugal,nonEU,,
+2011Q4,PT,Portugal,total,18968,2107130.0
+2012Q1,1,Continente,EU,,
+2012Q1,1,Continente,PT,,
+2012Q1,1,Continente,nonEU,,
+2012Q1,1,Continente,total,14518,1581469.0
+2012Q1,11,Norte,EU,,
+2012Q1,11,Norte,PT,,
+2012Q1,11,Norte,nonEU,,
+2012Q1,11,Norte,total,4946,467896.0
+2012Q1,15,Algarve,EU,,
+2012Q1,15,Algarve,PT,,
+2012Q1,15,Algarve,nonEU,,
+2012Q1,15,Algarve,total,1457,210948.0
+2012Q1,19,Centro,EU,,
+2012Q1,19,Centro,PT,,
+2012Q1,19,Centro,nonEU,,
+2012Q1,19,Centro,total,2091,165518.0
+2012Q1,1A,Grande Lisboa,EU,,
+2012Q1,1A,Grande Lisboa,PT,,
+2012Q1,1A,Grande Lisboa,nonEU,,
+2012Q1,1A,Grande Lisboa,total,2993,474174.0
+2012Q1,1B,Península de Setúbal,EU,,
+2012Q1,1B,Península de Setúbal,PT,,
+2012Q1,1B,Península de Setúbal,nonEU,,
+2012Q1,1B,Península de Setúbal,total,1217,108644.0
+2012Q1,1C,Alentejo,EU,,
+2012Q1,1C,Alentejo,PT,,
+2012Q1,1C,Alentejo,nonEU,,
+2012Q1,1C,Alentejo,total,556,39062.0
+2012Q1,1D,Oeste e Vale do Tejo,EU,,
+2012Q1,1D,Oeste e Vale do Tejo,PT,,
+2012Q1,1D,Oeste e Vale do Tejo,nonEU,,
+2012Q1,1D,Oeste e Vale do Tejo,total,1257,115227.0
+2012Q1,2,Região Autónoma dos Açores,EU,,
+2012Q1,2,Região Autónoma dos Açores,PT,,
+2012Q1,2,Região Autónoma dos Açores,nonEU,,
+2012Q1,2,Região Autónoma dos Açores,total,250,19187.0
+2012Q1,20,Região Autónoma dos Açores,EU,,
+2012Q1,20,Região Autónoma dos Açores,PT,,
+2012Q1,20,Região Autónoma dos Açores,nonEU,,
+2012Q1,20,Região Autónoma dos Açores,total,250,19187.0
+2012Q1,3,Região Autónoma da Madeira,EU,,
+2012Q1,3,Região Autónoma da Madeira,PT,,
+2012Q1,3,Região Autónoma da Madeira,nonEU,,
+2012Q1,3,Região Autónoma da Madeira,total,413,58647.0
+2012Q1,30,Região Autónoma da Madeira,EU,,
+2012Q1,30,Região Autónoma da Madeira,PT,,
+2012Q1,30,Região Autónoma da Madeira,nonEU,,
+2012Q1,30,Região Autónoma da Madeira,total,413,58647.0
+2012Q1,PT,Portugal,EU,,
+2012Q1,PT,Portugal,PT,,
+2012Q1,PT,Portugal,nonEU,,
+2012Q1,PT,Portugal,total,15182,1659303.0
+2012Q2,1,Continente,EU,,
+2012Q2,1,Continente,PT,,
+2012Q2,1,Continente,nonEU,,
+2012Q2,1,Continente,total,15341,1620327.0
+2012Q2,11,Norte,EU,,
+2012Q2,11,Norte,PT,,
+2012Q2,11,Norte,nonEU,,
+2012Q2,11,Norte,total,5118,448514.0
+2012Q2,15,Algarve,EU,,
+2012Q2,15,Algarve,PT,,
+2012Q2,15,Algarve,nonEU,,
+2012Q2,15,Algarve,total,1602,212643.0
+2012Q2,19,Centro,EU,,
+2012Q2,19,Centro,PT,,
+2012Q2,19,Centro,nonEU,,
+2012Q2,19,Centro,total,2078,167754.0
+2012Q2,1A,Grande Lisboa,EU,,
+2012Q2,1A,Grande Lisboa,PT,,
+2012Q2,1A,Grande Lisboa,nonEU,,
+2012Q2,1A,Grande Lisboa,total,3209,504342.0
+2012Q2,1B,Península de Setúbal,EU,,
+2012Q2,1B,Península de Setúbal,PT,,
+2012Q2,1B,Península de Setúbal,nonEU,,
+2012Q2,1B,Península de Setúbal,total,1330,120786.0
+2012Q2,1C,Alentejo,EU,,
+2012Q2,1C,Alentejo,PT,,
+2012Q2,1C,Alentejo,nonEU,,
+2012Q2,1C,Alentejo,total,695,50892.0
+2012Q2,1D,Oeste e Vale do Tejo,EU,,
+2012Q2,1D,Oeste e Vale do Tejo,PT,,
+2012Q2,1D,Oeste e Vale do Tejo,nonEU,,
+2012Q2,1D,Oeste e Vale do Tejo,total,1310,115395.0
+2012Q2,2,Região Autónoma dos Açores,EU,,
+2012Q2,2,Região Autónoma dos Açores,PT,,
+2012Q2,2,Região Autónoma dos Açores,nonEU,,
+2012Q2,2,Região Autónoma dos Açores,total,182,13420.0
+2012Q2,20,Região Autónoma dos Açores,EU,,
+2012Q2,20,Região Autónoma dos Açores,PT,,
+2012Q2,20,Região Autónoma dos Açores,nonEU,,
+2012Q2,20,Região Autónoma dos Açores,total,182,13420.0
+2012Q2,3,Região Autónoma da Madeira,EU,,
+2012Q2,3,Região Autónoma da Madeira,PT,,
+2012Q2,3,Região Autónoma da Madeira,nonEU,,
+2012Q2,3,Região Autónoma da Madeira,total,344,39769.0
+2012Q2,30,Região Autónoma da Madeira,EU,,
+2012Q2,30,Região Autónoma da Madeira,PT,,
+2012Q2,30,Região Autónoma da Madeira,nonEU,,
+2012Q2,30,Região Autónoma da Madeira,total,344,39769.0
+2012Q2,PT,Portugal,EU,,
+2012Q2,PT,Portugal,PT,,
+2012Q2,PT,Portugal,nonEU,,
+2012Q2,PT,Portugal,total,15867,1673516.0
+2012Q3,1,Continente,EU,,
+2012Q3,1,Continente,PT,,
+2012Q3,1,Continente,nonEU,,
+2012Q3,1,Continente,total,14442,1461926.0
+2012Q3,11,Norte,EU,,
+2012Q3,11,Norte,PT,,
+2012Q3,11,Norte,nonEU,,
+2012Q3,11,Norte,total,4971,425734.0
+2012Q3,15,Algarve,EU,,
+2012Q3,15,Algarve,PT,,
+2012Q3,15,Algarve,nonEU,,
+2012Q3,15,Algarve,total,1420,207866.0
+2012Q3,19,Centro,EU,,
+2012Q3,19,Centro,PT,,
+2012Q3,19,Centro,nonEU,,
+2012Q3,19,Centro,total,2326,170890.0
+2012Q3,1A,Grande Lisboa,EU,,
+2012Q3,1A,Grande Lisboa,PT,,
+2012Q3,1A,Grande Lisboa,nonEU,,
+2012Q3,1A,Grande Lisboa,total,2741,409222.0
+2012Q3,1B,Península de Setúbal,EU,,
+2012Q3,1B,Península de Setúbal,PT,,
+2012Q3,1B,Península de Setúbal,nonEU,,
+2012Q3,1B,Península de Setúbal,total,1199,109055.0
+2012Q3,1C,Alentejo,EU,,
+2012Q3,1C,Alentejo,PT,,
+2012Q3,1C,Alentejo,nonEU,,
+2012Q3,1C,Alentejo,total,606,40747.0
+2012Q3,1D,Oeste e Vale do Tejo,EU,,
+2012Q3,1D,Oeste e Vale do Tejo,PT,,
+2012Q3,1D,Oeste e Vale do Tejo,nonEU,,
+2012Q3,1D,Oeste e Vale do Tejo,total,1181,98413.0
+2012Q3,2,Região Autónoma dos Açores,EU,,
+2012Q3,2,Região Autónoma dos Açores,PT,,
+2012Q3,2,Região Autónoma dos Açores,nonEU,,
+2012Q3,2,Região Autónoma dos Açores,total,207,15466.0
+2012Q3,20,Região Autónoma dos Açores,EU,,
+2012Q3,20,Região Autónoma dos Açores,PT,,
+2012Q3,20,Região Autónoma dos Açores,nonEU,,
+2012Q3,20,Região Autónoma dos Açores,total,207,15466.0
+2012Q3,3,Região Autónoma da Madeira,EU,,
+2012Q3,3,Região Autónoma da Madeira,PT,,
+2012Q3,3,Região Autónoma da Madeira,nonEU,,
+2012Q3,3,Região Autónoma da Madeira,total,398,50250.0
+2012Q3,30,Região Autónoma da Madeira,EU,,
+2012Q3,30,Região Autónoma da Madeira,PT,,
+2012Q3,30,Região Autónoma da Madeira,nonEU,,
+2012Q3,30,Região Autónoma da Madeira,total,398,50250.0
+2012Q3,PT,Portugal,EU,,
+2012Q3,PT,Portugal,PT,,
+2012Q3,PT,Portugal,nonEU,,
+2012Q3,PT,Portugal,total,15047,1527642.0
+2012Q4,1,Continente,EU,,
+2012Q4,1,Continente,PT,,
+2012Q4,1,Continente,nonEU,,
+2012Q4,1,Continente,total,15614,1650408.0
+2012Q4,11,Norte,EU,,
+2012Q4,11,Norte,PT,,
+2012Q4,11,Norte,nonEU,,
+2012Q4,11,Norte,total,4972,431082.0
+2012Q4,15,Algarve,EU,,
+2012Q4,15,Algarve,PT,,
+2012Q4,15,Algarve,nonEU,,
+2012Q4,15,Algarve,total,1576,222364.0
+2012Q4,19,Centro,EU,,
+2012Q4,19,Centro,PT,,
+2012Q4,19,Centro,nonEU,,
+2012Q4,19,Centro,total,2326,178851.0
+2012Q4,1A,Grande Lisboa,EU,,
+2012Q4,1A,Grande Lisboa,PT,,
+2012Q4,1A,Grande Lisboa,nonEU,,
+2012Q4,1A,Grande Lisboa,total,3252,522501.0
+2012Q4,1B,Península de Setúbal,EU,,
+2012Q4,1B,Península de Setúbal,PT,,
+2012Q4,1B,Península de Setúbal,nonEU,,
+2012Q4,1B,Península de Setúbal,total,1439,138828.0
+2012Q4,1C,Alentejo,EU,,
+2012Q4,1C,Alentejo,PT,,
+2012Q4,1C,Alentejo,nonEU,,
+2012Q4,1C,Alentejo,total,663,41205.0
+2012Q4,1D,Oeste e Vale do Tejo,EU,,
+2012Q4,1D,Oeste e Vale do Tejo,PT,,
+2012Q4,1D,Oeste e Vale do Tejo,nonEU,,
+2012Q4,1D,Oeste e Vale do Tejo,total,1386,115577.0
+2012Q4,2,Região Autónoma dos Açores,EU,,
+2012Q4,2,Região Autónoma dos Açores,PT,,
+2012Q4,2,Região Autónoma dos Açores,nonEU,,
+2012Q4,2,Região Autónoma dos Açores,total,374,38666.0
+2012Q4,20,Região Autónoma dos Açores,EU,,
+2012Q4,20,Região Autónoma dos Açores,PT,,
+2012Q4,20,Região Autónoma dos Açores,nonEU,,
+2012Q4,20,Região Autónoma dos Açores,total,374,38666.0
+2012Q4,3,Região Autónoma da Madeira,EU,,
+2012Q4,3,Região Autónoma da Madeira,PT,,
+2012Q4,3,Região Autónoma da Madeira,nonEU,,
+2012Q4,3,Região Autónoma da Madeira,total,501,70927.0
+2012Q4,30,Região Autónoma da Madeira,EU,,
+2012Q4,30,Região Autónoma da Madeira,PT,,
+2012Q4,30,Região Autónoma da Madeira,nonEU,,
+2012Q4,30,Região Autónoma da Madeira,total,501,70927.0
+2012Q4,PT,Portugal,EU,,
+2012Q4,PT,Portugal,PT,,
+2012Q4,PT,Portugal,nonEU,,
+2012Q4,PT,Portugal,total,16489,1760000.0
+2013Q1,1,Continente,EU,,
+2013Q1,1,Continente,PT,,
+2013Q1,1,Continente,nonEU,,
+2013Q1,1,Continente,total,12586,1279518.0
+2013Q1,11,Norte,EU,,
+2013Q1,11,Norte,PT,,
+2013Q1,11,Norte,nonEU,,
+2013Q1,11,Norte,total,4102,344108.0
+2013Q1,15,Algarve,EU,,
+2013Q1,15,Algarve,PT,,
+2013Q1,15,Algarve,nonEU,,
+2013Q1,15,Algarve,total,1209,163500.0
+2013Q1,19,Centro,EU,,
+2013Q1,19,Centro,PT,,
+2013Q1,19,Centro,nonEU,,
+2013Q1,19,Centro,total,1955,158998.0
+2013Q1,1A,Grande Lisboa,EU,,
+2013Q1,1A,Grande Lisboa,PT,,
+2013Q1,1A,Grande Lisboa,nonEU,,
+2013Q1,1A,Grande Lisboa,total,2663,398804.0
+2013Q1,1B,Península de Setúbal,EU,,
+2013Q1,1B,Península de Setúbal,PT,,
+2013Q1,1B,Península de Setúbal,nonEU,,
+2013Q1,1B,Península de Setúbal,total,1149,100571.0
+2013Q1,1C,Alentejo,EU,,
+2013Q1,1C,Alentejo,PT,,
+2013Q1,1C,Alentejo,nonEU,,
+2013Q1,1C,Alentejo,total,519,33169.0
+2013Q1,1D,Oeste e Vale do Tejo,EU,,
+2013Q1,1D,Oeste e Vale do Tejo,PT,,
+2013Q1,1D,Oeste e Vale do Tejo,nonEU,,
+2013Q1,1D,Oeste e Vale do Tejo,total,988,80368.0
+2013Q1,2,Região Autónoma dos Açores,EU,,
+2013Q1,2,Região Autónoma dos Açores,PT,,
+2013Q1,2,Região Autónoma dos Açores,nonEU,,
+2013Q1,2,Região Autónoma dos Açores,total,205,15997.0
+2013Q1,20,Região Autónoma dos Açores,EU,,
+2013Q1,20,Região Autónoma dos Açores,PT,,
+2013Q1,20,Região Autónoma dos Açores,nonEU,,
+2013Q1,20,Região Autónoma dos Açores,total,205,15997.0
+2013Q1,3,Região Autónoma da Madeira,EU,,
+2013Q1,3,Região Autónoma da Madeira,PT,,
+2013Q1,3,Região Autónoma da Madeira,nonEU,,
+2013Q1,3,Região Autónoma da Madeira,total,376,56459.0
+2013Q1,30,Região Autónoma da Madeira,EU,,
+2013Q1,30,Região Autónoma da Madeira,PT,,
+2013Q1,30,Região Autónoma da Madeira,nonEU,,
+2013Q1,30,Região Autónoma da Madeira,total,376,56459.0
+2013Q1,PT,Portugal,EU,,
+2013Q1,PT,Portugal,PT,,
+2013Q1,PT,Portugal,nonEU,,
+2013Q1,PT,Portugal,total,13167,1351974.0
+2013Q2,1,Continente,EU,,
+2013Q2,1,Continente,PT,,
+2013Q2,1,Continente,nonEU,,
+2013Q2,1,Continente,total,15470,1609859.0
+2013Q2,11,Norte,EU,,
+2013Q2,11,Norte,PT,,
+2013Q2,11,Norte,nonEU,,
+2013Q2,11,Norte,total,4830,401526.0
+2013Q2,15,Algarve,EU,,
+2013Q2,15,Algarve,PT,,
+2013Q2,15,Algarve,nonEU,,
+2013Q2,15,Algarve,total,1560,204396.0
+2013Q2,19,Centro,EU,,
+2013Q2,19,Centro,PT,,
+2013Q2,19,Centro,nonEU,,
+2013Q2,19,Centro,total,2194,173155.0
+2013Q2,1A,Grande Lisboa,EU,,
+2013Q2,1A,Grande Lisboa,PT,,
+2013Q2,1A,Grande Lisboa,nonEU,,
+2013Q2,1A,Grande Lisboa,total,3572,570432.0
+2013Q2,1B,Península de Setúbal,EU,,
+2013Q2,1B,Península de Setúbal,PT,,
+2013Q2,1B,Península de Setúbal,nonEU,,
+2013Q2,1B,Península de Setúbal,total,1399,123286.0
+2013Q2,1C,Alentejo,EU,,
+2013Q2,1C,Alentejo,PT,,
+2013Q2,1C,Alentejo,nonEU,,
+2013Q2,1C,Alentejo,total,653,39251.0
+2013Q2,1D,Oeste e Vale do Tejo,EU,,
+2013Q2,1D,Oeste e Vale do Tejo,PT,,
+2013Q2,1D,Oeste e Vale do Tejo,nonEU,,
+2013Q2,1D,Oeste e Vale do Tejo,total,1262,97813.0
+2013Q2,2,Região Autónoma dos Açores,EU,,
+2013Q2,2,Região Autónoma dos Açores,PT,,
+2013Q2,2,Região Autónoma dos Açores,nonEU,,
+2013Q2,2,Região Autónoma dos Açores,total,204,17238.0
+2013Q2,20,Região Autónoma dos Açores,EU,,
+2013Q2,20,Região Autónoma dos Açores,PT,,
+2013Q2,20,Região Autónoma dos Açores,nonEU,,
+2013Q2,20,Região Autónoma dos Açores,total,204,17238.0
+2013Q2,3,Região Autónoma da Madeira,EU,,
+2013Q2,3,Região Autónoma da Madeira,PT,,
+2013Q2,3,Região Autónoma da Madeira,nonEU,,
+2013Q2,3,Região Autónoma da Madeira,total,336,40309.0
+2013Q2,30,Região Autónoma da Madeira,EU,,
+2013Q2,30,Região Autónoma da Madeira,PT,,
+2013Q2,30,Região Autónoma da Madeira,nonEU,,
+2013Q2,30,Região Autónoma da Madeira,total,336,40309.0
+2013Q2,PT,Portugal,EU,,
+2013Q2,PT,Portugal,PT,,
+2013Q2,PT,Portugal,nonEU,,
+2013Q2,PT,Portugal,total,16010,1667407.0
+2013Q3,1,Continente,EU,,
+2013Q3,1,Continente,PT,,
+2013Q3,1,Continente,nonEU,,
+2013Q3,1,Continente,total,16026,1762521.0
+2013Q3,11,Norte,EU,,
+2013Q3,11,Norte,PT,,
+2013Q3,11,Norte,nonEU,,
+2013Q3,11,Norte,total,4981,438248.0
+2013Q3,15,Algarve,EU,,
+2013Q3,15,Algarve,PT,,
+2013Q3,15,Algarve,nonEU,,
+2013Q3,15,Algarve,total,1890,251365.0
+2013Q3,19,Centro,EU,,
+2013Q3,19,Centro,PT,,
+2013Q3,19,Centro,nonEU,,
+2013Q3,19,Centro,total,2282,159852.0
+2013Q3,1A,Grande Lisboa,EU,,
+2013Q3,1A,Grande Lisboa,PT,,
+2013Q3,1A,Grande Lisboa,nonEU,,
+2013Q3,1A,Grande Lisboa,total,3588,644883.0
+2013Q3,1B,Península de Setúbal,EU,,
+2013Q3,1B,Península de Setúbal,PT,,
+2013Q3,1B,Península de Setúbal,nonEU,,
+2013Q3,1B,Península de Setúbal,total,1411,128244.0
+2013Q3,1C,Alentejo,EU,,
+2013Q3,1C,Alentejo,PT,,
+2013Q3,1C,Alentejo,nonEU,,
+2013Q3,1C,Alentejo,total,605,39708.0
+2013Q3,1D,Oeste e Vale do Tejo,EU,,
+2013Q3,1D,Oeste e Vale do Tejo,PT,,
+2013Q3,1D,Oeste e Vale do Tejo,nonEU,,
+2013Q3,1D,Oeste e Vale do Tejo,total,1269,100221.0
+2013Q3,2,Região Autónoma dos Açores,EU,,
+2013Q3,2,Região Autónoma dos Açores,PT,,
+2013Q3,2,Região Autónoma dos Açores,nonEU,,
+2013Q3,2,Região Autónoma dos Açores,total,284,19952.0
+2013Q3,20,Região Autónoma dos Açores,EU,,
+2013Q3,20,Região Autónoma dos Açores,PT,,
+2013Q3,20,Região Autónoma dos Açores,nonEU,,
+2013Q3,20,Região Autónoma dos Açores,total,284,19952.0
+2013Q3,3,Região Autónoma da Madeira,EU,,
+2013Q3,3,Região Autónoma da Madeira,PT,,
+2013Q3,3,Região Autónoma da Madeira,nonEU,,
+2013Q3,3,Região Autónoma da Madeira,total,337,41612.0
+2013Q3,30,Região Autónoma da Madeira,EU,,
+2013Q3,30,Região Autónoma da Madeira,PT,,
+2013Q3,30,Região Autónoma da Madeira,nonEU,,
+2013Q3,30,Região Autónoma da Madeira,total,337,41612.0
+2013Q3,PT,Portugal,EU,,
+2013Q3,PT,Portugal,PT,,
+2013Q3,PT,Portugal,nonEU,,
+2013Q3,PT,Portugal,total,16646,1824085.0
+2013Q4,1,Continente,EU,,
+2013Q4,1,Continente,PT,,
+2013Q4,1,Continente,nonEU,,
+2013Q4,1,Continente,total,19487,2269327.0
+2013Q4,11,Norte,EU,,
+2013Q4,11,Norte,PT,,
+2013Q4,11,Norte,nonEU,,
+2013Q4,11,Norte,total,5710,522349.0
+2013Q4,15,Algarve,EU,,
+2013Q4,15,Algarve,PT,,
+2013Q4,15,Algarve,nonEU,,
+2013Q4,15,Algarve,total,2443,357466.0
+2013Q4,19,Centro,EU,,
+2013Q4,19,Centro,PT,,
+2013Q4,19,Centro,nonEU,,
+2013Q4,19,Centro,total,2632,208111.0
+2013Q4,1A,Grande Lisboa,EU,,
+2013Q4,1A,Grande Lisboa,PT,,
+2013Q4,1A,Grande Lisboa,nonEU,,
+2013Q4,1A,Grande Lisboa,total,4463,787781.0
+2013Q4,1B,Península de Setúbal,EU,,
+2013Q4,1B,Península de Setúbal,PT,,
+2013Q4,1B,Península de Setúbal,nonEU,,
+2013Q4,1B,Península de Setúbal,total,1800,178291.0
+2013Q4,1C,Alentejo,EU,,
+2013Q4,1C,Alentejo,PT,,
+2013Q4,1C,Alentejo,nonEU,,
+2013Q4,1C,Alentejo,total,792,59206.0
+2013Q4,1D,Oeste e Vale do Tejo,EU,,
+2013Q4,1D,Oeste e Vale do Tejo,PT,,
+2013Q4,1D,Oeste e Vale do Tejo,nonEU,,
+2013Q4,1D,Oeste e Vale do Tejo,total,1647,156123.0
+2013Q4,2,Região Autónoma dos Açores,EU,,
+2013Q4,2,Região Autónoma dos Açores,PT,,
+2013Q4,2,Região Autónoma dos Açores,nonEU,,
+2013Q4,2,Região Autónoma dos Açores,total,344,30325.0
+2013Q4,20,Região Autónoma dos Açores,EU,,
+2013Q4,20,Região Autónoma dos Açores,PT,,
+2013Q4,20,Região Autónoma dos Açores,nonEU,,
+2013Q4,20,Região Autónoma dos Açores,total,344,30325.0
+2013Q4,3,Região Autónoma da Madeira,EU,,
+2013Q4,3,Região Autónoma da Madeira,PT,,
+2013Q4,3,Região Autónoma da Madeira,nonEU,,
+2013Q4,3,Região Autónoma da Madeira,total,404,49550.0
+2013Q4,30,Região Autónoma da Madeira,EU,,
+2013Q4,30,Região Autónoma da Madeira,PT,,
+2013Q4,30,Região Autónoma da Madeira,nonEU,,
+2013Q4,30,Região Autónoma da Madeira,total,404,49550.0
+2013Q4,PT,Portugal,EU,,
+2013Q4,PT,Portugal,PT,,
+2013Q4,PT,Portugal,nonEU,,
+2013Q4,PT,Portugal,total,20235,2349202.0
+2014Q1,1,Continente,EU,,
+2014Q1,1,Continente,PT,,
+2014Q1,1,Continente,nonEU,,
+2014Q1,1,Continente,total,14818,1762219.0
+2014Q1,11,Norte,EU,,
+2014Q1,11,Norte,PT,,
+2014Q1,11,Norte,nonEU,,
+2014Q1,11,Norte,total,4488,400249.0
+2014Q1,15,Algarve,EU,,
+2014Q1,15,Algarve,PT,,
+2014Q1,15,Algarve,nonEU,,
+2014Q1,15,Algarve,total,1706,269316.0
+2014Q1,19,Centro,EU,,
+2014Q1,19,Centro,PT,,
+2014Q1,19,Centro,nonEU,,
+2014Q1,19,Centro,total,1856,147627.0
+2014Q1,1A,Grande Lisboa,EU,,
+2014Q1,1A,Grande Lisboa,PT,,
+2014Q1,1A,Grande Lisboa,nonEU,,
+2014Q1,1A,Grande Lisboa,total,3754,681275.0
+2014Q1,1B,Península de Setúbal,EU,,
+2014Q1,1B,Península de Setúbal,PT,,
+2014Q1,1B,Península de Setúbal,nonEU,,
+2014Q1,1B,Península de Setúbal,total,1275,120875.0
+2014Q1,1C,Alentejo,EU,,
+2014Q1,1C,Alentejo,PT,,
+2014Q1,1C,Alentejo,nonEU,,
+2014Q1,1C,Alentejo,total,636,48447.0
+2014Q1,1D,Oeste e Vale do Tejo,EU,,
+2014Q1,1D,Oeste e Vale do Tejo,PT,,
+2014Q1,1D,Oeste e Vale do Tejo,nonEU,,
+2014Q1,1D,Oeste e Vale do Tejo,total,1103,94430.0
+2014Q1,2,Região Autónoma dos Açores,EU,,
+2014Q1,2,Região Autónoma dos Açores,PT,,
+2014Q1,2,Região Autónoma dos Açores,nonEU,,
+2014Q1,2,Região Autónoma dos Açores,total,253,18740.0
+2014Q1,20,Região Autónoma dos Açores,EU,,
+2014Q1,20,Região Autónoma dos Açores,PT,,
+2014Q1,20,Região Autónoma dos Açores,nonEU,,
+2014Q1,20,Região Autónoma dos Açores,total,253,18740.0
+2014Q1,3,Região Autónoma da Madeira,EU,,
+2014Q1,3,Região Autónoma da Madeira,PT,,
+2014Q1,3,Região Autónoma da Madeira,nonEU,,
+2014Q1,3,Região Autónoma da Madeira,total,342,44451.0
+2014Q1,30,Região Autónoma da Madeira,EU,,
+2014Q1,30,Região Autónoma da Madeira,PT,,
+2014Q1,30,Região Autónoma da Madeira,nonEU,,
+2014Q1,30,Região Autónoma da Madeira,total,342,44451.0
+2014Q1,PT,Portugal,EU,,
+2014Q1,PT,Portugal,PT,,
+2014Q1,PT,Portugal,nonEU,,
+2014Q1,PT,Portugal,total,15413,1825411.0
+2014Q2,1,Continente,EU,,
+2014Q2,1,Continente,PT,,
+2014Q2,1,Continente,nonEU,,
+2014Q2,1,Continente,total,15880,1943650.0
+2014Q2,11,Norte,EU,,
+2014Q2,11,Norte,PT,,
+2014Q2,11,Norte,nonEU,,
+2014Q2,11,Norte,total,4635,443499.0
+2014Q2,15,Algarve,EU,,
+2014Q2,15,Algarve,PT,,
+2014Q2,15,Algarve,nonEU,,
+2014Q2,15,Algarve,total,1908,294723.0
+2014Q2,19,Centro,EU,,
+2014Q2,19,Centro,PT,,
+2014Q2,19,Centro,nonEU,,
+2014Q2,19,Centro,total,2126,169185.0
+2014Q2,1A,Grande Lisboa,EU,,
+2014Q2,1A,Grande Lisboa,PT,,
+2014Q2,1A,Grande Lisboa,nonEU,,
+2014Q2,1A,Grande Lisboa,total,3857,735814.0
+2014Q2,1B,Península de Setúbal,EU,,
+2014Q2,1B,Península de Setúbal,PT,,
+2014Q2,1B,Península de Setúbal,nonEU,,
+2014Q2,1B,Península de Setúbal,total,1420,135487.0
+2014Q2,1C,Alentejo,EU,,
+2014Q2,1C,Alentejo,PT,,
+2014Q2,1C,Alentejo,nonEU,,
+2014Q2,1C,Alentejo,total,628,45462.0
+2014Q2,1D,Oeste e Vale do Tejo,EU,,
+2014Q2,1D,Oeste e Vale do Tejo,PT,,
+2014Q2,1D,Oeste e Vale do Tejo,nonEU,,
+2014Q2,1D,Oeste e Vale do Tejo,total,1306,119480.0
+2014Q2,2,Região Autónoma dos Açores,EU,,
+2014Q2,2,Região Autónoma dos Açores,PT,,
+2014Q2,2,Região Autónoma dos Açores,nonEU,,
+2014Q2,2,Região Autónoma dos Açores,total,236,19366.0
+2014Q2,20,Região Autónoma dos Açores,EU,,
+2014Q2,20,Região Autónoma dos Açores,PT,,
+2014Q2,20,Região Autónoma dos Açores,nonEU,,
+2014Q2,20,Região Autónoma dos Açores,total,236,19366.0
+2014Q2,3,Região Autónoma da Madeira,EU,,
+2014Q2,3,Região Autónoma da Madeira,PT,,
+2014Q2,3,Região Autónoma da Madeira,nonEU,,
+2014Q2,3,Região Autónoma da Madeira,total,324,40305.0
+2014Q2,30,Região Autónoma da Madeira,EU,,
+2014Q2,30,Região Autónoma da Madeira,PT,,
+2014Q2,30,Região Autónoma da Madeira,nonEU,,
+2014Q2,30,Região Autónoma da Madeira,total,324,40305.0
+2014Q2,PT,Portugal,EU,,
+2014Q2,PT,Portugal,PT,,
+2014Q2,PT,Portugal,nonEU,,
+2014Q2,PT,Portugal,total,16441,2003321.0
+2014Q3,1,Continente,EU,,
+2014Q3,1,Continente,PT,,
+2014Q3,1,Continente,nonEU,,
+2014Q3,1,Continente,total,16379,1914119.0
+2014Q3,11,Norte,EU,,
+2014Q3,11,Norte,PT,,
+2014Q3,11,Norte,nonEU,,
+2014Q3,11,Norte,total,5029,438081.0
+2014Q3,15,Algarve,EU,,
+2014Q3,15,Algarve,PT,,
+2014Q3,15,Algarve,nonEU,,
+2014Q3,15,Algarve,total,1907,287824.0
+2014Q3,19,Centro,EU,,
+2014Q3,19,Centro,PT,,
+2014Q3,19,Centro,nonEU,,
+2014Q3,19,Centro,total,2328,171099.0
+2014Q3,1A,Grande Lisboa,EU,,
+2014Q3,1A,Grande Lisboa,PT,,
+2014Q3,1A,Grande Lisboa,nonEU,,
+2014Q3,1A,Grande Lisboa,total,3993,740842.0
+2014Q3,1B,Península de Setúbal,EU,,
+2014Q3,1B,Península de Setúbal,PT,,
+2014Q3,1B,Península de Setúbal,nonEU,,
+2014Q3,1B,Península de Setúbal,total,1210,116121.0
+2014Q3,1C,Alentejo,EU,,
+2014Q3,1C,Alentejo,PT,,
+2014Q3,1C,Alentejo,nonEU,,
+2014Q3,1C,Alentejo,total,637,45143.0
+2014Q3,1D,Oeste e Vale do Tejo,EU,,
+2014Q3,1D,Oeste e Vale do Tejo,PT,,
+2014Q3,1D,Oeste e Vale do Tejo,nonEU,,
+2014Q3,1D,Oeste e Vale do Tejo,total,1274,115008.0
+2014Q3,2,Região Autónoma dos Açores,EU,,
+2014Q3,2,Região Autónoma dos Açores,PT,,
+2014Q3,2,Região Autónoma dos Açores,nonEU,,
+2014Q3,2,Região Autónoma dos Açores,total,261,20249.0
+2014Q3,20,Região Autónoma dos Açores,EU,,
+2014Q3,20,Região Autónoma dos Açores,PT,,
+2014Q3,20,Região Autónoma dos Açores,nonEU,,
+2014Q3,20,Região Autónoma dos Açores,total,261,20249.0
+2014Q3,3,Região Autónoma da Madeira,EU,,
+2014Q3,3,Região Autónoma da Madeira,PT,,
+2014Q3,3,Região Autónoma da Madeira,nonEU,,
+2014Q3,3,Região Autónoma da Madeira,total,329,45306.0
+2014Q3,30,Região Autónoma da Madeira,EU,,
+2014Q3,30,Região Autónoma da Madeira,PT,,
+2014Q3,30,Região Autónoma da Madeira,nonEU,,
+2014Q3,30,Região Autónoma da Madeira,total,329,45306.0
+2014Q3,PT,Portugal,EU,,
+2014Q3,PT,Portugal,PT,,
+2014Q3,PT,Portugal,nonEU,,
+2014Q3,PT,Portugal,total,16970,1979674.0
+2014Q4,1,Continente,EU,,
+2014Q4,1,Continente,PT,,
+2014Q4,1,Continente,nonEU,,
+2014Q4,1,Continente,total,20201,2407285.0
+2014Q4,11,Norte,EU,,
+2014Q4,11,Norte,PT,,
+2014Q4,11,Norte,nonEU,,
+2014Q4,11,Norte,total,6283,550206.0
+2014Q4,15,Algarve,EU,,
+2014Q4,15,Algarve,PT,,
+2014Q4,15,Algarve,nonEU,,
+2014Q4,15,Algarve,total,2167,345229.0
+2014Q4,19,Centro,EU,,
+2014Q4,19,Centro,PT,,
+2014Q4,19,Centro,nonEU,,
+2014Q4,19,Centro,total,2847,212445.0
+2014Q4,1A,Grande Lisboa,EU,,
+2014Q4,1A,Grande Lisboa,PT,,
+2014Q4,1A,Grande Lisboa,nonEU,,
+2014Q4,1A,Grande Lisboa,total,4881,947173.0
+2014Q4,1B,Península de Setúbal,EU,,
+2014Q4,1B,Península de Setúbal,PT,,
+2014Q4,1B,Península de Setúbal,nonEU,,
+2014Q4,1B,Península de Setúbal,total,1617,157932.0
+2014Q4,1C,Alentejo,EU,,
+2014Q4,1C,Alentejo,PT,,
+2014Q4,1C,Alentejo,nonEU,,
+2014Q4,1C,Alentejo,total,857,59070.0
+2014Q4,1D,Oeste e Vale do Tejo,EU,,
+2014Q4,1D,Oeste e Vale do Tejo,PT,,
+2014Q4,1D,Oeste e Vale do Tejo,nonEU,,
+2014Q4,1D,Oeste e Vale do Tejo,total,1548,135230.0
+2014Q4,2,Região Autónoma dos Açores,EU,,
+2014Q4,2,Região Autónoma dos Açores,PT,,
+2014Q4,2,Região Autónoma dos Açores,nonEU,,
+2014Q4,2,Região Autónoma dos Açores,total,429,33896.0
+2014Q4,20,Região Autónoma dos Açores,EU,,
+2014Q4,20,Região Autónoma dos Açores,PT,,
+2014Q4,20,Região Autónoma dos Açores,nonEU,,
+2014Q4,20,Região Autónoma dos Açores,total,429,33896.0
+2014Q4,3,Região Autónoma da Madeira,EU,,
+2014Q4,3,Região Autónoma da Madeira,PT,,
+2014Q4,3,Região Autónoma da Madeira,nonEU,,
+2014Q4,3,Região Autónoma da Madeira,total,385,49059.0
+2014Q4,30,Região Autónoma da Madeira,EU,,
+2014Q4,30,Região Autónoma da Madeira,PT,,
+2014Q4,30,Região Autónoma da Madeira,nonEU,,
+2014Q4,30,Região Autónoma da Madeira,total,385,49059.0
+2014Q4,PT,Portugal,EU,,
+2014Q4,PT,Portugal,PT,,
+2014Q4,PT,Portugal,nonEU,,
+2014Q4,PT,Portugal,total,21015,2490239.0
+2015Q1,1,Continente,EU,,
+2015Q1,1,Continente,PT,,
+2015Q1,1,Continente,nonEU,,
+2015Q1,1,Continente,total,20858,2515201.0
+2015Q1,11,Norte,EU,,
+2015Q1,11,Norte,PT,,
+2015Q1,11,Norte,nonEU,,
+2015Q1,11,Norte,total,6307,580128.0
+2015Q1,15,Algarve,EU,,
+2015Q1,15,Algarve,PT,,
+2015Q1,15,Algarve,nonEU,,
+2015Q1,15,Algarve,total,2637,375590.0
+2015Q1,19,Centro,EU,,
+2015Q1,19,Centro,PT,,
+2015Q1,19,Centro,nonEU,,
+2015Q1,19,Centro,total,2766,219135.0
+2015Q1,1A,Grande Lisboa,EU,,
+2015Q1,1A,Grande Lisboa,PT,,
+2015Q1,1A,Grande Lisboa,nonEU,,
+2015Q1,1A,Grande Lisboa,total,4934,966424.0
+2015Q1,1B,Península de Setúbal,EU,,
+2015Q1,1B,Península de Setúbal,PT,,
+2015Q1,1B,Península de Setúbal,nonEU,,
+2015Q1,1B,Península de Setúbal,total,1781,173762.0
+2015Q1,1C,Alentejo,EU,,
+2015Q1,1C,Alentejo,PT,,
+2015Q1,1C,Alentejo,nonEU,,
+2015Q1,1C,Alentejo,total,791,60629.0
+2015Q1,1D,Oeste e Vale do Tejo,EU,,
+2015Q1,1D,Oeste e Vale do Tejo,PT,,
+2015Q1,1D,Oeste e Vale do Tejo,nonEU,,
+2015Q1,1D,Oeste e Vale do Tejo,total,1641,139532.0
+2015Q1,2,Região Autónoma dos Açores,EU,,
+2015Q1,2,Região Autónoma dos Açores,PT,,
+2015Q1,2,Região Autónoma dos Açores,nonEU,,
+2015Q1,2,Região Autónoma dos Açores,total,268,24638.0
+2015Q1,20,Região Autónoma dos Açores,EU,,
+2015Q1,20,Região Autónoma dos Açores,PT,,
+2015Q1,20,Região Autónoma dos Açores,nonEU,,
+2015Q1,20,Região Autónoma dos Açores,total,268,24638.0
+2015Q1,3,Região Autónoma da Madeira,EU,,
+2015Q1,3,Região Autónoma da Madeira,PT,,
+2015Q1,3,Região Autónoma da Madeira,nonEU,,
+2015Q1,3,Região Autónoma da Madeira,total,636,122841.0
+2015Q1,30,Região Autónoma da Madeira,EU,,
+2015Q1,30,Região Autónoma da Madeira,PT,,
+2015Q1,30,Região Autónoma da Madeira,nonEU,,
+2015Q1,30,Região Autónoma da Madeira,total,636,122841.0
+2015Q1,PT,Portugal,EU,,
+2015Q1,PT,Portugal,PT,,
+2015Q1,PT,Portugal,nonEU,,
+2015Q1,PT,Portugal,total,21762,2662680.0
+2015Q2,1,Continente,EU,,
+2015Q2,1,Continente,PT,,
+2015Q2,1,Continente,nonEU,,
+2015Q2,1,Continente,total,19956,2445576.0
+2015Q2,11,Norte,EU,,
+2015Q2,11,Norte,PT,,
+2015Q2,11,Norte,nonEU,,
+2015Q2,11,Norte,total,5995,580147.0
+2015Q2,15,Algarve,EU,,
+2015Q2,15,Algarve,PT,,
+2015Q2,15,Algarve,nonEU,,
+2015Q2,15,Algarve,total,2332,365150.0
+2015Q2,19,Centro,EU,,
+2015Q2,19,Centro,PT,,
+2015Q2,19,Centro,nonEU,,
+2015Q2,19,Centro,total,2603,210883.0
+2015Q2,1A,Grande Lisboa,EU,,
+2015Q2,1A,Grande Lisboa,PT,,
+2015Q2,1A,Grande Lisboa,nonEU,,
+2015Q2,1A,Grande Lisboa,total,4948,930656.0
+2015Q2,1B,Península de Setúbal,EU,,
+2015Q2,1B,Península de Setúbal,PT,,
+2015Q2,1B,Península de Setúbal,nonEU,,
+2015Q2,1B,Península de Setúbal,total,1762,166330.0
+2015Q2,1C,Alentejo,EU,,
+2015Q2,1C,Alentejo,PT,,
+2015Q2,1C,Alentejo,nonEU,,
+2015Q2,1C,Alentejo,total,789,56954.0
+2015Q2,1D,Oeste e Vale do Tejo,EU,,
+2015Q2,1D,Oeste e Vale do Tejo,PT,,
+2015Q2,1D,Oeste e Vale do Tejo,nonEU,,
+2015Q2,1D,Oeste e Vale do Tejo,total,1528,135456.0
+2015Q2,2,Região Autónoma dos Açores,EU,,
+2015Q2,2,Região Autónoma dos Açores,PT,,
+2015Q2,2,Região Autónoma dos Açores,nonEU,,
+2015Q2,2,Região Autónoma dos Açores,total,273,20851.0
+2015Q2,20,Região Autónoma dos Açores,EU,,
+2015Q2,20,Região Autónoma dos Açores,PT,,
+2015Q2,20,Região Autónoma dos Açores,nonEU,,
+2015Q2,20,Região Autónoma dos Açores,total,273,20851.0
+2015Q2,3,Região Autónoma da Madeira,EU,,
+2015Q2,3,Região Autónoma da Madeira,PT,,
+2015Q2,3,Região Autónoma da Madeira,nonEU,,
+2015Q2,3,Região Autónoma da Madeira,total,384,43461.0
+2015Q2,30,Região Autónoma da Madeira,EU,,
+2015Q2,30,Região Autónoma da Madeira,PT,,
+2015Q2,30,Região Autónoma da Madeira,nonEU,,
+2015Q2,30,Região Autónoma da Madeira,total,384,43461.0
+2015Q2,PT,Portugal,EU,,
+2015Q2,PT,Portugal,PT,,
+2015Q2,PT,Portugal,nonEU,,
+2015Q2,PT,Portugal,total,20614,2509888.0
+2015Q3,1,Continente,EU,,
+2015Q3,1,Continente,PT,,
+2015Q3,1,Continente,nonEU,,
+2015Q3,1,Continente,total,22155,2622091.0
+2015Q3,11,Norte,EU,,
+2015Q3,11,Norte,PT,,
+2015Q3,11,Norte,nonEU,,
+2015Q3,11,Norte,total,6678,612134.0
+2015Q3,15,Algarve,EU,,
+2015Q3,15,Algarve,PT,,
+2015Q3,15,Algarve,nonEU,,
+2015Q3,15,Algarve,total,2594,392075.0
+2015Q3,19,Centro,EU,,
+2015Q3,19,Centro,PT,,
+2015Q3,19,Centro,nonEU,,
+2015Q3,19,Centro,total,2940,238782.0
+2015Q3,1A,Grande Lisboa,EU,,
+2015Q3,1A,Grande Lisboa,PT,,
+2015Q3,1A,Grande Lisboa,nonEU,,
+2015Q3,1A,Grande Lisboa,total,5495,991041.0
+2015Q3,1B,Península de Setúbal,EU,,
+2015Q3,1B,Península de Setúbal,PT,,
+2015Q3,1B,Península de Setúbal,nonEU,,
+2015Q3,1B,Península de Setúbal,total,1906,181934.0
+2015Q3,1C,Alentejo,EU,,
+2015Q3,1C,Alentejo,PT,,
+2015Q3,1C,Alentejo,nonEU,,
+2015Q3,1C,Alentejo,total,898,69002.0
+2015Q3,1D,Oeste e Vale do Tejo,EU,,
+2015Q3,1D,Oeste e Vale do Tejo,PT,,
+2015Q3,1D,Oeste e Vale do Tejo,nonEU,,
+2015Q3,1D,Oeste e Vale do Tejo,total,1644,137122.0
+2015Q3,2,Região Autónoma dos Açores,EU,,
+2015Q3,2,Região Autónoma dos Açores,PT,,
+2015Q3,2,Região Autónoma dos Açores,nonEU,,
+2015Q3,2,Região Autónoma dos Açores,total,353,26697.0
+2015Q3,20,Região Autónoma dos Açores,EU,,
+2015Q3,20,Região Autónoma dos Açores,PT,,
+2015Q3,20,Região Autónoma dos Açores,nonEU,,
+2015Q3,20,Região Autónoma dos Açores,total,353,26697.0
+2015Q3,3,Região Autónoma da Madeira,EU,,
+2015Q3,3,Região Autónoma da Madeira,PT,,
+2015Q3,3,Região Autónoma da Madeira,nonEU,,
+2015Q3,3,Região Autónoma da Madeira,total,420,48964.0
+2015Q3,30,Região Autónoma da Madeira,EU,,
+2015Q3,30,Região Autónoma da Madeira,PT,,
+2015Q3,30,Região Autónoma da Madeira,nonEU,,
+2015Q3,30,Região Autónoma da Madeira,total,420,48964.0
+2015Q3,PT,Portugal,EU,,
+2015Q3,PT,Portugal,PT,,
+2015Q3,PT,Portugal,nonEU,,
+2015Q3,PT,Portugal,total,22928,2697752.0
+2015Q4,1,Continente,EU,,
+2015Q4,1,Continente,PT,,
+2015Q4,1,Continente,nonEU,,
+2015Q4,1,Continente,total,24304,2971331.0
+2015Q4,11,Norte,EU,,
+2015Q4,11,Norte,PT,,
+2015Q4,11,Norte,nonEU,,
+2015Q4,11,Norte,total,7351,697239.0
+2015Q4,15,Algarve,EU,,
+2015Q4,15,Algarve,PT,,
+2015Q4,15,Algarve,nonEU,,
+2015Q4,15,Algarve,total,2749,433348.0
+2015Q4,19,Centro,EU,,
+2015Q4,19,Centro,PT,,
+2015Q4,19,Centro,nonEU,,
+2015Q4,19,Centro,total,3165,253730.0
+2015Q4,1A,Grande Lisboa,EU,,
+2015Q4,1A,Grande Lisboa,PT,,
+2015Q4,1A,Grande Lisboa,nonEU,,
+2015Q4,1A,Grande Lisboa,total,5875,1134738.0
+2015Q4,1B,Península de Setúbal,EU,,
+2015Q4,1B,Península de Setúbal,PT,,
+2015Q4,1B,Península de Setúbal,nonEU,,
+2015Q4,1B,Península de Setúbal,total,2276,214269.0
+2015Q4,1C,Alentejo,EU,,
+2015Q4,1C,Alentejo,PT,,
+2015Q4,1C,Alentejo,nonEU,,
+2015Q4,1C,Alentejo,total,951,72633.0
+2015Q4,1D,Oeste e Vale do Tejo,EU,,
+2015Q4,1D,Oeste e Vale do Tejo,PT,,
+2015Q4,1D,Oeste e Vale do Tejo,nonEU,,
+2015Q4,1D,Oeste e Vale do Tejo,total,1937,165375.0
+2015Q4,2,Região Autónoma dos Açores,EU,,
+2015Q4,2,Região Autónoma dos Açores,PT,,
+2015Q4,2,Região Autónoma dos Açores,nonEU,,
+2015Q4,2,Região Autónoma dos Açores,total,423,37591.0
+2015Q4,20,Região Autónoma dos Açores,EU,,
+2015Q4,20,Região Autónoma dos Açores,PT,,
+2015Q4,20,Região Autónoma dos Açores,nonEU,,
+2015Q4,20,Região Autónoma dos Açores,total,423,37591.0
+2015Q4,3,Região Autónoma da Madeira,EU,,
+2015Q4,3,Região Autónoma da Madeira,PT,,
+2015Q4,3,Região Autónoma da Madeira,nonEU,,
+2015Q4,3,Região Autónoma da Madeira,total,478,62839.0
+2015Q4,30,Região Autónoma da Madeira,EU,,
+2015Q4,30,Região Autónoma da Madeira,PT,,
+2015Q4,30,Região Autónoma da Madeira,nonEU,,
+2015Q4,30,Região Autónoma da Madeira,total,478,62839.0
+2015Q4,PT,Portugal,EU,,
+2015Q4,PT,Portugal,PT,,
+2015Q4,PT,Portugal,nonEU,,
+2015Q4,PT,Portugal,total,25205,3071762.0
+2016Q1,1,Continente,EU,,
+2016Q1,1,Continente,PT,,
+2016Q1,1,Continente,nonEU,,
+2016Q1,1,Continente,total,24040,2881361.0
+2016Q1,11,Norte,EU,,
+2016Q1,11,Norte,PT,,
+2016Q1,11,Norte,nonEU,,
+2016Q1,11,Norte,total,7328,696618.0
+2016Q1,15,Algarve,EU,,
+2016Q1,15,Algarve,PT,,
+2016Q1,15,Algarve,nonEU,,
+2016Q1,15,Algarve,total,2581,407173.0
+2016Q1,19,Centro,EU,,
+2016Q1,19,Centro,PT,,
+2016Q1,19,Centro,nonEU,,
+2016Q1,19,Centro,total,2983,244888.0
+2016Q1,1A,Grande Lisboa,EU,,
+2016Q1,1A,Grande Lisboa,PT,,
+2016Q1,1A,Grande Lisboa,nonEU,,
+2016Q1,1A,Grande Lisboa,total,6205,1099125.0
+2016Q1,1B,Península de Setúbal,EU,,
+2016Q1,1B,Península de Setúbal,PT,,
+2016Q1,1B,Península de Setúbal,nonEU,,
+2016Q1,1B,Península de Setúbal,total,2327,221878.0
+2016Q1,1C,Alentejo,EU,,
+2016Q1,1C,Alentejo,PT,,
+2016Q1,1C,Alentejo,nonEU,,
+2016Q1,1C,Alentejo,total,917,68376.0
+2016Q1,1D,Oeste e Vale do Tejo,EU,,
+2016Q1,1D,Oeste e Vale do Tejo,PT,,
+2016Q1,1D,Oeste e Vale do Tejo,nonEU,,
+2016Q1,1D,Oeste e Vale do Tejo,total,1698,143303.0
+2016Q1,2,Região Autónoma dos Açores,EU,,
+2016Q1,2,Região Autónoma dos Açores,PT,,
+2016Q1,2,Região Autónoma dos Açores,nonEU,,
+2016Q1,2,Região Autónoma dos Açores,total,364,32783.0
+2016Q1,20,Região Autónoma dos Açores,EU,,
+2016Q1,20,Região Autónoma dos Açores,PT,,
+2016Q1,20,Região Autónoma dos Açores,nonEU,,
+2016Q1,20,Região Autónoma dos Açores,total,364,32783.0
+2016Q1,3,Região Autónoma da Madeira,EU,,
+2016Q1,3,Região Autónoma da Madeira,PT,,
+2016Q1,3,Região Autónoma da Madeira,nonEU,,
+2016Q1,3,Região Autónoma da Madeira,total,523,86933.0
+2016Q1,30,Região Autónoma da Madeira,EU,,
+2016Q1,30,Região Autónoma da Madeira,PT,,
+2016Q1,30,Região Autónoma da Madeira,nonEU,,
+2016Q1,30,Região Autónoma da Madeira,total,523,86933.0
+2016Q1,PT,Portugal,EU,,
+2016Q1,PT,Portugal,PT,,
+2016Q1,PT,Portugal,nonEU,,
+2016Q1,PT,Portugal,total,24926,3001077.0
+2016Q2,1,Continente,EU,,
+2016Q2,1,Continente,PT,,
+2016Q2,1,Continente,nonEU,,
+2016Q2,1,Continente,total,25997,3175825.0
+2016Q2,11,Norte,EU,,
+2016Q2,11,Norte,PT,,
+2016Q2,11,Norte,nonEU,,
+2016Q2,11,Norte,total,7580,738477.0
+2016Q2,15,Algarve,EU,,
+2016Q2,15,Algarve,PT,,
+2016Q2,15,Algarve,nonEU,,
+2016Q2,15,Algarve,total,2976,463655.0
+2016Q2,19,Centro,EU,,
+2016Q2,19,Centro,PT,,
+2016Q2,19,Centro,nonEU,,
+2016Q2,19,Centro,total,3227,273275.0
+2016Q2,1A,Grande Lisboa,EU,,
+2016Q2,1A,Grande Lisboa,PT,,
+2016Q2,1A,Grande Lisboa,nonEU,,
+2016Q2,1A,Grande Lisboa,total,6818,1227712.0
+2016Q2,1B,Península de Setúbal,EU,,
+2016Q2,1B,Península de Setúbal,PT,,
+2016Q2,1B,Península de Setúbal,nonEU,,
+2016Q2,1B,Península de Setúbal,total,2365,222699.0
+2016Q2,1C,Alentejo,EU,,
+2016Q2,1C,Alentejo,PT,,
+2016Q2,1C,Alentejo,nonEU,,
+2016Q2,1C,Alentejo,total,1098,84671.0
+2016Q2,1D,Oeste e Vale do Tejo,EU,,
+2016Q2,1D,Oeste e Vale do Tejo,PT,,
+2016Q2,1D,Oeste e Vale do Tejo,nonEU,,
+2016Q2,1D,Oeste e Vale do Tejo,total,1932,165337.0
+2016Q2,2,Região Autónoma dos Açores,EU,,
+2016Q2,2,Região Autónoma dos Açores,PT,,
+2016Q2,2,Região Autónoma dos Açores,nonEU,,
+2016Q2,2,Região Autónoma dos Açores,total,403,34767.0
+2016Q2,20,Região Autónoma dos Açores,EU,,
+2016Q2,20,Região Autónoma dos Açores,PT,,
+2016Q2,20,Região Autónoma dos Açores,nonEU,,
+2016Q2,20,Região Autónoma dos Açores,total,403,34767.0
+2016Q2,3,Região Autónoma da Madeira,EU,,
+2016Q2,3,Região Autónoma da Madeira,PT,,
+2016Q2,3,Região Autónoma da Madeira,nonEU,,
+2016Q2,3,Região Autónoma da Madeira,total,489,57293.0
+2016Q2,30,Região Autónoma da Madeira,EU,,
+2016Q2,30,Região Autónoma da Madeira,PT,,
+2016Q2,30,Região Autónoma da Madeira,nonEU,,
+2016Q2,30,Região Autónoma da Madeira,total,489,57293.0
+2016Q2,PT,Portugal,EU,,
+2016Q2,PT,Portugal,PT,,
+2016Q2,PT,Portugal,nonEU,,
+2016Q2,PT,Portugal,total,26890,3267885.0
+2016Q3,1,Continente,EU,,
+2016Q3,1,Continente,PT,,
+2016Q3,1,Continente,nonEU,,
+2016Q3,1,Continente,total,25716,3069567.0
+2016Q3,11,Norte,EU,,
+2016Q3,11,Norte,PT,,
+2016Q3,11,Norte,nonEU,,
+2016Q3,11,Norte,total,7952,757252.0
+2016Q3,15,Algarve,EU,,
+2016Q3,15,Algarve,PT,,
+2016Q3,15,Algarve,nonEU,,
+2016Q3,15,Algarve,total,2666,393631.0
+2016Q3,19,Centro,EU,,
+2016Q3,19,Centro,PT,,
+2016Q3,19,Centro,nonEU,,
+2016Q3,19,Centro,total,3407,268679.0
+2016Q3,1A,Grande Lisboa,EU,,
+2016Q3,1A,Grande Lisboa,PT,,
+2016Q3,1A,Grande Lisboa,nonEU,,
+2016Q3,1A,Grande Lisboa,total,6535,1185880.0
+2016Q3,1B,Península de Setúbal,EU,,
+2016Q3,1B,Península de Setúbal,PT,,
+2016Q3,1B,Península de Setúbal,nonEU,,
+2016Q3,1B,Península de Setúbal,total,2270,227888.0
+2016Q3,1C,Alentejo,EU,,
+2016Q3,1C,Alentejo,PT,,
+2016Q3,1C,Alentejo,nonEU,,
+2016Q3,1C,Alentejo,total,1032,77724.0
+2016Q3,1D,Oeste e Vale do Tejo,EU,,
+2016Q3,1D,Oeste e Vale do Tejo,PT,,
+2016Q3,1D,Oeste e Vale do Tejo,nonEU,,
+2016Q3,1D,Oeste e Vale do Tejo,total,1854,158514.0
+2016Q3,2,Região Autónoma dos Açores,EU,,
+2016Q3,2,Região Autónoma dos Açores,PT,,
+2016Q3,2,Região Autónoma dos Açores,nonEU,,
+2016Q3,2,Região Autónoma dos Açores,total,461,39424.0
+2016Q3,20,Região Autónoma dos Açores,EU,,
+2016Q3,20,Região Autónoma dos Açores,PT,,
+2016Q3,20,Região Autónoma dos Açores,nonEU,,
+2016Q3,20,Região Autónoma dos Açores,total,461,39424.0
+2016Q3,3,Região Autónoma da Madeira,EU,,
+2016Q3,3,Região Autónoma da Madeira,PT,,
+2016Q3,3,Região Autónoma da Madeira,nonEU,,
+2016Q3,3,Região Autónoma da Madeira,total,499,64244.0
+2016Q3,30,Região Autónoma da Madeira,EU,,
+2016Q3,30,Região Autónoma da Madeira,PT,,
+2016Q3,30,Região Autónoma da Madeira,nonEU,,
+2016Q3,30,Região Autónoma da Madeira,total,499,64244.0
+2016Q3,PT,Portugal,EU,,
+2016Q3,PT,Portugal,PT,,
+2016Q3,PT,Portugal,nonEU,,
+2016Q3,PT,Portugal,total,26675,3173236.0
+2016Q4,1,Continente,EU,,
+2016Q4,1,Continente,PT,,
+2016Q4,1,Continente,nonEU,,
+2016Q4,1,Continente,total,28001,3444365.0
+2016Q4,11,Norte,EU,,
+2016Q4,11,Norte,PT,,
+2016Q4,11,Norte,nonEU,,
+2016Q4,11,Norte,total,8333,795329.0
+2016Q4,15,Algarve,EU,,
+2016Q4,15,Algarve,PT,,
+2016Q4,15,Algarve,nonEU,,
+2016Q4,15,Algarve,total,3221,490298.0
+2016Q4,19,Centro,EU,,
+2016Q4,19,Centro,PT,,
+2016Q4,19,Centro,nonEU,,
+2016Q4,19,Centro,total,3588,297406.0
+2016Q4,1A,Grande Lisboa,EU,,
+2016Q4,1A,Grande Lisboa,PT,,
+2016Q4,1A,Grande Lisboa,nonEU,,
+2016Q4,1A,Grande Lisboa,total,7088,1346954.0
+2016Q4,1B,Península de Setúbal,EU,,
+2016Q4,1B,Península de Setúbal,PT,,
+2016Q4,1B,Península de Setúbal,nonEU,,
+2016Q4,1B,Península de Setúbal,total,2569,251714.0
+2016Q4,1C,Alentejo,EU,,
+2016Q4,1C,Alentejo,PT,,
+2016Q4,1C,Alentejo,nonEU,,
+2016Q4,1C,Alentejo,total,1199,89934.0
+2016Q4,1D,Oeste e Vale do Tejo,EU,,
+2016Q4,1D,Oeste e Vale do Tejo,PT,,
+2016Q4,1D,Oeste e Vale do Tejo,nonEU,,
+2016Q4,1D,Oeste e Vale do Tejo,total,2003,172730.0
+2016Q4,2,Região Autónoma dos Açores,EU,,
+2016Q4,2,Região Autónoma dos Açores,PT,,
+2016Q4,2,Região Autónoma dos Açores,nonEU,,
+2016Q4,2,Região Autónoma dos Açores,total,451,41282.0
+2016Q4,20,Região Autónoma dos Açores,EU,,
+2016Q4,20,Região Autónoma dos Açores,PT,,
+2016Q4,20,Região Autónoma dos Açores,nonEU,,
+2016Q4,20,Região Autónoma dos Açores,total,451,41282.0
+2016Q4,3,Região Autónoma da Madeira,EU,,
+2016Q4,3,Região Autónoma da Madeira,PT,,
+2016Q4,3,Região Autónoma da Madeira,nonEU,,
+2016Q4,3,Região Autónoma da Madeira,total,547,65865.0
+2016Q4,30,Região Autónoma da Madeira,EU,,
+2016Q4,30,Região Autónoma da Madeira,PT,,
+2016Q4,30,Região Autónoma da Madeira,nonEU,,
+2016Q4,30,Região Autónoma da Madeira,total,547,65865.0
+2016Q4,PT,Portugal,EU,,
+2016Q4,PT,Portugal,PT,,
+2016Q4,PT,Portugal,nonEU,,
+2016Q4,PT,Portugal,total,28999,3551512.0
+2017Q1,1,Continente,EU,,
+2017Q1,1,Continente,PT,,
+2017Q1,1,Continente,nonEU,,
+2017Q1,1,Continente,total,28842,3672405.0
+2017Q1,11,Norte,EU,,
+2017Q1,11,Norte,PT,,
+2017Q1,11,Norte,nonEU,,
+2017Q1,11,Norte,total,8716,883458.0
+2017Q1,15,Algarve,EU,,
+2017Q1,15,Algarve,PT,,
+2017Q1,15,Algarve,nonEU,,
+2017Q1,15,Algarve,total,3071,465015.0
+2017Q1,19,Centro,EU,,
+2017Q1,19,Centro,PT,,
+2017Q1,19,Centro,nonEU,,
+2017Q1,19,Centro,total,3662,311643.0
+2017Q1,1A,Grande Lisboa,EU,,
+2017Q1,1A,Grande Lisboa,PT,,
+2017Q1,1A,Grande Lisboa,nonEU,,
+2017Q1,1A,Grande Lisboa,total,7424,1461672.0
+2017Q1,1B,Península de Setúbal,EU,,
+2017Q1,1B,Península de Setúbal,PT,,
+2017Q1,1B,Península de Setúbal,nonEU,,
+2017Q1,1B,Península de Setúbal,total,2665,269078.0
+2017Q1,1C,Alentejo,EU,,
+2017Q1,1C,Alentejo,PT,,
+2017Q1,1C,Alentejo,nonEU,,
+2017Q1,1C,Alentejo,total,1116,90856.0
+2017Q1,1D,Oeste e Vale do Tejo,EU,,
+2017Q1,1D,Oeste e Vale do Tejo,PT,,
+2017Q1,1D,Oeste e Vale do Tejo,nonEU,,
+2017Q1,1D,Oeste e Vale do Tejo,total,2187,190684.0
+2017Q1,2,Região Autónoma dos Açores,EU,,
+2017Q1,2,Região Autónoma dos Açores,PT,,
+2017Q1,2,Região Autónoma dos Açores,nonEU,,
+2017Q1,2,Região Autónoma dos Açores,total,517,45833.0
+2017Q1,20,Região Autónoma dos Açores,EU,,
+2017Q1,20,Região Autónoma dos Açores,PT,,
+2017Q1,20,Região Autónoma dos Açores,nonEU,,
+2017Q1,20,Região Autónoma dos Açores,total,517,45833.0
+2017Q1,3,Região Autónoma da Madeira,EU,,
+2017Q1,3,Região Autónoma da Madeira,PT,,
+2017Q1,3,Região Autónoma da Madeira,nonEU,,
+2017Q1,3,Região Autónoma da Madeira,total,616,81864.0
+2017Q1,30,Região Autónoma da Madeira,EU,,
+2017Q1,30,Região Autónoma da Madeira,PT,,
+2017Q1,30,Região Autónoma da Madeira,nonEU,,
+2017Q1,30,Região Autónoma da Madeira,total,616,81864.0
+2017Q1,PT,Portugal,EU,,
+2017Q1,PT,Portugal,PT,,
+2017Q1,PT,Portugal,nonEU,,
+2017Q1,PT,Portugal,total,29975,3800102.0
+2017Q2,1,Continente,EU,,
+2017Q2,1,Continente,PT,,
+2017Q2,1,Continente,nonEU,,
+2017Q2,1,Continente,total,30202,3909709.0
+2017Q2,11,Norte,EU,,
+2017Q2,11,Norte,PT,,
+2017Q2,11,Norte,nonEU,,
+2017Q2,11,Norte,total,8997,915581.0
+2017Q2,15,Algarve,EU,,
+2017Q2,15,Algarve,PT,,
+2017Q2,15,Algarve,nonEU,,
+2017Q2,15,Algarve,total,3366,539459.0
+2017Q2,19,Centro,EU,,
+2017Q2,19,Centro,PT,,
+2017Q2,19,Centro,nonEU,,
+2017Q2,19,Centro,total,3761,321855.0
+2017Q2,1A,Grande Lisboa,EU,,
+2017Q2,1A,Grande Lisboa,PT,,
+2017Q2,1A,Grande Lisboa,nonEU,,
+2017Q2,1A,Grande Lisboa,total,7840,1540081.0
+2017Q2,1B,Península de Setúbal,EU,,
+2017Q2,1B,Península de Setúbal,PT,,
+2017Q2,1B,Península de Setúbal,nonEU,,
+2017Q2,1B,Península de Setúbal,total,2910,296864.0
+2017Q2,1C,Alentejo,EU,,
+2017Q2,1C,Alentejo,PT,,
+2017Q2,1C,Alentejo,nonEU,,
+2017Q2,1C,Alentejo,total,1212,98983.0
+2017Q2,1D,Oeste e Vale do Tejo,EU,,
+2017Q2,1D,Oeste e Vale do Tejo,PT,,
+2017Q2,1D,Oeste e Vale do Tejo,nonEU,,
+2017Q2,1D,Oeste e Vale do Tejo,total,2117,196887.0
+2017Q2,2,Região Autónoma dos Açores,EU,,
+2017Q2,2,Região Autónoma dos Açores,PT,,
+2017Q2,2,Região Autónoma dos Açores,nonEU,,
+2017Q2,2,Região Autónoma dos Açores,total,439,40934.0
+2017Q2,20,Região Autónoma dos Açores,EU,,
+2017Q2,20,Região Autónoma dos Açores,PT,,
+2017Q2,20,Região Autónoma dos Açores,nonEU,,
+2017Q2,20,Região Autónoma dos Açores,total,439,40934.0
+2017Q2,3,Região Autónoma da Madeira,EU,,
+2017Q2,3,Região Autónoma da Madeira,PT,,
+2017Q2,3,Região Autónoma da Madeira,nonEU,,
+2017Q2,3,Região Autónoma da Madeira,total,556,70776.0
+2017Q2,30,Região Autónoma da Madeira,EU,,
+2017Q2,30,Região Autónoma da Madeira,PT,,
+2017Q2,30,Região Autónoma da Madeira,nonEU,,
+2017Q2,30,Região Autónoma da Madeira,total,556,70776.0
+2017Q2,PT,Portugal,EU,,
+2017Q2,PT,Portugal,PT,,
+2017Q2,PT,Portugal,nonEU,,
+2017Q2,PT,Portugal,total,31197,4021419.0
+2017Q3,1,Continente,EU,,
+2017Q3,1,Continente,PT,,
+2017Q3,1,Continente,nonEU,,
+2017Q3,1,Continente,total,31560,4128470.0
+2017Q3,11,Norte,EU,,
+2017Q3,11,Norte,PT,,
+2017Q3,11,Norte,nonEU,,
+2017Q3,11,Norte,total,9788,1006657.0
+2017Q3,15,Algarve,EU,,
+2017Q3,15,Algarve,PT,,
+2017Q3,15,Algarve,nonEU,,
+2017Q3,15,Algarve,total,3130,522682.0
+2017Q3,19,Centro,EU,,
+2017Q3,19,Centro,PT,,
+2017Q3,19,Centro,nonEU,,
+2017Q3,19,Centro,total,4191,362645.0
+2017Q3,1A,Grande Lisboa,EU,,
+2017Q3,1A,Grande Lisboa,PT,,
+2017Q3,1A,Grande Lisboa,nonEU,,
+2017Q3,1A,Grande Lisboa,total,7655,1583751.0
+2017Q3,1B,Península de Setúbal,EU,,
+2017Q3,1B,Península de Setúbal,PT,,
+2017Q3,1B,Península de Setúbal,nonEU,,
+2017Q3,1B,Península de Setúbal,total,3116,322975.0
+2017Q3,1C,Alentejo,EU,,
+2017Q3,1C,Alentejo,PT,,
+2017Q3,1C,Alentejo,nonEU,,
+2017Q3,1C,Alentejo,total,1317,108508.0
+2017Q3,1D,Oeste e Vale do Tejo,EU,,
+2017Q3,1D,Oeste e Vale do Tejo,PT,,
+2017Q3,1D,Oeste e Vale do Tejo,nonEU,,
+2017Q3,1D,Oeste e Vale do Tejo,total,2363,221253.0
+2017Q3,2,Região Autónoma dos Açores,EU,,
+2017Q3,2,Região Autónoma dos Açores,PT,,
+2017Q3,2,Região Autónoma dos Açores,nonEU,,
+2017Q3,2,Região Autónoma dos Açores,total,489,40069.0
+2017Q3,20,Região Autónoma dos Açores,EU,,
+2017Q3,20,Região Autónoma dos Açores,PT,,
+2017Q3,20,Região Autónoma dos Açores,nonEU,,
+2017Q3,20,Região Autónoma dos Açores,total,489,40069.0
+2017Q3,3,Região Autónoma da Madeira,EU,,
+2017Q3,3,Região Autónoma da Madeira,PT,,
+2017Q3,3,Região Autónoma da Madeira,nonEU,,
+2017Q3,3,Região Autónoma da Madeira,total,673,90452.0
+2017Q3,30,Região Autónoma da Madeira,EU,,
+2017Q3,30,Região Autónoma da Madeira,PT,,
+2017Q3,30,Região Autónoma da Madeira,nonEU,,
+2017Q3,30,Região Autónoma da Madeira,total,673,90452.0
+2017Q3,PT,Portugal,EU,,
+2017Q3,PT,Portugal,PT,,
+2017Q3,PT,Portugal,nonEU,,
+2017Q3,PT,Portugal,total,32722,4258992.0
+2017Q4,1,Continente,EU,,
+2017Q4,1,Continente,PT,,
+2017Q4,1,Continente,nonEU,,
+2017Q4,1,Continente,total,34717,4753843.0
+2017Q4,11,Norte,EU,,
+2017Q4,11,Norte,PT,,
+2017Q4,11,Norte,nonEU,,
+2017Q4,11,Norte,total,10295,1111659.0
+2017Q4,15,Algarve,EU,,
+2017Q4,15,Algarve,PT,,
+2017Q4,15,Algarve,nonEU,,
+2017Q4,15,Algarve,total,3712,655522.0
+2017Q4,19,Centro,EU,,
+2017Q4,19,Centro,PT,,
+2017Q4,19,Centro,nonEU,,
+2017Q4,19,Centro,total,4518,408417.0
+2017Q4,1A,Grande Lisboa,EU,,
+2017Q4,1A,Grande Lisboa,PT,,
+2017Q4,1A,Grande Lisboa,nonEU,,
+2017Q4,1A,Grande Lisboa,total,8440,1801256.0
+2017Q4,1B,Península de Setúbal,EU,,
+2017Q4,1B,Península de Setúbal,PT,,
+2017Q4,1B,Península de Setúbal,nonEU,,
+2017Q4,1B,Península de Setúbal,total,3684,395668.0
+2017Q4,1C,Alentejo,EU,,
+2017Q4,1C,Alentejo,PT,,
+2017Q4,1C,Alentejo,nonEU,,
+2017Q4,1C,Alentejo,total,1451,130251.0
+2017Q4,1D,Oeste e Vale do Tejo,EU,,
+2017Q4,1D,Oeste e Vale do Tejo,PT,,
+2017Q4,1D,Oeste e Vale do Tejo,nonEU,,
+2017Q4,1D,Oeste e Vale do Tejo,total,2616,251069.0
+2017Q4,2,Região Autónoma dos Açores,EU,,
+2017Q4,2,Região Autónoma dos Açores,PT,,
+2017Q4,2,Região Autónoma dos Açores,nonEU,,
+2017Q4,2,Região Autónoma dos Açores,total,567,53436.0
+2017Q4,20,Região Autónoma dos Açores,EU,,
+2017Q4,20,Região Autónoma dos Açores,PT,,
+2017Q4,20,Região Autónoma dos Açores,nonEU,,
+2017Q4,20,Região Autónoma dos Açores,total,567,53436.0
+2017Q4,3,Região Autónoma da Madeira,EU,,
+2017Q4,3,Região Autónoma da Madeira,PT,,
+2017Q4,3,Região Autónoma da Madeira,nonEU,,
+2017Q4,3,Região Autónoma da Madeira,total,656,91399.0
+2017Q4,30,Região Autónoma da Madeira,EU,,
+2017Q4,30,Região Autónoma da Madeira,PT,,
+2017Q4,30,Região Autónoma da Madeira,nonEU,,
+2017Q4,30,Região Autónoma da Madeira,total,656,91399.0
+2017Q4,PT,Portugal,EU,,
+2017Q4,PT,Portugal,PT,,
+2017Q4,PT,Portugal,nonEU,,
+2017Q4,PT,Portugal,total,35940,4898678.0
+2018Q1,1,Continente,EU,,
+2018Q1,1,Continente,PT,,
+2018Q1,1,Continente,nonEU,,
+2018Q1,1,Continente,total,33345,4618614.0
+2018Q1,11,Norte,EU,,
+2018Q1,11,Norte,PT,,
+2018Q1,11,Norte,nonEU,,
+2018Q1,11,Norte,total,9982,1139059.0
+2018Q1,15,Algarve,EU,,
+2018Q1,15,Algarve,PT,,
+2018Q1,15,Algarve,nonEU,,
+2018Q1,15,Algarve,total,3591,614718.0
+2018Q1,19,Centro,EU,,
+2018Q1,19,Centro,PT,,
+2018Q1,19,Centro,nonEU,,
+2018Q1,19,Centro,total,4022,359009.0
+2018Q1,1A,Grande Lisboa,EU,,
+2018Q1,1A,Grande Lisboa,PT,,
+2018Q1,1A,Grande Lisboa,nonEU,,
+2018Q1,1A,Grande Lisboa,total,8467,1779087.0
+2018Q1,1B,Península de Setúbal,EU,,
+2018Q1,1B,Península de Setúbal,PT,,
+2018Q1,1B,Península de Setúbal,nonEU,,
+2018Q1,1B,Península de Setúbal,total,3401,376626.0
+2018Q1,1C,Alentejo,EU,,
+2018Q1,1C,Alentejo,PT,,
+2018Q1,1C,Alentejo,nonEU,,
+2018Q1,1C,Alentejo,total,1316,107536.0
+2018Q1,1D,Oeste e Vale do Tejo,EU,,
+2018Q1,1D,Oeste e Vale do Tejo,PT,,
+2018Q1,1D,Oeste e Vale do Tejo,nonEU,,
+2018Q1,1D,Oeste e Vale do Tejo,total,2567,242579.0
+2018Q1,2,Região Autónoma dos Açores,EU,,
+2018Q1,2,Região Autónoma dos Açores,PT,,
+2018Q1,2,Região Autónoma dos Açores,nonEU,,
+2018Q1,2,Região Autónoma dos Açores,total,482,47585.0
+2018Q1,20,Região Autónoma dos Açores,EU,,
+2018Q1,20,Região Autónoma dos Açores,PT,,
+2018Q1,20,Região Autónoma dos Açores,nonEU,,
+2018Q1,20,Região Autónoma dos Açores,total,482,47585.0
+2018Q1,3,Região Autónoma da Madeira,EU,,
+2018Q1,3,Região Autónoma da Madeira,PT,,
+2018Q1,3,Região Autónoma da Madeira,nonEU,,
+2018Q1,3,Região Autónoma da Madeira,total,623,88925.0
+2018Q1,30,Região Autónoma da Madeira,EU,,
+2018Q1,30,Região Autónoma da Madeira,PT,,
+2018Q1,30,Região Autónoma da Madeira,nonEU,,
+2018Q1,30,Região Autónoma da Madeira,total,623,88925.0
+2018Q1,PT,Portugal,EU,,
+2018Q1,PT,Portugal,PT,,
+2018Q1,PT,Portugal,nonEU,,
+2018Q1,PT,Portugal,total,34449,4755125.0
+2018Q2,1,Continente,EU,,
+2018Q2,1,Continente,PT,,
+2018Q2,1,Continente,nonEU,,
+2018Q2,1,Continente,total,37557,5283885.0
+2018Q2,11,Norte,EU,,
+2018Q2,11,Norte,PT,,
+2018Q2,11,Norte,nonEU,,
+2018Q2,11,Norte,total,11308,1281421.0
+2018Q2,15,Algarve,EU,,
+2018Q2,15,Algarve,PT,,
+2018Q2,15,Algarve,nonEU,,
+2018Q2,15,Algarve,total,3771,676893.0
+2018Q2,19,Centro,EU,,
+2018Q2,19,Centro,PT,,
+2018Q2,19,Centro,nonEU,,
+2018Q2,19,Centro,total,4773,437576.0
+2018Q2,1A,Grande Lisboa,EU,,
+2018Q2,1A,Grande Lisboa,PT,,
+2018Q2,1A,Grande Lisboa,nonEU,,
+2018Q2,1A,Grande Lisboa,total,9335,2037257.0
+2018Q2,1B,Península de Setúbal,EU,,
+2018Q2,1B,Península de Setúbal,PT,,
+2018Q2,1B,Península de Setúbal,nonEU,,
+2018Q2,1B,Península de Setúbal,total,3947,435675.0
+2018Q2,1C,Alentejo,EU,,
+2018Q2,1C,Alentejo,PT,,
+2018Q2,1C,Alentejo,nonEU,,
+2018Q2,1C,Alentejo,total,1594,130397.0
+2018Q2,1D,Oeste e Vale do Tejo,EU,,
+2018Q2,1D,Oeste e Vale do Tejo,PT,,
+2018Q2,1D,Oeste e Vale do Tejo,nonEU,,
+2018Q2,1D,Oeste e Vale do Tejo,total,2829,284666.0
+2018Q2,2,Região Autónoma dos Açores,EU,,
+2018Q2,2,Região Autónoma dos Açores,PT,,
+2018Q2,2,Região Autónoma dos Açores,nonEU,,
+2018Q2,2,Região Autónoma dos Açores,total,573,55470.0
+2018Q2,20,Região Autónoma dos Açores,EU,,
+2018Q2,20,Região Autónoma dos Açores,PT,,
+2018Q2,20,Região Autónoma dos Açores,nonEU,,
+2018Q2,20,Região Autónoma dos Açores,total,573,55470.0
+2018Q2,3,Região Autónoma da Madeira,EU,,
+2018Q2,3,Região Autónoma da Madeira,PT,,
+2018Q2,3,Região Autónoma da Madeira,nonEU,,
+2018Q2,3,Região Autónoma da Madeira,total,600,85872.0
+2018Q2,30,Região Autónoma da Madeira,EU,,
+2018Q2,30,Região Autónoma da Madeira,PT,,
+2018Q2,30,Região Autónoma da Madeira,nonEU,,
+2018Q2,30,Região Autónoma da Madeira,total,600,85872.0
+2018Q2,PT,Portugal,EU,,
+2018Q2,PT,Portugal,PT,,
+2018Q2,PT,Portugal,nonEU,,
+2018Q2,PT,Portugal,total,38730,5425227.0
+2018Q3,1,Continente,EU,,
+2018Q3,1,Continente,PT,,
+2018Q3,1,Continente,nonEU,,
+2018Q3,1,Continente,total,37676,5348537.0
+2018Q3,11,Norte,EU,,
+2018Q3,11,Norte,PT,,
+2018Q3,11,Norte,nonEU,,
+2018Q3,11,Norte,total,11574,1316688.0
+2018Q3,15,Algarve,EU,,
+2018Q3,15,Algarve,PT,,
+2018Q3,15,Algarve,nonEU,,
+2018Q3,15,Algarve,total,3309,609153.0
+2018Q3,19,Centro,EU,,
+2018Q3,19,Centro,PT,,
+2018Q3,19,Centro,nonEU,,
+2018Q3,19,Centro,total,4996,458488.0
+2018Q3,1A,Grande Lisboa,EU,,
+2018Q3,1A,Grande Lisboa,PT,,
+2018Q3,1A,Grande Lisboa,nonEU,,
+2018Q3,1A,Grande Lisboa,total,8766,2022279.0
+2018Q3,1B,Península de Setúbal,EU,,
+2018Q3,1B,Península de Setúbal,PT,,
+2018Q3,1B,Península de Setúbal,nonEU,,
+2018Q3,1B,Península de Setúbal,total,4547,516015.0
+2018Q3,1C,Alentejo,EU,,
+2018Q3,1C,Alentejo,PT,,
+2018Q3,1C,Alentejo,nonEU,,
+2018Q3,1C,Alentejo,total,1631,149632.0
+2018Q3,1D,Oeste e Vale do Tejo,EU,,
+2018Q3,1D,Oeste e Vale do Tejo,PT,,
+2018Q3,1D,Oeste e Vale do Tejo,nonEU,,
+2018Q3,1D,Oeste e Vale do Tejo,total,2853,276282.0
+2018Q3,2,Região Autónoma dos Açores,EU,,
+2018Q3,2,Região Autónoma dos Açores,PT,,
+2018Q3,2,Região Autónoma dos Açores,nonEU,,
+2018Q3,2,Região Autónoma dos Açores,total,567,54434.0
+2018Q3,20,Região Autónoma dos Açores,EU,,
+2018Q3,20,Região Autónoma dos Açores,PT,,
+2018Q3,20,Região Autónoma dos Açores,nonEU,,
+2018Q3,20,Região Autónoma dos Açores,total,567,54434.0
+2018Q3,3,Região Autónoma da Madeira,EU,,
+2018Q3,3,Região Autónoma da Madeira,PT,,
+2018Q3,3,Região Autónoma da Madeira,nonEU,,
+2018Q3,3,Região Autónoma da Madeira,total,722,109331.0
+2018Q3,30,Região Autónoma da Madeira,EU,,
+2018Q3,30,Região Autónoma da Madeira,PT,,
+2018Q3,30,Região Autónoma da Madeira,nonEU,,
+2018Q3,30,Região Autónoma da Madeira,total,722,109331.0
+2018Q3,PT,Portugal,EU,,
+2018Q3,PT,Portugal,PT,,
+2018Q3,PT,Portugal,nonEU,,
+2018Q3,PT,Portugal,total,38964,5512302.0
+2018Q4,1,Continente,EU,,
+2018Q4,1,Continente,PT,,
+2018Q4,1,Continente,nonEU,,
+2018Q4,1,Continente,total,37696,5245561.0
+2018Q4,11,Norte,EU,,
+2018Q4,11,Norte,PT,,
+2018Q4,11,Norte,nonEU,,
+2018Q4,11,Norte,total,11798,1334767.0
+2018Q4,15,Algarve,EU,,
+2018Q4,15,Algarve,PT,,
+2018Q4,15,Algarve,nonEU,,
+2018Q4,15,Algarve,total,3371,621717.0
+2018Q4,19,Centro,EU,,
+2018Q4,19,Centro,PT,,
+2018Q4,19,Centro,nonEU,,
+2018Q4,19,Centro,total,5137,466425.0
+2018Q4,1A,Grande Lisboa,EU,,
+2018Q4,1A,Grande Lisboa,PT,,
+2018Q4,1A,Grande Lisboa,nonEU,,
+2018Q4,1A,Grande Lisboa,total,8242,1872947.0
+2018Q4,1B,Península de Setúbal,EU,,
+2018Q4,1B,Península de Setúbal,PT,,
+2018Q4,1B,Península de Setúbal,nonEU,,
+2018Q4,1B,Península de Setúbal,total,4275,499762.0
+2018Q4,1C,Alentejo,EU,,
+2018Q4,1C,Alentejo,PT,,
+2018Q4,1C,Alentejo,nonEU,,
+2018Q4,1C,Alentejo,total,1754,149551.0
+2018Q4,1D,Oeste e Vale do Tejo,EU,,
+2018Q4,1D,Oeste e Vale do Tejo,PT,,
+2018Q4,1D,Oeste e Vale do Tejo,nonEU,,
+2018Q4,1D,Oeste e Vale do Tejo,total,3120,300391.0
+2018Q4,2,Região Autónoma dos Açores,EU,,
+2018Q4,2,Região Autónoma dos Açores,PT,,
+2018Q4,2,Região Autónoma dos Açores,nonEU,,
+2018Q4,2,Região Autónoma dos Açores,total,661,73350.0
+2018Q4,20,Região Autónoma dos Açores,EU,,
+2018Q4,20,Região Autónoma dos Açores,PT,,
+2018Q4,20,Região Autónoma dos Açores,nonEU,,
+2018Q4,20,Região Autónoma dos Açores,total,661,73350.0
+2018Q4,3,Região Autónoma da Madeira,EU,,
+2018Q4,3,Região Autónoma da Madeira,PT,,
+2018Q4,3,Região Autónoma da Madeira,nonEU,,
+2018Q4,3,Região Autónoma da Madeira,total,709,95972.0
+2018Q4,30,Região Autónoma da Madeira,EU,,
+2018Q4,30,Região Autónoma da Madeira,PT,,
+2018Q4,30,Região Autónoma da Madeira,nonEU,,
+2018Q4,30,Região Autónoma da Madeira,total,709,95972.0
+2018Q4,PT,Portugal,EU,,
+2018Q4,PT,Portugal,PT,,
+2018Q4,PT,Portugal,nonEU,,
+2018Q4,PT,Portugal,total,39066,5414883.0
+2019Q1,1,Continente,EU,,
+2019Q1,1,Continente,PT,33612,4542612.0
+2019Q1,1,Continente,nonEU,,
+2019Q1,1,Continente,total,35695,5107544.0
+2019Q1,11,Norte,EU,,
+2019Q1,11,Norte,PT,10280,1202944.0
+2019Q1,11,Norte,nonEU,,
+2019Q1,11,Norte,total,10487,1234131.0
+2019Q1,15,Algarve,EU,,
+2019Q1,15,Algarve,PT,2415,374569.0
+2019Q1,15,Algarve,nonEU,,
+2019Q1,15,Algarve,total,3438,669517.0
+2019Q1,19,Centro,EU,,
+2019Q1,19,Centro,PT,4585,409634.0
+2019Q1,19,Centro,nonEU,,
+2019Q1,19,Centro,total,4727,420803.0
+2019Q1,1A,Grande Lisboa,EU,,
+2019Q1,1A,Grande Lisboa,PT,8139,1708131.0
+2019Q1,1A,Grande Lisboa,nonEU,,
+2019Q1,1A,Grande Lisboa,total,8482,1874262.0
+2019Q1,1B,Península de Setúbal,EU,,
+2019Q1,1B,Península de Setúbal,PT,4021,473522.0
+2019Q1,1B,Península de Setúbal,nonEU,,
+2019Q1,1B,Península de Setúbal,total,4149,499335.0
+2019Q1,1C,Alentejo,EU,,
+2019Q1,1C,Alentejo,PT,1432,121987.0
+2019Q1,1C,Alentejo,nonEU,,
+2019Q1,1C,Alentejo,total,1493,129703.0
+2019Q1,1D,Oeste e Vale do Tejo,EU,,
+2019Q1,1D,Oeste e Vale do Tejo,PT,2740,251824.0
+2019Q1,1D,Oeste e Vale do Tejo,nonEU,,
+2019Q1,1D,Oeste e Vale do Tejo,total,2919,279792.0
+2019Q1,2,Região Autónoma dos Açores,EU,,
+2019Q1,2,Região Autónoma dos Açores,PT,550,58649.0
+2019Q1,2,Região Autónoma dos Açores,nonEU,,
+2019Q1,2,Região Autónoma dos Açores,total,575,61573.0
+2019Q1,20,Região Autónoma dos Açores,EU,,
+2019Q1,20,Região Autónoma dos Açores,PT,550,58649.0
+2019Q1,20,Região Autónoma dos Açores,nonEU,,
+2019Q1,20,Região Autónoma dos Açores,total,575,61573.0
+2019Q1,3,Região Autónoma da Madeira,EU,,
+2019Q1,3,Região Autónoma da Madeira,PT,652,86509.0
+2019Q1,3,Região Autónoma da Madeira,nonEU,,
+2019Q1,3,Região Autónoma da Madeira,total,684,91973.0
+2019Q1,30,Região Autónoma da Madeira,EU,,
+2019Q1,30,Região Autónoma da Madeira,PT,652,86509.0
+2019Q1,30,Região Autónoma da Madeira,nonEU,,
+2019Q1,30,Região Autónoma da Madeira,total,684,91973.0
+2019Q1,PT,Portugal,EU,1554,386324.0
+2019Q1,PT,Portugal,PT,34814,4687770.0
+2019Q1,PT,Portugal,nonEU,586,186995.0
+2019Q1,PT,Portugal,total,36954,5261090.0
+2019Q2,1,Continente,EU,,
+2019Q2,1,Continente,PT,33366,4687022.0
+2019Q2,1,Continente,nonEU,,
+2019Q2,1,Continente,total,35480,5265657.0
+2019Q2,11,Norte,EU,,
+2019Q2,11,Norte,PT,10220,1226752.0
+2019Q2,11,Norte,nonEU,,
+2019Q2,11,Norte,total,10413,1258564.0
+2019Q2,15,Algarve,EU,,
+2019Q2,15,Algarve,PT,2434,393671.0
+2019Q2,15,Algarve,nonEU,,
+2019Q2,15,Algarve,total,3461,684034.0
+2019Q2,19,Centro,EU,,
+2019Q2,19,Centro,PT,4537,431340.0
+2019Q2,19,Centro,nonEU,,
+2019Q2,19,Centro,total,4713,446452.0
+2019Q2,1A,Grande Lisboa,EU,,
+2019Q2,1A,Grande Lisboa,PT,7924,1772200.0
+2019Q2,1A,Grande Lisboa,nonEU,,
+2019Q2,1A,Grande Lisboa,total,8280,1957655.0
+2019Q2,1B,Península de Setúbal,EU,,
+2019Q2,1B,Península de Setúbal,PT,4011,476852.0
+2019Q2,1B,Península de Setúbal,nonEU,,
+2019Q2,1B,Península de Setúbal,total,4139,496690.0
+2019Q2,1C,Alentejo,EU,,
+2019Q2,1C,Alentejo,PT,1475,124507.0
+2019Q2,1C,Alentejo,nonEU,,
+2019Q2,1C,Alentejo,total,1533,132767.0
+2019Q2,1D,Oeste e Vale do Tejo,EU,,
+2019Q2,1D,Oeste e Vale do Tejo,PT,2765,261702.0
+2019Q2,1D,Oeste e Vale do Tejo,nonEU,,
+2019Q2,1D,Oeste e Vale do Tejo,total,2941,289496.0
+2019Q2,2,Região Autónoma dos Açores,EU,,
+2019Q2,2,Região Autónoma dos Açores,PT,576,62868.0
+2019Q2,2,Região Autónoma dos Açores,nonEU,,
+2019Q2,2,Região Autónoma dos Açores,total,587,63818.0
+2019Q2,20,Região Autónoma dos Açores,EU,,
+2019Q2,20,Região Autónoma dos Açores,PT,576,62868.0
+2019Q2,20,Região Autónoma dos Açores,nonEU,,
+2019Q2,20,Região Autónoma dos Açores,total,587,63818.0
+2019Q2,3,Região Autónoma da Madeira,EU,,
+2019Q2,3,Região Autónoma da Madeira,PT,582,79327.0
+2019Q2,3,Região Autónoma da Madeira,nonEU,,
+2019Q2,3,Região Autónoma da Madeira,total,614,85331.0
+2019Q2,30,Região Autónoma da Madeira,EU,,
+2019Q2,30,Região Autónoma da Madeira,PT,582,79327.0
+2019Q2,30,Região Autónoma da Madeira,nonEU,,
+2019Q2,30,Região Autónoma da Madeira,total,614,85331.0
+2019Q2,PT,Portugal,EU,1554,366516.0
+2019Q2,PT,Portugal,PT,34524,4829218.0
+2019Q2,PT,Portugal,nonEU,603,219072.0
+2019Q2,PT,Portugal,total,36681,5414806.0
+2019Q3,1,Continente,EU,,
+2019Q3,1,Continente,PT,35921,5060040.0
+2019Q3,1,Continente,nonEU,,
+2019Q3,1,Continente,total,38118,5629169.0
+2019Q3,11,Norte,EU,,
+2019Q3,11,Norte,PT,11174,1325767.0
+2019Q3,11,Norte,nonEU,,
+2019Q3,11,Norte,total,11433,1365258.0
+2019Q3,15,Algarve,EU,,
+2019Q3,15,Algarve,PT,2333,384803.0
+2019Q3,15,Algarve,nonEU,,
+2019Q3,15,Algarve,total,3274,678547.0
+2019Q3,19,Centro,EU,,
+2019Q3,19,Centro,PT,5100,486609.0
+2019Q3,19,Centro,nonEU,,
+2019Q3,19,Centro,total,5359,505679.0
+2019Q3,1A,Grande Lisboa,EU,,
+2019Q3,1A,Grande Lisboa,PT,8276,1900933.0
+2019Q3,1A,Grande Lisboa,nonEU,,
+2019Q3,1A,Grande Lisboa,total,8617,2045236.0
+2019Q3,1B,Península de Setúbal,EU,,
+2019Q3,1B,Península de Setúbal,PT,4084,509089.0
+2019Q3,1B,Península de Setúbal,nonEU,,
+2019Q3,1B,Península de Setúbal,total,4202,532829.0
+2019Q3,1C,Alentejo,EU,,
+2019Q3,1C,Alentejo,PT,1757,145382.0
+2019Q3,1C,Alentejo,nonEU,,
+2019Q3,1C,Alentejo,total,1827,157465.0
+2019Q3,1D,Oeste e Vale do Tejo,EU,,
+2019Q3,1D,Oeste e Vale do Tejo,PT,3197,307457.0
+2019Q3,1D,Oeste e Vale do Tejo,nonEU,,
+2019Q3,1D,Oeste e Vale do Tejo,total,3406,344155.0
+2019Q3,2,Região Autónoma dos Açores,EU,,
+2019Q3,2,Região Autónoma dos Açores,PT,688,68659.0
+2019Q3,2,Região Autónoma dos Açores,nonEU,,
+2019Q3,2,Região Autónoma dos Açores,total,709,69958.0
+2019Q3,20,Região Autónoma dos Açores,EU,,
+2019Q3,20,Região Autónoma dos Açores,PT,688,68659.0
+2019Q3,20,Região Autónoma dos Açores,nonEU,,
+2019Q3,20,Região Autónoma dos Açores,total,709,69958.0
+2019Q3,3,Região Autónoma da Madeira,EU,,
+2019Q3,3,Região Autónoma da Madeira,PT,694,95756.0
+2019Q3,3,Região Autónoma da Madeira,nonEU,,
+2019Q3,3,Região Autónoma da Madeira,total,727,100901.0
+2019Q3,30,Região Autónoma da Madeira,EU,,
+2019Q3,30,Região Autónoma da Madeira,PT,694,95756.0
+2019Q3,30,Região Autónoma da Madeira,nonEU,,
+2019Q3,30,Região Autónoma da Madeira,total,727,100901.0
+2019Q3,PT,Portugal,EU,1640,382608.0
+2019Q3,PT,Portugal,PT,37303,5224456.0
+2019Q3,PT,Portugal,nonEU,611,192965.0
+2019Q3,PT,Portugal,total,39554,5800028.0
+2019Q4,1,Continente,EU,,
+2019Q4,1,Continente,PT,38064,5352943.0
+2019Q4,1,Continente,nonEU,,
+2019Q4,1,Continente,total,40286,5959042.0
+2019Q4,11,Norte,EU,,
+2019Q4,11,Norte,PT,11566,1403647.0
+2019Q4,11,Norte,nonEU,,
+2019Q4,11,Norte,total,11849,1444479.0
+2019Q4,15,Algarve,EU,,
+2019Q4,15,Algarve,PT,2811,465229.0
+2019Q4,15,Algarve,nonEU,,
+2019Q4,15,Algarve,total,3807,775392.0
+2019Q4,19,Centro,EU,,
+2019Q4,19,Centro,PT,5520,518031.0
+2019Q4,19,Centro,nonEU,,
+2019Q4,19,Centro,total,5711,533092.0
+2019Q4,1A,Grande Lisboa,EU,,
+2019Q4,1A,Grande Lisboa,PT,8632,1973575.0
+2019Q4,1A,Grande Lisboa,nonEU,,
+2019Q4,1A,Grande Lisboa,total,9016,2158061.0
+2019Q4,1B,Península de Setúbal,EU,,
+2019Q4,1B,Península de Setúbal,PT,4552,545871.0
+2019Q4,1B,Península de Setúbal,nonEU,,
+2019Q4,1B,Península de Setúbal,total,4658,563853.0
+2019Q4,1C,Alentejo,EU,,
+2019Q4,1C,Alentejo,PT,1703,140961.0
+2019Q4,1C,Alentejo,nonEU,,
+2019Q4,1C,Alentejo,total,1792,152464.0
+2019Q4,1D,Oeste e Vale do Tejo,EU,,
+2019Q4,1D,Oeste e Vale do Tejo,PT,3280,305628.0
+2019Q4,1D,Oeste e Vale do Tejo,nonEU,,
+2019Q4,1D,Oeste e Vale do Tejo,total,3453,331701.0
+2019Q4,2,Região Autónoma dos Açores,EU,,
+2019Q4,2,Região Autónoma dos Açores,PT,596,63068.0
+2019Q4,2,Região Autónoma dos Açores,nonEU,,
+2019Q4,2,Região Autónoma dos Açores,total,616,65570.0
+2019Q4,20,Região Autónoma dos Açores,EU,,
+2019Q4,20,Região Autónoma dos Açores,PT,596,63068.0
+2019Q4,20,Região Autónoma dos Açores,nonEU,,
+2019Q4,20,Região Autónoma dos Açores,total,616,65570.0
+2019Q4,3,Região Autónoma da Madeira,EU,,
+2019Q4,3,Região Autónoma da Madeira,PT,753,107795.0
+2019Q4,3,Região Autónoma da Madeira,nonEU,,
+2019Q4,3,Região Autónoma da Madeira,total,774,111656.0
+2019Q4,30,Região Autónoma da Madeira,EU,,
+2019Q4,30,Região Autónoma da Madeira,PT,753,107795.0
+2019Q4,30,Região Autónoma da Madeira,nonEU,,
+2019Q4,30,Região Autónoma da Madeira,total,774,111656.0
+2019Q4,PT,Portugal,EU,1594,369930.0
+2019Q4,PT,Portugal,PT,39413,5523805.0
+2019Q4,PT,Portugal,nonEU,669,242533.0
+2019Q4,PT,Portugal,total,41676,6136268.0
+2020Q1,1,Continente,EU,,
+2020Q1,1,Continente,PT,32991,4992161.0
+2020Q1,1,Continente,nonEU,,
+2020Q1,1,Continente,total,34979,5590338.0
+2020Q1,11,Norte,EU,,
+2020Q1,11,Norte,PT,10123,1330982.0
+2020Q1,11,Norte,nonEU,,
+2020Q1,11,Norte,total,10347,1372712.0
+2020Q1,15,Algarve,EU,,
+2020Q1,15,Algarve,PT,2468,431281.0
+2020Q1,15,Algarve,nonEU,,
+2020Q1,15,Algarve,total,3322,696205.0
+2020Q1,19,Centro,EU,,
+2020Q1,19,Centro,PT,4421,438908.0
+2020Q1,19,Centro,nonEU,,
+2020Q1,19,Centro,total,4577,450687.0
+2020Q1,1A,Grande Lisboa,EU,,
+2020Q1,1A,Grande Lisboa,PT,7946,1880535.0
+2020Q1,1A,Grande Lisboa,nonEU,,
+2020Q1,1A,Grande Lisboa,total,8344,2100495.0
+2020Q1,1B,Península de Setúbal,EU,,
+2020Q1,1B,Península de Setúbal,PT,3843,505693.0
+2020Q1,1B,Península de Setúbal,nonEU,,
+2020Q1,1B,Península de Setúbal,total,3943,524426.0
+2020Q1,1C,Alentejo,EU,,
+2020Q1,1C,Alentejo,PT,1419,124833.0
+2020Q1,1C,Alentejo,nonEU,,
+2020Q1,1C,Alentejo,total,1481,132711.0
+2020Q1,1D,Oeste e Vale do Tejo,EU,,
+2020Q1,1D,Oeste e Vale do Tejo,PT,2771,279927.0
+2020Q1,1D,Oeste e Vale do Tejo,nonEU,,
+2020Q1,1D,Oeste e Vale do Tejo,total,2965,313102.0
+2020Q1,2,Região Autónoma dos Açores,EU,,
+2020Q1,2,Região Autónoma dos Açores,PT,647,74193.0
+2020Q1,2,Região Autónoma dos Açores,nonEU,,
+2020Q1,2,Região Autónoma dos Açores,total,668,76583.0
+2020Q1,20,Região Autónoma dos Açores,EU,,
+2020Q1,20,Região Autónoma dos Açores,PT,647,74193.0
+2020Q1,20,Região Autónoma dos Açores,nonEU,,
+2020Q1,20,Região Autónoma dos Açores,total,668,76583.0
+2020Q1,3,Região Autónoma da Madeira,EU,,
+2020Q1,3,Região Autónoma da Madeira,PT,709,107992.0
+2020Q1,3,Região Autónoma da Madeira,nonEU,,
+2020Q1,3,Região Autónoma da Madeira,total,752,118617.0
+2020Q1,30,Região Autónoma da Madeira,EU,,
+2020Q1,30,Região Autónoma da Madeira,PT,709,107992.0
+2020Q1,30,Região Autónoma da Madeira,nonEU,,
+2020Q1,30,Região Autónoma da Madeira,total,752,118617.0
+2020Q1,PT,Portugal,EU,1307,313328.0
+2020Q1,PT,Portugal,PT,34347,5174346.0
+2020Q1,PT,Portugal,nonEU,745,297864.0
+2020Q1,PT,Portugal,total,36399,5785538.0
+2020Q2,1,Continente,EU,,
+2020Q2,1,Continente,PT,24351,3676221.0
+2020Q2,1,Continente,nonEU,,
+2020Q2,1,Continente,total,25500,4010621.0
+2020Q2,11,Norte,EU,,
+2020Q2,11,Norte,PT,7635,1024992.0
+2020Q2,11,Norte,nonEU,,
+2020Q2,11,Norte,total,7784,1051789.0
+2020Q2,15,Algarve,EU,,
+2020Q2,15,Algarve,PT,1549,283250.0
+2020Q2,15,Algarve,nonEU,,
+2020Q2,15,Algarve,total,1968,412644.0
+2020Q2,19,Centro,EU,,
+2020Q2,19,Centro,PT,3531,372720.0
+2020Q2,19,Centro,nonEU,,
+2020Q2,19,Centro,total,3620,381889.0
+2020Q2,1A,Grande Lisboa,EU,,
+2020Q2,1A,Grande Lisboa,PT,5440,1272625.0
+2020Q2,1A,Grande Lisboa,nonEU,,
+2020Q2,1A,Grande Lisboa,total,5713,1401673.0
+2020Q2,1B,Península de Setúbal,EU,,
+2020Q2,1B,Península de Setúbal,PT,2845,392942.0
+2020Q2,1B,Península de Setúbal,nonEU,,
+2020Q2,1B,Península de Setúbal,total,2917,408081.0
+2020Q2,1C,Alentejo,EU,,
+2020Q2,1C,Alentejo,PT,1208,110601.0
+2020Q2,1C,Alentejo,nonEU,,
+2020Q2,1C,Alentejo,total,1252,118806.0
+2020Q2,1D,Oeste e Vale do Tejo,EU,,
+2020Q2,1D,Oeste e Vale do Tejo,PT,2143,219091.0
+2020Q2,1D,Oeste e Vale do Tejo,nonEU,,
+2020Q2,1D,Oeste e Vale do Tejo,total,2246,235739.0
+2020Q2,2,Região Autónoma dos Açores,EU,,
+2020Q2,2,Região Autónoma dos Açores,PT,429,48858.0
+2020Q2,2,Região Autónoma dos Açores,nonEU,,
+2020Q2,2,Região Autónoma dos Açores,total,435,49832.0
+2020Q2,20,Região Autónoma dos Açores,EU,,
+2020Q2,20,Região Autónoma dos Açores,PT,429,48858.0
+2020Q2,20,Região Autónoma dos Açores,nonEU,,
+2020Q2,20,Região Autónoma dos Açores,total,435,49832.0
+2020Q2,3,Região Autónoma da Madeira,EU,,
+2020Q2,3,Região Autónoma da Madeira,PT,429,62656.0
+2020Q2,3,Região Autónoma da Madeira,nonEU,,
+2020Q2,3,Região Autónoma da Madeira,total,444,65049.0
+2020Q2,30,Região Autónoma da Madeira,EU,,
+2020Q2,30,Região Autónoma da Madeira,PT,429,62656.0
+2020Q2,30,Região Autónoma da Madeira,nonEU,,
+2020Q2,30,Região Autónoma da Madeira,total,444,65049.0
+2020Q2,PT,Portugal,EU,654,159241.0
+2020Q2,PT,Portugal,PT,25209,3787735.0
+2020Q2,PT,Portugal,nonEU,516,178526.0
+2020Q2,PT,Portugal,total,26379,4125502.0
+2020Q3,1,Continente,EU,,
+2020Q3,1,Continente,PT,32399,4701249.0
+2020Q3,1,Continente,nonEU,,
+2020Q3,1,Continente,total,34315,5255431.0
+2020Q3,11,Norte,EU,,
+2020Q3,11,Norte,PT,10395,1312726.0
+2020Q3,11,Norte,nonEU,,
+2020Q3,11,Norte,total,10669,1354648.0
+2020Q3,15,Algarve,EU,,
+2020Q3,15,Algarve,PT,2105,396886.0
+2020Q3,15,Algarve,nonEU,,
+2020Q3,15,Algarve,total,2807,651496.0
+2020Q3,19,Centro,EU,,
+2020Q3,19,Centro,PT,5153,504893.0
+2020Q3,19,Centro,nonEU,,
+2020Q3,19,Centro,total,5374,520460.0
+2020Q3,1A,Grande Lisboa,EU,,
+2020Q3,1A,Grande Lisboa,PT,6510,1514363.0
+2020Q3,1A,Grande Lisboa,nonEU,,
+2020Q3,1A,Grande Lisboa,total,6832,1680690.0
+2020Q3,1B,Península de Setúbal,EU,,
+2020Q3,1B,Península de Setúbal,PT,3560,510809.0
+2020Q3,1B,Península de Setúbal,nonEU,,
+2020Q3,1B,Península de Setúbal,total,3695,541066.0
+2020Q3,1C,Alentejo,EU,,
+2020Q3,1C,Alentejo,PT,1652,155546.0
+2020Q3,1C,Alentejo,nonEU,,
+2020Q3,1C,Alentejo,total,1730,166934.0
+2020Q3,1D,Oeste e Vale do Tejo,EU,,
+2020Q3,1D,Oeste e Vale do Tejo,PT,3024,306027.0
+2020Q3,1D,Oeste e Vale do Tejo,nonEU,,
+2020Q3,1D,Oeste e Vale do Tejo,total,3208,340138.0
+2020Q3,2,Região Autónoma dos Açores,EU,,
+2020Q3,2,Região Autónoma dos Açores,PT,532,58757.0
+2020Q3,2,Região Autónoma dos Açores,nonEU,,
+2020Q3,2,Região Autónoma dos Açores,total,555,61424.0
+2020Q3,20,Região Autónoma dos Açores,EU,,
+2020Q3,20,Região Autónoma dos Açores,PT,532,58757.0
+2020Q3,20,Região Autónoma dos Açores,nonEU,,
+2020Q3,20,Região Autónoma dos Açores,total,555,61424.0
+2020Q3,3,Região Autónoma da Madeira,EU,,
+2020Q3,3,Região Autónoma da Madeira,PT,689,102133.0
+2020Q3,3,Região Autónoma da Madeira,nonEU,,
+2020Q3,3,Região Autónoma da Madeira,total,726,110747.0
+2020Q3,30,Região Autónoma da Madeira,EU,,
+2020Q3,30,Região Autónoma da Madeira,PT,689,102133.0
+2020Q3,30,Região Autónoma da Madeira,nonEU,,
+2020Q3,30,Região Autónoma da Madeira,total,726,110747.0
+2020Q3,PT,Portugal,EU,1311,337856.0
+2020Q3,PT,Portugal,PT,33620,4862139.0
+2020Q3,PT,Portugal,nonEU,665,227608.0
+2020Q3,PT,Portugal,total,35596,5427603.0
+2020Q4,1,Continente,EU,,
+2020Q4,1,Continente,PT,35743,5332825.0
+2020Q4,1,Continente,nonEU,,
+2020Q4,1,Continente,total,37748,5917302.0
+2020Q4,11,Norte,EU,,
+2020Q4,11,Norte,PT,11000,1452610.0
+2020Q4,11,Norte,nonEU,,
+2020Q4,11,Norte,total,11313,1522354.0
+2020Q4,15,Algarve,EU,,
+2020Q4,15,Algarve,PT,2436,470781.0
+2020Q4,15,Algarve,nonEU,,
+2020Q4,15,Algarve,total,3177,719731.0
+2020Q4,19,Centro,EU,,
+2020Q4,19,Centro,PT,5378,513628.0
+2020Q4,19,Centro,nonEU,,
+2020Q4,19,Centro,total,5600,533877.0
+2020Q4,1A,Grande Lisboa,EU,,
+2020Q4,1A,Grande Lisboa,PT,7218,1743503.0
+2020Q4,1A,Grande Lisboa,nonEU,,
+2020Q4,1A,Grande Lisboa,total,7572,1924777.0
+2020Q4,1B,Península de Setúbal,EU,,
+2020Q4,1B,Península de Setúbal,PT,4247,611281.0
+2020Q4,1B,Península de Setúbal,nonEU,,
+2020Q4,1B,Península de Setúbal,total,4370,635952.0
+2020Q4,1C,Alentejo,EU,,
+2020Q4,1C,Alentejo,PT,1943,172256.0
+2020Q4,1C,Alentejo,nonEU,,
+2020Q4,1C,Alentejo,total,2017,183244.0
+2020Q4,1D,Oeste e Vale do Tejo,EU,,
+2020Q4,1D,Oeste e Vale do Tejo,PT,3521,368767.0
+2020Q4,1D,Oeste e Vale do Tejo,nonEU,,
+2020Q4,1D,Oeste e Vale do Tejo,total,3699,397367.0
+2020Q4,2,Região Autónoma dos Açores,EU,,
+2020Q4,2,Região Autónoma dos Açores,PT,596,63953.0
+2020Q4,2,Região Autónoma dos Açores,nonEU,,
+2020Q4,2,Região Autónoma dos Açores,total,607,65370.0
+2020Q4,20,Região Autónoma dos Açores,EU,,
+2020Q4,20,Região Autónoma dos Açores,PT,596,63953.0
+2020Q4,20,Região Autónoma dos Açores,nonEU,,
+2020Q4,20,Região Autónoma dos Açores,total,607,65370.0
+2020Q4,3,Região Autónoma da Madeira,EU,,
+2020Q4,3,Região Autónoma da Madeira,PT,744,107389.0
+2020Q4,3,Região Autónoma da Madeira,nonEU,,
+2020Q4,3,Região Autónoma da Madeira,total,784,115769.0
+2020Q4,30,Região Autónoma da Madeira,EU,,
+2020Q4,30,Região Autónoma da Madeira,PT,744,107389.0
+2020Q4,30,Região Autónoma da Madeira,nonEU,,
+2020Q4,30,Região Autónoma da Madeira,total,784,115769.0
+2020Q4,PT,Portugal,EU,1359,338217.0
+2020Q4,PT,Portugal,PT,37083,5504167.0
+2020Q4,PT,Portugal,nonEU,697,256057.0
+2020Q4,PT,Portugal,total,39139,6098441.0
+2021Q1,1,Continente,EU,,
+2021Q1,1,Continente,PT,31935,4994488.0
+2021Q1,1,Continente,nonEU,,
+2021Q1,1,Continente,total,33350,5415541.0
+2021Q1,11,Norte,EU,,
+2021Q1,11,Norte,PT,9923,1375377.0
+2021Q1,11,Norte,nonEU,,
+2021Q1,11,Norte,total,10127,1410222.0
+2021Q1,15,Algarve,EU,,
+2021Q1,15,Algarve,PT,2196,423096.0
+2021Q1,15,Algarve,nonEU,,
+2021Q1,15,Algarve,total,2757,610304.0
+2021Q1,19,Centro,EU,,
+2021Q1,19,Centro,PT,4555,458575.0
+2021Q1,19,Centro,nonEU,,
+2021Q1,19,Centro,total,4707,471348.0
+2021Q1,1A,Grande Lisboa,EU,,
+2021Q1,1A,Grande Lisboa,PT,6986,1712510.0
+2021Q1,1A,Grande Lisboa,nonEU,,
+2021Q1,1A,Grande Lisboa,total,7201,1842804.0
+2021Q1,1B,Península de Setúbal,EU,,
+2021Q1,1B,Península de Setúbal,PT,3731,553630.0
+2021Q1,1B,Península de Setúbal,nonEU,,
+2021Q1,1B,Península de Setúbal,total,3817,577349.0
+2021Q1,1C,Alentejo,EU,,
+2021Q1,1C,Alentejo,PT,1532,146339.0
+2021Q1,1C,Alentejo,nonEU,,
+2021Q1,1C,Alentejo,total,1598,156379.0
+2021Q1,1D,Oeste e Vale do Tejo,EU,,
+2021Q1,1D,Oeste e Vale do Tejo,PT,3012,324961.0
+2021Q1,1D,Oeste e Vale do Tejo,nonEU,,
+2021Q1,1D,Oeste e Vale do Tejo,total,3143,347134.0
+2021Q1,2,Região Autónoma dos Açores,EU,,
+2021Q1,2,Região Autónoma dos Açores,PT,499,55907.0
+2021Q1,2,Região Autónoma dos Açores,nonEU,,
+2021Q1,2,Região Autónoma dos Açores,total,510,57361.0
+2021Q1,20,Região Autónoma dos Açores,EU,,
+2021Q1,20,Região Autónoma dos Açores,PT,499,55907.0
+2021Q1,20,Região Autónoma dos Açores,nonEU,,
+2021Q1,20,Região Autónoma dos Açores,total,510,57361.0
+2021Q1,3,Região Autónoma da Madeira,EU,,
+2021Q1,3,Região Autónoma da Madeira,PT,721,113958.0
+2021Q1,3,Região Autónoma da Madeira,nonEU,,
+2021Q1,3,Região Autónoma da Madeira,total,754,122338.0
+2021Q1,30,Região Autónoma da Madeira,EU,,
+2021Q1,30,Região Autónoma da Madeira,PT,721,113958.0
+2021Q1,30,Região Autónoma da Madeira,nonEU,,
+2021Q1,30,Região Autónoma da Madeira,total,754,122338.0
+2021Q1,PT,Portugal,EU,833,208215.0
+2021Q1,PT,Portugal,PT,33155,5164353.0
+2021Q1,PT,Portugal,nonEU,626,222672.0
+2021Q1,PT,Portugal,total,34614,5595240.0
+2021Q2,1,Continente,EU,,
+2021Q2,1,Continente,PT,38452,6158856.0
+2021Q2,1,Continente,nonEU,,
+2021Q2,1,Continente,total,40092,6690510.0
+2021Q2,11,Norte,EU,,
+2021Q2,11,Norte,PT,11685,1601168.0
+2021Q2,11,Norte,nonEU,,
+2021Q2,11,Norte,total,11887,1634272.0
+2021Q2,15,Algarve,EU,,
+2021Q2,15,Algarve,PT,2818,590379.0
+2021Q2,15,Algarve,nonEU,,
+2021Q2,15,Algarve,total,3453,826780.0
+2021Q2,19,Centro,EU,,
+2021Q2,19,Centro,PT,5580,563170.0
+2021Q2,19,Centro,nonEU,,
+2021Q2,19,Centro,total,5761,578825.0
+2021Q2,1A,Grande Lisboa,EU,,
+2021Q2,1A,Grande Lisboa,PT,8079,2134472.0
+2021Q2,1A,Grande Lisboa,nonEU,,
+2021Q2,1A,Grande Lisboa,total,8360,2305020.0
+2021Q2,1B,Península de Setúbal,EU,,
+2021Q2,1B,Península de Setúbal,PT,4501,673672.0
+2021Q2,1B,Península de Setúbal,nonEU,,
+2021Q2,1B,Península de Setúbal,total,4611,706728.0
+2021Q2,1C,Alentejo,EU,,
+2021Q2,1C,Alentejo,PT,1980,188695.0
+2021Q2,1C,Alentejo,nonEU,,
+2021Q2,1C,Alentejo,total,2052,202551.0
+2021Q2,1D,Oeste e Vale do Tejo,EU,,
+2021Q2,1D,Oeste e Vale do Tejo,PT,3809,407301.0
+2021Q2,1D,Oeste e Vale do Tejo,nonEU,,
+2021Q2,1D,Oeste e Vale do Tejo,total,3968,436334.0
+2021Q2,2,Região Autónoma dos Açores,EU,,
+2021Q2,2,Região Autónoma dos Açores,PT,661,75445.0
+2021Q2,2,Região Autónoma dos Açores,nonEU,,
+2021Q2,2,Região Autónoma dos Açores,total,684,78564.0
+2021Q2,20,Região Autónoma dos Açores,EU,,
+2021Q2,20,Região Autónoma dos Açores,PT,661,75445.0
+2021Q2,20,Região Autónoma dos Açores,nonEU,,
+2021Q2,20,Região Autónoma dos Açores,total,684,78564.0
+2021Q2,3,Região Autónoma da Madeira,EU,,
+2021Q2,3,Região Autónoma da Madeira,PT,910,150711.0
+2021Q2,3,Região Autónoma da Madeira,nonEU,,
+2021Q2,3,Região Autónoma da Madeira,total,960,163932.0
+2021Q2,30,Região Autónoma da Madeira,EU,,
+2021Q2,30,Região Autónoma da Madeira,PT,910,150711.0
+2021Q2,30,Região Autónoma da Madeira,nonEU,,
+2021Q2,30,Região Autónoma da Madeira,total,960,163932.0
+2021Q2,PT,Portugal,EU,960,245002.0
+2021Q2,PT,Portugal,PT,40023,6385013.0
+2021Q2,PT,Portugal,nonEU,753,302991.0
+2021Q2,PT,Portugal,total,41736,6933006.0
+2021Q3,1,Continente,EU,,
+2021Q3,1,Continente,PT,39468,6361816.0
+2021Q3,1,Continente,nonEU,,
+2021Q3,1,Continente,total,41844,7117453.0
+2021Q3,11,Norte,EU,,
+2021Q3,11,Norte,PT,12167,1690793.0
+2021Q3,11,Norte,nonEU,,
+2021Q3,11,Norte,total,12527,1758824.0
+2021Q3,15,Algarve,EU,,
+2021Q3,15,Algarve,PT,3125,647797.0
+2021Q3,15,Algarve,nonEU,,
+2021Q3,15,Algarve,total,4040,997596.0
+2021Q3,19,Centro,EU,,
+2021Q3,19,Centro,PT,5759,584662.0
+2021Q3,19,Centro,nonEU,,
+2021Q3,19,Centro,total,6003,605750.0
+2021Q3,1A,Grande Lisboa,EU,,
+2021Q3,1A,Grande Lisboa,PT,8119,2116609.0
+2021Q3,1A,Grande Lisboa,nonEU,,
+2021Q3,1A,Grande Lisboa,total,8518,2341398.0
+2021Q3,1B,Península de Setúbal,EU,,
+2021Q3,1B,Península de Setúbal,PT,4426,699332.0
+2021Q3,1B,Península de Setúbal,nonEU,,
+2021Q3,1B,Península de Setúbal,total,4555,729091.0
+2021Q3,1C,Alentejo,EU,,
+2021Q3,1C,Alentejo,PT,2125,198458.0
+2021Q3,1C,Alentejo,nonEU,,
+2021Q3,1C,Alentejo,total,2216,211932.0
+2021Q3,1D,Oeste e Vale do Tejo,EU,,
+2021Q3,1D,Oeste e Vale do Tejo,PT,3747,424165.0
+2021Q3,1D,Oeste e Vale do Tejo,nonEU,,
+2021Q3,1D,Oeste e Vale do Tejo,total,3985,472862.0
+2021Q3,2,Região Autónoma dos Açores,EU,,
+2021Q3,2,Região Autónoma dos Açores,PT,701,83397.0
+2021Q3,2,Região Autónoma dos Açores,nonEU,,
+2021Q3,2,Região Autónoma dos Açores,total,726,85609.0
+2021Q3,20,Região Autónoma dos Açores,EU,,
+2021Q3,20,Região Autónoma dos Açores,PT,701,83397.0
+2021Q3,20,Região Autónoma dos Açores,nonEU,,
+2021Q3,20,Região Autónoma dos Açores,total,726,85609.0
+2021Q3,3,Região Autónoma da Madeira,EU,,
+2021Q3,3,Região Autónoma da Madeira,PT,820,129544.0
+2021Q3,3,Região Autónoma da Madeira,nonEU,,
+2021Q3,3,Região Autónoma da Madeira,total,877,142917.0
+2021Q3,30,Região Autónoma da Madeira,EU,,
+2021Q3,30,Região Autónoma da Madeira,PT,820,129544.0
+2021Q3,30,Região Autónoma da Madeira,nonEU,,
+2021Q3,30,Região Autónoma da Madeira,total,877,142917.0
+2021Q3,PT,Portugal,EU,1316,318638.0
+2021Q3,PT,Portugal,PT,40989,6574757.0
+2021Q3,PT,Portugal,nonEU,1142,452583.0
+2021Q3,PT,Portugal,total,43447,7345978.0
+2021Q4,1,Continente,EU,,
+2021Q4,1,Continente,PT,40912,6820206.0
+2021Q4,1,Continente,nonEU,,
+2021Q4,1,Continente,total,44102,7933276.0
+2021Q4,11,Norte,EU,,
+2021Q4,11,Norte,PT,12721,1843418.0
+2021Q4,11,Norte,nonEU,,
+2021Q4,11,Norte,total,13158,1927112.0
+2021Q4,15,Algarve,EU,,
+2021Q4,15,Algarve,PT,3067,672061.0
+2021Q4,15,Algarve,nonEU,,
+2021Q4,15,Algarve,total,4313,1170812.0
+2021Q4,19,Centro,EU,,
+2021Q4,19,Centro,PT,6069,624763.0
+2021Q4,19,Centro,nonEU,,
+2021Q4,19,Centro,total,6375,652552.0
+2021Q4,1A,Grande Lisboa,EU,,
+2021Q4,1A,Grande Lisboa,PT,8573,2324393.0
+2021Q4,1A,Grande Lisboa,nonEU,,
+2021Q4,1A,Grande Lisboa,total,9288,2712834.0
+2021Q4,1B,Península de Setúbal,EU,,
+2021Q4,1B,Península de Setúbal,PT,4504,703521.0
+2021Q4,1B,Península de Setúbal,nonEU,,
+2021Q4,1B,Península de Setúbal,total,4664,746982.0
+2021Q4,1C,Alentejo,EU,,
+2021Q4,1C,Alentejo,PT,2176,211479.0
+2021Q4,1C,Alentejo,nonEU,,
+2021Q4,1C,Alentejo,total,2276,229479.0
+2021Q4,1D,Oeste e Vale do Tejo,EU,,
+2021Q4,1D,Oeste e Vale do Tejo,PT,3802,440571.0
+2021Q4,1D,Oeste e Vale do Tejo,nonEU,,
+2021Q4,1D,Oeste e Vale do Tejo,total,4028,493504.0
+2021Q4,2,Região Autónoma dos Açores,EU,,
+2021Q4,2,Região Autónoma dos Açores,PT,763,102563.0
+2021Q4,2,Região Autónoma dos Açores,nonEU,,
+2021Q4,2,Região Autónoma dos Açores,total,803,109753.0
+2021Q4,20,Região Autónoma dos Açores,EU,,
+2021Q4,20,Região Autónoma dos Açores,PT,763,102563.0
+2021Q4,20,Região Autónoma dos Açores,nonEU,,
+2021Q4,20,Região Autónoma dos Açores,total,803,109753.0
+2021Q4,3,Região Autónoma da Madeira,EU,,
+2021Q4,3,Região Autónoma da Madeira,PT,917,166063.0
+2021Q4,3,Região Autónoma da Madeira,nonEU,,
+2021Q4,3,Região Autónoma da Madeira,total,980,182178.0
+2021Q4,30,Região Autónoma da Madeira,EU,,
+2021Q4,30,Região Autónoma da Madeira,PT,917,166063.0
+2021Q4,30,Região Autónoma da Madeira,nonEU,,
+2021Q4,30,Região Autónoma da Madeira,total,980,182178.0
+2021Q4,PT,Portugal,EU,1448,374368.0
+2021Q4,PT,Portugal,PT,42592,7088832.0
+2021Q4,PT,Portugal,nonEU,1845,762007.0
+2021Q4,PT,Portugal,total,45885,8225207.0
+2022Q1,1,Continente,EU,,
+2022Q1,1,Continente,PT,39382,6968426.0
+2022Q1,1,Continente,nonEU,,
+2022Q1,1,Continente,total,41798,7778473.0
+2022Q1,11,Norte,EU,,
+2022Q1,11,Norte,PT,12040,1856154.0
+2022Q1,11,Norte,nonEU,,
+2022Q1,11,Norte,total,12371,1910902.0
+2022Q1,15,Algarve,EU,,
+2022Q1,15,Algarve,PT,3081,719858.0
+2022Q1,15,Algarve,nonEU,,
+2022Q1,15,Algarve,total,4129,1115974.0
+2022Q1,19,Centro,EU,,
+2022Q1,19,Centro,PT,5749,640117.0
+2022Q1,19,Centro,nonEU,,
+2022Q1,19,Centro,total,5976,663628.0
+2022Q1,1A,Grande Lisboa,EU,,
+2022Q1,1A,Grande Lisboa,PT,8647,2399363.0
+2022Q1,1A,Grande Lisboa,nonEU,,
+2022Q1,1A,Grande Lisboa,total,9046,2639455.0
+2022Q1,1B,Península de Setúbal,EU,,
+2022Q1,1B,Península de Setúbal,PT,4304,728075.0
+2022Q1,1B,Península de Setúbal,nonEU,,
+2022Q1,1B,Península de Setúbal,total,4418,758606.0
+2022Q1,1C,Alentejo,EU,,
+2022Q1,1C,Alentejo,PT,2003,210500.0
+2022Q1,1C,Alentejo,nonEU,,
+2022Q1,1C,Alentejo,total,2099,233024.0
+2022Q1,1D,Oeste e Vale do Tejo,EU,,
+2022Q1,1D,Oeste e Vale do Tejo,PT,3558,414359.0
+2022Q1,1D,Oeste e Vale do Tejo,nonEU,,
+2022Q1,1D,Oeste e Vale do Tejo,total,3759,456886.0
+2022Q1,2,Região Autónoma dos Açores,EU,,
+2022Q1,2,Região Autónoma dos Açores,PT,680,93628.0
+2022Q1,2,Região Autónoma dos Açores,nonEU,,
+2022Q1,2,Região Autónoma dos Açores,total,722,98743.0
+2022Q1,20,Região Autónoma dos Açores,EU,,
+2022Q1,20,Região Autónoma dos Açores,PT,680,93628.0
+2022Q1,20,Região Autónoma dos Açores,nonEU,,
+2022Q1,20,Região Autónoma dos Açores,total,722,98743.0
+2022Q1,3,Região Autónoma da Madeira,EU,,
+2022Q1,3,Região Autónoma da Madeira,PT,926,175321.0
+2022Q1,3,Região Autónoma da Madeira,nonEU,,
+2022Q1,3,Região Autónoma da Madeira,total,1024,204581.0
+2022Q1,30,Região Autónoma da Madeira,EU,,
+2022Q1,30,Região Autónoma da Madeira,PT,926,175321.0
+2022Q1,30,Região Autónoma da Madeira,nonEU,,
+2022Q1,30,Região Autónoma da Madeira,total,1024,204581.0
+2022Q1,PT,Portugal,EU,1435,379725.0
+2022Q1,PT,Portugal,PT,40988,7237374.0
+2022Q1,PT,Portugal,nonEU,1121,464698.0
+2022Q1,PT,Portugal,total,43544,8081797.0
+2022Q2,1,Continente,EU,,
+2022Q2,1,Continente,PT,39164,7020064.0
+2022Q2,1,Continente,nonEU,,
+2022Q2,1,Continente,total,41805,7964577.0
+2022Q2,11,Norte,EU,,
+2022Q2,11,Norte,PT,11648,1794581.0
+2022Q2,11,Norte,nonEU,,
+2022Q2,11,Norte,total,11967,1851936.0
+2022Q2,15,Algarve,EU,,
+2022Q2,15,Algarve,PT,3069,726491.0
+2022Q2,15,Algarve,nonEU,,
+2022Q2,15,Algarve,total,4166,1197651.0
+2022Q2,19,Centro,EU,,
+2022Q2,19,Centro,PT,5859,652236.0
+2022Q2,19,Centro,nonEU,,
+2022Q2,19,Centro,total,6162,685881.0
+2022Q2,1A,Grande Lisboa,EU,,
+2022Q2,1A,Grande Lisboa,PT,8323,2381327.0
+2022Q2,1A,Grande Lisboa,nonEU,,
+2022Q2,1A,Grande Lisboa,total,8746,2652189.0
+2022Q2,1B,Península de Setúbal,EU,,
+2022Q2,1B,Península de Setúbal,PT,4445,788886.0
+2022Q2,1B,Península de Setúbal,nonEU,,
+2022Q2,1B,Península de Setúbal,total,4590,825225.0
+2022Q2,1C,Alentejo,EU,,
+2022Q2,1C,Alentejo,PT,2045,217730.0
+2022Q2,1C,Alentejo,nonEU,,
+2022Q2,1C,Alentejo,total,2165,236558.0
+2022Q2,1D,Oeste e Vale do Tejo,EU,,
+2022Q2,1D,Oeste e Vale do Tejo,PT,3775,458812.0
+2022Q2,1D,Oeste e Vale do Tejo,nonEU,,
+2022Q2,1D,Oeste e Vale do Tejo,total,4009,515138.0
+2022Q2,2,Região Autónoma dos Açores,EU,,
+2022Q2,2,Região Autónoma dos Açores,PT,663,89484.0
+2022Q2,2,Região Autónoma dos Açores,nonEU,,
+2022Q2,2,Região Autónoma dos Açores,total,702,95860.0
+2022Q2,20,Região Autónoma dos Açores,EU,,
+2022Q2,20,Região Autónoma dos Açores,PT,663,89484.0
+2022Q2,20,Região Autónoma dos Açores,nonEU,,
+2022Q2,20,Região Autónoma dos Açores,total,702,95860.0
+2022Q2,3,Região Autónoma da Madeira,EU,,
+2022Q2,3,Região Autónoma da Madeira,PT,997,193691.0
+2022Q2,3,Região Autónoma da Madeira,nonEU,,
+2022Q2,3,Região Autónoma da Madeira,total,1100,227268.0
+2022Q2,30,Região Autónoma da Madeira,EU,,
+2022Q2,30,Região Autónoma da Madeira,PT,997,193691.0
+2022Q2,30,Região Autónoma da Madeira,nonEU,,
+2022Q2,30,Região Autónoma da Madeira,total,1100,227268.0
+2022Q2,PT,Portugal,EU,1555,452747.0
+2022Q2,PT,Portugal,PT,40824,7303238.0
+2022Q2,PT,Portugal,nonEU,1228,531720.0
+2022Q2,PT,Portugal,total,43607,8287705.0
+2022Q3,1,Continente,EU,,
+2022Q3,1,Continente,PT,37686,6825592.0
+2022Q3,1,Continente,nonEU,,
+2022Q3,1,Continente,total,40300,7714055.0
+2022Q3,11,Norte,EU,,
+2022Q3,11,Norte,PT,11601,1797355.0
+2022Q3,11,Norte,nonEU,,
+2022Q3,11,Norte,total,11995,1876987.0
+2022Q3,15,Algarve,EU,,
+2022Q3,15,Algarve,PT,2717,632398.0
+2022Q3,15,Algarve,nonEU,,
+2022Q3,15,Algarve,total,3666,1028325.0
+2022Q3,19,Centro,EU,,
+2022Q3,19,Centro,PT,5830,646594.0
+2022Q3,19,Centro,nonEU,,
+2022Q3,19,Centro,total,6186,682619.0
+2022Q3,1A,Grande Lisboa,EU,,
+2022Q3,1A,Grande Lisboa,PT,7829,2339551.0
+2022Q3,1A,Grande Lisboa,nonEU,,
+2022Q3,1A,Grande Lisboa,total,8204,2588479.0
+2022Q3,1B,Península de Setúbal,EU,,
+2022Q3,1B,Península de Setúbal,PT,4095,755102.0
+2022Q3,1B,Península de Setúbal,nonEU,,
+2022Q3,1B,Península de Setúbal,total,4257,799397.0
+2022Q3,1C,Alentejo,EU,,
+2022Q3,1C,Alentejo,PT,1978,214238.0
+2022Q3,1C,Alentejo,nonEU,,
+2022Q3,1C,Alentejo,total,2109,243679.0
+2022Q3,1D,Oeste e Vale do Tejo,EU,,
+2022Q3,1D,Oeste e Vale do Tejo,PT,3636,440354.0
+2022Q3,1D,Oeste e Vale do Tejo,nonEU,,
+2022Q3,1D,Oeste e Vale do Tejo,total,3883,494570.0
+2022Q3,2,Região Autónoma dos Açores,EU,,
+2022Q3,2,Região Autónoma dos Açores,PT,674,96703.0
+2022Q3,2,Região Autónoma dos Açores,nonEU,,
+2022Q3,2,Região Autónoma dos Açores,total,743,108289.0
+2022Q3,20,Região Autónoma dos Açores,EU,,
+2022Q3,20,Região Autónoma dos Açores,PT,674,96703.0
+2022Q3,20,Região Autónoma dos Açores,nonEU,,
+2022Q3,20,Região Autónoma dos Açores,total,743,108289.0
+2022Q3,3,Região Autónoma da Madeira,EU,,
+2022Q3,3,Região Autónoma da Madeira,PT,1096,199699.0
+2022Q3,3,Região Autónoma da Madeira,nonEU,,
+2022Q3,3,Região Autónoma da Madeira,total,1180,229148.0
+2022Q3,30,Região Autónoma da Madeira,EU,,
+2022Q3,30,Região Autónoma da Madeira,PT,1096,199699.0
+2022Q3,30,Região Autónoma da Madeira,nonEU,,
+2022Q3,30,Região Autónoma da Madeira,total,1180,229148.0
+2022Q3,PT,Portugal,EU,1486,420749.0
+2022Q3,PT,Portugal,PT,39456,7121994.0
+2022Q3,PT,Portugal,nonEU,1281,508749.0
+2022Q3,PT,Portugal,total,42223,8051492.0
+2022Q4,1,Continente,EU,,
+2022Q4,1,Continente,PT,34429,6249375.0
+2022Q4,1,Continente,nonEU,,
+2022Q4,1,Continente,total,36909,7065974.0
+2022Q4,11,Norte,EU,,
+2022Q4,11,Norte,PT,10584,1665281.0
+2022Q4,11,Norte,nonEU,,
+2022Q4,11,Norte,total,10970,1737340.0
+2022Q4,15,Algarve,EU,,
+2022Q4,15,Algarve,PT,2301,584811.0
+2022Q4,15,Algarve,nonEU,,
+2022Q4,15,Algarve,total,3162,946037.0
+2022Q4,19,Centro,EU,,
+2022Q4,19,Centro,PT,5609,630830.0
+2022Q4,19,Centro,nonEU,,
+2022Q4,19,Centro,total,5958,671523.0
+2022Q4,1A,Grande Lisboa,EU,,
+2022Q4,1A,Grande Lisboa,PT,6792,2067358.0
+2022Q4,1A,Grande Lisboa,nonEU,,
+2022Q4,1A,Grande Lisboa,total,7185,2302466.0
+2022Q4,1B,Península de Setúbal,EU,,
+2022Q4,1B,Península de Setúbal,PT,3633,663721.0
+2022Q4,1B,Península de Setúbal,nonEU,,
+2022Q4,1B,Península de Setúbal,total,3772,700056.0
+2022Q4,1C,Alentejo,EU,,
+2022Q4,1C,Alentejo,PT,1988,203122.0
+2022Q4,1C,Alentejo,nonEU,,
+2022Q4,1C,Alentejo,total,2104,226056.0
+2022Q4,1D,Oeste e Vale do Tejo,EU,,
+2022Q4,1D,Oeste e Vale do Tejo,PT,3522,434252.0
+2022Q4,1D,Oeste e Vale do Tejo,nonEU,,
+2022Q4,1D,Oeste e Vale do Tejo,total,3758,482495.0
+2022Q4,2,Região Autónoma dos Açores,EU,,
+2022Q4,2,Região Autónoma dos Açores,PT,724,106043.0
+2022Q4,2,Região Autónoma dos Açores,nonEU,,
+2022Q4,2,Região Autónoma dos Açores,total,779,115774.0
+2022Q4,20,Região Autónoma dos Açores,EU,,
+2022Q4,20,Região Autónoma dos Açores,PT,724,106043.0
+2022Q4,20,Região Autónoma dos Açores,nonEU,,
+2022Q4,20,Região Autónoma dos Açores,total,779,115774.0
+2022Q4,3,Região Autónoma da Madeira,EU,,
+2022Q4,3,Região Autónoma da Madeira,PT,757,148502.0
+2022Q4,3,Região Autónoma da Madeira,nonEU,,
+2022Q4,3,Região Autónoma da Madeira,total,838,180472.0
+2022Q4,30,Região Autónoma da Madeira,EU,,
+2022Q4,30,Região Autónoma da Madeira,PT,757,148502.0
+2022Q4,30,Região Autónoma da Madeira,nonEU,,
+2022Q4,30,Região Autónoma da Madeira,total,838,180472.0
+2022Q4,PT,Portugal,EU,1336,368694.0
+2022Q4,PT,Portugal,PT,35910,6503920.0
+2022Q4,PT,Portugal,nonEU,1280,489605.0
+2022Q4,PT,Portugal,total,38526,7362219.0
+2023Q1,1,Continente,EU,,
+2023Q1,1,Continente,PT,30650,5739380.0
+2023Q1,1,Continente,nonEU,,
+2023Q1,1,Continente,total,32996,6575193.0
+2023Q1,11,Norte,EU,,
+2023Q1,11,Norte,PT,9528,1537182.0
+2023Q1,11,Norte,nonEU,,
+2023Q1,11,Norte,total,9924,1613625.0
+2023Q1,15,Algarve,EU,,
+2023Q1,15,Algarve,PT,2235,571275.0
+2023Q1,15,Algarve,nonEU,,
+2023Q1,15,Algarve,total,3080,946956.0
+2023Q1,19,Centro,EU,,
+2023Q1,19,Centro,PT,4961,575868.0
+2023Q1,19,Centro,nonEU,,
+2023Q1,19,Centro,total,5266,612761.0
+2023Q1,1A,Grande Lisboa,EU,,
+2023Q1,1A,Grande Lisboa,PT,6318,1954159.0
+2023Q1,1A,Grande Lisboa,nonEU,,
+2023Q1,1A,Grande Lisboa,total,6672,2183725.0
+2023Q1,1B,Península de Setúbal,EU,,
+2023Q1,1B,Península de Setúbal,PT,2965,555063.0
+2023Q1,1B,Península de Setúbal,nonEU,,
+2023Q1,1B,Península de Setúbal,total,3089,598955.0
+2023Q1,1C,Alentejo,EU,,
+2023Q1,1C,Alentejo,PT,1640,172111.0
+2023Q1,1C,Alentejo,nonEU,,
+2023Q1,1C,Alentejo,total,1757,201441.0
+2023Q1,1D,Oeste e Vale do Tejo,EU,,
+2023Q1,1D,Oeste e Vale do Tejo,PT,3003,373722.0
+2023Q1,1D,Oeste e Vale do Tejo,nonEU,,
+2023Q1,1D,Oeste e Vale do Tejo,total,3208,417729.0
+2023Q1,2,Região Autónoma dos Açores,EU,,
+2023Q1,2,Região Autónoma dos Açores,PT,548,77888.0
+2023Q1,2,Região Autónoma dos Açores,nonEU,,
+2023Q1,2,Região Autónoma dos Açores,total,599,86800.0
+2023Q1,20,Região Autónoma dos Açores,EU,,
+2023Q1,20,Região Autónoma dos Açores,PT,548,77888.0
+2023Q1,20,Região Autónoma dos Açores,nonEU,,
+2023Q1,20,Região Autónoma dos Açores,total,599,86800.0
+2023Q1,3,Região Autónoma da Madeira,EU,,
+2023Q1,3,Região Autónoma da Madeira,PT,803,166272.0
+2023Q1,3,Região Autónoma da Madeira,nonEU,,
+2023Q1,3,Região Autónoma da Madeira,total,898,195339.0
+2023Q1,30,Região Autónoma da Madeira,EU,,
+2023Q1,30,Região Autónoma da Madeira,PT,803,166272.0
+2023Q1,30,Região Autónoma da Madeira,nonEU,,
+2023Q1,30,Região Autónoma da Madeira,total,898,195339.0
+2023Q1,PT,Portugal,EU,1269,363245.0
+2023Q1,PT,Portugal,PT,32001,5983540.0
+2023Q1,PT,Portugal,nonEU,1223,510547.0
+2023Q1,PT,Portugal,total,34493,6857332.0
+2023Q2,1,Continente,EU,,
+2023Q2,1,Continente,PT,29876,5807138.0
+2023Q2,1,Continente,nonEU,,
+2023Q2,1,Continente,total,32296,6643328.0
+2023Q2,11,Norte,EU,,
+2023Q2,11,Norte,PT,9211,1515609.0
+2023Q2,11,Norte,nonEU,,
+2023Q2,11,Norte,total,9628,1596465.0
+2023Q2,15,Algarve,EU,,
+2023Q2,15,Algarve,PT,2166,561913.0
+2023Q2,15,Algarve,nonEU,,
+2023Q2,15,Algarve,total,2946,889013.0
+2023Q2,19,Centro,EU,,
+2023Q2,19,Centro,PT,4841,570970.0
+2023Q2,19,Centro,nonEU,,
+2023Q2,19,Centro,total,5168,606623.0
+2023Q2,1A,Grande Lisboa,EU,,
+2023Q2,1A,Grande Lisboa,PT,5934,1993158.0
+2023Q2,1A,Grande Lisboa,nonEU,,
+2023Q2,1A,Grande Lisboa,total,6354,2270896.0
+2023Q2,1B,Península de Setúbal,EU,,
+2023Q2,1B,Península de Setúbal,PT,3215,621147.0
+2023Q2,1B,Península de Setúbal,nonEU,,
+2023Q2,1B,Península de Setúbal,total,3342,660998.0
+2023Q2,1C,Alentejo,EU,,
+2023Q2,1C,Alentejo,PT,1572,167751.0
+2023Q2,1C,Alentejo,nonEU,,
+2023Q2,1C,Alentejo,total,1698,192450.0
+2023Q2,1D,Oeste e Vale do Tejo,EU,,
+2023Q2,1D,Oeste e Vale do Tejo,PT,2937,376590.0
+2023Q2,1D,Oeste e Vale do Tejo,nonEU,,
+2023Q2,1D,Oeste e Vale do Tejo,total,3160,426883.0
+2023Q2,2,Região Autónoma dos Açores,EU,,
+2023Q2,2,Região Autónoma dos Açores,PT,490,67841.0
+2023Q2,2,Região Autónoma dos Açores,nonEU,,
+2023Q2,2,Região Autónoma dos Açores,total,533,75346.0
+2023Q2,20,Região Autónoma dos Açores,EU,,
+2023Q2,20,Região Autónoma dos Açores,PT,490,67841.0
+2023Q2,20,Região Autónoma dos Açores,nonEU,,
+2023Q2,20,Região Autónoma dos Açores,total,533,75346.0
+2023Q2,3,Região Autónoma da Madeira,EU,,
+2023Q2,3,Região Autónoma da Madeira,PT,723,158291.0
+2023Q2,3,Região Autónoma da Madeira,nonEU,,
+2023Q2,3,Região Autónoma da Madeira,total,795,185955.0
+2023Q2,30,Região Autónoma da Madeira,EU,,
+2023Q2,30,Região Autónoma da Madeira,PT,723,158291.0
+2023Q2,30,Região Autónoma da Madeira,nonEU,,
+2023Q2,30,Região Autónoma da Madeira,total,795,185955.0
+2023Q2,PT,Portugal,EU,1174,349238.0
+2023Q2,PT,Portugal,PT,31089,6033270.0
+2023Q2,PT,Portugal,nonEU,1361,522121.0
+2023Q2,PT,Portugal,total,33624,6904628.0
+2023Q3,1,Continente,EU,,
+2023Q3,1,Continente,PT,30167,5910202.0
+2023Q3,1,Continente,nonEU,,
+2023Q3,1,Continente,total,32762,6769365.0
+2023Q3,11,Norte,EU,,
+2023Q3,11,Norte,PT,9782,1638324.0
+2023Q3,11,Norte,nonEU,,
+2023Q3,11,Norte,total,10314,1746314.0
+2023Q3,15,Algarve,EU,,
+2023Q3,15,Algarve,PT,1898,505722.0
+2023Q3,15,Algarve,nonEU,,
+2023Q3,15,Algarve,total,2643,833681.0
+2023Q3,19,Centro,EU,,
+2023Q3,19,Centro,PT,5108,598546.0
+2023Q3,19,Centro,nonEU,,
+2023Q3,19,Centro,total,5525,644334.0
+2023Q3,1A,Grande Lisboa,EU,,
+2023Q3,1A,Grande Lisboa,PT,5842,1998510.0
+2023Q3,1A,Grande Lisboa,nonEU,,
+2023Q3,1A,Grande Lisboa,total,6213,2251170.0
+2023Q3,1B,Península de Setúbal,EU,,
+2023Q3,1B,Península de Setúbal,PT,2949,592828.0
+2023Q3,1B,Península de Setúbal,nonEU,,
+2023Q3,1B,Península de Setúbal,total,3101,634500.0
+2023Q3,1C,Alentejo,EU,,
+2023Q3,1C,Alentejo,PT,1656,184175.0
+2023Q3,1C,Alentejo,nonEU,,
+2023Q3,1C,Alentejo,total,1788,213410.0
+2023Q3,1D,Oeste e Vale do Tejo,EU,,
+2023Q3,1D,Oeste e Vale do Tejo,PT,2932,392097.0
+2023Q3,1D,Oeste e Vale do Tejo,nonEU,,
+2023Q3,1D,Oeste e Vale do Tejo,total,3178,445955.0
+2023Q3,2,Região Autónoma dos Açores,EU,,
+2023Q3,2,Região Autónoma dos Açores,PT,564,82127.0
+2023Q3,2,Região Autónoma dos Açores,nonEU,,
+2023Q3,2,Região Autónoma dos Açores,total,617,90872.0
+2023Q3,20,Região Autónoma dos Açores,EU,,
+2023Q3,20,Região Autónoma dos Açores,PT,564,82127.0
+2023Q3,20,Região Autónoma dos Açores,nonEU,,
+2023Q3,20,Região Autónoma dos Açores,total,617,90872.0
+2023Q3,3,Região Autónoma da Madeira,EU,,
+2023Q3,3,Região Autónoma da Madeira,PT,784,178527.0
+2023Q3,3,Região Autónoma da Madeira,nonEU,,
+2023Q3,3,Região Autónoma da Madeira,total,877,212142.0
+2023Q3,30,Região Autónoma da Madeira,EU,,
+2023Q3,30,Região Autónoma da Madeira,PT,784,178527.0
+2023Q3,30,Região Autónoma da Madeira,nonEU,,
+2023Q3,30,Região Autónoma da Madeira,total,877,212142.0
+2023Q3,PT,Portugal,EU,1349,335350.0
+2023Q3,PT,Portugal,PT,31515,6170855.0
+2023Q3,PT,Portugal,nonEU,1392,566174.0
+2023Q3,PT,Portugal,total,34256,7072380.0
+2023Q4,1,Continente,EU,,
+2023Q4,1,Continente,PT,30269,6038800.0
+2023Q4,1,Continente,nonEU,,
+2023Q4,1,Continente,total,32761,6921898.0
+2023Q4,11,Norte,EU,,
+2023Q4,11,Norte,PT,9371,1577050.0
+2023Q4,11,Norte,nonEU,,
+2023Q4,11,Norte,total,9849,1672741.0
+2023Q4,15,Algarve,EU,,
+2023Q4,15,Algarve,PT,1998,586225.0
+2023Q4,15,Algarve,nonEU,,
+2023Q4,15,Algarve,total,2733,951330.0
+2023Q4,19,Centro,EU,,
+2023Q4,19,Centro,PT,5091,597936.0
+2023Q4,19,Centro,nonEU,,
+2023Q4,19,Centro,total,5447,641002.0
+2023Q4,1A,Grande Lisboa,EU,,
+2023Q4,1A,Grande Lisboa,PT,6138,2074018.0
+2023Q4,1A,Grande Lisboa,nonEU,,
+2023Q4,1A,Grande Lisboa,total,6615,2354133.0
+2023Q4,1B,Península de Setúbal,EU,,
+2023Q4,1B,Península de Setúbal,PT,3082,625955.0
+2023Q4,1B,Península de Setúbal,nonEU,,
+2023Q4,1B,Península de Setúbal,total,3206,657076.0
+2023Q4,1C,Alentejo,EU,,
+2023Q4,1C,Alentejo,PT,1620,173610.0
+2023Q4,1C,Alentejo,nonEU,,
+2023Q4,1C,Alentejo,total,1723,190819.0
+2023Q4,1D,Oeste e Vale do Tejo,EU,,
+2023Q4,1D,Oeste e Vale do Tejo,PT,2969,404007.0
+2023Q4,1D,Oeste e Vale do Tejo,nonEU,,
+2023Q4,1D,Oeste e Vale do Tejo,total,3188,454797.0
+2023Q4,2,Região Autónoma dos Açores,EU,,
+2023Q4,2,Região Autónoma dos Açores,PT,579,87599.0
+2023Q4,2,Região Autónoma dos Açores,nonEU,,
+2023Q4,2,Região Autónoma dos Açores,total,636,98283.0
+2023Q4,20,Região Autónoma dos Açores,EU,,
+2023Q4,20,Região Autónoma dos Açores,PT,579,87599.0
+2023Q4,20,Região Autónoma dos Açores,nonEU,,
+2023Q4,20,Região Autónoma dos Açores,total,636,98283.0
+2023Q4,3,Região Autónoma da Madeira,EU,,
+2023Q4,3,Região Autónoma da Madeira,PT,655,129474.0
+2023Q4,3,Região Autónoma da Madeira,nonEU,,
+2023Q4,3,Região Autónoma da Madeira,total,729,154096.0
+2023Q4,30,Região Autónoma da Madeira,EU,,
+2023Q4,30,Região Autónoma da Madeira,PT,655,129474.0
+2023Q4,30,Região Autónoma da Madeira,nonEU,,
+2023Q4,30,Região Autónoma da Madeira,total,729,154096.0
+2023Q4,PT,Portugal,EU,1233,343577.0
+2023Q4,PT,Portugal,PT,31503,6255873.0
+2023Q4,PT,Portugal,nonEU,1390,574826.0
+2023Q4,PT,Portugal,total,34126,7174277.0
+2024Q1,1,Continente,EU,,
+2024Q1,1,Continente,PT,29847,5813147.0
+2024Q1,1,Continente,nonEU,,
+2024Q1,1,Continente,total,31790,6479474.0
+2024Q1,11,Norte,EU,,
+2024Q1,11,Norte,PT,9556,1612866.0
+2024Q1,11,Norte,nonEU,,
+2024Q1,11,Norte,total,9932,1692342.0
+2024Q1,15,Algarve,EU,,
+2024Q1,15,Algarve,PT,1779,489739.0
+2024Q1,15,Algarve,nonEU,,
+2024Q1,15,Algarve,total,2305,733155.0
+2024Q1,19,Centro,EU,,
+2024Q1,19,Centro,PT,5047,588523.0
+2024Q1,19,Centro,nonEU,,
+2024Q1,19,Centro,total,5376,625406.0
+2024Q1,1A,Grande Lisboa,EU,,
+2024Q1,1A,Grande Lisboa,PT,5971,1967017.0
+2024Q1,1A,Grande Lisboa,nonEU,,
+2024Q1,1A,Grande Lisboa,total,6334,2185757.0
+2024Q1,1B,Península de Setúbal,EU,,
+2024Q1,1B,Península de Setúbal,PT,3011,593549.0
+2024Q1,1B,Península de Setúbal,nonEU,,
+2024Q1,1B,Península de Setúbal,total,3125,628899.0
+2024Q1,1C,Alentejo,EU,,
+2024Q1,1C,Alentejo,PT,1548,164527.0
+2024Q1,1C,Alentejo,nonEU,,
+2024Q1,1C,Alentejo,total,1630,178737.0
+2024Q1,1D,Oeste e Vale do Tejo,EU,,
+2024Q1,1D,Oeste e Vale do Tejo,PT,2935,396927.0
+2024Q1,1D,Oeste e Vale do Tejo,nonEU,,
+2024Q1,1D,Oeste e Vale do Tejo,total,3088,435179.0
+2024Q1,2,Região Autónoma dos Açores,EU,,
+2024Q1,2,Região Autónoma dos Açores,PT,539,81058.0
+2024Q1,2,Região Autónoma dos Açores,nonEU,,
+2024Q1,2,Região Autónoma dos Açores,total,591,90365.0
+2024Q1,20,Região Autónoma dos Açores,EU,,
+2024Q1,20,Região Autónoma dos Açores,PT,539,81058.0
+2024Q1,20,Região Autónoma dos Açores,nonEU,,
+2024Q1,20,Região Autónoma dos Açores,total,591,90365.0
+2024Q1,3,Região Autónoma da Madeira,EU,,
+2024Q1,3,Região Autónoma da Madeira,PT,624,139331.0
+2024Q1,3,Região Autónoma da Madeira,nonEU,,
+2024Q1,3,Região Autónoma da Madeira,total,696,160694.0
+2024Q1,30,Região Autónoma da Madeira,EU,,
+2024Q1,30,Região Autónoma da Madeira,PT,624,139331.0
+2024Q1,30,Região Autónoma da Madeira,nonEU,,
+2024Q1,30,Região Autónoma da Madeira,total,696,160694.0
+2024Q1,PT,Portugal,EU,989,263344.0
+2024Q1,PT,Portugal,PT,31010,6033535.0
+2024Q1,PT,Portugal,nonEU,1078,433654.0
+2024Q1,PT,Portugal,total,33077,6730533.0
+2024Q2,1,Continente,EU,,
+2024Q2,1,Continente,PT,33368,6764611.0
+2024Q2,1,Continente,nonEU,,
+2024Q2,1,Continente,total,35690,7592526.0
+2024Q2,11,Norte,EU,,
+2024Q2,11,Norte,PT,10572,1840273.0
+2024Q2,11,Norte,nonEU,,
+2024Q2,11,Norte,total,10995,1925135.0
+2024Q2,15,Algarve,EU,,
+2024Q2,15,Algarve,PT,2094,563191.0
+2024Q2,15,Algarve,nonEU,,
+2024Q2,15,Algarve,total,2836,912339.0
+2024Q2,19,Centro,EU,,
+2024Q2,19,Centro,PT,5528,687972.0
+2024Q2,19,Centro,nonEU,,
+2024Q2,19,Centro,total,5885,732786.0
+2024Q2,1A,Grande Lisboa,EU,,
+2024Q2,1A,Grande Lisboa,PT,6660,2289256.0
+2024Q2,1A,Grande Lisboa,nonEU,,
+2024Q2,1A,Grande Lisboa,total,7031,2535075.0
+2024Q2,1B,Península de Setúbal,EU,,
+2024Q2,1B,Península de Setúbal,PT,3389,712015.0
+2024Q2,1B,Península de Setúbal,nonEU,,
+2024Q2,1B,Península de Setúbal,total,3523,751886.0
+2024Q2,1C,Alentejo,EU,,
+2024Q2,1C,Alentejo,PT,1861,210703.0
+2024Q2,1C,Alentejo,nonEU,,
+2024Q2,1C,Alentejo,total,1945,227110.0
+2024Q2,1D,Oeste e Vale do Tejo,EU,,
+2024Q2,1D,Oeste e Vale do Tejo,PT,3264,461201.0
+2024Q2,1D,Oeste e Vale do Tejo,nonEU,,
+2024Q2,1D,Oeste e Vale do Tejo,total,3475,508195.0
+2024Q2,2,Região Autónoma dos Açores,EU,,
+2024Q2,2,Região Autónoma dos Açores,PT,548,84072.0
+2024Q2,2,Região Autónoma dos Açores,nonEU,,
+2024Q2,2,Região Autónoma dos Açores,total,599,95203.0
+2024Q2,20,Região Autónoma dos Açores,EU,,
+2024Q2,20,Região Autónoma dos Açores,PT,548,84072.0
+2024Q2,20,Região Autónoma dos Açores,nonEU,,
+2024Q2,20,Região Autónoma dos Açores,total,599,95203.0
+2024Q2,3,Região Autónoma da Madeira,EU,,
+2024Q2,3,Região Autónoma da Madeira,PT,745,157688.0
+2024Q2,3,Região Autónoma da Madeira,nonEU,,
+2024Q2,3,Região Autónoma da Madeira,total,836,188953.0
+2024Q2,30,Região Autónoma da Madeira,EU,,
+2024Q2,30,Região Autónoma da Madeira,PT,745,157688.0
+2024Q2,30,Região Autónoma da Madeira,nonEU,,
+2024Q2,30,Região Autónoma da Madeira,total,836,188953.0
+2024Q2,PT,Portugal,EU,1242,365188.0
+2024Q2,PT,Portugal,PT,34661,7006371.0
+2024Q2,PT,Portugal,nonEU,1222,505122.0
+2024Q2,PT,Portugal,total,37125,7876682.0
+2024Q3,1,Continente,EU,,
+2024Q3,1,Continente,PT,36750,7813449.0
+2024Q3,1,Continente,nonEU,,
+2024Q3,1,Continente,total,39237,8704964.0
+2024Q3,11,Norte,EU,,
+2024Q3,11,Norte,PT,11905,2203430.0
+2024Q3,11,Norte,nonEU,,
+2024Q3,11,Norte,total,12407,2297925.0
+2024Q3,15,Algarve,EU,,
+2024Q3,15,Algarve,PT,2108,587367.0
+2024Q3,15,Algarve,nonEU,,
+2024Q3,15,Algarve,total,2787,955863.0
+2024Q3,19,Centro,EU,,
+2024Q3,19,Centro,PT,6062,754625.0
+2024Q3,19,Centro,nonEU,,
+2024Q3,19,Centro,total,6497,806248.0
+2024Q3,1A,Grande Lisboa,EU,,
+2024Q3,1A,Grande Lisboa,PT,7557,2704404.0
+2024Q3,1A,Grande Lisboa,nonEU,,
+2024Q3,1A,Grande Lisboa,total,7949,2954676.0
+2024Q3,1B,Península de Setúbal,EU,,
+2024Q3,1B,Península de Setúbal,PT,3805,843977.0
+2024Q3,1B,Península de Setúbal,nonEU,,
+2024Q3,1B,Península de Setúbal,total,3938,890615.0
+2024Q3,1C,Alentejo,EU,,
+2024Q3,1C,Alentejo,PT,1871,207466.0
+2024Q3,1C,Alentejo,nonEU,,
+2024Q3,1C,Alentejo,total,1947,220651.0
+2024Q3,1D,Oeste e Vale do Tejo,EU,,
+2024Q3,1D,Oeste e Vale do Tejo,PT,3442,512181.0
+2024Q3,1D,Oeste e Vale do Tejo,nonEU,,
+2024Q3,1D,Oeste e Vale do Tejo,total,3712,578986.0
+2024Q3,2,Região Autónoma dos Açores,EU,,
+2024Q3,2,Região Autónoma dos Açores,PT,643,105323.0
+2024Q3,2,Região Autónoma dos Açores,nonEU,,
+2024Q3,2,Região Autónoma dos Açores,total,695,114219.0
+2024Q3,20,Região Autónoma dos Açores,EU,,
+2024Q3,20,Região Autónoma dos Açores,PT,643,105323.0
+2024Q3,20,Região Autónoma dos Açores,nonEU,,
+2024Q3,20,Região Autónoma dos Açores,total,695,114219.0
+2024Q3,3,Região Autónoma da Madeira,EU,,
+2024Q3,3,Região Autónoma da Madeira,PT,861,194868.0
+2024Q3,3,Região Autónoma da Madeira,nonEU,,
+2024Q3,3,Região Autónoma da Madeira,total,977,232833.0
+2024Q3,30,Região Autónoma da Madeira,EU,,
+2024Q3,30,Região Autónoma da Madeira,PT,861,194868.0
+2024Q3,30,Região Autónoma da Madeira,nonEU,,
+2024Q3,30,Região Autónoma da Madeira,total,977,232833.0
+2024Q3,PT,Portugal,EU,1376,388400.0
+2024Q3,PT,Portugal,PT,38254,8113640.0
+2024Q3,PT,Portugal,nonEU,1279,549976.0
+2024Q3,PT,Portugal,total,40909,9052016.0
+2024Q4,1,Continente,EU,,
+2024Q4,1,Continente,PT,40649,8717927.0
+2024Q4,1,Continente,nonEU,,
+2024Q4,1,Continente,total,43028,9593540.0
+2024Q4,11,Norte,EU,,
+2024Q4,11,Norte,PT,12565,2374853.0
+2024Q4,11,Norte,nonEU,,
+2024Q4,11,Norte,total,13027,2479655.0
+2024Q4,15,Algarve,EU,,
+2024Q4,15,Algarve,PT,2537,731171.0
+2024Q4,15,Algarve,nonEU,,
+2024Q4,15,Algarve,total,3256,1100571.0
+2024Q4,19,Centro,EU,,
+2024Q4,19,Centro,PT,6705,864338.0
+2024Q4,19,Centro,nonEU,,
+2024Q4,19,Centro,total,7092,908852.0
+2024Q4,1A,Grande Lisboa,EU,,
+2024Q4,1A,Grande Lisboa,PT,8473,2953924.0
+2024Q4,1A,Grande Lisboa,nonEU,,
+2024Q4,1A,Grande Lisboa,total,8848,3203326.0
+2024Q4,1B,Península de Setúbal,EU,,
+2024Q4,1B,Península de Setúbal,PT,4220,938350.0
+2024Q4,1B,Península de Setúbal,nonEU,,
+2024Q4,1B,Península de Setúbal,total,4358,978236.0
+2024Q4,1C,Alentejo,EU,,
+2024Q4,1C,Alentejo,PT,2271,258299.0
+2024Q4,1C,Alentejo,nonEU,,
+2024Q4,1C,Alentejo,total,2338,267368.0
+2024Q4,1D,Oeste e Vale do Tejo,EU,,
+2024Q4,1D,Oeste e Vale do Tejo,PT,3878,596991.0
+2024Q4,1D,Oeste e Vale do Tejo,nonEU,,
+2024Q4,1D,Oeste e Vale do Tejo,total,4109,655532.0
+2024Q4,2,Região Autónoma dos Açores,EU,,
+2024Q4,2,Região Autónoma dos Açores,PT,796,116524.0
+2024Q4,2,Região Autónoma dos Açores,nonEU,,
+2024Q4,2,Região Autónoma dos Açores,total,875,136726.0
+2024Q4,20,Região Autónoma dos Açores,EU,,
+2024Q4,20,Região Autónoma dos Açores,PT,796,116524.0
+2024Q4,20,Região Autónoma dos Açores,nonEU,,
+2024Q4,20,Região Autónoma dos Açores,total,875,136726.0
+2024Q4,3,Região Autónoma da Madeira,EU,,
+2024Q4,3,Região Autónoma da Madeira,PT,1181,381824.0
+2024Q4,3,Região Autónoma da Madeira,nonEU,,
+2024Q4,3,Região Autónoma da Madeira,total,1311,443675.0
+2024Q4,30,Região Autónoma da Madeira,EU,,
+2024Q4,30,Região Autónoma da Madeira,PT,1181,381824.0
+2024Q4,30,Região Autónoma da Madeira,nonEU,,
+2024Q4,30,Região Autónoma da Madeira,total,1311,443675.0
+2024Q4,PT,Portugal,EU,1276,383738.0
+2024Q4,PT,Portugal,PT,42626,9216275.0
+2024Q4,PT,Portugal,nonEU,1312,573929.0
+2024Q4,PT,Portugal,total,45214,10173942.0
+2025Q1,1,Continente,EU,,
+2025Q1,1,Continente,PT,37871,8507296.0
+2025Q1,1,Continente,nonEU,,
+2025Q1,1,Continente,total,39815,9237144.0
+2025Q1,11,Norte,EU,,
+2025Q1,11,Norte,PT,11901,2342991.0
+2025Q1,11,Norte,nonEU,,
+2025Q1,11,Norte,total,12285,2427312.0
+2025Q1,15,Algarve,EU,,
+2025Q1,15,Algarve,PT,2434,706886.0
+2025Q1,15,Algarve,nonEU,,
+2025Q1,15,Algarve,total,3027,1018319.0
+2025Q1,19,Centro,EU,,
+2025Q1,19,Centro,PT,6182,848767.0
+2025Q1,19,Centro,nonEU,,
+2025Q1,19,Centro,total,6501,888254.0
+2025Q1,1A,Grande Lisboa,EU,,
+2025Q1,1A,Grande Lisboa,PT,7738,2863071.0
+2025Q1,1A,Grande Lisboa,nonEU,,
+2025Q1,1A,Grande Lisboa,total,8018,3056873.0
+2025Q1,1B,Península de Setúbal,EU,,
+2025Q1,1B,Península de Setúbal,PT,3935,917764.0
+2025Q1,1B,Península de Setúbal,nonEU,,
+2025Q1,1B,Península de Setúbal,total,4035,947872.0
+2025Q1,1C,Alentejo,EU,,
+2025Q1,1C,Alentejo,PT,1984,239058.0
+2025Q1,1C,Alentejo,nonEU,,
+2025Q1,1C,Alentejo,total,2064,254920.0
+2025Q1,1D,Oeste e Vale do Tejo,EU,,
+2025Q1,1D,Oeste e Vale do Tejo,PT,3697,588758.0
+2025Q1,1D,Oeste e Vale do Tejo,nonEU,,
+2025Q1,1D,Oeste e Vale do Tejo,total,3885,643594.0
+2025Q1,2,Região Autónoma dos Açores,EU,,
+2025Q1,2,Região Autónoma dos Açores,PT,595,102439.0
+2025Q1,2,Região Autónoma dos Açores,nonEU,,
+2025Q1,2,Região Autónoma dos Açores,total,649,114858.0
+2025Q1,20,Região Autónoma dos Açores,EU,,
+2025Q1,20,Região Autónoma dos Açores,PT,595,102439.0
+2025Q1,20,Região Autónoma dos Açores,nonEU,,
+2025Q1,20,Região Autónoma dos Açores,total,649,114858.0
+2025Q1,3,Região Autónoma da Madeira,EU,,
+2025Q1,3,Região Autónoma da Madeira,PT,794,217895.0
+2025Q1,3,Região Autónoma da Madeira,nonEU,,
+2025Q1,3,Região Autónoma da Madeira,total,894,265637.0
+2025Q1,30,Região Autónoma da Madeira,EU,,
+2025Q1,30,Região Autónoma da Madeira,PT,794,217895.0
+2025Q1,30,Região Autónoma da Madeira,nonEU,,
+2025Q1,30,Região Autónoma da Madeira,total,894,265637.0
+2025Q1,PT,Portugal,EU,1109,344293.0
+2025Q1,PT,Portugal,PT,39260,8827629.0
+2025Q1,PT,Portugal,nonEU,989,445716.0
+2025Q1,PT,Portugal,total,41358,9617638.0
+2025Q2,1,Continente,EU,,
+2025Q2,1,Continente,PT,39462,9156842.0
+2025Q2,1,Continente,nonEU,,
+2025Q2,1,Continente,total,41433,9929385.0
+2025Q2,11,Norte,EU,,
+2025Q2,11,Norte,PT,12563,2586926.0
+2025Q2,11,Norte,nonEU,,
+2025Q2,11,Norte,total,12955,2684264.0
+2025Q2,15,Algarve,EU,,
+2025Q2,15,Algarve,PT,2556,813420.0
+2025Q2,15,Algarve,nonEU,,
+2025Q2,15,Algarve,total,3222,1161649.0
+2025Q2,19,Centro,EU,,
+2025Q2,19,Centro,PT,6526,916564.0
+2025Q2,19,Centro,nonEU,,
+2025Q2,19,Centro,total,6832,957222.0
+2025Q2,1A,Grande Lisboa,EU,,
+2025Q2,1A,Grande Lisboa,PT,7917,2965314.0
+2025Q2,1A,Grande Lisboa,nonEU,,
+2025Q2,1A,Grande Lisboa,total,8189,3155488.0
+2025Q2,1B,Península de Setúbal,EU,,
+2025Q2,1B,Península de Setúbal,PT,3999,977004.0
+2025Q2,1B,Península de Setúbal,nonEU,,
+2025Q2,1B,Península de Setúbal,total,4096,1009539.0
+2025Q2,1C,Alentejo,EU,,
+2025Q2,1C,Alentejo,PT,2099,255680.0
+2025Q2,1C,Alentejo,nonEU,,
+2025Q2,1C,Alentejo,total,2162,269263.0
+2025Q2,1D,Oeste e Vale do Tejo,EU,,
+2025Q2,1D,Oeste e Vale do Tejo,PT,3802,641934.0
+2025Q2,1D,Oeste e Vale do Tejo,nonEU,,
+2025Q2,1D,Oeste e Vale do Tejo,total,3977,691960.0
+2025Q2,2,Região Autónoma dos Açores,EU,,
+2025Q2,2,Região Autónoma dos Açores,PT,614,110231.0
+2025Q2,2,Região Autónoma dos Açores,nonEU,,
+2025Q2,2,Região Autónoma dos Açores,total,664,123219.0
+2025Q2,20,Região Autónoma dos Açores,EU,,
+2025Q2,20,Região Autónoma dos Açores,PT,614,110231.0
+2025Q2,20,Região Autónoma dos Açores,nonEU,,
+2025Q2,20,Região Autónoma dos Açores,total,664,123219.0
+2025Q2,3,Região Autónoma da Madeira,EU,,
+2025Q2,3,Região Autónoma da Madeira,PT,706,178706.0
+2025Q2,3,Região Autónoma da Madeira,nonEU,,
+2025Q2,3,Região Autónoma da Madeira,total,792,217819.0
+2025Q2,30,Região Autónoma da Madeira,EU,,
+2025Q2,30,Região Autónoma da Madeira,PT,706,178706.0
+2025Q2,30,Região Autónoma da Madeira,nonEU,,
+2025Q2,30,Região Autónoma da Madeira,total,792,217819.0
+2025Q2,PT,Portugal,EU,1112,361761.0
+2025Q2,PT,Portugal,PT,40782,9445780.0
+2025Q2,PT,Portugal,nonEU,995,462882.0
+2025Q2,PT,Portugal,total,42889,10270423.0
+2025Q3,1,Continente,EU,,
+2025Q3,1,Continente,PT,38944,9276302.0
+2025Q3,1,Continente,nonEU,,
+2025Q3,1,Continente,total,41032,10147073.0
+2025Q3,11,Norte,EU,,
+2025Q3,11,Norte,PT,12047,2527812.0
+2025Q3,11,Norte,nonEU,,
+2025Q3,11,Norte,total,12542,2651667.0
+2025Q3,15,Algarve,EU,,
+2025Q3,15,Algarve,PT,2380,771023.0
+2025Q3,15,Algarve,nonEU,,
+2025Q3,15,Algarve,total,2983,1162433.0
+2025Q3,19,Centro,EU,,
+2025Q3,19,Centro,PT,6789,1001101.0
+2025Q3,19,Centro,nonEU,,
+2025Q3,19,Centro,total,7152,1048114.0
+2025Q3,1A,Grande Lisboa,EU,,
+2025Q3,1A,Grande Lisboa,PT,7471,2901782.0
+2025Q3,1A,Grande Lisboa,nonEU,,
+2025Q3,1A,Grande Lisboa,total,7759,3113460.0
+2025Q3,1B,Península de Setúbal,EU,,
+2025Q3,1B,Península de Setúbal,PT,4060,1068474.0
+2025Q3,1B,Península de Setúbal,nonEU,,
+2025Q3,1B,Península de Setúbal,total,4190,1112735.0
+2025Q3,1C,Alentejo,EU,,
+2025Q3,1C,Alentejo,PT,2266,296197.0
+2025Q3,1C,Alentejo,nonEU,,
+2025Q3,1C,Alentejo,total,2333,305209.0
+2025Q3,1D,Oeste e Vale do Tejo,EU,,
+2025Q3,1D,Oeste e Vale do Tejo,PT,3931,709914.0
+2025Q3,1D,Oeste e Vale do Tejo,nonEU,,
+2025Q3,1D,Oeste e Vale do Tejo,total,4073,753456.0
+2025Q3,2,Região Autónoma dos Açores,EU,,
+2025Q3,2,Região Autónoma dos Açores,PT,625,121321.0
+2025Q3,2,Região Autónoma dos Açores,nonEU,,
+2025Q3,2,Região Autónoma dos Açores,total,697,141227.0
+2025Q3,20,Região Autónoma dos Açores,EU,,
+2025Q3,20,Região Autónoma dos Açores,PT,625,121321.0
+2025Q3,20,Região Autónoma dos Açores,nonEU,,
+2025Q3,20,Região Autónoma dos Açores,total,697,141227.0
+2025Q3,3,Região Autónoma da Madeira,EU,,
+2025Q3,3,Região Autónoma da Madeira,PT,693,184421.0
+2025Q3,3,Região Autónoma da Madeira,nonEU,,
+2025Q3,3,Região Autónoma da Madeira,total,752,210538.0
+2025Q3,30,Região Autónoma da Madeira,EU,,
+2025Q3,30,Região Autónoma da Madeira,PT,693,184421.0
+2025Q3,30,Região Autónoma da Madeira,nonEU,,
+2025Q3,30,Região Autónoma da Madeira,total,752,210538.0
+2025Q3,PT,Portugal,EU,1149,398742.0
+2025Q3,PT,Portugal,PT,40262,9582044.0
+2025Q3,PT,Portugal,nonEU,1070,518052.0
+2025Q3,PT,Portugal,total,42481,10498838.0
+2025Q4,1,Continente,EU,,
+2025Q4,1,Continente,PT,39644,9563665.0
+2025Q4,1,Continente,nonEU,,
+2025Q4,1,Continente,total,41564,10366708.0
+2025Q4,11,Norte,EU,,
+2025Q4,11,Norte,PT,12458,2657221.0
+2025Q4,11,Norte,nonEU,,
+2025Q4,11,Norte,total,12885,2761751.0
+2025Q4,15,Algarve,EU,,
+2025Q4,15,Algarve,PT,2602,861779.0
+2025Q4,15,Algarve,nonEU,,
+2025Q4,15,Algarve,total,3252,1248095.0
+2025Q4,19,Centro,EU,,
+2025Q4,19,Centro,PT,6706,1003949.0
+2025Q4,19,Centro,nonEU,,
+2025Q4,19,Centro,total,6982,1045183.0
+2025Q4,1A,Grande Lisboa,EU,,
+2025Q4,1A,Grande Lisboa,PT,7575,2919025.0
+2025Q4,1A,Grande Lisboa,nonEU,,
+2025Q4,1A,Grande Lisboa,total,7796,3074796.0
+2025Q4,1B,Península de Setúbal,EU,,
+2025Q4,1B,Península de Setúbal,PT,4067,1101645.0
+2025Q4,1B,Península de Setúbal,nonEU,,
+2025Q4,1B,Península de Setúbal,total,4167,1136191.0
+2025Q4,1C,Alentejo,EU,,
+2025Q4,1C,Alentejo,PT,2223,283739.0
+2025Q4,1C,Alentejo,nonEU,,
+2025Q4,1C,Alentejo,total,2302,308709.0
+2025Q4,1D,Oeste e Vale do Tejo,EU,,
+2025Q4,1D,Oeste e Vale do Tejo,PT,4013,736307.0
+2025Q4,1D,Oeste e Vale do Tejo,nonEU,,
+2025Q4,1D,Oeste e Vale do Tejo,total,4180,791982.0
+2025Q4,2,Região Autónoma dos Açores,EU,,
+2025Q4,2,Região Autónoma dos Açores,PT,612,123181.0
+2025Q4,2,Região Autónoma dos Açores,nonEU,,
+2025Q4,2,Região Autónoma dos Açores,total,655,133808.0
+2025Q4,20,Região Autónoma dos Açores,EU,,
+2025Q4,20,Região Autónoma dos Açores,PT,612,123181.0
+2025Q4,20,Região Autónoma dos Açores,nonEU,,
+2025Q4,20,Região Autónoma dos Açores,total,655,133808.0
+2025Q4,3,Região Autónoma da Madeira,EU,,
+2025Q4,3,Região Autónoma da Madeira,PT,781,230786.0
+2025Q4,3,Região Autónoma da Madeira,nonEU,,
+2025Q4,3,Região Autónoma da Madeira,total,865,274828.0
+2025Q4,30,Região Autónoma da Madeira,EU,,
+2025Q4,30,Região Autónoma da Madeira,PT,781,230786.0
+2025Q4,30,Região Autónoma da Madeira,nonEU,,
+2025Q4,30,Região Autónoma da Madeira,total,865,274828.0
+2025Q4,PT,Portugal,EU,1046,377390.0
+2025Q4,PT,Portugal,PT,41037,9917633.0
+2025Q4,PT,Portugal,nonEU,1001,480322.0
+2025Q4,PT,Portugal,total,43084,10775345.0
+2026Q1,1,Continente,EU,,
+2026Q1,1,Continente,PT,34827,8827084.0
+2026Q1,1,Continente,nonEU,,
+2026Q1,1,Continente,total,36505,9591571.0
+2026Q1,11,Norte,EU,,
+2026Q1,11,Norte,PT,10993,2442957.0
+2026Q1,11,Norte,nonEU,,
+2026Q1,11,Norte,total,11378,2540059.0
+2026Q1,15,Algarve,EU,,
+2026Q1,15,Algarve,PT,2192,717684.0
+2026Q1,15,Algarve,nonEU,,
+2026Q1,15,Algarve,total,2703,1042152.0
+2026Q1,19,Centro,EU,,
+2026Q1,19,Centro,PT,5724,867793.0
+2026Q1,19,Centro,nonEU,,
+2026Q1,19,Centro,total,5974,900366.0
+2026Q1,1A,Grande Lisboa,EU,,
+2026Q1,1A,Grande Lisboa,PT,6971,2837291.0
+2026Q1,1A,Grande Lisboa,nonEU,,
+2026Q1,1A,Grande Lisboa,total,7193,3036988.0
+2026Q1,1B,Península de Setúbal,EU,,
+2026Q1,1B,Península de Setúbal,PT,3656,1057811.0
+2026Q1,1B,Península de Setúbal,nonEU,,
+2026Q1,1B,Península de Setúbal,total,3769,1105459.0
+2026Q1,1C,Alentejo,EU,,
+2026Q1,1C,Alentejo,PT,1913,254365.0
+2026Q1,1C,Alentejo,nonEU,,
+2026Q1,1C,Alentejo,total,1975,272930.0
+2026Q1,1D,Oeste e Vale do Tejo,EU,,
+2026Q1,1D,Oeste e Vale do Tejo,PT,3378,649183.0
+2026Q1,1D,Oeste e Vale do Tejo,nonEU,,
+2026Q1,1D,Oeste e Vale do Tejo,total,3513,693617.0
+2026Q1,2,Região Autónoma dos Açores,EU,,
+2026Q1,2,Região Autónoma dos Açores,PT,533,105043.0
+2026Q1,2,Região Autónoma dos Açores,nonEU,,
+2026Q1,2,Região Autónoma dos Açores,total,575,114106.0
+2026Q1,20,Região Autónoma dos Açores,EU,,
+2026Q1,20,Região Autónoma dos Açores,PT,533,105043.0
+2026Q1,20,Região Autónoma dos Açores,nonEU,,
+2026Q1,20,Região Autónoma dos Açores,total,575,114106.0
+2026Q1,3,Região Autónoma da Madeira,EU,,
+2026Q1,3,Região Autónoma da Madeira,PT,615,193271.0
+2026Q1,3,Região Autónoma da Madeira,nonEU,,
+2026Q1,3,Região Autónoma da Madeira,total,665,215187.0
+2026Q1,30,Região Autónoma da Madeira,EU,,
+2026Q1,30,Região Autónoma da Madeira,PT,615,193271.0
+2026Q1,30,Região Autónoma da Madeira,nonEU,,
+2026Q1,30,Região Autónoma da Madeira,total,665,215187.0
+2026Q1,PT,Portugal,EU,923,365788.0
+2026Q1,PT,Portugal,PT,35975,9125397.0
+2026Q1,PT,Portugal,nonEU,847,429679.0
+2026Q1,PT,Portugal,total,37745,9920864.0
+2026Q2,1,Continente,EU,,
+2026Q2,1,Continente,PT,37048,9585546.0
+2026Q2,1,Continente,nonEU,,
+2026Q2,1,Continente,total,38849,10345332.0
+2026Q2,11,Norte,EU,,
+2026Q2,11,Norte,PT,11628,2638684.0
+2026Q2,11,Norte,nonEU,,
+2026Q2,11,Norte,total,12130,2769268.0
+2026Q2,15,Algarve,EU,,
+2026Q2,15,Algarve,PT,2276,790338.0
+2026Q2,15,Algarve,nonEU,,
+2026Q2,15,Algarve,total,2824,1109125.0
+2026Q2,19,Centro,EU,,
+2026Q2,19,Centro,PT,6291,1006751.0
+2026Q2,19,Centro,nonEU,,
+2026Q2,19,Centro,total,6535,1043822.0
+2026Q2,1A,Grande Lisboa,EU,,
+2026Q2,1A,Grande Lisboa,PT,7356,3026308.0
+2026Q2,1A,Grande Lisboa,nonEU,,
+2026Q2,1A,Grande Lisboa,total,7581,3205910.0
+2026Q2,1B,Península de Setúbal,EU,,
+2026Q2,1B,Península de Setúbal,PT,3921,1129705.0
+2026Q2,1B,Península de Setúbal,nonEU,,
+2026Q2,1B,Península de Setúbal,total,4009,1163431.0
+2026Q2,1C,Alentejo,EU,,
+2026Q2,1C,Alentejo,PT,2079,304479.0
+2026Q2,1C,Alentejo,nonEU,,
+2026Q2,1C,Alentejo,total,2144,323587.0
+2026Q2,1D,Oeste e Vale do Tejo,EU,,
+2026Q2,1D,Oeste e Vale do Tejo,PT,3497,689281.0
+2026Q2,1D,Oeste e Vale do Tejo,nonEU,,
+2026Q2,1D,Oeste e Vale do Tejo,total,3626,730189.0
+2026Q2,2,Região Autónoma dos Açores,EU,,
+2026Q2,2,Região Autónoma dos Açores,PT,578,126349.0
+2026Q2,2,Região Autónoma dos Açores,nonEU,,
+2026Q2,2,Região Autónoma dos Açores,total,621,139857.0
+2026Q2,20,Região Autónoma dos Açores,EU,,
+2026Q2,20,Região Autónoma dos Açores,PT,578,126349.0
+2026Q2,20,Região Autónoma dos Açores,nonEU,,
+2026Q2,20,Região Autónoma dos Açores,total,621,139857.0
+2026Q2,3,Região Autónoma da Madeira,EU,,
+2026Q2,3,Região Autónoma da Madeira,PT,626,188953.0
+2026Q2,3,Região Autónoma da Madeira,nonEU,,
+2026Q2,3,Região Autónoma da Madeira,total,672,211663.0
+2026Q2,30,Região Autónoma da Madeira,EU,,
+2026Q2,30,Região Autónoma da Madeira,PT,626,188953.0
+2026Q2,30,Região Autónoma da Madeira,nonEU,,
+2026Q2,30,Região Autónoma da Madeira,total,672,211663.0
+2026Q2,PT,Portugal,EU,946,329669.0
+2026Q2,PT,Portugal,PT,38252,9900848.0
+2026Q2,PT,Portugal,nonEU,944,466335.0
+2026Q2,PT,Portugal,total,40142,10696852.0

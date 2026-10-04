@@ -1,0 +1,25 @@
+period,territory,quarters,per_year,share_of_spain_pct
+2014-2017,Madrid,16,504,1.22
+2014-2017,Barcelona,16,1720,4.15
+2014-2017,Madrid + Barcelona,16,2224,5.37
+2018-2019,Madrid,8,627,1.45
+2018-2019,Barcelona,8,1300,3.01
+2018-2019,Madrid + Barcelona,8,1928,4.46
+2020Q2-2022Q1,Madrid,8,441,1.12
+2020Q2-2022Q1,Barcelona,8,874,2.21
+2020Q2-2022Q1,Madrid + Barcelona,8,1314,3.33
+2022Q2-2023Q1,Madrid,4,831,1.35
+2022Q2-2023Q1,Barcelona,4,1436,2.33
+2022Q2-2023Q1,Madrid + Barcelona,4,2267,3.68
+B,Madrid,4,964,1.78
+B,Barcelona,4,1687,3.12
+B,Madrid + Barcelona,4,2651,4.9
+A,Madrid,4,1337,2.31
+A,Barcelona,4,1972,3.41
+A,Madrid + Barcelona,4,3309,5.72
+P,Madrid,4,614,1.26
+P,Barcelona,4,1085,2.23
+P,Madrid + Barcelona,4,1699,3.48
+2025Q3-2026Q2 (2026Q2 provisional),Madrid,4,590,1.26
+2025Q3-2026Q2 (2026Q2 provisional),Barcelona,4,1039,2.22
+2025Q3-2026Q2 (2026Q2 provisional),Madrid + Barcelona,4,1629,3.49
