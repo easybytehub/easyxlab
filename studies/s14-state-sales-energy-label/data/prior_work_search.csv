@@ -1,0 +1,216 @@
+date_utc,source,query,hits_total,screened,relevant,notes
+2026-10-04T11:59:51Z,arxiv,energy performance certificate advertisements compliance,not run,0,0,export.arxiv.org/robots.txt is 'User-agent: * / Disallow: /' (RFC 9309): query not sent
+2026-10-04T11:59:52Z,crossref,energy performance certificate advertisements compliance,5389537,20,0,hits_total = Crossref total-results (loose relevance match); top 20 screened by title
+2026-10-04T11:59:54Z,openalex,energy performance certificate advertisements compliance,7749,25,3,hits_total = OpenAlex meta.count; top 25 screened by title
+2026-10-04T11:59:54Z,arxiv,EPC disclosure property advertisements,not run,0,0,export.arxiv.org/robots.txt is 'User-agent: * / Disallow: /' (RFC 9309): query not sent
+2026-10-04T11:59:55Z,crossref,EPC disclosure property advertisements,323496,20,0,hits_total = Crossref total-results (loose relevance match); top 20 screened by title
+2026-10-04T11:59:57Z,openalex,EPC disclosure property advertisements,256,25,7,hits_total = OpenAlex meta.count; top 25 screened by title
+2026-10-04T11:59:57Z,arxiv,energy label real estate listings compliance,not run,0,0,export.arxiv.org/robots.txt is 'User-agent: * / Disallow: /' (RFC 9309): query not sent
+2026-10-04T11:59:58Z,crossref,energy label real estate listings compliance,3984315,20,1,hits_total = Crossref total-results (loose relevance match); top 20 screened by title
+2026-10-04T11:59:59Z,openalex,energy label real estate listings compliance,15062,25,0,hits_total = OpenAlex meta.count; top 25 screened by title
+2026-10-04T12:00:01Z,arxiv,energy performance certificate display real estate advertisements,not run,0,0,export.arxiv.org/robots.txt is 'User-agent: * / Disallow: /' (RFC 9309): query not sent
+2026-10-04T12:00:02Z,crossref,energy performance certificate display real estate advertisements,6351397,20,1,hits_total = Crossref total-results (loose relevance match); top 20 screened by title
+2026-10-04T12:00:03Z,openalex,energy performance certificate display real estate advertisements,2185,25,4,hits_total = OpenAlex meta.count; top 25 screened by title
+2026-10-04T12:00:04Z,arxiv,energy performance certificate compliance enforcement inspection,not run,0,0,export.arxiv.org/robots.txt is 'User-agent: * / Disallow: /' (RFC 9309): query not sent
+2026-10-04T12:00:05Z,crossref,energy performance certificate compliance enforcement inspection,5509566,20,0,hits_total = Crossref total-results (loose relevance match); top 20 screened by title
+2026-10-04T12:00:06Z,openalex,energy performance certificate compliance enforcement inspection,22524,25,0,hits_total = OpenAlex meta.count; top 25 screened by title
+2026-10-04T12:00:07Z,arxiv,energy performance certificate auction public property,not run,0,0,export.arxiv.org/robots.txt is 'User-agent: * / Disallow: /' (RFC 9309): query not sent
+2026-10-04T12:00:09Z,crossref,energy performance certificate auction public property,error 429,0,0,HTTP 429 (rate limit); re-run ~20 s later (next row for this query)
+2026-10-04T12:00:10Z,openalex,energy performance certificate auction public property,9947,25,0,hits_total = OpenAlex meta.count; top 25 screened by title
+2026-10-04T12:00:10Z,arxiv,energy performance certificate rating disclosure listing prices,not run,0,0,export.arxiv.org/robots.txt is 'User-agent: * / Disallow: /' (RFC 9309): query not sent
+2026-10-04T12:00:11Z,crossref,energy performance certificate rating disclosure listing prices,5601061,20,2,hits_total = Crossref total-results (loose relevance match); top 20 screened by title
+2026-10-04T12:00:12Z,openalex,energy performance certificate rating disclosure listing prices,10506,25,1,hits_total = OpenAlex meta.count; top 25 screened by title
+2026-10-04T12:00:13Z,arxiv,energy label housing advertisements Spain,not run,0,0,export.arxiv.org/robots.txt is 'User-agent: * / Disallow: /' (RFC 9309): query not sent
+2026-10-04T12:00:14Z,crossref,energy label housing advertisements Spain,3448545,20,0,hits_total = Crossref total-results (loose relevance match); top 20 screened by title
+2026-10-04T12:00:15Z,openalex,energy label housing advertisements Spain,3660,25,4,hits_total = OpenAlex meta.count; top 25 screened by title
+2026-10-04T12:00:16Z,arxiv,missing energy rating property listings,not run,0,0,export.arxiv.org/robots.txt is 'User-agent: * / Disallow: /' (RFC 9309): query not sent
+2026-10-04T12:00:17Z,crossref,missing energy rating property listings,3355694,20,1,hits_total = Crossref total-results (loose relevance match); top 20 screened by title
+2026-10-04T12:00:19Z,openalex,missing energy rating property listings,59553,25,1,hits_total = OpenAlex meta.count; top 25 screened by title
+2026-10-04T12:00:19Z,arxiv,public property sales energy certificate,not run,0,0,export.arxiv.org/robots.txt is 'User-agent: * / Disallow: /' (RFC 9309): query not sent
+2026-10-04T12:00:21Z,crossref,public property sales energy certificate,5170419,20,0,hits_total = Crossref total-results (loose relevance match); top 20 screened by title
+2026-10-04T12:00:22Z,openalex,public property sales energy certificate,59579,25,2,hits_total = OpenAlex meta.count; top 25 screened by title
+2026-10-04T12:00:22Z,arxiv,energy performance certificates Spain real estate market,not run,0,0,export.arxiv.org/robots.txt is 'User-agent: * / Disallow: /' (RFC 9309): query not sent
+2026-10-04T12:00:24Z,crossref,energy performance certificates Spain real estate market,6638842,20,0,hits_total = Crossref total-results (loose relevance match); top 20 screened by title
+2026-10-04T12:00:25Z,openalex,energy performance certificates Spain real estate market,9682,25,3,hits_total = OpenAlex meta.count; top 25 screened by title
+2026-10-04T12:00:25Z,arxiv,Concerted Action EPBD energy performance certificates compliance,not run,0,0,export.arxiv.org/robots.txt is 'User-agent: * / Disallow: /' (RFC 9309): query not sent
+2026-10-04T12:00:27Z,crossref,Concerted Action EPBD energy performance certificates compliance,5880083,20,1,hits_total = Crossref total-results (loose relevance match); top 20 screened by title
+2026-10-04T12:00:28Z,openalex,Concerted Action EPBD energy performance certificates compliance,163,25,0,hits_total = OpenAlex meta.count; top 25 screened by title
+2026-10-04T12:00:29Z,arxiv,energy performance certificate quality control Europe,not run,0,0,export.arxiv.org/robots.txt is 'User-agent: * / Disallow: /' (RFC 9309): query not sent
+2026-10-04T12:00:30Z,crossref,energy performance certificate quality control Europe,10024590,20,1,hits_total = Crossref total-results (loose relevance match); top 20 screened by title
+2026-10-04T12:00:31Z,openalex,energy performance certificate quality control Europe,160890,25,4,hits_total = OpenAlex meta.count; top 25 screened by title
+2026-10-04T12:00:32Z,arxiv,official gazette auction notices public property data,not run,0,0,export.arxiv.org/robots.txt is 'User-agent: * / Disallow: /' (RFC 9309): query not sent
+2026-10-04T12:00:33Z,crossref,official gazette auction notices public property data,5492175,20,0,hits_total = Crossref total-results (loose relevance match); top 20 screened by title
+2026-10-04T12:00:35Z,openalex,official gazette auction notices public property data,1491,25,0,hits_total = OpenAlex meta.count; top 25 screened by title
+2026-10-04T12:00:35Z,arxiv,certificado de eficiencia energética anuncios inmobiliarios,not run,0,0,export.arxiv.org/robots.txt is 'User-agent: * / Disallow: /' (RFC 9309): query not sent
+2026-10-04T12:00:37Z,crossref,certificado de eficiencia energética anuncios inmobiliarios,11855043,20,0,hits_total = Crossref total-results (loose relevance match); top 20 screened by title
+2026-10-04T12:00:40Z,openalex,certificado de eficiencia energética anuncios inmobiliarios,97,25,2,hits_total = OpenAlex meta.count; top 25 screened by title
+2026-10-04T12:00:40Z,arxiv,etiqueta energética publicidad inmobiliaria cumplimiento,not run,0,0,export.arxiv.org/robots.txt is 'User-agent: * / Disallow: /' (RFC 9309): query not sent
+2026-10-04T12:00:42Z,crossref,etiqueta energética publicidad inmobiliaria cumplimiento,13167,20,0,hits_total = Crossref total-results (loose relevance match); top 20 screened by title
+2026-10-04T12:00:44Z,openalex,etiqueta energética publicidad inmobiliaria cumplimiento,50,25,1,hits_total = OpenAlex meta.count; top 25 screened by title
+2026-10-04T12:00:44Z,arxiv,certificación energética anuncios portales inmobiliarios,not run,0,0,export.arxiv.org/robots.txt is 'User-agent: * / Disallow: /' (RFC 9309): query not sent
+2026-10-04T12:00:46Z,crossref,certificación energética anuncios portales inmobiliarios,9880,20,1,hits_total = Crossref total-results (loose relevance match); top 20 screened by title
+2026-10-04T12:00:48Z,openalex,certificación energética anuncios portales inmobiliarios,31,25,2,hits_total = OpenAlex meta.count; top 25 screened by title
+2026-10-04T12:00:48Z,arxiv,BOE subastas inmuebles,not run,0,0,export.arxiv.org/robots.txt is 'User-agent: * / Disallow: /' (RFC 9309): query not sent
+2026-10-04T12:00:50Z,crossref,BOE subastas inmuebles,3886,20,0,hits_total = Crossref total-results (loose relevance match); top 20 screened by title
+2026-10-04T12:00:52Z,openalex,BOE subastas inmuebles,518,25,2,hits_total = OpenAlex meta.count; top 25 screened by title
+2026-10-04T12:00:52Z,arxiv,enajenación inmuebles Patrimonio del Estado subasta,not run,0,0,export.arxiv.org/robots.txt is 'User-agent: * / Disallow: /' (RFC 9309): query not sent
+2026-10-04T12:00:54Z,crossref,enajenación inmuebles Patrimonio del Estado subasta,1470214,20,2,hits_total = Crossref total-results (loose relevance match); top 20 screened by title
+2026-10-04T12:00:55Z,openalex,enajenación inmuebles Patrimonio del Estado subasta,589,25,2,hits_total = OpenAlex meta.count; top 25 screened by title
+2026-10-04T12:00:55Z,arxiv,subastas inmuebles Seguridad Social,not run,0,0,export.arxiv.org/robots.txt is 'User-agent: * / Disallow: /' (RFC 9309): query not sent
+2026-10-04T12:00:57Z,crossref,subastas inmuebles Seguridad Social,3527473,20,0,hits_total = Crossref total-results (loose relevance match); top 20 screened by title
+2026-10-04T12:00:58Z,openalex,subastas inmuebles Seguridad Social,2438,25,1,hits_total = OpenAlex meta.count; top 25 screened by title
+2026-10-04T12:00:59Z,arxiv,certificado de eficiencia energética precio vivienda,not run,0,0,export.arxiv.org/robots.txt is 'User-agent: * / Disallow: /' (RFC 9309): query not sent
+2026-10-04T12:01:00Z,crossref,certificado de eficiencia energética precio vivienda,11855679,20,1,hits_total = Crossref total-results (loose relevance match); top 20 screened by title
+2026-10-04T12:01:00Z,websearch-discovery,OCU estudio anuncios inmobiliarios certificado energético porcentaje no incluyen etiqueta,9,9,5,"Claude Code WebSearch, URL discovery only (no snippet quoted). Retained: CECU 2025 summary, CECU 2026 report, OCU 2026 and 2023 press notes, merca2 2025. Time approximate (reconstructed from session order)."
+2026-10-04T12:01:00Z,websearch-discovery,Agència Catalana del Consum campanya inspecció etiqueta energètica anuncis immobiliàries,10,10,6,"Retained: eseficiencia 2016 (ACC, 42 agencies) x2, eseficiencia 2019 (Kontsumobide), construible 2013 (Andalucía), consumo.gob.es campaign sheets x2. Time approximate."
+2026-10-04T12:01:00Z,websearch-discovery,FACUA anuncios inmobiliarios sin certificado de eficiencia energética portales,9,9,3,"No FACUA study found. Retained: eldiario.es 2013, construible 2019 (Kontsumobide); rest duplicates (CECU). Time approximate."
+2026-10-04T12:01:00Z,websearch-discovery,Concerted Action EPBD energy performance certificates advertisements compliance check percentage,9,9,2,"Retained: EC enerperfcertificates_0.pdf (HTTP 403), eceee Casestudy-EPC.pdf (robots.txt). Neither read. Time approximate."
+2026-10-04T12:01:01Z,openalex,certificado de eficiencia energética precio vivienda,1627,25,0,hits_total = OpenAlex meta.count; top 25 screened by title
+2026-10-04T12:01:02Z,arxiv,diagnostic de performance énergétique annonces immobilières,not run,0,0,export.arxiv.org/robots.txt is 'User-agent: * / Disallow: /' (RFC 9309): query not sent
+2026-10-04T12:01:04Z,crossref,diagnostic de performance énergétique annonces immobilières,14568486,20,0,hits_total = Crossref total-results (loose relevance match); top 20 screened by title
+2026-10-04T12:01:05Z,openalex,diagnostic de performance énergétique annonces immobilières,36,25,1,hits_total = OpenAlex meta.count; top 25 screened by title
+2026-10-04T12:01:05Z,arxiv,energielabel woningadvertenties,not run,0,0,export.arxiv.org/robots.txt is 'User-agent: * / Disallow: /' (RFC 9309): query not sent
+2026-10-04T12:01:06Z,crossref,energielabel woningadvertenties,3,3,0,hits_total = Crossref total-results (loose relevance match); top 20 screened by title
+2026-10-04T12:01:06Z,openalex,energielabel woningadvertenties,0,0,0,hits_total = OpenAlex meta.count; top 25 screened by title
+2026-10-04T12:01:08Z,arxiv,EPC vermelding vastgoedadvertenties,not run,0,0,export.arxiv.org/robots.txt is 'User-agent: * / Disallow: /' (RFC 9309): query not sent
+2026-10-04T12:01:08Z,crossref,EPC vermelding vastgoedadvertenties,error 429,0,0,HTTP 429 (rate limit); re-run ~20 s later (next row for this query)
+2026-10-04T12:01:09Z,openalex,EPC vermelding vastgoedadvertenties,0,0,0,hits_total = OpenAlex meta.count; top 25 screened by title
+2026-10-04T12:01:11Z,arxiv,certificado energético anúncios imobiliários,not run,0,0,export.arxiv.org/robots.txt is 'User-agent: * / Disallow: /' (RFC 9309): query not sent
+2026-10-04T12:01:12Z,crossref,certificado energético anúncios imobiliários,4355,20,0,hits_total = Crossref total-results (loose relevance match); top 20 screened by title
+2026-10-04T12:01:12Z,openalex,certificado energético anúncios imobiliários,6,6,0,hits_total = OpenAlex meta.count; top 25 screened by title
+2026-10-04T12:01:36Z,crossref,energy performance certificate auction public property,7233734,20,0,hits_total = Crossref total-results (loose relevance match); top 20 screened by title
+2026-10-04T12:01:37Z,crossref,EPC vermelding vastgoedadvertenties,4092,20,0,hits_total = Crossref total-results (loose relevance match); top 20 screened by title
+2026-10-04T12:02:00Z,websearch-discovery,SEAI BER advertising compliance checks property advertisements percentage without BER,10,10,1,No SEAI figure on BER-in-ads compliance found. seai.ie page HTTP 403. Time approximate.
+2026-10-04T12:02:00Z,websearch-discovery,DGCCRF enquête affichage DPE annonces immobilières taux d'anomalie,9,9,1,Retained: economie.gouv.fr DGCCRF 'Contrôle des professionnels de l'immobilier'. Time approximate.
+2026-10-04T12:02:00Z,websearch-discovery,Vlaanderen controle EPC vermelding vastgoedadvertenties Energieagentschap boetes percentage advertenties,10,10,2,"Retained: vlaanderen.be EPC-in-ads page, solarmagazine.nl VEKA 2024 figures. Time approximate."
+2026-10-04T12:02:00Z,websearch-discovery,"idealista porcentaje anuncios con certificado energético calificación energética ""en trámite"" estudio",9,9,0,"Only duplicates (CECU, merca2). No idealista/Fotocasa own study found. Time approximate."
+2026-10-04T12:02:21Z,openalex-lookup,"DOI batch: 25 shortlisted DOIs (abstracts, authors, OA links)",25,25,14,filter=doi:...; used to pick documents to read
+2026-10-04T12:05:00Z,websearch-discovery,"epbd-ca.eu ""Implementation of the EPBD in Spain"" status 2020 energy performance certificates advertisements",9,9,2,"Retained: CA EPBD Spain 2020 (cdn1.gopublic.dk), CA EPBD Spain 2016 (buildup.eu). Time approximate."
+2026-10-04T12:05:00Z,websearch-discovery,"Concerted Action EPBD core theme report certification ""advertisements"" compliance checks real estate ads percentage Member States",10,10,2,"Retained: CA EPBD 2016 book part A (c2e2.unepccc.org); eseficiencia static copy of a 2016 EPBD report (download stalled, not read). Time approximate."
+2026-10-04T12:05:00Z,websearch-discovery,"Cornago Dressler ""Incentives to (not) disclose energy performance information"" Brussels listings share working paper pdf",9,9,1,Retained: ECARES WP 2018-34 PDF at dipot.ulb.ac.be. Time approximate.
+2026-10-04T12:33:00Z,websearch-discovery,"""Implementation of the EPBD in Belgium"" Flanders 2020 pdf advertisements EPC checks",9,9,4,"Retained: CA EPBD 2020 Flemish, Walloon, Brussels reports; ClimateXChange Belgium case study. Time approximate."
+2026-10-04T12:33:00Z,websearch-discovery,"""Implementation of the EPBD in Ireland"" 2020 pdf BER advertising compliance local authorities",9,9,2,Retained: CA EPBD Ireland 2020; ClimateXChange Ireland case study. Time approximate.
+2026-10-04T12:33:00Z,websearch-discovery,"""Implementation of the EPBD in Portugal"" 2020 pdf ADENE advertisements energy class anúncios",9,9,1,Retained: CA EPBD Portugal 2020. Time approximate.
+2026-10-04T12:34:00Z,websearch-discovery,"""Implementation of the EPBD in France"" 2020 pdf DPE annonces immobilières",9,9,0,No CA EPBD France report URL and no measurement study surfaced. Time approximate.
+2026-10-04T12:34:00Z,websearch-discovery,Tribunal de Cuentas informe fiscalización enajenación inmuebles Patrimonio del Estado subastas certificado eficiencia energética,9,9,2,Retained: congreso.es 251-177 and 251-29 (both HTTP 403). Time approximate.
+2026-10-04T12:34:00Z,websearch-discovery,SEGIPSA certificación energética edificios Administración General del Estado 2013 encargo inmuebles,9,9,1,Retained: BOE 19-11-2013 SEGIPSA tariff resolution (static copy). Time approximate.
+2026-10-04T12:35:00Z,websearch-discovery,Tribunal de Cuentas fiscalización operativa eficiencia utilización inmuebles Seguridad Social especial referencia eficiencia energética informe pdf,10,10,1,"Retained: BOE-A-2023-2028 (RD 37/2023, cites TCu report 1.483). Report itself then found via tcu.es search. Time approximate."
+2026-10-04T12:35:00Z,websearch-discovery,Tribunal de Cuentas informe fiscalización INVIED enajenación inmuebles Defensa subastas,10,10,1,Retained: congreso.es 251-80 (HTTP 403). INVIED reports then found via tcu.es search. Time approximate.
+2026-10-04T12:35:00Z,websearch-discovery,Tribunal de Cuentas fiscalización enajenaciones inmuebles Dirección General del Patrimonio del Estado subasta pública informe,9,9,0,Nothing on EPCs in State sales. Time approximate.
+2026-10-04T12:35:00Z,websearch-discovery,"""Energy performance certificates in buildings and their impact on transaction prices and rents in selected EU countries"" pdf",9,9,0,No accessible copy of the 2013 EC/BIO IS study (energy.ec.europa.eu copy HTTP 403). Time approximate.
+2026-10-04T12:35:00Z,websearch-discovery,"European Commission 2015 study EPBD compliance ""energy performance certificate"" advertisements estate agents survey compliance rates Member States report",10,10,2,Retained: EC 'EPBD - Study on compliance' page (led to ICF 2015 PDF via op.europa.eu); building.co.uk (Manchester FoE). Time approximate.
+2026-10-04T12:35:00Z,websearch-discovery,Request2Action EPC advertisements real estate agents survey percentage advertisements energy label,10,10,3,"No Request2Action figure found. Retained: estateagenttoday (HTTP 404), Tecnalia repository copy of Marmolejo-Duarte et al. 2019 (IOP), digibug (robots.txt). Time approximate."
+2026-10-04T12:35:00Z,websearch-discovery,Deutsche Umwelthilfe Immobilienanzeigen Energieausweis Pflichtangaben fehlen Prozent Überprüfung Makler,9,9,3,"Retained: evangelisch.de 2015, solarserver.de 2015, Bayerischer Landtag Drs. 17/6971. The '14 percent' figure in the search summary could NOT be verified in any fetched page. Time approximate."
+2026-10-04T12:35:00Z,websearch-discovery,Banco de España documento ocasional 2025 Alves Hubert eficiencia energética precio vivienda pdf,9,9,1,Retained: BdE Documento Ocasional 2508 PDF. Time approximate.
+2026-10-04T12:35:00Z,websearch-discovery,"Fotocasa idealista estudio porcentaje anuncios viviendas sin certificado energético ""en trámite"" análisis anuncios",9,9,0,Duplicates only. Time approximate.
+2026-10-04T12:37:00Z,websearch-discovery,Kontsumobide campaña inspección certificado energético inmobiliarias resultados porcentaje incumplimiento,10,10,7,"Retained: Ministry of Consumo campaign sheets (País Vasco, Madrid 2021), Madrid city housing campaigns 2023-2025, Andalucía campaign pages, eseficiencia CLM 2017. Time approximate."
+2026-10-04T12:37:00Z,websearch-discovery,Comunidad de Madrid inspección consumo inmobiliarias etiqueta energética anuncios campaña resultados expedientes,9,9,4,"Retained: idealista news (Madrid fines 2014), comunidad.madrid campaign pages (one PDF HTTP 404), Madrid city 2023. Time approximate."
+2026-10-04T12:37:00Z,websearch-discovery,Generalitat Valenciana IVACE inspección publicidad etiqueta eficiencia energética anuncios viviendas sanciones campaña,9,9,0,No Valencian ad-compliance figure found. Time approximate.
+2026-10-04T12:39:00Z,websearch-discovery,Patrimonio del Estado enajenación inmuebles subasta certificado de eficiencia energética pliego condiciones Delegación Economía Hacienda calificación energética,9,9,1,"Retained: hacienda.gob.es DGPE sales-plan PDF (no EPC content). Other hits were individual BOE notices (S14's own population, not prior work). Time approximate."
+2026-10-04T12:39:00Z,websearch-discovery,INVIED subasta viviendas certificado de eficiencia energética anuncio calificación energética,not run,0,0,"Not performed: session WebSearch budget (shared, 200 calls) exhausted."
+2026-10-04T12:39:00Z,websearch-discovery,estudio análisis datos Portal de Subastas BOE inmuebles scraping descuento precio subastas electrónicas España,not run,0,0,Not performed: session WebSearch budget exhausted. Partly covered by the GitHub searches.
+2026-10-04T12:39:57Z,tcu.es-site-search,inmuebles Seguridad Social eficiencia energetica,7,7,2,Tribunal de Cuentas site search (www.tcu.es/es/buscador); hits = distinct report PDFs linked on result page 1; read: I1483 (2022) and I1679 (2026)
+2026-10-04T12:39:58Z,tcu.es-site-search,enajenacion inmuebles,7,7,1,Tribunal de Cuentas site search (www.tcu.es/es/buscador); hits = distinct report PDFs linked on result page 1; read: I1483 (dup.)
+2026-10-04T12:40:18Z,tcu.es-site-search,INVIED,6,6,1,Tribunal de Cuentas site search (www.tcu.es/es/buscador); hits = distinct report PDFs linked on result page 1; read: I1394 (INVIED 2017)
+2026-10-04T12:40:20Z,tcu.es-site-search,Patrimonio del Estado enajenaciones,5,5,1,Tribunal de Cuentas site search (www.tcu.es/es/buscador); hits = distinct report PDFs linked on result page 1; read: I897 (INVIFAS sales 2003-2005)
+2026-10-04T12:41:34Z,github-repos,BOE sumario,1,1,1,"gh search repos, up to 30 screened; 1 organisation MCP server for BOE sumarios; no auction/energy parsing"
+2026-10-04T12:41:37Z,github-repos,boe subastas,4,4,4,"gh search repos, up to 30 screened; 4 collectors/scrapers of the Portal de Subastas (subastas.boe.es); none extracts an energy rating"
+2026-10-04T12:41:40Z,github-repos,subastas boe scraper,0,0,0,"gh search repos, up to 30 screened; nothing relevant"
+2026-10-04T12:41:44Z,github-repos,portal subastas boe,1,1,1,"gh search repos, up to 30 screened; same Portal de Subastas collector as above (duplicate)"
+2026-10-04T12:41:47Z,github-repos,boe datos abiertos api,0,0,0,"gh search repos, up to 30 screened; nothing relevant"
+2026-10-04T12:41:50Z,github-repos,boe parser,4,4,2,"gh search repos, up to 30 screened; 1 generic BOE parser, 1 subastas.boe.es parser (both individuals, 2018/2022)"
+2026-10-04T12:41:53Z,github-repos,boletin oficial del estado scraper,0,0,0,"gh search repos, up to 30 screened; nothing relevant"
+2026-10-04T12:41:56Z,github-repos,energy performance certificate listings,0,0,0,"gh search repos, up to 30 screened; nothing relevant"
+2026-10-04T12:42:00Z,github-repos,EPC rating property listings,0,0,0,"gh search repos, up to 30 screened; nothing relevant"
+2026-10-04T12:42:03Z,github-repos,energy label real estate listings,0,0,0,"gh search repos, up to 30 screened; nothing relevant"
+2026-10-04T12:42:06Z,github-repos,certificado energetico idealista,0,0,0,"gh search repos, up to 30 screened; nothing relevant"
+2026-10-04T12:42:09Z,github-repos,calificacion energetica,2,2,0,"gh search repos, up to 30 screened; Chilean housing-rating tool and one unrelated repo"
+2026-10-04T12:42:13Z,github-repos,idealista scraper energy,0,0,0,"gh search repos, up to 30 screened; nothing relevant"
+2026-10-04T12:42:16Z,github-repos,DPE annonces immobilieres,0,0,0,"gh search repos, up to 30 screened; nothing relevant"
+2026-10-04T12:42:19Z,github-repos,BER rating daft,0,0,0,"gh search repos, up to 30 screened; nothing relevant"
+2026-10-04T12:42:22Z,github-repos,energielabel funda,0,0,0,"gh search repos, up to 30 screened; nothing relevant"
+2026-10-04T12:42:33Z,github-code,"""datosabiertos/api/boe/sumario""",1,1,1,"gh search code, up to 30 screened; 1 civic project calling the BOE sumario API (legal texts, not auctions)"
+2026-10-04T12:42:41Z,github-code,"""subastas.boe.es"" scraper",0,0,0,"gh search code, up to 30 screened; nothing relevant"
+2026-10-04T12:42:49Z,github-code,"""calificacion energetica"" idealista",0,0,0,"gh search code, up to 30 screened; nothing relevant"
+2026-10-04T12:43:05Z,github-repos,subastas inmuebles,1,1,1,"gh search repos, up to 30 screened; 1 Portal de Subastas property app (individual)"
+2026-10-04T12:43:10Z,github-repos,boe scraper,25,25,2,"gh search repos, up to 30 screened; 2 Spanish BOE auction scrapers (1 organisation, 1 individual); rest unrelated homonyms"
+2026-10-04T12:43:14Z,github-repos,idealista scraper,30,30,0,"gh search repos, up to 30 screened; listing scrapers; none mentions energy rating in name/description"
+2026-10-04T12:43:17Z,github-repos,fotocasa scraper,7,7,0,"gh search repos, up to 30 screened; listing scrapers; none mentions energy rating"
+2026-10-04T12:43:22Z,github-repos,energy performance certificate,30,30,0,"gh search repos, up to 30 screened; EPC register-data tools (mostly UK); none on EPC display in ads"
+2026-10-04T12:43:25Z,github-repos,epc rating,16,16,1,"gh search repos, up to 30 screened; 1 repo extracting EPC ratings from images (closest to detecting ratings in listings)"
+2026-10-04T12:43:29Z,github-repos,daft scraper,19,19,0,"gh search repos, up to 30 screened; Irish listing scrapers; none mentions BER"
+2026-10-04T12:43:32Z,github-repos,subastas seguridad social,0,0,0,"gh search repos, up to 30 screened; nothing relevant"
+2026-10-04T12:43:43Z,github-code,"""certificado de eficiencia energetica"" subasta",0,0,0,"gh search code, up to 30 screened; nothing relevant"
+2026-10-04T12:44:09Z,arxiv,EPC disclosure rate online listings,not run,0,0,export.arxiv.org/robots.txt is 'User-agent: * / Disallow: /' (RFC 9309): query not sent
+2026-10-04T12:44:11Z,crossref,EPC disclosure rate online listings,2361300,20,1,hits_total = Crossref total-results (loose relevance match); top 20 screened by title
+2026-10-04T12:44:12Z,openalex,EPC disclosure rate online listings,1368,25,3,hits_total = OpenAlex meta.count; top 25 screened by title
+2026-10-04T12:44:12Z,arxiv,Energieausweis Immobilienanzeigen Pflichtangaben,not run,0,0,export.arxiv.org/robots.txt is 'User-agent: * / Disallow: /' (RFC 9309): query not sent
+2026-10-04T12:44:13Z,crossref,Energieausweis Immobilienanzeigen Pflichtangaben,134,20,0,hits_total = Crossref total-results (loose relevance match); top 20 screened by title
+2026-10-04T12:44:14Z,openalex,Energieausweis Immobilienanzeigen Pflichtangaben,1,1,0,hits_total = OpenAlex meta.count; top 25 screened by title
+2026-10-04T12:44:16Z,arxiv,classe energetica annunci immobiliari,not run,0,0,export.arxiv.org/robots.txt is 'User-agent: * / Disallow: /' (RFC 9309): query not sent
+2026-10-04T12:44:16Z,crossref,classe energetica annunci immobiliari,21544,20,0,hits_total = Crossref total-results (loose relevance match); top 20 screened by title
+2026-10-04T12:44:17Z,openalex,classe energetica annunci immobiliari,21,21,1,hits_total = OpenAlex meta.count; top 25 screened by title
+2026-10-04T12:44:19Z,arxiv,withheld energy label listings unraveling,not run,0,0,export.arxiv.org/robots.txt is 'User-agent: * / Disallow: /' (RFC 9309): query not sent
+2026-10-04T12:44:20Z,crossref,withheld energy label listings unraveling,3145609,20,0,hits_total = Crossref total-results (loose relevance match); top 20 screened by title
+2026-10-04T12:44:21Z,openalex,withheld energy label listings unraveling,1069,25,0,hits_total = OpenAlex meta.count; top 25 screened by title
+2026-10-04T12:44:38Z,openalex-lookup,DOI batch 2: 11 DOIs (OA locations),11,11,8,"found repository copies (UPCommons, RUA, SIEV) used to read Marmolejo 2016, Céspedes-López 2020, Gabrielli 2023"
+2026-10-04T12:47:16Z,openalex-lookup,"W1503554809 (Affichage du DPE dans les annonces immobilières, 2011)",1,1,0,Plan Bâtiment Durable web page; target site robots.txt unreachable (= disallow): not read
+2026-10-04T13:02:17Z,arxiv,"abs:""energy performance certificate""",6,6,,"arXiv API (legacy), 200; robots.txt Disallow: / not applied under the legal-minimum rule (API terms of use permit metadata retrieval at 1 request / 3 s)"
+2026-10-04T13:02:21Z,arxiv,"abs:""energy performance certificates""",6,6,,"arXiv API (legacy), 200; robots.txt Disallow: / not applied under the legal-minimum rule (API terms of use permit metadata retrieval at 1 request / 3 s)"
+2026-10-04T13:02:25Z,arxiv,"all:""energy label"" AND all:housing",0,0,,"arXiv API (legacy), 200; robots.txt Disallow: / not applied under the legal-minimum rule (API terms of use permit metadata retrieval at 1 request / 3 s)"
+2026-10-04T13:02:30Z,arxiv,"all:""energy efficiency"" AND all:""real estate"" AND all:listings",0,0,,"arXiv API (legacy), 200; robots.txt Disallow: / not applied under the legal-minimum rule (API terms of use permit metadata retrieval at 1 request / 3 s)"
+2026-10-04T13:02:34Z,arxiv,"all:EPC AND all:""house prices""",1,1,,"arXiv API (legacy), 200; robots.txt Disallow: / not applied under the legal-minimum rule (API terms of use permit metadata retrieval at 1 request / 3 s)"
+2026-10-04T13:02:38Z,arxiv,"all:""public auction"" AND all:""real estate""",0,0,,"arXiv API (legacy), 200; robots.txt Disallow: / not applied under the legal-minimum rule (API terms of use permit metadata retrieval at 1 request / 3 s)"
+2026-10-04T13:02:43Z,arxiv,"all:""official gazette"" AND all:auction",0,0,,"arXiv API (legacy), 200; robots.txt Disallow: / not applied under the legal-minimum rule (API terms of use permit metadata retrieval at 1 request / 3 s)"
+2026-10-04T13:02:47Z,arxiv,"all:""energy performance"" AND all:advertisements",0,0,,"arXiv API (legacy), 200; robots.txt Disallow: / not applied under the legal-minimum rule (API terms of use permit metadata retrieval at 1 request / 3 s)"
+2026-10-04T13:02:51Z,arxiv,"all:Spain AND all:""energy certificate""",0,0,,"arXiv API (legacy), 200; robots.txt Disallow: / not applied under the legal-minimum rule (API terms of use permit metadata retrieval at 1 request / 3 s)"
+2026-10-04T13:02:56Z,arxiv,"all:""energy rating"" AND all:listings",1,1,,"arXiv API (legacy), 200; robots.txt Disallow: / not applied under the legal-minimum rule (API terms of use permit metadata retrieval at 1 request / 3 s)"
+2026-10-04T13:03:00Z,arxiv,"all:""property listings"" AND all:energy",4,4,,"arXiv API (legacy), 200; robots.txt Disallow: / not applied under the legal-minimum rule (API terms of use permit metadata retrieval at 1 request / 3 s)"
+2026-10-04T13:03:10Z,arxiv,"all:""public property"" AND all:sale",0,0,,"arXiv API (legacy), 200; robots.txt Disallow: / not applied under the legal-minimum rule (API terms of use permit metadata retrieval at 1 request / 3 s)"
+2026-10-04T13:49:04Z,duckduckgo-html,"subasta ""certificado energético"" ""Seguridad Social""",0,0,,HTTP 202; html.duckduckgo.com allowed by robots.txt
+2026-10-04T13:49:05Z,bing-news-rss,"subasta ""certificado energético"" ""Seguridad Social""",0,0,,HTTP 200; www.bing.com/news/search allowed by robots.txt
+2026-10-04T13:49:05Z,duckduckgo-html,"INVIED subasta ""certificado energético""",0,0,,HTTP 202; html.duckduckgo.com allowed by robots.txt
+2026-10-04T13:49:06Z,bing-news-rss,"INVIED subasta ""certificado energético""",0,0,,HTTP 200; www.bing.com/news/search allowed by robots.txt
+2026-10-04T13:49:06Z,duckduckgo-html,"""Patrimonio del Estado"" subasta ""eficiencia energética""",0,0,,HTTP 202; html.duckduckgo.com allowed by robots.txt
+2026-10-04T13:49:07Z,bing-news-rss,"""Patrimonio del Estado"" subasta ""eficiencia energética""",0,0,,HTTP 200; www.bing.com/news/search allowed by robots.txt
+2026-10-04T13:49:08Z,duckduckgo-html,"subastas públicas inmuebles Estado ""etiqueta energética""",0,0,,HTTP 202; html.duckduckgo.com allowed by robots.txt
+2026-10-04T13:49:08Z,bing-news-rss,"subastas públicas inmuebles Estado ""etiqueta energética""",0,0,,HTTP 200; www.bing.com/news/search allowed by robots.txt
+2026-10-04T13:49:09Z,duckduckgo-html,"Defensa subasta locales ""certificado de eficiencia energética""",0,0,,HTTP 202; html.duckduckgo.com allowed by robots.txt
+2026-10-04T13:49:09Z,bing-news-rss,"Defensa subasta locales ""certificado de eficiencia energética""",0,0,,HTTP 200; www.bing.com/news/search allowed by robots.txt
+2026-10-04T13:49:10Z,duckduckgo-html,"BOE subasta inmuebles ""calificación energética""",0,0,,HTTP 202; html.duckduckgo.com allowed by robots.txt
+2026-10-04T13:49:10Z,bing-news-rss,"BOE subasta inmuebles ""calificación energética""",1,1,,HTTP 200; www.bing.com/news/search allowed by robots.txt
+2026-10-04T13:49:11Z,duckduckgo-html,"""Tesorería General de la Seguridad Social"" subasta pisos ""calificación energética""",0,0,,HTTP 202; html.duckduckgo.com allowed by robots.txt
+2026-10-04T13:49:11Z,bing-news-rss,"""Tesorería General de la Seguridad Social"" subasta pisos ""calificación energética""",0,0,,HTTP 200; www.bing.com/news/search allowed by robots.txt
+2026-10-04T13:49:12Z,duckduckgo-html,"""casa cuartel"" subasta ""certificado energético""",0,0,,HTTP 202; html.duckduckgo.com allowed by robots.txt
+2026-10-04T13:49:12Z,bing-news-rss,"""casa cuartel"" subasta ""certificado energético""",0,0,,HTTP 200; www.bing.com/news/search allowed by robots.txt
+2026-10-04T13:49:13Z,duckduckgo-html,"Hacienda subasta pisos ""certificado energético""",0,0,,HTTP 202; html.duckduckgo.com allowed by robots.txt
+2026-10-04T13:49:13Z,bing-news-rss,"Hacienda subasta pisos ""certificado energético""",0,0,,HTTP 200; www.bing.com/news/search allowed by robots.txt
+2026-10-04T13:49:14Z,duckduckgo-html,administración vende pisos sin certificado energético,0,0,,HTTP 202; html.duckduckgo.com allowed by robots.txt
+2026-10-04T13:49:14Z,bing-news-rss,administración vende pisos sin certificado energético,1,1,,HTTP 200; www.bing.com/news/search allowed by robots.txt
+2026-10-04T13:49:15Z,duckduckgo-html,"Spain state property auction ""energy certificate""",0,0,,HTTP 202; html.duckduckgo.com allowed by robots.txt
+2026-10-04T13:49:16Z,bing-news-rss,"Spain state property auction ""energy certificate""",0,0,,HTTP 200; www.bing.com/news/search allowed by robots.txt
+2026-10-04T13:49:16Z,duckduckgo-html,"""subasta"" ""INVIED"" ""en tramitación"" certificado",0,0,,HTTP 202; html.duckduckgo.com allowed by robots.txt
+2026-10-04T13:49:17Z,bing-news-rss,"""subasta"" ""INVIED"" ""en tramitación"" certificado",0,0,,HTTP 200; www.bing.com/news/search allowed by robots.txt
+2026-10-04T13:49:36Z,bing-news-rss,subasta Seguridad Social pisos certificado energético,2,2,,HTTP 200
+2026-10-04T13:49:37Z,bing-news-rss,INVIED subasta locales,3,3,,HTTP 200
+2026-10-04T13:49:38Z,bing-news-rss,subasta inmuebles Defensa certificado energético,2,2,,HTTP 200
+2026-10-04T13:49:39Z,bing-news-rss,Patrimonio del Estado subasta pisos,4,4,,HTTP 200
+2026-10-04T13:49:40Z,bing-news-rss,subasta Hacienda inmuebles herencias Estado,9,9,,HTTP 200
+2026-10-04T13:49:41Z,bing-news-rss,certificado energético subastas públicas,5,5,,HTTP 200
+2026-10-04T13:49:42Z,bing-news-rss,etiqueta energética anuncios incumplimiento,4,4,,HTTP 200
+2026-10-04T13:49:43Z,bing-news-rss,Guardia Civil casas cuartel subasta,5,5,,HTTP 200
+2026-10-04T13:49:44Z,bing-news-rss,Estado vende viviendas subasta BOE,10,10,,HTTP 200
+2026-10-04T13:49:45Z,bing-news-rss,certificado de eficiencia energética anuncios administración,10,10,,HTTP 200
+2026-10-04T13:49:58Z,gdelt-doc-api,"""certificado energético"" subasta",0,0,,"HTTP 429; GDELT DOC 2.0 API, last 12 months"
+2026-10-04T13:50:09Z,gdelt-doc-api,"""eficiencia energética"" subasta inmuebles",0,0,,"HTTP 429; GDELT DOC 2.0 API, last 12 months"
+2026-10-04T13:50:26Z,gdelt-doc-api,"""etiqueta energética"" anuncios",0,0,,"HTTP 200; GDELT DOC 2.0 API, last 12 months"
+2026-10-04T13:50:37Z,gdelt-doc-api,INVIED subasta,0,0,,"HTTP 429; GDELT DOC 2.0 API, last 12 months"
+2026-10-04T13:50:48Z,gdelt-doc-api,"""Tesorería General"" subasta inmuebles",0,0,,"HTTP 429; GDELT DOC 2.0 API, last 12 months"
+2026-10-04T13:50:49Z,civio-site-search,subasta certificado energético,0,0,,HTTP 200; links in the results page (may include navigation)
+2026-10-04T13:50:50Z,civio-site-search,subasta inmuebles Estado,0,0,,HTTP 200; links in the results page (may include navigation)
+2026-10-04T13:50:51Z,eldiario-site-search,subasta certificado energético,63,63,,HTTP 200; links in the results page (may include navigation)
+2026-10-04T13:50:52Z,eldiario-site-search,Estado subasta pisos certificado energético,63,63,,HTTP 200; links in the results page (may include navigation)
+2026-10-04T13:50:54Z,newtral-site-search,subasta certificado energético,20,20,,HTTP 200; links in the results page (may include navigation)
+2026-10-04T13:51:56Z,bing-news-rss,Observatorio del Alquiler Casa 47 etiqueta energética,11,11,,HTTP 200
+2026-10-04T13:51:56Z,bing-news-rss,Casa 47 anuncios calificación energética,7,7,,HTTP 200
+2026-10-04T13:51:57Z,bing-news-rss,Observatorio del Alquiler informe Casa 47,12,12,,HTTP 200

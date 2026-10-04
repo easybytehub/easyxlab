@@ -1,0 +1,9 @@
+seller_group,notices,lots,covered,excluded,undeterminable,with_label,without_label,pct_without,ci_low,ci_high
+ALL,254,2833,306,2487,40,162,144,47.1,41.5,52.7
+TGSS,122,202,160,41,1,146,14,8.8,5.3,14.2
+INVIED (Defensa),5,117,86,26,5,0,86,100.0,95.7,100.0
+Patrimonio del Estado (DEH),102,2466,33,2406,27,16,17,51.5,35.2,67.5
+GIESE (Interior),7,24,21,1,2,0,21,100.0,84.5,100.0
+FOGASA,5,10,5,4,1,0,5,100.0,56.6,100.0
+Port authorities,5,6,1,4,1,0,1,100.0,20.7,100.0
+Other public bodies,8,8,0,5,3,0,0,,,

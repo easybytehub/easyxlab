@@ -1,0 +1,849 @@
+lot_key,review_set,auto_scope,scope,auto_energy,energy,exempt_ground,change,note
+BOE-B-2025-1186#1,R4,excluded,covered,rating,rating,,scope excluded>covered; type storage>unit_in_building,first-floor unit (112 m2 useful) with an annexed storage room; rating B stated
+BOE-B-2025-1692#1,R1,covered,excluded,none,none,,scope covered>excluded; type building>industrial_agricultural,"premises of a car-body and repair workshop (workshops are low demand, art. 3.2.c; FAQ no. 16)"
+BOE-B-2025-1972#1,R2,covered,covered,rating,rating,,none,rating letter(s) stated in the lot; confirmed
+BOE-B-2025-1973#?,extra,covered,covered,rating,rating,,none,"one premises made of several registered fincas joined physically, so one lot; rating stated"
+BOE-B-2025-2870#1,R1,covered,covered,none,none,,none,former Guardia Civil house-barracks; no energy statement
+BOE-B-2025-2870#2,R1,covered,covered,none,none,,none,former Guardia Civil barracks; no energy statement
+BOE-B-2025-2870#3,R1,covered,covered,none,none,,none,former Guardia Civil house-barracks; no energy statement
+BOE-B-2025-2870#4,R3,undeterminable,covered,none,none,,scope undeterminable>covered; type unknown>building,former police station; no energy statement
+BOE-B-2025-2870#5,R3,undeterminable,undeterminable,none,none,,type unknown>building,former Guardia Civil facilities inside a castle (historic monument)
+BOE-B-2025-2913#1,R2,covered,covered,rating,rating,,none,rating letter(s) stated in the lot; confirmed
+BOE-B-2025-2913#4,R4,excluded,covered,rating,rating,,scope excluded>covered,"industrial unit on ground floor and mezzanine with a registered certificate (consumption F, emissions D); art. 3.2.c excludes only low-demand parts, and a stated rating shows the seller holds it in scope"
+BOE-B-2025-2914#2,R4,excluded,excluded,exempt_declared,exempt_declared,guidance_garage_storage,none,garage space with storage room declared exempt
+BOE-B-2025-3852#1,extra,excluded,drop,none,none,,scope excluded>drop,"direct adjudication to a party who showed interest (art. 137.4 LPAP); not an offer to the public (rule §1.1, direct_named)"
+BOE-B-2025-3853#1,extra,excluded,drop,none,none,,scope excluded>drop,"direct adjudication to a party who showed interest (art. 137.4 LPAP); not an offer to the public (rule §1.1, direct_named)"
+BOE-B-2025-3854#?,extra,excluded,drop,none,none,,scope excluded>drop,"direct adjudication to a party who showed interest (art. 137.4 LPAP); not an offer to the public (rule §1.1, direct_named)"
+BOE-B-2025-3855#1,extra,excluded,drop,none,none,,scope excluded>drop,"direct adjudication to a party who showed interest (art. 137.4 LPAP); not an offer to the public (rule §1.1, direct_named)"
+BOE-B-2025-3856#1,extra,excluded,drop,none,none,,scope excluded>drop,"direct adjudication to a party who showed interest (art. 137.4 LPAP); not an offer to the public (rule §1.1, direct_named)"
+BOE-B-2025-3857#1,extra,excluded,drop,none,none,,scope excluded>drop,"direct adjudication to a party who showed interest (art. 137.4 LPAP); not an offer to the public (rule §1.1, direct_named)"
+BOE-B-2025-3858#1,extra,excluded,drop,none,none,,scope excluded>drop,"direct adjudication to a party who showed interest (art. 137.4 LPAP); not an offer to the public (rule §1.1, direct_named)"
+BOE-B-2025-3859#1,extra,excluded,drop,none,none,,scope excluded>drop,"direct adjudication to a party who showed interest (art. 137.4 LPAP); not an offer to the public (rule §1.1, direct_named)"
+BOE-B-2025-3982#2,R2,covered,covered,rating,rating,,none,rating letter(s) stated in the lot; confirmed
+BOE-B-2025-4764#1,R1,covered,undeterminable,none,none,,scope covered>undeterminable; type residential>unit_in_building,"30 m2 semi-basement unit of a residential building, use not stated (earlier auction of BOE-B-2025-23015)"
+BOE-B-2025-4868#1,R1,covered,covered,none,none,,none,dwelling with storage annex; no energy statement
+BOE-B-2025-4869#1,extra,excluded,drop,none,none,,scope excluded>drop,"direct adjudication to a party who showed interest (art. 137.4 LPAP); not an offer to the public (rule §1.1, direct_named)"
+BOE-B-2025-4870#1,extra,excluded,drop,none,none,,scope excluded>drop,"direct adjudication to a party who showed interest (art. 137.4 LPAP); not an offer to the public (rule §1.1, direct_named)"
+BOE-B-2025-4871#?,extra,excluded,drop,none,none,,scope excluded>drop,"direct adjudication to a party who showed interest (art. 137.4 LPAP); not an offer to the public (rule §1.1, direct_named)"
+BOE-B-2025-5746#?,extra,covered,covered,rating,rating,,none,"one premises made of several registered fincas joined physically, so one lot; rating stated"
+BOE-B-2025-6080#1,R1,covered,covered,none,none,,none,dwelling; no energy statement
+BOE-B-2025-6080#2,R1,covered,covered,none,none,,none,dwelling; no energy statement
+BOE-B-2025-6081#1,R3,undeterminable,drop,none,none,,scope undeterminable>drop,"expropriation notice (railway works), not a sale offer"
+BOE-B-2025-6107#1,R2,covered,covered,rating,rating,,none,rating letter(s) stated in the lot; confirmed
+BOE-B-2025-6107#3,R2,covered,covered,rating,rating,,none,rating letter(s) stated in the lot; confirmed
+BOE-B-2025-6642#1,extra,excluded,drop,none,none,,scope excluded>drop,"direct adjudication to a party who showed interest (art. 137.4 LPAP); not an offer to the public (rule §1.1, direct_named)"
+BOE-B-2025-6701#1,R4,excluded,excluded,none,none,,none,garage or parking space; confirmed
+BOE-B-2025-6889#2,R2,covered,covered,rating,rating,,none,rating letter(s) stated in the lot; confirmed
+BOE-B-2025-6889#3,R2,covered,covered,rating,rating,,none,rating letter(s) stated in the lot; confirmed
+BOE-B-2025-6944#21,R4,excluded,excluded,none,none,,none,land (rustic or unbuilt plot); confirmed
+BOE-B-2025-6980#?,R3,undeterminable,drop,none,none,,scope undeterminable>drop,"sale of timber (aprovechamiento), not of property"
+BOE-B-2025-6982#?,R3,undeterminable,drop,none,none,,scope undeterminable>drop,"sale of timber (aprovechamiento), not of property"
+BOE-B-2025-7059#r1,extra,excluded,excluded,none,none,,split,"rustic plot, row 1 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-7059#r10,extra,excluded,excluded,none,none,,split,"rustic plot, row 10 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-7059#r11,extra,excluded,excluded,none,none,,split,"rustic plot, row 11 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-7059#r12,extra,excluded,excluded,none,none,,split,"rustic plot, row 12 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-7059#r13,extra,excluded,excluded,none,none,,split,"rustic plot, row 13 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-7059#r14,extra,excluded,excluded,none,none,,split,"rustic plot, row 14 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-7059#r15,extra,excluded,excluded,none,none,,split,"rustic plot, row 15 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-7059#r16,extra,excluded,excluded,none,none,,split,"rustic plot, row 16 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-7059#r17,extra,excluded,excluded,none,none,,split,"rustic plot, row 17 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-7059#r18,extra,excluded,excluded,none,none,,split,"rustic plot, row 18 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-7059#r19,extra,excluded,excluded,none,none,,split,"rustic plot, row 19 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-7059#r2,extra,excluded,excluded,none,none,,split,"rustic plot, row 2 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-7059#r20,extra,excluded,excluded,none,none,,split,"rustic plot, row 20 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-7059#r21,extra,excluded,excluded,none,none,,split,"rustic plot, row 21 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-7059#r22,extra,excluded,excluded,none,none,,split,"rustic plot, row 22 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-7059#r23,extra,excluded,excluded,none,none,,split,"rustic plot, row 23 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-7059#r24,extra,excluded,excluded,none,none,,split,"rustic plot, row 24 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-7059#r25,extra,excluded,excluded,none,none,,split,"rustic plot, row 25 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-7059#r26,extra,excluded,excluded,none,none,,split,"rustic plot, row 26 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-7059#r27,extra,excluded,excluded,none,none,,split,"rustic plot, row 27 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-7059#r28,extra,excluded,excluded,none,none,,split,"rustic plot, row 28 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-7059#r29,extra,excluded,excluded,none,none,,split,"rustic plot, row 29 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-7059#r3,extra,excluded,excluded,none,none,,split,"rustic plot, row 3 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-7059#r30,extra,excluded,excluded,none,none,,split,"rustic plot, row 30 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-7059#r31,extra,excluded,excluded,none,none,,split,"rustic plot, row 31 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-7059#r32,extra,excluded,excluded,none,none,,split,"rustic plot, row 32 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-7059#r33,extra,excluded,excluded,none,none,,split,"rustic plot, row 33 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-7059#r34,extra,excluded,excluded,none,none,,split,"rustic plot, row 34 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-7059#r35,extra,excluded,excluded,none,none,,split,"rustic plot, row 35 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-7059#r36,extra,excluded,excluded,none,none,,split,"rustic plot, row 36 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-7059#r37,extra,excluded,excluded,none,none,,split,"rustic plot, row 37 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-7059#r38,extra,excluded,excluded,none,none,,split,"rustic plot, row 38 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-7059#r39,extra,excluded,excluded,none,none,,split,"rustic plot, row 39 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-7059#r4,extra,excluded,excluded,none,none,,split,"rustic plot, row 4 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-7059#r40,extra,excluded,excluded,none,none,,split,"rustic plot, row 40 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-7059#r41,extra,excluded,excluded,none,none,,split,"rustic plot, row 41 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-7059#r42,extra,excluded,excluded,none,none,,split,"rustic plot, row 42 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-7059#r43,extra,excluded,excluded,none,none,,split,"rustic plot, row 43 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-7059#r44,extra,excluded,excluded,none,none,,split,"rustic plot, row 44 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-7059#r45,extra,excluded,excluded,none,none,,split,"rustic plot, row 45 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-7059#r46,extra,excluded,excluded,none,none,,split,"rustic plot, row 46 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-7059#r47,extra,excluded,excluded,none,none,,split,"rustic plot, row 47 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-7059#r48,extra,excluded,excluded,none,none,,split,"rustic plot, row 48 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-7059#r49,extra,excluded,excluded,none,none,,split,"rustic plot, row 49 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-7059#r5,extra,excluded,excluded,none,none,,split,"rustic plot, row 5 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-7059#r50,extra,excluded,excluded,none,none,,split,"rustic plot, row 50 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-7059#r51,extra,excluded,excluded,none,none,,split,"rustic plot, row 51 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-7059#r52,extra,excluded,excluded,none,none,,split,"rustic plot, row 52 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-7059#r53,extra,excluded,excluded,none,none,,split,"rustic plot, row 53 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-7059#r54,extra,excluded,excluded,none,none,,split,"rustic plot, row 54 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-7059#r55,extra,excluded,excluded,none,none,,split,"rustic plot, row 55 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-7059#r56,extra,excluded,excluded,none,none,,split,"rustic plot, row 56 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-7059#r57,extra,excluded,excluded,none,none,,split,"rustic plot, row 57 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-7059#r58,extra,excluded,excluded,none,none,,split,"rustic plot, row 58 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-7059#r59,extra,excluded,excluded,none,none,,split,"rustic plot, row 59 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-7059#r6,extra,excluded,excluded,none,none,,split,"rustic plot, row 6 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-7059#r60,extra,excluded,excluded,none,none,,split,"rustic plot, row 60 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-7059#r61,extra,excluded,excluded,none,none,,split,"rustic plot, row 61 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-7059#r62,extra,excluded,excluded,none,none,,split,"rustic plot, row 62 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-7059#r63,extra,excluded,excluded,none,none,,split,"rustic plot, row 63 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-7059#r64,extra,excluded,excluded,none,none,,split,"rustic plot, row 64 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-7059#r65,extra,excluded,excluded,none,none,,split,"rustic plot, row 65 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-7059#r66,extra,excluded,excluded,none,none,,split,"rustic plot, row 66 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-7059#r67,extra,excluded,excluded,none,none,,split,"rustic plot, row 67 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-7059#r7,extra,excluded,excluded,none,none,,split,"rustic plot, row 7 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-7059#r8,extra,excluded,excluded,none,none,,split,"rustic plot, row 8 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-7059#r9,extra,excluded,excluded,none,none,,split,"rustic plot, row 9 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-7061#?,extra,excluded,drop,none,none,,scope excluded>drop,expropriation notice (actas previas); not a sale offer
+BOE-B-2025-7181#1,R2,covered,covered,rating,rating,,none,rating letter(s) stated in the lot; confirmed
+BOE-B-2025-7181#3,R2,covered,covered,rating,rating,,none,rating letter(s) stated in the lot; confirmed
+BOE-B-2025-7181#4,R2,covered,covered,rating,rating,,none,rating letter(s) stated in the lot; confirmed
+BOE-B-2025-7747#1,R2,covered,covered,rating,rating,,none,rating letter(s) stated in the lot; confirmed
+BOE-B-2025-8263#1,R2,covered,covered,rating,rating,,none,rating letter(s) stated in the lot; confirmed
+BOE-B-2025-9197#1,R1,covered,covered,none,none,,none,"commercial premises (47 m2, in a building); no energy statement"
+BOE-B-2025-9197#2,R1,covered,covered,none,none,,none,commercial premises; no energy statement
+BOE-B-2025-9197#3,R1,covered,covered,none,none,,none,commercial premises; no energy statement
+BOE-B-2025-9197#4,R1,covered,undeterminable,none,none,,scope covered>undeterminable; type building>land,40.66% undivided share of a plot in a former barracks area
+BOE-B-2025-9197#5,R1,covered,covered,none,none,,none,commercial premises; no energy statement
+BOE-B-2025-9197#6,R1,covered,covered,none,none,,none,commercial premises; no energy statement
+BOE-B-2025-9197#8,R1,covered,covered,none,none,,none,commercial premises; no energy statement
+BOE-B-2025-9197#9,R1,covered,covered,none,none,,none,commercial premises; no energy statement
+BOE-B-2025-9197#10,R1,covered,covered,none,none,,none,commercial premises; no energy statement
+BOE-B-2025-9197#11,R1,covered,covered,none,none,,none,commercial premises; no energy statement
+BOE-B-2025-9197#12,R1,covered,covered,none,none,,none,"commercial premises (33 m2, in a building); no energy statement"
+BOE-B-2025-9197#13,R1,covered,excluded,none,none,,scope covered>excluded; type residential>land,"former shooting range, 40 ha of rustic land"
+BOE-B-2025-9197#14,R1,covered,covered,none,none,,type residential>building,urban building of four registered units; no energy statement
+BOE-B-2025-9197#15,R1,covered,covered,none,none,,none,commercial premises; no energy statement
+BOE-B-2025-9197#16,R1,covered,covered,none,none,,none,commercial premises; no energy statement
+BOE-B-2025-9197#17,R1,covered,covered,none,none,,none,commercial premises; no energy statement
+BOE-B-2025-9197#18,R1,covered,covered,none,none,,none,commercial premises; no energy statement
+BOE-B-2025-9197#19,R1,covered,covered,none,none,,none,commercial premises; no energy statement
+BOE-B-2025-9197#20,R1,covered,covered,none,none,,none,commercial premises; no energy statement
+BOE-B-2025-9197#22,extra,excluded,undeterminable,none,none,,scope excluded>undeterminable; type land>building,"former military works depot, 5,000 m2 plot with 1,252 m2 built; use and energy demand of the buildings not stated (found by the targeted search)"
+BOE-B-2025-9197#24,R1,covered,covered,none,none,,none,commercial premises; no energy statement
+BOE-B-2025-9197#25,R1,covered,covered,none,none,,none,commercial premises; no energy statement
+BOE-B-2025-9197#26,R1,covered,covered,none,none,,none,commercial premises (basement); no energy statement
+BOE-B-2025-9197#27,R1,covered,covered,none,none,,none,commercial premises (basement); no energy statement
+BOE-B-2025-9197#28,R1,covered,covered,none,none,,none,commercial premises (basement); no energy statement
+BOE-B-2025-9197#29,R1,covered,covered,none,none,,none,commercial premises (basement); no energy statement
+BOE-B-2025-9197#30,R1,covered,covered,none,none,,none,commercial premises; no energy statement
+BOE-B-2025-9197#31,R1,covered,covered,none,none,,none,commercial premises; no energy statement
+BOE-B-2025-9197#32,R1,covered,covered,none,none,,none,commercial premises; no energy statement
+BOE-B-2025-9198#1,R4,excluded,excluded,none,none,,none,land (rustic or unbuilt plot); confirmed
+BOE-B-2025-9198#2,R4,excluded,excluded,none,none,,none,land (rustic or unbuilt plot); confirmed
+BOE-B-2025-9198#9,R4,excluded,excluded,exempt_declared,exempt_declared,3.2.e_part,none,"commercial premises declared not subject under art. 3.2.e; art. 3.2.e gives the declaration to «el propietario del edificio o de parte del edificio», so the owner-seller's declaration for a part is accepted; the non-binding MITECO FAQ no. 7 reads the exclusion as whole buildings only (sensitivity)"
+BOE-B-2025-9818#1,R1,covered,covered,none,none,,none,commercial premises; no energy statement anywhere in the notice
+BOE-B-2025-9818#2,R1,covered,covered,none,none,,none,commercial premises; no energy statement anywhere in the notice
+BOE-B-2025-9818#3,R1,covered,covered,none,none,,none,commercial premises; no energy statement anywhere in the notice
+BOE-B-2025-9818#4,R1,covered,covered,none,none,,none,commercial premises; no energy statement anywhere in the notice
+BOE-B-2025-9818#5,R1,covered,covered,none,none,,none,"commercial premises (31 m2, in a building); no energy statement anywhere in the notice"
+BOE-B-2025-9818#6,R1,covered,covered,none,none,,none,commercial premises in a shopping arcade; no energy statement anywhere in the notice
+BOE-B-2025-9818#7,R1,covered,covered,none,none,,none,commercial premises in a shopping arcade; no energy statement anywhere in the notice
+BOE-B-2025-9818#8,R1,covered,covered,none,none,,none,commercial premises in a shopping arcade; no energy statement anywhere in the notice
+BOE-B-2025-9818#9,R4,excluded,excluded,none,none,,none,garage or parking space; confirmed
+BOE-B-2025-10311#143,R4,excluded,excluded,none,none,,none,land (rustic or unbuilt plot); confirmed
+BOE-B-2025-10639#2,R4,excluded,excluded,none,none,,none,land (rustic or unbuilt plot); confirmed
+BOE-B-2025-10817#?,R2,covered,covered,rating,rating,,none,rating letter(s) stated in the lot; confirmed
+BOE-B-2025-10980#1,R2,covered,covered,rating,rating,,none,rating letter(s) stated in the lot; confirmed
+BOE-B-2025-11267#1,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type commercial>garage,1/35 undivided share of a basement garage
+BOE-B-2025-11618#27,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type rural_with_construction>land,"rustic dry-farming plot; ""Pajar"" is part of the place name"
+BOE-B-2025-11618#28,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type rural_with_construction>land,"rustic dry-farming plot; ""Pajar"" is part of the place name"
+BOE-B-2025-11618#32,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type rural_with_construction>land,"rustic dry-farming plot; ""Pajar"" is part of the place name"
+BOE-B-2025-11618#33,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type rural_with_construction>land,"rustic dry-farming plot; ""Pajar"" is part of the place name"
+BOE-B-2025-11618#34,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type rural_with_construction>land,"rustic dry-farming plot; ""Pajar"" is part of the place name"
+BOE-B-2025-11618#35,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type rural_with_construction>land,"rustic dry-farming plot; ""Pajar"" is part of the place name"
+BOE-B-2025-11618#42,R4,excluded,excluded,none,none,,none,land (rustic or unbuilt plot); confirmed
+BOE-B-2025-11983#1,R1,covered,covered,none,none,,none,former customs building; no energy statement
+BOE-B-2025-11983#2,R1,covered,covered,none,none,,none,former Guardia Civil barracks; no energy statement
+BOE-B-2025-11983#3,R1,covered,covered,none,none,,none,former Guardia Civil house-barracks; no energy statement
+BOE-B-2025-11983#4,R3,undeterminable,covered,none,none,,scope undeterminable>covered; type unknown>building,former police station; no energy statement
+BOE-B-2025-12135#2,R4,excluded,covered,rating,rating,,scope excluded>covered; type storage>residential,dwelling with its storage room; rating D stated
+BOE-B-2025-12135#3,R4,excluded,covered,rating,rating,,scope excluded>covered; type storage>residential,dwelling with its storage room; rating D stated
+BOE-B-2025-12928#1,R1,covered,undeterminable,none,none,,scope covered>undeterminable; type building>unknown,"urban property of 86 m2, not said whether a house or a plot"
+BOE-B-2025-13131#1,R2,covered,covered,rating,rating,,none,rating letter(s) stated in the lot; confirmed
+BOE-B-2025-13325#1,R1,covered,drop,none,none,,scope covered>drop,"withdrawal notice of lots 1 and 4 of an earlier auction, not an offer"
+BOE-B-2025-13325#4,extra,excluded,drop,none,none,,scope excluded>drop,"withdrawal notice of lots 1 and 4 of an earlier auction, not an offer"
+BOE-B-2025-14082#?,R3,undeterminable,drop,none,none,,scope undeterminable>drop,"sale of harvest rights (aprovechamiento), not of property"
+BOE-B-2025-14096#2,R2,covered,covered,rating,rating,,none,rating letter(s) stated in the lot; confirmed
+BOE-B-2025-14098#1,R2,covered,covered,rating,rating,,none,rating letter(s) stated in the lot; confirmed
+BOE-B-2025-14176#2,R4,excluded,excluded,none,none,,type industrial_agricultural>land,industrial plot (land)
+BOE-B-2025-14200#1,R4,excluded,excluded,none,none,,none,garage or parking space; confirmed
+BOE-B-2025-14200#2,R4,excluded,excluded,none,none,,none,garage or parking space; confirmed
+BOE-B-2025-14200#3,R4,excluded,excluded,none,none,,none,garage or parking space; confirmed
+BOE-B-2025-14200#4,R4,excluded,excluded,none,none,,none,garage or parking space; confirmed
+BOE-B-2025-14200#5,R4,excluded,excluded,none,none,,none,garage or parking space; confirmed
+BOE-B-2025-14200#6,R4,excluded,excluded,none,none,,none,garage or parking space; confirmed
+BOE-B-2025-14464#1,extra,excluded,drop,none,none,,scope excluded>drop,"direct adjudication to a party who showed interest (art. 137.4 LPAP); not an offer to the public (rule §1.1, direct_named)"
+BOE-B-2025-14615#1,R2,covered,covered,rating,rating,,none,rating letter(s) stated in the lot; confirmed
+BOE-B-2025-14758#11,R4,excluded,excluded,none,none,,none,land (rustic or unbuilt plot); confirmed
+BOE-B-2025-14758#25,R4,excluded,excluded,none,none,,none,land (rustic or unbuilt plot); confirmed
+BOE-B-2025-14849#6,R4,excluded,excluded,none,none,,none,land (rustic or unbuilt plot); confirmed
+BOE-B-2025-14849#7,R4,excluded,excluded,none,none,,none,land (rustic or unbuilt plot); confirmed
+BOE-B-2025-14985#4,R2,covered,covered,rating,rating,,none,rating letter(s) stated in the lot; confirmed
+BOE-B-2025-16246#28,R4,excluded,excluded,none,none,,none,land (rustic or unbuilt plot); confirmed
+BOE-B-2025-16246#46,R4,excluded,excluded,none,none,,none,land (rustic or unbuilt plot); confirmed
+BOE-B-2025-16288#1,R4,excluded,excluded,exempt_declared,exempt_declared,none_stated,none,"single-storey house used as a dwelling; notice says ""vivienda exenta"" without a ground"
+BOE-B-2025-16376#1,R2,covered,covered,rating,rating,,none,rating letter(s) stated in the lot; confirmed
+BOE-B-2025-16376#9,R4,excluded,excluded,none,none,,none,land (rustic or unbuilt plot); confirmed
+BOE-B-2025-16377#1,R3,undeterminable,excluded,certificate_reference,exempt_declared,guidance_garage_storage,scope undeterminable>excluded; energy certificate_reference>exempt_declared; type commercial>garage,"50% undivided share of a garage; the notice also says ""eximido"" without a ground"
+BOE-B-2025-16377#2,R3,undeterminable,undeterminable,certificate_reference,exempt_declared,none_stated,energy certificate_reference>exempt_declared,"1/6 undivided share of a house; the notice says ""eximido"" without a ground"
+BOE-B-2025-17009#1,R4,excluded,excluded,exempt_declared,exempt_declared,3.2.c,none,industrial building (nave) declared exempt; the exclusion is evident from the description
+BOE-B-2025-17383#r1,R1,covered,excluded,none,none,,split; scope covered>excluded; type residential>land,"exchange (permuta) of a residential plot; the numbered items are conditions, not lots"
+BOE-B-2025-17383#2,extra,excluded,drop,none,none,,scope excluded>drop,"numbered condition of the notice, not a lot"
+BOE-B-2025-17383#3,R1,covered,drop,none,none,,scope covered>drop,"numbered condition of the notice, not a lot"
+BOE-B-2025-17383#4,R1,covered,drop,none,none,,scope covered>drop,"numbered condition of the notice, not a lot"
+BOE-B-2025-17383#5,R1,covered,drop,none,none,,scope covered>drop,"numbered condition of the notice, not a lot"
+BOE-B-2025-17383#6,R1,covered,drop,none,none,,scope covered>drop,"numbered condition of the notice, not a lot"
+BOE-B-2025-18505#2,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type rural_with_construction>land,"rustic plot; ""Casas"" is part of the municipality's name"
+BOE-B-2025-18505#3,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type rural_with_construction>land,"rustic plot; ""Casas"" is part of the municipality's name"
+BOE-B-2025-18505#4,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type rural_with_construction>land,"rustic plot; ""Casas"" is part of the municipality's name"
+BOE-B-2025-18505#5,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type rural_with_construction>land,"rustic plot; ""Casas"" is part of the municipality's name"
+BOE-B-2025-18505#6,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type rural_with_construction>land,"rustic plot; ""Casas"" is part of the municipality's name"
+BOE-B-2025-18505#7,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type rural_with_construction>land,"rustic plot; ""Casas"" is part of the municipality's name"
+BOE-B-2025-19518#1,extra,excluded,drop,none,none,,scope excluded>drop,expropriation notice (actas previas); not a sale offer
+BOE-B-2025-19569#?,R2,covered,covered,rating,rating,,none,rating letter(s) stated in the lot; confirmed
+BOE-B-2025-19846#1,R3,undeterminable,covered,certificate_reference,rating,,scope undeterminable>covered; energy certificate_reference>rating; type unknown>residential,"dwelling (5th floor); consumption and emissions letter E stated; classifier missed ""letra E"""
+BOE-B-2025-19846#2,R3,undeterminable,covered,certificate_reference,rating,,scope undeterminable>covered; energy certificate_reference>rating; type unknown>residential,"dwelling (6th floor); consumption and emissions letter E stated; classifier missed ""letra E"""
+BOE-B-2025-20382#?,R3,undeterminable,drop,none,none,,scope undeterminable>drop,"sale of harvest rights (aprovechamiento), not of property"
+BOE-B-2025-21427#?,extra,covered,covered,rating,rating,,none,"one premises made of several registered fincas joined physically, so one lot; rating stated"
+BOE-B-2025-22566#1,R2,covered,covered,rating,rating,,none,rating letter(s) stated in the lot; confirmed
+BOE-B-2025-22894#r1,extra,excluded,excluded,none,none,,split,"rustic plot, row 1 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r10,extra,excluded,excluded,none,none,,split,"rustic plot, row 10 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r11,extra,excluded,excluded,none,none,,split,"rustic plot, row 11 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r12,extra,excluded,excluded,none,none,,split,"rustic plot, row 12 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r13,extra,excluded,excluded,none,none,,split,"rustic plot, row 13 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r14,extra,excluded,excluded,none,none,,split,"rustic plot, row 14 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r15,extra,excluded,excluded,none,none,,split,"rustic plot, row 15 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r16,extra,excluded,excluded,none,none,,split,"rustic plot, row 16 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r17,extra,excluded,excluded,none,none,,split,"rustic plot, row 17 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r18,extra,excluded,excluded,none,none,,split,"rustic plot, row 18 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r19,extra,excluded,excluded,none,none,,split,"rustic plot, row 19 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r2,extra,excluded,excluded,none,none,,split,"rustic plot, row 2 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r20,extra,excluded,excluded,none,none,,split,"rustic plot, row 20 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r21,extra,excluded,excluded,none,none,,split,"rustic plot, row 21 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r22,extra,excluded,excluded,none,none,,split,"rustic plot, row 22 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r23,extra,excluded,excluded,none,none,,split,"rustic plot, row 23 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r24,extra,excluded,excluded,none,none,,split,"rustic plot, row 24 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r25,extra,excluded,excluded,none,none,,split,"rustic plot, row 25 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r26,extra,excluded,excluded,none,none,,split,"rustic plot, row 26 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r27,extra,excluded,excluded,none,none,,split,"rustic plot, row 27 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r28,extra,excluded,excluded,none,none,,split,"rustic plot, row 28 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r29,extra,excluded,excluded,none,none,,split,"rustic plot, row 29 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r3,extra,excluded,excluded,none,none,,split,"rustic plot, row 3 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r30,extra,excluded,excluded,none,none,,split,"rustic plot, row 30 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r31,extra,excluded,excluded,none,none,,split,"rustic plot, row 31 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r32,extra,excluded,excluded,none,none,,split,"rustic plot, row 32 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r33,extra,excluded,excluded,none,none,,split,"rustic plot, row 33 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r34,extra,excluded,excluded,none,none,,split,"rustic plot, row 34 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r35,extra,excluded,excluded,none,none,,split,"rustic plot, row 35 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r36,extra,excluded,excluded,none,none,,split,"rustic plot, row 36 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r37,extra,excluded,excluded,none,none,,split,"rustic plot, row 37 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r38,extra,excluded,excluded,none,none,,split,"rustic plot, row 38 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r39,extra,excluded,excluded,none,none,,split,"rustic plot, row 39 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r4,extra,excluded,excluded,none,none,,split,"rustic plot, row 4 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r40,extra,excluded,excluded,none,none,,split,"rustic plot, row 40 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r41,extra,excluded,excluded,none,none,,split,"rustic plot, row 41 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r42,extra,excluded,excluded,none,none,,split,"rustic plot, row 42 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r43,extra,excluded,excluded,none,none,,split,"rustic plot, row 43 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r44,extra,excluded,excluded,none,none,,split,"rustic plot, row 44 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r45,extra,excluded,excluded,none,none,,split,"rustic plot, row 45 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r46,extra,excluded,excluded,none,none,,split,"rustic plot, row 46 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r47,extra,excluded,excluded,none,none,,split,"rustic plot, row 47 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r48,extra,excluded,excluded,none,none,,split,"rustic plot, row 48 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r49,extra,excluded,excluded,none,none,,split,"rustic plot, row 49 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r5,extra,excluded,excluded,none,none,,split,"rustic plot, row 5 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r50,extra,excluded,excluded,none,none,,split,"rustic plot, row 50 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r51,extra,excluded,excluded,none,none,,split,"rustic plot, row 51 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r52,extra,excluded,excluded,none,none,,split,"rustic plot, row 52 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r53,extra,excluded,excluded,none,none,,split,"rustic plot, row 53 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r54,extra,excluded,excluded,none,none,,split,"rustic plot, row 54 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r55,extra,excluded,excluded,none,none,,split,"rustic plot, row 55 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r56,extra,excluded,excluded,none,none,,split,"rustic plot, row 56 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r57,extra,excluded,excluded,none,none,,split,"rustic plot, row 57 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r58,extra,excluded,excluded,none,none,,split,"rustic plot, row 58 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r59,extra,excluded,excluded,none,none,,split,"rustic plot, row 59 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r6,extra,excluded,excluded,none,none,,split,"rustic plot, row 6 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r60,extra,excluded,excluded,none,none,,split,"rustic plot, row 60 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r61,extra,excluded,excluded,none,none,,split,"rustic plot, row 61 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r62,extra,excluded,excluded,none,none,,split,"rustic plot, row 62 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r63,extra,excluded,excluded,none,none,,split,"rustic plot, row 63 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r64,extra,excluded,excluded,none,none,,split,"rustic plot, row 64 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r65,extra,excluded,excluded,none,none,,split,"rustic plot, row 65 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r66,extra,excluded,excluded,none,none,,split,"rustic plot, row 66 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r67,extra,excluded,excluded,none,none,,split,"rustic plot, row 67 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r68,extra,excluded,excluded,none,none,,split,"rustic plot, row 68 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r69,extra,excluded,excluded,none,none,,split,"rustic plot, row 69 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r7,extra,excluded,excluded,none,none,,split,"rustic plot, row 7 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r70,extra,excluded,excluded,none,none,,split,"rustic plot, row 70 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r71,extra,excluded,excluded,none,none,,split,"rustic plot, row 71 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r72,extra,excluded,excluded,none,none,,split,"rustic plot, row 72 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r73,extra,excluded,excluded,none,none,,split,"rustic plot, row 73 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r74,extra,excluded,excluded,none,none,,split,"rustic plot, row 74 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r75,extra,excluded,excluded,none,none,,split,"rustic plot, row 75 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r76,extra,excluded,excluded,none,none,,split,"rustic plot, row 76 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r77,extra,excluded,excluded,none,none,,split,"rustic plot, row 77 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r78,extra,excluded,excluded,none,none,,split,"rustic plot, row 78 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r8,extra,excluded,excluded,none,none,,split,"rustic plot, row 8 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-22894#r9,extra,excluded,excluded,none,none,,split,"rustic plot, row 9 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-23014#1,R1,covered,covered,none,none,,none,dwelling; no energy statement
+BOE-B-2025-23014#2,R1,covered,covered,none,none,,none,dwelling; no energy statement
+BOE-B-2025-23015#1,R1,covered,undeterminable,none,none,,scope covered>undeterminable; type residential>unit_in_building,"30 m2 semi-basement unit of a residential building, use not stated"
+BOE-B-2025-23129#1,R1,covered,undeterminable,none,none,,scope covered>undeterminable; type residential>building,"former telephone exchange on rustic land, use and conditioning unknown"
+BOE-B-2025-23129#2,R1,covered,covered,none,none,,none,commercial premises; no energy statement
+BOE-B-2025-23129#3,R1,covered,covered,none,none,,none,commercial premises; no energy statement
+BOE-B-2025-23129#4,R1,covered,covered,none,none,,none,commercial premises; no energy statement
+BOE-B-2025-23129#5,R1,covered,covered,none,none,,none,commercial premises; no energy statement
+BOE-B-2025-23129#6,R1,covered,covered,none,none,,none,commercial premises; no energy statement
+BOE-B-2025-23129#7,R1,covered,covered,none,none,,none,commercial premises; no energy statement
+BOE-B-2025-23129#8,R1,covered,covered,none,none,,none,commercial premises; no energy statement
+BOE-B-2025-23129#11,R1,covered,covered,none,none,,none,commercial premises; no energy statement
+BOE-B-2025-23129#12,R1,covered,covered,none,none,,none,commercial premises; no energy statement
+BOE-B-2025-23129#13,R1,covered,covered,none,none,,none,commercial premises; no energy statement
+BOE-B-2025-23129#14,R1,covered,covered,none,none,,none,commercial premises; no energy statement
+BOE-B-2025-23129#15,R1,covered,covered,none,none,,none,commercial premises; no energy statement
+BOE-B-2025-23129#16,R1,covered,excluded,none,none,,scope covered>excluded; type residential>industrial_agricultural,former ammunition depots on rustic land
+BOE-B-2025-23129#17,R1,covered,covered,none,none,,none,commercial premises; no energy statement
+BOE-B-2025-23129#18,R1,covered,covered,none,none,,none,commercial premises; no energy statement
+BOE-B-2025-23129#19,R1,covered,covered,none,none,,none,commercial premises; no energy statement
+BOE-B-2025-23129#20,R1,covered,covered,none,none,,none,commercial premises; no energy statement
+BOE-B-2025-23129#21,R1,covered,covered,none,none,,none,commercial premises; no energy statement
+BOE-B-2025-23129#22,R1,covered,covered,none,none,,none,commercial premises; no energy statement
+BOE-B-2025-23129#24,R1,covered,excluded,none,none,,scope covered>excluded; type residential>land,rustic plot without construction
+BOE-B-2025-23129#25,R1,covered,excluded,none,none,,scope covered>excluded; type residential>land,rustic plot without construction
+BOE-B-2025-24095#?,R3,undeterminable,drop,none,none,,scope undeterminable>drop,"sale of timber (aprovechamiento), not of property"
+BOE-B-2025-24108#r1,R1,covered,excluded,none,none,,split; scope covered>excluded; type residential>land,industrial-logistics plots listed in an annex of the specifications; the numbered items are conditions
+BOE-B-2025-24108#2,R1,covered,drop,none,none,,scope covered>drop,"numbered condition of the notice, not a lot"
+BOE-B-2025-24108#3,R1,covered,drop,none,none,,scope covered>drop,"numbered condition of the notice, not a lot"
+BOE-B-2025-24108#4,R1,covered,drop,none,none,,scope covered>drop,"numbered condition of the notice, not a lot"
+BOE-B-2025-24108#5,R1,covered,drop,none,none,,scope covered>drop,"numbered condition of the notice, not a lot"
+BOE-B-2025-24108#6,R4,excluded,drop,none,none,,scope excluded>drop,"numbered condition of the notice, not a lot"
+BOE-B-2025-25791#1,extra,excluded,drop,none,none,,scope excluded>drop,"direct adjudication to a party who showed interest (art. 137.4 LPAP); not an offer to the public (rule §1.1, direct_named)"
+BOE-B-2025-25792#1,extra,excluded,drop,none,none,,scope excluded>drop,"direct adjudication to a party who showed interest (art. 137.4 LPAP); not an offer to the public (rule §1.1, direct_named)"
+BOE-B-2025-25793#1,extra,excluded,drop,none,none,,scope excluded>drop,"direct adjudication to a party who showed interest (art. 137.4 LPAP); not an offer to the public (rule §1.1, direct_named)"
+BOE-B-2025-25794#?,extra,excluded,drop,none,none,,scope excluded>drop,"direct adjudication to a party who showed interest (art. 137.4 LPAP); not an offer to the public (rule §1.1, direct_named)"
+BOE-B-2025-25795#1,extra,excluded,drop,none,none,,scope excluded>drop,"direct adjudication to a party who showed interest (art. 137.4 LPAP); not an offer to the public (rule §1.1, direct_named)"
+BOE-B-2025-25959#1,extra,excluded,drop,none,none,,scope excluded>drop,"direct adjudication to a party who showed interest (art. 137.4 LPAP); not an offer to the public (rule §1.1, direct_named)"
+BOE-B-2025-25960#1,extra,excluded,drop,none,none,,scope excluded>drop,"direct adjudication to a party who showed interest (art. 137.4 LPAP); not an offer to the public (rule §1.1, direct_named)"
+BOE-B-2025-26061#r1,extra,excluded,excluded,none,none,,split,"urban plot of 9,630 m2"
+BOE-B-2025-26061#r2,extra,excluded,excluded,none,none,,split,urban plot of 122 m2
+BOE-B-2025-26061#r3,extra,excluded,undeterminable,none,none,,split; scope excluded>undeterminable; type land>unit_in_building,"urban property of 105 m2 with 36 m2 built, use not stated (Trigueros)"
+BOE-B-2025-26061#r4,extra,excluded,excluded,none,none,,split,"urban plot of 1,385 m2"
+BOE-B-2025-26061#r5,extra,excluded,excluded,none,none,,split,rustic plot
+BOE-B-2025-26061#r6,extra,excluded,excluded,none,none,,split,rustic plot
+BOE-B-2025-26061#r7,extra,excluded,excluded,none,none,,split,rustic plot
+BOE-B-2025-26061#r8,extra,excluded,excluded,none,none,,split,rustic plot
+BOE-B-2025-26061#r9,extra,excluded,excluded,none,none,,split,rustic plot
+BOE-B-2025-26207#?,R3,undeterminable,drop,none,none,,scope undeterminable>drop,"sale of grazing rights (aprovechamiento), not of property"
+BOE-B-2025-26208#?,R3,undeterminable,drop,none,none,,scope undeterminable>drop,"sale of timber (aprovechamiento), not of property"
+BOE-B-2025-27243#1,extra,excluded,drop,none,none,,scope excluded>drop,"direct adjudication to a party who showed interest (art. 137.4 LPAP); not an offer to the public (rule §1.1, direct_named)"
+BOE-B-2025-27468#1,R1,covered,covered,none,none,,none,commercial premises (51 m2) in a residential estate; no energy statement
+BOE-B-2025-27468#2,R1,covered,covered,none,none,,none,commercial premises (31 m2) in a residential estate; no energy statement
+BOE-B-2025-27468#3,R1,covered,covered,none,none,,none,commercial premises (28 m2) in a residential estate; no energy statement
+BOE-B-2025-27468#5,R1,covered,covered,none,none,,none,"attic dwelling (sala, cocina, dormitorio) in a building; dwellings under 50 m2 in a building are covered (FAQ no. 15)"
+BOE-B-2025-27468#6,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type building>land,8.35% share of an unbuilt urban plot
+BOE-B-2025-27468#17,R4,excluded,excluded,none,none,,none,land (rustic or unbuilt plot); confirmed
+BOE-B-2025-27841#1,R1,covered,covered,none,none,,none,former Guardia Civil house-barracks; no energy statement
+BOE-B-2025-27841#3,R1,covered,covered,none,none,,none,former Guardia Civil barracks; no energy statement
+BOE-B-2025-27896#1,R1,covered,covered,none,none,,none,basement commercial premises; no energy statement anywhere in the notice
+BOE-B-2025-27896#2,R4,excluded,excluded,none,none,,none,garage or parking space; confirmed
+BOE-B-2025-27896#3,R4,excluded,excluded,none,none,,none,garage or parking space; confirmed
+BOE-B-2025-27896#4,R4,excluded,excluded,none,none,,none,garage or parking space; confirmed
+BOE-B-2025-27896#5,R4,excluded,excluded,none,none,,none,garage or parking space; confirmed
+BOE-B-2025-27897#1,R1,covered,covered,certificate_reference,rating,,energy certificate_reference>rating,"consumption and emissions letter D stated; classifier missed it (""letra D"" read as a door letter)"
+BOE-B-2025-28441#?,R2,covered,covered,rating,rating,,none,rating letter(s) stated in the lot; confirmed
+BOE-B-2025-28588#r1,R1,covered,undeterminable,none,none,,split; scope covered>undeterminable; type residential>unknown,"265 properties listed only in annexes of the specifications, not described in the notice"
+BOE-B-2025-28588#2,R1,covered,drop,none,none,,scope covered>drop,"numbered condition of the notice, not a lot"
+BOE-B-2025-28588#3,R1,covered,drop,none,none,,scope covered>drop,"numbered condition of the notice, not a lot"
+BOE-B-2025-28588#4,R1,covered,drop,none,none,,scope covered>drop,"numbered condition of the notice, not a lot"
+BOE-B-2025-28588#5,R1,covered,drop,none,none,,scope covered>drop,"numbered condition of the notice, not a lot"
+BOE-B-2025-28588#6,R1,covered,drop,none,none,,scope covered>drop,"numbered condition of the notice, not a lot"
+BOE-B-2025-28588#7,R1,covered,drop,none,none,,scope covered>drop,"numbered condition of the notice, not a lot"
+BOE-B-2025-29296#1,R2,covered,covered,rating,rating,,none,rating letter(s) stated in the lot; confirmed
+BOE-B-2025-29296#6,R2,covered,covered,rating,rating,,none,rating letter(s) stated in the lot; confirmed
+BOE-B-2025-29297#1,R2,covered,covered,rating,rating,,none,rating letter(s) stated in the lot; confirmed
+BOE-B-2025-29398#9,R4,excluded,excluded,none,none,,none,land (rustic or unbuilt plot); confirmed
+BOE-B-2025-29398#16,R4,excluded,excluded,none,none,,none,land (rustic or unbuilt plot); confirmed
+BOE-B-2025-30460#55,R4,excluded,excluded,none,none,,none,land (rustic or unbuilt plot); confirmed
+BOE-B-2025-30460#101,R4,excluded,excluded,none,none,,none,land (rustic or unbuilt plot); confirmed
+BOE-B-2025-30460#104,R4,excluded,excluded,none,none,,none,land (rustic or unbuilt plot); confirmed
+BOE-B-2025-30460#117,R4,excluded,excluded,none,none,,none,land (rustic or unbuilt plot); confirmed
+BOE-B-2025-30460#131,R4,excluded,excluded,none,none,,none,land (rustic or unbuilt plot); confirmed
+BOE-B-2025-30592#1,R2,covered,covered,rating,rating,,none,rating letter(s) stated in the lot; confirmed
+BOE-B-2025-31165#1,R3,undeterminable,undeterminable,none,none,,type residential>ruin,"house built around 1800, valued as land because the building is ""en ruina económica"""
+BOE-B-2025-31250#1,R2,covered,covered,rating,rating,,none,rating letter(s) stated in the lot; confirmed
+BOE-B-2025-31250#2,R2,covered,covered,rating,rating,,none,rating letter(s) stated in the lot; confirmed
+BOE-B-2025-31250#3,R1,covered,covered,none,none,,none,"former rehabilitation centre with 11,413 m2 of residential buildings on a large estate; no energy statement for this lot (other lots of the notice state one)"
+BOE-B-2025-31519#34,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type rural_with_construction>land,"rustic dry-farming plot; ""La Granja"" is the place name"
+BOE-B-2025-31519#35,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type rural_with_construction>land,"rustic dry-farming plot; ""La Granja"" is the place name"
+BOE-B-2025-31519#36,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type rural_with_construction>land,"rustic dry-farming plot; ""La Granja"" is the place name"
+BOE-B-2025-31519#38,R4,excluded,excluded,none,none,,none,land (rustic or unbuilt plot); confirmed
+BOE-B-2025-31520#1,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type commercial>garage,1/42 undivided share of a basement garage
+BOE-B-2025-31520#2,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type commercial>garage,1/42 undivided share of a basement garage
+BOE-B-2025-31520#3,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type commercial>garage,1/42 undivided share of a basement garage
+BOE-B-2025-31520#4,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type commercial>garage,1/42 undivided share of a basement garage
+BOE-B-2025-31520#5,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type commercial>garage,1/42 undivided share of a basement garage
+BOE-B-2025-31520#6,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type commercial>garage,1/42 undivided share of a basement garage
+BOE-B-2025-31520#7,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type commercial>garage,1/42 undivided share of a basement garage
+BOE-B-2025-31520#8,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type commercial>garage,1/42 undivided share of a basement garage
+BOE-B-2025-31520#9,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type commercial>garage,1/42 undivided share of a basement garage
+BOE-B-2025-31520#10,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type commercial>garage,1/42 undivided share of a basement garage
+BOE-B-2025-31520#11,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type commercial>garage,1/42 undivided share of a basement garage
+BOE-B-2025-31520#12,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type commercial>garage,1/42 undivided share of a basement garage
+BOE-B-2025-31520#13,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type commercial>garage,1/42 undivided share of a basement garage
+BOE-B-2025-32049#1,R1,covered,undeterminable,none,none,,scope covered>undeterminable,small village house (41 m2) with a ruinous 14 m2 store; whether it is an independent building under 50 m2 (art. 3.2.d) is not stated
+BOE-B-2025-32049#2,R3,undeterminable,undeterminable,none,none,,none,house in ruinous state; confirmed
+BOE-B-2025-32049#3,R1,covered,covered,none,none,,none,dwelling in a building; no energy statement
+BOE-B-2025-32311#1,R1,covered,covered,none,none,,none,single lot of commercial and office premises in a building; no energy statement
+BOE-B-2025-32332#1,R2,covered,covered,rating,rating,,none,rating letter(s) stated in the lot; confirmed
+BOE-B-2025-33308#1,R4,excluded,excluded,exempt_declared,exempt_declared,3.2.e_part,none,"parts of a house (several registered portions and undivided shares) declared exempt under art. 3.2.e; art. 3.2.e gives the declaration to «el propietario del edificio o de parte del edificio», so the owner-seller's declaration for a part is accepted; the non-binding MITECO FAQ no. 7 reads the exclusion as whole buildings only (sensitivity)"
+BOE-B-2025-33308#2,R2,covered,covered,rating,rating,,none,rating letter(s) stated in the lot; confirmed
+BOE-B-2025-33423#1,extra,excluded,drop,none,none,,scope excluded>drop,"direct adjudication to a party who showed interest (art. 137.4 LPAP); not an offer to the public (rule §1.1, direct_named)"
+BOE-B-2025-33424#1,extra,excluded,drop,none,none,,scope excluded>drop,"direct adjudication to a party who showed interest (art. 137.4 LPAP); not an offer to the public (rule §1.1, direct_named)"
+BOE-B-2025-33425#1,extra,excluded,drop,none,none,,scope excluded>drop,"direct adjudication to a party who showed interest (art. 137.4 LPAP); not an offer to the public (rule §1.1, direct_named)"
+BOE-B-2025-33426#1,extra,excluded,drop,none,none,,scope excluded>drop,"direct adjudication to a party who showed interest (art. 137.4 LPAP); not an offer to the public (rule §1.1, direct_named)"
+BOE-B-2025-34005#1,R4,excluded,excluded,none,none,,none,industrial or agricultural building; confirmed
+BOE-B-2025-34294#16,R4,excluded,excluded,none,none,,none,land (rustic or unbuilt plot); confirmed
+BOE-B-2025-34294#17,extra,excluded,undeterminable,none,none,,scope excluded>undeterminable; type land>unknown,"urban building of 60 m2 built on 30 m2, attached to its neighbours (so not art. 3.2.d); use not stated; no energy statement (found by the targeted search)"
+BOE-B-2025-34294#18,R3,undeterminable,undeterminable,none,none,,none,building recorded as a ruin in the cadastre; confirmed
+BOE-B-2025-34294#19,R3,undeterminable,undeterminable,none,none,,none,building recorded as a ruin in the cadastre; confirmed
+BOE-B-2025-34458#?,R1,covered,covered,none,none,,none,one lot: a 37 m2 dwelling sold together with a storage room; no energy statement
+BOE-B-2025-35183#1,R1,covered,covered,none,none,,none,dwelling; no energy statement
+BOE-B-2025-35183#2,R1,covered,covered,none,none,,none,dwelling; no energy statement
+BOE-B-2025-35183#3,R1,covered,covered,none,none,,none,dwelling; no energy statement
+BOE-B-2025-35183#4,R1,covered,covered,none,none,,none,"lot of three premises (ground floor valued as a garage, first and second floors premises); the upper premises are covered; no energy statement"
+BOE-B-2025-35183#5,R4,excluded,excluded,none,none,,type industrial_agricultural>land,registered as an industrial shed but valued as «Suelo urbano-libre de edificaciones»
+BOE-B-2025-35282#?,R3,undeterminable,drop,none,none,,scope undeterminable>drop,"sale of grazing rights (aprovechamiento), not of property"
+BOE-B-2025-35395#1,extra,excluded,drop,none,none,,scope excluded>drop,"direct adjudication to a party who showed interest (art. 137.4 LPAP); not an offer to the public (rule §1.1, direct_named)"
+BOE-B-2025-35396#1,R4,excluded,excluded,exempt_declared,exempt_declared,3.2.e,none,52 m2 house declared exempt under art. 3.2.e
+BOE-B-2025-35396#2,R4,excluded,excluded,exempt_declared,exempt_declared,3.2.e_part,none,"ground floor of a house declared exempt under art. 3.2.e; art. 3.2.e gives the declaration to «el propietario del edificio o de parte del edificio», so the owner-seller's declaration for a part is accepted; the non-binding MITECO FAQ no. 7 reads the exclusion as whole buildings only (sensitivity)"
+BOE-B-2025-36179#26,R4,excluded,excluded,none,none,,none,land (rustic or unbuilt plot); confirmed
+BOE-B-2025-36179#82,R4,excluded,excluded,none,none,,none,land (rustic or unbuilt plot); confirmed
+BOE-B-2025-36179#103,R4,excluded,excluded,none,none,,none,land (rustic or unbuilt plot); confirmed
+BOE-B-2025-36320#1,R2,covered,covered,rating,rating,,none,rating letter(s) stated in the lot; confirmed
+BOE-B-2025-36518#1,R2,covered,covered,rating,rating,,none,rating letter(s) stated in the lot; confirmed
+BOE-B-2025-36518#3,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type rural_with_construction>land,"rustic plot; ""Casas"" is part of the municipality's name"
+BOE-B-2025-36518#4,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type rural_with_construction>land,"rustic plot; ""Casas"" is part of the municipality's name"
+BOE-B-2025-36518#5,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type rural_with_construction>land,"rustic plot; ""Casas"" is part of the municipality's name"
+BOE-B-2025-36518#6,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type rural_with_construction>land,"rustic plot; ""Casas"" is part of the municipality's name"
+BOE-B-2025-37479#21,R4,excluded,excluded,none,none,,none,land (rustic or unbuilt plot); confirmed
+BOE-B-2025-37479#52,R4,excluded,excluded,none,none,,none,land (rustic or unbuilt plot); confirmed
+BOE-B-2025-37479#57,R4,excluded,excluded,none,none,,none,land (rustic or unbuilt plot); confirmed
+BOE-B-2025-37480#14,R4,excluded,excluded,none,none,,none,land (rustic or unbuilt plot); confirmed
+BOE-B-2025-37480#27,R4,excluded,excluded,none,none,,none,land (rustic or unbuilt plot); confirmed
+BOE-B-2025-37964#1,R1,covered,excluded,certificate_reference,exempt_declared,none_stated,scope covered>excluded; energy certificate_reference>exempt_declared,"notice says the building is exempted (""eximido"") without a ground; partly collapsed house (only the first bay stands); classifier missed ""eximido"""
+BOE-B-2025-37965#1,R3,undeterminable,undeterminable,certificate_reference,exempt_declared,none_stated,energy certificate_reference>exempt_declared,"1/6 undivided share of a house; the notice says ""eximido"" without a ground"
+BOE-B-2025-37966#1,R2,covered,covered,rating,rating,,none,rating letter(s) stated in the lot; confirmed
+BOE-B-2025-38048#1,R2,covered,covered,rating,rating,,none,rating letter(s) stated in the lot; confirmed
+BOE-B-2025-38048#3,R2,covered,covered,rating,rating,,none,rating letter(s) stated in the lot; confirmed
+BOE-B-2025-38161#r1,extra,excluded,excluded,none,none,,split,"rustic plot, row 1 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r10,extra,excluded,excluded,none,none,,split,"rustic plot, row 10 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r11,extra,excluded,excluded,none,none,,split,"rustic plot, row 11 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r12,extra,excluded,excluded,none,none,,split,"rustic plot, row 12 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r13,extra,excluded,excluded,none,none,,split,"rustic plot, row 13 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r14,extra,excluded,excluded,none,none,,split,"rustic plot, row 14 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r15,extra,excluded,excluded,none,none,,split,"rustic plot, row 15 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r16,extra,excluded,excluded,none,none,,split,"rustic plot, row 16 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r17,extra,excluded,excluded,none,none,,split,"rustic plot, row 17 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r18,extra,excluded,excluded,none,none,,split,"rustic plot, row 18 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r19,extra,excluded,excluded,none,none,,split,"rustic plot, row 19 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r2,extra,excluded,excluded,none,none,,split,"rustic plot, row 2 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r20,extra,excluded,excluded,none,none,,split,"rustic plot, row 20 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r21,extra,excluded,excluded,none,none,,split,"rustic plot, row 21 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r22,extra,excluded,excluded,none,none,,split,"rustic plot, row 22 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r23,extra,excluded,excluded,none,none,,split,"rustic plot, row 23 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r24,extra,excluded,excluded,none,none,,split,"rustic plot, row 24 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r25,extra,excluded,excluded,none,none,,split,"rustic plot, row 25 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r26,extra,excluded,excluded,none,none,,split,"rustic plot, row 26 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r27,extra,excluded,excluded,none,none,,split,"rustic plot, row 27 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r28,extra,excluded,excluded,none,none,,split,"rustic plot, row 28 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r29,extra,excluded,excluded,none,none,,split,"rustic plot, row 29 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r3,extra,excluded,excluded,none,none,,split,"rustic plot, row 3 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r30,extra,excluded,excluded,none,none,,split,"rustic plot, row 30 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r31,extra,excluded,excluded,none,none,,split,"rustic plot, row 31 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r32,extra,excluded,excluded,none,none,,split,"rustic plot, row 32 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r33,extra,excluded,excluded,none,none,,split,"rustic plot, row 33 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r34,extra,excluded,excluded,none,none,,split,"rustic plot, row 34 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r35,extra,excluded,excluded,none,none,,split,"rustic plot, row 35 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r36,extra,excluded,excluded,none,none,,split,"rustic plot, row 36 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r37,extra,excluded,excluded,none,none,,split,"rustic plot, row 37 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r38,extra,excluded,excluded,none,none,,split,"rustic plot, row 38 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r39,extra,excluded,excluded,none,none,,split,"rustic plot, row 39 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r4,extra,excluded,excluded,none,none,,split,"rustic plot, row 4 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r40,extra,excluded,excluded,none,none,,split,"rustic plot, row 40 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r41,extra,excluded,excluded,none,none,,split,"rustic plot, row 41 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r42,extra,excluded,excluded,none,none,,split,"rustic plot, row 42 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r43,extra,excluded,excluded,none,none,,split,"rustic plot, row 43 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r44,extra,excluded,excluded,none,none,,split,"rustic plot, row 44 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r45,extra,excluded,excluded,none,none,,split,"rustic plot, row 45 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r46,extra,excluded,excluded,none,none,,split,"rustic plot, row 46 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r47,extra,excluded,excluded,none,none,,split,"rustic plot, row 47 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r48,extra,excluded,excluded,none,none,,split,"rustic plot, row 48 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r49,extra,excluded,excluded,none,none,,split,"rustic plot, row 49 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r5,extra,excluded,excluded,none,none,,split,"rustic plot, row 5 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r50,extra,excluded,excluded,none,none,,split,"rustic plot, row 50 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r51,extra,excluded,excluded,none,none,,split,"rustic plot, row 51 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r52,extra,excluded,excluded,none,none,,split,"rustic plot, row 52 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r53,extra,excluded,excluded,none,none,,split,"rustic plot, row 53 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r54,extra,excluded,excluded,none,none,,split,"rustic plot, row 54 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r55,extra,excluded,excluded,none,none,,split,"rustic plot, row 55 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r56,extra,excluded,excluded,none,none,,split,"rustic plot, row 56 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r57,extra,excluded,excluded,none,none,,split,"rustic plot, row 57 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r58,extra,excluded,excluded,none,none,,split,"rustic plot, row 58 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r59,extra,excluded,excluded,none,none,,split,"rustic plot, row 59 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r6,extra,excluded,excluded,none,none,,split,"rustic plot, row 6 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r60,extra,excluded,excluded,none,none,,split,"rustic plot, row 60 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r61,extra,excluded,excluded,none,none,,split,"rustic plot, row 61 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r62,extra,excluded,excluded,none,none,,split,"rustic plot, row 62 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r63,extra,excluded,excluded,none,none,,split,"rustic plot, row 63 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r64,extra,excluded,excluded,none,none,,split,"rustic plot, row 64 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r65,extra,excluded,excluded,none,none,,split,"rustic plot, row 65 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r66,extra,excluded,excluded,none,none,,split,"rustic plot, row 66 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r67,extra,excluded,excluded,none,none,,split,"rustic plot, row 67 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r68,extra,excluded,excluded,none,none,,split,"rustic plot, row 68 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r69,extra,excluded,excluded,none,none,,split,"rustic plot, row 69 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r7,extra,excluded,excluded,none,none,,split,"rustic plot, row 7 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r70,extra,excluded,excluded,none,none,,split,"rustic plot, row 70 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r71,extra,excluded,excluded,none,none,,split,"rustic plot, row 71 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r72,extra,excluded,excluded,none,none,,split,"rustic plot, row 72 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r73,extra,excluded,excluded,none,none,,split,"rustic plot, row 73 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r74,extra,excluded,excluded,none,none,,split,"rustic plot, row 74 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r75,extra,excluded,excluded,none,none,,split,"rustic plot, row 75 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r8,extra,excluded,excluded,none,none,,split,"rustic plot, row 8 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38161#r9,extra,excluded,excluded,none,none,,split,"rustic plot, row 9 of the notice's table (a table of plots read as one lot)"
+BOE-B-2025-38171#?,R3,undeterminable,drop,none,none,,scope undeterminable>drop,"grazing rights with use of a livestock building and an auxiliary dwelling (aprovechamiento), not a sale of property"
+BOE-B-2025-38189#1,R1,covered,undeterminable,none,none,,scope covered>undeterminable; type residential>unknown,"13 seized properties sold by SEGIPSA; the lots are listed only in the specifications, not described in the notice"
+BOE-B-2025-38192#1,R3,undeterminable,undeterminable,none,none,,none,"28 lots of a regional government (Junta de Andalucía) listed only in the specifications, not described in the notice"
+BOE-B-2025-38265#1,R2,covered,covered,rating,rating,,none,rating letter(s) stated in the lot; confirmed
+BOE-B-2025-38265#2,R4,excluded,excluded,exempt_declared,exempt_declared,3.2.e_part,none,"flat declared exempt under art. 3.2.e; art. 3.2.e gives the declaration to «el propietario del edificio o de parte del edificio», so the owner-seller's declaration for a part is accepted; the non-binding MITECO FAQ no. 7 reads the exclusion as whole buildings only (sensitivity)"
+BOE-B-2025-38265#3,R4,excluded,excluded,exempt_declared,exempt_declared,3.2.e_part,none,"ground-floor premises used as a dwelling, declared exempt under art. 3.2.e; art. 3.2.e gives the declaration to «el propietario del edificio o de parte del edificio», so the owner-seller's declaration for a part is accepted; the non-binding MITECO FAQ no. 7 reads the exclusion as whole buildings only (sensitivity)"
+BOE-B-2025-38265#4,R4,excluded,excluded,exempt_declared,exempt_declared,3.2.e_part,none,"flat declared exempt under art. 3.2.e; art. 3.2.e gives the declaration to «el propietario del edificio o de parte del edificio», so the owner-seller's declaration for a part is accepted; the non-binding MITECO FAQ no. 7 reads the exclusion as whole buildings only (sensitivity)"
+BOE-B-2025-38265#5,R3,undeterminable,undeterminable,rating,rating,,none,50% undivided share of a dwelling; the rating is stated anyway
+BOE-B-2025-38265#6,R2,covered,covered,rating,rating,,none,rating letter(s) stated in the lot; confirmed
+BOE-B-2025-38266#10,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type rural_with_construction>land,"rustic plot; ""Casa Chafas"" is the place name"
+BOE-B-2025-38266#11,R4,excluded,excluded,none,none,,none,land (rustic or unbuilt plot); confirmed
+BOE-B-2025-39055#1,R3,undeterminable,undeterminable,none,none,,none,"urban property of about 300 m2 sold for 6,089 euros; not said whether a building or a plot; confirmed"
+BOE-B-2025-39610#1,R4,excluded,excluded,none,none,,none,land (rustic or unbuilt plot); confirmed
+BOE-B-2025-40188#1,R2,covered,covered,rating,rating,,none,rating letter(s) stated in the lot; confirmed
+BOE-B-2025-40188#2,R2,covered,covered,rating,rating,,none,rating letter(s) stated in the lot; confirmed
+BOE-B-2025-40188#3,R2,covered,covered,rating,rating,,none,rating letter(s) stated in the lot; confirmed
+BOE-B-2025-40188#4,R2,covered,covered,rating,rating,,none,rating letter(s) stated in the lot; confirmed
+BOE-B-2025-40188#5,R4,excluded,covered,rating,rating,,scope excluded>covered,"same industrial unit re-auctioned; registered certificate stated (F, D); art. 3.2.c applies only to low-demand parts"
+BOE-B-2025-40399#1,R2,covered,covered,rating,rating,,none,rating letter(s) stated in the lot; confirmed
+BOE-B-2025-40399#2,R2,covered,covered,rating,rating,,none,rating letter(s) stated in the lot; confirmed
+BOE-B-2025-42225#1,R1,covered,covered,none,none,,none,former Guardia Civil house-barracks; no energy statement
+BOE-B-2025-42225#2,R4,excluded,undeterminable,none,none,,scope excluded>undeterminable; type land>building,"former Guardia Civil guard hut on rustic land, surface not stated (possibly art. 3.2.d)"
+BOE-B-2025-42225#3,R3,undeterminable,covered,none,none,,scope undeterminable>covered; type unknown>building,former police station; no energy statement
+BOE-B-2025-42596#5,R4,excluded,excluded,none,none,,none,land (rustic or unbuilt plot); confirmed
+BOE-B-2025-42596#19,R4,excluded,excluded,none,none,,none,land (rustic or unbuilt plot); confirmed
+BOE-B-2025-42596#27,R4,excluded,excluded,none,none,,none,land (rustic or unbuilt plot); confirmed
+BOE-B-2025-42596#30,R4,excluded,excluded,none,none,,none,land (rustic or unbuilt plot); confirmed
+BOE-B-2025-42642#1,R4,excluded,excluded,exempt_declared,exempt_declared,3.2.c,none,industrial building (nave) declared exempt under the Galician decree on certification; the exclusion is evident from the description
+BOE-B-2025-43639#2,R2,covered,covered,rating,rating,,none,rating letter(s) stated in the lot; confirmed
+BOE-B-2025-43640#1,R4,excluded,excluded,none,none,,none,industrial or agricultural building; confirmed
+BOE-B-2025-43751#1,R2,covered,covered,rating,rating,,none,rating letter(s) stated in the lot; confirmed
+BOE-B-2025-44023#1,R2,covered,covered,rating,rating,,none,rating letter(s) stated in the lot; confirmed
+BOE-B-2025-44023#2,R4,excluded,excluded,exempt_declared,exempt_declared,none_stated,none,"ground-floor commercial premises; notice cites a ""certificado de exención"" without a ground"
+BOE-B-2025-44023#4,R2,covered,covered,rating,rating,,none,rating letter(s) stated in the lot; confirmed
+BOE-B-2025-44470#22,R4,excluded,excluded,none,none,,none,land (rustic or unbuilt plot); confirmed
+BOE-B-2025-44470#71,R4,excluded,excluded,none,none,,none,land (rustic or unbuilt plot); confirmed
+BOE-B-2025-44470#123,R4,excluded,excluded,none,none,,none,land (rustic or unbuilt plot); confirmed
+BOE-B-2025-44680#?,R3,undeterminable,drop,none,none,,scope undeterminable>drop,"sale of harvest rights (aprovechamiento), not of property"
+BOE-B-2025-44901#1,R3,undeterminable,drop,none,none,,scope undeterminable>drop,"expropriation notice of a regional energy office, not a sale offer"
+BOE-B-2025-45031#1,R1,covered,covered,none,none,,none,commercial premises; no energy statement
+BOE-B-2025-45031#2,R1,covered,covered,none,none,,none,commercial premises; no energy statement
+BOE-B-2025-45031#5,R1,covered,covered,none,none,,none,commercial premises; no energy statement
+BOE-B-2025-45031#7,R1,covered,covered,none,none,,none,commercial premises; no energy statement
+BOE-B-2025-45031#8,R1,covered,covered,none,none,,none,commercial premises; no energy statement
+BOE-B-2025-45031#9,R1,covered,covered,none,none,,none,commercial premises; no energy statement
+BOE-B-2025-45031#10,R1,covered,covered,none,none,,none,commercial premises; no energy statement
+BOE-B-2025-45031#11,R1,covered,covered,none,none,,type residential>building,"urban building of 1,341 m2; no energy statement"
+BOE-B-2025-45031#12,R1,covered,covered,none,none,,none,commercial premises; no energy statement
+BOE-B-2025-45031#13,R1,covered,covered,none,none,,none,commercial premises; no energy statement
+BOE-B-2025-45031#14,R1,covered,covered,none,none,,none,commercial premises; no energy statement
+BOE-B-2025-45031#15,R1,covered,covered,none,none,,none,commercial premises; no energy statement
+BOE-B-2025-45031#16,R1,covered,covered,none,none,,none,commercial premises; no energy statement
+BOE-B-2025-45031#17,R1,covered,covered,none,none,,none,commercial premises (basement); no energy statement
+BOE-B-2025-45031#18,R1,covered,covered,none,none,,none,commercial premises; no energy statement
+BOE-B-2025-45031#19,R1,covered,excluded,none,none,,scope covered>excluded; type building>land,60 m2 rustic plot for an electricity substation
+BOE-B-2025-45031#21,R1,covered,covered,none,none,,none,commercial premises; no energy statement
+BOE-B-2025-45031#22,R1,covered,covered,none,none,,none,commercial premises; no energy statement
+BOE-B-2025-45031#23,R1,covered,covered,none,none,,none,commercial premises; no energy statement
+BOE-B-2025-45031#24,R1,covered,covered,none,none,,none,commercial premises (semi-basement); no energy statement
+BOE-B-2025-45884#1,R1,covered,covered,certificate_reference,rating,,energy certificate_reference>rating,"consumption and emissions letter C stated; classifier missed it (""letra C"")"
+BOE-B-2025-45884#2,R1,covered,covered,certificate_reference,rating,,energy certificate_reference>rating,"consumption and emissions letter E stated; classifier missed it (""letra E"")"
+BOE-B-2025-45884#3,R1,covered,covered,certificate_reference,rating,,energy certificate_reference>rating,"consumption and emissions letter E stated; classifier missed it (""letra E"")"
+BOE-B-2025-45884#4,R1,covered,covered,certificate_reference,rating,,energy certificate_reference>rating,"consumption and emissions letter E stated; classifier missed it (""letra E"")"
+BOE-B-2025-46302#?,extra,excluded,drop,none,none,,scope excluded>drop,expropriation notice (actas previas); not a sale offer
+BOE-B-2025-46481#1,extra,excluded,undeterminable,none,none,,scope excluded>undeterminable; type land>ruin,"house built in 1920, three storeys, «en estado totalmente ruinoso», with a garden (found by the targeted search)"
+BOE-B-2025-46484#1,R1,covered,undeterminable,none,none,,scope covered>undeterminable; type building>unknown,"urban property of 86 m2, not said whether a house or a plot (re-auction of BOE-B-2025-12928 lot 1)"
+BOE-B-2025-46622#?,R2,covered,covered,rating,rating,,none,rating letter(s) stated in the lot; confirmed
+BOE-B-2025-47585#1,R1,covered,covered,none,none,,none,town house (State inherited estate); no energy statement in the notice
+BOE-B-2025-47585#3,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type rural_with_construction>land,unbuilt urban plot
+BOE-B-2025-47585#4,R3,undeterminable,undeterminable,none,none,,none,"urban property in ruinous state, recorded as a plot in the cadastre; confirmed"
+BOE-B-2025-47585#5,R3,undeterminable,undeterminable,none,none,,none,"52 m2 urban construction in a village, use not stated; confirmed"
+BOE-B-2025-47586#1,extra,excluded,drop,none,none,,scope excluded>drop,"direct adjudication to a party who showed interest (art. 137.4 LPAP); not an offer to the public (rule §1.1, direct_named)"
+BOE-B-2026-38#26,R4,excluded,excluded,none,none,,none,land (rustic or unbuilt plot); confirmed
+BOE-B-2026-38#37,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type rural_with_construction>land,rustic plot; the construction word is part of the place name
+BOE-B-2026-38#49,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type rural_with_construction>land,rustic plot; the construction word is part of the place name
+BOE-B-2026-39#1,R1,covered,covered,none,none,,none,dwelling in a building; no energy statement
+BOE-B-2026-39#4,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type rural_with_construction>land,rustic plot; the construction word is part of the place name
+BOE-B-2026-40#1,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type commercial>garage,1/42 undivided share of a basement garage
+BOE-B-2026-40#2,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type commercial>garage,1/42 undivided share of a basement garage
+BOE-B-2026-40#3,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type commercial>garage,1/42 undivided share of a basement garage
+BOE-B-2026-40#4,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type commercial>garage,1/42 undivided share of a basement garage
+BOE-B-2026-40#5,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type commercial>garage,1/42 undivided share of a basement garage
+BOE-B-2026-40#6,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type commercial>garage,1/42 undivided share of a basement garage
+BOE-B-2026-40#7,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type commercial>garage,1/42 undivided share of a basement garage
+BOE-B-2026-40#8,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type commercial>garage,1/42 undivided share of a basement garage
+BOE-B-2026-40#9,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type commercial>garage,1/42 undivided share of a basement garage
+BOE-B-2026-40#10,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type commercial>garage,1/42 undivided share of a basement garage
+BOE-B-2026-40#11,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type commercial>garage,1/42 undivided share of a basement garage
+BOE-B-2026-40#12,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type commercial>garage,1/42 undivided share of a basement garage
+BOE-B-2026-40#13,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type commercial>garage,1/42 undivided share of a basement garage
+BOE-B-2026-227#2,R2,covered,covered,rating,rating,,none,rating letter(s) stated in the lot; confirmed
+BOE-B-2026-227#3,R4,excluded,excluded,none,none,,none,garage or parking space; confirmed
+BOE-B-2026-227#6,R4,excluded,excluded,exempt_declared,exempt_declared,ruin,none,26 m2 flat in ruinous state declared exempt without a ground
+BOE-B-2026-666#1,extra,excluded,drop,none,none,,scope excluded>drop,"direct adjudication to a party who showed interest (art. 137.4 LPAP); not an offer to the public (rule §1.1, direct_named)"
+BOE-B-2026-1336#1,R4,excluded,undeterminable,none,none,,scope excluded>undeterminable,industrial complex with a 204 m2 front pavilion of unstated use and two sheds; FAQ no. 17 requires offices of 50 m2 or more in industrial buildings to be certified
+BOE-B-2026-1343#1,R2,covered,covered,rating,rating,,none,rating letter(s) stated in the lot; confirmed
+BOE-B-2026-1413#1,R4,excluded,excluded,exempt_declared,exempt_declared,guidance_garage_storage,none,garage space with storage room declared exempt
+BOE-B-2026-2415#?,R3,undeterminable,drop,none,none,,scope undeterminable>drop,"sale of beekeeping rights (aprovechamiento), not of property"
+BOE-B-2026-2418#1,R2,covered,covered,rating,rating,,none,rating letter(s) stated in the lot; confirmed
+BOE-B-2026-2873#?,extra,covered,covered,rating,rating,,none,"one premises made of several registered fincas joined physically, so one lot; rating stated"
+BOE-B-2026-3823#1,R4,excluded,excluded,exempt_declared,exempt_declared,3.2.e,none,52 m2 house declared exempt under art. 3.2.e (re-auction of BOE-B-2025-35396 lot 1)
+BOE-B-2026-3823#2,R4,excluded,excluded,exempt_declared,exempt_declared,3.2.e_part,none,"ground floor of a house declared exempt under art. 3.2.e (re-auction of BOE-B-2025-35396 lot 2); art. 3.2.e gives the declaration to «el propietario del edificio o de parte del edificio», so the owner-seller's declaration for a part is accepted; the non-binding MITECO FAQ no. 7 reads the exclusion as whole buildings only (sensitivity)"
+BOE-B-2026-3823#3,extra,excluded,excluded,none,none,,type land>industrial_agricultural,rustic estate with an agricultural shed and lean-to of 338 m2 (low energy demand) (found by the targeted search)
+BOE-B-2026-3926#26,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type rural_with_construction>land,rustic plot; the construction word is part of the place name
+BOE-B-2026-3926#44,R4,excluded,excluded,none,none,,none,land (rustic or unbuilt plot); confirmed
+BOE-B-2026-3926#48,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type rural_with_construction>land,rustic plot; the construction word is part of the place name
+BOE-B-2026-3926#56,R4,excluded,excluded,none,none,,none,land (rustic or unbuilt plot); confirmed
+BOE-B-2026-3926#66,R1,covered,covered,none,none,,none,dwelling on the first floor of a building (lot of two properties); no energy statement
+BOE-B-2026-4609#1,extra,excluded,drop,none,none,,scope excluded>drop,"direct adjudication to a party who showed interest (art. 137.4 LPAP); not an offer to the public (rule §1.1, direct_named)"
+BOE-B-2026-4787#1,R1,covered,covered,certificate_reference,rating,,energy certificate_reference>rating,"consumption and emissions letter E stated; classifier missed it (""letra E"")"
+BOE-B-2026-4879#1,R4,excluded,excluded,none,none,,none,industrial or agricultural building; confirmed
+BOE-B-2026-5039#1,R1,covered,undeterminable,none,none,,scope covered>undeterminable,two-thirds undivided share of a dwelling
+BOE-B-2026-5040#r1,R1,covered,undeterminable,none,none,,split; scope covered>undeterminable; type residential>unit_in_building,"30 m2 semi-basement unit of a residential building, use not stated"
+BOE-B-2026-5040#r2,R1,covered,undeterminable,none,none,,split; scope covered>undeterminable; type residential>unit_in_building,"55 m2 loft (desván) in a house, use not stated"
+BOE-B-2026-5465#1,extra,excluded,drop,none,none,,scope excluded>drop,"direct adjudication to a party who showed interest (art. 137.4 LPAP); not an offer to the public (rule §1.1, direct_named)"
+BOE-B-2026-5471#1,extra,excluded,undeterminable,none,none,,scope excluded>undeterminable; type land>building,"lighthouse plot of 4,523 m2 with 349 m2 built; use of the buildings not stated; no energy statement (found by the targeted search)"
+BOE-B-2026-5648#?,R3,undeterminable,drop,none,none,,scope undeterminable>drop,"sale of an olive harvest (aprovechamiento), not of property"
+BOE-B-2026-5835#r1,extra,excluded,excluded,none,none,,split,"rustic plot, row 1 of the notice's table (a table of plots read as one lot)"
+BOE-B-2026-5835#r10,extra,excluded,excluded,none,none,,split,"rustic plot, row 10 of the notice's table (a table of plots read as one lot)"
+BOE-B-2026-5835#r11,extra,excluded,excluded,none,none,,split,"rustic plot, row 11 of the notice's table (a table of plots read as one lot)"
+BOE-B-2026-5835#r12,extra,excluded,excluded,none,none,,split,"rustic plot, row 12 of the notice's table (a table of plots read as one lot)"
+BOE-B-2026-5835#r13,extra,excluded,excluded,none,none,,split,"rustic plot, row 13 of the notice's table (a table of plots read as one lot)"
+BOE-B-2026-5835#r14,extra,excluded,excluded,none,none,,split,"rustic plot, row 14 of the notice's table (a table of plots read as one lot)"
+BOE-B-2026-5835#r15,extra,excluded,excluded,none,none,,split,"rustic plot, row 15 of the notice's table (a table of plots read as one lot)"
+BOE-B-2026-5835#r16,extra,excluded,excluded,none,none,,split,"rustic plot, row 16 of the notice's table (a table of plots read as one lot)"
+BOE-B-2026-5835#r17,extra,excluded,excluded,none,none,,split,"rustic plot, row 17 of the notice's table (a table of plots read as one lot)"
+BOE-B-2026-5835#r18,extra,excluded,excluded,none,none,,split,"rustic plot, row 18 of the notice's table (a table of plots read as one lot)"
+BOE-B-2026-5835#r19,extra,excluded,excluded,none,none,,split,"rustic plot, row 19 of the notice's table (a table of plots read as one lot)"
+BOE-B-2026-5835#r2,extra,excluded,excluded,none,none,,split,"rustic plot, row 2 of the notice's table (a table of plots read as one lot)"
+BOE-B-2026-5835#r20,extra,excluded,excluded,none,none,,split,"rustic plot, row 20 of the notice's table (a table of plots read as one lot)"
+BOE-B-2026-5835#r21,extra,excluded,excluded,none,none,,split,"rustic plot, row 21 of the notice's table (a table of plots read as one lot)"
+BOE-B-2026-5835#r22,extra,excluded,excluded,none,none,,split,"rustic plot, row 22 of the notice's table (a table of plots read as one lot)"
+BOE-B-2026-5835#r23,extra,excluded,excluded,none,none,,split,"rustic plot, row 23 of the notice's table (a table of plots read as one lot)"
+BOE-B-2026-5835#r24,extra,excluded,excluded,none,none,,split,"rustic plot, row 24 of the notice's table (a table of plots read as one lot)"
+BOE-B-2026-5835#r25,extra,excluded,excluded,none,none,,split,"rustic plot, row 25 of the notice's table (a table of plots read as one lot)"
+BOE-B-2026-5835#r26,extra,excluded,excluded,none,none,,split,"rustic plot, row 26 of the notice's table (a table of plots read as one lot)"
+BOE-B-2026-5835#r27,extra,excluded,excluded,none,none,,split,"rustic plot, row 27 of the notice's table (a table of plots read as one lot)"
+BOE-B-2026-5835#r28,extra,excluded,excluded,none,none,,split,"rustic plot, row 28 of the notice's table (a table of plots read as one lot)"
+BOE-B-2026-5835#r29,extra,excluded,excluded,none,none,,split,"rustic plot, row 29 of the notice's table (a table of plots read as one lot)"
+BOE-B-2026-5835#r3,extra,excluded,excluded,none,none,,split,"rustic plot, row 3 of the notice's table (a table of plots read as one lot)"
+BOE-B-2026-5835#r30,extra,excluded,excluded,none,none,,split,"rustic plot, row 30 of the notice's table (a table of plots read as one lot)"
+BOE-B-2026-5835#r31,extra,excluded,excluded,none,none,,split,"rustic plot, row 31 of the notice's table (a table of plots read as one lot)"
+BOE-B-2026-5835#r32,extra,excluded,excluded,none,none,,split,"rustic plot, row 32 of the notice's table (a table of plots read as one lot)"
+BOE-B-2026-5835#r33,extra,excluded,excluded,none,none,,split,"rustic plot, row 33 of the notice's table (a table of plots read as one lot)"
+BOE-B-2026-5835#r34,extra,excluded,excluded,none,none,,split,"rustic plot, row 34 of the notice's table (a table of plots read as one lot)"
+BOE-B-2026-5835#r35,extra,excluded,excluded,none,none,,split,"rustic plot, row 35 of the notice's table (a table of plots read as one lot)"
+BOE-B-2026-5835#r36,extra,excluded,excluded,none,none,,split,"rustic plot, row 36 of the notice's table (a table of plots read as one lot)"
+BOE-B-2026-5835#r37,extra,excluded,excluded,none,none,,split,"rustic plot, row 37 of the notice's table (a table of plots read as one lot)"
+BOE-B-2026-5835#r38,extra,excluded,excluded,none,none,,split,"rustic plot, row 38 of the notice's table (a table of plots read as one lot)"
+BOE-B-2026-5835#r39,extra,excluded,excluded,none,none,,split,"rustic plot, row 39 of the notice's table (a table of plots read as one lot)"
+BOE-B-2026-5835#r4,extra,excluded,excluded,none,none,,split,"rustic plot, row 4 of the notice's table (a table of plots read as one lot)"
+BOE-B-2026-5835#r40,extra,excluded,excluded,none,none,,split,"rustic plot, row 40 of the notice's table (a table of plots read as one lot)"
+BOE-B-2026-5835#r41,extra,excluded,excluded,none,none,,split,"rustic plot, row 41 of the notice's table (a table of plots read as one lot)"
+BOE-B-2026-5835#r42,extra,excluded,excluded,none,none,,split,"rustic plot, row 42 of the notice's table (a table of plots read as one lot)"
+BOE-B-2026-5835#r43,extra,excluded,excluded,none,none,,split,"rustic plot, row 43 of the notice's table (a table of plots read as one lot)"
+BOE-B-2026-5835#r44,extra,excluded,excluded,none,none,,split,"rustic plot, row 44 of the notice's table (a table of plots read as one lot)"
+BOE-B-2026-5835#r45,extra,excluded,excluded,none,none,,split,"rustic plot, row 45 of the notice's table (a table of plots read as one lot)"
+BOE-B-2026-5835#r46,extra,excluded,excluded,none,none,,split,"rustic plot, row 46 of the notice's table (a table of plots read as one lot)"
+BOE-B-2026-5835#r47,extra,excluded,excluded,none,none,,split,"rustic plot, row 47 of the notice's table (a table of plots read as one lot)"
+BOE-B-2026-5835#r48,extra,excluded,excluded,none,none,,split,"rustic plot, row 48 of the notice's table (a table of plots read as one lot)"
+BOE-B-2026-5835#r49,extra,excluded,excluded,none,none,,split,"rustic plot, row 49 of the notice's table (a table of plots read as one lot)"
+BOE-B-2026-5835#r5,extra,excluded,excluded,none,none,,split,"rustic plot, row 5 of the notice's table (a table of plots read as one lot)"
+BOE-B-2026-5835#r50,extra,excluded,excluded,none,none,,split,"rustic plot, row 50 of the notice's table (a table of plots read as one lot)"
+BOE-B-2026-5835#r51,extra,excluded,excluded,none,none,,split,"rustic plot, row 51 of the notice's table (a table of plots read as one lot)"
+BOE-B-2026-5835#r52,extra,excluded,excluded,none,none,,split,"rustic plot, row 52 of the notice's table (a table of plots read as one lot)"
+BOE-B-2026-5835#r53,extra,excluded,excluded,none,none,,split,"rustic plot, row 53 of the notice's table (a table of plots read as one lot)"
+BOE-B-2026-5835#r54,extra,excluded,excluded,none,none,,split,"rustic plot, row 54 of the notice's table (a table of plots read as one lot)"
+BOE-B-2026-5835#r55,extra,excluded,excluded,none,none,,split,"rustic plot, row 55 of the notice's table (a table of plots read as one lot)"
+BOE-B-2026-5835#r56,extra,excluded,excluded,none,none,,split,"rustic plot, row 56 of the notice's table (a table of plots read as one lot)"
+BOE-B-2026-5835#r57,extra,excluded,excluded,none,none,,split,"rustic plot, row 57 of the notice's table (a table of plots read as one lot)"
+BOE-B-2026-5835#r58,extra,excluded,excluded,none,none,,split,"rustic plot, row 58 of the notice's table (a table of plots read as one lot)"
+BOE-B-2026-5835#r6,extra,excluded,excluded,none,none,,split,"rustic plot, row 6 of the notice's table (a table of plots read as one lot)"
+BOE-B-2026-5835#r7,extra,excluded,excluded,none,none,,split,"rustic plot, row 7 of the notice's table (a table of plots read as one lot)"
+BOE-B-2026-5835#r8,extra,excluded,excluded,none,none,,split,"rustic plot, row 8 of the notice's table (a table of plots read as one lot)"
+BOE-B-2026-5835#r9,extra,excluded,excluded,none,none,,split,"rustic plot, row 9 of the notice's table (a table of plots read as one lot)"
+BOE-B-2026-6703#1,R4,excluded,excluded,none,none,,none,92 rustic plots summarised in one notice without lot-by-lot description; counted as one record
+BOE-B-2026-7459#1,R3,undeterminable,undeterminable,none,none,,none,urban property of 340 m2 in a table with no description of use; confirmed
+BOE-B-2026-7459#2,R3,undeterminable,undeterminable,none,none,,none,urban property of 48 m2 in a table with no description of use; confirmed
+BOE-B-2026-7459#16,R3,undeterminable,undeterminable,none,none,,none,urban property of 158 m2 in a table with no description of use; confirmed
+BOE-B-2026-7576#r1,extra,excluded,excluded,none,none,,split,"urban plot of 9,630 m2"
+BOE-B-2026-7576#r2,extra,excluded,undeterminable,none,none,,split; scope excluded>undeterminable; type land>unit_in_building,"urban property of 105 m2 with 36 m2 built, use not stated (Trigueros; re-auction of BOE-B-2025-26061 lot 3)"
+BOE-B-2026-7576#r3,extra,excluded,excluded,none,none,,split,"urban plot of 1,385 m2"
+BOE-B-2026-7576#r4,extra,excluded,excluded,none,none,,split,rustic plot
+BOE-B-2026-7576#r5,extra,excluded,excluded,none,none,,split,rustic plot
+BOE-B-2026-7576#r6,extra,excluded,excluded,none,none,,split,rustic plot
+BOE-B-2026-7576#r7,extra,excluded,excluded,none,none,,split,rustic plot
+BOE-B-2026-7577#1,R1,covered,covered,none,none,,none,dwelling (State inherited estate); no energy statement
+BOE-B-2026-8133#1,R3,undeterminable,drop,none,none,,scope undeterminable>drop,"expropriation notice of a regional energy office, not a sale offer"
+BOE-B-2026-8365#1,extra,excluded,drop,none,none,,scope excluded>drop,"direct adjudication to a party who showed interest (art. 137.4 LPAP); not an offer to the public (rule §1.1, direct_named)"
+BOE-B-2026-9000#1,R1,covered,covered,none,none,,none,former Guardia Civil barracks; no energy statement
+BOE-B-2026-9000#2,R1,covered,covered,none,none,,none,former Guardia Civil house-barracks; no energy statement
+BOE-B-2026-9000#3,R1,covered,covered,none,none,,none,former Guardia Civil barracks; no energy statement
+BOE-B-2026-9511#2,R3,undeterminable,drop,none,none,,scope undeterminable>drop,"numbered condition of the notice, not a lot"
+BOE-B-2026-9511#3,R3,undeterminable,drop,none,none,,scope undeterminable>drop,"numbered condition of the notice, not a lot"
+BOE-B-2026-9511#4,R3,undeterminable,drop,none,none,,scope undeterminable>drop,"numbered condition of the notice, not a lot"
+BOE-B-2026-9511#5,R1,covered,drop,none,none,,scope covered>drop,"numbered condition of the notice, not a lot"
+BOE-B-2026-10019#1,R4,excluded,excluded,none,none,,none,garage or parking space; confirmed
+BOE-B-2026-10020#?,extra,covered,covered,rating,rating,,none,"one premises made of several registered fincas joined physically, so one lot; rating stated"
+BOE-B-2026-10744#1,R1,covered,covered,none,none,,none,"dwelling (44 m2, in a building); no energy statement"
+BOE-B-2026-10828#1,R2,covered,covered,rating,rating,,none,rating letter(s) stated in the lot; confirmed
+BOE-B-2026-10828#2,R3,undeterminable,drop,none,none,,scope undeterminable>drop,"numbered condition of the notice, not a lot"
+BOE-B-2026-10828#3,R3,undeterminable,drop,none,none,,scope undeterminable>drop,"numbered condition of the notice, not a lot"
+BOE-B-2026-10828#4,R3,undeterminable,drop,none,none,,scope undeterminable>drop,"numbered condition of the notice, not a lot"
+BOE-B-2026-10828#5,R1,covered,drop,none,none,,scope covered>drop,"numbered condition of the notice, not a lot"
+BOE-B-2026-11318#r1,R1,covered,covered,none,none,,split,former Guardia Civil house-barracks; no energy statement
+BOE-B-2026-11318#r2,R1,covered,covered,none,none,,split; type residential>building,former police station; no energy statement
+BOE-B-2026-11318#r3,R1,covered,covered,none,none,,split; type residential>building,former police station; no energy statement
+BOE-B-2026-11561#4,R4,excluded,covered,rating,rating,,scope excluded>covered,"same industrial unit re-auctioned; registered certificate stated (F, D); art. 3.2.c applies only to low-demand parts"
+BOE-B-2026-11562#1,R2,covered,covered,rating,rating,,none,rating letter(s) stated in the lot; confirmed
+BOE-B-2026-11732#3,R1,covered,excluded,certificate_reference,exempt_declared,none_stated,scope covered>excluded; energy certificate_reference>exempt_declared,"notice says the building is exempted (""eximido"") without a ground; partly collapsed house (re-auction of BOE-B-2025-37964 lot 1)"
+BOE-B-2026-11734#7,R4,excluded,excluded,none,none,,none,land (rustic or unbuilt plot); confirmed
+BOE-B-2026-11734#56,R4,excluded,excluded,none,none,,none,land (rustic or unbuilt plot); confirmed
+BOE-B-2026-11735#1,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type commercial>garage,1/42 undivided share of a basement garage
+BOE-B-2026-11735#2,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type commercial>garage,1/42 undivided share of a basement garage
+BOE-B-2026-11735#3,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type commercial>garage,1/42 undivided share of a basement garage
+BOE-B-2026-11735#4,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type commercial>garage,1/42 undivided share of a basement garage
+BOE-B-2026-11735#5,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type commercial>garage,1/42 undivided share of a basement garage
+BOE-B-2026-11735#6,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type commercial>garage,1/42 undivided share of a basement garage
+BOE-B-2026-11735#7,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type commercial>garage,1/42 undivided share of a basement garage
+BOE-B-2026-11735#8,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type commercial>garage,1/42 undivided share of a basement garage
+BOE-B-2026-11735#9,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type commercial>garage,1/42 undivided share of a basement garage
+BOE-B-2026-11735#10,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type commercial>garage,1/42 undivided share of a basement garage
+BOE-B-2026-11735#11,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type commercial>garage,1/42 undivided share of a basement garage
+BOE-B-2026-11735#12,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type commercial>garage,1/42 undivided share of a basement garage
+BOE-B-2026-11735#13,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type commercial>garage,1/42 undivided share of a basement garage
+BOE-B-2026-11875#1,R1,covered,covered,certificate_reference,certificate_reference,,none,"house with stores; the heading ""Certificado de eficiencia energética"" is printed with no content"
+BOE-B-2026-11875#9,R4,excluded,excluded,none,none,,none,land (rustic or unbuilt plot); confirmed
+BOE-B-2026-11875#16,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type rural_with_construction>land,rustic plot; the construction word is part of the place name
+BOE-B-2026-11875#39,R4,excluded,excluded,none,none,,none,land (rustic or unbuilt plot); confirmed
+BOE-B-2026-12332#1,R1,covered,undeterminable,none,none,,scope covered>undeterminable,50% undivided share of commercial premises
+BOE-B-2026-12594#?,extra,covered,covered,rating,rating,,none,"one premises made of several registered fincas joined physically, so one lot; rating stated"
+BOE-B-2026-13410#1,R2,covered,covered,rating,rating,,none,rating letter(s) stated in the lot; confirmed
+BOE-B-2026-13474#15,R4,excluded,excluded,none,none,,none,land (rustic or unbuilt plot); confirmed
+BOE-B-2026-13474#20,R3,undeterminable,covered,none,none,,scope undeterminable>covered; type unknown>unit_in_building,"second-floor unit of an urban building (P02), part of a building; no energy statement in the notice"
+BOE-B-2026-13591#1,R1,covered,covered,none,none,,none,commercial premises; no energy statement
+BOE-B-2026-13591#2,R1,covered,covered,none,none,,none,commercial premises; no energy statement
+BOE-B-2026-13591#3,R1,covered,covered,none,none,,none,commercial premises; no energy statement
+BOE-B-2026-13591#4,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type rural_with_construction>land,plot of a former radio beacon on rustic land
+BOE-B-2026-13591#5,R1,covered,excluded,none,none,,scope covered>excluded; type residential>land,"former military camp, 12.8 ha of rustic land (cadastral 0000)"
+BOE-B-2026-13591#8,R1,covered,covered,none,none,,none,commercial premises; no energy statement
+BOE-B-2026-13591#9,R1,covered,covered,none,none,,none,commercial premises (basements); no energy statement
+BOE-B-2026-13591#10,R1,covered,covered,none,none,,none,commercial premises; no energy statement
+BOE-B-2026-13591#11,R1,covered,undeterminable,none,none,,scope covered>undeterminable; type residential>building,"former machine house on a 396 m2 plot, use and conditioning unknown"
+BOE-B-2026-13591#13,R1,covered,covered,none,none,,none,commercial premises; no energy statement
+BOE-B-2026-13591#14,R1,covered,covered,none,none,,none,former barracks with officers' and NCOs' residences; no energy statement
+BOE-B-2026-13591#15,R1,covered,excluded,none,none,,scope covered>excluded; type residential>land,rustic plot without construction
+BOE-B-2026-13591#17,R1,covered,covered,none,none,,none,commercial premises; no energy statement
+BOE-B-2026-13591#18,R1,covered,covered,none,none,,none,commercial premises; no energy statement
+BOE-B-2026-14342#1,R3,undeterminable,drop,none,none,,scope undeterminable>drop,"direct sale to the occupant (art. 137.4.i LPAP), not an offer to the public"
+BOE-B-2026-14343#?,R1,covered,covered,none,none,,none,"four floors (ten units) of a building, use not stated; parts of a building; no energy statement"
+BOE-B-2026-15979#20,R3,undeterminable,covered,none,none,,scope undeterminable>covered; type unknown>unit_in_building,"second-floor unit of an urban building (P02), part of a building; no energy statement in the notice"
+BOE-B-2026-16239#?,extra,covered,covered,rating,rating,,none,"one premises made of several registered fincas joined physically, so one lot; rating stated"
+BOE-B-2026-16609#4,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type rural_with_construction>land,rustic plot; the construction word is part of the place name
+BOE-B-2026-18373#1,R4,excluded,covered,rating,rating,,scope excluded>covered; type industrial_agricultural>building,"single-storey building in an industrial estate described as a centre, not as industrial use; rating stated"
+BOE-B-2026-18464#1,R4,excluded,drop,none,none,,scope excluded>drop,"direct sale to a person who showed interest (art. 137.4 LPAP), not an offer to the public"
+BOE-B-2026-18614#1,R3,undeterminable,drop,none,none,,scope undeterminable>drop,"approval of a road project, not a sale offer"
+BOE-B-2026-19516#1,R2,covered,covered,rating,rating,,none,rating letter(s) stated in the lot; confirmed
+BOE-B-2026-20431#1,extra,excluded,drop,none,none,,scope excluded>drop,"direct adjudication to a party who showed interest (art. 137.4 LPAP); not an offer to the public (rule §1.1, direct_named)"
+BOE-B-2026-21235#1,extra,excluded,drop,none,none,,scope excluded>drop,expropriation notice (actas previas); not a sale offer
+BOE-B-2026-21653#1,R4,excluded,excluded,none,none,,none,garage or parking space; confirmed
+BOE-B-2026-21653#2,R4,excluded,excluded,none,none,,none,garage or parking space; confirmed
+BOE-B-2026-21653#3,R4,excluded,excluded,none,none,,none,garage or parking space; confirmed
+BOE-B-2026-21653#4,R4,excluded,excluded,none,none,,none,garage or parking space; confirmed
+BOE-B-2026-21653#5,R4,excluded,excluded,none,none,,none,garage or parking space; confirmed
+BOE-B-2026-21756#?,extra,covered,covered,rating,rating,,none,"one premises made of several registered fincas joined physically, so one lot; rating stated"
+BOE-B-2026-22413#1,R3,undeterminable,covered,none,none,,scope undeterminable>covered; type rural_with_construction>commercial,commercial premises; no energy statement (Basque cadastral reference misread as rustic)
+BOE-B-2026-22413#2,R1,covered,covered,none,none,,none,"commercial premises (48 m2, in a building); no energy statement"
+BOE-B-2026-22413#3,R1,covered,covered,none,none,,none,commercial premises; no energy statement
+BOE-B-2026-22413#4,R1,covered,covered,none,none,,none,commercial premises; no energy statement
+BOE-B-2026-22413#5,R1,covered,covered,none,none,,none,commercial premises; no energy statement
+BOE-B-2026-22413#6,R1,covered,covered,none,none,,none,commercial premises; no energy statement
+BOE-B-2026-22413#7,R1,covered,covered,none,none,,none,commercial premises; no energy statement
+BOE-B-2026-22413#9,R1,covered,excluded,none,none,,scope covered>excluded; type residential>industrial_agricultural,former military vehicle and material depot
+BOE-B-2026-22413#10,R1,covered,covered,none,none,,none,commercial premises; no energy statement
+BOE-B-2026-22413#12,R1,covered,undeterminable,none,none,,scope covered>undeterminable,former army barracks complex on urban and rustic land; use of its buildings not stated
+BOE-B-2026-22413#13,R1,covered,covered,none,none,,none,commercial premises (basement); no energy statement
+BOE-B-2026-22413#14,R1,covered,covered,none,none,,none,commercial premises (basement); no energy statement
+BOE-B-2026-22413#15,R1,covered,covered,none,none,,none,commercial premises (basement); no energy statement
+BOE-B-2026-22413#16,R1,covered,covered,none,none,,none,commercial premises; no energy statement
+BOE-B-2026-22413#17,R1,covered,covered,none,none,,none,commercial premises; no energy statement
+BOE-B-2026-24019#1,R2,covered,covered,rating,rating,,none,rating letter(s) stated in the lot; confirmed
+BOE-B-2026-24119#1,R1,covered,covered,none,none,,none,former Guardia Civil house-barracks; no energy statement
+BOE-B-2026-24119#2,R1,covered,covered,none,none,,none,former Guardia Civil house-barracks; no energy statement
+BOE-B-2026-24119#3,R3,undeterminable,covered,none,none,,scope undeterminable>covered; type unknown>building,former police station; no energy statement
+BOE-B-2026-24337#1,extra,excluded,drop,none,none,,scope excluded>drop,"direct adjudication to a party who showed interest (art. 137.4 LPAP); not an offer to the public (rule §1.1, direct_named)"
+BOE-B-2026-24669#?,extra,excluded,drop,none,none,,scope excluded>drop,"direct adjudication to a party who showed interest (art. 137.4 LPAP); not an offer to the public (rule §1.1, direct_named)"
+BOE-B-2026-26097#1,R4,excluded,excluded,exempt_declared,exempt_declared,none_stated,none,commercial premises declared exempt without a ground
+BOE-B-2026-26215#1,R4,excluded,excluded,none,none,,none,industrial or agricultural building; confirmed
+BOE-B-2026-26675#31,R3,undeterminable,undeterminable,none,none,,none,"urban property in ruinous state, recorded as a plot in the cadastre (re-auction of BOE-B-2025-47585 lot 4); confirmed"
+BOE-B-2026-26675#32,R3,undeterminable,undeterminable,none,none,,none,"52 m2 urban construction in a village, use not stated (re-auction of BOE-B-2025-47585 lot 5); confirmed"
+BOE-B-2026-26676#2,R4,excluded,excluded,none,none,,none,land (rustic or unbuilt plot); confirmed
+BOE-B-2026-26700#1,R2,covered,covered,rating,rating,,none,rating letter(s) stated in the lot; confirmed
+BOE-B-2026-26700#4,R2,covered,covered,rating,rating,,none,rating letter(s) stated in the lot; confirmed
+BOE-B-2026-26784#?,R2,covered,covered,rating,rating,,none,rating letter(s) stated in the lot; confirmed
+BOE-B-2026-27853#?,R1,covered,covered,certificate_reference,no_certificate_stated,,energy certificate_reference>no_certificate_stated,"commercial premises (744 m2 plus basement); notice says ""No cuenta con certificado de eficiencia energética""; classifier read it as a reference"
+BOE-B-2026-28007#1,R4,excluded,excluded,exempt_declared,exempt_declared,guidance_garage_storage,none,garage space with storage room declared exempt
+BOE-B-2026-28536#14,R1,covered,excluded,none,none,,scope covered>excluded; type commercial>land,rustic dry-farming plot
+BOE-B-2026-29323#1,extra,excluded,drop,none,none,,scope excluded>drop,"direct adjudication to a party who showed interest (art. 137.4 LPAP); not an offer to the public (rule §1.1, direct_named)"
+BOE-B-2026-30091#13,R4,excluded,excluded,none,none,,type land>garage,parking space (22 m2)
+BOE-B-2026-30623#10,R4,excluded,excluded,none,none,,none,land (rustic or unbuilt plot); confirmed
+BOE-B-2026-30623#68,R4,excluded,excluded,none,none,,none,land (rustic or unbuilt plot); confirmed
+BOE-B-2026-30623#69,R4,excluded,excluded,none,none,,type industrial_agricultural>land,"rustic plot; ""Pajares"" is part of the place name"
+BOE-B-2026-30623#70,R4,excluded,excluded,none,none,,type industrial_agricultural>land,"rustic plot; ""Pajares"" is part of the place name"
+BOE-B-2026-30623#126,R4,excluded,excluded,none,none,,none,land (rustic or unbuilt plot); confirmed
+BOE-B-2026-30623#144,R4,excluded,excluded,none,none,,none,land (rustic or unbuilt plot); confirmed
+BOE-B-2026-30623#152,R4,excluded,excluded,none,none,,none,land (rustic or unbuilt plot); confirmed
+BOE-B-2026-30623#208,R4,excluded,excluded,none,none,,none,land (rustic or unbuilt plot); confirmed
+BOE-B-2026-30624#1,extra,excluded,drop,none,none,,scope excluded>drop,"direct adjudication to a party who showed interest (art. 137.4 LPAP); not an offer to the public (rule §1.1, direct_named)"
+BOE-B-2026-30834#15,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type rural_with_construction>land,rustic plot; the construction word is part of the place name
+BOE-B-2026-30835#7,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type rural_with_construction>land,rustic plot; the construction word is part of the place name
+BOE-B-2026-30835#8,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type rural_with_construction>land,rustic plot; the construction word is part of the place name
+BOE-B-2026-30835#9,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type rural_with_construction>land,rustic plot; the construction word is part of the place name
+BOE-B-2026-30835#10,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type rural_with_construction>land,rustic plot; the construction word is part of the place name
+BOE-B-2026-30836#1,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type commercial>garage,1/42 undivided share of a basement garage
+BOE-B-2026-30836#2,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type commercial>garage,1/42 undivided share of a basement garage
+BOE-B-2026-30836#3,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type commercial>garage,1/42 undivided share of a basement garage
+BOE-B-2026-30836#4,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type commercial>garage,1/42 undivided share of a basement garage
+BOE-B-2026-30836#5,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type commercial>garage,1/42 undivided share of a basement garage
+BOE-B-2026-30836#6,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type commercial>garage,1/42 undivided share of a basement garage
+BOE-B-2026-30836#7,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type commercial>garage,1/42 undivided share of a basement garage
+BOE-B-2026-30836#8,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type commercial>garage,1/42 undivided share of a basement garage
+BOE-B-2026-30836#9,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type commercial>garage,1/42 undivided share of a basement garage
+BOE-B-2026-30836#10,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type commercial>garage,1/42 undivided share of a basement garage
+BOE-B-2026-30836#11,R3,undeterminable,excluded,none,none,,scope undeterminable>excluded; type commercial>garage,1/42 undivided share of a basement garage
+BOE-B-2026-31438#1,R3,undeterminable,covered,none,none,,scope undeterminable>covered; type unknown>commercial,ground-floor premises in a building; no energy statement
+BOE-B-2026-31572#1,R4,excluded,excluded,none,none,,none,industrial or agricultural building; confirmed

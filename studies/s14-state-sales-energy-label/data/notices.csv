@@ -1,0 +1,362 @@
+boe_id,date,section,seller_group,seller_body,kind,split_method,n_lots,covered_lots,covered_with_label,notice_label,dropped_in_review
+BOE-B-2025-879,2025-01-14,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Lleida,offer,lote_header,10,0,0,,no
+BOE-B-2025-1185,2025-01-17,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Valladolid,offer,single,1,1,1,all,no
+BOE-B-2025-1186,2025-01-17,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Ourense,offer,single,1,1,1,all,no
+BOE-B-2025-1692,2025-01-20,5B,FOGASA,Fondo de Garantía Salarial O.A. (FOGASA),offer,single,1,0,0,,no
+BOE-B-2025-1972,2025-01-22,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Cádiz,offer,single,1,1,1,all,no
+BOE-B-2025-1973,2025-01-22,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Cádiz,offer,unsplit,1,1,1,all,no
+BOE-B-2025-2535,2025-01-25,5B,Port authorities,Autoridad Portuaria de Las Palmas,offer,single,1,0,0,,no
+BOE-B-2025-2870,2025-01-28,5B,GIESE (Interior),Organismo Autónomo Gerencia de Infraestructuras y Equipamiento de la Seguridad del Estado,offer,numbered,5,4,0,none,no
+BOE-B-2025-2913,2025-01-28,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Madrid,offer,lote_header,4,4,4,all,no
+BOE-B-2025-2914,2025-01-28,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Illes Balears,offer,lote_header,2,1,1,all,no
+BOE-B-2025-3852,2025-02-04,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Valencia (Unidad de Patrimonio del Estado),offer,single,0,0,0,,yes
+BOE-B-2025-3853,2025-02-04,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Valencia (Unidad de Patrimonio del Estado),offer,single,0,0,0,,yes
+BOE-B-2025-3854,2025-02-04,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Valencia (Unidad de Patrimonio del Estado),offer,unsplit,0,0,0,,yes
+BOE-B-2025-3855,2025-02-04,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Valencia (Unidad de Patrimonio del Estado),offer,single,0,0,0,,yes
+BOE-B-2025-3856,2025-02-04,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Valencia (Unidad de Patrimonio del Estado),offer,single,0,0,0,,yes
+BOE-B-2025-3857,2025-02-04,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Valencia (Unidad de Patrimonio del Estado),offer,single,0,0,0,,yes
+BOE-B-2025-3858,2025-02-04,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Valencia (Unidad de Patrimonio del Estado),offer,single,0,0,0,,yes
+BOE-B-2025-3859,2025-02-04,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Valencia (Unidad de Patrimonio del Estado),offer,single,0,0,0,,yes
+BOE-B-2025-3982,2025-02-05,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Tarragona,offer,lote_header,2,2,2,all,no
+BOE-B-2025-4764,2025-02-11,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Gipuzkoa,offer,single,1,0,0,,no
+BOE-B-2025-4765,2025-02-11,5B,Patrimonio del Estado (DEH),Delegación Especial de Economía y Hacienda en Castilla y León-Valladolid,other,lote_header,0,0,0,,no
+BOE-B-2025-4868,2025-02-12,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en País Vasco-Bizkaia,offer,single,1,1,0,none,no
+BOE-B-2025-4869,2025-02-12,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Valencia (Unidad de Patrimonio del Estado),offer,single,0,0,0,,yes
+BOE-B-2025-4870,2025-02-12,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Valencia (Unidad de Patrimonio del Estado),offer,single,0,0,0,,yes
+BOE-B-2025-4871,2025-02-12,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Valencia (Unidad de Patrimonio del Estado),offer,unsplit,0,0,0,,yes
+BOE-B-2025-5746,2025-02-18,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Granada,offer,unsplit,1,1,1,all,no
+BOE-B-2025-6080,2025-02-21,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Gipuzkoa,offer,lote_header,2,2,0,none,no
+BOE-B-2025-6081,2025-02-21,5B,Other public bodies,Dirección General del Sector Ferroviario,offer,single,0,0,0,,yes
+BOE-B-2025-6107,2025-02-21,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de A Coruña,offer,lote_header,3,3,3,all,no
+BOE-B-2025-6642,2025-02-24,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Valencia (Unidad de Patrimonio del Estado),offer,single,0,0,0,,yes
+BOE-B-2025-6701,2025-02-24,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Salamanca,offer,single,1,0,0,,no
+BOE-B-2025-6889,2025-02-25,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Madrid,offer,lote_header,5,5,5,all,no
+BOE-B-2025-6944,2025-02-26,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Ourense,offer,numbered,60,0,0,,no
+BOE-B-2025-6980,2025-02-26,5B,Other public bodies,Organismo Autónomo Parques Nacionales,offer,not_described,0,0,0,,yes
+BOE-B-2025-6982,2025-02-26,5B,Other public bodies,Organismo Autónomo Parques Nacionales,offer,not_described,0,0,0,,yes
+BOE-B-2025-7059,2025-02-27,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Cuenca,offer,single,67,0,0,,no
+BOE-B-2025-7061,2025-02-27,5B,Other public bodies,Dirección General del Sector Ferroviario,offer,unsplit,0,0,0,,yes
+BOE-B-2025-7181,2025-02-28,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Madrid,offer,lote_header,5,5,5,all,no
+BOE-B-2025-7708,2025-03-03,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Soria,offer,lote_header,22,0,0,,no
+BOE-B-2025-7747,2025-03-03,5B,TGSS,Tesorería General de la Seguridad Social,offer,single,1,1,1,all,no
+BOE-B-2025-8089,2025-03-05,5B,TGSS,Tesorería General de la Seguridad Social,offer,single,1,0,0,,no
+BOE-B-2025-8263,2025-03-07,5B,TGSS,Tesorería General de la Seguridad Social,offer,lote_header,2,2,2,all,no
+BOE-B-2025-8886,2025-03-11,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Burgos,offer,single,1,0,0,,no
+BOE-B-2025-9197,2025-03-14,5B,INVIED (Defensa),"Organismo autónomo Instituto de Vivienda, Infraestructura y Equipamiento de la Defensa",offer,numbered,32,26,0,none,no
+BOE-B-2025-9198,2025-03-14,5B,Patrimonio del Estado (DEH),Delegación Especial de Economía y Hacienda en Madrid,offer,lote_header,9,0,0,,no
+BOE-B-2025-9199,2025-03-14,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Melilla del Acuerdo de incoación del procedimiento,direct_named,single,0,0,0,,no
+BOE-B-2025-9818,2025-03-17,5B,TGSS,Tesorería General de la Seguridad Social,offer,lote_header,9,8,0,none,no
+BOE-B-2025-10093,2025-03-19,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Asturias,offer,lote_header,23,0,0,,no
+BOE-B-2025-10311,2025-03-21,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Segovia,offer,table,152,0,0,,no
+BOE-B-2025-10639,2025-03-22,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Pontevedra,offer,lote_header,8,0,0,,no
+BOE-B-2025-10817,2025-03-24,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Granada,offer,unsplit,1,1,1,all,no
+BOE-B-2025-10979,2025-03-25,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Segovia,offer,single,1,0,0,,no
+BOE-B-2025-10980,2025-03-25,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Lugo,offer,single,1,1,1,all,no
+BOE-B-2025-11084,2025-03-26,5B,TGSS,Tesorería General de la Seguridad Social de Soria,offer,single,1,1,1,all,no
+BOE-B-2025-11267,2025-03-28,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en León,offer,lote_header,1,0,0,,no
+BOE-B-2025-11618,2025-03-29,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en León,offer,lote_header,49,0,0,,no
+BOE-B-2025-11983,2025-04-01,5B,GIESE (Interior),Organismo Autónomo Gerencia de Infraestructuras y Equipamiento de la Seguridad del Estado,offer,numbered,4,4,0,none,no
+BOE-B-2025-12091,2025-04-02,5B,INVIED (Defensa),"Instituto de Vivienda, Infraestructura y Equipamiento de la Defensa",annulment,single,0,0,0,,no
+BOE-B-2025-12135,2025-04-02,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Madrid,offer,lote_header,3,3,3,all,no
+BOE-B-2025-12928,2025-04-08,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Girona,offer,lote_header,4,0,0,,no
+BOE-B-2025-12968,2025-04-08,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Sevilla,offer,single,1,0,0,,no
+BOE-B-2025-13131,2025-04-09,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Gipuzkoa,offer,single,1,1,1,all,no
+BOE-B-2025-13259,2025-04-10,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Toledo,offer,single,1,1,1,all,no
+BOE-B-2025-13325,2025-04-11,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Girona,offer,lote_header,0,0,0,,yes
+BOE-B-2025-13725,2025-04-12,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Granada,offer,single,1,1,1,all,no
+BOE-B-2025-14062,2025-04-15,5B,Patrimonio del Estado (DEH),"Delegación de Economía y Hacienda en Melilla, de Acuerdo de incoación del procedimiento",direct_named,unsplit,0,0,0,,no
+BOE-B-2025-14082,2025-04-15,5B,Other public bodies,Organismo Autónomo Parques Nacionales,offer,not_described,0,0,0,,yes
+BOE-B-2025-14096,2025-04-15,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Huesca,offer,lote_header,2,2,2,all,no
+BOE-B-2025-14097,2025-04-15,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Sevilla,offer,single,1,0,0,,no
+BOE-B-2025-14098,2025-04-15,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Cádiz,offer,single,1,1,1,all,no
+BOE-B-2025-14176,2025-04-16,5B,FOGASA,Fondo de Garantía Salarial O.A. (FOGASA),offer,lote_header,2,0,0,,no
+BOE-B-2025-14200,2025-04-16,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Salamanca,offer,lote_header,6,0,0,,no
+BOE-B-2025-14201,2025-04-16,5B,TGSS,Corrección de errores de la Resolución de la Dirección Provincial de la Tesorería General de la Seguridad Social de Gipu,correction,single,0,0,0,,no
+BOE-B-2025-14464,2025-04-21,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Valencia (Unidad de Patrimonio del Estado),offer,single,0,0,0,,yes
+BOE-B-2025-14614,2025-04-21,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Zaragoza,offer,lote_header,2,2,2,all,no
+BOE-B-2025-14615,2025-04-21,5B,TGSS,Tesorería General de la Seguridad Social de Córdoba,offer,single,1,1,1,all,no
+BOE-B-2025-14758,2025-04-22,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en La Rioja,offer,lote_header,25,0,0,,no
+BOE-B-2025-14787,2025-04-22,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Sevilla,offer,single,1,1,1,all,no
+BOE-B-2025-14849,2025-04-23,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Granada,offer,lote_header,10,0,0,,no
+BOE-B-2025-14985,2025-04-24,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Asturias,offer,lote_header,4,4,4,all,no
+BOE-B-2025-15514,2025-04-28,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Bizkaia,offer,single,1,1,1,all,no
+BOE-B-2025-15515,2025-04-28,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Almería,offer,single,1,0,0,,no
+BOE-B-2025-16245,2025-05-07,5B,Patrimonio del Estado (DEH),"Delegación de Economía y Hacienda en Melilla, de Acuerdo de incoación del procedimiento",direct_named,unsplit,0,0,0,,no
+BOE-B-2025-16246,2025-05-07,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Teruel,offer,table,48,0,0,,no
+BOE-B-2025-16247,2025-05-07,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Salamanca,offer,lote_header,9,0,0,,no
+BOE-B-2025-16288,2025-05-07,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Santa Cruz de Tenerife,offer,single,1,0,0,,no
+BOE-B-2025-16375,2025-05-08,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Ciudad Real,offer,lote_header,1,1,1,all,no
+BOE-B-2025-16376,2025-05-08,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Ciudad Real,offer,lote_header,9,1,1,all,no
+BOE-B-2025-16377,2025-05-08,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Ciudad Real,offer,lote_header,2,0,0,,no
+BOE-B-2025-17009,2025-05-10,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Lugo,offer,single,1,0,0,,no
+BOE-B-2025-17124,2025-05-12,5A,Other public bodies,Licitación de: Dirección General de Seguridad Jurídica y Fe Pública. Objeto: Contrato de concesión de servicios,other,not_described,0,0,0,,no
+BOE-B-2025-17169,2025-05-12,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Cádiz,other,single,0,0,0,,no
+BOE-B-2025-17379,2025-05-13,5B,TGSS,Corrección de errores de la Resolución de la Dirección Provincial de la Tesorería General de la Seguridad Social de Alme,correction,not_described,0,0,0,,no
+BOE-B-2025-17383,2025-05-13,5B,Other public bodies,Agencia de Vivienda y Rehabilitación de Andalucía,offer,numbered,1,0,0,,no
+BOE-B-2025-18194,2025-05-20,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Teruel,annulment,lote_header,0,0,0,,no
+BOE-B-2025-18505,2025-05-22,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Cáceres,offer,lote_header,10,1,1,all,no
+BOE-B-2025-19515,2025-05-28,5B,Patrimonio del Estado (DEH),"Delegación de Economía y Hacienda en Melilla, de Acuerdo de incoación del procedimiento",direct_named,unsplit,0,0,0,,no
+BOE-B-2025-19518,2025-05-28,5B,Other public bodies,Dirección General del Sector Ferroviario,offer,single,0,0,0,,yes
+BOE-B-2025-19569,2025-05-28,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Cádiz,offer,unsplit,1,1,1,all,no
+BOE-B-2025-19652,2025-05-29,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Teruel,annulment,lote_header,0,0,0,,no
+BOE-B-2025-19846,2025-05-30,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Navarra,offer,lote_header,2,2,2,all,no
+BOE-B-2025-19847,2025-05-30,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Lleida,offer,single,1,1,1,all,no
+BOE-B-2025-20382,2025-06-02,5B,Other public bodies,Organismo Autónomo Parques Nacionales,offer,not_described,0,0,0,,yes
+BOE-B-2025-20834,2025-06-05,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Teruel,annulment,lote_header,0,0,0,,no
+BOE-B-2025-21427,2025-06-09,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Valencia,offer,unsplit,1,1,1,all,no
+BOE-B-2025-22566,2025-06-16,5B,TGSS,Tesorería General de la Seguridad Social,offer,single,1,1,1,all,no
+BOE-B-2025-22880,2025-06-18,5A,Other public bodies,Anuncio de licitación de: Subdirección General de la Oficina Presupuestaria y Gestión Económica. Objeto: Servicio de caf,other,not_described,0,0,0,,no
+BOE-B-2025-22894,2025-06-18,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Cuenca,offer,single,78,0,0,,no
+BOE-B-2025-22925,2025-06-18,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Cádiz,offer,single,1,1,1,all,no
+BOE-B-2025-23014,2025-06-19,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Gipuzkoa,offer,lote_header,2,2,0,none,no
+BOE-B-2025-23015,2025-06-19,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Gipuzkoa,offer,single,1,0,0,,no
+BOE-B-2025-23041,2025-06-19,5B,TGSS,Corrección de errores de la Resolución de la Dirección Provincial de la Tesorería General de la Seguridad Social de Vale,correction,single,0,0,0,,no
+BOE-B-2025-23129,2025-06-20,5B,INVIED (Defensa),"Organismo autónomo Instituto de Vivienda, Infraestructura y Equipamiento de la Defensa",offer,numbered,25,18,0,none,no
+BOE-B-2025-23931,2025-06-25,5B,Other public bodies,Dirección General del Sector Ferroviario,not_real_estate,unsplit,0,0,0,,no
+BOE-B-2025-24095,2025-06-26,5B,Other public bodies,Organismo Autónomo Parques Nacionales,offer,not_described,0,0,0,,yes
+BOE-B-2025-24108,2025-06-26,5B,Other public bodies,Agencia de Vivienda y Rehabilitación de Andalucía,offer,numbered,1,0,0,,no
+BOE-B-2025-25776,2025-07-07,5A,Other public bodies,Anuncio de formalización de contratos de: Junta de Contratación del Ministerio de Asuntos Económicos y Transformación Di,other,not_described,0,0,0,,no
+BOE-B-2025-25791,2025-07-07,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Valencia (Unidad de Patrimonio del Estado),offer,single,0,0,0,,yes
+BOE-B-2025-25792,2025-07-07,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Valencia (Unidad de Patrimonio del Estado),offer,single,0,0,0,,yes
+BOE-B-2025-25793,2025-07-07,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Valencia (Unidad de Patrimonio del Estado),offer,single,0,0,0,,yes
+BOE-B-2025-25794,2025-07-07,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Valencia (Unidad de Patrimonio del Estado),offer,unsplit,0,0,0,,yes
+BOE-B-2025-25795,2025-07-07,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Valencia (Unidad de Patrimonio del Estado),offer,single,0,0,0,,yes
+BOE-B-2025-25959,2025-07-08,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Valencia (Unidad de Patrimonio del Estado),offer,single,0,0,0,,yes
+BOE-B-2025-25960,2025-07-08,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Valencia (Unidad de Patrimonio del Estado),offer,single,0,0,0,,yes
+BOE-B-2025-25961,2025-07-08,5B,Other public bodies,Demarcación de Carreteras del Estado en Andalucía Oriental,not_real_estate,table,0,0,0,,no
+BOE-B-2025-26061,2025-07-09,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Huelva,offer,unsplit,9,0,0,,no
+BOE-B-2025-26207,2025-07-10,5B,Other public bodies,Organismo Autónomo Parques Nacionales,offer,not_described,0,0,0,,yes
+BOE-B-2025-26208,2025-07-10,5B,Other public bodies,Organismo Autónomo Parques Nacionales,offer,not_described,0,0,0,,yes
+BOE-B-2025-26329,2025-07-11,5B,Other public bodies,Organismo Autónomo Parques Nacionales,not_real_estate,not_described,0,0,0,,no
+BOE-B-2025-26553,2025-07-14,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Sevilla,offer,single,1,1,1,all,no
+BOE-B-2025-27243,2025-07-22,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Valencia (Unidad de Patrimonio del Estado),offer,single,0,0,0,,yes
+BOE-B-2025-27244,2025-07-22,5B,Patrimonio del Estado (DEH),"Delegación de Economía y Hacienda en Melilla, de Acuerdo de incoación del procedimiento",direct_named,unsplit,0,0,0,,no
+BOE-B-2025-27468,2025-07-24,5B,Patrimonio del Estado (DEH),Delegación Especial de Economía y Hacienda en Cantabria,offer,lote_header,16,4,0,none,no
+BOE-B-2025-27841,2025-07-30,5B,GIESE (Interior),Organismo Autónomo Gerencia de Infraestructuras y Equipamiento de la Seguridad del Estado,offer,numbered,3,2,0,none,no
+BOE-B-2025-27896,2025-07-30,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Huesca,offer,lote_header,5,1,0,none,no
+BOE-B-2025-27897,2025-07-30,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Navarra,offer,single,1,1,1,all,no
+BOE-B-2025-27988,2025-07-31,5B,Patrimonio del Estado (DEH),"Delegación de Economía y Hacienda en Melilla, de Acuerdo de incoación del procedimiento",direct_named,unsplit,0,0,0,,no
+BOE-B-2025-28192,2025-08-01,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Castellón,offer,single,1,1,1,all,no
+BOE-B-2025-28193,2025-08-01,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Castellón,offer,single,1,1,1,all,no
+BOE-B-2025-28441,2025-08-04,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Valladolid,offer,unsplit,1,1,1,all,no
+BOE-B-2025-28506,2025-08-05,5A,Other public bodies,"Licitación de: Confederación Hidrográfica del Duero, O.A. Objeto: Servicio",other,not_described,0,0,0,,no
+BOE-B-2025-28588,2025-08-05,5B,Other public bodies,Agencia de Vivienda y Rehabilitación de Andalucía,offer,numbered,1,0,0,,no
+BOE-B-2025-28728,2025-08-06,5B,TGSS,Tesorería General de la Seguridad Social,offer,single,1,0,0,,no
+BOE-B-2025-29296,2025-08-11,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Madrid,offer,lote_header,6,6,6,all,no
+BOE-B-2025-29297,2025-08-11,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Tarragona,offer,lote_header,1,1,1,all,no
+BOE-B-2025-29398,2025-08-12,5B,Patrimonio del Estado (DEH),Delegación Especial de Economía y Hacienda en Galicia-A Coruña,offer,table,71,1,1,all,no
+BOE-B-2025-30254,2025-08-22,5B,TGSS,Corrección de errores en la Resolución de la Dirección Provincial de la Tesorería General de la Seguridad Social de Valladolid,other,not_described,0,0,0,,no
+BOE-B-2025-30460,2025-08-25,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Segovia,offer,table,147,0,0,,no
+BOE-B-2025-30592,2025-08-26,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Valencia,offer,single,1,1,1,all,no
+BOE-B-2025-31165,2025-09-01,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Toledo,offer,lote_header,1,0,0,,no
+BOE-B-2025-31250,2025-09-01,5B,TGSS,Tesorería General de la Seguridad Social,offer,lote_header,3,3,2,some,no
+BOE-B-2025-31343,2025-09-02,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Albacete,offer,lote_header,2,0,0,,no
+BOE-B-2025-31372,2025-09-02,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Tarragona,offer,single,1,1,1,all,no
+BOE-B-2025-31519,2025-09-04,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en León,offer,lote_header,48,0,0,,no
+BOE-B-2025-31520,2025-09-04,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en León,offer,lote_header,13,0,0,,no
+BOE-B-2025-32049,2025-09-08,5B,Patrimonio del Estado (DEH),Delegación Especial de Economía y Hacienda en Castilla y León-Valladolid,offer,lote_header,4,1,0,none,no
+BOE-B-2025-32050,2025-09-08,5B,Patrimonio del Estado (DEH),Delegación Especial de Economía y Hacienda en Castilla y León-Valladolid,offer,lote_header,19,0,0,,no
+BOE-B-2025-32304,2025-09-10,5B,INVIED (Defensa),"Instituto de Vivienda, Infraestructura y Equipamiento de la Defensa",annulment,single,0,0,0,,no
+BOE-B-2025-32311,2025-09-10,5B,FOGASA,Fondo de Garantía Salarial O.A. (FOGASA),offer,lote_header,1,1,0,none,no
+BOE-B-2025-32332,2025-09-10,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Granada,offer,single,1,1,1,all,no
+BOE-B-2025-33234,2025-09-17,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Sevilla,offer,single,1,0,0,,no
+BOE-B-2025-33308,2025-09-18,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Cádiz,offer,lote_header,2,1,1,all,no
+BOE-B-2025-33423,2025-09-19,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Valencia (Unidad de Patrimonio del Estado),offer,single,0,0,0,,yes
+BOE-B-2025-33424,2025-09-19,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Valencia (Unidad de Patrimonio del Estado),offer,single,0,0,0,,yes
+BOE-B-2025-33425,2025-09-19,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Valencia (Unidad de Patrimonio del Estado),offer,single,0,0,0,,yes
+BOE-B-2025-33426,2025-09-19,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Valencia (Unidad de Patrimonio del Estado),offer,single,0,0,0,,yes
+BOE-B-2025-33463,2025-09-19,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Valladolid,offer,single,1,1,1,all,no
+BOE-B-2025-34005,2025-09-22,5B,Other public bodies,"Fondo Español de Garantía Agraria, O.A.",offer,lote_header,1,0,0,,no
+BOE-B-2025-34208,2025-09-23,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad social de Cuenca,offer,single,1,1,1,all,no
+BOE-B-2025-34224,2025-09-24,5A,Other public bodies,Formalización de contratos de: Dirección General de Seguridad Jurídica y Fe Pública. Objeto: Contrato de concesión de servicios,other,not_described,0,0,0,,no
+BOE-B-2025-34294,2025-09-24,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Huesca,offer,lote_header,19,0,0,,no
+BOE-B-2025-34458,2025-09-25,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de A Coruña,offer,unsplit,1,1,0,none,no
+BOE-B-2025-35183,2025-09-30,5B,FOGASA,Fondo de Garantía Salarial O.A. (FOGASA),offer,lote_header,5,4,0,none,no
+BOE-B-2025-35282,2025-10-01,5B,Other public bodies,Organismo Autónomo Parques Nacionales,offer,not_described,0,0,0,,yes
+BOE-B-2025-35321,2025-10-01,5B,Other public bodies,"Aena S.M.E., S.A.",not_real_estate,not_described,0,0,0,,no
+BOE-B-2025-35395,2025-10-02,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Valencia (Unidad de Patrimonio del Estado),offer,single,0,0,0,,yes
+BOE-B-2025-35396,2025-10-02,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Badajoz,offer,lote_header,8,0,0,,no
+BOE-B-2025-35397,2025-10-02,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Pontevedra,offer,lote_header,3,0,0,,no
+BOE-B-2025-35505,2025-10-03,5B,Patrimonio del Estado (DEH),Delegación Especial de Economía y Hacienda en Madrid,offer,lote_header,7,0,0,,no
+BOE-B-2025-35526,2025-10-03,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Bizkaia,offer,single,1,1,1,all,no
+BOE-B-2025-36000,2025-10-06,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Huesca,annulment,not_described,0,0,0,,no
+BOE-B-2025-36179,2025-10-07,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Valencia,offer,lote_header,131,0,0,,no
+BOE-B-2025-36295,2025-10-08,5B,Patrimonio del Estado (DEH),Delegación Especial de Economía y Hacienda en Madrid,offer,lote_header,9,0,0,,no
+BOE-B-2025-36320,2025-10-08,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Salamanca,offer,single,1,1,1,all,no
+BOE-B-2025-36518,2025-10-10,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Cáceres,offer,lote_header,9,1,1,all,no
+BOE-B-2025-36949,2025-10-13,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Soria,offer,lote_header,34,0,0,,no
+BOE-B-2025-37257,2025-10-15,5B,Port authorities,Autoridad Portuaria de Huelva,offer,single,1,0,0,,no
+BOE-B-2025-37479,2025-10-17,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Lugo,offer,lote_header,62,0,0,,no
+BOE-B-2025-37480,2025-10-17,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Asturias,offer,lote_header,30,0,0,,no
+BOE-B-2025-37964,2025-10-20,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Ciudad Real,offer,lote_header,16,0,0,,no
+BOE-B-2025-37965,2025-10-20,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Ciudad Real,offer,lote_header,1,0,0,,no
+BOE-B-2025-37966,2025-10-20,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Ciudad Real,offer,lote_header,1,1,1,all,no
+BOE-B-2025-37969,2025-10-20,5B,Port authorities,Autoridad Portuaria de Las Palmas,not_real_estate,not_described,0,0,0,,no
+BOE-B-2025-38047,2025-10-20,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Tarragona,offer,lote_header,1,0,0,,no
+BOE-B-2025-38048,2025-10-20,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Madrid,offer,lote_header,3,3,3,all,no
+BOE-B-2025-38161,2025-10-21,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Cuenca,offer,single,75,0,0,,no
+BOE-B-2025-38171,2025-10-21,5B,Other public bodies,Organismo Autónomo Parques Nacionales,offer,not_described,0,0,0,,yes
+BOE-B-2025-38189,2025-10-21,5B,Other public bodies,Delegación del Gobierno,offer,single,1,0,0,,no
+BOE-B-2025-38192,2025-10-21,5B,Other public bodies,Dirección General de Patrimonio,offer,single,1,0,0,,no
+BOE-B-2025-38265,2025-10-22,5B,Patrimonio del Estado (DEH),Delegación Especial de Economía y Hacienda en Madrid,offer,lote_header,6,2,2,all,no
+BOE-B-2025-38266,2025-10-22,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Alicante,offer,lote_header,11,0,0,,no
+BOE-B-2025-39055,2025-10-27,5B,TGSS,Tesorería General de la Seguridad Social,offer,single,1,0,0,,no
+BOE-B-2025-39610,2025-10-31,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Granada,offer,lote_header,3,0,0,,no
+BOE-B-2025-40188,2025-11-03,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Madrid,offer,lote_header,5,5,5,all,no
+BOE-B-2025-40399,2025-11-04,5B,TGSS,Tesorería General de la Seguridad Social,offer,lote_header,2,2,2,all,no
+BOE-B-2025-40656,2025-11-06,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de A Coruña,offer,single,1,1,1,all,no
+BOE-B-2025-40766,2025-11-07,5A,Other public bodies,Anuncio de formalización de contratos de: Subdirección General de la Oficina Presupuestaria y Gestión Económica. Objeto:,other,not_described,0,0,0,,no
+BOE-B-2025-40784,2025-11-07,5B,Patrimonio del Estado (DEH),"Delegación de Economía y Hacienda en Melilla, de Acuerdo de incoación del procedimiento",direct_named,unsplit,0,0,0,,no
+BOE-B-2025-41389,2025-11-12,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Sevilla,offer,single,1,0,0,,no
+BOE-B-2025-42224,2025-11-17,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Pontevedra,offer,lote_header,8,0,0,,no
+BOE-B-2025-42225,2025-11-17,5B,GIESE (Interior),Organismo Autónomo Gerencia de Infraestructuras y Equipamiento de la Seguridad del Estado,offer,numbered,3,2,0,none,no
+BOE-B-2025-42596,2025-11-19,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Teruel,offer,table,48,0,0,,no
+BOE-B-2025-42642,2025-11-19,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Lugo,offer,single,1,0,0,,no
+BOE-B-2025-43395,2025-11-24,5B,Patrimonio del Estado (DEH),"Delegación de Economía y Hacienda en Melilla, de Acuerdo de incoación del procedimiento",direct_named,unsplit,0,0,0,,no
+BOE-B-2025-43458,2025-11-24,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Cádiz,offer,single,1,1,1,all,no
+BOE-B-2025-43639,2025-11-25,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Madrid,offer,lote_header,2,2,2,all,no
+BOE-B-2025-43640,2025-11-25,5B,Other public bodies,"Agencia de Medio Ambiente y Agua de Andalucía, M.P.",offer,single,1,0,0,,no
+BOE-B-2025-43751,2025-11-26,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Asturias,offer,lote_header,3,3,3,all,no
+BOE-B-2025-43890,2025-11-27,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Granada,offer,single,1,1,1,all,no
+BOE-B-2025-44022,2025-11-28,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Tarragona,offer,lote_header,2,2,2,all,no
+BOE-B-2025-44023,2025-11-28,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Zaragoza,offer,lote_header,4,3,3,all,no
+BOE-B-2025-44470,2025-12-01,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Segovia,offer,table,174,0,0,,no
+BOE-B-2025-44680,2025-12-02,5B,Other public bodies,Organismo Autónomo Parques Nacionales,offer,not_described,0,0,0,,yes
+BOE-B-2025-44901,2025-12-03,5B,Other public bodies,"Delegación Territorial de Economía, Hacienda, Fondos Europeos y de Industria, Energía y Minas en Jaén",offer,single,0,0,0,,yes
+BOE-B-2025-45031,2025-12-04,5B,INVIED (Defensa),"Organismo autónomo Instituto de Vivienda, Infraestructura y Equipamiento de la Defensa",offer,numbered,24,19,0,none,no
+BOE-B-2025-45884,2025-12-11,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Navarra,offer,lote_header,4,4,4,all,no
+BOE-B-2025-46302,2025-12-15,5B,Other public bodies,Dirección General del Sector Ferroviario,offer,unsplit,0,0,0,,yes
+BOE-B-2025-46481,2025-12-16,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Illes Balears,offer,lote_header,1,0,0,,no
+BOE-B-2025-46484,2025-12-16,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Girona,offer,lote_header,2,0,0,,no
+BOE-B-2025-46622,2025-12-17,5B,TGSS,Tesorería General de la Seguridad Social,offer,unsplit,1,1,1,all,no
+BOE-B-2025-46956,2025-12-19,5B,TGSS,Dirección provincial de la Tesorería General de la Seguridad Social de Valladolid,offer,single,1,1,1,all,no
+BOE-B-2025-47585,2025-12-24,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Zamora,offer,lote_header,6,1,0,none,no
+BOE-B-2025-47586,2025-12-24,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Castellón-Unidad de Patrimonio del Estado,offer,single,0,0,0,,yes
+BOE-B-2026-38,2026-01-01,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en León,offer,lote_header,58,0,0,,no
+BOE-B-2026-39,2026-01-01,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en León,offer,lote_header,5,1,0,none,no
+BOE-B-2026-40,2026-01-01,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en León,offer,lote_header,13,0,0,,no
+BOE-B-2026-227,2026-01-05,5B,Patrimonio del Estado (DEH),Delegación Especial de Economía y Hacienda en Asturias,offer,lote_header,11,4,4,all,no
+BOE-B-2026-666,2026-01-13,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Valencia (Unidad de Patrimonio del Estado),offer,single,0,0,0,,yes
+BOE-B-2026-1336,2026-01-20,5B,FOGASA,Fondo de Garantía Salarial O.A. (FOGASA),offer,lote_header,1,0,0,,no
+BOE-B-2026-1343,2026-01-20,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Cádiz,offer,lote_header,2,2,2,all,no
+BOE-B-2026-1413,2026-01-21,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Illes Balears,offer,single,1,0,0,,no
+BOE-B-2026-2415,2026-01-30,5B,Other public bodies,Organismo Autónomo Parques Nacionales,offer,not_described,0,0,0,,yes
+BOE-B-2026-2418,2026-01-30,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Valladolid,offer,lote_header,2,2,2,all,no
+BOE-B-2026-2873,2026-02-02,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Valladolid,offer,unsplit,1,1,1,all,no
+BOE-B-2026-3823,2026-02-10,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Badajoz,offer,lote_header,6,0,0,,no
+BOE-B-2026-3926,2026-02-11,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Ourense,offer,numbered,66,1,0,none,no
+BOE-B-2026-4609,2026-02-16,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Valencia (Unidad de Patrimonio del Estado),offer,single,0,0,0,,yes
+BOE-B-2026-4787,2026-02-17,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Navarra,offer,single,1,1,1,all,no
+BOE-B-2026-4788,2026-02-17,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Burgos,offer,single,1,1,1,all,no
+BOE-B-2026-4879,2026-02-18,5B,Other public bodies,"Agencia de Medio Ambiente y Agua de Andalucía, M.P.",offer,single,1,0,0,,no
+BOE-B-2026-5039,2026-02-20,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Gipuzkoa,offer,single,1,0,0,,no
+BOE-B-2026-5040,2026-02-20,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Gipuzkoa,offer,single,2,0,0,,no
+BOE-B-2026-5465,2026-02-23,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Valencia (Unidad de Patrimonio del Estado),offer,single,0,0,0,,yes
+BOE-B-2026-5471,2026-02-23,5B,Port authorities,Autoridad Portuaria de Almería,offer,single,1,0,0,,no
+BOE-B-2026-5648,2026-02-24,5B,Other public bodies,Organismo Autónomo Parques Nacionales,offer,not_described,0,0,0,,yes
+BOE-B-2026-5835,2026-02-26,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Cuenca,offer,single,58,0,0,,no
+BOE-B-2026-5849,2026-02-26,5B,Port authorities,Corrección de errores de la Autoridad Portuaria de Almería del anuncio,other,single,0,0,0,,no
+BOE-B-2026-6703,2026-03-05,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Burgos,offer,single,1,0,0,,no
+BOE-B-2026-7459,2026-03-11,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Ávila,offer,table,16,0,0,,no
+BOE-B-2026-7576,2026-03-12,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Huelva,offer,unsplit,7,0,0,,no
+BOE-B-2026-7577,2026-03-12,5B,Patrimonio del Estado (DEH),Delegación Especial de Economía y Hacienda en País Vasco-Bizkaia,offer,single,1,1,0,none,no
+BOE-B-2026-7578,2026-03-12,5B,Patrimonio del Estado (DEH),Corrección de errores de la Resolución de la Delegación de Economía y Hacienda en Badajoz,other,single,0,0,0,,no
+BOE-B-2026-8133,2026-03-16,5B,Other public bodies,"Delegación Territorial de Economía, Hacienda, Fondos Europeos y de Industria, Energía y Minas en Jaén",offer,single,0,0,0,,yes
+BOE-B-2026-8259,2026-03-17,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Soria,offer,lote_header,30,0,0,,no
+BOE-B-2026-8298,2026-03-17,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Sevilla,offer,single,1,0,0,,no
+BOE-B-2026-8365,2026-03-18,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Valencia (Unidad de Patrimonio del Estado),offer,single,0,0,0,,yes
+BOE-B-2026-8405,2026-03-18,5B,Other public bodies,"Aena S.M.E., S.A.",not_real_estate,not_described,0,0,0,,no
+BOE-B-2026-8462,2026-03-19,5B,Patrimonio del Estado (DEH),Delegación Especial de Economía y Hacienda en Andalucía-Sevilla,other,single,0,0,0,,no
+BOE-B-2026-9000,2026-03-23,5B,GIESE (Interior),Organismo Autónomo Gerencia de Infraestructuras y Equipamiento de la Seguridad del Estado,offer,numbered,3,3,0,none,no
+BOE-B-2026-9034,2026-03-23,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Burgos,offer,single,1,0,0,,no
+BOE-B-2026-9511,2026-03-27,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Gipuzkoa,offer,numbered,1,1,1,all,no
+BOE-B-2026-10019,2026-03-31,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Salamanca,offer,single,1,0,0,,no
+BOE-B-2026-10020,2026-03-31,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Sevilla,offer,unsplit,1,1,1,all,no
+BOE-B-2026-10413,2026-04-06,5B,Patrimonio del Estado (DEH),"Delegación de Economía y Hacienda en Melilla, de Acuerdo de incoación de procedimiento",direct_named,single,0,0,0,,no
+BOE-B-2026-10414,2026-04-06,5B,Patrimonio del Estado (DEH),Delegación Especial de Economía y Hacienda en Madrid,offer,lote_header,5,0,0,,no
+BOE-B-2026-10744,2026-04-07,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de A Coruña,offer,single,1,1,0,none,no
+BOE-B-2026-10796,2026-04-08,5A,Other public bodies,"Formalización de contratos de: Confederación Hidrográfica del Duero, O.A. Objeto: Servicio",other,not_described,0,0,0,,no
+BOE-B-2026-10828,2026-04-08,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Gipuzkoa,offer,numbered,1,1,1,all,no
+BOE-B-2026-11303,2026-04-13,5A,Other public bodies,"Formalización de contratos de: Confederación Hidrográfica del Duero, O.A. Objeto: Servicio",other,not_described,0,0,0,,no
+BOE-B-2026-11316,2026-04-13,5B,Patrimonio del Estado (DEH),Delegación Especial de Economía y Hacienda en Madrid,offer,lote_header,5,0,0,,no
+BOE-B-2026-11318,2026-04-13,5B,GIESE (Interior),Organismo Autónomo Gerencia de Infraestructuras y Equipamiento de la Seguridad del Estado,offer,single,3,3,0,none,no
+BOE-B-2026-11561,2026-04-14,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Madrid,offer,lote_header,4,4,4,all,no
+BOE-B-2026-11562,2026-04-14,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Tarragona,offer,lote_header,2,2,2,all,no
+BOE-B-2026-11732,2026-04-16,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Ciudad Real,offer,lote_header,10,0,0,,no
+BOE-B-2026-11733,2026-04-16,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Ciudad Real,not_real_estate,lote_header,0,0,0,,no
+BOE-B-2026-11734,2026-04-16,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en León,offer,lote_header,59,0,0,,no
+BOE-B-2026-11735,2026-04-16,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en León,offer,lote_header,13,0,0,,no
+BOE-B-2026-11875,2026-04-17,5B,Patrimonio del Estado (DEH),Delegación Especial de Economía y Hacienda en La Rioja,offer,lote_header,40,1,0,none,no
+BOE-B-2026-12332,2026-04-20,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en León,offer,lote_header,17,0,0,,no
+BOE-B-2026-12463,2026-04-21,5B,FOGASA,Fondo de Garantía Salarial O.A. (FOGASA),other,lote_header,0,0,0,,no
+BOE-B-2026-12594,2026-04-22,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Cádiz,offer,unsplit,1,1,1,all,no
+BOE-B-2026-12595,2026-04-22,5B,TGSS,Tesorería General de la Seguridad Social,offer,single,1,0,0,,no
+BOE-B-2026-13248,2026-04-27,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Tarragona,offer,lote_header,1,0,0,,no
+BOE-B-2026-13410,2026-04-28,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Valencia,offer,lote_header,2,2,2,all,no
+BOE-B-2026-13474,2026-04-29,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Teruel,offer,table,31,1,0,none,no
+BOE-B-2026-13591,2026-04-30,5B,INVIED (Defensa),"Organismo autónomo Instituto de Vivienda, Infraestructura y Equipamiento de la Defensa",offer,numbered,19,10,0,none,no
+BOE-B-2026-14342,2026-05-06,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Castellón-Unidad de Patrimonio del Estado,offer,single,0,0,0,,yes
+BOE-B-2026-14343,2026-05-06,5B,Port authorities,Autoridad Portuaria de la Bahía de Algeciras,offer,unsplit,1,1,0,none,no
+BOE-B-2026-14620,2026-05-08,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Valladolid,offer,single,1,1,1,all,no
+BOE-B-2026-15079,2026-05-11,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad social de Cuenca,offer,single,1,1,1,all,no
+BOE-B-2026-15264,2026-05-12,5B,TGSS,Tesorería General de la Seguridad Social,offer,single,1,1,1,all,no
+BOE-B-2026-15979,2026-05-18,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Teruel,offer,table,31,1,0,none,no
+BOE-B-2026-16239,2026-05-19,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Jaén,offer,unsplit,1,1,1,all,no
+BOE-B-2026-16609,2026-05-22,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Cáceres,offer,lote_header,4,1,1,all,no
+BOE-B-2026-17126,2026-05-25,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Asturias,offer,lote_header,2,2,2,all,no
+BOE-B-2026-17475,2026-05-28,5B,INVIED (Defensa),"Instituto de Vivienda, Infraestructura y Equipamiento de la Defensa, de fecha 22 de mayo de 2026",annulment,unsplit,0,0,0,,no
+BOE-B-2026-17476,2026-05-28,5B,Patrimonio del Estado (DEH),"Delegación de Economía y Hacienda en Melilla, de Acuerdo de incoación del procedimiento",direct_named,unsplit,0,0,0,,no
+BOE-B-2026-17576,2026-05-29,5B,Patrimonio del Estado (DEH),Delegación Especial de Economía y Hacienda en Murcia,offer,single,1,0,0,,no
+BOE-B-2026-18373,2026-06-02,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Albacete,offer,single,1,1,1,all,no
+BOE-B-2026-18464,2026-06-03,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Valencia (Unidad de Patrimonio del Estado),offer,single,0,0,0,,yes
+BOE-B-2026-18499,2026-06-03,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Tarragona,offer,lote_header,1,1,1,all,no
+BOE-B-2026-18614,2026-06-04,5B,Other public bodies,Demarcación de Carreteras del Estado en Andalucía Oriental,offer,single,0,0,0,,yes
+BOE-B-2026-19264,2026-06-08,5B,TGSS,Corrección de errores del anuncio de la Resolución de la Dirección Provincial de la Tesorería General de la Seguridad So,correction,single,0,0,0,,no
+BOE-B-2026-19379,2026-06-09,5B,Port authorities,Autoridad Portuaria de Las Palmas,offer,lote_header,2,0,0,,no
+BOE-B-2026-19516,2026-06-10,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Tarragona,offer,lote_header,1,1,1,all,no
+BOE-B-2026-19600,2026-06-11,5B,INVIED (Defensa),"Instituto de Vivienda, Infraestructura y Equipamiento de la Defensa, de fecha 5 de junio de 2026",annulment,single,0,0,0,,no
+BOE-B-2026-19602,2026-06-11,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Salamanca,offer,lote_header,12,0,0,,no
+BOE-B-2026-20431,2026-06-16,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Valencia (Unidad de Patrimonio del Estado),offer,single,0,0,0,,yes
+BOE-B-2026-21235,2026-06-22,5B,Other public bodies,Demarcación de Carreteras del Estado en Andalucía Oriental,offer,table,0,0,0,,yes
+BOE-B-2026-21653,2026-06-25,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Salamanca,offer,lote_header,5,0,0,,no
+BOE-B-2026-21756,2026-06-26,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Cádiz,offer,unsplit,1,1,1,all,no
+BOE-B-2026-22413,2026-07-01,5B,INVIED (Defensa),"Organismo autónomo Instituto de Vivienda, Infraestructura y Equipamiento de la Defensa",offer,numbered,17,13,0,none,no
+BOE-B-2026-23716,2026-07-10,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Melilla de incoación del procedimiento,direct_named,single,0,0,0,,no
+BOE-B-2026-24019,2026-07-13,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Almería,offer,single,1,1,1,all,no
+BOE-B-2026-24119,2026-07-14,5B,GIESE (Interior),Organismo Autónomo Gerencia de Infraestructuras y Equipamiento de la Seguridad del Estado,offer,numbered,3,3,0,none,no
+BOE-B-2026-24337,2026-07-16,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Valencia (Unidad de Patrimonio del Estado),offer,single,0,0,0,,yes
+BOE-B-2026-24669,2026-07-20,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Valencia (Unidad de Patrimonio del Estado),offer,unsplit,0,0,0,,yes
+BOE-B-2026-24797,2026-07-21,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Cádiz,offer,single,1,1,1,all,no
+BOE-B-2026-25079,2026-07-24,5B,Port authorities,Consejo de Administración de la Autoridad Portuaria de Almería,result,not_described,0,0,0,,no
+BOE-B-2026-25447,2026-07-28,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda,offer,lote_header,3,0,0,,no
+BOE-B-2026-26097,2026-08-04,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Bizkaia,offer,single,1,0,0,,no
+BOE-B-2026-26215,2026-08-05,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Ciudad Real,offer,single,1,0,0,,no
+BOE-B-2026-26403,2026-08-07,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Alicante,offer,single,1,1,1,all,no
+BOE-B-2026-26675,2026-08-10,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Zamora,offer,lote_header,32,0,0,,no
+BOE-B-2026-26676,2026-08-10,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Pontevedra,offer,lote_header,4,0,0,,no
+BOE-B-2026-26677,2026-08-10,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Pontevedra,offer,lote_header,1,1,1,all,no
+BOE-B-2026-26700,2026-08-10,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Alicante,offer,lote_header,4,4,4,all,no
+BOE-B-2026-26784,2026-08-11,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Salamanca,offer,unsplit,1,1,1,all,no
+BOE-B-2026-27211,2026-08-17,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Pontevedra,offer,lote_header,3,0,0,,no
+BOE-B-2026-27359,2026-08-19,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Albacete,offer,lote_header,2,0,0,,no
+BOE-B-2026-27853,2026-08-26,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Málaga,offer,unsplit,1,1,0,none,no
+BOE-B-2026-28007,2026-08-28,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Illes Balears,offer,single,1,0,0,,no
+BOE-B-2026-28417,2026-09-02,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de PALENCIA,offer,single,1,1,1,all,no
+BOE-B-2026-28491,2026-09-03,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de PALENCIA,offer,single,1,1,1,all,no
+BOE-B-2026-28536,2026-09-04,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Palencia,offer,lote_header,19,0,0,,no
+BOE-B-2026-29249,2026-09-09,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Huesca,offer,lote_header,6,0,0,,no
+BOE-B-2026-29281,2026-09-09,5B,Other public bodies,"Aena S.M.E., S.A.",not_real_estate,not_described,0,0,0,,no
+BOE-B-2026-29318,2026-09-10,5A,Other public bodies,Licitación de: Junta de Contratación del Ministerio de Sanidad. Objeto: Servicio,other,not_described,0,0,0,,no
+BOE-B-2026-29323,2026-09-10,5B,Patrimonio del Estado (DEH),Delegación Especial de Economía y Hacienda en Valencia (Unidad de Patrimonio del Estado),offer,single,0,0,0,,yes
+BOE-B-2026-29427,2026-09-11,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Cádiz,offer,lote_header,1,1,1,all,no
+BOE-B-2026-29802,2026-09-14,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Cuenca,offer,single,1,0,0,,no
+BOE-B-2026-29815,2026-09-14,5B,TGSS,Dirección Provincial de la Tesorería General de la Seguridad Social de Sevilla,offer,single,1,1,1,all,no
+BOE-B-2026-30091,2026-09-17,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Tarragona,offer,table,14,0,0,,no
+BOE-B-2026-30623,2026-09-22,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en Segovia,offer,table,226,0,0,,no
+BOE-B-2026-30624,2026-09-22,5B,Patrimonio del Estado (DEH),Delegación Especial de Economía y Hacienda en Valencia (Unidad de Patrimonio del Estado),offer,single,0,0,0,,yes
+BOE-B-2026-30834,2026-09-24,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en León,offer,lote_header,20,0,0,,no
+BOE-B-2026-30835,2026-09-24,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en León,offer,lote_header,14,0,0,,no
+BOE-B-2026-30836,2026-09-24,5B,Patrimonio del Estado (DEH),Delegación de Economía y Hacienda en León,offer,lote_header,11,0,0,,no
+BOE-B-2026-31415,2026-09-28,5B,Patrimonio del Estado (DEH),Delegación Especial de Economía y Hacienda en Madrid,offer,lote_header,5,0,0,,no
+BOE-B-2026-31438,2026-09-28,5B,TGSS,Tesorería General de la Seguridad Social de Lugo,offer,single,1,1,0,none,no
+BOE-B-2026-31572,2026-09-29,5B,TGSS,Tesorería General de la Seguridad Social de Lugo,offer,single,1,0,0,,no

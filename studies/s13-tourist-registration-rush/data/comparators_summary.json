@@ -1,0 +1,142 @@
+{
+ "andalucia": {
+  "label": "Andalucía",
+  "total_2023_to_end": 67030,
+  "nonworking_share": 0.09391317320602716,
+  "mean_per_working_day": 66.08813928182808,
+  "mean_per_sunday": 16.296875,
+  "count_on_D": 599,
+  "base_median": 76.0,
+  "base_max": 149,
+  "rank_D_since_2016": 3,
+  "peak_day_24mar_4apr": "2025-03-31",
+  "peak_count": 787,
+  "rank_peak_since_2016": 1,
+  "R2": {
+   "O": 3955,
+   "E": 837.8157894736843,
+   "B": 3199,
+   "ratio": 4.720608097496623
+  },
+  "R3_share_ge": 0.0,
+  "R3_max": 2.3907238229093464,
+  "R5": {
+   "O": 1276,
+   "E": 1561.6184210526317,
+   "ratio": 0.8171010169948518
+  },
+  "F2": {
+   "ratio": 0.40230847173884315,
+   "lo": 0.32305966981906553,
+   "hi": 0.5009975603686195,
+   "var_log": 0.012528244328024168
+  },
+  "pre12": 22699,
+  "post12": 9132
+ },
+ "euskadi": {
+  "label": "País Vasco",
+  "total_2023_to_end": 1746,
+  "nonworking_share": 0.006300114547537228,
+  "mean_per_working_day": 1.8920392584514723,
+  "mean_per_sunday": 0.026041666666666668,
+  "count_on_D": 17,
+  "base_median": 1,
+  "base_max": 5,
+  "rank_D_since_2016": 1,
+  "peak_day_24mar_4apr": "2025-04-02",
+  "peak_count": 17,
+  "rank_peak_since_2016": 1,
+  "R2": {
+   "O": 63,
+   "E": 15.263157894736842,
+   "B": 58,
+   "ratio": 4.127586206896551
+  },
+  "R3_share_ge": 0.0,
+  "R3_max": 3.0625,
+  "R5": {
+   "O": 4,
+   "E": 25.947368421052634,
+   "ratio": 0.15415821501014199
+  },
+  "F2": {
+   "ratio": 0.15326251896813353,
+   "lo": 0.11689433523431639,
+   "hi": 0.20094557767382526,
+   "var_log": 0.019100629391468078
+  },
+  "pre12": 659,
+  "post12": 101
+ },
+ "mallorca": {
+  "label": "Mallorca",
+  "total_2023_to_end": 133,
+  "nonworking_share": 0.045112781954887216,
+  "mean_per_working_day": 0.1383442265795207,
+  "mean_per_sunday": 0.005208333333333333,
+  "count_on_D": 0,
+  "base_median": 0,
+  "base_max": 0,
+  "rank_D_since_2016": 1258,
+  "peak_day_24mar_4apr": "2025-03-24",
+  "peak_count": 0,
+  "rank_peak_since_2016": 1258,
+  "R2": {
+   "O": 0,
+   "E": 0.0,
+   "B": 0,
+   "ratio": NaN
+  },
+  "R3_share_ge": 0.0,
+  "R3_max": 24.0,
+  "R5": {
+   "O": 0,
+   "E": 0.0,
+   "ratio": null
+  },
+  "F2": {
+   "ratio": 1.064516129032258,
+   "lo": 0.4034430344050833,
+   "hi": 2.808809403887294,
+   "var_log": 0.2450453746710229
+  },
+  "pre12": 31,
+  "post12": 33
+ },
+ "comunitat_valenciana": {
+  "label": "Comunitat Valenciana",
+  "total_2023_to_end": 38933,
+  "nonworking_share": 0.057509054015873425,
+  "mean_per_working_day": 40.0589519650655,
+  "mean_per_sunday": 5.088541666666667,
+  "count_on_D": 287,
+  "base_median": 40,
+  "base_max": 75,
+  "rank_D_since_2016": 1,
+  "peak_day_24mar_4apr": "2025-04-02",
+  "peak_count": 287,
+  "rank_peak_since_2016": 1,
+  "R2": {
+   "O": 1093,
+   "E": 456.2105263157895,
+   "B": 1740,
+   "ratio": 2.3958237194277805
+  },
+  "R3_share_ge": 0.0,
+  "R3_max": 1.6366116078193667,
+  "R5": {
+   "O": 779,
+   "E": 843.578947368421,
+   "ratio": 0.9234464686798104
+  },
+  "F2": {
+   "ratio": 0.4753687091379048,
+   "lo": 0.3932296865186991,
+   "hi": 0.5746651826519518,
+   "var_log": 0.00936716314576276
+  },
+  "pre12": 13154,
+  "post12": 6253
+ }
+}

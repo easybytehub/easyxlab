@@ -1,0 +1,226 @@
+{
+ "period": [
+  "2025-01-01",
+  "2026-09-30"
+ ],
+ "candidate_notices": 361,
+ "offer_notices": 313,
+ "notice_kinds": {
+  "offer": 313,
+  "other": 16,
+  "direct_named": 11,
+  "annulment": 8,
+  "correction": 4,
+  "not_real_estate": 8,
+  "result": 1
+ },
+ "lots_total": 2917,
+ "lots_kept": 2833,
+ "lots_dropped": 84,
+ "covered": 306,
+ "excluded": 2487,
+ "undeterminable": 40,
+ "headline": {
+  "without_label": 144,
+  "covered": 306,
+  "pct": 47.1,
+  "ci": [
+   41.5,
+   52.7
+  ]
+ },
+ "by_seller": {
+  "TGSS": {
+   "covered": 160,
+   "without_label": 14,
+   "pct": 8.8,
+   "notices": 122
+  },
+  "INVIED (Defensa)": {
+   "covered": 86,
+   "without_label": 86,
+   "pct": 100.0,
+   "notices": 5
+  },
+  "Patrimonio del Estado (DEH)": {
+   "covered": 33,
+   "without_label": 17,
+   "pct": 51.5,
+   "notices": 102
+  },
+  "GIESE (Interior)": {
+   "covered": 21,
+   "without_label": 21,
+   "pct": 100.0,
+   "notices": 7
+  },
+  "FOGASA": {
+   "covered": 5,
+   "without_label": 5,
+   "pct": 100.0,
+   "notices": 5
+  },
+  "Port authorities": {
+   "covered": 1,
+   "without_label": 1,
+   "pct": 100.0,
+   "notices": 5
+  },
+  "Other public bodies": {
+   "covered": 0,
+   "without_label": 0,
+   "pct": null,
+   "notices": 8
+  }
+ },
+ "notices_with_covered": 135,
+ "notices_label": {
+  "all": 101,
+  "none": 33,
+  "some": 1
+ },
+ "sensitivity": {
+  "primary": {
+   "covered": 306,
+   "without_label": 144,
+   "pct": 47.1
+  },
+  "two_letters": {
+   "covered": 306,
+   "without_label": 149,
+   "pct": 48.7
+  },
+  "lenient": {
+   "covered": 306,
+   "without_label": 143,
+   "pct": 46.7
+  },
+  "faq_3_2_e": {
+   "covered": 313,
+   "without_label": 151,
+   "pct": 48.2
+  },
+  "strict_exempt": {
+   "covered": 319,
+   "without_label": 157,
+   "pct": 49.2
+  },
+  "distinct_properties": {
+   "covered": 250,
+   "without_label": 123,
+   "pct": 49.2
+  },
+  "state_bodies_only": {
+   "covered": 306,
+   "without_label": 144,
+   "pct": 47.1
+  }
+ },
+ "reviewed": 848,
+ "notice_label_by_seller": {
+  "ALL": {
+   "notices_with_covered_lots": 135,
+   "label_in_all": 101,
+   "label_in_some": 1,
+   "label_in_none": 33
+  },
+  "TGSS": {
+   "notices_with_covered_lots": 96,
+   "label_in_all": 89,
+   "label_in_some": 1,
+   "label_in_none": 6
+  },
+  "INVIED (Defensa)": {
+   "notices_with_covered_lots": 5,
+   "label_in_all": 0,
+   "label_in_some": 0,
+   "label_in_none": 5
+  },
+  "Patrimonio del Estado (DEH)": {
+   "notices_with_covered_lots": 24,
+   "label_in_all": 12,
+   "label_in_some": 0,
+   "label_in_none": 12
+  },
+  "GIESE (Interior)": {
+   "notices_with_covered_lots": 7,
+   "label_in_all": 0,
+   "label_in_some": 0,
+   "label_in_none": 7
+  },
+  "FOGASA": {
+   "notices_with_covered_lots": 2,
+   "label_in_all": 0,
+   "label_in_some": 0,
+   "label_in_none": 2
+  },
+  "Port authorities": {
+   "notices_with_covered_lots": 1,
+   "label_in_all": 0,
+   "label_in_some": 0,
+   "label_in_none": 1
+  },
+  "Other public bodies": {
+   "notices_with_covered_lots": 0,
+   "label_in_all": 0,
+   "label_in_some": 0,
+   "label_in_none": 0
+  }
+ },
+ "declared_exemptions": 23,
+ "declared_exemptions_32e_part_of_building": 7,
+ "declared_exemptions_32e": 9,
+ "scope_reasons": {
+  "excluded | land: not a building (art. 2.h)": 2386,
+  "covered | ": 306,
+  "excluded | industrial/agricultural non-residential (art. 3.2.c)": 9,
+  "undeterminable | protected building (art. 3.2.a applies only conditionally)": 1,
+  "excluded | garage or storage room (MITECO FAQ v6.0 no. 14)": 75,
+  "undeterminable | use of the unit not stated": 6,
+  "undeterminable | undivided share or limited right": 6,
+  "undeterminable | former military complex, use of buildings not stated": 2,
+  "excluded | declared exempt by the seller": 15,
+  "undeterminable | type not stated": 9,
+  "undeterminable | technical building of unknown use": 3,
+  "excluded | defence non-residential (art. 3.2.c)": 2,
+  "undeterminable | properties not described in the notice": 3,
+  "undeterminable | ruin (no official guidance; may fall outside art. 2.h)": 7,
+  "undeterminable | possibly art. 3.2.d (independent, under 50 m2)": 2,
+  "undeterminable | industrial complex with parts of unstated use (art. 3.2.c applies only to low-demand parts)": 1
+ },
+ "review_sets": {
+  "R4": 114,
+  "R1": 188,
+  "R2": 60,
+  "extra": 349,
+  "R3": 137
+ },
+ "offer_notices_kept": 254,
+ "offer_notices_removed_in_review": 59,
+ "d1": {
+  "changed_notices": [
+   "BOE-B-2025-13131",
+   "BOE-B-2025-13259",
+   "BOE-B-2025-23129",
+   "BOE-B-2025-43640",
+   "BOE-B-2025-6944",
+   "BOE-B-2025-9197",
+   "BOE-B-2026-13591",
+   "BOE-B-2026-22413",
+   "BOE-B-2026-3926",
+   "BOE-B-2026-4879"
+  ],
+  "frozen_covered": 255,
+  "frozen_without": 92,
+  "frozen_pct": 36.1,
+  "frozen_ci": [
+   30.4,
+   42.1
+  ],
+  "added_without_by_seller": {
+   "INVIED (Defensa)": 52
+  },
+  "added_covered": 51,
+  "added_without": 52
+ }
+}

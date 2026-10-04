@@ -1,0 +1,8 @@
+measure,covered,without_label,pct_without,ci_low,ci_high
+primary,306,144,47.1,41.5,52.7
+two_letters,306,149,48.7,43.1,54.3
+lenient,306,143,46.7,41.2,52.3
+faq_3_2_e,313,151,48.2,42.8,53.8
+strict_exempt,319,157,49.2,43.8,54.7
+distinct_properties,250,123,49.2,43.1,55.4
+state_bodies_only,306,144,47.1,41.5,52.7

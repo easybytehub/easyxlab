@@ -1,0 +1,5 @@
+region,label,count_on_D,base_median_working_day,rank_D_since_2016,peak_day_24mar_4apr,peak_count,rank_peak_since_2016,R2_O,R2_E,R2_ratio,R3_share_placebo_ge,R3_max_placebo,R5_O,R5_E,R5_ratio,pre12,post12,F2_ratio,F2_lo,F2_hi,nonworking_day_share,mean_per_working_day,mean_per_sunday
+andalucia,Andalucía,599,76,3,2025-03-31,787,1,3955,837.816,4.72061,0,2.39072,1276,1561.62,0.817101,22699,9132,0.402308,0.32306,0.500998,0.0939132,66.0881,16.2969
+euskadi,País Vasco,17,1,1,2025-04-02,17,1,63,15.2632,4.12759,0,3.0625,4,25.9474,0.154158,659,101,0.153263,0.116894,0.200946,0.00630011,1.89204,0.0260417
+mallorca,Mallorca,0,0,1258,2025-03-24,0,1258,0,0,nan,0,24,0,0,,31,33,1.06452,0.403443,2.80881,0.0451128,0.138344,0.00520833
+comunitat_valenciana,Comunitat Valenciana,287,40,1,2025-04-02,287,1,1093,456.211,2.39582,0,1.63661,779,843.579,0.923446,13154,6253,0.475369,0.39323,0.574665,0.0575091,40.059,5.08854

@@ -1,0 +1,7 @@
+review_set,classifier,review,lots
+R1,no,dropped,17
+R1,no,no,136
+R1,no,not covered,29
+R1,no,yes,6
+R2,yes,yes,60
+extra,yes,yes,8

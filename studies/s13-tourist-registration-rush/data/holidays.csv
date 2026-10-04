@@ -1,0 +1,281 @@
+region,date,name
+AND,2023-01-02,Lunes siguiente a Año Nuevo
+AND,2023-01-06,Epifanía del Señor
+CAT,2023-01-06,Epifanía del Señor
+CV,2023-01-06,Epifanía del Señor
+ES,2023-01-06,Epifanía del Señor
+IB,2023-01-06,Epifanía del Señor
+PV,2023-01-06,Epifanía del Señor
+AND,2023-02-28,Día de Andalucía
+IB,2023-03-01,Día de les Illes Balears
+AND,2023-04-06,Jueves Santo
+IB,2023-04-06,Jueves Santo
+PV,2023-04-06,Jueves Santo
+AND,2023-04-07,Viernes Santo
+CAT,2023-04-07,Viernes Santo
+CV,2023-04-07,Viernes Santo
+ES,2023-04-07,Viernes Santo
+IB,2023-04-07,Viernes Santo
+PV,2023-04-07,Viernes Santo
+CAT,2023-04-10,Lunes de Pascua
+CV,2023-04-10,Lunes de Pascua
+IB,2023-04-10,Lunes de Pascua
+PV,2023-04-10,Lunes de Pascua
+AND,2023-05-01,Fiesta del Trabajo
+CAT,2023-05-01,Fiesta del Trabajo
+CV,2023-05-01,Fiesta del Trabajo
+ES,2023-05-01,Fiesta del Trabajo
+IB,2023-05-01,Fiesta del Trabajo
+PV,2023-05-01,Fiesta del Trabajo
+CAT,2023-06-24,San Juan
+CV,2023-06-24,San Juan
+PV,2023-07-25,Santiago Apóstol/Día Nacional de Galicia
+AND,2023-08-15,Asunción de la Virgen
+CAT,2023-08-15,Asunción de la Virgen
+CV,2023-08-15,Asunción de la Virgen
+ES,2023-08-15,Asunción de la Virgen
+IB,2023-08-15,Asunción de la Virgen
+PV,2023-08-15,Asunción de la Virgen
+CAT,2023-09-11,Fiesta Nacional de Cataluña
+CV,2023-10-09,Día de la Comunitat Valenciana
+AND,2023-10-12,Fiesta Nacional de España
+CAT,2023-10-12,Fiesta Nacional de España
+CV,2023-10-12,Fiesta Nacional de España
+ES,2023-10-12,Fiesta Nacional de España
+IB,2023-10-12,Fiesta Nacional de España
+PV,2023-10-12,Fiesta Nacional de España
+AND,2023-11-01,Todos los Santos
+CAT,2023-11-01,Todos los Santos
+CV,2023-11-01,Todos los Santos
+ES,2023-11-01,Todos los Santos
+IB,2023-11-01,Todos los Santos
+PV,2023-11-01,Todos los Santos
+AND,2023-12-06,Día de la Constitución Española
+CAT,2023-12-06,Día de la Constitución Española
+CV,2023-12-06,Día de la Constitución Española
+ES,2023-12-06,Día de la Constitución Española
+IB,2023-12-06,Día de la Constitución Española
+PV,2023-12-06,Día de la Constitución Española
+AND,2023-12-08,Inmaculada Concepción
+CAT,2023-12-08,Inmaculada Concepción
+CV,2023-12-08,Inmaculada Concepción
+ES,2023-12-08,Inmaculada Concepción
+IB,2023-12-08,Inmaculada Concepción
+PV,2023-12-08,Inmaculada Concepción
+AND,2023-12-25,Natividad del Señor
+CAT,2023-12-25,Natividad del Señor
+CV,2023-12-25,Natividad del Señor
+ES,2023-12-25,Natividad del Señor
+IB,2023-12-25,Natividad del Señor
+PV,2023-12-25,Natividad del Señor
+CAT,2023-12-26,San Esteban
+AND,2024-01-01,Año Nuevo
+CAT,2024-01-01,Año Nuevo
+CV,2024-01-01,Año Nuevo
+ES,2024-01-01,Año Nuevo
+IB,2024-01-01,Año Nuevo
+PV,2024-01-01,Año Nuevo
+AND,2024-01-06,Epifanía del Señor
+CAT,2024-01-06,Epifanía del Señor
+CV,2024-01-06,Epifanía del Señor
+ES,2024-01-06,Epifanía del Señor
+IB,2024-01-06,Epifanía del Señor
+PV,2024-01-06,Epifanía del Señor
+AND,2024-02-28,Día de Andalucía
+IB,2024-03-01,Día de les Illes Balears
+CV,2024-03-19,San José
+AND,2024-03-28,Jueves Santo
+IB,2024-03-28,Jueves Santo
+PV,2024-03-28,Jueves Santo
+AND,2024-03-29,Viernes Santo
+CAT,2024-03-29,Viernes Santo
+CV,2024-03-29,Viernes Santo
+ES,2024-03-29,Viernes Santo
+IB,2024-03-29,Viernes Santo
+PV,2024-03-29,Viernes Santo
+CAT,2024-04-01,Lunes de Pascua
+CV,2024-04-01,Lunes de Pascua
+IB,2024-04-01,Lunes de Pascua
+PV,2024-04-01,Lunes de Pascua
+AND,2024-05-01,Fiesta del Trabajo
+CAT,2024-05-01,Fiesta del Trabajo
+CV,2024-05-01,Fiesta del Trabajo
+ES,2024-05-01,Fiesta del Trabajo
+IB,2024-05-01,Fiesta del Trabajo
+PV,2024-05-01,Fiesta del Trabajo
+CAT,2024-06-24,San Juan
+CV,2024-06-24,San Juan
+PV,2024-07-25,Santiago Apóstol/Día Nacional de Galicia
+AND,2024-08-15,Asunción de la Virgen
+CAT,2024-08-15,Asunción de la Virgen
+CV,2024-08-15,Asunción de la Virgen
+ES,2024-08-15,Asunción de la Virgen
+IB,2024-08-15,Asunción de la Virgen
+PV,2024-08-15,Asunción de la Virgen
+CAT,2024-09-11,Fiesta Nacional de Cataluña
+CV,2024-10-09,Día de la Comunitat Valenciana
+AND,2024-10-12,Fiesta Nacional de España
+CAT,2024-10-12,Fiesta Nacional de España
+CV,2024-10-12,Fiesta Nacional de España
+ES,2024-10-12,Fiesta Nacional de España
+IB,2024-10-12,Fiesta Nacional de España
+PV,2024-10-12,Fiesta Nacional de España
+AND,2024-11-01,Todos los Santos
+CAT,2024-11-01,Todos los Santos
+CV,2024-11-01,Todos los Santos
+ES,2024-11-01,Todos los Santos
+IB,2024-11-01,Todos los Santos
+PV,2024-11-01,Todos los Santos
+AND,2024-12-06,Día de la Constitución Española
+CAT,2024-12-06,Día de la Constitución Española
+CV,2024-12-06,Día de la Constitución Española
+ES,2024-12-06,Día de la Constitución Española
+IB,2024-12-06,Día de la Constitución Española
+PV,2024-12-06,Día de la Constitución Española
+AND,2024-12-09,Lunes siguiente a la Inmaculada Concepción
+AND,2024-12-25,Natividad del Señor
+CAT,2024-12-25,Natividad del Señor
+CV,2024-12-25,Natividad del Señor
+ES,2024-12-25,Natividad del Señor
+IB,2024-12-25,Natividad del Señor
+PV,2024-12-25,Natividad del Señor
+CAT,2024-12-26,San Esteban
+AND,2025-01-01,Año Nuevo
+CAT,2025-01-01,Año Nuevo
+CV,2025-01-01,Año Nuevo
+ES,2025-01-01,Año Nuevo
+IB,2025-01-01,Año Nuevo
+PV,2025-01-01,Año Nuevo
+AND,2025-01-06,Epifanía del Señor
+CAT,2025-01-06,Epifanía del Señor
+CV,2025-01-06,Epifanía del Señor
+ES,2025-01-06,Epifanía del Señor
+IB,2025-01-06,Epifanía del Señor
+PV,2025-01-06,Epifanía del Señor
+AND,2025-02-28,Día de Andalucía
+IB,2025-03-01,Día de les Illes Balears
+CV,2025-03-19,San José
+AND,2025-04-17,Jueves Santo
+IB,2025-04-17,Jueves Santo
+PV,2025-04-17,Jueves Santo
+AND,2025-04-18,Viernes Santo
+CAT,2025-04-18,Viernes Santo
+CV,2025-04-18,Viernes Santo
+ES,2025-04-18,Viernes Santo
+IB,2025-04-18,Viernes Santo
+PV,2025-04-18,Viernes Santo
+CAT,2025-04-21,Lunes de Pascua
+CV,2025-04-21,Lunes de Pascua
+PV,2025-04-21,Lunes de Pascua
+AND,2025-05-01,Fiesta del Trabajo
+CAT,2025-05-01,Fiesta del Trabajo
+CV,2025-05-01,Fiesta del Trabajo
+ES,2025-05-01,Fiesta del Trabajo
+IB,2025-05-01,Fiesta del Trabajo
+PV,2025-05-01,Fiesta del Trabajo
+CAT,2025-06-24,San Juan
+CV,2025-06-24,San Juan
+PV,2025-07-25,Santiago Apóstol/Día Nacional de Galicia
+AND,2025-08-15,Asunción de la Virgen
+CAT,2025-08-15,Asunción de la Virgen
+CV,2025-08-15,Asunción de la Virgen
+ES,2025-08-15,Asunción de la Virgen
+IB,2025-08-15,Asunción de la Virgen
+PV,2025-08-15,Asunción de la Virgen
+CAT,2025-09-11,Fiesta Nacional de Cataluña
+CV,2025-10-09,Día de la Comunitat Valenciana
+AND,2025-10-13,Lunes siguiente al día de la Fiesta Nacional de España
+AND,2025-11-01,Todos los Santos
+CAT,2025-11-01,Todos los Santos
+CV,2025-11-01,Todos los Santos
+ES,2025-11-01,Todos los Santos
+IB,2025-11-01,Todos los Santos
+PV,2025-11-01,Todos los Santos
+AND,2025-12-06,Día de la Constitución Española
+CAT,2025-12-06,Día de la Constitución Española
+CV,2025-12-06,Día de la Constitución Española
+ES,2025-12-06,Día de la Constitución Española
+IB,2025-12-06,Día de la Constitución Española
+PV,2025-12-06,Día de la Constitución Española
+AND,2025-12-08,Inmaculada Concepción
+CAT,2025-12-08,Inmaculada Concepción
+CV,2025-12-08,Inmaculada Concepción
+ES,2025-12-08,Inmaculada Concepción
+IB,2025-12-08,Inmaculada Concepción
+PV,2025-12-08,Inmaculada Concepción
+AND,2025-12-25,Natividad del Señor
+CAT,2025-12-25,Natividad del Señor
+CV,2025-12-25,Natividad del Señor
+ES,2025-12-25,Natividad del Señor
+IB,2025-12-25,Natividad del Señor
+PV,2025-12-25,Natividad del Señor
+CAT,2025-12-26,San Esteban
+IB,2025-12-26,San Esteban
+AND,2026-01-01,Año Nuevo
+CAT,2026-01-01,Año Nuevo
+CV,2026-01-01,Año Nuevo
+ES,2026-01-01,Año Nuevo
+IB,2026-01-01,Año Nuevo
+PV,2026-01-01,Año Nuevo
+AND,2026-01-06,Epifanía del Señor
+CAT,2026-01-06,Epifanía del Señor
+CV,2026-01-06,Epifanía del Señor
+ES,2026-01-06,Epifanía del Señor
+IB,2026-01-06,Epifanía del Señor
+PV,2026-01-06,Epifanía del Señor
+AND,2026-02-28,Día de Andalucía
+IB,2026-03-02,Lunes siguiente al Día de les Illes Balears
+CV,2026-03-19,San José
+PV,2026-03-19,San José
+AND,2026-04-02,Jueves Santo
+IB,2026-04-02,Jueves Santo
+PV,2026-04-02,Jueves Santo
+AND,2026-04-03,Viernes Santo
+CAT,2026-04-03,Viernes Santo
+CV,2026-04-03,Viernes Santo
+ES,2026-04-03,Viernes Santo
+IB,2026-04-03,Viernes Santo
+PV,2026-04-03,Viernes Santo
+CAT,2026-04-06,Lunes de Pascua
+CV,2026-04-06,Lunes de Pascua
+IB,2026-04-06,Lunes de Pascua
+PV,2026-04-06,Lunes de Pascua
+AND,2026-05-01,Fiesta del Trabajo
+CAT,2026-05-01,Fiesta del Trabajo
+CV,2026-05-01,Fiesta del Trabajo
+ES,2026-05-01,Fiesta del Trabajo
+IB,2026-05-01,Fiesta del Trabajo
+PV,2026-05-01,Fiesta del Trabajo
+CAT,2026-06-24,San Juan
+CV,2026-06-24,San Juan
+PV,2026-07-25,Santiago Apóstol/Día Nacional de Galicia
+AND,2026-08-15,Asunción de la Virgen
+CAT,2026-08-15,Asunción de la Virgen
+CV,2026-08-15,Asunción de la Virgen
+ES,2026-08-15,Asunción de la Virgen
+IB,2026-08-15,Asunción de la Virgen
+PV,2026-08-15,Asunción de la Virgen
+CAT,2026-09-11,Fiesta Nacional de Cataluña
+CV,2026-10-09,Día de la Comunitat Valenciana
+AND,2026-10-12,Fiesta Nacional de España
+CAT,2026-10-12,Fiesta Nacional de España
+CV,2026-10-12,Fiesta Nacional de España
+ES,2026-10-12,Fiesta Nacional de España
+IB,2026-10-12,Fiesta Nacional de España
+PV,2026-10-12,Fiesta Nacional de España
+AND,2026-11-02,Día siguiente a Todos los Santos
+AND,2026-12-07,Lunes siguiente al Día de la Constitución Española
+AND,2026-12-08,Inmaculada Concepción
+CAT,2026-12-08,Inmaculada Concepción
+CV,2026-12-08,Inmaculada Concepción
+ES,2026-12-08,Inmaculada Concepción
+IB,2026-12-08,Inmaculada Concepción
+PV,2026-12-08,Inmaculada Concepción
+AND,2026-12-25,Natividad del Señor
+CAT,2026-12-25,Natividad del Señor
+CV,2026-12-25,Natividad del Señor
+ES,2026-12-25,Natividad del Señor
+IB,2026-12-25,Natividad del Señor
+PV,2026-12-25,Natividad del Señor
+CAT,2026-12-26,San Esteban
+IB,2026-12-26,San Esteban

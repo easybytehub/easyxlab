@@ -1,0 +1,9 @@
+parser,covered,without_label,pct_without,ci_low,ci_high
+with D1 (headline),306,144,47.1,41.5,52.7
+frozen parser (without D1),255,92,36.1,30.4,42.1
+frozen parser: FOGASA,5,5,100.0,,
+frozen parser: GIESE (Interior),21,21,100.0,,
+frozen parser: INVIED (Defensa),34,34,100.0,,
+frozen parser: Patrimonio del Estado (DEH),33,17,51.5,,
+frozen parser: Port authorities,1,1,100.0,,
+frozen parser: TGSS,161,14,8.7,,
