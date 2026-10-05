@@ -1,0 +1,26 @@
+year_band,map_status,buildings_with_dwellings,dwellings
+"1985 or earlier, or unknown",SNCZI T100 or T10,1228,3604
+"1985 or earlier, or unknown",SNCZI T500 (not T100),1304,8059
+"1985 or earlier, or unknown",PATRICOVA levels 1-6 only,1881,3609
+"1985 or earlier, or unknown",PATRICOVA geomorphological only,2106,3984
+"1985 or earlier, or unknown",outside every official zone,7551,24222
+1986-2007,SNCZI T100 or T10,928,3763
+1986-2007,SNCZI T500 (not T100),1012,8917
+1986-2007,PATRICOVA levels 1-6 only,723,2293
+1986-2007,PATRICOVA geomorphological only,786,2381
+1986-2007,outside every official zone,2732,13848
+2008-2016,SNCZI T100 or T10,306,903
+2008-2016,SNCZI T500 (not T100),166,1597
+2008-2016,PATRICOVA levels 1-6 only,147,504
+2008-2016,PATRICOVA geomorphological only,174,817
+2008-2016,outside every official zone,538,4102
+2017-2024,SNCZI T100 or T10,71,156
+2017-2024,SNCZI T500 (not T100),91,579
+2017-2024,PATRICOVA levels 1-6 only,44,79
+2017-2024,PATRICOVA geomorphological only,63,88
+2017-2024,outside every official zone,241,874
+2025 or later,SNCZI T100 or T10,9,9
+2025 or later,SNCZI T500 (not T100),13,82
+2025 or later,PATRICOVA levels 1-6 only,0,0
+2025 or later,PATRICOVA geomorphological only,6,6
+2025 or later,outside every official zone,33,313

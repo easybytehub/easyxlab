@@ -1,0 +1,529 @@
+extent_variant,extent_rule,zone_rule,unit,n_in_extent,n_outside_all_zones,share_outside_all_zones,share_outside_snczi,share_outside_return_period_zones,dwellings_built_2017_or_later
+all,fp,envfp,dwellings,84789,43359,0.511375,0.673672,0.597188,2186
+all,fp,envfp,buildings with dwellings,22153,11095,0.500835,0.768519,0.642351,
+all,fp,envfp,all buildings,35061,15271,0.435555,0.697641,0.558056,
+all,fp,envct,dwellings,84789,52502,0.619208,0.801578,0.707922,2186
+all,fp,envct,buildings with dwellings,22153,12006,0.541958,0.819122,0.685957,
+all,fp,envct,all buildings,35061,16738,0.477397,0.765494,0.605459,
+all,fp,fp,dwellings,84789,45063,0.531472,0.709184,0.620564,2186
+all,fp,fp,buildings with dwellings,22153,11651,0.525933,0.813028,0.670383,
+all,fp,fp,all buildings,35061,15900,0.453495,0.741764,0.579875,
+all,fp,ct,dwellings,84789,60862,0.717805,0.968935,0.812358,2186
+all,fp,ct,buildings with dwellings,22153,13397,0.604749,0.950029,0.758001,
+all,fp,ct,all buildings,35061,18524,0.528336,0.91124,0.669319,
+all,fp,env05fp,dwellings,84789,44236,0.521719,0.691234,0.608699,2186
+all,fp,env05fp,buildings with dwellings,22153,11366,0.513068,0.786395,0.655035,
+all,fp,env05fp,all buildings,35061,15589,0.444625,0.718833,0.568638,
+all,fp,env5fp,dwellings,84789,43359,0.511375,0.666183,0.597188,2186
+all,fp,env5fp,buildings with dwellings,22153,11095,0.500835,0.756828,0.642351,
+all,fp,env5fp,all buildings,35061,15253,0.435042,0.683038,0.556687,
+all,fp,env05ct,dwellings,84789,55838,0.658552,0.865195,0.749272,2186
+all,fp,env05ct,buildings with dwellings,22153,12493,0.563942,0.853248,0.708843,
+all,fp,env05ct,all buildings,35061,17409,0.496535,0.815179,0.629075,
+all,fp,env5ct,dwellings,84789,52242,0.616141,0.784088,0.704844,2186
+all,fp,env5ct,buildings with dwellings,22153,11998,0.541597,0.803277,0.68555,
+all,fp,env5ct,all buildings,35061,16680,0.475742,0.740709,0.602322,
+all,ct,envfp,dwellings,75234,39002,0.518409,0.680224,0.608834,2016
+all,ct,envfp,buildings with dwellings,21287,10848,0.509607,0.770893,0.65129,
+all,ct,envfp,all buildings,33458,14776,0.441628,0.697053,0.562735,
+all,ct,envct,dwellings,75234,47750,0.634686,0.814246,0.728793,2016
+all,ct,envct,buildings with dwellings,21287,11731,0.551088,0.820642,0.694931,
+all,ct,envct,all buildings,33458,16153,0.482784,0.763435,0.609481,
+all,ct,fp,dwellings,75234,40688,0.540819,0.716365,0.634939,2016
+all,ct,fp,buildings with dwellings,21287,11400,0.535538,0.815004,0.680274,
+all,ct,fp,all buildings,33458,15401,0.460308,0.741646,0.58548,
+all,ct,ct,dwellings,75234,55179,0.733432,0.97012,0.834104,2016
+all,ct,ct,buildings with dwellings,21287,13068,0.613896,0.948936,0.767323,
+all,ct,ct,all buildings,33458,17873,0.534192,0.90896,0.674278,
+all,ct,env05fp,dwellings,75234,39864,0.529867,0.698248,0.621607,2016
+all,ct,env05fp,buildings with dwellings,21287,11117,0.522244,0.788838,0.664396,
+all,ct,env05fp,all buildings,33458,15092,0.451073,0.718662,0.573764,
+all,ct,env5fp,dwellings,75234,39002,0.518409,0.672515,0.608834,2016
+all,ct,env5fp,buildings with dwellings,21287,10848,0.509607,0.758961,0.65129,
+all,ct,env5fp,all buildings,33458,14758,0.44109,0.682049,0.561301,
+all,ct,env05ct,dwellings,75234,50724,0.674216,0.874006,0.770582,2016
+all,ct,env05ct,buildings with dwellings,21287,12202,0.573214,0.853948,0.717997,
+all,ct,env05ct,all buildings,33458,16804,0.502242,0.813169,0.6336,
+all,ct,env5ct,dwellings,75234,47490,0.631231,0.797817,0.725324,2016
+all,ct,env5ct,buildings with dwellings,21287,11723,0.550712,0.804576,0.694508,
+all,ct,env5ct,all buildings,33458,16100,0.4812,0.738209,0.606342,
+first,fp,envfp,dwellings,84757,43349,0.51145,0.67362,0.597272,2184
+first,fp,envfp,buildings with dwellings,22127,11090,0.501198,0.768518,0.642789,
+first,fp,envfp,all buildings,34969,15263,0.436472,0.697532,0.558437,
+first,fp,envct,dwellings,84757,52487,0.619264,0.801539,0.707989,2184
+first,fp,envct,buildings with dwellings,22127,11997,0.542188,0.819045,0.686266,
+first,fp,envct,all buildings,34969,16725,0.478281,0.765392,0.605765,
+first,fp,fp,dwellings,84757,45053,0.531555,0.709145,0.620657,2184
+first,fp,fp,buildings with dwellings,22127,11646,0.526325,0.813079,0.670855,
+first,fp,fp,all buildings,34969,15892,0.45446,0.741743,0.580314,
+first,fp,ct,dwellings,84757,60847,0.717899,0.968947,0.812464,2184
+first,fp,ct,buildings with dwellings,22127,13388,0.605053,0.950061,0.758395,
+first,fp,ct,all buildings,34969,18511,0.529355,0.91135,0.669736,
+first,fp,env05fp,dwellings,84757,44226,0.521798,0.691188,0.608787,2184
+first,fp,env05fp,buildings with dwellings,22127,11361,0.513445,0.786415,0.655489,
+first,fp,env05fp,all buildings,34969,15581,0.445566,0.718779,0.569047,
+first,fp,env5fp,dwellings,84757,43349,0.51145,0.666128,0.597272,2184
+first,fp,env5fp,buildings with dwellings,22127,11090,0.501198,0.756813,0.642789,
+first,fp,env5fp,all buildings,34969,15245,0.435958,0.682891,0.557065,
+first,fp,env05ct,dwellings,84757,55823,0.658624,0.865179,0.749354,2184
+first,fp,env05ct,buildings with dwellings,22127,12484,0.564198,0.853211,0.709179,
+first,fp,env05ct,all buildings,34969,17396,0.497469,0.815179,0.629415,
+first,fp,env5ct,dwellings,84757,52227,0.616197,0.784041,0.704909,2184
+first,fp,env5ct,buildings with dwellings,22127,11989,0.541827,0.803182,0.685859,
+first,fp,env5ct,all buildings,34969,16667,0.476622,0.740542,0.602619,
+first,ct,envfp,dwellings,75211,38993,0.518448,0.68022,0.608887,2014
+first,ct,envfp,buildings with dwellings,21269,10844,0.50985,0.771028,0.651606,
+first,ct,envfp,all buildings,33386,14770,0.442401,0.697388,0.56332,
+first,ct,envct,dwellings,75211,47741,0.634761,0.814243,0.728883,2014
+first,ct,envct,buildings with dwellings,21269,11727,0.551366,0.820678,0.695284,
+first,ct,envct,all buildings,33386,16147,0.483646,0.763703,0.610166,
+first,ct,fp,dwellings,75211,40679,0.540865,0.716358,0.635,2014
+first,ct,fp,buildings with dwellings,21269,11396,0.535803,0.81513,0.680615,
+first,ct,fp,all buildings,33386,15395,0.461121,0.741898,0.586114,
+first,ct,ct,dwellings,75211,55170,0.733536,0.970137,0.834226,2014
+first,ct,ct,buildings with dwellings,21269,13064,0.614227,0.948987,0.767737,
+first,ct,ct,all buildings,33386,17867,0.535164,0.909094,0.675073,
+first,ct,env05fp,dwellings,75211,39855,0.529909,0.698236,0.621664,2014
+first,ct,env05fp,buildings with dwellings,21269,11113,0.522498,0.788942,0.664723,
+first,ct,env05fp,all buildings,33386,15086,0.451866,0.719014,0.574372,
+first,ct,env5fp,dwellings,75211,38993,0.518448,0.672508,0.608887,2014
+first,ct,env5fp,buildings with dwellings,21269,10844,0.50985,0.759086,0.651606,
+first,ct,env5fp,all buildings,33386,14752,0.441862,0.682352,0.561882,
+first,ct,env05ct,dwellings,75211,50715,0.674303,0.874008,0.770685,2014
+first,ct,env05ct,buildings with dwellings,21269,12198,0.573511,0.853966,0.718369,
+first,ct,env05ct,all buildings,33386,16798,0.503145,0.813455,0.634338,
+first,ct,env5ct,dwellings,75211,47481,0.631304,0.797809,0.725413,2014
+first,ct,env5ct,buildings with dwellings,21269,11719,0.55099,0.804598,0.694861,
+first,ct,env5ct,all buildings,33386,16094,0.482058,0.738453,0.607021,
+aoi01_first,fp,envfp,dwellings,77143,40946,0.53078,0.679465,0.621936,2069
+aoi01_first,fp,envfp,buildings with dwellings,20874,10891,0.52175,0.769043,0.665182,
+aoi01_first,fp,envfp,all buildings,32074,14588,0.454823,0.696545,0.576698,
+aoi01_first,fp,envct,dwellings,77143,50003,0.648186,0.81323,0.742323,2069
+aoi01_first,fp,envct,buildings with dwellings,20874,11768,0.563764,0.819345,0.709208,
+aoi01_first,fp,envct,all buildings,32074,15890,0.495417,0.760585,0.622217,
+aoi01_first,fp,fp,dwellings,77143,42512,0.55108,0.713389,0.645814,2069
+aoi01_first,fp,fp,buildings with dwellings,20874,11422,0.547188,0.812015,0.693638,
+aoi01_first,fp,fp,all buildings,32074,15191,0.473623,0.739852,0.599676,
+aoi01_first,fp,ct,dwellings,77143,57493,0.745278,0.969719,0.845728,2069
+aoi01_first,fp,ct,buildings with dwellings,20874,13086,0.626904,0.948501,0.781834,
+aoi01_first,fp,ct,all buildings,32074,17593,0.548513,0.906685,0.688657,
+aoi01_first,fp,env05fp,dwellings,77143,41788,0.541695,0.697017,0.634134,2069
+aoi01_first,fp,env05fp,buildings with dwellings,20874,11140,0.533678,0.786241,0.677589,
+aoi01_first,fp,env05fp,all buildings,32074,14883,0.464021,0.716655,0.587548,
+aoi01_first,fp,env5fp,dwellings,77143,40946,0.53078,0.674591,0.621936,2069
+aoi01_first,fp,env5fp,buildings with dwellings,20874,10891,0.52175,0.761282,0.665182,
+aoi01_first,fp,env5fp,all buildings,32074,14571,0.454293,0.684667,0.575232,
+aoi01_first,fp,env05ct,dwellings,77143,53132,0.688747,0.87518,0.785074,2069
+aoi01_first,fp,env05ct,buildings with dwellings,20874,12224,0.585609,0.852592,0.731963,
+aoi01_first,fp,env05ct,all buildings,32074,16526,0.515246,0.808256,0.646754,
+aoi01_first,fp,env5ct,dwellings,77143,49765,0.645101,0.802056,0.739225,2069
+aoi01_first,fp,env5ct,buildings with dwellings,20874,11762,0.563476,0.808422,0.708872,
+aoi01_first,fp,env5ct,all buildings,32074,15845,0.494014,0.739602,0.619193,
+aoi01_first,ct,envfp,dwellings,71922,38735,0.53857,0.681002,0.63167,1980
+aoi01_first,ct,envfp,buildings with dwellings,20382,10798,0.529781,0.769601,0.673879,
+aoi01_first,ct,envfp,all buildings,31177,14421,0.462553,0.697245,0.58495,
+aoi01_first,ct,envct,dwellings,71922,47450,0.659742,0.818442,0.7565,1980
+aoi01_first,ct,envct,buildings with dwellings,20382,11668,0.572466,0.819203,0.718183,
+aoi01_first,ct,envct,all buildings,31177,15695,0.503416,0.759823,0.630272,
+aoi01_first,ct,fp,dwellings,71922,40301,0.560343,0.716443,0.657281,1980
+aoi01_first,ct,fp,buildings with dwellings,20382,11329,0.555834,0.813119,0.703022,
+aoi01_first,ct,fp,all buildings,31177,15024,0.481894,0.741059,0.60859,
+aoi01_first,ct,ct,dwellings,71922,54382,0.756125,0.969147,0.85964,1980
+aoi01_first,ct,ct,buildings with dwellings,20382,12963,0.636002,0.948091,0.791385,
+aoi01_first,ct,ct,all buildings,31177,17368,0.557077,0.905732,0.697501,
+aoi01_first,ct,env05fp,dwellings,71922,39577,0.550277,0.699299,0.644754,1980
+aoi01_first,ct,env05fp,buildings with dwellings,20382,11047,0.541998,0.787018,0.686586,
+aoi01_first,ct,env05fp,all buildings,31177,14716,0.472015,0.717612,0.596113,
+aoi01_first,ct,env5fp,dwellings,71922,38735,0.53857,0.67722,0.63167,1980
+aoi01_first,ct,env5fp,buildings with dwellings,20382,10798,0.529781,0.762437,0.673879,
+aoi01_first,ct,env5fp,all buildings,31177,14404,0.462007,0.685794,0.583443,
+aoi01_first,ct,env05ct,dwellings,71922,50403,0.700801,0.880356,0.799908,1980
+aoi01_first,ct,env05ct,buildings with dwellings,20382,12118,0.594544,0.852517,0.741193,
+aoi01_first,ct,env05ct,all buildings,31177,16321,0.523495,0.80723,0.65513,
+aoi01_first,ct,env5ct,dwellings,71922,47212,0.656433,0.807945,0.753177,1980
+aoi01_first,ct,env5ct,buildings with dwellings,20382,11662,0.572172,0.808851,0.717839,
+aoi01_first,ct,env5ct,all buildings,31177,15653,0.502069,0.739359,0.627257,
+flooded_only,fp,envfp,dwellings,3173,2706,0.852821,0.915537,0.857863,94
+flooded_only,fp,envfp,buildings with dwellings,366,115,0.314208,0.554645,0.325137,
+flooded_only,fp,envfp,all buildings,1275,170,0.133333,0.367059,0.162353,
+flooded_only,fp,envct,dwellings,3173,2758,0.869209,0.942641,0.874567,94
+flooded_only,fp,envct,buildings with dwellings,366,126,0.344262,0.598361,0.357923,
+flooded_only,fp,envct,all buildings,1275,195,0.152941,0.436863,0.191373,
+flooded_only,fp,fp,dwellings,3173,2706,0.852821,0.920265,0.858494,94
+flooded_only,fp,fp,buildings with dwellings,366,115,0.314208,0.592896,0.330601,
+flooded_only,fp,fp,all buildings,1275,172,0.134902,0.415686,0.166275,
+flooded_only,fp,ct,dwellings,3173,2780,0.876142,0.965648,0.884967,94
+flooded_only,fp,ct,buildings with dwellings,366,128,0.349727,0.740437,0.393443,
+flooded_only,fp,ct,all buildings,1275,205,0.160784,0.603922,0.212549,
+flooded_only,fp,env05fp,dwellings,3173,2706,0.852821,0.917113,0.857863,94
+flooded_only,fp,env05fp,buildings with dwellings,366,115,0.314208,0.565574,0.325137,
+flooded_only,fp,env05fp,all buildings,1275,172,0.134902,0.384314,0.163922,
+flooded_only,fp,env5fp,dwellings,3173,2706,0.852821,0.915222,0.857863,94
+flooded_only,fp,env5fp,buildings with dwellings,366,115,0.314208,0.551913,0.325137,
+flooded_only,fp,env5fp,all buildings,1275,170,0.133333,0.352941,0.160784,
+flooded_only,fp,env05ct,dwellings,3173,2758,0.869209,0.944532,0.874567,94
+flooded_only,fp,env05ct,buildings with dwellings,366,126,0.344262,0.612022,0.357923,
+flooded_only,fp,env05ct,all buildings,1275,198,0.155294,0.483137,0.196078,
+flooded_only,fp,env5ct,dwellings,3173,2758,0.869209,0.942011,0.874251,94
+flooded_only,fp,env5ct,buildings with dwellings,366,126,0.344262,0.592896,0.355191,
+flooded_only,fp,env5ct,all buildings,1275,194,0.152157,0.407843,0.188235,
+flooded_only,ct,envfp,dwellings,315,179,0.568254,0.644444,0.568254,0
+flooded_only,ct,envfp,buildings with dwellings,158,22,0.139241,0.291139,0.139241,
+flooded_only,ct,envfp,all buildings,810,46,0.05679,0.24321,0.075309,
+flooded_only,ct,envct,dwellings,315,179,0.568254,0.657143,0.568254,0
+flooded_only,ct,envct,buildings with dwellings,158,22,0.139241,0.316456,0.139241,
+flooded_only,ct,envct,all buildings,810,47,0.058025,0.288889,0.076543,
+flooded_only,ct,fp,dwellings,315,179,0.568254,0.68254,0.571429,0
+flooded_only,ct,fp,buildings with dwellings,158,22,0.139241,0.367089,0.14557,
+flooded_only,ct,fp,all buildings,810,47,0.058025,0.306173,0.079012,
+flooded_only,ct,ct,dwellings,315,179,0.568254,0.784127,0.593651,0
+flooded_only,ct,ct,buildings with dwellings,158,22,0.139241,0.56962,0.189873,
+flooded_only,ct,ct,all buildings,810,48,0.059259,0.480247,0.090123,
+flooded_only,ct,env05fp,dwellings,315,179,0.568254,0.653968,0.568254,0
+flooded_only,ct,env05fp,buildings with dwellings,158,22,0.139241,0.310127,0.139241,
+flooded_only,ct,env05fp,all buildings,810,47,0.058025,0.262963,0.076543,
+flooded_only,ct,env5fp,dwellings,315,179,0.568254,0.64127,0.568254,0
+flooded_only,ct,env5fp,buildings with dwellings,158,22,0.139241,0.28481,0.139241,
+flooded_only,ct,env5fp,all buildings,810,46,0.05679,0.222222,0.07284,
+flooded_only,ct,env05ct,dwellings,315,179,0.568254,0.669841,0.568254,0
+flooded_only,ct,env05ct,buildings with dwellings,158,22,0.139241,0.341772,0.139241,
+flooded_only,ct,env05ct,all buildings,810,48,0.059259,0.325926,0.077778,
+flooded_only,ct,env5ct,dwellings,315,179,0.568254,0.653968,0.568254,0
+flooded_only,ct,env5ct,buildings with dwellings,158,22,0.139241,0.310127,0.139241,
+flooded_only,ct,env5ct,all buildings,810,47,0.058025,0.249383,0.074074,
+earlier_versions,fp,envfp,dwellings,84789,43359,0.511375,0.673672,0.597188,2186
+earlier_versions,fp,envfp,buildings with dwellings,22153,11095,0.500835,0.768519,0.642351,
+earlier_versions,fp,envfp,all buildings,35058,15268,0.435507,0.697615,0.558018,
+earlier_versions,fp,envct,dwellings,84789,52502,0.619208,0.801578,0.707922,2186
+earlier_versions,fp,envct,buildings with dwellings,22153,12006,0.541958,0.819122,0.685957,
+earlier_versions,fp,envct,all buildings,35058,16735,0.477352,0.765474,0.605425,
+earlier_versions,fp,fp,dwellings,84789,45063,0.531472,0.709184,0.620564,2186
+earlier_versions,fp,fp,buildings with dwellings,22153,11651,0.525933,0.813028,0.670383,
+earlier_versions,fp,fp,all buildings,35058,15897,0.453449,0.741742,0.579839,
+earlier_versions,fp,ct,dwellings,84789,60862,0.717805,0.968935,0.812358,2186
+earlier_versions,fp,ct,buildings with dwellings,22153,13397,0.604749,0.950029,0.758001,
+earlier_versions,fp,ct,all buildings,35058,18521,0.528296,0.911233,0.669291,
+earlier_versions,fp,env05fp,dwellings,84789,44236,0.521719,0.691234,0.608699,2186
+earlier_versions,fp,env05fp,buildings with dwellings,22153,11366,0.513068,0.786395,0.655035,
+earlier_versions,fp,env05fp,all buildings,35058,15586,0.444578,0.718809,0.568601,
+earlier_versions,fp,env5fp,dwellings,84789,43359,0.511375,0.666183,0.597188,2186
+earlier_versions,fp,env5fp,buildings with dwellings,22153,11095,0.500835,0.756828,0.642351,
+earlier_versions,fp,env5fp,all buildings,35058,15250,0.434993,0.683011,0.556649,
+earlier_versions,fp,env05ct,dwellings,84789,55838,0.658552,0.865195,0.749272,2186
+earlier_versions,fp,env05ct,buildings with dwellings,22153,12493,0.563942,0.853248,0.708843,
+earlier_versions,fp,env05ct,all buildings,35058,17406,0.496492,0.815163,0.629043,
+earlier_versions,fp,env5ct,dwellings,84789,52242,0.616141,0.784088,0.704844,2186
+earlier_versions,fp,env5ct,buildings with dwellings,22153,11998,0.541597,0.803277,0.68555,
+earlier_versions,fp,env5ct,all buildings,35058,16677,0.475697,0.740687,0.602288,
+earlier_versions,ct,envfp,dwellings,75234,39002,0.518409,0.680224,0.608834,2016
+earlier_versions,ct,envfp,buildings with dwellings,21287,10848,0.509607,0.770893,0.65129,
+earlier_versions,ct,envfp,all buildings,33448,14771,0.441611,0.697052,0.562754,
+earlier_versions,ct,envct,dwellings,75234,47750,0.634686,0.814246,0.728793,2016
+earlier_versions,ct,envct,buildings with dwellings,21287,11731,0.551088,0.820642,0.694931,
+earlier_versions,ct,envct,all buildings,33448,16145,0.48269,0.763364,0.609424,
+earlier_versions,ct,fp,dwellings,75234,40688,0.540819,0.716365,0.634939,2016
+earlier_versions,ct,fp,buildings with dwellings,21287,11400,0.535538,0.815004,0.680274,
+earlier_versions,ct,fp,all buildings,33448,15396,0.460297,0.741659,0.585506,
+earlier_versions,ct,ct,dwellings,75234,55179,0.733432,0.97012,0.834104,2016
+earlier_versions,ct,ct,buildings with dwellings,21287,13068,0.613896,0.948936,0.767323,
+earlier_versions,ct,ct,all buildings,33448,17865,0.534113,0.908933,0.674241,
+earlier_versions,ct,env05fp,dwellings,75234,39864,0.529867,0.698248,0.621607,2016
+earlier_versions,ct,env05fp,buildings with dwellings,21287,11117,0.522244,0.788838,0.664396,
+earlier_versions,ct,env05fp,all buildings,33448,15087,0.451058,0.718668,0.573786,
+earlier_versions,ct,env5fp,dwellings,75234,39002,0.518409,0.672515,0.608834,2016
+earlier_versions,ct,env5fp,buildings with dwellings,21287,10848,0.509607,0.758961,0.65129,
+earlier_versions,ct,env5fp,all buildings,33448,14753,0.441073,0.682044,0.561319,
+earlier_versions,ct,env05ct,dwellings,75234,50724,0.674216,0.874006,0.770582,2016
+earlier_versions,ct,env05ct,buildings with dwellings,21287,12202,0.573214,0.853948,0.717997,
+earlier_versions,ct,env05ct,all buildings,33448,16796,0.502153,0.813113,0.633551,
+earlier_versions,ct,env5ct,dwellings,75234,47490,0.631231,0.797817,0.725324,2016
+earlier_versions,ct,env5ct,buildings with dwellings,21287,11723,0.550712,0.804576,0.694508,
+earlier_versions,ct,env5ct,all buildings,33448,16092,0.481105,0.738131,0.606284,
+gva_footprint,fp,envfp,dwellings,138217,53801,0.38925,0.609686,0.450003,3507
+gva_footprint,fp,envfp,buildings with dwellings,30577,9474,0.309841,0.693789,0.431926,
+gva_footprint,fp,envfp,all buildings,43440,13273,0.305548,0.661211,0.420373,
+gva_footprint,fp,envct,dwellings,138217,67166,0.485946,0.745328,0.546988,3507
+gva_footprint,fp,envct,buildings with dwellings,30577,10839,0.354482,0.76623,0.475913,
+gva_footprint,fp,envct,all buildings,43440,15347,0.353292,0.742749,0.469084,
+gva_footprint,fp,fp,dwellings,138217,56342,0.407634,0.657973,0.470347,3507
+gva_footprint,fp,fp,buildings with dwellings,30577,10170,0.332603,0.77712,0.456781,
+gva_footprint,fp,fp,all buildings,43440,14090,0.324355,0.737431,0.442012,
+gva_footprint,fp,ct,dwellings,138217,82752,0.598711,0.978353,0.664064,3507
+gva_footprint,fp,ct,buildings with dwellings,30577,12641,0.413415,0.968865,0.541649,
+gva_footprint,fp,ct,all buildings,43440,17609,0.405364,0.941874,0.531008,
+gva_footprint,fp,env05fp,dwellings,138217,55133,0.398887,0.632505,0.460356,3507
+gva_footprint,fp,env05fp,buildings with dwellings,30577,9835,0.321647,0.729633,0.444059,
+gva_footprint,fp,env05fp,all buildings,43440,13711,0.315631,0.696639,0.431561,
+gva_footprint,fp,env5fp,dwellings,138217,53784,0.389127,0.603254,0.44988,3507
+gva_footprint,fp,env5fp,buildings with dwellings,30577,9468,0.309645,0.680086,0.43173,
+gva_footprint,fp,env5fp,all buildings,43440,13247,0.304949,0.645373,0.419107,
+gva_footprint,fp,env05ct,dwellings,138217,73141,0.529175,0.832474,0.591447,3507
+gva_footprint,fp,env05ct,buildings with dwellings,30577,11597,0.379272,0.836446,0.501357,
+gva_footprint,fp,env05ct,all buildings,43440,16342,0.376197,0.818485,0.495304,
+gva_footprint,fp,env5ct,dwellings,138217,66824,0.483472,0.729823,0.544506,3507
+gva_footprint,fp,env5ct,buildings with dwellings,30577,10817,0.353763,0.745266,0.475161,
+gva_footprint,fp,env5ct,all buildings,43440,15273,0.351588,0.715516,0.466229,
+gva_footprint,ct,envfp,dwellings,136469,53242,0.39014,0.608856,0.448703,3312
+gva_footprint,ct,envfp,buildings with dwellings,30056,9296,0.309289,0.691243,0.429864,
+gva_footprint,ct,envfp,all buildings,42651,13021,0.305292,0.658179,0.418161,
+gva_footprint,ct,envct,dwellings,136469,66207,0.485143,0.743048,0.545003,3312
+gva_footprint,ct,envct,buildings with dwellings,30056,10583,0.352109,0.763342,0.472718,
+gva_footprint,ct,envct,all buildings,42651,14980,0.351223,0.739561,0.465921,
+gva_footprint,ct,fp,dwellings,136469,55783,0.408759,0.657534,0.469308,3312
+gva_footprint,ct,fp,buildings with dwellings,30056,9992,0.332446,0.775652,0.45515,
+gva_footprint,ct,fp,all buildings,42651,13838,0.324447,0.735551,0.440201,
+gva_footprint,ct,ct,dwellings,136469,81793,0.599352,0.978178,0.663579,3312
+gva_footprint,ct,ct,buildings with dwellings,30056,12385,0.412064,0.968792,0.539593,
+gva_footprint,ct,ct,all buildings,42651,17242,0.404258,0.941525,0.528921,
+gva_footprint,ct,env05fp,dwellings,136469,54574,0.3999,0.631909,0.459189,3312
+gva_footprint,ct,env05fp,buildings with dwellings,30056,9657,0.3213,0.727675,0.442208,
+gva_footprint,ct,env05fp,all buildings,42651,13459,0.315561,0.694239,0.429556,
+gva_footprint,ct,env5fp,dwellings,136469,53241,0.390133,0.602547,0.448695,3312
+gva_footprint,ct,env5fp,buildings with dwellings,30056,9295,0.309256,0.677702,0.429831,
+gva_footprint,ct,env5fp,all buildings,42651,13000,0.304799,0.642353,0.416989,
+gva_footprint,ct,env05ct,dwellings,136469,72182,0.528926,0.83065,0.590031,3312
+gva_footprint,ct,env05ct,buildings with dwellings,30056,11341,0.377329,0.834642,0.498603,
+gva_footprint,ct,env05ct,all buildings,42651,15975,0.374552,0.816394,0.492603,
+gva_footprint,ct,env5ct,dwellings,136469,65945,0.483223,0.728019,0.543076,3312
+gva_footprint,ct,env5ct,buildings with dwellings,30056,10573,0.351777,0.742647,0.472352,
+gva_footprint,ct,env5ct,all buildings,42651,14919,0.349793,0.712316,0.463319,
+all_or_gva,fp,envfp,dwellings,158044,67608,0.42778,0.648731,0.49733,3740
+all_or_gva,fp,envfp,buildings with dwellings,40588,15700,0.386814,0.745467,0.51806,
+all_or_gva,fp,envfp,all buildings,57839,21425,0.370425,0.708501,0.493577,
+all_or_gva,fp,envct,dwellings,158044,81457,0.515407,0.771203,0.58535,3740
+all_or_gva,fp,envct,buildings with dwellings,40588,17272,0.425544,0.805805,0.556076,
+all_or_gva,fp,envct,all buildings,57839,23794,0.411383,0.776829,0.535365,
+all_or_gva,fp,fp,dwellings,158044,70190,0.444117,0.691599,0.515464,3740
+all_or_gva,fp,fp,buildings with dwellings,40588,16437,0.404972,0.81056,0.537967,
+all_or_gva,fp,fp,all buildings,57839,22293,0.385432,0.768893,0.511057,
+all_or_gva,fp,ct,dwellings,158044,97315,0.615746,0.97812,0.68965,3740
+all_or_gva,fp,ct,buildings with dwellings,40588,19298,0.475461,0.968932,0.611708,
+all_or_gva,fp,ct,all buildings,57839,26334,0.455298,0.940576,0.587856,
+all_or_gva,fp,env05fp,dwellings,158044,68954,0.436296,0.668934,0.506473,3740
+all_or_gva,fp,env05fp,buildings with dwellings,40588,16075,0.396053,0.773406,0.527545,
+all_or_gva,fp,env05fp,all buildings,57839,21879,0.378274,0.73613,0.502343,
+all_or_gva,fp,env5fp,dwellings,158044,67591,0.427672,0.642302,0.497222,3740
+all_or_gva,fp,env5fp,buildings with dwellings,40588,15694,0.386666,0.733443,0.517912,
+all_or_gva,fp,env5fp,all buildings,57839,21397,0.369941,0.694929,0.492574,
+all_or_gva,fp,env05ct,dwellings,158044,87447,0.553308,0.847796,0.624326,3740
+all_or_gva,fp,env05ct,buildings with dwellings,40588,18045,0.44459,0.860156,0.575613,
+all_or_gva,fp,env05ct,all buildings,57839,24808,0.428915,0.835665,0.555611,
+all_or_gva,fp,env5ct,dwellings,158044,81115,0.513243,0.756119,0.583179,3740
+all_or_gva,fp,env5ct,buildings with dwellings,40588,17250,0.425002,0.787252,0.555509,
+all_or_gva,fp,env5ct,all buildings,57839,23715,0.410017,0.753696,0.533101,
+all_or_gva,ct,envfp,dwellings,153011,64246,0.419878,0.641098,0.488488,3470
+all_or_gva,ct,envfp,buildings with dwellings,39774,15355,0.386056,0.742545,0.516594,
+all_or_gva,ct,envfp,all buildings,56464,20862,0.369474,0.70475,0.491127,
+all_or_gva,ct,envct,dwellings,153011,77619,0.507277,0.764559,0.577494,3470
+all_or_gva,ct,envct,buildings with dwellings,39774,16837,0.423317,0.80266,0.553729,
+all_or_gva,ct,envct,all buildings,56464,23093,0.408986,0.77297,0.53218,
+all_or_gva,ct,fp,dwellings,153011,66828,0.436753,0.685173,0.507218,3470
+all_or_gva,ct,fp,buildings with dwellings,39774,16092,0.404586,0.808694,0.536909,
+all_or_gva,ct,fp,all buildings,56464,21730,0.384847,0.766382,0.509032,
+all_or_gva,ct,ct,dwellings,153011,93475,0.610904,0.977453,0.685212,3470
+all_or_gva,ct,ct,buildings with dwellings,39774,18862,0.474229,0.968497,0.610474,
+all_or_gva,ct,ct,all buildings,56464,25632,0.453953,0.939767,0.58586,
+all_or_gva,ct,env05fp,dwellings,153011,65592,0.428675,0.661913,0.497932,3470
+all_or_gva,ct,env05fp,buildings with dwellings,39774,15730,0.395484,0.771031,0.526273,
+all_or_gva,ct,env05fp,all buildings,56464,21316,0.377515,0.733016,0.500106,
+all_or_gva,ct,env5fp,dwellings,153011,64245,0.419872,0.634915,0.488481,3470
+all_or_gva,ct,env5fp,buildings with dwellings,39774,15354,0.386031,0.730653,0.516569,
+all_or_gva,ct,env5fp,all buildings,56464,20839,0.369067,0.691166,0.490188,
+all_or_gva,ct,env05ct,dwellings,153011,83609,0.546425,0.843083,0.617753,3470
+all_or_gva,ct,env05ct,buildings with dwellings,39774,17610,0.442752,0.858023,0.573666,
+all_or_gva,ct,env05ct,all buildings,56464,24107,0.426945,0.832902,0.552901,
+all_or_gva,ct,env5ct,dwellings,153011,77357,0.505565,0.749855,0.575776,3470
+all_or_gva,ct,env5ct,buildings with dwellings,39774,16827,0.423065,0.784281,0.553452,
+all_or_gva,ct,env5ct,all buildings,56464,23027,0.407817,0.749787,0.53009,
+all_plus10m,fp,envfp,dwellings,94201,48384,0.513625,0.675693,0.594983,2627
+all_plus10m,fp,envfp,buildings with dwellings,23709,11693,0.493188,0.768906,0.633051,
+all_plus10m,fp,envfp,all buildings,37496,16234,0.432953,0.703275,0.556513,
+all_plus10m,fp,envct,dwellings,94201,57933,0.614993,0.79928,0.699504,2627
+all_plus10m,fp,envct,buildings with dwellings,23709,12675,0.534607,0.820574,0.676368,
+all_plus10m,fp,envct,all buildings,37496,17823,0.475331,0.770642,0.603344,
+all_plus10m,fp,fp,dwellings,94201,50105,0.531895,0.709844,0.616214,2627
+all_plus10m,fp,fp,buildings with dwellings,23709,12253,0.516808,0.813362,0.659454,
+all_plus10m,fp,fp,all buildings,37496,16869,0.449888,0.747093,0.577182,
+all_plus10m,fp,ct,dwellings,94201,67007,0.711319,0.971094,0.80359,2627
+all_plus10m,fp,ct,buildings with dwellings,23709,14102,0.594795,0.952381,0.74554,
+all_plus10m,fp,ct,all buildings,37496,19654,0.524163,0.915058,0.664711,
+all_plus10m,fp,env05fp,dwellings,94201,49277,0.523105,0.69253,0.605514,2627
+all_plus10m,fp,env05fp,buildings with dwellings,23709,11967,0.504745,0.787212,0.645029,
+all_plus10m,fp,env05fp,all buildings,37496,16556,0.44154,0.724451,0.566514,
+all_plus10m,fp,env5fp,dwellings,94201,48384,0.513625,0.668401,0.594983,2627
+all_plus10m,fp,env5fp,buildings with dwellings,23709,11693,0.493188,0.757265,0.633051,
+all_plus10m,fp,env5fp,all buildings,37496,16216,0.432473,0.689114,0.555233,
+all_plus10m,fp,env05ct,dwellings,94201,61485,0.6527,0.862348,0.739016,2627
+all_plus10m,fp,env05ct,buildings with dwellings,23709,13180,0.555907,0.855582,0.698511,
+all_plus10m,fp,env05ct,all buildings,37496,18515,0.493786,0.819901,0.625987,
+all_plus10m,fp,env5ct,dwellings,94201,57672,0.612223,0.782879,0.696723,2627
+all_plus10m,fp,env5ct,buildings with dwellings,23709,12666,0.534228,0.804758,0.675946,
+all_plus10m,fp,env5ct,all buildings,37496,17764,0.473757,0.746746,0.600384,
+all_plus10m,ct,envfp,dwellings,80047,40946,0.511524,0.674829,0.600572,2131
+all_plus10m,ct,envfp,buildings with dwellings,22199,11125,0.501149,0.769224,0.642597,
+all_plus10m,ct,envfp,all buildings,34859,15204,0.436157,0.698414,0.558421,
+all_plus10m,ct,envct,dwellings,80047,49801,0.622147,0.804927,0.71478,2131
+all_plus10m,ct,envct,buildings with dwellings,22199,12031,0.541961,0.819316,0.685842,
+all_plus10m,ct,envct,all buildings,34859,16619,0.476749,0.764681,0.604722,
+all_plus10m,ct,fp,dwellings,80047,42650,0.532812,0.711769,0.625333,2131
+all_plus10m,ct,fp,buildings with dwellings,22199,11681,0.526195,0.81382,0.670571,
+all_plus10m,ct,fp,all buildings,34859,15833,0.454201,0.742993,0.580395,
+all_plus10m,ct,ct,dwellings,80047,57687,0.720664,0.967494,0.819481,2131
+all_plus10m,ct,ct,buildings with dwellings,22199,13412,0.604171,0.949953,0.757286,
+all_plus10m,ct,ct,all buildings,34859,18388,0.527496,0.910611,0.668436,
+all_plus10m,ct,env05fp,dwellings,80047,41823,0.522481,0.693268,0.612765,2131
+all_plus10m,ct,env05fp,buildings with dwellings,22199,11396,0.513356,0.787243,0.655255,
+all_plus10m,ct,env05fp,all buildings,34859,15522,0.44528,0.719871,0.569064,
+all_plus10m,ct,env5fp,dwellings,80047,40946,0.511524,0.667445,0.600572,2131
+all_plus10m,ct,env5fp,buildings with dwellings,22199,11125,0.501149,0.757512,0.642597,
+all_plus10m,ct,env5fp,all buildings,34859,15186,0.435641,0.683726,0.557044,
+all_plus10m,ct,env05ct,dwellings,80047,52890,0.660737,0.865916,0.755494,2131
+all_plus10m,ct,env05ct,buildings with dwellings,22199,12513,0.563674,0.853237,0.708455,
+all_plus10m,ct,env05ct,all buildings,34859,17282,0.495769,0.814194,0.628217,
+all_plus10m,ct,env5ct,dwellings,80047,49541,0.618899,0.788012,0.711519,2131
+all_plus10m,ct,env5ct,buildings with dwellings,22199,12023,0.541601,0.80337,0.685436,
+all_plus10m,ct,env5ct,all buildings,34859,16563,0.475143,0.739809,0.601624,
+all_minus10m,fp,envfp,dwellings,77473,39869,0.514618,0.677823,0.604559,2054
+all_minus10m,fp,envfp,buildings with dwellings,21267,10842,0.509804,0.770678,0.651056,
+all_minus10m,fp,envfp,all buildings,33470,14793,0.441978,0.697102,0.562593,
+all_minus10m,fp,envct,dwellings,77473,48877,0.630891,0.811431,0.724562,2054
+all_minus10m,fp,envct,buildings with dwellings,21267,11726,0.551371,0.82099,0.695256,
+all_minus10m,fp,envct,all buildings,33470,16190,0.483717,0.764267,0.610099,
+all_minus10m,fp,fp,dwellings,77473,41535,0.536122,0.713565,0.629652,2054
+all_minus10m,fp,fp,buildings with dwellings,21267,11374,0.534819,0.813749,0.679127,
+all_minus10m,fp,fp,all buildings,33470,15398,0.460054,0.740753,0.584703,
+all_minus10m,fp,ct,dwellings,77473,56510,0.729415,0.970144,0.829463,2054
+all_minus10m,fp,ct,buildings with dwellings,21267,13049,0.61358,0.948841,0.767057,
+all_minus10m,fp,ct,all buildings,33470,17900,0.534807,0.909382,0.674514,
+all_minus10m,fp,env05fp,dwellings,77473,40711,0.525486,0.695739,0.616705,2054
+all_minus10m,fp,env05fp,buildings with dwellings,21267,11091,0.521512,0.787793,0.663234,
+all_minus10m,fp,env05fp,all buildings,33470,15089,0.450822,0.718166,0.573021,
+all_minus10m,fp,env5fp,dwellings,77473,39869,0.514618,0.66982,0.604559,2054
+all_minus10m,fp,env5fp,buildings with dwellings,21267,10842,0.509804,0.75864,0.651056,
+all_minus10m,fp,env5fp,all buildings,33470,14775,0.44144,0.681984,0.561159,
+all_minus10m,fp,env05ct,dwellings,77473,51871,0.669536,0.871284,0.765402,2054
+all_minus10m,fp,env05ct,buildings with dwellings,21267,12178,0.572624,0.853529,0.71745,
+all_minus10m,fp,env05ct,all buildings,33470,16824,0.502659,0.813744,0.633702,
+all_minus10m,fp,env5ct,dwellings,77473,48617,0.627535,0.795025,0.721193,2054
+all_minus10m,fp,env5ct,buildings with dwellings,21267,11718,0.550994,0.804956,0.694832,
+all_minus10m,fp,env5ct,all buildings,33470,16134,0.482044,0.738781,0.606872,
+all_minus10m,ct,envfp,dwellings,73576,38464,0.522779,0.681431,0.61308,1984
+all_minus10m,ct,envfp,buildings with dwellings,20787,10756,0.517439,0.771877,0.657911,
+all_minus10m,ct,envfp,all buildings,32605,14605,0.447937,0.697746,0.567582,
+all_minus10m,ct,envct,dwellings,73576,47195,0.641446,0.817128,0.735471,1984
+all_minus10m,ct,envct,buildings with dwellings,20787,11622,0.559099,0.821619,0.701785,
+all_minus10m,ct,envct,all buildings,32605,15953,0.489281,0.764085,0.614384,
+all_minus10m,ct,fp,dwellings,73576,40130,0.545422,0.716878,0.639502,1984
+all_minus10m,ct,fp,buildings with dwellings,20787,11288,0.543032,0.814692,0.686631,
+all_minus10m,ct,fp,all buildings,32605,15210,0.466493,0.741481,0.590247,
+all_minus10m,ct,ct,dwellings,73576,54406,0.739453,0.969623,0.840192,1984
+all_minus10m,ct,ct,buildings with dwellings,20787,12924,0.621735,0.948333,0.774234,
+all_minus10m,ct,ct,all buildings,32605,17633,0.540807,0.908848,0.679466,
+all_minus10m,ct,env05fp,dwellings,73576,39306,0.534223,0.698992,0.62587,1984
+all_minus10m,ct,env05fp,buildings with dwellings,20787,11005,0.529417,0.788858,0.670371,
+all_minus10m,ct,env05fp,all buildings,32605,14901,0.457016,0.718908,0.578286,
+all_minus10m,ct,env5fp,dwellings,73576,38464,0.522779,0.673548,0.61308,1984
+all_minus10m,ct,env5fp,buildings with dwellings,20787,10756,0.517439,0.759657,0.657911,
+all_minus10m,ct,env5fp,all buildings,32605,14587,0.447385,0.682441,0.566109,
+all_minus10m,ct,env05ct,dwellings,73576,50059,0.680371,0.875571,0.776707,1984
+all_minus10m,ct,env05ct,buildings with dwellings,20787,12069,0.580603,0.853899,0.724251,
+all_minus10m,ct,env05ct,all buildings,32605,16580,0.508511,0.81371,0.638399,
+all_minus10m,ct,env5ct,dwellings,73576,46935,0.637912,0.800397,0.731923,1984
+all_minus10m,ct,env5ct,buildings with dwellings,20787,11614,0.558715,0.805311,0.701352,
+all_minus10m,ct,env5ct,all buildings,32605,15901,0.487686,0.738568,0.611195,
+all_plus25m,fp,envfp,dwellings,107803,54088,0.50173,0.673163,0.582052,2818
+all_plus25m,fp,envfp,buildings with dwellings,26189,12641,0.482684,0.770514,0.62049,
+all_plus25m,fp,envfp,all buildings,41124,17675,0.429798,0.711871,0.554664,
+all_plus25m,fp,envct,dwellings,107803,64757,0.600698,0.79597,0.683144,2818
+all_plus25m,fp,envct,buildings with dwellings,26189,13800,0.526939,0.822979,0.664897,
+all_plus25m,fp,envct,all buildings,41124,19537,0.475075,0.778353,0.602519,
+all_plus25m,fp,fp,dwellings,107803,55907,0.518603,0.707188,0.60195,2818
+all_plus25m,fp,fp,buildings with dwellings,26189,13228,0.505098,0.815953,0.6455,
+all_plus25m,fp,fp,all buildings,41124,18348,0.446163,0.755885,0.574531,
+all_plus25m,fp,ct,dwellings,107803,75029,0.695982,0.972097,0.78765,2818
+all_plus25m,fp,ct,buildings with dwellings,26189,15298,0.584138,0.955859,0.731223,
+all_plus25m,fp,ct,all buildings,41124,21460,0.521836,0.920801,0.661463,
+all_plus25m,fp,env05fp,dwellings,107803,55057,0.510719,0.689229,0.591959,2818
+all_plus25m,fp,env05fp,buildings with dwellings,26189,12932,0.493795,0.78953,0.631983,
+all_plus25m,fp,env05fp,all buildings,41124,18016,0.43809,0.733051,0.564245,
+all_plus25m,fp,env5fp,dwellings,107803,54076,0.501619,0.666447,0.581941,2818
+all_plus25m,fp,env5fp,buildings with dwellings,26189,12630,0.482264,0.759174,0.620069,
+all_plus25m,fp,env5fp,all buildings,41124,17643,0.42902,0.698376,0.553156,
+all_plus25m,fp,env05ct,dwellings,107803,68709,0.637357,0.85864,0.721381,2818
+all_plus25m,fp,env05ct,buildings with dwellings,26189,14338,0.547482,0.85933,0.686204,
+all_plus25m,fp,env05ct,all buildings,41124,20267,0.492827,0.826889,0.624088,
+all_plus25m,fp,env5ct,dwellings,107803,64460,0.597943,0.779375,0.68038,2818
+all_plus25m,fp,env5ct,buildings with dwellings,26189,13770,0.525793,0.807209,0.663714,
+all_plus25m,fp,env5ct,all buildings,41124,19451,0.472984,0.755471,0.599164,
+all_plus25m,ct,envfp,dwellings,91057,45619,0.500994,0.671294,0.585435,2315
+all_plus25m,ct,envfp,buildings with dwellings,24448,11956,0.489038,0.769961,0.628559,
+all_plus25m,ct,envfp,all buildings,38214,16445,0.43034,0.705658,0.554195,
+all_plus25m,ct,envct,dwellings,91057,55096,0.605072,0.797028,0.692918,2315
+all_plus25m,ct,envct,buildings with dwellings,24448,12977,0.5308,0.821253,0.67167,
+all_plus25m,ct,envct,all buildings,38214,18041,0.472104,0.771602,0.600147,
+all_plus25m,ct,fp,dwellings,91057,47355,0.520059,0.706975,0.607575,2315
+all_plus25m,ct,fp,buildings with dwellings,24448,12523,0.51223,0.814995,0.654491,
+all_plus25m,ct,fp,all buildings,38214,17089,0.447192,0.750118,0.574763,
+all_plus25m,ct,ct,dwellings,91057,63800,0.70066,0.97048,0.794327,2315
+all_plus25m,ct,ct,buildings with dwellings,24448,14410,0.589414,0.953534,0.739242,
+all_plus25m,ct,ct,all buildings,38214,19873,0.520045,0.91634,0.660543,
+all_plus25m,ct,env05fp,dwellings,91057,46525,0.510944,0.689052,0.596473,2315
+all_plus25m,ct,env05fp,buildings with dwellings,24448,12236,0.500491,0.788572,0.64042,
+all_plus25m,ct,env05fp,all buildings,38214,16774,0.438949,0.72709,0.564191,
+all_plus25m,ct,env5fp,dwellings,91057,45617,0.500972,0.663771,0.585414,2315
+all_plus25m,ct,env5fp,buildings with dwellings,24448,11954,0.488956,0.758303,0.628477,
+all_plus25m,ct,env5fp,all buildings,38214,16424,0.42979,0.6915,0.55286,
+all_plus25m,ct,env05ct,dwellings,91057,58480,0.642235,0.860318,0.731948,2315
+all_plus25m,ct,env05ct,buildings with dwellings,24448,13488,0.551702,0.856266,0.69339,
+all_plus25m,ct,env05ct,all buildings,38214,18737,0.490318,0.820485,0.622442,
+all_plus25m,ct,env5ct,dwellings,91057,54832,0.602172,0.779226,0.690007,2315
+all_plus25m,ct,env5ct,buildings with dwellings,24448,12965,0.530309,0.805383,0.671139,
+all_plus25m,ct,env5ct,all buildings,38214,17978,0.470456,0.747815,0.597137,
+all_minus25m,fp,envfp,dwellings,73749,38452,0.52139,0.676538,0.610896,1972
+all_minus25m,fp,envfp,buildings with dwellings,20536,10720,0.52201,0.771182,0.6623,
+all_minus25m,fp,envfp,all buildings,32247,14550,0.451205,0.696809,0.570348,
+all_minus25m,fp,envct,dwellings,73749,47398,0.642693,0.815265,0.735915,1972
+all_minus25m,fp,envct,buildings with dwellings,20536,11584,0.564083,0.821046,0.706613,
+all_minus25m,fp,envct,all buildings,32247,15906,0.493255,0.763668,0.617856,
+all_minus25m,fp,fp,dwellings,73749,40118,0.54398,0.711725,0.637256,1972
+all_minus25m,fp,fp,buildings with dwellings,20536,11252,0.547916,0.814375,0.691371,
+all_minus25m,fp,fp,all buildings,32247,15155,0.469966,0.740875,0.593264,
+all_minus25m,fp,ct,dwellings,73749,54770,0.742654,0.969057,0.842574,1972
+all_minus25m,fp,ct,buildings with dwellings,20536,12883,0.627337,0.948529,0.779801,
+all_minus25m,fp,ct,all buildings,32247,17586,0.545353,0.909108,0.68366,
+all_minus25m,fp,env05fp,dwellings,73749,39294,0.532807,0.694043,0.623656,1972
+all_minus25m,fp,env05fp,buildings with dwellings,20536,10969,0.534135,0.788323,0.674912,
+all_minus25m,fp,env05fp,all buildings,32247,14846,0.460384,0.718206,0.58117,
+all_minus25m,fp,env5fp,dwellings,73749,38452,0.52139,0.668389,0.610896,1972
+all_minus25m,fp,env5fp,buildings with dwellings,20536,10720,0.52201,0.759009,0.6623,
+all_minus25m,fp,env5fp,all buildings,32247,14532,0.450647,0.68149,0.568859,
+all_minus25m,fp,env05ct,dwellings,73749,50314,0.682233,0.874236,0.77776,1972
+all_minus25m,fp,env05ct,buildings with dwellings,20536,12032,0.585898,0.853623,0.729402,
+all_minus25m,fp,env05ct,all buildings,32247,16535,0.512761,0.813936,0.642199,
+all_minus25m,fp,env5ct,dwellings,73749,47138,0.639168,0.798289,0.732376,1972
+all_minus25m,fp,env5ct,buildings with dwellings,20536,11576,0.563693,0.804733,0.706175,
+all_minus25m,fp,env5ct,all buildings,32247,15852,0.491581,0.737898,0.614569,
+all_minus25m,ct,envfp,dwellings,71610,38043,0.531253,0.682698,0.621841,1887
+all_minus25m,ct,envfp,buildings with dwellings,20278,10675,0.526433,0.771871,0.666535,
+all_minus25m,ct,envfp,all buildings,31705,14414,0.454629,0.696672,0.573253,
+all_minus25m,ct,envct,dwellings,71610,46718,0.652395,0.818712,0.746711,1887
+all_minus25m,ct,envct,buildings with dwellings,20278,11535,0.568843,0.820988,0.711165,
+all_minus25m,ct,envct,all buildings,31705,15745,0.496609,0.762908,0.620565,
+all_minus25m,ct,fp,dwellings,71610,39656,0.553777,0.717288,0.648247,1887
+all_minus25m,ct,fp,buildings with dwellings,20278,11203,0.552471,0.815169,0.695779,
+all_minus25m,ct,fp,all buildings,31705,15015,0.473585,0.741082,0.596436,
+all_minus25m,ct,ct,dwellings,71610,53674,0.749532,0.969725,0.850747,1887
+all_minus25m,ct,ct,buildings with dwellings,20278,12819,0.632163,0.948664,0.784545,
+all_minus25m,ct,ct,all buildings,31705,17406,0.548999,0.9091,0.686863,
+all_minus25m,ct,env05fp,dwellings,71610,38885,0.543011,0.699832,0.634981,1887
+all_minus25m,ct,env05fp,buildings with dwellings,20278,10924,0.538712,0.789032,0.679308,
+all_minus25m,ct,env05fp,all buildings,31705,14710,0.463965,0.718246,0.584261,
+all_minus25m,ct,env5fp,dwellings,71610,38043,0.531253,0.675632,0.621841,1887
+all_minus25m,ct,env5fp,buildings with dwellings,20278,10675,0.526433,0.759789,0.666535,
+all_minus25m,ct,env5fp,all buildings,31705,14397,0.454092,0.681281,0.571771,
+all_minus25m,ct,env05ct,dwellings,71610,49441,0.69042,0.87573,0.787111,1887
+all_minus25m,ct,env05ct,buildings with dwellings,20278,11979,0.590739,0.853536,0.734047,
+all_minus25m,ct,env05ct,all buildings,31705,16369,0.516291,0.813342,0.645166,
+all_minus25m,ct,env5ct,dwellings,71610,46458,0.648764,0.802793,0.743067,1887
+all_minus25m,ct,env5ct,buildings with dwellings,20278,11527,0.568449,0.804764,0.710721,
+all_minus25m,ct,env5ct,all buildings,31705,15696,0.495064,0.737171,0.617379,

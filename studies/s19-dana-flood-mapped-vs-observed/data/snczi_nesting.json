@@ -1,0 +1,26 @@
+{
+ "10_in_100": {
+  "tiles_compared": 271,
+  "pixels_in_smaller_zone": 25215662,
+  "pixels_outside_larger_zone": 52441,
+  "share_outside": 0.0020796995137387234,
+  "tiles_with_any_pixel_outside": 178,
+  "tiles_where_larger_is_empty_but_smaller_is_not": 0
+ },
+ "100_in_500": {
+  "tiles_compared": 278,
+  "pixels_in_smaller_zone": 83880160,
+  "pixels_outside_larger_zone": 752147,
+  "share_outside": 0.008966923763617046,
+  "tiles_with_any_pixel_outside": 239,
+  "tiles_where_larger_is_empty_but_smaller_is_not": 0
+ },
+ "10_in_500": {
+  "tiles_compared": 434,
+  "pixels_in_smaller_zone": 25218475,
+  "pixels_outside_larger_zone": 85120,
+  "share_outside": 0.003375303225115714,
+  "tiles_with_any_pixel_outside": 158,
+  "tiles_where_larger_is_empty_but_smaller_is_not": 1
+ }
+}

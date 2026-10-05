@@ -1,0 +1,43 @@
+use,map_status,buildings,buildings_with_dwellings,dwellings
+agriculture,SNCZI T100 or T10,1560,9,9
+agriculture,SNCZI T500 (not T100),<5,<5,<5
+agriculture,PATRICOVA levels 1-6 only,435,5,5
+agriculture,PATRICOVA geomorphological only,<5,<5,<5
+agriculture,outside every official zone,689,7,7
+industrial,SNCZI T100 or T10,<5,<5,<5
+industrial,SNCZI T500 (not T100),<5,<5,<5
+industrial,PATRICOVA levels 1-6 only,<5,<5,<5
+industrial,PATRICOVA geomorphological only,<5,<5,<5
+industrial,outside every official zone,2489,19,24
+office,SNCZI T100 or T10,<5,<5,<5
+office,SNCZI T500 (not T100),<5,<5,<5
+office,PATRICOVA levels 1-6 only,28,0,0
+office,PATRICOVA geomorphological only,<5,<5,<5
+office,outside every official zone,87,5,5
+public services,SNCZI T100 or T10,113,0,0
+public services,SNCZI T500 (not T100),<5,<5,<5
+public services,PATRICOVA levels 1-6 only,<5,<5,<5
+public services,PATRICOVA geomorphological only,38,0,0
+public services,outside every official zone,<5,<5,<5
+residential,SNCZI T100 or T10,2605,2524,8409
+residential,SNCZI T500 (not T100),2689,2569,19207
+residential,PATRICOVA levels 1-6 only,2898,2779,6453
+residential,PATRICOVA geomorphological only,3269,3112,7247
+residential,outside every official zone,11439,11003,43243
+retail,SNCZI T100 or T10,69,5,7
+retail,SNCZI T500 (not T100),159,5,7
+retail,PATRICOVA levels 1-6 only,91,8,12
+retail,PATRICOVA geomorphological only,85,14,18
+retail,outside every official zone,284,58,77
+unknown,SNCZI T100 or T10,39,0,0
+unknown,SNCZI T500 (not T100),20,0,0
+unknown,PATRICOVA levels 1-6 only,<5,<5,<5
+unknown,PATRICOVA geomorphological only,17,0,0
+unknown,outside every official zone,<5,<5,<5
+agriculture,all,3322,27,27
+industrial,all,7204,32,60
+office,all,245,12,16
+public services,all,577,5,6
+residential,all,22900,21987,84559
+retail,all,688,90,121
+unknown,all,125,0,0

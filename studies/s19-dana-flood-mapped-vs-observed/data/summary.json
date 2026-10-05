@@ -1,0 +1,124 @@
+{
+ "primary": {
+  "variant": "all",
+  "extent_rule": "fp",
+  "zone_rule": "envfp",
+  "municipalities_touched": 115,
+  "municipalities_with_dwellings_in_extent": 78,
+  "extent_area_in_province_ha": 55251.6,
+  "dwellings_in_extent": 84789,
+  "buildings_with_dwellings_in_extent": 22153,
+  "buildings_in_extent": 35061,
+  "dwellings_by_status": {
+   "SNCZI T100 or T10": 8435,
+   "SNCZI T500 (not T100)": 19234,
+   "PATRICOVA levels 1-6 only": 6485,
+   "PATRICOVA geomorphological only": 7276,
+   "outside every official zone": 43359
+  },
+  "buildings_with_dwellings_by_status": {
+   "SNCZI T100 or T10": 2542,
+   "SNCZI T500 (not T100)": 2586,
+   "PATRICOVA levels 1-6 only": 2795,
+   "PATRICOVA geomorphological only": 3135,
+   "outside every official zone": 11095
+  },
+  "snczi_t10_dwellings": 210,
+  "snczi_t100_not_t10_dwellings": 8225,
+  "share_outside_all_zones": 0.5113752963238156,
+  "share_outside_snczi": 0.6736722923964193,
+  "share_outside_return_period_zones": 0.5971883145219309,
+  "dwellings_by_band": {
+   "1985 or earlier, or unknown": 43478,
+   "1986-2007": 31202,
+   "2008-2016": 7923,
+   "2017-2024": 1776,
+   "2025 or later": 410
+  },
+  "province_dwellings_in_touched_municipalities": 1159916
+ },
+ "disclosure": {
+  "primary_suppressed_groups": 271,
+  "complementary_suppressed_groups": 69
+ },
+ "gva_footprint": {
+  "dwellings": 138217,
+  "outside_all": 53801,
+  "share_outside_all_zones": 0.38925,
+  "both": 64962,
+  "either": 158044
+ },
+ "matched_comparison": {
+  "municipalities": 66,
+  "envfp": {
+   "copernicus_dwellings": 77007,
+   "copernicus_share_outside": 0.4941368966457595,
+   "gva_dwellings": 138217,
+   "gva_share_outside": 0.38925023694625116
+  },
+  "fp": {
+   "copernicus_dwellings": 77007,
+   "copernicus_share_outside": 0.5157453218538575,
+   "gva_dwellings": 138217,
+   "gva_share_outside": 0.4076343720381719
+  },
+  "envct": {
+   "copernicus_dwellings": 77007,
+   "copernicus_share_outside": 0.609853649668212,
+   "gva_dwellings": 138217,
+   "gva_share_outside": 0.48594601242973007
+  }
+ },
+ "ranges": {
+  "reported_dwellings": [
+   0.389127,
+   0.700801
+  ],
+  "frozen_plan_dwellings": [
+   0.407634,
+   0.876142
+  ],
+  "copernicus_envfp": [
+   0.500994,
+   0.53857
+  ],
+  "copernicus_envct": [
+   0.600698,
+   0.659742
+  ],
+  "copernicus_grid_fp": [
+   0.518603,
+   0.560343
+  ],
+  "copernicus_grid_ct": [
+   0.695982,
+   0.756125
+  ],
+  "leave_one_out": [
+   0.4771846927282217,
+   0.5492317241554032
+  ],
+  "leave_one_out_extremes": [
+   "Paiporta",
+   "l'Alcúdia"
+  ]
+ },
+ "paiporta_pilot_recomputed": {
+  "aoi01_first": {
+   "dwellings_in_extent": 11987,
+   "buildings_with_dwellings_in_extent": 1780,
+   "dwellings_2017_or_later": 624,
+   "buildings_2017_or_later": 99,
+   "buildings_2025_or_later": 18
+  },
+  "all": {
+   "dwellings_in_extent": 11987,
+   "buildings_with_dwellings_in_extent": 1780,
+   "dwellings_2017_or_later": 624,
+   "buildings_2017_or_later": 99,
+   "buildings_2025_or_later": 18
+  },
+  "dwellings_total": 11988,
+  "buildings_with_dwellings_total": 1781
+ }
+}

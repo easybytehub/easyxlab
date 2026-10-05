@@ -1,0 +1,11 @@
+extent_variant,area_ha,area_in_province_ha,municipalities_touched
+all,56298.8,55251.6,115
+first,55812.0,54824.5,115
+aoi01_first,53106.9,52119.5,114
+flooded_only,18270.5,17800.0,98
+earlier_versions,56289.4,55242.3,115
+gva_footprint,42550.2,42540.4,86
+all_plus10m,58590.3,57409.1,115
+all_minus10m,54129.0,53201.8,115
+all_plus25m,61645.0,60279.0,115
+all_minus25m,51723.0,50926.5,104

@@ -1,0 +1,373 @@
+ine_code,municipality,map_status,year_band,buildings_with_dwellings,dwellings
+46005,Alaquàs,SNCZI T100 or T10,"2016 or earlier, or unknown",<5,<5
+46005,Alaquàs,SNCZI T500 (not T100),"2016 or earlier, or unknown",5,125
+46005,Alaquàs,PATRICOVA levels 1-6 only,"2016 or earlier, or unknown",<5,<5
+46005,Alaquàs,outside every official zone,"2016 or earlier, or unknown",<5,<5
+46007,Albal,SNCZI T500 (not T100),"2016 or earlier, or unknown",37,292
+46007,Albal,SNCZI T500 (not T100),2017-2024,16,77
+46007,Albal,SNCZI T500 (not T100),2025 or later,<5,<5
+46007,Albal,PATRICOVA levels 1-6 only,2017-2024,<5,<5
+46007,Albal,PATRICOVA geomorphological only,2017-2024,17,17
+46007,Albal,PATRICOVA geomorphological only,2025 or later,<5,<5
+46007,Albal,outside every official zone,"2016 or earlier, or unknown",5,235
+46007,Albal,outside every official zone,2017-2024,<5,<5
+46007,Albal,outside every official zone,2025 or later,<5,<5
+46008,Albalat de la Ribera,SNCZI T100 or T10,"2016 or earlier, or unknown",67,76
+46008,Albalat de la Ribera,SNCZI T500 (not T100),"2016 or earlier, or unknown",33,33
+46008,Albalat de la Ribera,PATRICOVA levels 1-6 only,"2016 or earlier, or unknown",43,80
+46011,Alberic,SNCZI T100 or T10,"2016 or earlier, or unknown",8,8
+46011,Alberic,SNCZI T500 (not T100),"2016 or earlier, or unknown",11,131
+46011,Alberic,PATRICOVA levels 1-6 only,"2016 or earlier, or unknown",156,161
+46011,Alberic,PATRICOVA geomorphological only,"2016 or earlier, or unknown",8,8
+46011,Alberic,PATRICOVA geomorphological only,2017-2024,<5,<5
+46011,Alberic,PATRICOVA geomorphological only,2025 or later,<5,<5
+46011,Alberic,outside every official zone,"2016 or earlier, or unknown",1910,4564
+46011,Alberic,outside every official zone,2017-2024,<5,<5
+46011,Alberic,outside every official zone,2025 or later,<5,<5
+46012,Alborache,SNCZI T500 (not T100),"2016 or earlier, or unknown",<5,<5
+46015,Alcàsser,SNCZI T100 or T10,"2016 or earlier, or unknown",<5,<5
+46015,Alcàsser,SNCZI T500 (not T100),"2016 or earlier, or unknown",<5,<5
+46016,Alcàntera de Xúquer,SNCZI T500 (not T100),"2016 or earlier, or unknown",<5,<5
+46016,Alcàntera de Xúquer,PATRICOVA levels 1-6 only,2017-2024,<5,<5
+46016,Alcàntera de Xúquer,PATRICOVA geomorphological only,"2016 or earlier, or unknown",51,84
+46016,Alcàntera de Xúquer,PATRICOVA geomorphological only,2017-2024,<5,<5
+46016,Alcàntera de Xúquer,PATRICOVA geomorphological only,2025 or later,<5,<5
+46017,Alzira,SNCZI T100 or T10,"2016 or earlier, or unknown",201,201
+46017,Alzira,SNCZI T500 (not T100),"2016 or earlier, or unknown",7,7
+46017,Alzira,PATRICOVA levels 1-6 only,"2016 or earlier, or unknown",<5,<5
+46017,Alzira,outside every official zone,"2016 or earlier, or unknown",<5,<5
+46019,l'Alcúdia,SNCZI T100 or T10,"2016 or earlier, or unknown",91,255
+46019,l'Alcúdia,SNCZI T100 or T10,2017-2024,7,7
+46019,l'Alcúdia,SNCZI T100 or T10,2025 or later,<5,<5
+46019,l'Alcúdia,SNCZI T500 (not T100),"2016 or earlier, or unknown",39,191
+46019,l'Alcúdia,SNCZI T500 (not T100),2017-2024,<5,<5
+46019,l'Alcúdia,PATRICOVA levels 1-6 only,"2016 or earlier, or unknown",<5,<5
+46019,l'Alcúdia,PATRICOVA levels 1-6 only,2017-2024,<5,<5
+46019,l'Alcúdia,PATRICOVA geomorphological only,"2016 or earlier, or unknown",2258,5332
+46019,l'Alcúdia,PATRICOVA geomorphological only,2017-2024,32,51
+46019,l'Alcúdia,PATRICOVA geomorphological only,2025 or later,<5,<5
+46019,l'Alcúdia,outside every official zone,"2016 or earlier, or unknown",<5,<5
+46021,Aldaia,SNCZI T100 or T10,"2016 or earlier, or unknown",121,2147
+46021,Aldaia,SNCZI T100 or T10,2017-2024,<5,<5
+46021,Aldaia,SNCZI T100 or T10,2025 or later,<5,<5
+46021,Aldaia,SNCZI T500 (not T100),"2016 or earlier, or unknown",15,336
+46021,Aldaia,SNCZI T500 (not T100),2017-2024,<5,<5
+46021,Aldaia,PATRICOVA levels 1-6 only,"2016 or earlier, or unknown",23,85
+46021,Aldaia,outside every official zone,"2016 or earlier, or unknown",82,774
+46021,Aldaia,outside every official zone,2017-2024,<5,<5
+46021,Aldaia,outside every official zone,2025 or later,<5,<5
+46022,Alfafar,SNCZI T100 or T10,"2016 or earlier, or unknown",<5,<5
+46022,Alfafar,SNCZI T500 (not T100),"2016 or earlier, or unknown",44,1339
+46022,Alfafar,SNCZI T500 (not T100),2017-2024,<5,<5
+46022,Alfafar,PATRICOVA levels 1-6 only,"2016 or earlier, or unknown",38,39
+46022,Alfafar,outside every official zone,"2016 or earlier, or unknown",136,1408
+46022,Alfafar,outside every official zone,2017-2024,<5,<5
+46022,Alfafar,outside every official zone,2025 or later,<5,<5
+46026,Alfarb,PATRICOVA levels 1-6 only,"2016 or earlier, or unknown",<5,<5
+46026,Alfarb,PATRICOVA geomorphological only,"2016 or earlier, or unknown",71,72
+46026,Alfarb,PATRICOVA geomorphological only,2017-2024,<5,<5
+46026,Alfarb,outside every official zone,"2016 or earlier, or unknown",9,10
+46029,Algemesí,SNCZI T100 or T10,"2016 or earlier, or unknown",226,829
+46029,Algemesí,SNCZI T100 or T10,2017-2024,24,32
+46029,Algemesí,SNCZI T100 or T10,2025 or later,5,5
+46029,Algemesí,SNCZI T500 (not T100),"2016 or earlier, or unknown",90,825
+46029,Algemesí,SNCZI T500 (not T100),2017-2024,<5,<5
+46029,Algemesí,PATRICOVA levels 1-6 only,"2016 or earlier, or unknown",741,2997
+46029,Algemesí,PATRICOVA levels 1-6 only,2017-2024,13,45
+46029,Algemesí,PATRICOVA geomorphological only,"2016 or earlier, or unknown",17,119
+46029,Algemesí,PATRICOVA geomorphological only,2017-2024,<5,<5
+46029,Algemesí,PATRICOVA geomorphological only,2025 or later,<5,<5
+46029,Algemesí,outside every official zone,"2016 or earlier, or unknown",188,260
+46029,Algemesí,outside every official zone,2017-2024,<5,<5
+46029,Algemesí,outside every official zone,2025 or later,<5,<5
+46031,Alginet,SNCZI T100 or T10,"2016 or earlier, or unknown",14,15
+46031,Alginet,SNCZI T500 (not T100),"2016 or earlier, or unknown",17,17
+46031,Alginet,PATRICOVA levels 1-6 only,"2016 or earlier, or unknown",10,55
+46031,Alginet,PATRICOVA geomorphological only,"2016 or earlier, or unknown",17,26
+46031,Alginet,outside every official zone,"2016 or earlier, or unknown",11,13
+46054,Benetússer,SNCZI T500 (not T100),"2016 or earlier, or unknown",10,349
+46054,Benetússer,outside every official zone,"2016 or earlier, or unknown",26,537
+46060,Benifaió,outside every official zone,"2016 or earlier, or unknown",<5,<5
+46064,Benimuslem,SNCZI T100 or T10,"2016 or earlier, or unknown",48,91
+46064,Benimuslem,SNCZI T500 (not T100),"2016 or earlier, or unknown",14,56
+46064,Benimuslem,PATRICOVA levels 1-6 only,"2016 or earlier, or unknown",159,181
+46065,Beniparrell,SNCZI T100 or T10,"2016 or earlier, or unknown",272,736
+46065,Beniparrell,SNCZI T100 or T10,2017-2024,11,14
+46065,Beniparrell,SNCZI T500 (not T100),"2016 or earlier, or unknown",97,179
+46065,Beniparrell,SNCZI T500 (not T100),2017-2024,<5,<5
+46065,Beniparrell,PATRICOVA geomorphological only,"2016 or earlier, or unknown",<5,<5
+46065,Beniparrell,PATRICOVA geomorphological only,2017-2024,<5,<5
+46065,Beniparrell,outside every official zone,"2016 or earlier, or unknown",<5,<5
+46065,Beniparrell,outside every official zone,2017-2024,<5,<5
+46077,Buñol,PATRICOVA geomorphological only,"2016 or earlier, or unknown",<5,<5
+46080,Camporrobles,PATRICOVA geomorphological only,"2016 or earlier, or unknown",<5,<5
+46080,Camporrobles,outside every official zone,"2016 or earlier, or unknown",<5,<5
+46083,Carcaixent,SNCZI T100 or T10,"2016 or earlier, or unknown",91,115
+46083,Carcaixent,SNCZI T500 (not T100),"2016 or earlier, or unknown",<5,<5
+46083,Carcaixent,PATRICOVA geomorphological only,"2016 or earlier, or unknown",<5,<5
+46084,Càrcer,SNCZI T500 (not T100),"2016 or earlier, or unknown",7,8
+46084,Càrcer,PATRICOVA levels 1-6 only,"2016 or earlier, or unknown",27,28
+46085,Carlet,SNCZI T500 (not T100),"2016 or earlier, or unknown",<5,<5
+46085,Carlet,PATRICOVA levels 1-6 only,"2016 or earlier, or unknown",42,195
+46085,Carlet,PATRICOVA levels 1-6 only,2017-2024,<5,<5
+46085,Carlet,PATRICOVA geomorphological only,"2016 or earlier, or unknown",<5,<5
+46085,Carlet,outside every official zone,"2016 or earlier, or unknown",17,17
+46085,Carlet,outside every official zone,2017-2024,<5,<5
+46085,Carlet,outside every official zone,2025 or later,<5,<5
+46093,Catadau,outside every official zone,"2016 or earlier, or unknown",5,30
+46094,Catarroja,SNCZI T100 or T10,"2016 or earlier, or unknown",<5,<5
+46094,Catarroja,SNCZI T500 (not T100),"2016 or earlier, or unknown",130,3275
+46094,Catarroja,SNCZI T500 (not T100),2017-2024,<5,<5
+46094,Catarroja,SNCZI T500 (not T100),2025 or later,<5,<5
+46094,Catarroja,PATRICOVA levels 1-6 only,"2016 or earlier, or unknown",10,145
+46094,Catarroja,PATRICOVA geomorphological only,"2016 or earlier, or unknown",<5,<5
+46094,Catarroja,outside every official zone,"2016 or earlier, or unknown",26,26
+46095,Caudete de las Fuentes,PATRICOVA levels 1-6 only,"2016 or earlier, or unknown",9,9
+46095,Caudete de las Fuentes,PATRICOVA geomorphological only,"2016 or earlier, or unknown",8,8
+46095,Caudete de las Fuentes,outside every official zone,"2016 or earlier, or unknown",12,12
+46098,Corbera,SNCZI T100 or T10,"2016 or earlier, or unknown",101,101
+46098,Corbera,SNCZI T100 or T10,2017-2024,<5,<5
+46098,Corbera,SNCZI T500 (not T100),"2016 or earlier, or unknown",<5,<5
+46098,Corbera,PATRICOVA geomorphological only,"2016 or earlier, or unknown",<5,<5
+46100,Cotes,SNCZI T500 (not T100),"2016 or earlier, or unknown",<5,<5
+46100,Cotes,SNCZI T500 (not T100),2017-2024,<5,<5
+46100,Cotes,PATRICOVA levels 1-6 only,"2016 or earlier, or unknown",8,23
+46100,Cotes,PATRICOVA geomorphological only,"2016 or earlier, or unknown",<5,<5
+46100,Cotes,outside every official zone,"2016 or earlier, or unknown",<5,<5
+46102,Quart de Poblet,SNCZI T100 or T10,"2016 or earlier, or unknown",23,32
+46102,Quart de Poblet,SNCZI T500 (not T100),"2016 or earlier, or unknown",5,5
+46102,Quart de Poblet,PATRICOVA levels 1-6 only,"2016 or earlier, or unknown",<5,<5
+46102,Quart de Poblet,PATRICOVA geomorphological only,"2016 or earlier, or unknown",<5,<5
+46102,Quart de Poblet,outside every official zone,"2016 or earlier, or unknown",17,79
+46102,Quart de Poblet,outside every official zone,2017-2024,<5,<5
+46102,Quart de Poblet,outside every official zone,2025 or later,<5,<5
+46105,Cullera,SNCZI T100 or T10,"2016 or earlier, or unknown",162,167
+46105,Cullera,SNCZI T100 or T10,2017-2024,11,11
+46105,Cullera,SNCZI T500 (not T100),"2016 or earlier, or unknown",<5,<5
+46105,Cullera,PATRICOVA levels 1-6 only,"2016 or earlier, or unknown",<5,<5
+46105,Cullera,outside every official zone,"2016 or earlier, or unknown",<5,<5
+46109,Cheste,SNCZI T100 or T10,"2016 or earlier, or unknown",<5,<5
+46109,Cheste,SNCZI T500 (not T100),"2016 or earlier, or unknown",<5,<5
+46109,Cheste,PATRICOVA levels 1-6 only,"2016 or earlier, or unknown",<5,<5
+46109,Cheste,PATRICOVA geomorphological only,"2016 or earlier, or unknown",<5,<5
+46110,Xirivella,SNCZI T100 or T10,"2016 or earlier, or unknown",251,2442
+46110,Xirivella,SNCZI T100 or T10,2017-2024,<5,<5
+46110,Xirivella,SNCZI T500 (not T100),"2016 or earlier, or unknown",534,4887
+46110,Xirivella,SNCZI T500 (not T100),2017-2024,6,6
+46110,Xirivella,SNCZI T500 (not T100),2025 or later,<5,<5
+46110,Xirivella,outside every official zone,"2016 or earlier, or unknown",604,4431
+46110,Xirivella,outside every official zone,2017-2024,<5,<5
+46110,Xirivella,outside every official zone,2025 or later,<5,<5
+46111,Chiva,SNCZI T100 or T10,"2016 or earlier, or unknown",5,49
+46111,Chiva,SNCZI T500 (not T100),"2016 or earlier, or unknown",5,5
+46111,Chiva,PATRICOVA levels 1-6 only,"2016 or earlier, or unknown",7,14
+46111,Chiva,PATRICOVA geomorphological only,"2016 or earlier, or unknown",<5,<5
+46111,Chiva,outside every official zone,"2016 or earlier, or unknown",<5,<5
+46119,l'Énova,outside every official zone,"2016 or earlier, or unknown",<5,<5
+46125,Fortaleny,SNCZI T100 or T10,"2016 or earlier, or unknown",10,10
+46125,Fortaleny,SNCZI T100 or T10,2017-2024,<5,<5
+46125,Fortaleny,SNCZI T500 (not T100),"2016 or earlier, or unknown",5,15
+46125,Fortaleny,SNCZI T500 (not T100),2017-2024,<5,<5
+46125,Fortaleny,PATRICOVA levels 1-6 only,"2016 or earlier, or unknown",26,41
+46125,Fortaleny,PATRICOVA levels 1-6 only,2017-2024,<5,<5
+46125,Fortaleny,PATRICOVA geomorphological only,2017-2024,<5,<5
+46125,Fortaleny,outside every official zone,"2016 or earlier, or unknown",<5,<5
+46125,Fortaleny,outside every official zone,2017-2024,<5,<5
+46130,Gavarda,SNCZI T500 (not T100),"2016 or earlier, or unknown",8,8
+46130,Gavarda,PATRICOVA levels 1-6 only,"2016 or earlier, or unknown",33,37
+46133,Gestalgar,PATRICOVA levels 1-6 only,"2016 or earlier, or unknown",<5,<5
+46136,Godelleta,PATRICOVA geomorphological only,"2016 or earlier, or unknown",<5,<5
+46139,Guadassuar,SNCZI T100 or T10,"2016 or earlier, or unknown",122,143
+46139,Guadassuar,SNCZI T100 or T10,2025 or later,<5,<5
+46139,Guadassuar,SNCZI T500 (not T100),"2016 or earlier, or unknown",47,75
+46139,Guadassuar,PATRICOVA levels 1-6 only,"2016 or earlier, or unknown",47,47
+46139,Guadassuar,PATRICOVA geomorphological only,"2016 or earlier, or unknown",196,716
+46139,Guadassuar,PATRICOVA geomorphological only,2017-2024,<5,<5
+46139,Guadassuar,outside every official zone,"2016 or earlier, or unknown",16,16
+46146,Xeresa,SNCZI T100 or T10,"2016 or earlier, or unknown",<5,<5
+46148,Loriguilla,PATRICOVA levels 1-6 only,2017-2024,<5,<5
+46148,Loriguilla,PATRICOVA geomorphological only,"2016 or earlier, or unknown",17,44
+46148,Loriguilla,PATRICOVA geomorphological only,2017-2024,7,13
+46148,Loriguilla,PATRICOVA geomorphological only,2025 or later,<5,<5
+46148,Loriguilla,outside every official zone,"2016 or earlier, or unknown",5,5
+46148,Loriguilla,outside every official zone,2017-2024,<5,<5
+46148,Loriguilla,outside every official zone,2025 or later,<5,<5
+46152,Llocnou de la Corona,PATRICOVA geomorphological only,"2016 or earlier, or unknown",<5,<5
+46152,Llocnou de la Corona,PATRICOVA geomorphological only,2017-2024,<5,<5
+46152,Llocnou de la Corona,outside every official zone,"2016 or earlier, or unknown",53,61
+46152,Llocnou de la Corona,outside every official zone,2017-2024,<5,<5
+46152,Llocnou de la Corona,outside every official zone,2025 or later,<5,<5
+46155,Llaurí,SNCZI T100 or T10,"2016 or earlier, or unknown",<5,<5
+46155,Llaurí,SNCZI T100 or T10,2017-2024,<5,<5
+46155,Llaurí,SNCZI T500 (not T100),"2016 or earlier, or unknown",<5,<5
+46156,Llombai,PATRICOVA levels 1-6 only,2017-2024,<5,<5
+46156,Llombai,PATRICOVA geomorphological only,"2016 or earlier, or unknown",9,57
+46156,Llombai,PATRICOVA geomorphological only,2017-2024,<5,<5
+46156,Llombai,PATRICOVA geomorphological only,2025 or later,<5,<5
+46156,Llombai,outside every official zone,"2016 or earlier, or unknown",<5,<5
+46156,Llombai,outside every official zone,2017-2024,<5,<5
+46159,Manises,SNCZI T100 or T10,"2016 or earlier, or unknown",6,6
+46159,Manises,PATRICOVA geomorphological only,"2016 or earlier, or unknown",<5,<5
+46159,Manises,outside every official zone,"2016 or earlier, or unknown",<5,<5
+46160,Manuel,outside every official zone,"2016 or earlier, or unknown",<5,<5
+46162,Massalavés,SNCZI T500 (not T100),"2016 or earlier, or unknown",<5,<5
+46162,Massalavés,PATRICOVA levels 1-6 only,"2016 or earlier, or unknown",<5,<5
+46162,Massalavés,outside every official zone,"2016 or earlier, or unknown",5,5
+46165,Massanassa,SNCZI T100 or T10,"2016 or earlier, or unknown",<5,<5
+46165,Massanassa,SNCZI T500 (not T100),"2016 or earlier, or unknown",161,1281
+46165,Massanassa,SNCZI T500 (not T100),2017-2024,11,11
+46165,Massanassa,SNCZI T500 (not T100),2025 or later,<5,<5
+46169,Mislata,SNCZI T500 (not T100),"2016 or earlier, or unknown",<5,<5
+46169,Mislata,PATRICOVA geomorphological only,"2016 or earlier, or unknown",<5,<5
+46169,Mislata,outside every official zone,"2016 or earlier, or unknown",7,163
+46172,Montserrat,SNCZI T100 or T10,"2016 or earlier, or unknown",<5,<5
+46172,Montserrat,SNCZI T500 (not T100),"2016 or earlier, or unknown",<5,<5
+46172,Montserrat,PATRICOVA geomorphological only,"2016 or earlier, or unknown",<5,<5
+46172,Montserrat,outside every official zone,"2016 or earlier, or unknown",5,5
+46176,Montroi/Montroy,SNCZI T100 or T10,"2016 or earlier, or unknown",<5,<5
+46176,Montroi/Montroy,PATRICOVA levels 1-6 only,"2016 or earlier, or unknown",5,5
+46176,Montroi/Montroy,PATRICOVA levels 1-6 only,2017-2024,<5,<5
+46176,Montroi/Montroy,PATRICOVA geomorphological only,"2016 or earlier, or unknown",<5,<5
+46176,Montroi/Montroy,outside every official zone,"2016 or earlier, or unknown",10,19
+46186,Paiporta,SNCZI T100 or T10,"2016 or earlier, or unknown",<5,<5
+46186,Paiporta,SNCZI T500 (not T100),"2016 or earlier, or unknown",676,3229
+46186,Paiporta,SNCZI T500 (not T100),2017-2024,43,127
+46186,Paiporta,SNCZI T500 (not T100),2025 or later,6,6
+46186,Paiporta,PATRICOVA geomorphological only,"2016 or earlier, or unknown",<5,<5
+46186,Paiporta,outside every official zone,"2016 or earlier, or unknown",1003,8128
+46186,Paiporta,outside every official zone,2017-2024,38,335
+46186,Paiporta,outside every official zone,2025 or later,12,156
+46191,Pedralba,SNCZI T100 or T10,"2016 or earlier, or unknown",15,19
+46191,Pedralba,SNCZI T500 (not T100),"2016 or earlier, or unknown",5,5
+46191,Pedralba,PATRICOVA geomorphological only,"2016 or earlier, or unknown",16,45
+46191,Pedralba,outside every official zone,"2016 or earlier, or unknown",7,7
+46193,Picanya,SNCZI T500 (not T100),"2016 or earlier, or unknown",8,117
+46193,Picanya,SNCZI T500 (not T100),2017-2024,<5,<5
+46193,Picanya,SNCZI T500 (not T100),2025 or later,<5,<5
+46193,Picanya,PATRICOVA levels 1-6 only,"2016 or earlier, or unknown",11,22
+46193,Picanya,PATRICOVA geomorphological only,"2016 or earlier, or unknown",<5,<5
+46193,Picanya,PATRICOVA geomorphological only,2017-2024,<5,<5
+46193,Picanya,outside every official zone,"2016 or earlier, or unknown",968,4446
+46193,Picanya,outside every official zone,2017-2024,87,205
+46193,Picanya,outside every official zone,2025 or later,9,23
+46194,Picassent,PATRICOVA levels 1-6 only,"2016 or earlier, or unknown",<5,<5
+46197,Polinyà de Xúquer,SNCZI T100 or T10,"2016 or earlier, or unknown",99,157
+46197,Polinyà de Xúquer,SNCZI T500 (not T100),"2016 or earlier, or unknown",9,9
+46197,Polinyà de Xúquer,PATRICOVA geomorphological only,"2016 or earlier, or unknown",<5,<5
+46197,Polinyà de Xúquer,outside every official zone,"2016 or earlier, or unknown",<5,<5
+46203,la Pobla Llarga,SNCZI T100 or T10,"2016 or earlier, or unknown",220,275
+46203,la Pobla Llarga,SNCZI T100 or T10,2017-2024,<5,<5
+46203,la Pobla Llarga,SNCZI T500 (not T100),"2016 or earlier, or unknown",88,128
+46203,la Pobla Llarga,PATRICOVA levels 1-6 only,"2016 or earlier, or unknown",7,7
+46203,la Pobla Llarga,PATRICOVA levels 1-6 only,2017-2024,<5,<5
+46203,la Pobla Llarga,PATRICOVA geomorphological only,"2016 or earlier, or unknown",5,5
+46203,la Pobla Llarga,outside every official zone,"2016 or earlier, or unknown",1121,1900
+46203,la Pobla Llarga,outside every official zone,2017-2024,15,36
+46209,Rafelguaraf,PATRICOVA levels 1-6 only,"2016 or earlier, or unknown",246,368
+46209,Rafelguaraf,PATRICOVA levels 1-6 only,2017-2024,5,5
+46209,Rafelguaraf,PATRICOVA geomorphological only,"2016 or earlier, or unknown",<5,<5
+46209,Rafelguaraf,PATRICOVA geomorphological only,2017-2024,<5,<5
+46209,Rafelguaraf,outside every official zone,"2016 or earlier, or unknown",555,658
+46209,Rafelguaraf,outside every official zone,2017-2024,<5,<5
+46209,Rafelguaraf,outside every official zone,2025 or later,<5,<5
+46212,Real,SNCZI T100 or T10,"2016 or earlier, or unknown",<5,<5
+46212,Real,PATRICOVA levels 1-6 only,"2016 or earlier, or unknown",<5,<5
+46212,Real,PATRICOVA geomorphological only,"2016 or earlier, or unknown",<5,<5
+46212,Real,outside every official zone,"2016 or earlier, or unknown",<5,<5
+46213,Requena,SNCZI T100 or T10,2017-2024,<5,<5
+46213,Requena,SNCZI T500 (not T100),2017-2024,<5,<5
+46213,Requena,PATRICOVA levels 1-6 only,"2016 or earlier, or unknown",23,23
+46213,Requena,PATRICOVA levels 1-6 only,2017-2024,<5,<5
+46213,Requena,PATRICOVA geomorphological only,"2016 or earlier, or unknown",7,7
+46213,Requena,PATRICOVA geomorphological only,2017-2024,<5,<5
+46213,Requena,outside every official zone,"2016 or earlier, or unknown",7,38
+46213,Requena,outside every official zone,2017-2024,<5,<5
+46213,Requena,outside every official zone,2025 or later,<5,<5
+46214,Riba-roja de Túria,SNCZI T100 or T10,"2016 or earlier, or unknown",33,43
+46214,Riba-roja de Túria,SNCZI T500 (not T100),"2016 or earlier, or unknown",5,5
+46214,Riba-roja de Túria,PATRICOVA levels 1-6 only,"2016 or earlier, or unknown",<5,<5
+46214,Riba-roja de Túria,PATRICOVA geomorphological only,"2016 or earlier, or unknown",<5,<5
+46214,Riba-roja de Túria,outside every official zone,"2016 or earlier, or unknown",<5,<5
+46215,Riola,SNCZI T100 or T10,"2016 or earlier, or unknown",17,17
+46215,Riola,SNCZI T500 (not T100),"2016 or earlier, or unknown",41,102
+46215,Riola,SNCZI T500 (not T100),2017-2024,<5,<5
+46215,Riola,PATRICOVA levels 1-6 only,"2016 or earlier, or unknown",195,294
+46215,Riola,PATRICOVA levels 1-6 only,2017-2024,9,9
+46215,Riola,PATRICOVA geomorphological only,"2016 or earlier, or unknown",<5,<5
+46215,Riola,PATRICOVA geomorphological only,2017-2024,<5,<5
+46215,Riola,PATRICOVA geomorphological only,2025 or later,<5,<5
+46222,Sant Joanet,PATRICOVA geomorphological only,"2016 or earlier, or unknown",<5,<5
+46222,Sant Joanet,PATRICOVA geomorphological only,2017-2024,<5,<5
+46222,Sant Joanet,outside every official zone,"2016 or earlier, or unknown",164,248
+46222,Sant Joanet,outside every official zone,2017-2024,<5,<5
+46222,Sant Joanet,outside every official zone,2025 or later,<5,<5
+46223,Sedaví,outside every official zone,"2016 or earlier, or unknown",177,1867
+46223,Sedaví,outside every official zone,2017-2024,11,11
+46227,Senyera,PATRICOVA geomorphological only,"2016 or earlier, or unknown",<5,<5
+46229,Siete Aguas,PATRICOVA geomorphological only,"2016 or earlier, or unknown",<5,<5
+46229,Siete Aguas,PATRICOVA geomorphological only,2017-2024,<5,<5
+46229,Siete Aguas,outside every official zone,"2016 or earlier, or unknown",<5,<5
+46229,Siete Aguas,outside every official zone,2017-2024,<5,<5
+46230,Silla,SNCZI T500 (not T100),"2016 or earlier, or unknown",<5,<5
+46230,Silla,outside every official zone,"2016 or earlier, or unknown",<5,<5
+46232,Sinarcas,outside every official zone,"2016 or earlier, or unknown",8,8
+46233,Sollana,SNCZI T100 or T10,"2016 or earlier, or unknown",27,27
+46233,Sollana,SNCZI T100 or T10,2017-2024,<5,<5
+46233,Sollana,SNCZI T500 (not T100),"2016 or earlier, or unknown",5,5
+46233,Sollana,PATRICOVA levels 1-6 only,"2016 or earlier, or unknown",17,17
+46233,Sollana,PATRICOVA levels 1-6 only,2017-2024,<5,<5
+46233,Sollana,PATRICOVA geomorphological only,"2016 or earlier, or unknown",<5,<5
+46233,Sollana,outside every official zone,"2016 or earlier, or unknown",<5,<5
+46234,Sot de Chera,PATRICOVA levels 1-6 only,"2016 or earlier, or unknown",5,9
+46234,Sot de Chera,PATRICOVA geomorphological only,"2016 or earlier, or unknown",<5,<5
+46234,Sot de Chera,outside every official zone,"2016 or earlier, or unknown",<5,<5
+46235,Sueca,SNCZI T100 or T10,"2016 or earlier, or unknown",<5,<5
+46235,Sueca,SNCZI T500 (not T100),"2016 or earlier, or unknown",<5,<5
+46235,Sueca,PATRICOVA levels 1-6 only,"2016 or earlier, or unknown",14,35
+46235,Sueca,PATRICOVA geomorphological only,"2016 or earlier, or unknown",<5,<5
+46235,Sueca,outside every official zone,"2016 or earlier, or unknown",21,491
+46244,Torrent,SNCZI T100 or T10,"2016 or earlier, or unknown",7,7
+46244,Torrent,SNCZI T500 (not T100),"2016 or earlier, or unknown",11,11
+46244,Torrent,PATRICOVA levels 1-6 only,"2016 or earlier, or unknown",37,45
+46244,Torrent,PATRICOVA geomorphological only,"2016 or earlier, or unknown",53,57
+46244,Torrent,PATRICOVA geomorphological only,2017-2024,<5,<5
+46244,Torrent,PATRICOVA geomorphological only,2025 or later,<5,<5
+46244,Torrent,outside every official zone,"2016 or earlier, or unknown",76,1356
+46244,Torrent,outside every official zone,2017-2024,<5,<5
+46244,Torrent,outside every official zone,2025 or later,<5,<5
+46248,Turís,SNCZI T100 or T10,"2016 or earlier, or unknown",<5,<5
+46248,Turís,SNCZI T500 (not T100),"2016 or earlier, or unknown",<5,<5
+46248,Turís,PATRICOVA levels 1-6 only,"2016 or earlier, or unknown",6,6
+46248,Turís,PATRICOVA geomorphological only,"2016 or earlier, or unknown",<5,<5
+46249,Utiel,PATRICOVA levels 1-6 only,"2016 or earlier, or unknown",428,692
+46249,Utiel,PATRICOVA levels 1-6 only,2017-2024,8,10
+46249,Utiel,PATRICOVA geomorphological only,"2016 or earlier, or unknown",29,32
+46249,Utiel,outside every official zone,"2016 or earlier, or unknown",43,44
+46250,València,SNCZI T100 or T10,"2016 or earlier, or unknown",62,62
+46250,València,SNCZI T500 (not T100),"2016 or earlier, or unknown",128,857
+46250,València,SNCZI T500 (not T100),2017-2024,<5,<5
+46250,València,PATRICOVA levels 1-6 only,"2016 or earlier, or unknown",346,466
+46250,València,PATRICOVA levels 1-6 only,2017-2024,<5,<5
+46250,València,PATRICOVA geomorphological only,"2016 or earlier, or unknown",<5,<5
+46250,València,outside every official zone,"2016 or earlier, or unknown",1539,6696
+46250,València,outside every official zone,2017-2024,<5,<5
+46250,València,outside every official zone,2025 or later,<5,<5
+46256,Vilamarxant,SNCZI T100 or T10,"2016 or earlier, or unknown",<5,<5
+46257,Castelló,SNCZI T100 or T10,"2016 or earlier, or unknown",8,8
+46257,Castelló,SNCZI T100 or T10,2017-2024,<5,<5
+46257,Castelló,SNCZI T500 (not T100),"2016 or earlier, or unknown",140,391
+46257,Castelló,SNCZI T500 (not T100),2017-2024,<5,<5
+46257,Castelló,PATRICOVA levels 1-6 only,"2016 or earlier, or unknown",5,13
+46257,Castelló,PATRICOVA levels 1-6 only,2017-2024,<5,<5
+46257,Castelló,PATRICOVA geomorphological only,"2016 or earlier, or unknown",271,459
+46257,Castelló,PATRICOVA geomorphological only,2017-2024,<5,<5
+46257,Castelló,outside every official zone,"2016 or earlier, or unknown",1572,2404
+46257,Castelló,outside every official zone,2017-2024,12,15
+46904,Benicull de Xúquer,SNCZI T100 or T10,"2016 or earlier, or unknown",122,122
+46904,Benicull de Xúquer,SNCZI T100 or T10,2017-2024,<5,<5
+46904,Benicull de Xúquer,SNCZI T500 (not T100),"2016 or earlier, or unknown",15,15
+46904,Benicull de Xúquer,PATRICOVA levels 1-6 only,"2016 or earlier, or unknown",<5,<5
+46904,Benicull de Xúquer,PATRICOVA geomorphological only,"2016 or earlier, or unknown",<5,<5
+46904,Benicull de Xúquer,outside every official zone,"2016 or earlier, or unknown",373,593
+46904,Benicull de Xúquer,outside every official zone,2017-2024,<5,<5
+46904,Benicull de Xúquer,outside every official zone,2025 or later,<5,<5

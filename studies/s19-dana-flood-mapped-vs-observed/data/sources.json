@@ -1,0 +1,1216 @@
+{
+ "sources": {
+  "ems": {
+   "name": "Copernicus EMS Rapid Mapping, activation EMSR773 (Flood in Valencia Region, Spain)",
+   "url": "https://rapidmapping.emergency.copernicus.eu/EMSR773",
+   "licence": "free, full and open access under Regulation (EU) 2021/696 (CEMS On-Demand Mapping terms and conditions)",
+   "attribution": "Copernicus Emergency Management Service (© 2024 European Union), EMSR773"
+  },
+  "ems_prev": {
+   "name": "Copernicus EMS EMSR773, earlier product versions",
+   "url": "https://rapidmapping.emergency.copernicus.eu/EMSR773",
+   "licence": "as above",
+   "attribution": "Copernicus Emergency Management Service (© 2024 European Union), EMSR773"
+  },
+  "catastro": {
+   "name": "Dirección General del Catastro, INSPIRE Buildings (BU), province 46",
+   "url": "https://www.catastro.hacienda.gob.es/INSPIRE/buildings/46/ES.SDGC.bu.atom_46.xml",
+   "licence": "Licencia de acceso y uso de los servicios y conjuntos de datos INSPIRE de la DG del Catastro (v1.0, July 2016); feed rights: free of charge 'as long as that the D. G. of the Cadastre (Ministry of Finance) is mentioned as author and owner of the information'",
+   "attribution": "Fuente: Dirección General del Catastro"
+  },
+  "patricova": {
+   "name": "PATRICOVA: Peligrosidad por inundación (Generalitat Valenciana, ICV)",
+   "url": "https://dadesobertes.gva.es/es/dataset/patricova-peligrosidad-por-inundacion-plan-de-accion-territorial-de-caracter-sectorial-sobre-pr",
+   "licence": "CC BY 4.0",
+   "attribution": "PATRICOVA: Peligrosidad por Inundación CC BY 4.0, Generalitat"
+  },
+  "ign": {
+   "name": "IGN, INSPIRE Administrative Units (municipalities of the province of Valencia)",
+   "url": "https://www.ign.es/wfs-inspire/unidades-administrativas",
+   "licence": "CC BY 4.0",
+   "attribution": "© Instituto Geográfico Nacional"
+  },
+  "gva": {
+   "name": "Generalitat Valenciana, DANA 2024 layers (ICV terramapas 00_DANA2024)",
+   "url": "https://terramapas.icv.gva.es/00_DANA2024",
+   "licence": "HuellaInundacion: CC BY-NC-ND 4.0 (sensitivity count only, not redistributed); municipal layers: CC BY 4.0",
+   "attribution": "Generalitat Valenciana, Institut Cartogràfic Valencià"
+  },
+  "snczi": {
+   "name": "SNCZI fluvial hazard maps T10/T100/T500 (MITECO), INSPIRE view service",
+   "url": "https://servicios.idee.es/wms-inspire/riesgos-naturales/inundaciones",
+   "licence": "CC BY 4.0 (MITECO open-data catalogue)",
+   "attribution": "© Ministerio para la Transición Ecológica y el Reto Demográfico"
+  }
+ },
+ "files": [
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46001.zip",
+   "bytes": 612945,
+   "sha256": "e1bc38594758ff237458b60f2e6ca2d95a6b26b4b96e27fb3eecd5a5216388c4",
+   "fetched": "2026-10-04T21:14:48.901+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46005.zip",
+   "bytes": 1458916,
+   "sha256": "fc30da5703a411a07a010473b23eacc6b787c05d0ee1af697114ccdc9c21c417",
+   "fetched": "2026-10-04T21:14:50.387+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46007.zip",
+   "bytes": 1304050,
+   "sha256": "860c2a6cdd6f0f243c9751d44965f51974e73fb9fb29f8e5e78e2a83a76b8ccb",
+   "fetched": "2026-10-04T21:14:51.447+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46008.zip",
+   "bytes": 719270,
+   "sha256": "6553161cd87a4dc217a69b94977cf562bb60dcf5b097671a329703b09320189b",
+   "fetched": "2026-10-04T21:15:26.819+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46011.zip",
+   "bytes": 1838251,
+   "sha256": "6c1902f85be4e24f773300edc493f5e8af05e8a7b6061b78ff7425dddcefdbec",
+   "fetched": "2026-10-04T21:15:28.521+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46012.zip",
+   "bytes": 551708,
+   "sha256": "e8e663848716b32f27a1623ec22ed13c4e0becd5996ccd51c953330ec494f9b5",
+   "fetched": "2026-10-04T21:15:31.569+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46013.zip",
+   "bytes": 1669332,
+   "sha256": "d926b3bd10487173689b4d82abd3c7711fed95969977c366e2bbca87f2defd8a",
+   "fetched": "2026-10-04T21:15:32.630+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46015.zip",
+   "bytes": 1161643,
+   "sha256": "89121691c09a24b4ae125c4cb12ba50b1e0dcbbb2694310e78c7922e91e82101",
+   "fetched": "2026-10-04T21:15:36.142+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46016.zip",
+   "bytes": 280679,
+   "sha256": "fc17568bdb85a1f339d1ed3674118baa48f22d88eb80b8657fd0e13b20af18bb",
+   "fetched": "2026-10-04T21:15:37.196+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46017.zip",
+   "bytes": 5765294,
+   "sha256": "28d660bb6af76e0dd2b98a450f382c2ec7258e6499930ed55d7c51eea39a107c",
+   "fetched": "2026-10-04T21:15:38.247+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46019.zip",
+   "bytes": 1778793,
+   "sha256": "1afc61c588ed90aeae170bc2a5eb5d8974c2b5baf49e3d560528326c5b2def7e",
+   "fetched": "2026-10-04T21:15:47.348+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46021.zip",
+   "bytes": 2001839,
+   "sha256": "a34e15f8b336097e5ad9545afb3fd3a18ea5c0f08cca443ba21ccecba5ba98b4",
+   "fetched": "2026-10-04T21:15:48.408+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46022.zip",
+   "bytes": 1197749,
+   "sha256": "a2ab9fb864da21db502fee55b5d58e28c1f737b505d8df389f47db0bc44d1a1f",
+   "fetched": "2026-10-04T21:15:58.148+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46026.zip",
+   "bytes": 676390,
+   "sha256": "d8116dc970e80001eed0e53f489d5619b9d4ee8cc9310eeaab28d0b5f63d0c65",
+   "fetched": "2026-10-04T21:16:00.461+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46029.zip",
+   "bytes": 3035739,
+   "sha256": "efe20e646259d3be7ceae2f03e0b34b9e3e26477cb096b1b566c626ff6b223c0",
+   "fetched": "2026-10-04T21:16:02.004+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46031.zip",
+   "bytes": 2613674,
+   "sha256": "bd88785c2638a8602b65347c0dceb8808ea9a7a8966bfe840d51ad08623adb17",
+   "fetched": "2026-10-04T21:16:08.354+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46040.zip",
+   "bytes": 364479,
+   "sha256": "ee19059d27e95e3c34a84bc380cc53f0066f173fcb8724dbe878bcea31042a6a",
+   "fetched": "2026-10-04T21:16:13.724+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46041.zip",
+   "bytes": 393203,
+   "sha256": "f86cd74a26ecac44155af7ef633d146140240acbd9b8338bcad62fd3ab8aa747",
+   "fetched": "2026-10-04T21:16:14.785+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46048.zip",
+   "bytes": 906637,
+   "sha256": "ecaea21c8b31f256e681b90c43726522bb4c5e6f524983948f8e316df73c5bf0",
+   "fetched": "2026-10-04T21:16:15.845+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46050.zip",
+   "bytes": 115114,
+   "sha256": "fc002917c5bc4ff9b8f052fbf803ad16816f284818ea2bf10e6aff5204f4a6c6",
+   "fetched": "2026-10-04T21:16:18.027+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46051.zip",
+   "bytes": 2475563,
+   "sha256": "4ebba5727394ff8a0d3eb1e0c4e0ea29c9f564b4ec92f3d9cedc3ee6fe5103d6",
+   "fetched": "2026-10-04T21:16:19.078+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46053.zip",
+   "bytes": 277874,
+   "sha256": "27a415e9bca49f048b08c6dd84cc10e806d38d60bbaaada623b23e2d4bd54a9f",
+   "fetched": "2026-10-04T21:16:20.234+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46054.zip",
+   "bytes": 888314,
+   "sha256": "c1f34a82eecb3a6177799a9991ed69da5c722f02ad91ae9cc81ee50e7e218ec3",
+   "fetched": "2026-10-04T21:16:21.284+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46060.zip",
+   "bytes": 1850777,
+   "sha256": "53503281840417715b905e85e6597829b723a6752bbefcb15f72a048d4c9669b",
+   "fetched": "2026-10-04T21:16:24.998+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46063.zip",
+   "bytes": 475182,
+   "sha256": "ae23ac77532865d34705f14e14c00ae56e8bcc24d1ff9a6eef70ffe6b7de8208",
+   "fetched": "2026-10-04T21:16:26.057+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46064.zip",
+   "bytes": 160904,
+   "sha256": "1d4a76f583f4fc730cc29cdc5b63820783238c0e52466dbd333c41ce02573de7",
+   "fetched": "2026-10-04T21:16:27.117+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46066.zip",
+   "bytes": 420440,
+   "sha256": "c554222b72d04fcea8640e2adfd042e2eb896ae3fac7cf96a5f1838dd9ab976c",
+   "fetched": "2026-10-04T21:16:28.175+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46072.zip",
+   "bytes": 5358979,
+   "sha256": "daea3d860a11394913f47dc3ff1da037eb34ab1495ad677bf4fda1a867d2b321",
+   "fetched": "2026-10-04T21:16:29.235+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46078.zip",
+   "bytes": 309717,
+   "sha256": "4270fb919d0fc4f83de45d5680668f3c07a193400ad540ec86025c9dbd5845df",
+   "fetched": "2026-10-04T21:16:30.742+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46079.zip",
+   "bytes": 1630671,
+   "sha256": "312dc29e853d4c93234df81bc17475981fd6612e41860b68e0aaa9f0cf49e608",
+   "fetched": "2026-10-04T21:16:31.803+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46081.zip",
+   "bytes": 376765,
+   "sha256": "3cb68e41a385c72ee170d4f449f08b52085ca037a2e205d5159369e71379b4ed",
+   "fetched": "2026-10-04T21:16:34.382+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46082.zip",
+   "bytes": 643686,
+   "sha256": "3ab6b165e019fc9ac8a16eb4b435966aaaac989eb87a5a11df5dcb639051e3c1",
+   "fetched": "2026-10-04T21:16:35.440+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46085.zip",
+   "bytes": 3449766,
+   "sha256": "539532100a0ff81a9f532091164876682e280382db36d4d9bb10e548cb29f8c0",
+   "fetched": "2026-10-04T21:16:36.493+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46086.zip",
+   "bytes": 431683,
+   "sha256": "e4b2876ec52bd588ee037bee859bf944fe818f8bc9df8d42b53dfc7a67221d78",
+   "fetched": "2026-10-04T21:16:40.701+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46087.zip",
+   "bytes": 2539227,
+   "sha256": "4b86c1fb4378bbc7d2b2c91079e4d43b13bcbd03bb1a09b45eec75cd8ce47f17",
+   "fetched": "2026-10-04T21:16:41.761+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46091.zip",
+   "bytes": 1067953,
+   "sha256": "c1316fb2fdd71a4b8a6c27592c8cb59b7cfef64f02da05343c2dd23649913c4b",
+   "fetched": "2026-10-04T21:16:45.465+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46094.zip",
+   "bytes": 442069,
+   "sha256": "f4faa9188d05351b90cc66d9e9b6ac0bfb8a6b9f764ef57c72d6c24b967a5e51",
+   "fetched": "2026-10-04T21:16:46.743+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46095.zip",
+   "bytes": 956641,
+   "sha256": "82083b27253c88a19718d9218c038ebe99b401b8055652222607ed0287c28b2a",
+   "fetched": "2026-10-04T21:16:47.800+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46096.zip",
+   "bytes": 2026754,
+   "sha256": "62802f04b7baeb8dceb18a04f78035f0ead63d1fb5b11f99bf35072198002ba9",
+   "fetched": "2026-10-04T21:16:49.024+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46097.zip",
+   "bytes": 353724,
+   "sha256": "737d7e905422ecefe3bf3e6bf4d6855bb9c77ac2635abf95de060bb2c0206c8a",
+   "fetched": "2026-10-04T21:16:50.085+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46100.zip",
+   "bytes": 955622,
+   "sha256": "1f0f178c3f224a74b19e527b27b779a8dfed40dfad0abae77261e737662e43c0",
+   "fetched": "2026-10-04T21:16:51.145+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46102.zip",
+   "bytes": 114745,
+   "sha256": "11814caecdd30843899c2a24f47af0e98bb933743f0f99ed27cee565be05a9de",
+   "fetched": "2026-10-04T21:16:52.204+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46104.zip",
+   "bytes": 1763873,
+   "sha256": "a11c476d7b255ae1cd871499197fc5007698dfffbdb9e25a797f6100c1e1df2b",
+   "fetched": "2026-10-04T21:16:53.260+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46107.zip",
+   "bytes": 3823537,
+   "sha256": "eb65edf319a7eaa34428ed3bce5d59cec74026d1c6b9a362924ba6ed779f8795",
+   "fetched": "2026-10-04T21:16:56.128+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46108.zip",
+   "bytes": 904907,
+   "sha256": "64237b73404a666b4557eae68bd8d2d5326ec6ff8ab6f52af236a845d173303e",
+   "fetched": "2026-10-04T21:16:57.436+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46110.zip",
+   "bytes": 345316,
+   "sha256": "ded82bbd8cba31ebf4f6b2de84a7d4d30bce1a1ce9ff83af9825d49192bcdb41",
+   "fetched": "2026-10-04T21:16:58.868+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46111.zip",
+   "bytes": 1935039,
+   "sha256": "af47c811145ec83429ccdbd67d7ab8482620a5cd62f3da46a380568b23282bc4",
+   "fetched": "2026-10-04T21:16:59.926+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46112.zip",
+   "bytes": 1248078,
+   "sha256": "cc09ea8eb752be9764b09d81e510de75bbf43d44249425cc56fac13ab55c35b1",
+   "fetched": "2026-10-04T21:17:01.806+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46113.zip",
+   "bytes": 5306079,
+   "sha256": "cf45c6757e10b1b003ac95c4ccd575270f2d8777738ca2b8902c3cb6de94ef18",
+   "fetched": "2026-10-04T21:17:02.866+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46114.zip",
+   "bytes": 369464,
+   "sha256": "a2a0552edf7945e4f8665b3d176b9738c09df937d898255b717780aa7afba210",
+   "fetched": "2026-10-04T21:17:08.117+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46115.zip",
+   "bytes": 819273,
+   "sha256": "da51c9421b4777d9ad9c0e561c768fa52c52d2c6c1670fd4b650e9786f0b9d79",
+   "fetched": "2026-10-04T21:17:09.176+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46116.zip",
+   "bytes": 232739,
+   "sha256": "979e9b33199725f8c48fe4c843dadb43f6c584ef979414283973360df5219f79",
+   "fetched": "2026-10-04T21:17:10.309+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46117.zip",
+   "bytes": 212427,
+   "sha256": "b117dab7d48ba63c3718d31c58c2cb2201736ebfde3e60acc34662206f43df4e",
+   "fetched": "2026-10-04T21:17:11.371+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46121.zip",
+   "bytes": 291722,
+   "sha256": "0cfa9af48824ff0d0fd4b312038752219208d38809536219777500ffdce8f1a2",
+   "fetched": "2026-10-04T21:17:12.426+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46125.zip",
+   "bytes": 436309,
+   "sha256": "f1d0e2834d20fa9e5e5ed79d741eb552aaeaf9edccbb2d0cf200bbbce2e8e446",
+   "fetched": "2026-10-04T21:17:13.485+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46127.zip",
+   "bytes": 253895,
+   "sha256": "47651547808cd413972856aa642c5230ec03d3a008b31da354617433b442d92b",
+   "fetched": "2026-10-04T21:17:14.543+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46131.zip",
+   "bytes": 314816,
+   "sha256": "48d56593a2f897b55cd8ca440aa4b888ffa186375b6412621a149cd9d9dffb73",
+   "fetched": "2026-10-04T21:17:15.602+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46132.zip",
+   "bytes": 312527,
+   "sha256": "4f46a820d7bd39b2102ccc1a7cded94ea9c75aad3b90d3b2de956148c1f6e4bc",
+   "fetched": "2026-10-04T21:17:16.660+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46133.zip",
+   "bytes": 7140749,
+   "sha256": "1a88169042c6bbdd0470b6cd940d9d697166542dbcf2db62489e583105e3ea43",
+   "fetched": "2026-10-04T21:17:17.718+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46135.zip",
+   "bytes": 388207,
+   "sha256": "36d937e34de832576cb0cdfecdb858c4561fcf7c03d5ef442fe45d5d8f6c2a20",
+   "fetched": "2026-10-04T21:17:26.052+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46138.zip",
+   "bytes": 1798774,
+   "sha256": "e615fa2544600b429b8bb62f7fa0338983c2fadef4f4d3ceb9262872715ffc0a",
+   "fetched": "2026-10-04T21:17:27.107+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46141.zip",
+   "bytes": 1247186,
+   "sha256": "973b292df33ee66a69a1d6cde9dcd463e19c9a15e55cff46c37b577094ab4409",
+   "fetched": "2026-10-04T21:17:28.514+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46142.zip",
+   "bytes": 134290,
+   "sha256": "0a40a7e2d7afcb50d150f39c41e2aae618420faedf0d646aeedc0203dc4cf92c",
+   "fetched": "2026-10-04T21:17:30.802+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46145.zip",
+   "bytes": 1363437,
+   "sha256": "00943ddc75a263e791926a81b578de7b0942f3b079c2b4865931a76a741b4f9c",
+   "fetched": "2026-10-04T21:17:31.864+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46147.zip",
+   "bytes": 3225498,
+   "sha256": "9be57c75318195d84ecd79b707f343c592e559cd353a5240e6038e72c629fceb",
+   "fetched": "2026-10-04T21:17:32.913+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46148.zip",
+   "bytes": 479942,
+   "sha256": "f9d517c65b666dd1d2884f637da1b6668d8df565708f49f00135502c5904067f",
+   "fetched": "2026-10-04T21:17:37.082+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46149.zip",
+   "bytes": 6836675,
+   "sha256": "e86d8e33a0479e24b13886dc6db33145a51f46e2aca5a1ee5ba9b3ed818a19ec",
+   "fetched": "2026-10-04T21:17:38.143+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46150.zip",
+   "bytes": 395204,
+   "sha256": "c9f145768a5666d3bb8cad0e2fed6301cc0355a06a95e34fc997089fee6c2a9d",
+   "fetched": "2026-10-04T21:17:45.349+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46154.zip",
+   "bytes": 42335,
+   "sha256": "849acd336f14c0ba69c86ad07b4ab2181eba1baeb3318130db00f9cd8bd1a386",
+   "fetched": "2026-10-04T21:17:46.399+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46157.zip",
+   "bytes": 520149,
+   "sha256": "c109b894b62efb4ed3eed289bb9f57c6c6f84f7cb51ed7ee2ae432cb8171b993",
+   "fetched": "2026-10-04T21:17:47.460+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46158.zip",
+   "bytes": 790685,
+   "sha256": "2d9132381aa6d2e449071f4a6d098d009d720c9be74b2463ad4efc4394db0a4e",
+   "fetched": "2026-10-04T21:17:48.516+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46160.zip",
+   "bytes": 595104,
+   "sha256": "569cde3bbc0646a0ed422c1085b61b526d25fcb925435a7304fb2d7fbe0f1e02",
+   "fetched": "2026-10-04T21:17:49.575+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46161.zip",
+   "bytes": 2350759,
+   "sha256": "fca2954e74850b81ea6863d895bf8028e89bade56619ab22d46cc6b70c818319",
+   "fetched": "2026-10-04T21:17:50.636+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46162.zip",
+   "bytes": 572458,
+   "sha256": "27f15f06b89c3c4e29f9491e3c4046ba4f27731dd3e88d18b8a5e194731787d6",
+   "fetched": "2026-10-04T21:17:51.793+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46163.zip",
+   "bytes": 622986,
+   "sha256": "b78c3ff0c3d6459b61043ee89f7a4f958db61da6ac27f40100bcf546c5d0d773",
+   "fetched": "2026-10-04T21:17:52.849+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46164.zip",
+   "bytes": 322981,
+   "sha256": "c2c7804825e0a962bf2c30e520e9c1d29db617eeac9db39611f4d6e28bf00418",
+   "fetched": "2026-10-04T21:17:53.907+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46166.zip",
+   "bytes": 1377144,
+   "sha256": "e6fbdb7297839dee8d9d1961e6bd4742d0d58cd1a48c80c04aa7799d2492fd38",
+   "fetched": "2026-10-04T21:17:54.968+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46167.zip",
+   "bytes": 1052105,
+   "sha256": "5c0d9b45320f56bdf63eb4d554f931472c1276c02ab260b922487761721b88aa",
+   "fetched": "2026-10-04T21:17:57.281+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46169.zip",
+   "bytes": 237319,
+   "sha256": "e5f0d0d71d92051e1b1f651ec792a2a462d6a24a63d6db551c73737a6ad7bba1",
+   "fetched": "2026-10-04T21:17:58.735+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46170.zip",
+   "bytes": 639010,
+   "sha256": "b7b6ed38bac3d497d67c0afa8595ecddca666c96aa217ad7f0c539a005798e88",
+   "fetched": "2026-10-04T21:17:59.793+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46171.zip",
+   "bytes": 1187067,
+   "sha256": "0cdd12a0dd3858a295864f7c2a176beff889f7dad5f41fc37ce58adfce3484e1",
+   "fetched": "2026-10-04T21:18:00.952+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46173.zip",
+   "bytes": 2167712,
+   "sha256": "44db162850894dd559985003d5e1730fd07fe1198c3c871bbaf2245a37a2bdcd",
+   "fetched": "2026-10-04T21:18:02.078+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46174.zip",
+   "bytes": 2983466,
+   "sha256": "b2f615465cba1c8f0ad6058a0769a498ebc7ece484e01101fd60ffe7d55a8228",
+   "fetched": "2026-10-04T21:18:05.769+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46178.zip",
+   "bytes": 1337294,
+   "sha256": "b748c7c0be4394ec5380eb4ce7df26d19b7be84b5093130c824b64abf2b180ea",
+   "fetched": "2026-10-04T21:18:06.829+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46183.zip",
+   "bytes": 5800803,
+   "sha256": "b323bcf024e5d3b5ffa2cbba51bba1feddd3e23dc34cdb0e674ae27c0a6c1cb6",
+   "fetched": "2026-10-04T21:18:08.973+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46184.zip",
+   "bytes": 1373391,
+   "sha256": "871e1b49b2fb75443d5f706c2c6687fb54e1d1a89f159091f63904e2fa847b88",
+   "fetched": "2026-10-04T21:18:14.659+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46188.zip",
+   "bytes": 1575782,
+   "sha256": "b356e3922e3a9429d9868162edb472ee555aa4c6d7b3f6cf0c7315f75cb09bd2",
+   "fetched": "2026-10-04T21:18:15.716+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46192.zip",
+   "bytes": 6131363,
+   "sha256": "32ea9b0623351afcfcc4b290f5bf70dca362139aa76cf56ab2daf45a2b381574",
+   "fetched": "2026-10-04T21:18:16.773+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46193.zip",
+   "bytes": 1327066,
+   "sha256": "5aec014bed4fb37911fc668b5a47210db1a353cc30111faab8581dac57c196df",
+   "fetched": "2026-10-04T21:18:21.811+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46195.zip",
+   "bytes": 1051377,
+   "sha256": "68dacb1dfb8d3a5868095d54929004a25745ff347c19a0e425cf650dc4df6ac5",
+   "fetched": "2026-10-04T21:18:23.645+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46196.zip",
+   "bytes": 3672195,
+   "sha256": "77d8dcbe6ee3350c404d51196d1510528faf8667c04b85a37f5dae9cb7bcc24e",
+   "fetched": "2026-10-04T21:18:24.706+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46199.zip",
+   "bytes": 537277,
+   "sha256": "82323522d909fceff95614d400f4d3f81680072666c55e865403e9f7cc8e2020",
+   "fetched": "2026-10-04T21:18:29.383+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46204.zip",
+   "bytes": 4863815,
+   "sha256": "5f5a4aa1fa4e07bad71f8fb989e7bbe7ff1844df380e66aadd027efeaed65d8d",
+   "fetched": "2026-10-04T21:18:30.441+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46205.zip",
+   "bytes": 969700,
+   "sha256": "87f55a2ca30f41b8f4faf014e6a264573a7cbb218826c3c5961c75af2a8bbf55",
+   "fetched": "2026-10-04T21:18:31.977+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46211.zip",
+   "bytes": 806471,
+   "sha256": "3fda8d62e0fe15ec6e4f5e5dbbe9fb455b1fb8112e77d051ce7c6ec29ca43e89",
+   "fetched": "2026-10-04T21:18:33.035+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46214.zip",
+   "bytes": 723888,
+   "sha256": "731cc2617e50891b2b86821c095cae21547b2fa3ae27589e1f0b341d2bc843bb",
+   "fetched": "2026-10-04T21:18:34.095+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46215.zip",
+   "bytes": 4763492,
+   "sha256": "dd09c6f5c3631edf2be263eec733f4785374483e90911eee959d37db48d5151f",
+   "fetched": "2026-10-04T21:18:35.156+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46216.zip",
+   "bytes": 4581408,
+   "sha256": "bb6d96862a7882a996c8749c38425c91332f4aaa75d4d4da77107c9a907f14b9",
+   "fetched": "2026-10-04T21:18:40.215+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46217.zip",
+   "bytes": 422527,
+   "sha256": "76e30f4b12bf3687bcaff142dc205e31897fcb9bf8104f8d18bd082c0811a1d8",
+   "fetched": "2026-10-04T21:18:45.946+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46224.zip",
+   "bytes": 131994,
+   "sha256": "84df48be35de7bebaf433c19a1d6ab67e585bd645aca8e0d840cd4598a33b39e",
+   "fetched": "2026-10-04T21:18:47.004+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46225.zip",
+   "bytes": 719682,
+   "sha256": "689bca2a57ab0eb89d1836c11ed87fd48bd2676c65e9f4fef9d40fac7385887f",
+   "fetched": "2026-10-04T21:18:48.060+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46229.zip",
+   "bytes": 218766,
+   "sha256": "0b45cfa4b8327ddc27463d3a2d0c56579100e9cc478b962141d41aa0ed2e2a36",
+   "fetched": "2026-10-04T21:18:49.120+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46231.zip",
+   "bytes": 609529,
+   "sha256": "6b3b0a6b16e426823b3f54be01bcac94034d327d21a8e66617310a3b22765a57",
+   "fetched": "2026-10-04T21:18:50.177+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46232.zip",
+   "bytes": 1664916,
+   "sha256": "5aac06693ae0d58061ab83337726d1d9713cb20c7daf5d32448a0a9be0cef4eb",
+   "fetched": "2026-10-04T21:18:51.227+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46234.zip",
+   "bytes": 446591,
+   "sha256": "4a0fb1ce7e3bee0ac3d74450a830c5183af82da80c38b7a14472d036118f4f07",
+   "fetched": "2026-10-04T21:18:52.282+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46235.zip",
+   "bytes": 948963,
+   "sha256": "39bc2a99a9a8f5aba1d6b50a199028efbea3548ea22507a7c799ee3df3f7c45c",
+   "fetched": "2026-10-04T21:18:53.341+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46236.zip",
+   "bytes": 169630,
+   "sha256": "e4b0b2839fca7b7a3c5616058d3ef64c8cfdd57b40a345d4ece0c42bd37581d3",
+   "fetched": "2026-10-04T21:18:54.396+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46237.zip",
+   "bytes": 5062024,
+   "sha256": "aa0e0ebad6cb1e54b331edb0aca641d3c6f4344a6861abd278ed52bafbce5baf",
+   "fetched": "2026-10-04T21:18:55.448+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46240.zip",
+   "bytes": 2682983,
+   "sha256": "ea425d02c5fadceec3e3abf58e96d648798ac4ecd0207bf217b4e83d4667a39c",
+   "fetched": "2026-10-04T21:18:57.159+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46244.zip",
+   "bytes": 234813,
+   "sha256": "0867b535049f2c97b45c086607a4d22b95418d7a9dcde832e59d83888506cc93",
+   "fetched": "2026-10-04T21:18:58.308+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46246.zip",
+   "bytes": 8704271,
+   "sha256": "21d5da74453db32dfbf4426726e6309e41a65497c3cd3380563ccf3e94b5c9b2",
+   "fetched": "2026-10-04T21:18:59.368+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46248.zip",
+   "bytes": 417965,
+   "sha256": "b76355378a74a3d1945d2ea06a881ba5aec0af1b01b090328f46eb1d0983d0d2",
+   "fetched": "2026-10-04T21:19:08.315+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46249.zip",
+   "bytes": 535002,
+   "sha256": "8e2c77ddfb8444695770ba9e76a31f7d35c574508eb4e48027f90915f05b0669",
+   "fetched": "2026-10-04T21:19:09.374+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46250.zip",
+   "bytes": 2966515,
+   "sha256": "fae2c605fc4358b4d382512e386540e1c1e762e6265161fa84719bd0f6bc2ea7",
+   "fetched": "2026-10-04T21:19:10.432+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46251.zip",
+   "bytes": 2999058,
+   "sha256": "959c1732da37ce460198e1c1e4d32c2c822536896c4ec90bed6cebe7e5c4e343",
+   "fetched": "2026-10-04T21:19:14.235+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46258.zip",
+   "bytes": 2740397,
+   "sha256": "b1c5c7e7220915b6912c5931826958e5fb8cb112f325ffd0214d26ddcb48ba0c",
+   "fetched": "2026-10-04T21:19:49.980+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46259.zip",
+   "bytes": 1410112,
+   "sha256": "b345b416da5211d4eb446583367ef162b068023f4c5558d1f45b7fe5ef6a7b4c",
+   "fetched": "2026-10-04T21:19:51.118+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46260.zip",
+   "bytes": 1234702,
+   "sha256": "9d19f8c775fa84f7ccb7918b751a465e7fce4304f73fa7e84698352a56a0b100",
+   "fetched": "2026-10-04T21:19:53.378+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46263.zip",
+   "bytes": 799071,
+   "sha256": "c1c4ecc549b23b6b30f46c1e8c8dc48a81835817f74f3cfeb6996aad95186414",
+   "fetched": "2026-10-04T21:19:55.477+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46268.zip",
+   "bytes": 316163,
+   "sha256": "83bd4758e0400ef2efa36eca39f154e834f5b1f19d8fb6ba44e5171f467183dd",
+   "fetched": "2026-10-04T21:19:56.935+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/A.ES.SDGC.BU.46900.zip",
+   "bytes": 35915979,
+   "sha256": "55fd72416544006495649609a6228f247001ce0eb253fd040dc5ab184f6b3ca0",
+   "fetched": "2026-10-04T21:19:17.883+0200"
+  },
+  {
+   "source": "catastro",
+   "file": "raw/catastro/ES.SDGC.bu.atom_46.xml",
+   "bytes": 464599,
+   "sha256": "d4c8c0da869b4fc1784d8eddba4c046bd88a614b57af0414d89d02e4665476d4",
+   "fetched": "2026-10-04T20:13:10.083+0200"
+  },
+  {
+   "source": "ems",
+   "file": "raw/ems/EMSR773_AOI01_DEL_MONIT01_v1.zip",
+   "bytes": 38341880,
+   "sha256": "cc96d364fcfd71cee446665481098d44a76335c5cd2a51e08cc7535ab447bfec",
+   "fetched": "2026-10-04T20:04:21.058+0200"
+  },
+  {
+   "source": "ems",
+   "file": "raw/ems/EMSR773_AOI01_DEL_MONIT02_v1.zip",
+   "bytes": 26880596,
+   "sha256": "6746c10ec2b78998375d5734df032c0c38cffa9dd749f5a146c762acca1c8cf3",
+   "fetched": "2026-10-04T20:03:52.970+0200"
+  },
+  {
+   "source": "ems",
+   "file": "raw/ems/EMSR773_AOI01_DEL_MONIT03_v1.zip",
+   "bytes": 17890160,
+   "sha256": "6b3ec10f8d1ae82949d901272fbdc96cda0251a65c0c45a02d1124006a0f7c66",
+   "fetched": "2026-10-04T20:03:57.552+0200"
+  },
+  {
+   "source": "ems",
+   "file": "raw/ems/EMSR773_AOI01_DEL_MONIT04_v1.zip",
+   "bytes": 18739841,
+   "sha256": "270c615976bb8824c521caf92d643780446668b66064f546f30fa9945cd83e92",
+   "fetched": "2026-10-04T20:03:28.615+0200"
+  },
+  {
+   "source": "ems",
+   "file": "raw/ems/EMSR773_AOI01_DEL_PRODUCT_v1.zip",
+   "bytes": 23112708,
+   "sha256": "5f7286fb4d6bd879dc135c2d5e002b2f8acf597f52b315b6ef07e9ee92018cee",
+   "fetched": "2026-10-04T20:04:02.312+0200"
+  },
+  {
+   "source": "ems",
+   "file": "raw/ems/EMSR773_AOI02_DEL_PRODUCT_v2.zip",
+   "bytes": 19975825,
+   "sha256": "7416ae610d9fafa6a8132b36f50d5949bfe2fd7a635af4d1ff4d835a13600d47",
+   "fetched": "2026-10-04T20:04:28.183+0200"
+  },
+  {
+   "source": "ems",
+   "file": "raw/ems/EMSR773_AOI03_DEL_PRODUCT_v1.zip",
+   "bytes": 17494094,
+   "sha256": "9a756cafde913034bbeffc1ac5a53582cffa28034d7173c78a5988ac2c40cd3b",
+   "fetched": "2026-10-04T20:04:45.703+0200"
+  },
+  {
+   "source": "ems",
+   "file": "raw/ems/EMSR773_AOI03_GRA_PRODUCT_v2.zip",
+   "bytes": 70968988,
+   "sha256": "8248feef4f0a9938dfaff103a6e3d6960294f4572d193df919eda55ad79880ba",
+   "fetched": "2026-10-04T20:04:32.086+0200"
+  },
+  {
+   "source": "ems",
+   "file": "raw/ems/EMSR773_AOI04_DEL_PRODUCT_v1.zip",
+   "bytes": 30801112,
+   "sha256": "aeff9a801b87bfbdd55160c9e06dd5f5d5366fb531edde838fbac41b0ccaec12",
+   "fetched": "2026-10-04T20:04:49.767+0200"
+  },
+  {
+   "source": "ems",
+   "file": "raw/ems/EMSR773_AOI05_GRA_PRODUCT_v1.zip",
+   "bytes": 9360561,
+   "sha256": "07bad0e6d8ffa238187e2bf66f85c9d1752180d0ecc0b2e93a925ed003915ce1",
+   "fetched": "2026-10-04T20:05:27.088+0200"
+  },
+  {
+   "source": "ems",
+   "file": "raw/ems/EMSR773_AOI06_DEL_MONIT01_v1.zip",
+   "bytes": 14748975,
+   "sha256": "fcfc2955d52ac93d1c2a384f4691bbe526c76f1cbb47a5934167f4e2972bf483",
+   "fetched": "2026-10-04T20:05:35.154+0200"
+  },
+  {
+   "source": "ems",
+   "file": "raw/ems/EMSR773_AOI07_GRA_PRODUCT_v1.zip",
+   "bytes": 3691855,
+   "sha256": "66ea30365bc77cc2fd650f15ca467f9efa7d6766fc278038b011e878435aa44a",
+   "fetched": "2026-10-04T20:05:48.481+0200"
+  },
+  {
+   "source": "ems",
+   "file": "raw/ems/EMSR773_AOI08_GRA_PRODUCT_v1.zip",
+   "bytes": 4480551,
+   "sha256": "081e6b7643060cfb896afd4b3048d0205dc982bdbedc32d72b7c358fe03652fa",
+   "fetched": "2026-10-04T20:05:50.157+0200"
+  },
+  {
+   "source": "ems",
+   "file": "raw/ems/EMSR773_AOI09_GRA_PRODUCT_v1.zip",
+   "bytes": 6384017,
+   "sha256": "257480d939742e67d3f53bc96571f230fe715679ca73f853d14cce0d0409b624",
+   "fetched": "2026-10-04T20:05:54.588+0200"
+  },
+  {
+   "source": "ems",
+   "file": "raw/ems/EMSR773_AOI10_GRA_PRODUCT_v1.zip",
+   "bytes": 6618133,
+   "sha256": "a5c24d401acf684aeb6e7e665dbc413630781a48994eac574dce4f737ce46dda",
+   "fetched": "2026-10-04T20:06:00.681+0200"
+  },
+  {
+   "source": "ems",
+   "file": "raw/ems/EMSR773_AOI11_DEL_PRODUCT_v1.zip",
+   "bytes": 4946637,
+   "sha256": "176525c9b560e5471d264513f6f25f006aa44709c11a1f3ca2f5061d9147870b",
+   "fetched": "2026-10-04T20:06:07.027+0200"
+  },
+  {
+   "source": "ems",
+   "file": "raw/ems/EMSR773_AOI12_GRA_PRODUCT_v1.zip",
+   "bytes": 7428099,
+   "sha256": "95e6b8c73ac9e72189af82f3dff8575880299d4100d4078318fb71817ee7ea38",
+   "fetched": "2026-10-04T20:06:09.428+0200"
+  },
+  {
+   "source": "ems",
+   "file": "raw/ems/EMSR773_AOI13_GRA_PRODUCT_v1.zip",
+   "bytes": 14679545,
+   "sha256": "5359f1bc3d08f80b762d5678bef9a40a26555f59f4d3dbbfab59dc49012cdb06",
+   "fetched": "2026-10-04T20:06:19.332+0200"
+  },
+  {
+   "source": "ems",
+   "file": "raw/ems/EMSR773_AOI14_GRA_MONIT01_v1.zip",
+   "bytes": 7110214,
+   "sha256": "5961c1e75f44c63e3ea44f2996650cc9fe85760609f443a847cfd70a3912815a",
+   "fetched": "2026-10-04T20:06:28.280+0200"
+  },
+  {
+   "source": "ems",
+   "file": "raw/ems/EMSR773_AOI14_GRA_PRODUCT_v1.zip",
+   "bytes": 5891349,
+   "sha256": "e3ce00c209aa91dd2149b43e94f45faffd5b4764978252ae9084ed9c65d539ff",
+   "fetched": "2026-10-04T20:06:24.107+0200"
+  },
+  {
+   "source": "ems",
+   "file": "raw/ems/EMSR773_AOI15_GRA_PRODUCT_v1.zip",
+   "bytes": 9522057,
+   "sha256": "ad2c96c3d2713424e254d8f071b612c5c8837379f86ccf0b1f922dbc5831c7d6",
+   "fetched": "2026-10-04T20:06:31.901+0200"
+  },
+  {
+   "source": "ems",
+   "file": "raw/ems/EMSR773_AOI16_GRA_PRODUCT_v1.zip",
+   "bytes": 15194255,
+   "sha256": "06b6a914ed46e2451f8b667e92642bceae1bd0940c7d3f9bb4d78a77bb2a976f",
+   "fetched": "2026-10-04T20:06:34.231+0200"
+  },
+  {
+   "source": "ems",
+   "file": "raw/ems/EMSR773_AOI17_GRA_PRODUCT_v2.zip",
+   "bytes": 11078389,
+   "sha256": "557cf7ceaa12eb0e6176110993312e054521a0b97d948a909d7f4531f7ca6681",
+   "fetched": "2026-10-04T20:06:46.589+0200"
+  },
+  {
+   "source": "ems",
+   "file": "raw/ems/EMSR773_AOI18_GRA_PRODUCT_v1.zip",
+   "bytes": 11743306,
+   "sha256": "bd2361803e7eb41fe836a6f848fe6c980af2128d89c52aad487150566a5aa470",
+   "fetched": "2026-10-04T20:06:49.211+0200"
+  },
+  {
+   "source": "ems",
+   "file": "raw/ems/EMSR773_AOI19_GRA_PRODUCT_v1.zip",
+   "bytes": 6156241,
+   "sha256": "91b594d2c40a1f5ca289f7fb034ad7d54fe9bb37ed85b9ea37c49ecd5f70b899",
+   "fetched": "2026-10-04T20:06:58.647+0200"
+  },
+  {
+   "source": "ems",
+   "file": "raw/ems/EMSR773_AOI20_GRA_PRODUCT_v1.zip",
+   "bytes": 6316626,
+   "sha256": "7fceabdeddb5937ce6b3bc1d1668b1e4eccfcf00938106cd7ed1f7c4e58bddfd",
+   "fetched": "2026-10-04T20:07:13.838+0200"
+  },
+  {
+   "source": "ems",
+   "file": "raw/ems/EMSR773_AOI21_GRA_PRODUCT_v1.zip",
+   "bytes": 6140281,
+   "sha256": "1286d821d126d55a86b1a17ccb6e1d5b18fc41549048d628e4a81bb80e1d8113",
+   "fetched": "2026-10-04T20:07:16.956+0200"
+  },
+  {
+   "source": "ems",
+   "file": "raw/ems/EMSR773_AOI22_GRA_PRODUCT_v1.zip",
+   "bytes": 14393364,
+   "sha256": "ae8b939e92df05e90b57a3f1e10473c979c5444cb9bebb0236b7cb79b6a5e43b",
+   "fetched": "2026-10-04T20:07:19.276+0200"
+  },
+  {
+   "source": "ems",
+   "file": "raw/ems/EMSR773_AOI26_GRA_PRODUCT_v1.zip",
+   "bytes": 10724208,
+   "sha256": "90766236392db70ab5a02798106f7148caffe8dcc9be81074795efb423c5b972",
+   "fetched": "2026-10-04T20:07:23.843+0200"
+  },
+  {
+   "source": "ems",
+   "file": "raw/ems/EMSR773_AOI27_GRA_PRODUCT_v1.zip",
+   "bytes": 14317834,
+   "sha256": "86191ee27f9a06f69a37ed3d7f1f1dd1f18950c700513e185cea1f3c78ad9fa3",
+   "fetched": "2026-10-04T20:07:26.659+0200"
+  },
+  {
+   "source": "ems",
+   "file": "raw/ems/EMSR773_AOI28_GRA_PRODUCT_v1.zip",
+   "bytes": 8185740,
+   "sha256": "786c72f8cf52d6a2910bbc0471a603c9812973bdb42042117a47f9c15166ca4c",
+   "fetched": "2026-10-04T20:07:33.846+0200"
+  },
+  {
+   "source": "ems",
+   "file": "raw/ems/EMSR773_AOI29_GRA_PRODUCT_v1.zip",
+   "bytes": 7454934,
+   "sha256": "42a7a56b59622c62b9215afcb91549c8ac64129c01294935284c1574a6aa1a52",
+   "fetched": "2026-10-04T20:07:43.860+0200"
+  },
+  {
+   "source": "ems",
+   "file": "raw/ems/EMSR773_AOI30_GRA_PRODUCT_v1.zip",
+   "bytes": 10472119,
+   "sha256": "8dddf8a13b63a3d816e6cb450e0b99bf9bcb6e9ca1238bf6fc27dcf404a57730",
+   "fetched": "2026-10-04T20:07:53.856+0200"
+  },
+  {
+   "source": "ems",
+   "file": "raw/ems/EMSR773_AOI31_GRA_PRODUCT_v1.zip",
+   "bytes": 27670577,
+   "sha256": "1d23eff6c4099580d7cbe577b79e3b6cc32917700b2b4b4fd1248cc69df3b0e7",
+   "fetched": "2026-10-04T20:07:57.986+0200"
+  },
+  {
+   "source": "ems",
+   "file": "raw/ems/EMSR773_AOI33_GRA_PRODUCT_v1.zip",
+   "bytes": 6239689,
+   "sha256": "a56807363207a60061c4b36f37b2e0cc853de4c47becc900910b1f0891dca793",
+   "fetched": "2026-10-04T20:08:04.266+0200"
+  },
+  {
+   "source": "ems",
+   "file": "raw/ems/EMSR773_AOI34_GRA_PRODUCT_v1.zip",
+   "bytes": 5073589,
+   "sha256": "7215286d95d90e6903afa330da3d923f7103a99f341453f8870189c7266fa71b",
+   "fetched": "2026-10-04T20:08:10.167+0200"
+  },
+  {
+   "source": "ems",
+   "file": "raw/ems/EMSR773_AOI35_GRA_PRODUCT_v1.zip",
+   "bytes": 5702283,
+   "sha256": "8fb0e68f118fb29198495da4cf8af605873ca6130ccecb616eeb15b070426c32",
+   "fetched": "2026-10-04T20:08:15.202+0200"
+  },
+  {
+   "source": "ems",
+   "file": "raw/ems/EMSR773_AOI36_GRA_PRODUCT_v2.zip",
+   "bytes": 18732922,
+   "sha256": "94ee443baa7f495dedd21002daa2e7140bdd4061d8c50c974decda1629dbe7f6",
+   "fetched": "2026-10-04T20:08:17.490+0200"
+  },
+  {
+   "source": "ems_prev",
+   "file": "raw/ems_prev/EMSR773_AOI02_DEL_PRODUCT_v1.zip",
+   "bytes": 12775277,
+   "sha256": "e709df354f5e04e3d3fc3c29c5f1217b8bab7483b5ff335d0a6ecf34501399af",
+   "fetched": "2026-10-04T21:07:24.830+0200"
+  },
+  {
+   "source": "ems_prev",
+   "file": "raw/ems_prev/EMSR773_AOI03_GRA_PRODUCT_v1.zip",
+   "bytes": 71027940,
+   "sha256": "2b0fd86537e5a774f9169da3c6697f3a3491042ad4502c60df30a79a122584fd",
+   "fetched": "2026-10-04T21:06:48.642+0200"
+  },
+  {
+   "source": "gva",
+   "file": "raw/gva/DANA2024.AVSRE.MunicipiosAfectados.gpkg",
+   "bytes": 1142784,
+   "sha256": "9aa231475ace4a9ae90acde9835ddc34d0e9d60fe1ab561fef243021a9028136",
+   "fetched": null
+  },
+  {
+   "source": "gva",
+   "file": "raw/gva/DANA2024.AVSRE.NivelRiesgoMunicipal.gpkg",
+   "bytes": 1142784,
+   "sha256": "03d31407cf2e19dd41f358aa8178207392a1c2db63dbe17401a74c7d50cd0127",
+   "fetched": null
+  },
+  {
+   "source": "gva",
+   "file": "raw/gva/DANA2024.ZonasInundadas.HuellaInundacion.gpkg",
+   "bytes": 1232896,
+   "sha256": "fa6747959ffe66db4b882bc1d368a58753b155b9ce19dee5e763a3f898e364e3",
+   "fetched": null
+  },
+  {
+   "source": "patricova",
+   "file": "raw/patricova/orde_patricova_peligrosidad_inun.zip",
+   "bytes": 8590508,
+   "sha256": "89412ee2c262e64f43d3ca741ca0d2f41d91f1b81a013dc0f653ca7b7b1d62c7",
+   "fetched": null
+  }
+ ],
+ "snczi_tiles": {
+  "count": 1153,
+  "sha256_of_all": "bf6f5ca4001fb5fb0e58da893f15e2685db41f52b83ce95d62fb6644645d82f1",
+  "fetched": "2026-10-04",
+  "grid": "2,048 m tiles on EPSG:25830, 1,024 px (2 m)"
+ }
+}

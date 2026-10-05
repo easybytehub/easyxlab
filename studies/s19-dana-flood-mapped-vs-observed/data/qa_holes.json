@@ -1,0 +1,28 @@
+{
+ "municipalities": {
+  "46186": "Paiporta",
+  "46022": "Alfafar",
+  "46094": "Catarroja",
+  "46223": "Sedaví",
+  "46165": "Massanassa",
+  "46029": "Algemesí"
+ },
+ "t500_grid": {
+  "buildings": 2402,
+  "median_share_of_footprint_pixels_in_zone": 0.094,
+  "quartiles": [
+   0.029,
+   1.0
+  ]
+ },
+ "patricova_1_6": {
+  "buildings": 3161,
+  "median_share_of_footprint_area_in_zone": 1.0,
+  "share_of_buildings_fully_inside": 0.966
+ },
+ "dwellings_in_extent_condition": {
+  "declined": 411,
+  "ruin": 22
+ },
+ "dwellings_in_extent_dated_2026": 212
+}

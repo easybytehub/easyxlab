@@ -1,0 +1,69 @@
+source_type,query,engine,date_run,hits_reviewed,relevant_item_title,url_or_doi,overlap,note
+academic,Valencia flood 2024 Copernicus buildings,crossref,2026-10-04,25,,,,
+academic,DANA 2024 Valencia flood extent mapping,crossref,2026-10-04,25,,,,
+academic,Valencia October 2024 flash flood exposure cadastre,crossref,2026-10-04,25,,,,
+academic,DANA Valencia zonas inundables SNCZI,crossref,2026-10-04,25,,,,
+academic,PATRICOVA DANA 2024,crossref,2026-10-04,25,,,,
+academic,Poyo ravine flood 2024,crossref,2026-10-04,25,,,,
+academic,flood hazard maps underestimated Valencia 2024,crossref,2026-10-04,25,,,,
+academic,Rambla del Poyo 2024,crossref,2026-10-04,25,,,,
+academic,flood maps vs observed extent Spain,crossref,2026-10-04,25,,,,
+academic,viviendas zona inundable DANA,crossref,2026-10-04,25,,,,
+academic,Sentinel-1 Valencia flood 2024,crossref,2026-10-04,25,,,,
+academic,urban flood mapping SAR Valencia 2024,crossref,2026-10-04,25,,,,
+academic,Valencia 2024 flood exposed population buildings,crossref,2026-10-04,25,,,,
+academic,EMSR773,crossref,2026-10-04,0,,,,
+academic,Valencia flood 2024 Copernicus buildings,openalex,2026-10-04,25,,,,
+academic,DANA 2024 Valencia flood extent mapping,openalex,2026-10-04,25,,,,
+academic,Valencia October 2024 flash flood exposure cadastre,openalex,2026-10-04,5,,,,
+academic,DANA Valencia zonas inundables SNCZI,openalex,2026-10-04,14,,,,
+academic,PATRICOVA DANA 2024,openalex,2026-10-04,25,,,,
+academic,Poyo ravine flood 2024,openalex,2026-10-04,19,,,,
+academic,flood hazard maps underestimated Valencia 2024,openalex,2026-10-04,25,,,,
+academic,Rambla del Poyo 2024,openalex,2026-10-04,25,,,,
+academic,flood maps vs observed extent Spain,openalex,2026-10-04,25,,,,
+academic,viviendas zona inundable DANA,openalex,2026-10-04,25,,,,
+academic,Sentinel-1 Valencia flood 2024,openalex,2026-10-04,25,,,,
+academic,urban flood mapping SAR Valencia 2024,openalex,2026-10-04,25,,,,
+academic,Valencia 2024 flood exposed population buildings,openalex,2026-10-04,25,,,,
+academic,EMSR773,openalex,2026-10-04,7,,,,
+academic,Valencia flood 2024 Copernicus buildings,semanticscholar,2026-10-04,11,,,,
+academic,DANA 2024 Valencia flood extent mapping,semanticscholar,2026-10-04,HTTP 429,,,,
+academic,Valencia October 2024 flash flood exposure cadastre,semanticscholar,2026-10-04,HTTP 429,,,,
+academic,DANA Valencia zonas inundables SNCZI,semanticscholar,2026-10-04,HTTP 429,,,,
+academic,PATRICOVA DANA 2024,semanticscholar,2026-10-04,HTTP 429,,,,
+academic,Poyo ravine flood 2024,semanticscholar,2026-10-04,6,,,,
+academic,flood hazard maps underestimated Valencia 2024,semanticscholar,2026-10-04,HTTP 429,,,,
+academic,Rambla del Poyo 2024,semanticscholar,2026-10-04,HTTP 429,,,,
+academic,flood maps vs observed extent Spain,semanticscholar,2026-10-04,HTTP 429,,,,
+academic,viviendas zona inundable DANA,semanticscholar,2026-10-04,HTTP 429,,,,
+academic,Sentinel-1 Valencia flood 2024,semanticscholar,2026-10-04,HTTP 429,,,,
+academic,urban flood mapping SAR Valencia 2024,semanticscholar,2026-10-04,HTTP 429,,,,
+academic,Valencia 2024 flood exposed population buildings,semanticscholar,2026-10-04,HTTP 429,,,,
+academic,EMSR773,semanticscholar,2026-10-04,HTTP 429,,,,
+academic,Modelos de ocupación urbana residencial área metropolitana Valencia exposición inundaciones,openalex,2026-10-04,5,,,,title search for the UPC thesis
+press,civio.es sitemap.xml scan for dana/inund/catastro/vivienda,civio.es sitemap,2026-10-04,2683 URLs,,,none,5 DANA items: aid guide and decree-law explainers
+press,newtral.es search page + linked pieces,newtral.es,2026-10-04,search page + 5 linked pieces read,,,,
+press,eldiario.es busqueda «viviendas zonas inundables dana»,eldiario.es,2026-10-04,"JS-rendered, no results in HTML",,,,
+press,elpais.com buscador «viviendas zonas inundables dana»,elpais.com,2026-10-04,HTTP 403,,,,
+press,levante-emv.com buscador «viviendas zona inundable dana»,levante-emv.com,2026-10-04,HTTP 406,,,,
+press,news.google.com RSS «viviendas zona inundable dana catastro»,news.google.com,2026-10-04,robots.txt disallows,,,,
+official,Copernicus EMS storymap and activation record EMSR773,arcgis storymaps / rapidmapping API,2026-10-04,pages read,,,,
+academic,,,2026-10-04,,"¿Cómo de efectiva es la cartografía de peligro de inundación para la gestión de la emergencia? (Camarasa-Belmonte et al., Ingeniería del Agua 29(4), 2025)",doi:10.4995/ia.2025.24007,partial,"area: 85.9% of 37,972 ha flooded inside MIPICOVA (PATRICOVA+SNCZI), 14.1% outside; no dwellings"
+academic,,,2026-10-04,,"Modelos de ocupación urbana residencial en el AMV y exposición al riesgo de inundaciones fluviales 1946-2024 (Musucancha Restaure, UPC master thesis, 2025)",hdl:2117/448929,partial,Catastro dwellings vs composite PATRICOVA/SNCZI/COPUT-1997 footprint contrasted with DANA-2024; abstract only; full text embargoed until 2030-12-10
+academic,,,2026-10-04,,"El impacto de la DANA de otoño de 2024 desde una perspectiva de estabilidad financiera (Banco de España, 2025)",doi:10.53479/40130,partial,Copernicus x CIRBE x Catastro; credit exposure; abstract only
+academic,,,2026-10-04,,"Assessment of the October 2024 Cut-Off Low Event Floods Impact in Valencia (Castro-Melgar et al., Remote Sensing 2025)",doi:10.3390/rs17132145,partial,"~199 km2 inundated, >90,000 residents; population, no map comparison"
+official,,,2026-10-04,,Copernicus EMS EMSR773 storymap and product statistics,https://storymaps.arcgis.com/stories/9ff57e9320dd440eb2ce8d20e62c92cd,partial,"population and hectares per product; AOI01 ~190,000 potentially affected population"
+press,,,2026-10-04,,"Newtral: Los casi 200.000 edificios en riesgo de inundación, calle a calle (27 Nov 2024)",https://www.newtral.es/edificios-riesgo-inundacion/20241127/,partial,"186,456 buildings/parcels in SNCZI T10 nationally; not the DANA extent"
+press,,,2026-10-04,,Newtral: Los 28.000 edificios con menos de 25 años en zonas con alta probabilidad de inundación (21 May 2025),https://www.newtral.es/edificios-nuevos-riesgo-inundacion/20250521/,partial,"28,388 buildings built 2000-2025 in T10 nationally"
+press,,,2026-10-04,,Newtral: Qué dice la ley sobre construir en zonas inundables (4 Dec 2024),https://www.newtral.es/ley-construir-zonas-inundables/20241204/,none,legal explainer
+academic,,,2026-10-04,,Reconstruction of the October 2024 flood in l’Horta Sud (J. Hydrol. Reg. Stud. 2026),doi:10.1016/j.ejrh.2026.103793,none,hydraulic reconstruction
+academic,,,2026-10-04,,PERC Disaster forensics on the catastrophic 2024 DANA flood event in Valencia (EGU 2026 abstract),doi:10.5194/egusphere-egu26-16762,none,forensic review
+academic,JRC Valencia 2024 flood report,openalex,2026-10-04,25,,,,first 25 results reviewed
+academic,CEDEX DANA 2024 Valencia,openalex,2026-10-04,15,,,,first 25 results reviewed
+academic,Confederación Hidrográfica del Júcar DANA 2024,openalex,2026-10-04,25,,,,first 25 results reviewed
+academic,buildings constructed flood zones Spain 2016 regulation cadastre,openalex,2026-10-04,25,,,,first 25 results reviewed
+academic,Valencia 2024 flood dwellings outside flood hazard maps,openalex,2026-10-04,25,,,,first 25 results reviewed
+academic,inundación 29 octubre 2024 viviendas catastro zonas inundables,openalex,2026-10-04,9,,,,first 25 results reviewed
+academic,Horta Sud flood 2024 urban growth exposure,openalex,2026-10-04,4,,,,first 25 results reviewed
+institutional,consorseguros.es /noticias (DANA information notes),consorseguros.es,2026-10-05,30 notes listed,Trigésima nota informativa sobre las inundaciones extraordinarias producidas por la DANA (8 Jun 2026),https://www.consorseguros.es/noticias,not read,"the notes are PDFs under /documents/, which robots.txt disallows"
