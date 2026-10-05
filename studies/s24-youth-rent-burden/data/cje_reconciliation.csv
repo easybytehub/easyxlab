@@ -1,0 +1,75 @@
+age_band,step,measure,numerator_eur_month,denominator_eur_month,value_pct,source,n_persons,n_households
+16-29,0,CJE: asking rent / median young net salary,1176.0,1191.02,98.7,CJE 2025 report,438,345
+16-29,1,rent paid by young market tenants / median young net salary,595.61,1191.02,50.0,ECV 2025 HH060; CJE salary,438,345
+16-29,2,rent paid / median net employee income of young earners in the ECV (PY010N > 0),595.61,748.59,79.6,"ECV 2025 HH060, PY010N",438,345
+16-29,3,rent paid / the tenants' own net personal income,595.61,1102.31,54.0,"ECV 2025 HH060, PY*N",438,345
+16-29,4,rent paid / the tenants' household disposable income,595.61,2440.14,24.4,"ECV 2025 HH060, HY020",438,345
+16-29,5,median of each tenant's rent / household income,,,25.0,ECV 2025,438,345
+16-29,6,median housing cost burden (Eurostat definition),,,32.0,"ECV 2025 HH070, HY020, HY070G",438,345
+16-29,7,"share overburdened (>40%, Eurostat definition)",,,33.5,ECV 2025,438,345
+16-29,gap,share of the log gap: asking rent vs rent paid,,,48.7,log gap 1.398,438,
+16-29,gap,share of the log gap: median young salary vs the tenants' own income,,,-5.5,log gap 1.398,438,
+16-29,gap,share of the log gap: own income vs household income (sharing),,,56.9,log gap 1.398,438,
+16-29,gap_ecv,asking rent / median ECV young earner income,1176.0,748.59,157.1,CJE asking rent; ECV 2025 PY010N,5550,
+16-29,gap_ecv,share of the log gap: asking rent vs rent paid,,,36.5,log gap 1.862,438,
+16-29,gap_ecv,share of the log gap: median ECV young earner vs the tenants' own income,,,20.8,log gap 1.862,438,
+16-29,gap_ecv,share of the log gap: own income vs household income (sharing),,,42.7,log gap 1.862,438,
+16-29,shared,CJE: median room asking rent (400 EUR) / median young net salary,400.0,1191.02,33.6,CJE 2025 report,,
+16-29,shared,young tenants sharing with flatmates or relatives: median rent per adult,180.0,,,,102,76
+16-29,shared,the same: median of rent per adult / own net personal income,,,19.3,,76,
+16-29,household_type,share living as: alone,,,24.4,,100,
+16-29,household_type,share living as: couple,,,24.6,,126,
+16-29,household_type,share living as: couple_with_children,,,15.9,,78,
+16-29,household_type,share living as: single_parent,,,0.6,,8,
+16-29,household_type,share living as: shared_or_other,,,27.7,,102,
+16-29,household_type,share living as: other,,,6.8,,24,
+16-29,alone,living alone: median rent paid,500.0,,,,100,
+16-29,alone,living alone: median own net income per month,,1419.5,,,100,
+16-29,alone,living alone: median rent / income,,,35.4,,100,
+16-29,alone,living alone: overburdened (>40%),,,62.8,,100,
+16-29,movers,moved in the last 12 months: median rent paid,700.0,,,,62,
+16-29,movers,same dwelling 12 months ago: median rent paid,589.0,,,,356,
+16-29,movers,moved in the last 12 months: median rent / income,,,22.9,,62,
+16-29,movers,moved in the last 12 months: overburdened (>40%),,,30.4,,62,
+16-29,able,all young people whose own net income keeps the asking rent at or below 30%,,,0.2,,9958,
+16-29,able,all young people whose own net income keeps the asking rent at or below 40%,,,0.6,,9958,
+16-29,able,young wage earners (PY010N > 0) whose own net income keeps the asking rent at or below 40%,,,0.81,,5550,
+16-29,able,young wage earners whose net wage alone keeps the asking rent at or below 40%,,,0.68,,5550,
+16-29,ecv_salary,"median net employee cash income (PY010N > 0), all young people, per month",,748.6,,,9702,
+18-34,0,CJE: asking rent / median young net salary,1176.0,1191.02,98.7,CJE 2025 report,1039,775
+18-34,1,rent paid by young market tenants / median young net salary,630.0,1191.02,52.9,ECV 2025 HH060; CJE salary,1039,775
+18-34,2,rent paid / median net employee income of young earners in the ECV (PY010N > 0),630.0,1048.16,60.1,"ECV 2025 HH060, PY010N",1039,775
+18-34,3,rent paid / the tenants' own net personal income,630.0,1222.5,51.5,"ECV 2025 HH060, PY*N",1039,775
+18-34,4,rent paid / the tenants' household disposable income,630.0,2551.04,24.7,"ECV 2025 HH060, HY020",1039,775
+18-34,5,median of each tenant's rent / household income,,,24.7,ECV 2025,1039,775
+18-34,6,median housing cost burden (Eurostat definition),,,30.8,"ECV 2025 HH070, HY020, HY070G",1039,775
+18-34,7,"share overburdened (>40%, Eurostat definition)",,,31.5,ECV 2025,1039,775
+18-34,gap,share of the log gap: asking rent vs rent paid,,,45.0,log gap 1.386,1039,
+18-34,gap,share of the log gap: median young salary vs the tenants' own income,,,1.9,log gap 1.386,1039,
+18-34,gap,share of the log gap: own income vs household income (sharing),,,53.1,log gap 1.386,1039,
+18-34,gap_ecv,asking rent / median ECV young earner income,1176.0,1048.16,112.2,CJE asking rent; ECV 2025 PY010N,7900,
+18-34,gap_ecv,share of the log gap: asking rent vs rent paid,,,41.2,log gap 1.514,1039,
+18-34,gap_ecv,share of the log gap: median ECV young earner vs the tenants' own income,,,10.2,log gap 1.514,1039,
+18-34,gap_ecv,share of the log gap: own income vs household income (sharing),,,48.6,log gap 1.514,1039,
+18-34,shared,CJE: median room asking rent (400 EUR) / median young net salary,400.0,1191.02,33.6,CJE 2025 report,,
+18-34,shared,young tenants sharing with flatmates or relatives: median rent per adult,235.0,,,,155,110
+18-34,shared,the same: median of rent per adult / own net personal income,,,18.0,,126,
+18-34,household_type,share living as: alone,,,23.8,,225,
+18-34,household_type,share living as: couple,,,29.5,,320,
+18-34,household_type,share living as: couple_with_children,,,24.1,,277,
+18-34,household_type,share living as: single_parent,,,1.4,,22,
+18-34,household_type,share living as: shared_or_other,,,16.3,,155,
+18-34,household_type,share living as: other,,,5.0,,40,
+18-34,alone,living alone: median rent paid,500.0,,,,225,
+18-34,alone,living alone: median own net income per month,,1386.0,,,225,
+18-34,alone,living alone: median rent / income,,,36.9,,225,
+18-34,alone,living alone: overburdened (>40%),,,63.0,,225,
+18-34,movers,moved in the last 12 months: median rent paid,600.0,,,,129,
+18-34,movers,same dwelling 12 months ago: median rent paid,635.0,,,,883,
+18-34,movers,moved in the last 12 months: median rent / income,,,23.6,,129,
+18-34,movers,moved in the last 12 months: overburdened (>40%),,,33.0,,129,
+18-34,able,all young people whose own net income keeps the asking rent at or below 30%,,,0.9,,11097,
+18-34,able,all young people whose own net income keeps the asking rent at or below 40%,,,2.4,,11097,
+18-34,able,young wage earners (PY010N > 0) whose own net income keeps the asking rent at or below 40%,,,3.01,,7900,
+18-34,able,young wage earners whose net wage alone keeps the asking rent at or below 40%,,,2.54,,7900,
+18-34,ecv_salary,"median net employee cash income (PY010N > 0), all young people, per month",,1048.2,,,11097,

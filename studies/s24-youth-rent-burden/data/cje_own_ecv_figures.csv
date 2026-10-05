@@ -1,0 +1,21 @@
+households,variant,measure,cje,ours,n_households
+an emancipated member aged 16-29,age at interview; tenure 3 or 4,mean monthly housing cost HH070 (the CJE's «gasto medio en alquiler»),780.0,779.7,393
+an emancipated member aged 16-29,age at interview; tenure 3 or 4,share with 12 x HH070 > 40% of HY020 (CJE definition),48.9,35.4,393
+an emancipated member aged 16-29,age at interview; tenure 3 or 4,mean monthly rent HH060,,626.8,393
+an emancipated member aged 16-29,age at interview; tenure 3 or 4,"the CJE's 30%: its 780 EUR x 12 / its own median young household income (31.167,83); arithmetic, not a test",30.0,30.0,
+an emancipated member aged 16-29,age at interview; tenure 3 only,mean monthly housing cost HH070 (the CJE's «gasto medio en alquiler»),780.0,784.8,345
+an emancipated member aged 16-29,age at interview; tenure 3 only,share with 12 x HH070 > 40% of HY020 (CJE definition),48.9,37.8,345
+an emancipated member aged 16-29,age at end of income year; tenure 3 or 4,mean monthly housing cost HH070 (the CJE's «gasto medio en alquiler»),780.0,770.4,432
+an emancipated member aged 16-29,age at end of income year; tenure 3 or 4,share with 12 x HH070 > 40% of HY020 (CJE definition),48.9,37.4,432
+an emancipated member aged 16-29,age at end of income year; tenure 3 only,mean monthly housing cost HH070 (the CJE's «gasto medio en alquiler»),780.0,779.2,379
+an emancipated member aged 16-29,age at end of income year; tenure 3 only,share with 12 x HH070 > 40% of HY020 (CJE definition),48.9,40.1,379
+a responsible person aged 16-29,age at interview; tenure 3 or 4,mean monthly housing cost HH070 (the CJE's «gasto medio en alquiler»),780.0,735.2,243
+a responsible person aged 16-29,age at interview; tenure 3 or 4,share with 12 x HH070 > 40% of HY020 (CJE definition),48.9,47.0,243
+a responsible person aged 16-29,age at interview; tenure 3 only,mean monthly housing cost HH070 (the CJE's «gasto medio en alquiler»),780.0,747.4,219
+a responsible person aged 16-29,age at interview; tenure 3 only,share with 12 x HH070 > 40% of HY020 (CJE definition),48.9,48.1,219
+a responsible person aged 16-29,age at end of income year; tenure 3 or 4,mean monthly housing cost HH070 (the CJE's «gasto medio en alquiler»),780.0,722.2,270
+a responsible person aged 16-29,age at end of income year; tenure 3 or 4,share with 12 x HH070 > 40% of HY020 (CJE definition),48.9,49.2,270
+a responsible person aged 16-29,age at end of income year; tenure 3 only,mean monthly housing cost HH070 (the CJE's «gasto medio en alquiler»),780.0,735.8,241
+a responsible person aged 16-29,age at end of income year; tenure 3 only,share with 12 x HH070 > 40% of HY020 (CJE definition),48.9,51.0,241
+,,range of our mean HH070 over the eight variants,780.0,722.2-784.8,
+,,asking rent x 12 / CJE median young household income,45.3,45.3,

@@ -1,0 +1,7 @@
+from,to,median_income_growth_pct,median_housing_cost_growth_pct,overburden_from,overburden_to,overburden_to_if_incomes_had_grown_like_housing_costs,young_tenants_18_34_if_so,note
+2019,2025,43.7,25.4,37.4,26.8,34.4,39.9,
+2021,2025,43.5,17.5,40.9,26.8,37.7,45.5,
+2019 panel,2025,46.8,25.4,37.4,26.8,35.6,42.2,"income growth = chained median growth within continuing tenant households, instead of the cross-section's"
+2021 panel,2025,35.3,17.5,40.9,26.8,34.8,40.3,"income growth = chained median growth within continuing tenant households, instead of the cross-section's"
+lag,2025,,1.1,26.8,26.8,27.6,33.1,costs x1.0109: 4.7 more months at 2.8% a year (2021 lag vs 2025 lag)
+lag,2025,,1.9,26.8,26.8,28.1,33.4,costs x1.0193: 4.7 more months at 5.0% a year (2021 lag vs 2025 lag)

@@ -1,0 +1,25 @@
+age_band,from,to,scenario,living_with_parents_from_pct,living_with_parents_to_pct,extra_stayers,added_tenants,tenants_to,young_tenant_overburden_from,young_tenant_overburden_to,young_counterfactual,young_share_of_fall_explained_pct,all_tenants_overburden_from,all_tenants_overburden_to,all_tenants_counterfactual,all_share_of_fall_explained_pct
+18-34,2021,2025,"channel bound: extra stayers rent at the current tenancy rate, all overburdened",64.5,68.7,386160,165288,1248173,42.7,31.5,39.5,71.3,40.9,26.8,28.2,10.1
+18-34,2021,2025,"channel bound: all extra stayers rent, all overburdened",64.5,68.7,386160,386160,1248173,42.7,31.5,47.6,144.1,40.9,26.8,30.0,23.1
+18-34,2021,2025,"variant: tenancy rate, overburdened like the two lowest income groups of young tenants in the final year",64.5,68.7,386160,165288,1248173,42.7,31.5,33.0,13.5,40.9,26.8,27.1,2.4
+18-34,2021,2025,"variant: tenancy rate, overburdened like the two lowest income groups of young tenants in the base year",64.5,68.7,386160,165288,1248173,42.7,31.5,36.3,43.2,40.9,26.8,27.7,6.4
+18-34,2019,2025,"channel bound: extra stayers rent at the current tenancy rate, all overburdened",64.5,68.7,391878,167735,1248173,40.7,31.5,39.6,88.1,37.4,26.8,28.2,13.7
+18-34,2019,2025,"channel bound: all extra stayers rent, all overburdened",64.5,68.7,391878,391878,1248173,40.7,31.5,47.8,177.6,37.4,26.8,30.1,31.1
+18-34,2019,2025,"variant: tenancy rate, overburdened like the two lowest income groups of young tenants in the final year",64.5,68.7,391878,167735,1248173,40.7,31.5,33.0,16.7,37.4,26.8,27.1,3.3
+18-34,2019,2025,"variant: tenancy rate, overburdened like the two lowest income groups of young tenants in the base year",64.5,68.7,391878,167735,1248173,40.7,31.5,35.3,41.5,37.4,26.8,27.5,6.9
+18-34,2008,2025,"channel bound: extra stayers rent at the current tenancy rate, all overburdened",53.1,68.7,1450930,621040,1248173,44.6,31.5,54.2,173.4,43.5,26.8,31.9,30.6
+18-34,2008,2025,"channel bound: all extra stayers rent, all overburdened",53.1,68.7,1450930,1450930,1248173,44.6,31.5,68.3,280.6,43.5,26.8,37.7,65.3
+18-34,2008,2025,"variant: tenancy rate, overburdened like the two lowest income groups of young tenants in the final year",53.1,68.7,1450930,621040,1248173,44.6,31.5,35.8,32.8,43.5,26.8,28.0,7.4
+18-34,2008,2025,"variant: tenancy rate, overburdened like the two lowest income groups of young tenants in the base year",53.1,68.7,1450930,621040,1248173,44.6,31.5,44.0,95.7,43.5,26.8,29.7,17.7
+18-29,2021,2025,"channel bound: extra stayers rent at the current tenancy rate, all overburdened",81.8,85.0,206384,103125,477317,43.4,34.0,45.7,124.0,40.9,26.8,27.7,6.4
+18-29,2021,2025,"channel bound: all extra stayers rent, all overburdened",81.8,85.0,206384,206384,477317,43.4,34.0,53.9,210.7,40.9,26.8,28.6,12.6
+18-29,2021,2025,"variant: tenancy rate, overburdened like the two lowest income groups of young tenants in the final year",81.8,85.0,206384,103125,477317,43.4,34.0,35.2,12.3,40.9,26.8,27.0,1.2
+18-29,2021,2025,"variant: tenancy rate, overburdened like the two lowest income groups of young tenants in the base year",81.8,85.0,206384,103125,477317,43.4,34.0,39.8,61.6,40.9,26.8,27.3,3.5
+18-29,2019,2025,"channel bound: extra stayers rent at the current tenancy rate, all overburdened",80.4,85.0,296325,148066,477317,43.8,34.0,49.6,159.2,37.4,26.8,28.1,12.1
+18-29,2019,2025,"channel bound: all extra stayers rent, all overburdened",80.4,85.0,296325,296325,477317,43.8,34.0,59.3,257.6,37.4,26.8,29.3,23.8
+18-29,2019,2025,"variant: tenancy rate, overburdened like the two lowest income groups of young tenants in the final year",80.4,85.0,296325,148066,477317,43.8,34.0,35.5,15.8,37.4,26.8,27.0,2.3
+18-29,2019,2025,"variant: tenancy rate, overburdened like the two lowest income groups of young tenants in the base year",80.4,85.0,296325,148066,477317,43.8,34.0,40.3,64.5,37.4,26.8,27.4,5.6
+18-29,2008,2025,"channel bound: extra stayers rent at the current tenancy rate, all overburdened",69.5,85.0,991555,495455,477317,49.0,34.0,67.6,223.3,43.5,26.8,30.9,24.7
+18-29,2008,2025,"channel bound: all extra stayers rent, all overburdened",69.5,85.0,991555,991555,477317,49.0,34.0,78.5,296.0,43.5,26.8,34.6,46.8
+18-29,2008,2025,"variant: tenancy rate, overburdened like the two lowest income groups of young tenants in the final year",69.5,85.0,991555,495455,477317,49.0,34.0,37.3,22.2,43.5,26.8,27.6,4.6
+18-29,2008,2025,"variant: tenancy rate, overburdened like the two lowest income groups of young tenants in the base year",69.5,85.0,991555,495455,477317,49.0,34.0,49.9,105.9,43.5,26.8,29.0,13.0

@@ -1,0 +1,193 @@
+year,table,group,ours,eurostat,diff
+2008,ilc_lvho07c,TOTAL,9.5,9.4,0.1
+2008,ilc_lvho07c,RENT_MKT,43.5,43.4,0.1
+2008,ilc_lvho07c,RENT_FR,7.0,6.9,0.1
+2008,ilc_lvho07a,Y15-29,12.0,12.0,0.0
+2008,ilc_lvho07a,Y18-24,10.0,10.0,0.0
+2008,ilc_lvho07a,Y25-29,14.3,14.3,-0.0
+2008,ilc_lvho07a (age at interview),Y15-29,12.1,12.0,0.1
+2008,ilc_lvho07a (age at interview),Y18-24,10.5,10.0,0.5
+2008,ilc_lvho07a (age at interview),Y25-29,14.3,14.3,-0.0
+2009,ilc_lvho07c,TOTAL,10.4,10.4,-0.0
+2009,ilc_lvho07c,RENT_MKT,41.5,41.4,0.1
+2009,ilc_lvho07c,RENT_FR,7.5,7.5,0.0
+2009,ilc_lvho07a,Y15-29,12.1,12.1,0.0
+2009,ilc_lvho07a,Y18-24,10.4,10.4,0.0
+2009,ilc_lvho07a,Y25-29,13.0,12.9,0.1
+2009,ilc_lvho07a (age at interview),Y15-29,11.8,12.1,-0.3
+2009,ilc_lvho07a (age at interview),Y18-24,11.0,10.4,0.6
+2009,ilc_lvho07a (age at interview),Y25-29,12.1,12.9,-0.8
+2010,ilc_lvho07c,TOTAL,9.8,9.7,0.1
+2010,ilc_lvho07c,RENT_MKT,43.6,43.4,0.2
+2010,ilc_lvho07c,RENT_FR,8.8,8.8,0.0
+2010,ilc_lvho07a,Y15-29,12.7,12.7,-0.0
+2010,ilc_lvho07a,Y18-24,12.2,12.2,0.0
+2010,ilc_lvho07a,Y25-29,13.5,13.5,-0.0
+2010,ilc_lvho07a (age at interview),Y15-29,12.7,12.7,0.0
+2010,ilc_lvho07a (age at interview),Y18-24,11.7,12.2,-0.5
+2010,ilc_lvho07a (age at interview),Y25-29,13.7,13.5,0.2
+2011,ilc_lvho07c,TOTAL,10.1,10.0,0.1
+2011,ilc_lvho07c,RENT_MKT,43.0,42.7,0.3
+2011,ilc_lvho07c,RENT_FR,7.7,7.7,-0.0
+2011,ilc_lvho07c,OWN_L,9.6,9.6,0.0
+2011,ilc_lvho07c,OWN_NL,2.2,2.2,-0.0
+2011,ilc_lvho07a,Y15-29,12.1,12.1,-0.0
+2011,ilc_lvho07a,Y18-24,9.8,9.7,0.1
+2011,ilc_lvho07a,Y25-29,15.0,15.0,0.0
+2011,ilc_lvho07a (age at interview),Y15-29,12.0,12.1,-0.1
+2011,ilc_lvho07a (age at interview),Y18-24,9.9,9.7,0.2
+2011,ilc_lvho07a (age at interview),Y25-29,14.8,15.0,-0.2
+2012,ilc_lvho07c,TOTAL,10.7,10.7,0.0
+2012,ilc_lvho07c,RENT_MKT,44.7,44.7,-0.0
+2012,ilc_lvho07c,RENT_FR,8.0,8.0,0.0
+2012,ilc_lvho07c,OWN_L,9.7,9.7,0.0
+2012,ilc_lvho07c,OWN_NL,2.7,2.7,-0.0
+2012,ilc_lvho07a,Y15-29,13.6,13.6,-0.0
+2012,ilc_lvho07a,Y18-24,12.9,12.9,-0.0
+2012,ilc_lvho07a,Y25-29,13.7,13.7,-0.0
+2012,ilc_lvho07a (age at interview),Y15-29,13.7,13.6,0.1
+2012,ilc_lvho07a (age at interview),Y18-24,12.7,12.9,-0.2
+2012,ilc_lvho07a (age at interview),Y25-29,14.4,13.7,0.7
+2013,ilc_lvho07c,TOTAL,10.3,10.3,0.0
+2013,ilc_lvho07c,RENT_MKT,42.3,42.3,-0.0
+2013,ilc_lvho07c,RENT_FR,9.5,9.5,0.0
+2013,ilc_lvho07c,OWN_L,8.2,8.2,-0.0
+2013,ilc_lvho07c,OWN_NL,2.8,2.8,0.0
+2013,ilc_lvho07a,Y15-29,12.6,12.6,-0.0
+2013,ilc_lvho07a,Y18-24,12.4,12.4,-0.0
+2013,ilc_lvho07a,Y25-29,12.8,12.8,-0.0
+2013,ilc_lvho07a (age at interview),Y15-29,12.4,12.6,-0.2
+2013,ilc_lvho07a (age at interview),Y18-24,12.7,12.4,0.3
+2013,ilc_lvho07a (age at interview),Y25-29,12.3,12.8,-0.5
+2014,ilc_lvho07c,TOTAL,10.9,10.9,0.0
+2014,ilc_lvho07c,RENT_MKT,47.5,47.5,-0.0
+2014,ilc_lvho07c,RENT_FR,10.8,10.8,0.0
+2014,ilc_lvho07c,OWN_L,9.0,9.0,-0.0
+2014,ilc_lvho07c,OWN_NL,2.8,2.8,0.0
+2014,ilc_lvho07a,Y15-29,14.0,14.0,0.0
+2014,ilc_lvho07a,Y18-24,13.3,13.3,-0.0
+2014,ilc_lvho07a,Y25-29,15.0,15.0,-0.0
+2014,ilc_lvho07a (age at interview),Y15-29,14.1,14.0,0.1
+2014,ilc_lvho07a (age at interview),Y18-24,12.9,13.3,-0.4
+2014,ilc_lvho07a (age at interview),Y25-29,15.5,15.0,0.5
+2015,ilc_lvho07c,TOTAL,10.3,10.3,0.0
+2015,ilc_lvho07c,RENT_MKT,43.3,43.3,0.0
+2015,ilc_lvho07c,RENT_FR,9.9,9.9,0.0
+2015,ilc_lvho07c,OWN_L,8.7,8.7,-0.0
+2015,ilc_lvho07c,OWN_NL,2.7,2.7,0.0
+2015,ilc_lvho07a,Y15-29,12.6,12.6,0.0
+2015,ilc_lvho07a,Y18-24,12.5,12.5,-0.0
+2015,ilc_lvho07a,Y25-29,11.4,11.4,-0.0
+2015,ilc_lvho07a (age at interview),Y15-29,12.6,12.6,-0.0
+2015,ilc_lvho07a (age at interview),Y18-24,12.6,12.5,0.1
+2015,ilc_lvho07a (age at interview),Y25-29,11.2,11.4,-0.2
+2016,ilc_lvho07c,TOTAL,10.2,10.2,-0.0
+2016,ilc_lvho07c,RENT_MKT,43.0,43.0,-0.0
+2016,ilc_lvho07c,RENT_FR,10.6,10.6,0.0
+2016,ilc_lvho07c,OWN_L,6.7,6.7,-0.0
+2016,ilc_lvho07c,OWN_NL,2.8,2.8,0.0
+2016,ilc_lvho07a,Y15-29,12.0,12.0,0.0
+2016,ilc_lvho07a,Y18-24,9.8,9.8,0.0
+2016,ilc_lvho07a,Y25-29,13.2,13.2,-0.0
+2016,ilc_lvho07a (age at interview),Y15-29,11.9,12.0,-0.1
+2016,ilc_lvho07a (age at interview),Y18-24,9.7,9.8,-0.1
+2016,ilc_lvho07a (age at interview),Y25-29,13.0,13.2,-0.2
+2017,ilc_lvho07c,TOTAL,9.8,9.8,0.0
+2017,ilc_lvho07c,RENT_MKT,42.1,42.1,0.0
+2017,ilc_lvho07c,RENT_FR,13.1,13.1,0.0
+2017,ilc_lvho07c,OWN_L,4.5,4.5,-0.0
+2017,ilc_lvho07c,OWN_NL,2.9,2.9,0.0
+2017,ilc_lvho07a,Y15-29,12.5,12.5,-0.0
+2017,ilc_lvho07a,Y18-24,10.2,10.2,0.0
+2017,ilc_lvho07a,Y25-29,15.6,15.6,0.0
+2017,ilc_lvho07a (age at interview),Y15-29,12.3,12.5,-0.2
+2017,ilc_lvho07a (age at interview),Y18-24,10.5,10.2,0.3
+2017,ilc_lvho07a (age at interview),Y25-29,14.6,15.6,-1.0
+2018,ilc_lvho07c,TOTAL,8.9,8.9,-0.0
+2018,ilc_lvho07c,RENT_MKT,38.1,38.1,-0.0
+2018,ilc_lvho07c,RENT_FR,10.1,10.1,0.0
+2018,ilc_lvho07c,OWN_L,3.5,3.5,-0.0
+2018,ilc_lvho07c,OWN_NL,2.6,2.6,-0.0
+2018,ilc_lvho07a,Y15-29,11.5,11.5,-0.0
+2018,ilc_lvho07a,Y18-24,10.1,10.1,0.0
+2018,ilc_lvho07a,Y25-29,14.3,14.3,-0.0
+2018,ilc_lvho07a (age at interview),Y15-29,11.1,11.5,-0.4
+2018,ilc_lvho07a (age at interview),Y18-24,9.8,10.1,-0.3
+2018,ilc_lvho07a (age at interview),Y25-29,13.6,14.3,-0.7
+2019,ilc_lvho07c,TOTAL,8.5,8.5,0.0
+2019,ilc_lvho07c,RENT_MKT,37.4,37.4,0.0
+2019,ilc_lvho07c,RENT_FR,9.3,9.3,0.0
+2019,ilc_lvho07c,OWN_L,3.7,3.7,-0.0
+2019,ilc_lvho07c,OWN_NL,1.8,1.8,0.0
+2019,ilc_lvho07a,Y15-29,9.9,9.9,0.0
+2019,ilc_lvho07a,Y18-24,8.7,8.7,0.0
+2019,ilc_lvho07a,Y25-29,12.9,12.9,0.0
+2019,ilc_lvho07a (age at interview),Y15-29,9.5,9.9,-0.4
+2019,ilc_lvho07a (age at interview),Y18-24,8.4,8.7,-0.3
+2019,ilc_lvho07a (age at interview),Y25-29,11.4,12.9,-1.5
+2020,ilc_lvho07c,TOTAL,8.2,8.2,-0.0
+2020,ilc_lvho07c,RENT_MKT,35.9,35.9,0.0
+2020,ilc_lvho07c,RENT_FR,8.2,8.2,0.0
+2020,ilc_lvho07c,OWN_L,3.0,3.0,0.0
+2020,ilc_lvho07c,OWN_NL,2.2,2.2,-0.0
+2020,ilc_lvho07a,Y15-29,8.3,8.3,0.0
+2020,ilc_lvho07a,Y18-24,7.7,7.7,0.0
+2020,ilc_lvho07a,Y25-29,9.8,9.8,0.0
+2020,ilc_lvho07a (age at interview),Y15-29,8.3,8.3,-0.0
+2020,ilc_lvho07a (age at interview),Y18-24,7.2,7.7,-0.5
+2020,ilc_lvho07a (age at interview),Y25-29,9.6,9.8,-0.2
+2021,ilc_lvho07c,TOTAL,9.9,9.9,-0.0
+2021,ilc_lvho07c,RENT_MKT,40.9,40.9,-0.0
+2021,ilc_lvho07c,RENT_FR,11.5,11.5,0.0
+2021,ilc_lvho07c,OWN_L,3.7,3.7,-0.0
+2021,ilc_lvho07c,OWN_NL,3.1,3.1,-0.0
+2021,ilc_lvho07a,Y15-29,10.0,10.0,0.0
+2021,ilc_lvho07a,Y18-24,8.1,8.1,0.0
+2021,ilc_lvho07a,Y25-29,12.0,12.0,-0.0
+2021,ilc_lvho07a (age at interview),Y15-29,10.2,10.0,0.2
+2021,ilc_lvho07a (age at interview),Y18-24,8.2,8.1,0.1
+2021,ilc_lvho07a (age at interview),Y25-29,12.5,12.0,0.5
+2022,ilc_lvho07c,TOTAL,9.2,9.2,0.0
+2022,ilc_lvho07c,RENT_MKT,39.4,39.4,-0.0
+2022,ilc_lvho07c,RENT_FR,11.5,11.5,-0.0
+2022,ilc_lvho07c,OWN_L,3.2,3.2,-0.0
+2022,ilc_lvho07c,OWN_NL,2.8,2.8,-0.0
+2022,ilc_lvho07a,Y15-29,9.9,9.9,0.0
+2022,ilc_lvho07a,Y18-24,8.4,8.4,-0.0
+2022,ilc_lvho07a,Y25-29,12.6,12.6,0.0
+2022,ilc_lvho07a (age at interview),Y15-29,10.0,9.9,0.1
+2022,ilc_lvho07a (age at interview),Y18-24,8.3,8.4,-0.1
+2022,ilc_lvho07a (age at interview),Y25-29,12.5,12.6,-0.1
+2023,ilc_lvho07c,TOTAL,8.2,8.2,0.0
+2023,ilc_lvho07c,RENT_MKT,30.6,30.6,0.0
+2023,ilc_lvho07c,RENT_FR,10.8,10.8,0.0
+2023,ilc_lvho07c,OWN_L,4.4,4.4,-0.0
+2023,ilc_lvho07c,OWN_NL,2.6,2.6,-0.0
+2023,ilc_lvho07a,Y15-29,7.7,7.7,-0.0
+2023,ilc_lvho07a,Y18-24,6.2,6.2,-0.0
+2023,ilc_lvho07a,Y25-29,9.2,9.2,0.0
+2023,ilc_lvho07a (age at interview),Y15-29,7.7,7.7,0.0
+2023,ilc_lvho07a (age at interview),Y18-24,6.2,6.2,0.0
+2023,ilc_lvho07a (age at interview),Y25-29,9.0,9.2,-0.2
+2024,ilc_lvho07c,TOTAL,7.8,7.8,-0.0
+2024,ilc_lvho07c,RENT_MKT,28.1,28.1,-0.0
+2024,ilc_lvho07c,RENT_FR,8.2,8.2,0.0
+2024,ilc_lvho07c,OWN_L,4.3,4.3,-0.0
+2024,ilc_lvho07c,OWN_NL,2.2,2.2,-0.0
+2024,ilc_lvho07a,Y15-29,7.4,7.4,-0.0
+2024,ilc_lvho07a,Y18-24,5.2,5.2,-0.0
+2024,ilc_lvho07a,Y25-29,9.5,9.5,-0.0
+2024,ilc_lvho07a (age at interview),Y15-29,7.4,7.4,0.0
+2024,ilc_lvho07a (age at interview),Y18-24,5.4,5.2,0.2
+2024,ilc_lvho07a (age at interview),Y25-29,9.1,9.5,-0.4
+2025,ilc_lvho07c,TOTAL,7.2,7.2,-0.0
+2025,ilc_lvho07c,RENT_MKT,26.8,26.8,-0.0
+2025,ilc_lvho07c,RENT_FR,8.4,8.4,0.0
+2025,ilc_lvho07c,OWN_L,3.4,3.4,0.0
+2025,ilc_lvho07c,OWN_NL,1.9,1.9,-0.0
+2025,ilc_lvho07a,Y15-29,7.2,7.2,0.0
+2025,ilc_lvho07a,Y18-24,5.7,5.7,-0.0
+2025,ilc_lvho07a,Y25-29,8.9,8.9,0.0
+2025,ilc_lvho07a (age at interview),Y15-29,7.1,7.2,-0.1
+2025,ilc_lvho07a (age at interview),Y18-24,5.4,5.7,-0.3
+2025,ilc_lvho07a (age at interview),Y25-29,8.6,8.9,-0.3

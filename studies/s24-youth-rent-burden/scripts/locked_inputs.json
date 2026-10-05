@@ -1,0 +1,329 @@
+{
+ "note": "Inputs of S24. sha256 = the vintage used; fetch.py reports any change.",
+ "files": [
+  {
+   "local": "ecv/datos_2008.zip",
+   "url": "https://www.ine.es/ftp/microdatos/ecv/ecv_b2013/datos_2008.zip",
+   "what": "INE ECV cross-sectional microdata 2008 (base 2013)",
+   "sha256": "2756e64a27af1140a7e524bcfaa4913fc79565fc3b2d228327c40424bbf5a2d0"
+  },
+  {
+   "local": "ecv/datos_2009.zip",
+   "url": "https://www.ine.es/ftp/microdatos/ecv/ecv_b2013/datos_2009.zip",
+   "what": "INE ECV cross-sectional microdata 2009 (base 2013)",
+   "sha256": "7f55e9877f30287632c5b6b59f72e4a021df77f576ca68b7535051d8583df572"
+  },
+  {
+   "local": "ecv/datos_2010.zip",
+   "url": "https://www.ine.es/ftp/microdatos/ecv/ecv_b2013/datos_2010.zip",
+   "what": "INE ECV cross-sectional microdata 2010 (base 2013)",
+   "sha256": "7cec69769ab223e1c0482296ced80f4c8a015d06aead66f850ad35fe07ef5812"
+  },
+  {
+   "local": "ecv/datos_2011.zip",
+   "url": "https://www.ine.es/ftp/microdatos/ecv/ecv_b2013/datos_2011.zip",
+   "what": "INE ECV cross-sectional microdata 2011 (base 2013)",
+   "sha256": "9ab8d83b3b5a46daba746ad54c9fa797b8b49075c6f8e61de39d3535a067c988"
+  },
+  {
+   "local": "ecv/datos_2012.zip",
+   "url": "https://www.ine.es/ftp/microdatos/ecv/ecv_b2013/datos_2012.zip",
+   "what": "INE ECV cross-sectional microdata 2012 (base 2013)",
+   "sha256": "f1d7adde8277dcfedd6f5f56d236d4e51089d27ccfe2bae5e92fc072b1425908"
+  },
+  {
+   "local": "ecv/datos_2013.zip",
+   "url": "https://www.ine.es/ftp/microdatos/ecv/ecv_b2013/datos_2013.zip",
+   "what": "INE ECV cross-sectional microdata 2013 (base 2013)",
+   "sha256": "56b047ae7eb00fba4562db18fcdb3fb2db9656efc82ddb835203f8420f571220"
+  },
+  {
+   "local": "ecv/datos_2014.zip",
+   "url": "https://www.ine.es/ftp/microdatos/ecv/ecv_b2013/datos_2014.zip",
+   "what": "INE ECV cross-sectional microdata 2014 (base 2013)",
+   "sha256": "98dc39e2369851d344d7aef3e59e9f371ff542601425bee8aeb0fc0e98469332"
+  },
+  {
+   "local": "ecv/datos_2015.zip",
+   "url": "https://www.ine.es/ftp/microdatos/ecv/ecv_b2013/datos_2015.zip",
+   "what": "INE ECV cross-sectional microdata 2015 (base 2013)",
+   "sha256": "5c5cac8b9cf561d433db5b676c5dc73e1cac9be9477f09600042a0ee4435aaa7"
+  },
+  {
+   "local": "ecv/datos_2016.zip",
+   "url": "https://www.ine.es/ftp/microdatos/ecv/ecv_b2013/datos_2016.zip",
+   "what": "INE ECV cross-sectional microdata 2016 (base 2013)",
+   "sha256": "9a3d3e0864f21f63968e05aa2da40745fce102516cc76c72257b3cb78d17580a"
+  },
+  {
+   "local": "ecv/datos_2017.zip",
+   "url": "https://www.ine.es/ftp/microdatos/ecv/ecv_b2013/datos_2017.zip",
+   "what": "INE ECV cross-sectional microdata 2017 (base 2013)",
+   "sha256": "2b87b059d98fffc6eddbe7335046d9992121b0c72c015fceadf917bdb7647d1c"
+  },
+  {
+   "local": "ecv/datos_2018.zip",
+   "url": "https://www.ine.es/ftp/microdatos/ecv/ecv_b2013/datos_2018.zip",
+   "what": "INE ECV cross-sectional microdata 2018 (base 2013)",
+   "sha256": "658f9e8274479e909f89d14d84349bebff10cc32efabbbbc28cf0b9cb8a7da4d"
+  },
+  {
+   "local": "ecv/datos_2019.zip",
+   "url": "https://www.ine.es/ftp/microdatos/ecv/ecv_b2013/datos_2019.zip",
+   "what": "INE ECV cross-sectional microdata 2019 (base 2013)",
+   "sha256": "0d4aaf524168f2143e25e509b7454391cd6df9ce4ba1e571ccd9f70510f652a1"
+  },
+  {
+   "local": "ecv/datos_2020.zip",
+   "url": "https://www.ine.es/ftp/microdatos/ecv/ecv_b2013/datos_2020.zip",
+   "what": "INE ECV cross-sectional microdata 2020 (base 2013)",
+   "sha256": "2cb77338f5360781a2e85b70f3c8fd60ba3ed8fc5166b91120304510388fa1b2"
+  },
+  {
+   "local": "ecv/datos_2021.zip",
+   "url": "https://www.ine.es/ftp/microdatos/ecv/ecv_b2013/datos_2021.zip",
+   "what": "INE ECV cross-sectional microdata 2021 (base 2013)",
+   "sha256": "23a508a3fcdb3d2c66e5eb78ac1e49d1dfc4b0e8983229e9f729f12927d62081"
+  },
+  {
+   "local": "ecv/datos_2022.zip",
+   "url": "https://www.ine.es/ftp/microdatos/ecv/ecv_b2013/datos_2022.zip",
+   "what": "INE ECV cross-sectional microdata 2022 (base 2013)",
+   "sha256": "79ad60f79c2f1caac06b694bb686ea3ad23f73b0099bf203794b9a37b6f193a7"
+  },
+  {
+   "local": "ecv/datos_2023.zip",
+   "url": "https://www.ine.es/ftp/microdatos/ecv/ecv_b2013/datos_2023.zip",
+   "what": "INE ECV cross-sectional microdata 2023 (base 2013)",
+   "sha256": "624f64abddc5dd3d79f25313e95a46d7787cbc8dc13fe958d30a01e9e57aebb5"
+  },
+  {
+   "local": "ecv/datos_2024.zip",
+   "url": "https://www.ine.es/ftp/microdatos/ecv/ecv_b2013/datos_2024.zip",
+   "what": "INE ECV cross-sectional microdata 2024 (base 2013)",
+   "sha256": "75b63c4f56e85aa0791db6aac810740ee3069f963d986511a266a172233b5b92"
+  },
+  {
+   "local": "ecv/datos_2025.zip",
+   "url": "https://www.ine.es/ftp/microdatos/ecv/ecv_b2013/datos_2025.zip",
+   "what": "INE ECV cross-sectional microdata 2025 (base 2013)",
+   "sha256": "bf4f2751ac247957f6edcf02cfd85a3931785b0932b1291e8972a33ad490f617"
+  },
+  {
+   "local": "ecv/periodo_2013-2016.zip",
+   "url": "https://www.ine.es/ftp/microdatos/ecv/ecv_b2013/periodo_2013-2016.zip",
+   "what": "INE ECV longitudinal microdata 2013-2016 (base 2013)",
+   "sha256": "ac52277a3b0d596c4495a5b2a39e5224498b5c544af7321d13abb53caf6a42db"
+  },
+  {
+   "local": "ecv/periodo_2016-2019.zip",
+   "url": "https://www.ine.es/ftp/microdatos/ecv/ecv_b2013/periodo_2016-2019.zip",
+   "what": "INE ECV longitudinal microdata 2016-2019 (base 2013)",
+   "sha256": "42d832aeca0fd23ed1a49f4dae1be82fc0eb710cba6689a6204c711f00487aa9"
+  },
+  {
+   "local": "ecv/periodo_2019-2022.zip",
+   "url": "https://www.ine.es/ftp/microdatos/ecv/ecv_b2013/periodo_2019-2022.zip",
+   "what": "INE ECV longitudinal microdata 2019-2022 (base 2013)",
+   "sha256": "d51de4c8ddfab32dff85cc206911772339747fcdac50715baf109ea3a25ddb0b"
+  },
+  {
+   "local": "ecv/periodo_2022-2025.zip",
+   "url": "https://www.ine.es/ftp/microdatos/ecv/ecv_b2013/periodo_2022-2025.zip",
+   "what": "INE ECV longitudinal microdata 2022-2025 (base 2013)",
+   "sha256": "5d1a193f20055ca69f0fc18a160a06745eb0ee145e185260c1782532fc7b56d8"
+  },
+  {
+   "local": "ecv/ecvb04_2004.zip",
+   "url": "https://www.ine.es/ftp/microdatos/ecv/ecv_b2004/ecvb04_2004.zip",
+   "what": "INE ECV cross-sectional microdata 2004 (base 2004; used for emancipation only)",
+   "sha256": "31e57e95b53541e4c80cb3af8a5186c419f91a26cd0b63646cc1af8a97dd725c"
+  },
+  {
+   "local": "ecv/ecvb04_2005.zip",
+   "url": "https://www.ine.es/ftp/microdatos/ecv/ecv_b2004/ecvb04_2005.zip",
+   "what": "INE ECV cross-sectional microdata 2005 (base 2004; used for emancipation only)",
+   "sha256": "57b12195cae071863935dfa948241476b8196e27f77a3776eee793f5da5f2808"
+  },
+  {
+   "local": "ecv/ecvb04_2006.zip",
+   "url": "https://www.ine.es/ftp/microdatos/ecv/ecv_b2004/ecvb04_2006.zip",
+   "what": "INE ECV cross-sectional microdata 2006 (base 2004; used for emancipation only)",
+   "sha256": "9991952e3110b2804d1a052ae805151764b554bd2829e32377e8f00b03a37962"
+  },
+  {
+   "local": "ecv/ecvb04_2007.zip",
+   "url": "https://www.ine.es/ftp/microdatos/ecv/ecv_b2004/ecvb04_2007.zip",
+   "what": "INE ECV cross-sectional microdata 2007 (base 2004; used for emancipation only)",
+   "sha256": "07412cd4c9fcb94fca9aef6c7f3819ec5ba262da7faad45e7969bb454fd7cd72"
+  },
+  {
+   "local": "epa/datos_3t23.zip",
+   "url": "https://www.ine.es/ftp/microdatos/epa/datos_3t23.zip",
+   "what": "INE EPA microdata 3t23",
+   "sha256": "40269a3564f01be0041b69def1893ee6385f96e1d3fa43f1110914b157e5dd99"
+  },
+  {
+   "local": "epa/datos_4t23.zip",
+   "url": "https://www.ine.es/ftp/microdatos/epa/datos_4t23.zip",
+   "what": "INE EPA microdata 4t23",
+   "sha256": "6514638b3cb17a555b38930c55a0962b4506f70dee5928315eb90a9981023088"
+  },
+  {
+   "local": "epa/datos_3t24.zip",
+   "url": "https://www.ine.es/ftp/microdatos/epa/datos_3t24.zip",
+   "what": "INE EPA microdata 3t24",
+   "sha256": "fb169e18c3e9a91d4e2566beba461ae9be15999cecb78cdb85919d89dd6ec70a"
+  },
+  {
+   "local": "epa/datos_4t24.zip",
+   "url": "https://www.ine.es/ftp/microdatos/epa/datos_4t24.zip",
+   "what": "INE EPA microdata 4t24",
+   "sha256": "5ff662a536b935bb262445e4b494d077f58a9c51823723783bc3e12b85700bc5"
+  },
+  {
+   "local": "epa/datos_3t25.zip",
+   "url": "https://www.ine.es/ftp/microdatos/epa/datos_3t25.zip",
+   "what": "INE EPA microdata 3t25",
+   "sha256": "4efd095a51fe2c1918e03d7178ebd4c9208d812eb3ce034992b34c6bb0777020"
+  },
+  {
+   "local": "epa/datos_4t25.zip",
+   "url": "https://www.ine.es/ftp/microdatos/epa/datos_4t25.zip",
+   "what": "INE EPA microdata 4t25",
+   "sha256": "9b7d42e0115aae822989ca5c56ad9f2d90057e038bc7b7fc277abbd3f70582c5"
+  },
+  {
+   "local": "eurostat/ilc_lvho07a.json",
+   "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ilc_lvho07a?geo=ES&geo=EU27_2020&format=JSON&lang=EN",
+   "what": "Eurostat ilc_lvho07a, Spain and EU-27",
+   "sha256": "c49f48f0f2da40383a9d5d97cc5382f7ad3709718847d1cadb9233023051bd7a"
+  },
+  {
+   "local": "eurostat/ilc_lvho07c.json",
+   "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ilc_lvho07c?geo=ES&geo=EU27_2020&format=JSON&lang=EN",
+   "what": "Eurostat ilc_lvho07c, Spain and EU-27",
+   "sha256": "3f6dd885c408a094a972e09c0fd22c0234196d65d4df60361ef16cecb4ca8898"
+  },
+  {
+   "local": "eurostat/ilc_lvps08.json",
+   "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ilc_lvps08?geo=ES&geo=EU27_2020&format=JSON&lang=EN",
+   "what": "Eurostat ilc_lvps08, Spain and EU-27",
+   "sha256": "2b293b9e1b276b0432010127723564f35439e5d15193ad9b6b75bd6f0c2dcaf2"
+  },
+  {
+   "local": "eurostat/yth_demo_030.json",
+   "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/yth_demo_030?geo=ES&geo=EU27_2020&format=JSON&lang=EN",
+   "what": "Eurostat yth_demo_030, Spain and EU-27",
+   "sha256": "45ec9ddc05fe329d74d16632811227a3839eb1f409b21247f4c34117cc5aadad"
+  },
+  {
+   "local": "cje/2025-balance-general.pdf",
+   "url": "https://www.cje.org/download/313/ano-2025/23618/2025-balance-general.pdf",
+   "what": "CJE Observatorio de Emancipaci\u00f3n 2025, balance general",
+   "sha256": "e3c73f4c1d56a89ac4b103435b32ce0dab9cf80b7309b388f2108e9bf4a154eb"
+  },
+  {
+   "local": "cje/2024-2sem_informe-estatal-1.pdf",
+   "url": "https://www.cje.org/download/310/2o-semestre-2024/23278/2024-2sem_informe-estatal-1.pdf",
+   "what": "CJE Observatorio de Emancipaci\u00f3n, 2nd semester 2024, informe estatal",
+   "sha256": "4d58bce0fa6a4a81c6a9f066596bf205fa5298a58be7a794246cd704f63cef34"
+  },
+  {
+   "local": "cje/2024-2sem_nota-metodologica-1.pdf",
+   "url": "https://www.cje.org/download/310/2o-semestre-2024/23277/2024-2sem_nota-metodologica-1.pdf",
+   "what": "CJE Observatorio de Emancipaci\u00f3n, 2nd semester 2024, nota metodol\u00f3gica",
+   "sha256": "b23813217b0fc951b70112d9a058b1f16ce81bd041669f13710987ab4d5234f7"
+  },
+  {
+   "local": "epa/datos_3t23_a.zip",
+   "url": "https://www.ine.es/ftp/microdatos/epa/datos_3t23_a.zip",
+   "what": "INE EPA microdata 3t23 with base-2021 weights (anexo)",
+   "sha256": "573baafc0beae6c764b1dd9de8167ca444e60f85d6024ffd502137781b3d42d4"
+  },
+  {
+   "local": "epa/datos_4t23_a.zip",
+   "url": "https://www.ine.es/ftp/microdatos/epa/datos_4t23_a.zip",
+   "what": "INE EPA microdata 4t23 with base-2021 weights (anexo)",
+   "sha256": "962bbfa7e281cb40f9b2fee66bfd53e91251f15c7366477cf58e6759f1ebea7c"
+  },
+  {
+   "local": "ine/ipva_59004.json",
+   "url": "https://servicios.ine.es/wstempus/js/ES/DATOS_TABLA/59004?nult=12",
+   "what": "INE IPVA: indices by contract age (new vs existing), national and regional",
+   "sha256": "73439f95f94129818599443c283ed1b697260fd75fd060e938d05e2795c05034"
+  },
+  {
+   "local": "ine/ipva_59063.json",
+   "url": "https://servicios.ine.es/wstempus/js/ES/DATOS_TABLA/59063?nult=12",
+   "what": "INE IPVA: national weights by dwelling size",
+   "sha256": "889f0395accedc40be5e45e375655e10111c0ca68743b8eed64011e1adcb06ad"
+  },
+  {
+   "local": "ine/ipva_59008.json",
+   "url": "https://servicios.ine.es/wstempus/js/ES/DATOS_TABLA/59008?nult=12",
+   "what": "INE IPVA: national weights by contract age",
+   "sha256": "ebbd758af917cc5ae889600fb0033ba0d62097e427e0ecc61c5b47ac9dcacff5"
+  },
+  {
+   "local": "ine/ecv_2017.pdf",
+   "url": "https://www.ine.es/prensa/ecv_2017.pdf",
+   "what": "INE ECV 2017 press release (fieldwork period)",
+   "sha256": "8e791492366ef7ee82cf4a8cf822cab545aa58a849a987fb725a69b349ebc73f"
+  },
+  {
+   "local": "ine/ecv_2019.pdf",
+   "url": "https://www.ine.es/prensa/ecv_2019.pdf",
+   "what": "INE ECV 2019 press release (fieldwork period)",
+   "sha256": "7e6f01335c91b6a4f23b0b45159325bbfc9cde3c554b0de04461603c4c51d5f3"
+  },
+  {
+   "local": "ine/ecv_2021.pdf",
+   "url": "https://www.ine.es/prensa/ecv_2021.pdf",
+   "what": "INE ECV 2021 press release (fieldwork period, collection mode)",
+   "sha256": "d10912d255af4536f5ed19c1e4279f8c55571b241fe980ccf69d1bd03b54a6fe"
+  },
+  {
+   "local": "ine/ecv_2022.pdf",
+   "url": "https://www.ine.es/prensa/ecv_2022.pdf",
+   "what": "INE ECV 2022 press release (fieldwork period)",
+   "sha256": "104748b1249b250575413466f187282d51351a4a08cf0b739c230b6bba335f8a"
+  },
+  {
+   "local": "ine/ECV2023.htm",
+   "url": "https://www.ine.es/dyngs/Prensa/ECV2023.htm",
+   "what": "INE ECV 2023 press release (fieldwork period)",
+   "sha256": "e5622c988e356ee5249221113dfa48713c7ec375500a251ca146c6721b27bda3"
+  },
+  {
+   "local": "ine/ECV2024.htm",
+   "url": "https://www.ine.es/dyngs/Prensa/ECV2024.htm",
+   "what": "INE ECV 2024 press release (fieldwork period)",
+   "sha256": "32b471124ae8446462d323e65b2f5b61a48fba635d5eab25e842cb0ef7b42819"
+  },
+  {
+   "local": "ine/ECV2025.htm",
+   "url": "https://www.ine.es/dyngs/Prensa/ECV2025.htm",
+   "what": "INE ECV 2025 press release (fieldwork period)",
+   "sha256": "bbbd6afaf7b48070f01307945c79a8e21a3eb74eed7cee66dd52bd8b07c2c49a"
+  },
+  {
+   "local": "ine/m3ECV2025.htm",
+   "url": "https://www.ine.es/dyngs/Prensa/es/m3ECV2025.htm",
+   "what": "INE ECV 2025 module on difficulties of access to housing, press release",
+   "sha256": "55ae4f83a279ee88f8e3f41c71b7e822a4fe0c7a1ebbb39cd5b4cd49edbd77c1"
+  },
+  {
+   "local": "cje/2023-2sem_informe-estatal.pdf",
+   "url": "https://www.cje.org/download/274/segundo-semestre-2023/22323/2023-2sem_informe-estatal.pdf",
+   "what": "CJE Observatorio de Emancipaci\u00f3n, 2nd semester 2023, informe estatal",
+   "sha256": "accffedb50d8cf03a43efcaa78360aa347ead72e7357a19a59560e2a18c3a28e"
+  },
+  {
+   "local": "prior/fedea_eee2026-28.pdf",
+   "url": "https://documentos.fedea.net/pubs/eee/2026/eee2026-28.pdf",
+   "what": "FEDEA, El Coste de la Vivienda y la Pobreza Oculta en Espa\u00f1a: 2014-2025 (quoted)",
+   "sha256": "5459f090daa266476b71f0da7170ad9f855eae51f940633b59850b5f3e4d5d83"
+  }
+ ]
+}
