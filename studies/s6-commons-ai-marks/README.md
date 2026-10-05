@@ -1,4 +1,5 @@
 # S6 — Do AI-generated images on Wikimedia Commons carry provenance marks?
+
 *EasyxLab · study S6 · data collected 2026-10-02 · status: working draft, not peer-reviewed*
 
 **Paper:** [easybyte.es/lab/studies/s6/paper/](https://easybyte.es/lab/studies/s6/paper/) · [PDF](https://easybyte.es/lab/studies/s6/paper.pdf)
@@ -11,7 +12,7 @@ Two populations are reported. The *main* population is the category tree plus `{
 
 **Marks in the main population.** The share of files with a machine-readable AI mark rose sharply in **June 2026**: from 25.8% of January–May uploads (n = 532) to 50.2% of June–July uploads (n = 313). That is +24.4 percentage points; a bootstrap that resamples upload days gives +14.7 to +33.6. August–September (n = 461) shows 43.4%, or 53.3% without one large unmarked batch of coats of arms.
 
-**Before and after 2 August.** The comparison of January–July with August–September, when Art. 50(2) of the EU AI Act became applicable, gives +8.4 pp (day-cluster bootstrap +0.2 to +17). It depends on that batch: without it, the difference is +17.8 pp. Neither comparison can be attributed to the AI Act.
+**Before and after 2 August.** The comparison of January–July with August–September gives +8.4 pp (day-cluster bootstrap +0.2 to +17). 2 August 2026 is when Art. 50(2) of the EU AI Act began to apply to new systems; under Art. 111(4) as amended, systems already on the market have until 2 December 2026. The comparison depends on one batch: without it, the difference is +17.8 pp. Neither comparison can be attributed to the AI Act.
 
 **Kinds of mark.** Almost every mark is a C2PA manifest, mostly from OpenAI and Google. The IPTC `DigitalSourceType` alone marks 1.5% of main files. A readable Chinese AIGC label appears on 1 file of the union, and 3 more files carry a double-encoded label.
 
@@ -23,6 +24,8 @@ Two populations are reported. The *main* population is the category tree plus `{
 - Microsoft Paint manifests (12).
 
 With the official C2PA Trust List, 452 of 624 manifests (72%) are valid and trusted.
+
+**Competing interests:** ai-mark-lint, the instrument of this study, is developed by the authors' organisation; this study found and fixed two defects in it.
 
 *EasyxLab, study S6 · a research lab by EasyByte · October 2026*
 

@@ -290,7 +290,10 @@ are on one *sede electrónica* platform that loops without cookies) · `not_enti
 redirect into a host with no fetches left) · `same_as_regional_entry` (Ceuta, Melilla).
 
 ## 5. Denominators
-- reachability: scanned entities, minus `not_measured_budget` and `same_as_regional_entry`;
+- reachability: scanned entities, minus `not_measured_budget` and `same_as_regional_entry` (6,730,
+  *in scope*); the rate in the abstracts also leaves out `robots_disallow`, `robots_5xx` and
+  `robots_unverifiable`, whose home page we could not measure (6,272, *measurable*); [the paper](https://easybyte.es/lab/studies/s8/paper/) §6.1
+  gives both;
 - served over HTTPS, accessibility link: entities whose home page returned 200 HTML and is the
   entity's site (*reachable*); `acc_link` also minus pages where it could not be re-detected;
 - certificate, HSTS: reachable entities served over HTTPS;

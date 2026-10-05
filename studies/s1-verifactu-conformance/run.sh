@@ -6,10 +6,9 @@ set -euo pipefail
 cd "$(dirname "$0")"
 if [ ! -x .venv/bin/python ]; then
   python3 -m venv .venv
-  # Instrumento: verifactu-lint 0.4.0. En local, editable desde el repo hermano;
-  # si no está, desde PyPI con la versión fijada.
-  if [ -d ../../../verifactu-lint ]; then .venv/bin/pip install -q -e ../../../verifactu-lint
-  else .venv/bin/pip install -q "verifactu-lint==0.4.0"; fi
+  # Instrumento: verifactu-lint 0.4.0, siempre desde PyPI con la versión fijada
+  # (0.4.1 cambia el resultado de 9 ficheros del corpus).
+  .venv/bin/pip install -q "verifactu-lint==0.4.0"
 fi
 PY=.venv/bin/python
 $PY scripts/01_collect.py          # GitHub → data/raw/files, private/occurrences.jsonl

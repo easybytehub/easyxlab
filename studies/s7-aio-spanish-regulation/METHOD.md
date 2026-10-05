@@ -132,13 +132,14 @@ read one file, holding the corrected fact sheet, the query and the full answer, 
 20-word note (`data/second_reader_prompt.md`, `data/second_reader.csv`). Blinding rests on that instruction; the
 reader ran in the same file tree, and its tool log was not kept. Agreement and Cohen's κ are reported overall, per
 stratum and for the binary "wrong or not" (`data/summary.json`). The version-1 subsample (one wrong answer in 54) is
-superseded and kept in `private/v1/`.
+superseded; it is kept in the lab's private records, not published.
 
 ## 8. Cited pages (`scripts/check_pages.py`)
 
 For each confirmed error (scored facts, 25 answers), and for 40 random correct answers from reading 1 (seed 7), the
 script fetches up to 6 cited URLs and applies the same regular expressions. Each page is classed `page_old`,
-`page_current`, `page_mixed`, `page_silent` or `fetch_failed`. No person or agent read the pages. They were fetched
+`page_current`, `page_mixed`, `page_silent` or `fetch_failed`. The pages were judged by these regular expressions
+alone. They were fetched
 on 3 October, not when Google read them.
 
 **Access.** User-Agent `Mozilla/5.0 (compatible; EasyxLab-S7/0.1; research; +https://github.com/easybytehub/easyxlab)`,

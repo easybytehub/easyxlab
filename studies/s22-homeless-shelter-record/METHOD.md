@@ -10,8 +10,11 @@
   the later clarifications D1–D5 and lists what the freeze commit must contain (code and frozen
   values).
 - **The scoring rules are code**: `scripts/score_2026.py`.
-- **An independent adversarial review** followed (`private/REVIEW.md`). Its corrections are applied
-  here, in the paper, and in PROTOCOL §12.
+- **An independent adversarial review** followed. Its corrections are applied here, in the paper,
+  and in PROTOCOL §12 (summarised in paper §10).
+- **A second independent review** (5 October 2026) checked the text against `data/` and the freeze
+  commit `64b785d`. Its corrections are to the wording of the paper, the README and this file: no
+  number, protocol line or frozen file changed.
 - **Scout figures.** The figures of the scout report that proposed the study were recomputed, not
   reused.
 
@@ -47,7 +50,7 @@ No access control was bypassed. Data were downloaded on 4 October 2026.
 | Press and civil society (Europa Press, RTVE, La Razón, Diario de Sevilla, El Imparcial, Tribuna Madrid, Albergue Covadonga, HOGAR SÍ, FACIAM, fuentesinformadas.com, Europa Press/Accem, FEANTSA–Fondation pour le Logement 2026) | public pages | how the record was read; prior statements |
 | Crossref, OpenAlex, GitHub, DuckDuckGo HTML | APIs and HTML search | prior work (`data/prior_work_search.csv`) |
 
-The WebSearch tool was not available: its quota had run out.
+The WebSearch tool was not available.
 
 ## 3. Units and definitions
 

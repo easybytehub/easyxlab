@@ -1,5 +1,6 @@
 # S5 — Who publishes attestations on PyPI and npm — and who stopped?
-EasyxLab · study S5 · snapshot of 2026-10-02 · working draft, not peer-reviewed
+
+*EasyxLab · study S5 · snapshot of 2026-10-02 · status: working draft, not peer-reviewed*
 
 **Paper:** [easybyte.es/lab/studies/s5/paper/](https://easybyte.es/lab/studies/s5/paper/) · [PDF](https://easybyte.es/lab/studies/s5/paper.pdf)
 
@@ -38,7 +39,7 @@ For 138, the line `pip` installs had attestations and its latest version has non
 
 In 53 of the tool or workflow changes, the publishing workflow now runs `uv publish` with no
 attestation step. Examples, each backed by a commit in [the paper](https://easybyte.es/lab/studies/s5/paper/) §5.3: fastapi, typer, fastmcp and
-supabase. Stopping is a change of release tooling, not a sign of compromise.
+supabase. A stop removes a guarantee; it does not show that one was broken.
 
 **Publisher changes.** At least 307 attested projects changed publisher. Of the 188 changes that
 cross repositories or publisher kinds:
@@ -55,6 +56,9 @@ the stops and their causes, and the publisher audit ([the paper](https://easybyt
 
 **Automation and review.** AI agents ran the study and wrote the text. An independent AI reviewer
 checked it ([the paper](https://easybyte.es/lab/studies/s5/paper/) §4.1).
+
+**Competing interests:** EasyByte develops attest-lint, an open-source tool that flags the
+attestation regressions this study measures; it produced no figure here.
 
 ## Contents
 

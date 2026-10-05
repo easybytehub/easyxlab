@@ -86,9 +86,9 @@ scenario). The placeholder rule was also made case-insensitive after an AEAT exa
 variant with the literal previous hash `huella` slipped into (a). See `VERIFICATION.md`.
 
 **Direction of the bias.** Every heuristic in this section errs towards (b). A file
-moved from (a) to (b) leaves the numerator of non-conformance, so the reported
-non-conformance rates are, by construction, **lower bounds** with respect to
-classification error. §3.4 says which classes were reviewed (by the study agent) and
+moved out of (a) leaves both the numerator and the denominator, so the direction of the
+resulting bias on the rate is not known in advance; in the final classification no
+occurrence is in (b). §3.4 says which classes were reviewed (by the study agent) and
 which were not.
 
 ### 3.4 Review of the classification
@@ -155,8 +155,7 @@ chain).
 
 ## 7. Ethics
 
-- No issues, pull requests or messages to maintainers. The operator decides whether
-  and how to notify before publication.
+- No issues, pull requests or messages to maintainers were sent before publication.
 - Repositories are anonymised (`R01…`, random order derived from a private salt).
   The mapping and the real references (repo, commit, path, licence) live in
   `private/` (git-ignored).

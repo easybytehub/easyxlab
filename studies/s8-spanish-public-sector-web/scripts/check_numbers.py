@@ -59,13 +59,19 @@ claim("paper.md", f"The {n(S['municipalities'] - S['municipalities_with_url'])} 
 
 # --- reachability
 r = A["reachable"]
-both(f"Of {n(r['n'])} entities whose home page we could measure, {n(r['k'])} ({p(r['pct'])}%) returned their own home page")
+HA = S["home_outcome_counts_all"]
+rob = HA["robots_disallow"] + HA["robots_5xx"] + HA["robots_unverifiable"]  # not measurable because of robots.txt
+meas = r["n"] - rob
+both(f"Of {n(meas)} entities whose home page we could measure, {n(r['k'])} ({P(r['k'], meas)}%) returned their own home page")
+both(f"{rob} of the {n(r['n'])}")
+claim("paper.md", f"Leaving out the {rob} whose `robots.txt` made the home page not measurable ({HA['robots_disallow']} disallowed it, "
+                  f"{HA['robots_5xx']} answered 5xx and {HA['robots_unverifiable']} could not be re-read to verify), {n(r['k'])} of {n(meas)} ({P(r['k'], meas)}%) did")
 claim("README.md", f"{H['not_entity_site']} municipal URLs led to something that is not the council's site")
 claim("paper.md", f"to something that is not the entity's site ({H['not_entity_site']} URLs")
 claim("paper.md", f"Of {n(S['entities_with_url'])} entities with a URL, {S['entities_with_url'] - S['measured']} could not be measured")
 claim("paper.md", f"Of the remaining {n(r['n'])}, {n(r['k'])} ({p(r['pct'])}%) returned their own home page")
 mr = M["reachable"]
-claim("paper.md", f"The {n(mr['n'] - mr['k'])} municipalities that did not (of {n(mr['n'])} measured)")
+claim("paper.md", f"The {n(mr['n'] - mr['k'])} municipalities that did not (of {n(mr['n'])} in scope)")
 for key, phrase in (("dns_failure", "the domain no longer resolves ({})"), ("http_error", "the server returned an HTTP error ({})"),
                     ("robots_disallow", "*not measurable: robots.txt disallows* ({},"),
                     ("robots_5xx", "`robots.txt` answered 5xx so we did not crawl ({})"),
@@ -199,7 +205,7 @@ ex = S["exclusions_by_rule"]
 for rule, phrase in (("third_party_platform", "Yahoo, …) — {} municipalities"), ("domain_for_sale", "reserva\", …) — {};"),
                      ("directory_site", "postcode or place directory — {};"), ("hosting_panel_or_default_page", "\"Coming Soon\", …) — {};"),
                      ("other_site_after_redirect", "a provincial portal's home page) — {};"), ("other_body_page", "names this municipality — {} ("),
-                     ("no_sign_of_council", "(mostly hijacked domains) — {}.")):
+                     ("no_sign_of_council", "(mostly domains that now carry unrelated content) — {}.")):
     claim("paper.md", phrase.format(ex[rule]))
 assert sum(ex.values()) == H["not_entity_site"]
 src = S["exclusions_by_rule_and_source"]
@@ -249,7 +255,7 @@ claim("paper.md", f"All {au['n']} dates are a preparation, review or update date
 claim("paper.md", f"(95% CI for precision {p(au['ci95'][0])}–{p(au['ci95'][1])})")
 
 # --- README headline table
-rows = {"reachable": "home page reachable (of measured)", "https": "served over HTTPS (of reachable)",
+rows = {"reachable": "home page reachable (of entities in scope)", "https": "served over HTTPS (of reachable)",
         "hsts": "HSTS (of served over HTTPS)", "acc_link": "link to accessibility statement (of reachable)",
         "ai_block_any4": "blocks ≥ 1 of 4 AI crawlers (of robots.txt read)"}
 order = ("municipality", "provincial_council", "public_university", "regional_government", "ministry")

@@ -1,10 +1,10 @@
 # S2 — Spoofed AI crawlers
 
+*EasyxLab · study S2 · data as of 2026-10-02 · status: working draft, not peer-reviewed*
 
 **Paper:** [easybyte.es/lab/studies/s2/paper/](https://easybyte.es/lab/studies/s2/paper/) · [PDF](https://easybyte.es/lab/studies/s2/paper.pdf)
-**How much traffic claiming to be an AI or search bot is real?**
 
-EasyxLab · study S2 · working draft · data as of 2026-10-02
+**How much traffic claiming to be an AI or search bot is real?**
 
 ## Abstract
 
@@ -21,9 +21,12 @@ Google says is never sent as a User-Agent, appeared 371 times. All spoofing came
 54 addresses, 81% in cloud/hosting networks (one cloud provider's customer space alone: 66%);
 97% of spoofed requests came from sources that also probed for credentials (`.env`,
 `config.json`, `service-account.json`) and 92% from sources that rotated through several operators'
-identities. On the main site, at the CDN edge, the spoofed volume was 3.1× what the origin logged; free-plan
+identities. On the main site, at the CDN edge, the spoofed volume was at least 3.1× what the origin logged; free-plan
 defaults blocked 0.7% of it. We release `ai-bot-verify`, a dependency-free verifier for any
 access log that outputs aggregates only and refuses to write IP addresses.
+
+**Competing interests:** the three sites are run by the authors' organisation, which also
+publishes `ai-bot-verify`.
 
 ## Contents
 
@@ -67,10 +70,11 @@ Verdicts: `verified` (in the operator's published ranges or passes FCrDNS), `spo
 | Google-Extended | 371 | 0.0 (never a real UA) |
 
 Sites are anonymised as Site A (a calculator site) and Sites B and C (two niche tool sites
-launched in September 2026). The work was done by AI agents and has not yet been reviewed by a
-person ([the paper](https://easybyte.es/lab/studies/s2/paper/) §9).
+launched in September 2026). The work was done by AI agents and checked by an independent AI
+reviewer; [the paper](https://easybyte.es/lab/studies/s2/paper/) §9 says exactly what was automated.
 
-License: code MIT; data and text CC BY 4.0 (pending confirmation).
+Licences: code Apache-2.0 ([LICENSE](../../LICENSE)); data and text CC BY 4.0
+([LICENSE-DATA](../../LICENSE-DATA)).
 
 ---
 

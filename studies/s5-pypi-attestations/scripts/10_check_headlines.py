@@ -44,7 +44,8 @@ paper_only = [f"{uv} publishing workflows now run `uv publish`", f"{uv} workflow
               f"{pub['changes_at_least']} changes in all; {pub['environment_only_projects']} other projects", f"**{pub['change_types']['workflow_changed_same_repo']} changes**",
               f"{rules.get('confirmed: same owner', 0)} keep the same owner and {rules.get('confirmed: same repository after GitHub redirects', 0)} resolve",
               f"{m['review_sample']['n']} of the 57 are still in the set", f"agree with the rules in {m['review_sample']['agree_with_rule']}",
-              f"({el['yes']:,} of {el['n']:,})"]
+              f"({el['yes']:,} of {el['n']:,})",
+              f"{cls['tool_or_workflow_change']} of the {pp} stops coincide with a change of release tooling and {cls['indeterminate']} have no known cause"]
 for b in pa["bands"]:
     a, z = b["band"].split("-")
     paper_only.append(f"| {int(a):,}–{int(z):,} | {pct(b['latest_attested']['yes'], b['latest_attested']['n'])} | {pct(b['eligible_latest_attested']['yes'], b['eligible_latest_attested']['n'])} | {pct(b['ever_attested']['yes'], b['ever_attested']['n'])} |")

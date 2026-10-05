@@ -33,7 +33,7 @@ Usage:
     ai-bot-verify access.log [more.log ...] [--site NAME] [--asn] [--out DIR]
     ai-bot-verify --site example.com --asn --out results/ /var/log/nginx/access.log*
 
-License: MIT. Part of EasyxLab study S2 ("Spoofed AI crawlers").
+License: Apache-2.0. Part of EasyxLab study S2 ("Spoofed AI crawlers").
 """
 from __future__ import annotations
 

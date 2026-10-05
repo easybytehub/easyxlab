@@ -2,8 +2,7 @@
 
 No ERROR finding on the class-(a) corpus was a false positive (0/22, see
 `VERIFICATION.md`). What the study did find is a set of **diagnostic-quality**,
-**severity** and **coverage** issues. They are listed so they can be filed against
-`easybytehub/verifactu-lint` by the operator; nothing has been filed.
+**severity** and **coverage** issues. They were fixed in verifactu-lint 0.4.1 (2026-10-03); see its CHANGELOG.
 
 ## I-1 · Coverage gap: no check on the format of `FechaHoraHusoGenRegistro` (candidate)
 
@@ -17,6 +16,9 @@ Status: **candidate, needs normative confirmation.** The XSD types the field as 
 `xs:dateTime` (`<element name="FechaHoraHusoGenRegistro" type="dateTime"/>`), which
 admits values without offset; the explicit format requirement would have to come from
 the AEAT record design or the validation document. A rule would probably be an AVISO.
+
+Resolved: Orden HAC/1177/2024 art. 7.g) requires the time zone; verifactu-lint 0.4.1
+reports its absence as ERROR (RRSIF053).
 
 ## I-2 · Diagnostics: a record that does not follow the schema gets a cascade of misleading messages
 

@@ -181,7 +181,7 @@ it. The published numbers come from the copy of 4 October 2026: its SHA-256 is i
   - Holidays: resolutions of the Dirección General de Trabajo, Boletín Oficial del Estado.
 - None of these sources endorses this study.
 
-Cite as: EasyxLab (2026). Did owners rush to register tourist flats before Spain's
+Cite as: EasyxLab (2026). Was there a rush to register tourist dwellings before Spain's
 community-approval rule of 3 April 2025? Evidence from the Comunitat Valenciana's open registry.
 Study S13. EasyByte Hub S. Coop. Mad. https://github.com/easybytehub/easyxlab
 

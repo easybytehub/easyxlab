@@ -6,10 +6,10 @@
 
 ## Abstract
 
-Since 2025-10-28 a GitHub release can be published as *immutable*: its Git tag can no longer be moved
-or deleted. GitHub's documentation also tells action authors that a tag they want to keep updating,
-such as the major version tag `v1`, must **not** be tied to a release, and suggests they "recommend
-that your users specify a major version". A workflow that writes `uses: owner/action@v1` follows that
+Since 2025-10-28 (general availability; public preview from 2025-08-26) a GitHub release can be
+published as *immutable*: its Git tag can no longer be moved or deleted. GitHub's documentation
+also tells action authors that a tag they want to keep updating, such as the major version tag
+`v1`, must **not** be tied to a release, and suggests they "recommend that your users specify a major version". A workflow that writes `uses: owner/action@v1` follows that
 documented, intended usage, and immutable releases do not protect it. We measured what the mechanism
 protects in practice, on 2026-10-03, through the GitHub API only:
 
@@ -31,8 +31,8 @@ repository gives 3.6–4.6%. Almost all the rest are major tags such as `@v7`. F
 points to the same commit, so switching to it would not change the code that runs.
 
 **Most-used actions.** 28 of 50 (56.0%) of the action repositories used by the most repositories in A
-publish their latest release as immutable. First party: 12 of 28 (42.9%) for `actions/*` (yes:
-`setup-node`, `setup-python`, `setup-go`, `setup-java`; no: `checkout`, `cache`, `upload-artifact`,
+publish their latest release as immutable. Across all action repositories referenced in A, first
+party: 12 of 28 (42.9%) for `actions/*` (yes: `setup-node`, `setup-python`, `setup-go`, `setup-java`; no: `checkout`, `cache`, `upload-artifact`,
 `download-artifact`, `github-script`) and 3 of 6 (50.0%) for `github/*`.
 
 **SHA pinning carries the protection, in a minority of repositories.** Pooled, 32,978 of 58,690 (56.2%)
@@ -41,7 +41,7 @@ remote references in A are SHA-pinned (interval 50.7–61.7%) and 4,812 of 10,47
 holds 1,392 references). The typical repository pins few: the median per-repository SHA share is 5.0%
 in A and 0.0% in B. Every remote reference written in the workflow files is SHA-pinned in at most 263
 of 891 (29.5%) repositories in A, and in 174 of 891 (19.5%) if the 89 that also call local actions we
-did not read are left out; in B, at most 65 of 398 (16.3%), or 55 of 398 (13.8%). Immutable tags: 0.6%
+did not read are counted as not fully pinned; in B, at most 65 of 398 (16.3%), or 55 of 398 (13.8%). Immutable tags: 0.6%
 of references in A, 0.8% in B.
 
 **Workflow-level dependency locking**, announced on 2026-03-26 with "Public preview 3-6 months", had

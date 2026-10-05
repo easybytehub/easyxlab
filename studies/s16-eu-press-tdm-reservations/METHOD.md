@@ -12,7 +12,9 @@ Among news publishers in the 27 EU Member States, how many websites express a re
 text and data mining (TDM) that a machine can read and that binds any crawler whatever its name
 ("agnostic"), how many only block a list of named AI crawlers, how many state a reservation only in
 `robots.txt` comments (which an RFC 9309 parser ignores), how many state none, and how many
-contradict themselves across machine-readable channels?
+contradict themselves across machine-readable channels? *[after the freeze, wording: "binds any crawler" means a
+reservation addressed to any crawler, whatever its name; whether it binds a provider in law is for courts
+([the paper](https://easybyte.es/lab/studies/s16/paper/) §7)]*
 
 ## 2. Population and frame
 

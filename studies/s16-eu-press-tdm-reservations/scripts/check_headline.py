@@ -87,7 +87,7 @@ claims = {
     "ind3_res": f"reservation {IND3['reservation']['precision_k']} of {IND3['reservation']['precision_n']}",
     "providers": f"{len(read)} of {len(panel)} providers",
     "providers_robots": f"all {sum(p['robots_txt'] == '1' for p in read)} name robots.txt",
-    "providers_other": "None names TDMRep, Content-Signal, Content-Usage or `noai`"
+    "providers_other": f"None of the {len(read)} names TDMRep, Content-Signal, Content-Usage or `noai`"
     if all(p[k] == "0" for p in read for k in ("tdmrep", "content_signal", "content_usage_aipref", "noai_meta")) else "MISMATCH",
 }
 PAPER = ["frame", "agnostic_full", "agnostic_full_ci", "named_full", "named_no_agn_full", "none_full", "tdmrep_full",

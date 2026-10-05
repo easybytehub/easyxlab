@@ -59,14 +59,14 @@ most).**
     "the rush ended" from "demand fell". Portugal shows the pattern: when it closed Lisbon,
     Porto and the coast to its real-estate route on 1 January 2022, purchases by buyers domiciled
     outside the EU spiked in 2021Q4, fell 0.49 log points against EU buyers in 2022Q1, and grew
-    again in 2022 and 2023.
+    again in 2022 and 2023 (in 2022 less than purchases by EU buyers: −11.8% relative).
 - **The rush.** Madrid rose 38.7% in A and the two cities 24.8%, against 6.1% in the rest. The
   relative rise (+17.7%) is unremarkable against history (p = 0.34).
 
 **Other changes at the same time.**
 - **The tax announcement.** On 13 January 2025 the Government announced a tax of «hasta el 100%»
-  on non-EU non-resident buyers. It never became law (no rule in the BOE to 4 October 2026, and
-  none in the housing decree-law of 29 September 2026). It reached the same buyers one quarter
+  on non-EU non-resident buyers. It had not become law by 4 October 2026 (no rule in the
+  BOE, and none in the housing decree-law of 29 September 2026). It reached the same buyers one quarter
   before the repeal and **cannot be separated** from it.
 - **Currency.** A regression in levels gives a −10% relative change from the euro's rise, but it is
   close to spurious (Durbin–Watson 0.49). Regressions in differences give about zero. **The

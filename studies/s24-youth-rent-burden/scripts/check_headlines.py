@@ -155,6 +155,12 @@ need("panel income growth", f"{pct(cp['median_income_growth_pct'])}")
 need("within-household counterfactual", f"{pct(cp['overburden_to_if_incomes_had_grown_like_housing_costs'])}")
 need("cross-section counterfactual", f"{pct(cf['overburden_to_if_incomes_had_grown_like_housing_costs'])}")
 need("young panel counterfactual", f"({pct(cp['young_tenants_18_34_if_so'])} of young tenants)", where=PAPER)
+# Discussion: the within-household counterfactual's share of the 2021-2025 fall, and who rents
+cf_pts = float(cp["overburden_to_if_incomes_had_grown_like_housing_costs"]) - float(cp["overburden_to"])
+fall_pts = float(cp["overburden_from"]) - float(cp["overburden_to"])
+who_pts = float(cf["overburden_to_if_incomes_had_grown_like_housing_costs"]) - float(cp["overburden_to_if_incomes_had_grown_like_housing_costs"])
+need("largest measured contribution", f"{cf_pts:.1f} of the {fall_pts:.1f} points of the fall", where=PAPER)
+need("who rents", f"who rents ({who_pts:.1f} points)", where=PAPER)
 ip = S["ipva"]
 need("IPVA", f"existing contracts rising {pct(ip['existing_growth_2021_2024_pct'])} from 2021 to 2024, and under new contracts {pct(ip['new_growth_2021_2024_pct'])}", where=README)
 need("IPVA weights", f"from {pct(ip['new_contract_weight_2021'])} to {pct(ip['new_contract_weight_2024'])}", where=PAPER)

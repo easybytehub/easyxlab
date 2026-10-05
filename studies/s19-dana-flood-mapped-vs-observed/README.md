@@ -11,8 +11,10 @@ were built after Real Decreto 638/2016 limited building in flood zones?
 - **The official maps.** The State's hazard maps for the areas of significant potential flood
   risk (ARPSI, RD 903/2010; 10, 100 and 500 years) and the Generalitat's PATRICOVA.
 
-**The answer, as a range.** About **39–66% of the dwellings inside the observed extent were
-outside every official flood zone**, depending on which flood extent and which rule is used.
+**The answer, as a range.** About **39–62% of the dwellings inside the observed extent were
+outside every official flood zone** across the two flood extents and the three rules, and up to 66%
+with the Copernicus product versions, edge buffers and the building's centroid tested against the
+extent.
 
 | | Copernicus EMS extent | Generalitat's footprint |
 |---|---|---|
@@ -35,8 +37,8 @@ outside every official flood zone**, depending on which flood extent and which r
 - **Like for like.** In the same 66 municipalities, the share outside every zone is 51.6% with the
   Copernicus extent and 40.8% with the Generalitat's footprint (footprint on the depth grid; 49.4%
   and 38.9% under the reference rule).
-- **Robustness.** Copernicus product versions and ±10/±25 m edge buffers move the reference figure
-  only within 50.1–53.9%. Leaving out one municipality gives 47.7–54.9%.
+- **Robustness.** Copernicus product versions, ±10/±25 m edge buffers and testing the building's
+  footprint or centroid against the extent move the reference figure only within 50.1–53.9%. Leaving out one municipality gives 47.7–54.9%.
 - **Places.** The figures differ a lot by town:
   - 71.9% outside in Paiporta, 95.8% in Picanya and 100.0% in Sedaví;
   - at least 98% inside an ARPSI zone in Beniparrell and Massanassa;

@@ -1,6 +1,6 @@
 # S4 — Multilingual quality of drug names in Wikidata
 
-EasyxLab · study S4 · snapshot of 2026-10-02 · status: working draft, not peer-reviewed
+*EasyxLab · study S4 · snapshot of 2026-10-02 · status: working draft, not peer-reviewed*
 
 **Paper:** [easybyte.es/lab/studies/s4/paper/](https://easybyte.es/lab/studies/s4/paper/) · [PDF](https://easybyte.es/lab/studies/s4/paper.pdf)
 
@@ -20,7 +20,8 @@ Script (0.71 drugs, 0.93 diseases), brand (0.83), shared-label (1.00), ICD-10 fo
 duplicate-ATC (0/4) flags were not, and ICD-11 is undetermined (1/2).
 
 About 0.9% of drug labels are wrong (≈312 of 34,207; 0.5% at the lower 95% CI bounds of
-precision). This is a lower bound with respect to recall. Errors concentrate in Urdu (39 per
+precision), not counting 168 labels in 62 shared-label groups. This is a lower bound with
+respect to recall. Errors concentrate in Urdu (39 per
 1,000 labels), Persian (35), Russian (28) and Hindi (25), against 2–4 per 1,000 in the major
 Latin-script languages (excluding English). They include:
 
@@ -39,6 +40,8 @@ drugs and 34 chronic diseases) were still present; the seventh was only partly f
 We propose 135 corrections, reviewed one by one by the study agent, as a QuickStatements
 proposal (`corrections.qs`). The proposal **has not been applied**: re-check each `lastrevid`
 and discuss at WikiProject Medicine first. **We have not edited Wikidata.**
+
+**Competing interests:** none.
 
 ## Contents
 
@@ -67,7 +70,7 @@ FREEZE=1 scripts/run.sh   # fresh extraction (new snapshot; recorded verdicts no
 - RxNorm Prescribable names: US public domain (NLM).
 - `data/reference/atc_alterations_codes.json` holds only the code-change facts used for checking. The ATC/DDD
   index itself may not be redistributed, and it is not included.
-- Code: to be decided at publication (Apache-2.0 or MIT proposed).
+- Code: Apache-2.0 ([LICENSE](../../LICENSE)).
 
 ---
 

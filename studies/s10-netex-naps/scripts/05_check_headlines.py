@@ -68,8 +68,10 @@ gf = sum(1 for r in R if any(m.startswith("Element 'GeneralFrame': This element 
                              for m in r["xsd"].get("epip", {}).get("top_messages", {})))
 
 CHECKS = [  # (name, recomputed, expected, literal text, files)
-    ("feeds", len({feed(x) for x in CAT}), 284, "284 NeTEx feeds", ["README.md", "paper.md"]),
-    ("files", len(CAT), 639, "(639 files)", ["README.md", "paper.md"]),
+    # the five NAPs; Mobilithek (DE) is listed apart, from its metadata only
+    ("feeds", len({feed(x) for x in CAT if x["country"] != "DE"}), 266, "266 NeTEx feeds", ["README.md", "paper.md"]),
+    ("files", sum(1 for x in CAT if x["country"] != "DE"), 621, "(621 files)", ["README.md", "paper.md"]),
+    ("de_offers", sum(1 for x in CAT if x["country"] == "DE"), 18, "18 more offers in Germany's Mobilithek metadata", ["README.md", "paper.md"]),
     ("validated", len(R), 41, "41 of 44", ["README.md", "paper.md"]),
     ("sample", len(sample), 44, "41 of 44", ["README.md", "paper.md"]),
     ("timetables", len(tt), 34, "34 timetable", ["README.md", "paper.md"]),
@@ -82,7 +84,8 @@ CHECKS = [  # (name, recomputed, expected, literal text, files)
     ("coverage_max_pct", round(part[-1] * 100), 66, "66 %", ["README.md", "paper.md"]),
     ("tpt_datasets", len(tpt), 11, "rejects 11 French timetables", ["README.md", "paper.md"]),
     ("tpt_all_FR", sum(1 for r in tpt if r["country"] == "FR"), 11, "11 French timetables", ["README.md", "paper.md"]),
-    ("tpt_pass_132", sum(1 for r in tpt if verdict(r["xsd"]["netex_1_3_2"]) in ("valid", "partial")), 9, "9 of which pass 1.3.2", ["README.md", "paper.md"]),
+    ("tpt_valid_132", sum(1 for r in tpt if verdict(r["xsd"]["netex_1_3_2"]) == "valid"), 7, "7 of them are fully valid against 1.3.2", ["README.md", "paper.md"]),
+    ("tpt_partial_132", sum(1 for r in tpt if verdict(r["xsd"]["netex_1_3_2"]) == "partial"), 2, "and 2 more on the part checked", ["README.md", "paper.md"]),
     ("nl_invalid_200", len(nl_inv), 11, "Ten of eleven Dutch", ["README.md", "paper.md"]),
     ("nl_keyref_only", len(nl_kr), 10, "Ten of eleven Dutch", ["README.md", "paper.md"]),
     ("epip_checked", len(epip_checked), 36, "0 of 36", ["README.md", "paper.md"]),

@@ -19,7 +19,7 @@ header, `<meta>`), Content-Signal, the IETF `Content-Usage` rule, `noai` and `ll
 requested a URL only where `robots.txt` allowed it.
 
 **On the 1,356 sites we could read in full, 99 of 1,356 (7.3%), 95% CI 6.0–8.8%, state a
-reservation that binds a crawler whatever its name.**
+reservation addressed to any crawler, whatever its name.**
 - 558 of 1,356 (41.2%) block at least one named AI crawler at the root. Of those, 480 of 558
   (86.0%), CI 82.9–88.7%, state nothing that a crawler with a new name would read.
 - 777 of 1,356 (57.3%) state no reservation in any channel we read.
@@ -66,10 +66,10 @@ reservations.
   15 of 15; reservation right on 20 of 20 flags and found 20 of 21.
 - Re-reviewer, v3, 43 further sites: prohibition 15 of 15 in the sample, but about 84% recall
   (130 of 154) once the 24 D7 misses are counted; reservation 15 of 16.
-- v4 changes exactly those two failure modes. No audit of v4 is claimed.
+- v4 changes exactly those two failure modes; the audit figures above are those of v1–v3.
 
 **Providers.** We could read the crawler documentation of 8 of 14 providers on 2026-10-03; all 8
-name robots.txt. None names TDMRep, Content-Signal, Content-Usage or `noai`.
+name robots.txt. None of the 8 names TDMRep, Content-Signal, Content-Usage or `noai`.
 
 Per-site results state what each site's files say. They are not an assessment of the site: the
 obligation is on AI providers. The checker is `scripts/optout_check.py <domain>`, which may become

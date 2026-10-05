@@ -10,7 +10,7 @@ Data collected 2026-10-02. All times UTC.
 | origin log, Site A (a calculator site, online since mid-2026) | nginx `access.log` behind Cloudflare → reverse proxy → nginx; real client IP restored from `CF-Connecting-IP` | 2026-07-27 12:45 → 2026-10-02 15:22 (68 calendar days) | 14,637 |
 | origin log, Site B (a niche tool site launched in September 2026) | same stack | 2026-09-24 13:45 → 2026-10-02 15:22 (9 calendar days) | 1,481 |
 | origin log, Site C (a niche tool site launched in September 2026) | same stack | 2026-09-26 09:02 → 2026-10-02 15:16 (7 calendar days) | 430 |
-| Cloudflare edge, the same three zones | GraphQL Analytics `httpRequestsAdaptiveGroups`, grouped by `userAgent, clientIP, clientRequestPath, edgeResponseStatus, securityAction` | 2026-09-02 02:00 → 2026-10-02 (30 d, the plan's retention limit is 4w3d) | 22,864 sampled rows |
+| Cloudflare edge, the same three zones | GraphQL Analytics `httpRequestsAdaptiveGroups`, grouped by `userAgent, clientIP, clientRequestPath, edgeResponseStatus, securityAction` | 2026-09-02 02:00 → 2026-10-02 (30 d, the plan's retention limit is 4w3d) | 22,889 sampled rows |
 
 The three logs are the complete files present on the server (no rotated copies existed; the
 oldest line of each file is the start of logging for that site). Our own monitoring hosts
@@ -120,7 +120,7 @@ and applies the same matcher and verdict function. Two traps found and fixed dur
 2. Free-plan zones refuse `clientAsn`, `clientASNDescription` and `botScore`; ASN is therefore
    looked up via Team Cymru as in the log pass.
 
-Adaptive sampling: 11,064 of the 20,648 bot rows for Site A came from groups with
+Adaptive sampling: 11,064 of the 20,662 bot rows for Site A came from groups with
 `sampleInterval > 1`. Edge figures are raw sampled counts (a lower bound); multiplying by the
 sample interval gives a much larger, unreliable upper bound, so it is not used.
 

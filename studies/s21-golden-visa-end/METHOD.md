@@ -182,7 +182,7 @@ and Barcelona's sums differ by at most 4 purchases (`data/vintages.csv`).
   TRLPI art. 67). In practice we followed it everywhere.
 - **Notariado and Registradores.** The Notariado's statistics portal forbids reproduction, and
   Registradores' site blocks us with a firewall. We used neither.
-- **WebSearch.** The session's budget was exhausted (200 of 200), so no open web search was made.
+- **WebSearch.** Open web search was not available to us, so none was made.
   Discovery went through OpenAlex, Crossref, sitemaps and one outlet's topic page.
 
 ## 4. Definitions
@@ -259,7 +259,7 @@ They are context and enter no estimate.
 
 ### 9.7 Changes after the independent review (2026-10-04)
 
-An independent agent reviewed the study (internal file `private/REVIEW.md`). Every major item was
+An independent agent reviewed the study. Every major item was
 applied:
 
 1. **Selection.**
@@ -327,6 +327,24 @@ appended to it, before the release of 16 December 2026:
 The scored values are frozen in `data/predictions_2026Q3_frozen.csv`. `scripts/predict.py` writes
 it only if it is missing, and `evaluate` refuses to score it if its SHA-256 differs from
 `data/freeze.json`. That file also holds the SHA-256 of the plan block above.
+
+The «Deviations» section is the only change to `PREDICTIONS.md` since its first commit: lines 1–58
+are byte-identical to 204bcf6 (`git diff 204bcf6 -- PREDICTIONS.md`). Its status line, «not to be
+edited after its first commit», is part of the registered text and is left as it was.
+
+### 9.9 Changes after the second review (2026-10-05)
+
+A second independent agent checked the published text against `data/`. No number changed. The
+text changes are in [the paper](https://easybyte.es/lab/studies/s21/paper/) and `README.md`; the plan block and `PREDICTIONS.md` are untouched:
+- the Portuguese comparison states its own relative figure: in 2022 non-EU purchases were 12.5%
+  above 2021, 11.8% less than EU purchases, so «no lasting effect» was removed;
+- 2025Q2 is the quarter in which the repeal took effect, not the quarter after it;
+- the other buyer groups in the two cities «did not fall against the rest of Spain», with their
+  figures, instead of «moved like the rest»;
+- the tax announcement «had not become law by 4 October 2026», instead of «never»;
+- «every number can be rebuilt» is tied to the release of 1 October 2026 and `data/sources.json`;
+- process notes the reader cannot check were removed (session budget, the internal review file),
+  and a typo inside a quotation, an artefact of the page's markup, was corrected.
 
 ## 10. What was not possible
 

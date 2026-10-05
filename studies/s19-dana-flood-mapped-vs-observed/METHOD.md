@@ -254,8 +254,8 @@ No table has addresses, cadastral references or building rows.
   include stretches and geomorphological zones with no depth grid: if so, our share outside is too
   high.
 - **The preferential flow zone.** It is defined from the 100-year flood (RDPH art. 9.2), so a
-  building in it is normally inside the 100-year hazard zone. The omission changes the split
-  between zones, not the count outside every zone.
+  building in it is normally inside the 100-year hazard zone. If so, the omission changes the split
+  between zones and not the count outside every zone; we could not check it.
 - **Resolution.** The CNIG distributes the same hazard maps as 1 m GeoTIFFs; the WMS is resampled
   to 2 m. Not tested.
 - **Press and institutional counts.** Counts of damaged dwellings (insurance claims, building
@@ -278,7 +278,10 @@ No table has addresses, cadastral references or building rows.
    that the frozen primary rule (footprint on the depth grid, 53.1%) is not the most favourable to
    the maps: the footprint touching the 2-ha envelope gives 51.1% (Copernicus) and 38.9%
    (Generalitat footprint). The reference figure is now that rule, given for both extents, and the
-   abstract leads with the range over extents and rules (about 39–66% in dwellings).
+   abstract leads with the range over the two extents and the three rules (about 39–62% in
+   dwellings; up to 66% with the Copernicus product versions, edge buffers and the building's
+   centroid tested against the extent). Until the second review the abstract gave 39–66% for the
+   two extents and three rules, which includes those variants.
 4. **Frozen-plan range.** §1.5 asked for the range over all scenarios of §1.6, which is
    40.8–87.6%. We report it, and we report the range in parts because two scenarios measure
    something else:
@@ -297,3 +300,10 @@ No table has addresses, cadastral references or building rows.
    one-decimal figures in the text round correctly.
 9. **Classifier rerun.** `classify.py` now recomputes when it is newer than its flags, and the
    published flags come from the published code (forced rerun on 2026-10-04).
+10. **Ranges in `summary.json` (second review, 2026-10-05).** `ranges.headline_dwellings` is the
+    headline range (two extents, footprint meets the extent, three rules: 38.9–61.9%);
+    `ranges.with_variants_dwellings` adds the Copernicus product versions, edge buffers, the union
+    and the centroid tested against the extent (38.9–66.0%). The former `reported_dwellings`,
+    which also includes the 0.5 and 5 ha envelopes (38.9–70.1%), is now
+    `all_envelope_thresholds_dwellings`. No flag or count changed; the values were derived from
+    `sensitivity.csv`, as `analyse.py` now does.

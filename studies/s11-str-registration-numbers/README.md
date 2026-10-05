@@ -13,7 +13,7 @@ licence field of 227,224 Airbnb listings in Inside Airbnb snapshots (CC BY 4.0) 
 before and just after 20 May, in Barcelona, Girona, València, Málaga, Sevilla, Madrid and
 New York City. We then matched every well-formed number against the open registries of
 Catalonia, the Comunitat Valenciana and Andalucía and against New York's Local Law 18
-registry.
+registry file of 25 June 2025, a year older than the listings.
 
 **In June 2026, in the five Spanish areas with an open registry, 2,066 of 31,222 active
 listings that showed a well-formed tourist-dwelling number (6.6%, 95% CI 6.3–6.9%) showed
@@ -30,7 +30,7 @@ listings for a private room, while Catalan law requires tourist dwellings to be 
 This is an observation about listing type and licence type, not about any host: the room type
 is the host's own description, and a room may be let under another kind of licence. The wrong-form category was defined after an independent review, when the rules
 had already been frozen. Under the frozen rules the not-found figures were 2,623 of 31,222
-(8.4%) and, in Barcelona, 810 of 6,080 (13.3%). The rates did not change across 20 May
+(8.4%) and, in Barcelona, 810 of 6,080 (13.3%). The rates were similar across 20 May
 (March: 1,736 of 27,230, 6.4%; 2,211, 8.1%, under the frozen rules).
 
 What changed was the labelling. Across the six Spanish areas, the active listings whose only

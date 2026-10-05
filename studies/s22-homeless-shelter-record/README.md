@@ -1,5 +1,5 @@
 # S22 — Spain's 2024 record in centres for homeless people: what the +57.5% measures
-*EasyxLab · study S22 · INE survey of centres 2012–2024, protocol for the 2026 edition written 4 October 2026 · status: working draft, not peer-reviewed*
+*EasyxLab · study S22 · INE survey of centres 2012–2024, protocol for the 2026 edition registered 4 October 2026 · status: working draft, not peer-reviewed*
 
 **Paper:** [easybyte.es/lab/studies/s22/paper/](https://easybyte.es/lab/studies/s22/paper/) · [PDF](https://easybyte.es/lab/studies/s22/paper.pdf)
 

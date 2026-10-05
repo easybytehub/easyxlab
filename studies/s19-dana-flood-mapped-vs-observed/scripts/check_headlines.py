@@ -97,9 +97,15 @@ need("matched, envelope footprint rule", f"{pct(M['envfp']['copernicus_share_out
 same("matched gva = all gva", M["envfp"]["gva_dwellings"], int(g["n_in_extent"]))
 
 # ---------------------------------------------------------------- rules and ranges
+two = [(v, "fp", zr) for v in ("all", "gva_footprint") for zr in ("envfp", "envct", "fp")]
+vals = [share(*k) for k in two]
+same("headline range = summary.json", [round(min(vals), 6), round(max(vals), 6)], S["ranges"]["headline_dwellings"])
+need("headline range, two extents and three rules, whole percent", f"{100 * min(vals):.0f}–{100 * max(vals):.0f}%")
 main2 = [(v, er, zr) for v in COP + ["gva_footprint", "all_or_gva"] for er in ("fp", "ct") for zr in ("envfp", "envct", "fp")]
-vals = [share(*k) for k in main2]
-need("headline range (2-ha envelope), whole percent", f"{100 * min(vals):.0f}–{100 * max(vals):.0f}%")
+vals2 = [share(*k) for k in main2]
+same("range with variants = summary.json", [round(min(vals2), 6), round(max(vals2), 6)], S["ranges"]["with_variants_dwellings"])
+same("variants do not lower the bottom of the headline range", f"{100 * min(vals2):.0f}", f"{100 * min(vals):.0f}")
+need("top with product versions, edge buffers and centroid at the extent, whole percent", f"up to {100 * max(vals2):.0f}%")
 allthr = [(v, er, zr) for v in COP + ["gva_footprint", "all_or_gva"] for er in ("fp", "ct")
           for zr in ("envfp", "envct", "fp", "env05fp", "env5fp", "env05ct", "env5ct")]
 vals = [share(*k) for k in allthr]

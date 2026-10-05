@@ -180,7 +180,7 @@ We also read the OpenAlex records of seven works found this way.
 
 - **The art. 32 report on the ministry's main site.** We checked the electronic office that the
   law names, but the main site (`https://www.mivau.gob.es/`) answers 403 to our client, and we
-  did not check it by hand. A report published only there cannot be excluded.
+  did not check it any other way. A report published only there cannot be excluded.
 - **The OECD Economic Survey of Spain 2025.** The press quotes it as putting social rent at
   «tan solo el 3% del parque inmobiliario». We could not open it (`www.oecd.org`, 403).
 - **Regional agencies' own figures cannot be summed.**

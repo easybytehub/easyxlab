@@ -12,9 +12,11 @@ the site and "actualizada periódicamente, como mínimo una vez al año" (Royal 
 1112/2018, art. 15.1), HTTPS with HSTS, and a stated policy towards AI crawlers. We checked
 them on the websites of 6,648 of Spain's 8,132 municipalities (81.8% of municipalities, 98.9%
 of the population) and on the 19 regional governments, 52 provincial and island councils,
-50 public universities and 22 ministries. Of 6,730 entities whose home page we could measure,
-5,245 (77.9%) returned their own home page; 179 municipal URLs led to something that is not
-the council's site (hijacked or parked domains, hosting panels). Of the 5,245, 5,130 (97.8%)
+50 public universities and 22 ministries. Of 6,272 entities whose home page we could measure,
+5,245 (83.6%) returned their own home page (another 458 of the 6,730 in scope were not
+measurable because of their `robots.txt`); 179 municipal URLs led to something that is not
+the council's site (expired or re-registered domains now used by others, parked domains,
+hosting panels). Of the 5,245, 5,130 (97.8%)
 served the home page over HTTPS when asked, but **1,688 of those 5,130 (32.9%) send HSTS**.
 **Of 5,570 entities whose server answered for `/.well-known/security.txt`, 12 serve a file, 8
 have its required fields and 4 are strictly valid under RFC 9116**, while 329 (5.9%) answer
@@ -72,7 +74,7 @@ Each cell is a percentage of the denominator given below it in `data/summary_by_
 
 | | municipalities | prov. councils | universities | regional gov. | ministries |
 |---|---|---|---|---|---|
-| home page reachable (of measured) | 77.7% of 6,588 | 84.6% of 52 | 92.0% of 50 | 88.9% of 18 | 81.8% of 22 |
+| home page reachable (of entities in scope) | 77.7% of 6,588 | 84.6% of 52 | 92.0% of 50 | 88.9% of 18 | 81.8% of 22 |
 | served over HTTPS (of reachable) | 97.8% of 5,121 | 100% of 44 | 100% of 46 | 100% of 16 | 100% of 18 |
 | HSTS (of served over HTTPS) | 32.3% of 5,006 | 56.8% of 44 | 54.3% of 46 | 43.8% of 16 | 77.8% of 18 |
 | security.txt with the required fields (entities) | 7 | 1 | 0 | 0 | 0 |
@@ -104,8 +106,8 @@ are left out ([the paper](https://easybyte.es/lab/studies/s8/paper/) §6.4).
 The study was run by AI agents: source search, code, scan, re-checks, analysis and writing. An
 independent AI reviewer then checked it adversarially — recomputing the figures, re-fetching a
 sample of sites and checking every quotation — and its findings were addressed in this version
-([the paper](https://easybyte.es/lab/studies/s8/paper/) §11); the reviewer has not yet re-read the corrected version. No administration was
-contacted.
+([the paper](https://easybyte.es/lab/studies/s8/paper/) §11), and `scripts/check_numbers.py` re-checks every quoted figure against the data. No
+administration was contacted.
 
 ## Licence
 

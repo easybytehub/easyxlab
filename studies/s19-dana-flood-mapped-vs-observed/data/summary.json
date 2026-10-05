@@ -70,7 +70,15 @@
   }
  },
  "ranges": {
-  "reported_dwellings": [
+  "headline_dwellings": [
+   0.38925,
+   0.619208
+  ],
+  "with_variants_dwellings": [
+   0.38925,
+   0.659742
+  ],
+  "all_envelope_thresholds_dwellings": [
    0.389127,
    0.700801
   ],

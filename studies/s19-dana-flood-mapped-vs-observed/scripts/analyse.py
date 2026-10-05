@@ -334,6 +334,11 @@ def main():
         return [min(vals), max(vals)]
     main_keys = [(v, er, zr) for v in COP + ["gva_footprint", "all_or_gva"] for er in ("fp", "ct")
                  for zr in ZR if zr != "ct"]
+    # the headline: the two extents (footprint meets the extent) and the three rules
+    headline_keys = [(v, "fp", zr) for v in ("all", "gva_footprint") for zr in ("envfp", "envct", "fp")]
+    # plus the Copernicus product versions, edge buffers, the union and the centroid tested against the extent
+    variant_keys = [(v, er, zr) for v in COP + ["gva_footprint", "all_or_gva"] for er in ("fp", "ct")
+                    for zr in ("envfp", "envct", "fp")]
     frozen_keys = [(v, er, zr) for v in VARIANTS if v not in DERIVED for er in ("fp", "ct") for zr in FROZEN_ZR]
 
     # ------------------------------------------------------------------ leave one out (rounded)
@@ -380,7 +385,8 @@ def main():
                           "share_outside_all_zones": dw[("gva_footprint", "fp", "envfp")][6],
                           "both": F(("gt", "both"), "d"), "either": F(("gt", "either"), "d")}
     S["matched_comparison"] = matched
-    S["ranges"] = {"reported_dwellings": rng(main_keys), "frozen_plan_dwellings": rng(frozen_keys),
+    S["ranges"] = {"headline_dwellings": rng(headline_keys), "with_variants_dwellings": rng(variant_keys),
+                   "all_envelope_thresholds_dwellings": rng(main_keys), "frozen_plan_dwellings": rng(frozen_keys),
                    "copernicus_envfp": rng([(v, er, "envfp") for v in COP for er in ("fp", "ct")]),
                    "copernicus_envct": rng([(v, er, "envct") for v in COP for er in ("fp", "ct")]),
                    "copernicus_grid_fp": rng([(v, er, "fp") for v in COP for er in ("fp", "ct")]),

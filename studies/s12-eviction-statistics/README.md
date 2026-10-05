@@ -29,8 +29,9 @@ district: 315 districts on 1 July 2025, 16 on 1 October and 100 on 31 December, 
 - **Not in the published statistics.** The CGPJ's methodology page and release notes do not mention
   the change.
 
-We registered a protocol on 4 October 2026, before the CGPJ's next release. It tests whether the fall
-follows this change district phase by phase. The study measures the effect of a documented change in
+We registered a protocol on 4 October 2026, before the CGPJ's next release. The in-sample tests were
+designed after the national Q1-2026 figure was public; only the Q2-2026 test is blind. The protocol
+tests whether the fall follows this change district phase by phase. The study measures the effect of a documented change in
 who reports the series.
 
 **The data neither establish that the record low is an artefact of that change nor rule it out.**

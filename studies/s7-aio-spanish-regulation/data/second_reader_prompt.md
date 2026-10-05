@@ -24,5 +24,5 @@ For each item decide ONE verdict about what the answer says on that specific fac
 - not_stated: does not state the rule (talks around it, gives only other regimes or general guidance).
 Judge only the specific fact. Rounding is fine. Estimates clearly labelled as estimates ("previsto", "estimado") are not errors.
 
-Write /Users/jmiralles/Documents/EasyByte/easybyte-lab/studies/s7-aio-spanish-regulation/data/second_reader.csv (UTF-8, header) with columns: item,second_reader_verdict,note — one row per item, note = at most 20 words in English quoting the decisive phrase. Write it with a short Python script using the csv module. Do not create any other file. Reply only with the count of each verdict.
+Write data/second_reader.csv (in the study folder) (UTF-8, header) with columns: item,second_reader_verdict,note — one row per item, note = at most 20 words in English quoting the decisive phrase. Write it with a short Python script using the csv module. Do not create any other file. Reply only with the count of each verdict.
 ```

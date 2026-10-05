@@ -3,7 +3,7 @@
 ## 1. Research questions
 
 1. What fraction of the AI-generated images uploaded to Wikimedia Commons carries a machine-readable AI mark? Of which kind (C2PA manifest, IPTC `DigitalSourceType` in XMP, Chinese `TC260:AIGC` label)? Is the C2PA signature valid, broken, or absent?
-2. Did that change once Art. 50(2) of the EU AI Act became applicable (2 August 2026)? We compare uploads of January–July 2026 with August–September 2026, and with 2024–2025.
+2. Did that change once Art. 50(2) of the EU AI Act began to apply to new systems (2 August 2026)? Under Art. 111(4), added by Regulation (EU) 2026/1744, systems already on the market before that date have until 2 December 2026. We compare uploads of January–July 2026 with August–September 2026, and with 2024–2025.
 3. How does it vary by the generator declared on Commons (categories) and by C2PA signer?
 4. When a C2PA manifest fails validation, is the failure real (an expired or revoked certificate, a file modified after signing) or a consequence of the validator's configuration (trust lists, EKU list) or library version?
 

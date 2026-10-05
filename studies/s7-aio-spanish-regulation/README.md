@@ -9,7 +9,8 @@ We asked Google, from Spain and in Spanish, 101 questions about 28 Spanish rules
 (minimum wage, contributions, pensions, birth leave, consumer, traffic, housing and invoicing rules) and one
 announced change that never happened. Each AI Overview (AIO) and AI Mode answer was judged against the
 consolidated law in the Boletín Oficial del Estado as in force on 2 October 2026, not against the pages it cites.
-There were three readings that evening (606 responses), collected through a commercial SERP API. One rule, the 2 %
+There were three readings on 2 October 2026 in UTC (19:32, 23:05 and 23:42; the last two after midnight in
+Spain), 606 responses, collected through a commercial SERP API. One rule, the 2 %
 cap on rent updates, was re-imposed on 1 October and repealed on 2 October; we report it apart as a case study.
 On the other 27, an AIO appeared for 77–86 % of the queries and AI Mode always answered.
 
@@ -37,8 +38,8 @@ Court annulment and a decree-law amendment published months earlier, plus a tran
 | AI Mode | 291 | 267 | 4 | 7 | 2 | 11 | 13 (4.5 %, 2.6–7.5 %) |
 
 An earlier draft reported 4 of 240 and 0 of 291. It was wrong because three fact sheets missed later changes in the
-law and one exclusion rested on a misread repeal ([the paper](https://easybyte.es/lab/studies/s7/paper/) §3 and §5.2; `private/REVIEW.md` is the adversarial
-review that found it).
+law and one exclusion rested on a misread repeal ([the paper](https://easybyte.es/lab/studies/s7/paper/) §3 and §5.2). An adversarial review by a separate AI
+agent found it; the review is kept in the lab's private records, and its fixes are listed in [the paper](https://easybyte.es/lab/studies/s7/paper/) §3 and §9.
 
 ## Contents
 
@@ -63,7 +64,8 @@ review that found it).
 The study was run by AI agents: choosing and verifying the facts, writing the queries, collecting, writing the
 regex rules, re-reading flagged answers, typing cited domains and drafting. The second reader was a separate AI agent
 (a Claude Sonnet model), blind to all labels. An independent AI agent reviewed the first draft adversarially
-(`private/REVIEW.md`); its findings were applied in this version ([the paper](https://easybyte.es/lab/studies/s7/paper/) §9).
+(the review is kept in the lab's private records); its findings were applied in this version ([the paper](https://easybyte.es/lab/studies/s7/paper/) §9), and
+`scripts/check_headline.py` re-checks every headline number against `data/`.
 
 ## Competing interests
 

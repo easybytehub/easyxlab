@@ -13,7 +13,7 @@ housing entity CASA 47, INE, Eurostat, the OECD, Housing Europe, the Banco de Es
 Commission and the Council. We checked all 46 quotations literally against the downloaded
 sources and traced each figure as far back as the documents allow.
 
-**The counts come from two Ministry surveys.** Every count of Spain's public stock comes from
+**The counts come from two Ministry surveys.** Every national count of Spain's public stock comes from
 the Ministry's Observatorio de Vivienda y Suelo, which surveyed the dwellings that regions and
 municipalities own and let:
 - **290,000**: the 2019 survey. The 2023 housing law, the OECD and the Banco de España reuse it.
@@ -22,10 +22,11 @@ municipalities own and let:
 
 **Most shares follow from the denominator, the year or the concept.**
 - **Denominator.** 318,000 is 1.7% of households and 1.2% of all dwellings.
-- **Concept: 2.5%, 3.3%, 3.4% and 3.5%.** These are not counts of the public stock. Each equals a
+- **Concept: 2.5%, 3.3%, 3.4% and 3.5%.** These do not match the counts. Each equals a
   year of INE's living-conditions survey: the share of households that pay a rent below the
   market price, whoever the landlord (2.5% in every year 2012–2016; 3.3% in 2023; 3.4% in 2024;
-  3.5% in 2025). The Ministry's 2024 bulletin says it uses this survey for Spain. The Commission
+  3.5% in 2025). Only the Ministry's 2024 bulletin says it uses this survey for Spain; for the
+  other documents the match is in the values. The Commission
   (2026) and Housing Europe (2025) describe the same values as protected housing.
 
 **The EU averages.**
@@ -54,8 +55,9 @@ municipalities own and let:
   9.3% lower.
 - **Ceuta and Melilla** appear in both the regional table and the municipal sample. If counted
   twice, they add about 3,800 dwellings (1.2% of 318,000).
-- **The municipal half of the count is extrapolated by population.** 181 municipalities have
-  figures (61,207 dwellings); 119 of those figures are carried over from the 2019 survey.
+- **About a fifth of the count is extrapolated by population.** The municipal component
+  (121,000) scales to Spain's population the figures of 181 municipalities (61,207 dwellings; 119
+  of those figures are carried over from the 2019 survey), so about half of it is extrapolated.
 
 **The State's own stock.** Article 32 of the housing law (in force since 26 May 2023) requires
 the State to inventory the public housing it and its agencies own. It also requires an annual

@@ -21,7 +21,7 @@ anti-bot wall, a `robots.txt` exclusion, an HTTP error or a network failure. For
 we observed an Incapsula wall on 20 rows and, on its asset host, XHTML files titled "MiCA Whitepaper Inline XBRL"
 with no XBRL facts on 18 rows; the same title also appears on Inline XBRL files from other hosts.
 
-Of the rows reached, **110 of 143 rows** point to a file that validates with zero errors (108 of 141 distinct
+Of the rows that reach the format, **110 of 143 rows** point to a file that validates with zero errors (108 of 141 distinct
 files); of the 33 others, 16 fail only ESMA assertions and 17 have XBRL or Inline XBRL errors. Identifiers agree
 with the register: the register's LEI is in the file in 103 of 103 checkable rows, and a register DTI in 134 of
 136. Production is concentrated: one data provider, which the register names as offeror or person seeking
@@ -36,8 +36,9 @@ either. This study therefore measures **availability of the machine-readable ver
 compliance; it cannot see what was notified to national authorities.
 
 **Prior work.** A public dashboard classifies the register's links by URL shape only, and a linter checks Annex I
-content on a small convenience sample; neither fetches and validates the published Inline XBRL files. This is, to our
-knowledge, the first census of the format at the registered URLs ([the paper](https://easybyte.es/lab/studies/s15/paper/) §2).
+content on a small convenience sample; neither fetches and validates the published Inline XBRL files. We found no census of
+the format at the registered URLs (CCRI's MiCA-Monitor, a JavaScript application, could not be inspected)
+([the paper](https://easybyte.es/lab/studies/s15/paper/) §2).
 
 ## Contents
 

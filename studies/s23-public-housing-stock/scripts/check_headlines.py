@@ -99,6 +99,14 @@ need("regional growth recomputed", f"{S['regional_rental_growth_pct']}%")
 need("municipal observed", n(S["mun_rental_observed"]))
 need("municipalities with data", f"{S['mun_with_data']} municipalities")
 need("municipal scaled", n(S["mun_scaled_by_population"]), ("paper.md",))
+# the extrapolated part: scaled minus observed, about half of the municipal component and about a
+# fifth of the national count (on either base)
+for scaled in (S["mun_scaled_by_population"], S["mun_scaled_bulletin_base"]):
+    ext = scaled - S["mun_rental_observed"]
+    if not (0.45 <= ext / scaled <= 0.55 and 0.17 <= ext / 318_000 <= 0.23):
+        bad.append(f"extrapolated: {ext / scaled:.1%} of the municipal component, {ext / 318_000:.1%} of 318,000")
+need("extrapolated part (README)", "About a fifth of the count is extrapolated by population", ("README.md",))
+need("extrapolated part (paper)", "About a fifth of the national count, half of its municipal component", ("paper.md",))
 need("Ceuta and Melilla", n(S["ceuta_melilla_in_regional_table"]), ("paper.md",))
 need("PPP dwellings", n(S["regional_rental_ppp_2023"]))
 

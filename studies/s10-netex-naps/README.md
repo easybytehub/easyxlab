@@ -3,8 +3,6 @@
 
 **Paper:** [easybyte.es/lab/studies/s10/paper/](https://easybyte.es/lab/studies/s10/paper/) · [PDF](https://easybyte.es/lab/studies/s10/paper.pdf)
 
-*EasyxLab · a research lab by EasyByte*
-
 ## Abstract
 
 **The deadlines.** Under the MMTIS regulation (2017/1926 as amended by 2024/490):
@@ -12,11 +10,13 @@
 - the public-transport real-time deadline on the comprehensive TEN-T passed on 1 December 2025;
 - the 1 December 2026 date covers parking and vehicle sharing.
 
-The TEL TSI, Regulation (EU) 2026/253, makes CEN/TS 16614-4:2025 (EPIP) mandatory for rail passenger
-timetables, with NeTEx milestones in 2027 and 2028.
+The TEL TSI, Implementing Regulation (EU) 2026/253 of 6 February 2026, names CEN/TS 16614-4:2025
+(EPIP) for rail passenger timetables; its Appendix G sets the timetable milestone at 14 December 2025
+(passed) and later NeTEx milestones in 2027 and 2028.
 
-**What we measured.** On 2026-10-02 we censused 284 NeTEx feeds (639 files) on five national access
-points (France, Norway, the Netherlands, Belgium, Luxembourg) and validated 41 of 44 sampled datasets.
+**What we measured.** On 2026-10-02 we censused 266 NeTEx feeds (621 files) on five national access
+points (France, Norway, the Netherlands, Belgium, Luxembourg), listed 18 more offers in Germany's Mobilithek metadata,
+and validated 41 of 44 sampled datasets.
 
 **XSD results for the 34 timetable datasets:**
 - 8 are fully valid, all French;
@@ -24,9 +24,11 @@ points (France, Norway, the Netherlands, Belgium, Luxembourg) and validated 41 o
 - 16 are invalid and 4 were not checked.
 
 Two schema details explain much of this:
-- NeTEx 2.0.0 rejects 11 French timetables, 9 of which pass 1.3.2. The reason is that passing times
-  now need an `id` and a stop-point reference.
-- Ten of eleven Dutch datasets fail 2.0.0 only on references to objects outside the document.
+- NeTEx 2.0.0 rejects 11 French timetables; 7 of them are fully valid against 1.3.2 and 2 more on the part checked.
+  The reason is that passing times now need an `id` and a stop-point reference.
+- Ten of eleven Dutch datasets fail 2.0.0 only on references that do not resolve within the document,
+  most of them to the national stop registry and other shared objects (not checked against those
+  registries).
 
 **EPIP.** No dataset passes the archived 2021 EPIP XSD (0 of 36). That XSD predates the 2025
 standard, so this says little about conformance to it.
@@ -91,3 +93,6 @@ NeTEx XSD: GPL-3.0. Profile quotes are short citations of Entur's Nordic NeTEx P
 Profil NeTEx France.
 
 Code: Apache-2.0. Data and text: CC BY 4.0.
+
+---
+EasyxLab · a research lab by [EasyByte](https://easybyte.es)
