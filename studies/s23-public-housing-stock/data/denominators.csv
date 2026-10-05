@@ -1,0 +1,15 @@
+denominator,year,value,source
+"MIVAU stock estimate, all dwellings, 2019",2019,26463070,cdn.mivau.gob.es VDP002_01.csv (sum of 51 provinces)
+"MIVAU stock estimate, principal dwellings, 2019",2019,18466644,cdn.mivau.gob.es VDP002_01.csv (sum of 51 provinces)
+"MIVAU stock estimate, all dwellings, 2021",2021,26719905,cdn.mivau.gob.es VDP002_01.csv (sum of 51 provinces)
+"MIVAU stock estimate, principal dwellings, 2021",2021,18661493,cdn.mivau.gob.es VDP002_01.csv (sum of 51 provinces)
+"MIVAU stock estimate, all dwellings, 2023",2023,26902443,cdn.mivau.gob.es VDP002_01.csv (sum of 51 provinces)
+"MIVAU stock estimate, principal dwellings, 2023",2023,19165829,cdn.mivau.gob.es VDP002_01.csv (sum of 51 provinces)
+"MIVAU stock estimate, all dwellings, 2024",2024,27004765,cdn.mivau.gob.es VDP002_01.csv (sum of 51 provinces)
+"MIVAU stock estimate, principal dwellings, 2024",2024,19278057,cdn.mivau.gob.es VDP002_01.csv (sum of 51 provinces)
+"MIVAU stock estimate, all dwellings, 2025",2025,27099556,cdn.mivau.gob.es VDP002_01.csv (sum of 51 provinces)
+"MIVAU stock estimate, principal dwellings, 2025",2025,19571428,cdn.mivau.gob.es VDP002_01.csv (sum of 51 provinces)
+"Households, Census 2021 (as used by OVS 2024 and Housing Europe 2025)",2021,18539223,"Housing Europe 2025 Spain profile, total of the tenure table"
+"Households, as stated in Ley 12/2023 and OVS 2020",not stated,18600000,"«18,6 millones de hogares»"
+"All dwellings implied by OECD PH4.2 for Spain (290,000 / 1.1308%)",2019,25645100,OECD xlsx
+"All dwellings, Housing Europe 2021 Spain profile («2019 data»)",2019,25793323,Housing Europe 2021

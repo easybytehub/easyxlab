@@ -1,0 +1,410 @@
+region_heading,municipality,data_from_2019_survey,population_2023,rental_public,rental_ppp,rental,rent_to_buy,for_sale,other,total,has_data
+ANDALUCÍA,Adra,,25195,,,,,,,,
+ANDALUCÍA,Almería,yes,200578,,,62,18,10,0,90,yes
+ANDALUCÍA,"Ejido, El",,89975,0,0,0,0,0,0,0,yes
+ANDALUCÍA,Níjar,yes,32858,,,0,0,0,6,6,yes
+ANDALUCÍA,Roquetas de Mar,,106510,,,,,,,,
+ANDALUCÍA,Vícar,,28245,,,,,,,,
+ANDALUCÍA,Algeciras,yes,123639,,,0,32,0,0,32,yes
+ANDALUCÍA,Arcos de la Frontera,,30953,,,,,,,,
+ANDALUCÍA,Barbate,,22811,,,,,,,,
+ANDALUCÍA,"Barrios, Los",,24219,,,,,,,,
+ANDALUCÍA,Cádiz,,111811,1962,0,1962,138,0,0,2100,yes
+ANDALUCÍA,Chiclana de la Frontera,,88709,1061,101,1162,0,0,0,1162,yes
+ANDALUCÍA,Jerez de la Frontera,,213231,1678,5,1683,257,0,68,2008,yes
+ANDALUCÍA,"Línea de la Concepción, La",yes,63773,,,177,38,0,0,215,yes
+ANDALUCÍA,"Puerto de Santa María, El",yes,89813,,,304,60,0,5,369,yes
+ANDALUCÍA,Puerto Real,yes,42069,,,66,0,0,25,91,yes
+ANDALUCÍA,Rota,yes,29675,,,66,90,0,1,157,yes
+ANDALUCÍA,San Fernando,,93927,321,0,321,0,0,0,321,yes
+ANDALUCÍA,San Roque,yes,33646,,,314,63,0,38,415,yes
+ANDALUCÍA,Sanlúcar de Barrameda,yes,69805,,,196,0,0,0,196,yes
+ANDALUCÍA,Cabra,,20070,,,,,,,,
+ANDALUCÍA,Córdoba,,323763,965,0,965,2,0,0,967,yes
+ANDALUCÍA,Lucena,yes,42813,,,108,50,1,0,159,yes
+ANDALUCÍA,Montilla,yes,22298,,,24,0,0,0,24,yes
+ANDALUCÍA,Palma del Río,yes,20688,,,194,0,0,11,205,yes
+ANDALUCÍA,Priego de Córdoba,yes,22003,,,24,0,0,6,30,yes
+ANDALUCÍA,Puente Genil,,29781,,,,,,,,
+ANDALUCÍA,Almuñécar,,27305,,,,,,,,
+ANDALUCÍA,Armilla,yes,25059,,,50,0,0,0,50,yes
+ANDALUCÍA,Baza,yes,20579,,,70,0,0,0,70,yes
+ANDALUCÍA,"Gabias, Las",yes,22829,,,0,0,0,2,2,yes
+ANDALUCÍA,Granada,yes,230595,,,14,10,23,0,47,yes
+ANDALUCÍA,Loja,yes,20580,,,19,7,0,0,26,yes
+ANDALUCÍA,Maracena,,22275,,,,,,,,
+ANDALUCÍA,Motril,,58939,,,,,,,,
+ANDALUCÍA,Aljaraque,,22259,,,,,,,,
+ANDALUCÍA,Almonte,,25233,,,,,,,,
+ANDALUCÍA,Ayamonte,yes,21645,,,130,2,0,0,132,yes
+ANDALUCÍA,Huelva,yes,142532,,,375,243,0,0,618,yes
+ANDALUCÍA,Isla Cristina,,21603,,,,,,,,
+ANDALUCÍA,Lepe,,28813,,,,,,,,
+ANDALUCÍA,Moguer,,22956,,,,,,,,
+ANDALUCÍA,Alcalá la Real,yes,21587,,,66,0,3,0,69,yes
+ANDALUCÍA,Andújar,,35788,,,,,,,,
+ANDALUCÍA,Jaén,yes,111888,,,172,20,2,0,194,yes
+ANDALUCÍA,Linares,,55096,,,,,,,,
+ANDALUCÍA,Martos,,24363,,,,,,,,
+ANDALUCÍA,Úbeda,,33810,,,,,,,,
+ANDALUCÍA,Alhaurín de la Torre,,43674,,,,,,,,
+ANDALUCÍA,Alhaurín el Grande,yes,26879,,,21,82,0,0,103,yes
+ANDALUCÍA,Antequera,,41178,,,,,,,,
+ANDALUCÍA,Benalmádena,yes,75801,,,200,0,0,0,200,yes
+ANDALUCÍA,Cártama,,28412,,,,,,,,
+ANDALUCÍA,Coín,,25023,,,,,,,,
+ANDALUCÍA,Estepona,,76975,0,0,0,0,0,0,0,yes
+ANDALUCÍA,Fuengirola,,85598,,,,,,,,
+ANDALUCÍA,Málaga,,586384,3781,530,4311,182,0,0,4493,yes
+ANDALUCÍA,Marbella,yes,156295,,,0,0,0,419,419,yes
+ANDALUCÍA,Mijas,,91691,11,0,11,0,0,0,11,yes
+ANDALUCÍA,Nerja,yes,21913,,,0,0,1,0,1,yes
+ANDALUCÍA,Rincón de la Victoria,,51300,,,,,,,,
+ANDALUCÍA,Ronda,,33329,,,,,,,,
+ANDALUCÍA,Torremolinos,,70434,,,,,,,,
+ANDALUCÍA,Vélez-Málaga,,85377,,,,,,,,
+ANDALUCÍA,Alcalá de Guadaíra,,76547,,,,,,,,
+ANDALUCÍA,Bormujos,yes,22780,,,25,0,2,0,27,yes
+ANDALUCÍA,Camas,yes,28157,,,9,0,0,1,10,yes
+ANDALUCÍA,Carmona,,29551,,,,,,,,
+ANDALUCÍA,Coria del Río,,30887,,,,,,,,
+ANDALUCÍA,Dos Hermanas,,138981,650,0,650,0,235,0,885,yes
+ANDALUCÍA,Écija,,39530,,,,,,,,
+ANDALUCÍA,Lebrija,yes,27727,,,974,13,683,0,1670,yes
+ANDALUCÍA,Mairena del Alcor,,24125,,,,,,,,
+ANDALUCÍA,Mairena del Aljarafe,,47541,,,,,,,,
+ANDALUCÍA,Morón de la Frontera,yes,27229,,,30,0,0,0,30,yes
+ANDALUCÍA,"Palacios y Villafranca, Los",yes,38698,,,99,0,546,0,645,yes
+ANDALUCÍA,"Rinconada, La",yes,40162,,,557,10,30,0,597,yes
+ANDALUCÍA,San Juan de Aznalfarache,,22472,,,,,,,,
+ANDALUCÍA,Sevilla,,684025,2144,0,2144,722,8,55,2929,yes
+ANDALUCÍA,Tomares,,25374,,,,,,,,
+ANDALUCÍA,Utrera,,51718,,,,,,,,
+ARAGÓN,Huesca,yes,54136,,,45,0,0,16,61,yes
+ARAGÓN,Teruel,,36267,,,,,,,,
+ARAGÓN,Zaragoza,yes,682513,,,2258,96,29,0,2383,yes
+ASTURIAS,Avilés,,75518,113,0,113,0,0,0,113,yes
+ASTURIAS,Castrillón,yes,22103,,,10,0,0,0,10,yes
+ASTURIAS,Gijón,,268313,199,0,199,0,0,31,230,yes
+ASTURIAS,Langreo,yes,37978,,,71,0,0,2,73,yes
+ASTURIAS,Mieres,yes,36195,,,27,0,0,10,37,yes
+ASTURIAS,Oviedo,yes,217584,,,7,0,0,0,7,yes
+ASTURIAS,Siero,,52194,0,0,0,0,0,0,0,yes
+BALEARS (ILLES),Alcúdia,,21322,,,,,,,,
+BALEARS (ILLES),Calvià,yes,53162,,,12,0,0,0,12,yes
+BALEARS (ILLES),Ciutadella de Menorca,,31443,,,,,,,,
+BALEARS (ILLES),Eivissa,,51996,14,0,14,0,0,0,14,yes
+BALEARS (ILLES),Inca,,34577,,,,,,,,
+BALEARS (ILLES),Llucmajor,,39040,,,,,,,,
+BALEARS (ILLES),Manacor,,46395,,,,,,,,
+BALEARS (ILLES),Maó,yes,29902,,,1,0,0,3,4,yes
+BALEARS (ILLES),Marratxí,,39440,,,,,,,,
+BALEARS (ILLES),Palma,,423350,394,69,463,0,0,0,463,yes
+BALEARS (ILLES),Sant Antoni de Portmany,,28237,,,,,,,,
+BALEARS (ILLES),Sant Josep de sa Talaia,,29506,,,,,,,,
+BALEARS (ILLES),Santa Eulària des Riu,,41228,,,,,,,,
+CANARIAS,Agüimes,,32643,,,,,,,,
+CANARIAS,Arrecife,yes,64826,,,119,0,119,0,238,yes
+CANARIAS,Arucas,,38601,,,,,,,,
+CANARIAS,Gáldar,yes,24678,,,33,0,0,0,33,yes
+CANARIAS,Ingenio,,32354,,,,,,,,
+CANARIAS,Mogán,,20845,,,,,,,,
+CANARIAS,"Oliva, La",,29099,,,,,,,,
+CANARIAS,Pájara,,21271,,,,,,,,
+CANARIAS,"Palmas de Gran Canaria, Las",yes,378027,,,81,6,0,0,87,yes
+CANARIAS,Puerto del Rosario,yes,43390,,,18,0,0,0,18,yes
+CANARIAS,San Bartolomé de Tirajana,yes,53912,,,10,2,0,0,12,yes
+CANARIAS,Santa Lucía de Tirajana,,75677,,,,,,,,
+CANARIAS,Teguise,,23881,,,,,,,,
+CANARIAS,Telde,yes,102487,,,0,19,0,0,19,yes
+CANARIAS,Tías,,21433,,,,,,,,
+CANARIAS,Adeje,,50167,,,,,,,,
+CANARIAS,Arona,,85249,,,,,,,,
+CANARIAS,Candelaria,,28694,,,,,,,,
+CANARIAS,Granadilla de Abona,,54942,,,,,,,,
+CANARIAS,Guía de Isora,,22301,,,,,,,,
+CANARIAS,Güímar,,21536,,,,,,,,
+CANARIAS,Icod de los Vinos,,23971,,,,,,,,
+CANARIAS,"Llanos de Aridane, Los",,20189,,,,,,,,
+CANARIAS,"Orotava, La",,42454,,,,,,,,
+CANARIAS,Puerto de la Cruz,,30849,,,,,,,,
+CANARIAS,"Realejos, Los",,37207,,,,,,,,
+CANARIAS,San Cristóbal de La Laguna,,159034,,,,,,,,
+CANARIAS,San Miguel de Abona,,22606,,,,,,,,
+CANARIAS,Santa Cruz de Tenerife,,209395,,,,,,,,
+CANARIAS,Tacoronte,,24652,,,,,,,,
+CANTABRIA,Camargo,,30349,,,,,,,,
+CANTABRIA,Castro-Urdiales,,33225,,,,,,,,
+CANTABRIA,Piélagos,,26605,,,,,,,,
+CANTABRIA,Santander,yes,172726,,,227,201,0,0,428,yes
+CANTABRIA,Torrelavega,,51361,,,,,,,,
+CASTILLA LA-MANCHA,Albacete,yes,173206,,,431,11,0,15,457,yes
+CASTILLA LA-MANCHA,Almansa,,24282,,,,,,,,
+CASTILLA LA-MANCHA,Hellín,,30516,,,,,,,,
+CASTILLA LA-MANCHA,Villarrobledo,,25189,,,,,,,,
+CASTILLA LA-MANCHA,Alcázar de San Juan,,30928,,,,,,,,
+CASTILLA LA-MANCHA,Ciudad Real,yes,75303,,,4,38,9,0,51,yes
+CASTILLA LA-MANCHA,Puertollano,yes,45127,,,148,0,4,0,152,yes
+CASTILLA LA-MANCHA,Tomelloso,,36304,,,,,,,,
+CASTILLA LA-MANCHA,Valdepeñas,yes,30411,,,1,0,0,6,7,yes
+CASTILLA LA-MANCHA,Cuenca,yes,53512,,,43,31,0,0,74,yes
+CASTILLA LA-MANCHA,Azuqueca de Henares,,35498,,,,,,,,
+CASTILLA LA-MANCHA,Guadalajara,,89010,,,,,,,,
+CASTILLA LA-MANCHA,Illescas,,31327,,,,,,,,
+CASTILLA LA-MANCHA,Seseña,,29271,,,,,,,,
+CASTILLA LA-MANCHA,Talavera de la Reina,,84137,,,,,,,,
+CASTILLA LA-MANCHA,Toledo,,86070,,,,,,,,
+CASTILLA Y LEÓN,Ávila,,57741,7,0,7,0,0,8,15,yes
+CASTILLA Y LEÓN,Aranda de Duero,,33626,,,,,,,,
+CASTILLA Y LEÓN,Burgos,yes,174451,,,81,0,0,0,81,yes
+CASTILLA Y LEÓN,Miranda de Ebro,yes,35639,,,57,0,0,0,57,yes
+CASTILLA Y LEÓN,León,,121281,,,,,,,,
+CASTILLA Y LEÓN,Ponferrada,,62963,,,,,,,,
+CASTILLA Y LEÓN,San Andrés del Rabanedo,,29961,,,,,,,,
+CASTILLA Y LEÓN,Palencia,,76331,53,0,53,0,0,0,53,yes
+CASTILLA Y LEÓN,Salamanca,,143954,205,0,205,17,0,0,222,yes
+CASTILLA Y LEÓN,Segovia,yes,51011,,,159,0,0,0,159,yes
+CASTILLA Y LEÓN,Soria,,40096,,,,,,,,
+CASTILLA Y LEÓN,Arroyo de la Encomienda,,21946,,,,,,,,
+CASTILLA Y LEÓN,Laguna de Duero,,22672,,,,,,,,
+CASTILLA Y LEÓN,Medina del Campo,,20090,,,,,,,,
+CASTILLA Y LEÓN,Valladolid,yes,297459,,,115,17,0,205,337,yes
+CASTILLA Y LEÓN,Zamora,yes,59259,,,3,0,0,0,3,yes
+CATALUÑA,Badalona,yes,225957,,,13,0,0,0,13,yes
+CATALUÑA,Barberà del Vallès,,33322,,,,,,,,
+CATALUÑA,Barcelona,,1660122,8325,195,8520,0,0,1010,9530,yes
+CATALUÑA,Castellar del Vallès,yes,25150,,,64,0,0,0,64,yes
+CATALUÑA,Castelldefels,,68427,,,,,,,,
+CATALUÑA,Cerdanyola del Vallès,yes,57879,,,27,0,0,0,27,yes
+CATALUÑA,Cornellà de Llobregat,,90303,22,0,22,54,0,108,184,yes
+CATALUÑA,Esparreguera,,22442,,,,,,,,
+CATALUÑA,Esplugues de Llobregat,,46921,,,,,,,,
+CATALUÑA,"Franqueses del Vallès, Les",,20522,,,,,,,,
+CATALUÑA,Gavà,,47593,,,,,,,,
+CATALUÑA,Granollers,,63092,31,17,48,0,0,0,48,yes
+CATALUÑA,"Hospitalet de Llobregat, L'",yes,274455,,,252,0,0,0,252,yes
+CATALUÑA,Igualada,yes,41164,,,36,0,0,0,36,yes
+CATALUÑA,Manlleu,,21172,,,,,,,,
+CATALUÑA,Manresa,,78877,197,41,238,0,0,0,238,yes
+CATALUÑA,Martorell,,28760,,,,,,,,
+CATALUÑA,"Masnou, El",,24181,,,,,,,,
+CATALUÑA,Mataró,yes,129870,,,260,0,0,0,260,yes
+CATALUÑA,Molins de Rei,yes,26555,,,6,0,5,5,16,yes
+CATALUÑA,Mollet del Vallès,,51824,1,0,1,0,0,0,1,yes
+CATALUÑA,Montcada i Reixac,yes,36891,,,7,0,0,0,7,yes
+CATALUÑA,Olesa de Montserrat,yes,24446,,,31,0,0,0,31,yes
+CATALUÑA,Pineda de Mar,,28751,,,,,,,,
+CATALUÑA,"Prat de Llobregat, El",yes,65516,,,24,0,0,0,24,yes
+CATALUÑA,Premià de Mar,,28767,,,,,,,,
+CATALUÑA,Ripollet,,39269,,,,,,,,
+CATALUÑA,Rubí,,80044,465,49,514,0,0,0,514,yes
+CATALUÑA,Sabadell,,218300,1029,589,1618,53,0,0,1671,yes
+CATALUÑA,Sant Adrià de Besòs,yes,37925,,,194,7,0,69,270,yes
+CATALUÑA,Sant Andreu de la Barca,yes,26910,,,20,45,0,0,65,yes
+CATALUÑA,Sant Boi de Llobregat,,83919,,,,,,,,
+CATALUÑA,Sant Cugat del Vallès,,97530,604,11,615,0,0,0,615,yes
+CATALUÑA,Sant Feliu de Llobregat,yes,46056,,,2,0,0,0,2,yes
+CATALUÑA,Sant Joan Despí,yes,34568,,,105,9,0,0,114,yes
+CATALUÑA,Sant Pere de Ribes,,31786,,,,,,,,
+CATALUÑA,Sant Quirze del Vallès,,20241,,,,,,,,
+CATALUÑA,Sant Vicenç dels Horts,yes,28406,,,7,0,0,0,7,yes
+CATALUÑA,Santa Coloma de Gramenet,yes,119862,,,155,16,0,0,171,yes
+CATALUÑA,Santa Perpètua de Mogoda,,25928,,,,,,,,
+CATALUÑA,Sitges,,31954,,,,,,,,
+CATALUÑA,Terrassa,yes,225277,,,946,0,0,0,946,yes
+CATALUÑA,Vic,,48364,,,,,,,,
+CATALUÑA,Viladecans,,66677,3,0,3,0,0,0,3,yes
+CATALUÑA,Vilafranca del Penedès,,40714,,,,,,,,
+CATALUÑA,Vilanova i la Geltrú,,68854,,,,,,,,
+CATALUÑA,Vilassar de Mar,,21055,,,,,,,,
+CATALUÑA,Blanes,,41653,,,,,,,,
+CATALUÑA,Figueres,yes,47879,,,37,0,0,11,48,yes
+CATALUÑA,Girona,yes,104320,,,163,0,0,0,163,yes
+CATALUÑA,Lloret de Mar,,41559,,,,,,,,
+CATALUÑA,Olot,yes,37975,,,64,0,0,0,64,yes
+CATALUÑA,Palafrugell,yes,23848,,,3,0,0,0,3,yes
+CATALUÑA,Salt,,33242,,,,,,,,
+CATALUÑA,Sant Feliu de Guíxols,yes,22751,,,4,0,0,0,4,yes
+CATALUÑA,Lleida,yes,143094,,,241,0,0,0,241,yes
+CATALUÑA,Amposta,,22270,,,,,,,,
+CATALUÑA,Calafell,yes,30631,,,4,0,0,0,4,yes
+CATALUÑA,Cambrils,yes,36496,,,1,0,0,16,17,yes
+CATALUÑA,Reus,,108479,197,0,197,0,0,11,208,yes
+CATALUÑA,Salou,,30224,,,,,,,,
+CATALUÑA,Tarragona,,138262,144,16,160,1,0,1,162,yes
+CATALUÑA,Tortosa,,34639,,,,,,,,
+CATALUÑA,Valls,,25014,,,,,,,,
+CATALUÑA,"Vendrell, El",,39601,,,,,,,,
+CATALUÑA,Vila-seca,,23176,,,,,,,,
+COMUNITAT VALENCIANA,Alacant/Alicante,,349282,746,,746,0,0,0,746,yes
+COMUNITAT VALENCIANA,Alcoi/Alcoy,yes,59493,,,64,0,0,95,159,yes
+COMUNITAT VALENCIANA,"Alfàs del Pi, l'",,20518,,,,,,,,
+COMUNITAT VALENCIANA,Almoradí,,21874,,,,,,,,
+COMUNITAT VALENCIANA,Altea,,23820,,,,,,,,
+COMUNITAT VALENCIANA,Aspe,,21473,,,,,,,,
+COMUNITAT VALENCIANA,Benidorm,yes,72342,,,24,0,0,0,24,yes
+COMUNITAT VALENCIANA,Calp,,25854,,,,,,,,
+COMUNITAT VALENCIANA,"Campello, el",,29993,,,,,,,,
+COMUNITAT VALENCIANA,Crevillent,,30191,,,,,,,,
+COMUNITAT VALENCIANA,Dénia,,45622,,,,,,,,
+COMUNITAT VALENCIANA,Elda,,53034,0,0,0,136,0,0,136,yes
+COMUNITAT VALENCIANA,Elx/Elche,,238293,17,0,17,24,12,0,53,yes
+COMUNITAT VALENCIANA,Ibi,,23920,,,,,,,,
+COMUNITAT VALENCIANA,Mutxamel,,27078,,,,,,,,
+COMUNITAT VALENCIANA,Novelda,,25771,,,,,,,,
+COMUNITAT VALENCIANA,Orihuela,,82449,,,,,,,,
+COMUNITAT VALENCIANA,Petrer,yes,33914,,,1,0,0,5,6,yes
+COMUNITAT VALENCIANA,Pilar de la Horadada,,23428,,,,,,,,
+COMUNITAT VALENCIANA,Sant Joan d'Alacant,,25275,,,,,,,,
+COMUNITAT VALENCIANA,Santa Pola,,37816,,,,,,,,
+COMUNITAT VALENCIANA,Torrevieja,yes,89290,,,0,0,0,0,0,yes
+COMUNITAT VALENCIANA,"Vila Joiosa, la/Villajoyosa",,36093,,,,,,,,
+COMUNITAT VALENCIANA,Villena,,34144,,,,,,,,
+COMUNITAT VALENCIANA,Xàbia/Jávea,,29760,,,,,,,,
+COMUNITAT VALENCIANA,Almassora,yes,27989,,,1,0,0,5,6,yes
+COMUNITAT VALENCIANA,Benicarló,,28681,,,,,,,,
+COMUNITAT VALENCIANA,Borriana/Burriana,,35750,,,,,,,,
+COMUNITAT VALENCIANA,Onda,,25547,,,,,,,,
+COMUNITAT VALENCIANA,"Vall d'Uixó, la",yes,31611,,,16,0,0,0,16,yes
+COMUNITAT VALENCIANA,Vila-real,,51852,0,0,0,0,0,0,0,yes
+COMUNITAT VALENCIANA,Vinaròs,,29686,,,,,,,,
+COMUNITAT VALENCIANA,Alaquàs,,29825,,,,,,,,
+COMUNITAT VALENCIANA,Alboraia/Alboraya,,25792,,,,,,,,
+COMUNITAT VALENCIANA,Aldaia,yes,33376,,,24,0,0,0,24,yes
+COMUNITAT VALENCIANA,Alfafar,,21879,,,,,,,,
+COMUNITAT VALENCIANA,Algemesí,yes,27438,,,2,0,0,0,2,yes
+COMUNITAT VALENCIANA,Alzira,,46421,,,,,,,,
+COMUNITAT VALENCIANA,Bétera,,26759,,,,,,,,
+COMUNITAT VALENCIANA,Burjassot,,39702,,,,,,,,
+COMUNITAT VALENCIANA,Carcaixent,,20777,,,,,,,,
+COMUNITAT VALENCIANA,Catarroja,,29316,,,,,,,,
+COMUNITAT VALENCIANA,Cullera,,23753,,,,,,,,
+COMUNITAT VALENCIANA,Gandia,,78108,179,196,375,33,0,0,408,yes
+COMUNITAT VALENCIANA,Llíria,,24518,,,,,,,,
+COMUNITAT VALENCIANA,Manises,,31573,,,,,,,,
+COMUNITAT VALENCIANA,Mislata,,45644,,,,,,,,
+COMUNITAT VALENCIANA,Moncada,,22067,,,,,,,,
+COMUNITAT VALENCIANA,Oliva,,25558,,,,,,,,
+COMUNITAT VALENCIANA,Ontinyent,yes,36194,,,0,0,0,14,14,yes
+COMUNITAT VALENCIANA,Paiport,yes,27184,,,8,0,0,0,8,yes
+COMUNITAT VALENCIANA,Paterna,yes,73488,,,31,0,0,0,31,yes
+COMUNITAT VALENCIANA,Picassent,,22236,,,,,,,,
+COMUNITAT VALENCIANA,"Pobla de Vallbona, la",,26435,,,,,,,,
+COMUNITAT VALENCIANA,Quart de Poblet,,25590,,,,,,,,
+COMUNITAT VALENCIANA,Requena,,20387,,,,,,,,
+COMUNITAT VALENCIANA,Riba-roja de Túria,,23555,,,,,,,,
+COMUNITAT VALENCIANA,Sagunt/Sagunto,,70128,3,16,19,0,0,0,19,yes
+COMUNITAT VALENCIANA,Sueca,yes,28086,,,0,0,0,1,1,yes
+COMUNITAT VALENCIANA,Torrent,,87295,0,10,10,3,0,0,13,yes
+COMUNITAT VALENCIANA,València,,807693,859,11,870,0,0,0,870,yes
+COMUNITAT VALENCIANA,Xàtiva,,30072,,,,,,,,
+COMUNITAT VALENCIANA,Xirivella,,30749,,,,,,,,
+EXTREMADURA,Almendralejo,,33948,,,,,,,,
+EXTREMADURA,Badajoz,yes,150190,,,51,21,0,0,72,yes
+EXTREMADURA,Don Benito,,37485,,,,,,,,
+EXTREMADURA,Mérida,,59461,,,,,,,,
+EXTREMADURA,Villanueva de la Serena,,25751,,,,,,,,
+EXTREMADURA,Cáceres,,96215,,,,,,,,
+EXTREMADURA,Plasencia,,39412,,,,,,,,
+GALICIA,Ames,yes,32482,,,0,0,0,1,1,yes
+GALICIA,Arteixo,,33516,,,,,,,,
+GALICIA,Cambre,,24739,,,,,,,,
+GALICIA,Carballo,,31416,,,,,,,,
+GALICIA,"Coruña, A",,247376,410,0,410,0,0,0,410,yes
+GALICIA,Culleredo,,30864,,,,,,,,
+GALICIA,Ferrol,,63890,,,,,,,,
+GALICIA,Narón,,39051,,,,,,,,
+GALICIA,Oleiros,,37809,,,,,,,,
+GALICIA,Ribeira,,27030,,,,,,,,
+GALICIA,Santiago de Compostela,,98687,0,0,0,0,0,11,11,yes
+GALICIA,Lugo,,98214,,,,,,,,
+GALICIA,Ourense,yes,104250,,,3,0,0,0,3,yes
+GALICIA,Cangas,,26807,,,,,,,,
+GALICIA,"Estrada, A",,20081,,,,,,,,
+GALICIA,Lalín,,20282,,,,,,,,
+GALICIA,Marín,,24197,,,,,,,,
+GALICIA,Ponteareas,yes,23154,,,2,0,0,4,6,yes
+GALICIA,Pontevedra,,82535,0,0,0,0,0,1,1,yes
+GALICIA,Redondela,yes,28937,,,0,0,0,22,22,yes
+GALICIA,Vigo,yes,293652,,,28,0,0,11,39,yes
+GALICIA,Vilagarcía de Arousa,,37689,,,,,,,,
+MADRID (COMUNIDAD DE),Alcalá de Henares,yes,199184,,,53,0,0,0,53,yes
+MADRID (COMUNIDAD DE),Alcobendas,,119416,358,0,358,15,0,0,373,yes
+MADRID (COMUNIDAD DE),Alcorcón,,171772,,,,,,,,
+MADRID (COMUNIDAD DE),Algete,,20991,,,,,,,,
+MADRID (COMUNIDAD DE),Aranjuez,,60668,62,0,62,0,80,0,142,yes
+MADRID (COMUNIDAD DE),Arganda del Rey,,58990,7,0,7,0,0,0,7,yes
+MADRID (COMUNIDAD DE),Arroyomolinos,yes,35972,,,30,0,61,0,91,yes
+MADRID (COMUNIDAD DE),Boadilla del Monte,yes,64742,,,40,5,5,0,50,yes
+MADRID (COMUNIDAD DE),Ciempozuelos,,25866,,,,,,,,
+MADRID (COMUNIDAD DE),Collado Villalba,yes,65657,,,5,0,0,0,5,yes
+MADRID (COMUNIDAD DE),Colmenar Viejo,,55198,0,0,0,0,0,0,0,yes
+MADRID (COMUNIDAD DE),Coslada,,80171,163,2,165,0,0,0,165,yes
+MADRID (COMUNIDAD DE),Fuenlabrada,,188736,16,0,16,0,0,0,16,yes
+MADRID (COMUNIDAD DE),Galapagar,,35273,,,,,,,,
+MADRID (COMUNIDAD DE),Getafe,,185899,56,0,56,0,1,0,57,yes
+MADRID (COMUNIDAD DE),Leganés,,190665,262,0,262,0,0,0,262,yes
+MADRID (COMUNIDAD DE),Madrid,,3332035,9082,,9082,0,0,0,9082,yes
+MADRID (COMUNIDAD DE),Majadahonda,,72548,,,,,,,,
+MADRID (COMUNIDAD DE),Mejorada del Campo,,24274,,,,,,,,
+MADRID (COMUNIDAD DE),Móstoles,,211265,578,0,578,0,0,0,578,yes
+MADRID (COMUNIDAD DE),Navalcarnero,,31974,,,,,,,,
+MADRID (COMUNIDAD DE),Paracuellos de Jarama,,27000,,,,,,,,
+MADRID (COMUNIDAD DE),Parla,,133004,,,,,,,,
+MADRID (COMUNIDAD DE),Pinto,,55208,,,,,,,,
+MADRID (COMUNIDAD DE),Pozuelo de Alarcón,yes,88784,,,208,18,0,4,230,yes
+MADRID (COMUNIDAD DE),Rivas-Vaciamadrid,,100275,671,0,671,0,0,2917,3588,yes
+MADRID (COMUNIDAD DE),"Rozas de Madrid, Las",,98086,25,0,25,0,0,0,25,yes
+MADRID (COMUNIDAD DE),San Fernando de Henares,,38974,,,,,,,,
+MADRID (COMUNIDAD DE),San Sebastián de los Reyes,yes,92734,,,207,0,0,6,213,yes
+MADRID (COMUNIDAD DE),Torrejón de Ardoz,,137711,,,,,,,,
+MADRID (COMUNIDAD DE),Torrelodones,yes,25115,,,18,0,0,0,18,yes
+MADRID (COMUNIDAD DE),Tres Cantos,,51453,0,0,0,0,0,0,0,yes
+MADRID (COMUNIDAD DE),Valdemoro,,81394,,,,,,,,
+MADRID (COMUNIDAD DE),Villanueva de la Cañada,,23593,,,,,,,,
+MADRID (COMUNIDAD DE),Villaviciosa de Odón,yes,28750,,,0,75,59,0,134,yes
+MURCIA,Águilas,,36862,,,,,,,,
+MURCIA,Alcantarilla,,43049,,,,,,,,
+MURCIA,Alhama de Murcia,,23280,,,,,,,,
+MURCIA,Caravaca de la Cruz,,25756,,,,,,,,
+MURCIA,Cartagena,yes,218050,,,39,0,0,0,39,yes
+MURCIA,Cieza,,35286,,,,,,,,
+MURCIA,Jumilla,,26784,,,,,,,,
+MURCIA,Lorca,yes,98447,,,7,0,0,19,26,yes
+MURCIA,Mazarrón,,34462,,,,,,,,
+MURCIA,Molina de Segura,,76074,1,0,1,0,0,1,2,yes
+MURCIA,Murcia,,469177,1066,0,1066,0,0,0,1066,yes
+MURCIA,San Javier,yes,35241,,,10,0,0,0,10,yes
+MURCIA,San Pedro del Pinatar,,27691,,,,,,,,
+MURCIA,Torre-Pacheco,yes,39037,,,2,0,0,0,2,yes
+MURCIA,"Torres de Cotillas, Las",,22183,,,,,,,,
+MURCIA,Totana,,33149,,,,,,,,
+MURCIA,"Unión, La",,20897,,,,,,,,
+MURCIA,Yecla,,35521,,,,,,,,
+NAVARRA,Barañáin/Barañain,,20865,,,,,,,,
+NAVARRA,Pamplona/Iruña,,205762,,,,,,,,
+NAVARRA,Tudela,,37791,,,,,,,,
+NAVARRA,Valle de Egüés/Eguesibar,,22121,,,,,,,,
+PAÍS VASCO,Vitoria-Gasteiz,,255886,0,0,0,0,0,0,0,yes
+PAÍS VASCO,Barakaldo,,101229,130,0,130,0,0,0,130,yes
+PAÍS VASCO,Basauri,,40413,,,,,,,,
+PAÍS VASCO,Bilbao,,346096,3956,267,4223,0,0,0,4223,yes
+PAÍS VASCO,Durango,yes,29767,,,17,0,0,0,17,yes
+PAÍS VASCO,Erandio,,24411,,,,,,,,
+PAÍS VASCO,Galdakao,,29332,,,,,,,,
+PAÍS VASCO,Getxo,yes,76104,,,0,0,0,4,4,yes
+PAÍS VASCO,Leioa,,32491,,,,,,,,
+PAÍS VASCO,Portugalete,yes,44629,,,18,0,0,0,18,yes
+PAÍS VASCO,Santurtzi,yes,46057,,,169,0,0,14,183,yes
+PAÍS VASCO,Sestao,yes,27834,,,150,0,0,0,150,yes
+PAÍS VASCO,Arrasate/Mondragón,,21867,,,,,,,,
+PAÍS VASCO,Donostia/San Sebastián,yes,188743,,,1664,0,0,197,1861,yes
+PAÍS VASCO,Eibar,,27234,,,,,,,,
+PAÍS VASCO,Errenteria,yes,39231,,,13,0,0,0,13,yes
+PAÍS VASCO,Hernani,,20527,,,,,,,,
+PAÍS VASCO,Irun,,62920,40,0,40,314,0,0,354,yes
+PAÍS VASCO,Zarautz,,23152,,,,,,,,
+RIOJA (LA),Calahorra,,24994,,,,,,,,
+RIOJA (LA),Logroño,,150583,,,,,,,,
+CEUTA,Ceuta,,83039,773,0,773,0,511,281,1565,yes
+MELILLA,Melilla,,85491,1168,0,1168,0,0,0,1168,yes
