@@ -1,6 +1,6 @@
 # S17 — Verification
 
-Every headline figure is computed by `scripts/06_tables.py` from the files in `data/` and written to `data/summary.json`. `scripts/check_headline.py` does three things. It recounts 13 key figures directly from the CSVs and compares them with `summary.json`. It asserts that every number in the README abstract matches. When [the paper](https://easybyte.es/lab/studies/s17/paper/) is present, it also checks 27 headline sentences of the paper (not every table cell). It exits with status 1 on any mismatch. `06_tables.py` also checks that the licence verdicts in `census_records.csv` match a recomputation from `licences_by_dataset.csv`. The independent review recomputed every figure, including Table 1 of the paper, with its own code.
+Every headline figure is computed by `scripts/06_tables.py` from the files in `data/` and written to `data/summary.json`. `scripts/check_headline.py` does four things. It recounts 19 key figures directly from the CSVs and compares them with `summary.json`. It asserts that every number in the README abstract matches. When [the paper](https://easybyte.es/lab/studies/s17/paper/) is present, it also checks 32 headline sentences of the paper (not every table cell). And it checks the figures typed by hand in `METHOD.md` and in this file: the D5 sensitivity and the split of the 188 `skipped_robots` URLs. It exits with status 1 on any mismatch. `06_tables.py` also checks that the licence verdicts in `census_records.csv` match a recomputation from `licences_by_dataset.csv`. The independent review recomputed every figure, including Table 1 of the paper, with its own code.
 
 ```bash
 bash scripts/run.sh             # regenerate tables offline, run tests, check headlines
@@ -14,20 +14,21 @@ python3 scripts/check_headline.py
 | 27,972 HVD datasets; 19,162 in DE (68.5%) | `data/census_records.csv` | count rows; count `country == DE` |
 | 7 Member States with 0 (BG, CY, HU, PL, RO, SI, SK) | `data/by_member_state.csv` | `hvd_datasets == 0` |
 | 25 "yes" to ODM P12; 6 of them with 0 on the portal | `data/odm2025_answers.csv`, `data/by_member_state.csv` | `odm_P12_denoted_in_metadata == yes` and `gap_class == self-yes-portal-zero` |
-| 13,948 with category but no ELI; 12,345 in five catalogues | `data/sparql_summary.json` (`h1_category_without_eli_total`), `data/category_without_eli_by_catalogue.csv` | first five rows with a catalogue |
+| 13,948 with category but no ELI; 12,343 in five catalogues | `data/sparql_summary.json` (`h1_category_without_eli_total`), `data/half_tagged_ids.csv` | records whose catalogue list includes one of the five largest catalogues (the five rows of `data/category_without_eli_by_catalogue.csv` sum to 12,345 because 2 records are in both bev-at and bmlfuw-at) |
 | 1,033 with ELI but no category (3.7%) | `data/census_records.csv` | `n_categories == 0` |
 | licence: 17,104 pass, 7,483 fail, 1,577 unclear, 1,808 none in index | `data/census_records.csv` | column `licence_verdict` |
 | 1,456 confirmed with no licence and no rights in RDF | `data/census_records.csv` | `rdf_licence_check == confirmed_none` |
 | API modelled 5,146 (18.4%); inferable only 18,145 | `data/census_records.csv` | `api_index_access_service == 1 or api_rdf_served == 1`; else `api_inferable == 1` |
-| 1,387 of 1,510 requested URLs 2xx (91.9%); 188 not requested | `data/reach_sample.csv` | `outcome == ok` over rows whose outcome is not `skipped_robots`/`bad_url` |
+| 188 `skipped_robots` (176 not requested; 12 requested once, redirect not followed); 1,387 of the other 1,510 URLs 2xx (91.9%) | `data/reach_sample.csv` | `outcome == skipped_robots`, split by `hops` (0, or 1 after a 3xx); `outcome == ok` over rows whose outcome is not `skipped_robots`/`bad_url` |
 | Poland: 120 flagged, 96 found, 0 with HVD properties or licence | `data/poland_case.json` | fields `source_flag_ec_list`, `ec_list_found_*` |
 | Poland: 7 EU-list HVDs on 6 feed pages, 0 HVD properties, licences only as `dcat:license`; IDs found ≤ 9,156, missing ≥ 18,216; last page 500 × 20 vs 28,132 items | `data/poland_case.json` | `feed_pages`, `harvest_hypothesis` |
 | 27,526 distinct base IDs; 446 surplus records (ES 421, LV 17, IT 6, DE 2) | `data/census_records.csv` | strip `~~n` from `dataset_id` and count distinct |
 | 10,032 records from one Rhineland-Palatinate geoportal; at least 12,798 from the Land's geoportals | `data/census_records.csv`, `data/source_concentration.csv` | host embedded in `dataset_id`; host list in `scripts/06_tables.py` (`RLP_EXTRA`) |
 | other-closed sensitivity: 5,855 fail only on it; as class E, fail 1,628 (5.8%) | `data/licences_by_dataset.csv` | reclassify the value `http://dcat-ap.de/def/licenses/other-closed` and recompute (see `verdict()` in `06_tables.py`) |
 | half-tagged: 13,948 records, 13,054 distinct base IDs, 992 twins of HVD records, 12,062 distinct not counted | `data/half_tagged_ids.csv`, `data/census_records.csv` | base IDs and set difference |
+| of the 992 twins, 990 of govdata records (758 in gdi-de, 232 not linked to a catalogue) and 2 codsi twins of datos-gob-es records | `data/half_tagged_ids.csv`, `data/census_records.csv` | catalogue of the census records sharing each half-tagged record's base ID, in either direction of the `~~n` suffix, one count per half-tagged record (`half_tagged_twins_by_census_catalogue`) |
 | ODM Q5: zero states CY, SI, SK said yes; HU, PL, RO, BG no; EE and GR no with HVDs | `data/by_member_state.csv` | columns `odm_Q5_dcatap_hvd_tag`, `gap_class_q5` |
-| D5: 2 requests would have been disallowed, 7 hosts with unreadable robots.txt; reachability without them 1,361 of 1,484 (91.7%) | `data/robots_redirect_audit.json`, `data/reach_sample.csv` | exclude those hosts and recount |
+| D5: 2 requests would have been disallowed (two Danish hosts, whose sampled URLs are all `skipped_robots`); 8 keys on 7 hosts with robots.txt unreadable after redirects; reachability without those 7 hosts 1,359 of 1,482 (91.7%) | `data/robots_redirect_audit.json`, `data/reach_sample.csv` | hosts whose `robots_after_redirects` is `server-error` or starts with `error`; drop their rows and recount `ok` over rows whose outcome is not `skipped_robots`/`bad_url` |
 
 Quick checks with standard tools:
 

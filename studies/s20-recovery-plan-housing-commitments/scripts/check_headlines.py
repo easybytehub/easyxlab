@@ -96,7 +96,7 @@ need("target 31 last", n(t[labels[-1]]))
 need("target 31 change", pct(t[labels[0]], t[labels[-1]]))
 need("target 31 change Dec-2025", pct(t["v6-2025c"], t["v7-2025d"]), ("paper.md",))
 need("target 31 change Aug-2026", pct(t["v8-2026a"], t["v9-2026b"]), ("paper.md",))
-assert pct(t[labels[0]], t[labels[-1]]) == f"−{abs(S['target31_change_pct'])}%"
+assert pct(t[labels[0]], t[labels[-1]]) == "−" + str(abs(Decimal(repr(S["target31_change_pct"]))).quantize(Decimal("0.1"), rounding=ROUND_HALF_UP)) + "%"
 
 # 3. ICO line
 i = {v: ico(v) for v in labels}
@@ -121,7 +121,15 @@ if not ad[labels[-1]]["proposed"].startswith("2026-08"):
     bad.append("the last version is not the proposal of August 2026")
 need("root row: first target", f"Spain first committed to the EU to complete {n(t[labels[0]])} new dwellings for social rental or at affordable prices", ROW)
 need("root row: last target", f"the August 2026 proposal asks for {n(t[labels[-1]])} under «Construction or rehabilitation», with no completion requirement stated", ROW)
-need("root row: ICO line", f"social-housing loan line at the state bank ICO fell {pct(i[first], i[labels[-1]]).lstrip('−')}", ROW)
+# the base is the first version with an ICO amount (v1-2023, adopted on 17 Oct 2023), and the
+# comparison is the version proposed in Dec 2025 and adopted in Jan 2026 (v7); both dates from adoption.csv
+if not (ad[first]["status"] == "adopted" and ad[first]["adopted"].startswith("2023-")):
+    bad.append(f"ICO base {first}: not a version adopted in 2023")
+if not (ad["v7-2025d"]["status"] == "adopted" and ad["v7-2025d"]["adopted"].startswith("2026-01")):
+    bad.append("v7-2025d: not adopted in January 2026")
+need("root row: ICO line", f"social-housing loan line at the state bank ICO is {pct(i[first], i[labels[-1]]).lstrip('−')} below its {ad[first]['adopted'][:4]} commitment", ROW)
+need("root row: ICO line, version adopted in January 2026",
+     f"({pct(i[first], i['v7-2025d']).lstrip('−')} below in the version adopted in January 2026)", ROW)
 
 # 4. dates of the two cutting proposals, the requests behind them, adoption
 for v in ("v7-2025d", "v9-2026b"):

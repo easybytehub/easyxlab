@@ -124,15 +124,16 @@ Full tables are in:
 | `scripts/dq.py` | data-quality checks DQ1–DQ11 → `data/dq_*.csv`, `data/dq_summary.json` |
 | `scripts/analyse.py` | registered tests, placebos, controls, sensitivity, pooled model, decomposition, frozen predictions |
 | `scripts/post_review.py` | checks added after the independent review: S3 as registered, the Q4-2025/Q1-2026 split, the in-window placebo, H5 by consistency (exploratory) |
+| `scripts/summarize.py` | appends the `descriptive` block to `data/summary.json` (2026-10-05, after the freeze): series levels and the other figures the text quotes |
 | `scripts/prior_work_search.py` | the prior-work searches and `data/prior_work_search.csv` |
 | `scripts/check_headlines.py` | recomputes the main headline numbers from `data/` and checks that each appears in this README and in [the paper](https://easybyte.es/lab/studies/s12/paper/) |
-| `scripts/run.sh` | `run.sh` (offline: tests, build, checks, analysis, post-review checks, headline check), `run.sh fetch`, `run.sh check` |
+| `scripts/run.sh` | `run.sh` (offline: tests, build, checks, analysis, post-review checks, descriptive summary, headline check), `run.sh fetch`, `run.sh check` |
 | `tests/test_s12.py` | unit tests (labels, name matching, WLS/HC3, phase counts) |
 | `data/districts.csv` | 431 districts: province, phase, weight, practised evictions 2023–2025, CGPJ flags |
 | `data/province_exposure.csv`, `data/province_quarter.csv` | phase shares by province; the province series used, 2021-Q1 to 2026-Q1 |
 | `data/cgpj_notes.csv` | the CGPJ's missing/estimated-data notes, literal, matched to districts and phases |
 | `data/tests.csv`, `data/sensitivity.csv`, `data/h5_years.csv`, `data/exclusions.csv` | every regression; provinces excluded by the small-count rule |
-| `data/pooled_model.json`, `data/decomposition.json`, `data/summary.json` | pooled model, decomposition, verdicts |
+| `data/pooled_model.json`, `data/decomposition.json`, `data/summary.json` | pooled model, decomposition, verdicts; `summary.json` ends with the `descriptive` block of `scripts/summarize.py` |
 | `data/dq_*.csv`, `data/dq_summary.json` | data-quality checks |
 | `data/predictions_q2_2026.csv`, `data/predictions_q2_2026_spec.json` | the frozen predictions and the rules for scoring them |
 | `data/review_checks.json`, `data/review_slopes.csv` | post-review checks (not registered, except S3 as written) |

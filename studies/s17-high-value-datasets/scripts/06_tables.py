@@ -3,6 +3,7 @@
 data/by_catalogue.csv, data/reach_by_member_state.csv and data/summary.json."""
 import collections
 import csv
+import datetime
 import json
 import math
 import os
@@ -124,12 +125,34 @@ def main():
     half_distinct = len(half_bases)
     half_distinct_new = len([b for b in half_bases if b not in census_bases])
     govdata_tilde = [r for r in rec if r["catalogue"] == "govdata" and "~~" in r["dataset_id"]]
-    half_cat = {r["dataset_id"]: r["catalogue"] for r in half}
-    gt_bases = {base_id(r["dataset_id"]) for r in govdata_tilde}
-    govdata_twins_in_half = collections.Counter(half_cat[b] for b in gt_bases if b in half_cat)
+    # Twins of HVD records, by the census catalogue of the twin, one count per half-tagged record and in both
+    # directions of the ~~n suffix (closing review 2, 2026-10-05). The earlier count matched only half-tagged IDs
+    # without a suffix against govdata IDs with one, which gave 255 of the 990 govdata twins.
+    census_cats = collections.defaultdict(set)
+    for r in rec:
+        census_cats[base_id(r["dataset_id"])].add(r["catalogue"])
+    twins_by_census_cat = collections.defaultdict(collections.Counter)
+    for r in half:
+        cs = census_cats.get(base_id(r["dataset_id"]))
+        if cs:
+            twins_by_census_cat[";".join(sorted(cs))][r["catalogue"]] += 1
+    assert sum(sum(c.values()) for c in twins_by_census_cat.values()) == half_twins
+    govdata_twins_in_half = twins_by_census_cat.get("govdata", collections.Counter())
 
     # --- reachability without the hosts affected by deviation D5 (robots.txt redirects)
-    d5_hosts = {h["host"] for h in audit["hosts"] if h["would_be_disallowed"] or h["status"] is None}
+    # The hosts whose robots.txt still cannot be read once redirects are followed (no answer, more than five
+    # redirects, or a 5xx, which METHOD §7 skips): the same rule as robots_unreadable_after_redirects in
+    # 08_robots_redirect_audit.py, 8 keys on 7 hosts. Cut by host name, the only key published in
+    # reach_sample.csv. Closing review 3 (2026-10-05): the earlier set took the 2 Danish hosts and left out
+    # the two 5xx hosts. The Danish hosts' sampled URLs are all outside the denominator already (asserted).
+    def robots_unreadable(h):
+        note = str(h["robots_after_redirects"])
+        return h["status"] is None or note == "server-error" or note.startswith("error")
+
+    assert sum(map(robots_unreadable, audit["hosts"])) == audit["robots_unreadable_after_redirects"]
+    d5_hosts = {h["host"] for h in audit["hosts"] if robots_unreadable(h)}
+    d5_disallowed_hosts = {h["host"] for h in audit["hosts"] if h["would_be_disallowed"]}
+    assert not [r for r in reach if r["host"] in d5_disallowed_hosts and r["outcome"] not in ("skipped_robots", "bad_url")]
     req_d5 = [r for r in reach if r["outcome"] not in ("skipped_robots", "bad_url") and r["host"] not in d5_hosts]
     ok_d5 = sum(1 for r in req_d5 if r["outcome"] == "ok")
 
@@ -152,9 +175,18 @@ def main():
         k["has_C"] += int(int(r["lic_C"]) > 0)
         for c in "ABCDEN":
             k["d" + c] += int(r["lic_" + c])
-    h1c = collections.Counter()
-    for r in h1:
-        h1c[r["country"]] += int(r["datasets"])
+    # Half-tagged records counted once each (closing review, 2026-10-05). A record can sit in two catalogues
+    # (gdi-de and govdata, bev-at and bmlfuw-at), so summing the rows of category_without_eli_by_catalogue.csv
+    # counts it twice. Per catalogue that file is right; per Member State or over several catalogues, count
+    # the distinct records of half_tagged_ids.csv.
+    cat_country = {r["catalogue"]: r["country"] for r in h1}
+    half_cats = [set(r["catalogue"].split(";")) for r in half]
+    membership = collections.Counter(c for cs in half_cats for c in cs)
+    assert membership == {r["catalogue"]: int(r["datasets"]) for r in h1}, \
+        "half_tagged_ids.csv and category_without_eli_by_catalogue.csv disagree"
+    h1c = collections.Counter(m for cs in half_cats for m in {cat_country[c] for c in cs})
+    top5_catalogues = {r["catalogue"] for r in sorted((r for r in h1 if r["catalogue"] != "none"),
+                                                       key=lambda r: -int(r["datasets"]))[:5]}
 
     rows = []
     for m in MS:
@@ -232,6 +264,10 @@ def main():
     requested = sum(v for o, v in rt.items() if o not in ("skipped_robots", "bad_url"))
     html_dl = sum(1 for r in reach if r["outcome"] == "ok" and r["method"] == "range-get" and "html" in r["ctype"])
     ok_get = sum(1 for r in reach if r["outcome"] == "ok" and r["method"] == "range-get")
+    # `skipped_robots` is not always "not requested" (closing review 4, 2026-10-05): with hops == 0 the sampled
+    # URL was never requested; with hops >= 1 it was requested, answered 3xx, and robots.txt stopped a later hop.
+    skipped = [r for r in reach if r["outcome"] == "skipped_robots"]
+    skipped_after = [r for r in skipped if int(r["hops"] or 0) > 0]
 
     T = collections.Counter()
     for m in MS:
@@ -249,6 +285,9 @@ def main():
         "portal_total_datasets": sps["portal_total_datasets"],
         "category_without_eli_total": sps["h1_category_without_eli_total"],
         "category_without_eli_member_states": sum(h1c[m] for m in MS),
+        # the rest of the 13,948, so that table 1 adds up (closing review 2, 2026-10-05)
+        "category_without_eli_no_catalogue": h1c.get("", 0),
+        "category_without_eli_european_level": h1c.get("EUROPE", 0),
         "eli_without_category_census": ALL["no_category"],
         "eli_datasets_rdf": sps["eli_datasets_by_category"],
         "malformed_eli_triples": sum(v["n"] for v in sps["malformed_eli"]),
@@ -275,6 +314,12 @@ def main():
         "reach_sampled": len(reach), "reach_requested": requested, "reach_ok": rt["ok"],
         "reach_ok_pct": pct(rt["ok"], requested), "reach_ok_weighted_pct": round(100 * wsum / wtot, 1) if wtot else 0,
         "reach_outcomes": dict(rt), "reach_ok_html_of_range_get": [html_dl, ok_get],
+        "reach_skipped_robots_by_reason": dict(collections.Counter(r["skip_reason"] for r in skipped)),
+        "reach_skipped_robots_before_request": len(skipped) - len(skipped_after),
+        "reach_skipped_robots_after_redirect": len(skipped_after),
+        "reach_skipped_robots_after_redirect_hops": dict(collections.Counter(int(r["hops"]) for r in skipped_after)),
+        "reach_skipped_robots_after_redirect_by_reason": dict(collections.Counter(r["skip_reason"]
+                                                                                for r in skipped_after)),
         "reach_member_states": len(rr), "reach_hosts": len({r["host"] for r in reach}),
         "gap_classes_q5": dict(collections.Counter(r["gap_class_q5"] for r in rows)),
         "zero_states_q5": {r["member_state"]: r["odm_Q5_dcatap_hvd_tag"] for r in rows if r["hvd_datasets"] == 0},
@@ -292,7 +337,9 @@ def main():
         "half_tagged_records": len(half), "half_tagged_distinct_base_ids": half_distinct,
         "half_tagged_twins_of_census": half_twins, "half_tagged_distinct_not_in_census": half_distinct_new,
         "govdata_tilde_records": len(govdata_tilde), "half_tagged_twins_of_govdata": sum(govdata_twins_in_half.values()),
-        "half_tagged_twins_of_govdata_by_catalogue": dict(govdata_twins_in_half),
+        "half_tagged_twins_of_govdata_by_catalogue": dict(govdata_twins_in_half.most_common()),
+        "half_tagged_twins_by_census_catalogue": {k: dict(v.most_common()) for k, v in
+                                                  sorted(twins_by_census_cat.items(), key=lambda x: -sum(x[1].values()))},
         "robots_redirect_audit": {k: audit[k] for k in audit if k != "hosts"},
         "reach_d5_sensitivity": {"hosts_excluded": len(d5_hosts), "requested": len(req_d5), "ok": ok_d5,
                                  "ok_pct": pct(ok_d5, len(req_d5))},
@@ -305,6 +352,33 @@ def main():
                                        "ec_list_found_with_dist_licence")},
         "poland_edp_catalogue": pol["edp_catalogue_dane_gov_pl"], "poland_feed_page1": pol["source_feed_page1"],
     }
+    # dates, completeness and the remaining abstract figures (added 2026-10-05 for claims.csv)
+    applicable = datetime.date(2024, 6, 9)  # Art. 6: 16 months after entry into force (9 February 2023)
+    census_day = datetime.date.fromisoformat(s["snapshot_utc"][:10])
+    days = (census_day - applicable).days
+    whole = (census_day.year - applicable.year) * 12 + census_day.month - applicable.month - (census_day.day < applicable.day)
+    others = [int(r["hvd_datasets"]) for r in rows if int(r["hvd_datasets"]) > 0
+              and r["odm_P12_denoted_in_metadata"] == "yes" and r["odm_Q5_dcatap_hvd_tag"] == "yes"]
+    assert set(h1c) <= set(MS) | {"", "EUROPE"} and sum(h1c.values()) == len(half) == s["category_without_eli_total"]
+    s.update({
+        "applicable_date": f"{applicable.day} {applicable.strftime('%B')} {applicable.year}",
+        "census_date": census_day.isoformat(),
+        "snapshot_hhmm_utc": s["snapshot_utc"][11:16],
+        "days_since_applicable": days,
+        "months_since_applicable": days / (365.2425 / 12),  # mean Gregorian month
+        "whole_months_since_applicable": whole,
+        "member_states_eu": 27,
+        "member_states_without_hvd": 27 - s["member_states_with_hvd"],
+        "odm_edition": 2025,
+        "hvd_facet_total": sps["hvd_facet_total"],
+        # distinct records in any of the five largest catalogues (records with no catalogue excluded)
+        "half_tagged_top5_catalogues": sum(1 for cs in half_cats if cs & top5_catalogues),
+        "half_tagged_top5_in_two_catalogues": sum(1 for cs in half_cats if len(cs & top5_catalogues) > 1),
+        "hvd_ms_p12_q5_yes": {"n": len(others), "min": min(others), "max": max(others)},
+        "poland_feed_pages_ec_ids": len({i for v in s["poland_feed_hvd_pages"].values() for i in v["ec_list_ids_on_page"]}),
+        # a process figure reported by the independent review (README «Automation and review»), not in data/
+        "review_records_audited": 48,
+    })
     json.dump(s, open(os.path.join(D, "summary.json"), "w"), indent=1)
     print(json.dumps(s, indent=1))
 

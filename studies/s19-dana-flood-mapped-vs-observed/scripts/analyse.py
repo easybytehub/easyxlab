@@ -46,6 +46,25 @@ BANDS = [b[0] for b in L.YEAR_BANDS] + ["unknown"]
 S5 = ["SNCZI T100 or T10", "SNCZI T500 (not T100)", "PATRICOVA levels 1-6 only",
       "PATRICOVA geomorphological only", "outside every official zone"]
 B3 = ["2016 or earlier, or unknown", "2017-2024", "2025 or later"]
+# Dates, legal citations, method parameters and prior-work figures that the abstracts quote, so that
+# every number the text shows has a key in summary.json (claims.csv). Sources: references.csv
+# (rd638, rd903, rdph), METHOD.md (parameters, map versions, Internet Archive captures), paper.md §3
+# (prior work) and §6 (the scouting pilot).
+TEXT = {
+    "event_date": "29 October 2024", "event_month": "October 2024",
+    "rd638": "638/2016", "rd638_year": 2016, "rd638_in_force": "30 December 2016",
+    "first_year_after_rd638": 2017, "rdph_articles": "9 ter and 14 bis",
+    "rd903": "903/2010", "return_periods_years": [10, 100, 500],
+    "hole_closing_ha": 2, "mask_resolution_m": 2,
+    "arpsi_version_read": "20 December 2024", "arpsi_version_in_force": "5 July 2022",
+    "archive_captures": "August and November 2024",
+    "camarasa_2025_year": 2025, "camarasa_2025_share_of_area_outside": 0.141,
+    "upc_thesis_embargo_until": 2030, "paper_section_prior_work": 3,
+    "pilot_reported_dwellings_in_extent": 11986,
+    # the floor the abstract quotes for Beniparrell and Massanassa; claims.csv checks that both
+    # published lower bounds (places.*.arpsi_share_lower_bound) are at or above it
+    "arpsi_floor_quoted": 0.98,
+}
 
 
 def s5(s):
@@ -404,6 +423,40 @@ def main():
     pil["dwellings_total"] = totals["46186"]["dwellings"]
     pil["buildings_with_dwellings_total"] = totals["46186"]["buildings_with_dwellings"]
     S["paiporta_pilot_recomputed"] = pil
+    # ------------------------------------------------------------------ keys the abstracts quote
+    S["text"] = dict(TEXT)
+    S["year_bands"] = list(B5)
+    S["gva_footprint"]["ratio_to_copernicus"] = S["gva_footprint"]["dwellings"] / P["dwellings_in_extent"]
+    cu, _ = scenario(data, "all_or_gva", ER, ZP)
+    S["union"] = {"dwellings": F(("gt", "either"), "d"), "share_outside_all_zones": shares(cu["d"])["share_outside"]}
+    cg, _ = scenario(data, V, ER, "fp")
+    P["grid_fp"] = {"dwellings": sum(cg["d"].values()), "dwellings_outside_all_zones": cg["d"][OUTSIDE],
+                    "dwellings_inside_a_zone": sum(cg["d"][s] for s in ST if s != OUTSIDE),
+                    "share_outside_all_zones": shares(cg["d"])["share_outside"]}
+    b17 = {s: F(("p", "2017-2024", s), "d") for s in S5}
+    P["dwellings_2017_2024_by_status"] = b17
+    P["dwellings_2017_2024_inside_arpsi"] = b17[S5[0]] + b17[S5[1]]
+    by_name = {names[i]: i for i in munis}
+    places = {}
+    for nm in ("Paiporta", "Picanya", "Sedaví"):
+        mi, mo = ("m", by_name[nm], "in"), ("m", by_name[nm], "out")
+        places[nm] = {"dwellings_in_extent": F(mi, "d"), "dwellings_outside_all_zones": F(mo, "d"),
+                      "share_outside_all_zones": reg.value(mo, "d") / reg.value(mi, "d")}
+    for nm in ("Beniparrell", "Massanassa"):
+        ine = by_name[nm]
+        # lower bound from the published cells only: suppressed cells (<5 buildings) count as zero
+        low = sum(reg.value(("c", ine, s, bd), "d") for s in S5[:2] for bd in B3
+                  if ("c", ine, s, bd) in reg.groups and reg.published(("c", ine, s, bd)))
+        places[nm] = {"dwellings_in_extent": F(("m", ine, "in"), "d"), "arpsi_dwellings_lower_bound": low,
+                      "arpsi_share_lower_bound": low / reg.value(("m", ine, "in"), "d")}
+    ine = by_name["l'Alcúdia"]
+    # lower bound from the published cells only (suppressed cells count as zero), as for the two above
+    geo = sum(reg.value(("c", ine, S5[3], bd), "d") for bd in B3
+              if ("c", ine, S5[3], bd) in reg.groups and reg.published(("c", ine, S5[3], bd)))
+    places["l'Alcúdia"] = {"dwellings_in_extent": F(("m", ine, "in"), "d"),
+                           "patricova_geomorphological_only_dwellings_lower_bound": geo,
+                           "share_patricova_geomorphological_only_lower_bound": geo / reg.value(("m", ine, "in"), "d")}
+    S["places"] = places
     json.dump(S, open(os.path.join(D, "summary.json"), "w"), indent=1, ensure_ascii=False)
     print(json.dumps({k: P[k] for k in ("dwellings_in_extent", "share_outside_all_zones", "share_outside_snczi")}, ensure_ascii=False))
     print(json.dumps(S["ranges"], ensure_ascii=False))

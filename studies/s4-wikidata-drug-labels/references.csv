@@ -1,0 +1,6 @@
+id,kind,identifier,we_say,checked_on,note
+wikidata-sparql,url,https://query.wikidata.org/,reachable,2026-10-05,SPARQL endpoint of the snapshot (2026-10-02)
+who-atc-alterations,url,https://atcddd.fhi.no/atc_ddd_alterations__cumulative/atc_alterations/,reachable,2026-10-05,WHO ATC alterations list (data/reference/atc_alterations_codes.json)
+rxnorm,url,https://rxnav.nlm.nih.gov/,reachable,2026-10-05,"RxNav Prescribable API, brand-name source of detector (b)"
+wikiproject-medicine,url,https://www.wikidata.org/wiki/Wikidata:WikiProject_Medicine,reachable,2026-10-05,where the corrections should be discussed
+quickstatements,url,https://quickstatements.toolforge.org/,reachable,2026-10-05,format of the correction proposal

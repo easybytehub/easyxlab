@@ -35,7 +35,21 @@
    "2017-2024": 1776,
    "2025 or later": 410
   },
-  "province_dwellings_in_touched_municipalities": 1159916
+  "province_dwellings_in_touched_municipalities": 1159916,
+  "grid_fp": {
+   "dwellings": 84789,
+   "dwellings_outside_all_zones": 45063,
+   "dwellings_inside_a_zone": 39726,
+   "share_outside_all_zones": 0.5314722428616919
+  },
+  "dwellings_2017_2024_by_status": {
+   "SNCZI T100 or T10": 156,
+   "SNCZI T500 (not T100)": 579,
+   "PATRICOVA levels 1-6 only": 79,
+   "PATRICOVA geomorphological only": 88,
+   "outside every official zone": 874
+  },
+  "dwellings_2017_2024_inside_arpsi": 735
  },
  "disclosure": {
   "primary_suppressed_groups": 271,
@@ -46,7 +60,8 @@
   "outside_all": 53801,
   "share_outside_all_zones": 0.38925,
   "both": 64962,
-  "either": 158044
+  "either": 158044,
+  "ratio_to_copernicus": 1.6301289082310206
  },
  "matched_comparison": {
   "municipalities": 66,
@@ -128,5 +143,74 @@
   },
   "dwellings_total": 11988,
   "buildings_with_dwellings_total": 1781
+ },
+ "text": {
+  "event_date": "29 October 2024",
+  "event_month": "October 2024",
+  "rd638": "638/2016",
+  "rd638_year": 2016,
+  "rd638_in_force": "30 December 2016",
+  "first_year_after_rd638": 2017,
+  "rdph_articles": "9 ter and 14 bis",
+  "rd903": "903/2010",
+  "return_periods_years": [
+   10,
+   100,
+   500
+  ],
+  "hole_closing_ha": 2,
+  "mask_resolution_m": 2,
+  "arpsi_version_read": "20 December 2024",
+  "arpsi_version_in_force": "5 July 2022",
+  "archive_captures": "August and November 2024",
+  "camarasa_2025_year": 2025,
+  "camarasa_2025_share_of_area_outside": 0.141,
+  "upc_thesis_embargo_until": 2030,
+  "paper_section_prior_work": 3,
+  "pilot_reported_dwellings_in_extent": 11986,
+  "arpsi_floor_quoted": 0.98
+ },
+ "year_bands": [
+  "1985 or earlier, or unknown",
+  "1986-2007",
+  "2008-2016",
+  "2017-2024",
+  "2025 or later"
+ ],
+ "union": {
+  "dwellings": 158044,
+  "share_outside_all_zones": 0.427779605679431
+ },
+ "places": {
+  "Paiporta": {
+   "dwellings_in_extent": 11987,
+   "dwellings_outside_all_zones": 8619,
+   "share_outside_all_zones": 0.7190289480270293
+  },
+  "Picanya": {
+   "dwellings_in_extent": 4880,
+   "dwellings_outside_all_zones": 4674,
+   "share_outside_all_zones": 0.9577868852459016
+  },
+  "Sedaví": {
+   "dwellings_in_extent": 1878,
+   "dwellings_outside_all_zones": 1878,
+   "share_outside_all_zones": 1.0
+  },
+  "Beniparrell": {
+   "dwellings_in_extent": 931,
+   "arpsi_dwellings_lower_bound": 929,
+   "arpsi_share_lower_bound": 0.9978517722878625
+  },
+  "Massanassa": {
+   "dwellings_in_extent": 1297,
+   "arpsi_dwellings_lower_bound": 1292,
+   "arpsi_share_lower_bound": 0.9961449498843485
+  },
+  "l'Alcúdia": {
+   "dwellings_in_extent": 5846,
+   "patricova_geomorphological_only_dwellings_lower_bound": 5383,
+   "share_patricova_geomorphological_only_lower_bound": 0.9208005473828259
+  }
  }
 }

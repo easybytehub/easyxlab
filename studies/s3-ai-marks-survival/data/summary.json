@@ -1,0 +1,62 @@
+{
+ "observations": 474,
+ "outputs": 154,
+ "identity_outputs": 8,
+ "transformations": 41,
+ "inputs_run": 8,
+ "inputs_own": 7,
+ "inputs_public": 1,
+ "inputs_wav_mp3_non_c2pa_marks": 0,
+ "inputs_all_remote_images_marks": 4,
+ "fixtures": {
+  "img": 18,
+  "av": 5,
+  "img_formats": 3,
+  "img_formats_with_none": 3,
+  "img_formats_with_all": 3,
+  "img_formats_with_each_mark_alone": 3,
+  "total": 23
+ },
+ "c2pa": {
+  "rewrites": 124,
+  "rewrites_removed": 124,
+  "rewrites_kept": 0,
+  "edits": 6,
+  "edits_broken": 6,
+  "resign": 4,
+  "resign_intact": 4,
+  "intact_non_identity": 4,
+  "intact_non_identity_not_resign": 0,
+  "resign_declared_ai": 3,
+  "resign_declared_ai_only_ingredient": 3,
+  "remote_derivatives_valid": 0
+ },
+ "xmp": {
+  "pairs": 115,
+  "pairs_same": 115,
+  "survived": 53,
+  "survived_sharp_pillow_default": 0,
+  "survived_nextimage": 0,
+  "magick_default": 9,
+  "magick_default_survived": 9,
+  "magick_strip": 6,
+  "magick_strip_survived": 0,
+  "exiftool_nostrip": 10,
+  "exiftool_nostrip_survived": 10,
+  "exiftool_strip": 5,
+  "exiftool_strip_survived": 0
+ },
+ "ffmpeg_marks_survived": 0,
+ "legal": {
+  "eu_article": "Art. 50(2)",
+  "eu_applicable": "2 August 2026",
+  "eu_omnibus": "2026/1744",
+  "eu_omnibus_article": "Art. 111(4)",
+  "eu_legacy_deadline": "2 December 2026",
+  "ca_bill": "SB 942",
+  "ca_amending_bill": "AB 853",
+  "ca_operative": "2 August 2026",
+  "cn_standard": "GB 45438-2025",
+  "cn_in_force": "1 September 2025"
+ }
+}

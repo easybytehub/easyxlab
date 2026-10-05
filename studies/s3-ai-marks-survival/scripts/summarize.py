@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Pivot data/matrix.csv into data/summary.md (one table per input family).
+"""Pivot data/matrix.csv into data/summary.md (one table per input family) and data/summary_compact.md,
+and write data/summary.json, the figures claims.csv checks (fractions and counts, offline).
 Cell code: C=C2PA (ok / X=broken / -=removed / r=residue), R=remote ref,
 D=XMP DigitalSourceType, A=TC260 AIGC (+ survived, - removed, r residue)."""
 import csv
@@ -78,3 +79,108 @@ c += compact(["mp4-all", "m4a-all"], ["c2pa", "xmp_dst", "aigc"], "Video / audio
 c += compact(["wav-c2pa", "mp3-c2pa"], ["c2pa"], "Audio WAV / MP3 inputs (C2PA only)")
 c += compact(["pub-CA"], ["c2pa"], "Public sample: c2pa-rs CA.jpg")
 (S / "data/summary_compact.md").write_text("\n".join(c) + "\n")
+
+# ---- data/summary.json: every figure claims.csv checks (full precision, offline) ----
+import json  # noqa: E402
+
+IDENTITY, EXIF_OPS, RESIGN = "identity", ("exiftool_",), "_then_c2pa_resign"
+c2pa = [r for r in rows if r["mark"] == "c2pa"]
+is_exif = lambda r: r["transform"].startswith(EXIF_OPS)  # noqa: E731
+rewrites = [r for r in c2pa if r["transform"] != IDENTITY and not is_exif(r) and RESIGN not in r["transform"]]
+edits = [r for r in c2pa if r["transform"] == "exiftool_edit_title"]
+resign = [r for r in c2pa if RESIGN in r["transform"]]
+intact_non_identity = [r for r in c2pa if r["result"] == "intact" and r["transform"] != IDENTITY]
+detail = lambda r: dict(kv.split("=", 1) for kv in r["detail"].split("; ") if "=" in kv)  # noqa: E731
+resign_declared = [r for r in resign if r["input"] != "pub-CA"]  # own fixtures, which declare AI
+
+xmp = {(r["input"], r["transform"], r["output_format"]): r["result"] for r in rows if r["mark"] == "xmp_dst"}
+aigc = {(r["input"], r["transform"], r["output_format"]): r["result"] for r in rows if r["mark"] == "aigc"}
+pairs = set(xmp) & set(aigc)
+xmp_kept = lambda t: any(k in t for k in ("keep", "withMetadata", "png_itxt"))  # noqa: E731
+xmp_surv = [k for k, v in xmp.items() if v == "survived"]
+lib_of = {(r["input"], r["transform"], r["output_format"]): r["library"] for r in rows}
+default_sharp_pillow = [k for k in xmp_surv if lib_of[k].startswith(("sharp", "Pillow"))
+                        and "next/image" not in lib_of[k] and not xmp_kept(k[1])]
+nextimage = [k for k in xmp_surv if k[1].startswith("nextimage_")]
+# ImageMagick and ExifTool: XMP kept by default, removed when the transform strips (magick_strip*, exiftool_strip_all)
+xmp_lib = lambda lib, strip: [k for k in xmp if lib_of[k].startswith(lib) and ("strip" in k[1]) == strip]  # noqa: E731
+ffmpeg_surv = [r for r in rows if r["library"].startswith("ffmpeg") and r["result"] in ("survived", "intact")]
+followup = list(csv.DictReader(open(S / "data/remote_followup.csv")))
+derived_valid = [r for r in followup if r["derivative"] != r["derivative"].replace("-resized", "")
+                 and r["validation_state"] == "Valid"]
+inputs_run = sorted({r["input"] for r in rows})
+marks_of_input = {i: sorted({r["mark"] for r in rows if r["input"] == i}) for i in inputs_run}
+fixtures = {k: sum(1 for p in (S / "fixtures" / k).iterdir() if p.is_file()) for k in ("img", "av")}
+img_variants = defaultdict(set)  # fixtures/img/<format>-<variant>.<ext>
+for p in (S / "fixtures" / "img").iterdir():
+    fmt_, _, variant = p.stem.partition("-")
+    img_variants[fmt_].add(variant)
+fixtures["img_formats"] = len(img_variants)
+fixtures["img_formats_with_none"] = sum("none" in v for v in img_variants.values())
+fixtures["img_formats_with_all"] = sum("all" in v for v in img_variants.values())
+fixtures["img_formats_with_each_mark_alone"] = sum({"c2pa", "xmp-dst", "aigc"} <= v for v in img_variants.values())
+
+# Legal identifiers and dates in the abstracts: transcribed from the primary sources. Each value
+# that has a row in references.csv must appear in that row's identifier or note (checked below).
+LEGAL = {
+    "eu_article": ("ai-act", "Art. 50(2)"),
+    "eu_applicable": ("ai-act", "2 August 2026"),
+    "eu_omnibus": ("ai-omnibus", "2026/1744"),
+    "eu_omnibus_article": ("ai-omnibus", "Art. 111(4)"),
+    "eu_legacy_deadline": ("ai-omnibus", "2 December 2026"),
+    "ca_bill": ("ca-sb942", "SB 942"),
+    "ca_amending_bill": ("ca-ab853", "AB 853"),
+    "ca_operative": ("ca-ab853", "2 August 2026"),
+    "cn_standard": ("cn-gb45438", "GB 45438-2025"),
+    "cn_in_force": ("cn-gb45438", "1 September 2025"),
+}
+refs = {r["id"]: r for r in csv.DictReader(open(S / "references.csv"))}
+for name, (ref, value) in LEGAL.items():
+    if ref is not None:
+        assert value in refs[ref]["identifier"] + " " + refs[ref]["note"], f"{name}: «{value}» not in references.csv {ref}"
+
+summary = {
+    "observations": len(rows),
+    "outputs": len(c2pa),
+    "identity_outputs": sum(r["transform"] == IDENTITY for r in c2pa),
+    "transformations": len({r["transform"] for r in rows if r["transform"] != IDENTITY}),
+    "inputs_run": len(inputs_run),
+    "inputs_own": sum(i != "pub-CA" for i in inputs_run),
+    "inputs_public": sum(i == "pub-CA" for i in inputs_run),
+    "inputs_wav_mp3_non_c2pa_marks": sum(m != "c2pa" for i in ("wav-c2pa", "mp3-c2pa") for m in marks_of_input[i]),
+    "inputs_all_remote_images_marks": min(len(marks_of_input[i]) for i in inputs_run if i.endswith("-all-remote")),
+    "fixtures": {**fixtures, "total": fixtures["img"] + fixtures["av"]},
+    "c2pa": {
+        "rewrites": len(rewrites),
+        "rewrites_removed": sum(r["result"] == "removed" for r in rewrites),
+        "rewrites_kept": sum(r["result"] in ("intact", "broken") for r in rewrites),
+        "edits": len(edits),
+        "edits_broken": sum(r["result"] == "broken" for r in edits),
+        "resign": len(resign),
+        "resign_intact": sum(r["result"] == "intact" for r in resign),
+        "intact_non_identity": len(intact_non_identity),
+        "intact_non_identity_not_resign": sum(RESIGN not in r["transform"] for r in intact_non_identity),
+        "resign_declared_ai": len(resign_declared),
+        "resign_declared_ai_only_ingredient": sum(detail(r).get("dst_active") == "False"
+                                                  and detail(r).get("dst_any_manifest") == "True" for r in resign_declared),
+        "remote_derivatives_valid": len(derived_valid),
+    },
+    "xmp": {
+        "pairs": len(pairs),
+        "pairs_same": sum(xmp[k] == aigc[k] for k in pairs),
+        "survived": len(xmp_surv),
+        "survived_sharp_pillow_default": len(default_sharp_pillow),
+        "survived_nextimage": len(nextimage),
+        "magick_default": len(xmp_lib("ImageMagick", False)),
+        "magick_default_survived": sum(xmp[k] == "survived" for k in xmp_lib("ImageMagick", False)),
+        "magick_strip": len(xmp_lib("ImageMagick", True)),
+        "magick_strip_survived": sum(xmp[k] == "survived" for k in xmp_lib("ImageMagick", True)),
+        "exiftool_nostrip": len(xmp_lib("ExifTool", False)),
+        "exiftool_nostrip_survived": sum(xmp[k] == "survived" for k in xmp_lib("ExifTool", False)),
+        "exiftool_strip": len(xmp_lib("ExifTool", True)),
+        "exiftool_strip_survived": sum(xmp[k] == "survived" for k in xmp_lib("ExifTool", True)),
+    },
+    "ffmpeg_marks_survived": len(ffmpeg_surv),
+    "legal": {name: value for name, (ref, value) in LEGAL.items()},
+}
+(S / "data/summary.json").write_text(json.dumps(summary, indent=1, ensure_ascii=False) + "\n")

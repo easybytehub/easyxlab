@@ -159,6 +159,7 @@ S2_CF_ENV=/path/.env python3 scripts/run_study.py # whole pipeline, reads privat
 scripts/ai-bot-verify access.log --site mysite --asn --out results/
 python3 scripts/cf_declared_bots.py --env .env --zones example.com --site-map map.json --days 30 --out data/cloudflare
 python3 scripts/aggregate.py                      # study-level tables in data/
+python3 scripts/summarize.py                      # data/summary.json from data/ (offline)
 ```
 
 Python ≥ 3.10, standard library only. Network access needed for range files, DNS and (with

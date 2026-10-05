@@ -416,6 +416,35 @@ def main(auto, verdicts_path, frozen_dir=None):
         offer_notices_removed_in_review=len(off) - len({x["boe_id"] for x in kept}),
         d1=d1,
     )
+    # ---- added 2026-10-05 for claims.csv: the abstract's dates and the figures that had no key
+    def long_date(iso, day=True):
+        y, m, d_ = (int(v) for v in iso.split("-"))
+        month = ("January February March April May June July August September October November December").split()[m - 1]
+        return f"{d_} {month} {y}" if day else f"{month} {y}"
+    S["period_long"] = dict(start=long_date(S["period"][0]), end=long_date(S["period"][1]))
+    S["period_months"] = dict(start=long_date(S["period"][0], False), end=long_date(S["period"][1], False))
+    S["lots_not_covered"] = len(kept) - S["covered"]
+    S["declared_exemptions_by_scope"] = dict(Counter(x["scope"] for x in ex))
+    S["covered_land_garage_storage"] = sum(1 for x in kept if x["scope"] == "covered" and x["lot_type"] in ("land", "garage", "storage"))
+    # added 2026-10-05 (closing review): covered lots in any category the README abstract calls out of scope. Land,
+    # garages and storage rooms; industrial or agricultural lots not checked by the review against «de baja demanda
+    # energética» (deviation D7: only the reviewed lots moved from excluded to covered, with a stated rating); and
+    # shell premises (MITECO FAQ no. 19), counted by their scope reason
+    S["covered_with_exclusion_category"] = sum(
+        1 for x in kept if x["scope"] == "covered" and (
+            x["lot_type"] in ("land", "garage", "storage")
+            or (x["lot_type"] == "industrial_agricultural"
+                and not (x["reviewed"] == "yes" and x["change"] == "scope excluded>covered"))
+            or "no. 19" in x["scope_reason"]))
+    S["lots_shell_premises"] = sum(1 for x in kept if "no. 19" in x["scope_reason"])
+    # covered lots by seller and lot type, for «mostly commercial premises» (closing review 2, 2026-10-05)
+    S["covered_by_seller_lot_type"] = {g: dict(Counter(x["lot_type"] for x in kept if x["scope"] == "covered"
+                                                       and x["seller_group"] == g).most_common())
+                                       for g in sorted({x["seller_group"] for x in kept if x["scope"] == "covered"})}
+    # process figures, not in data/: the independent agent's re-reading (METHOD.md, «Independent check») and the
+    # year of the development notices on which the rules were written (paper.md §3, July-December 2024)
+    S["independent_recheck"] = dict(lots=40, agreed=40)
+    S["rules_development_year"] = 2024
     json.dump(S, open(os.path.join(D, "summary.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     print(json.dumps(S["headline"]), json.dumps(S["by_seller"], ensure_ascii=False))
 

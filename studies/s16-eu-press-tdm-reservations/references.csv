@@ -1,0 +1,11 @@
+id,kind,identifier,we_say,checked_on,note
+dsm-2019-790,eurlex,32019L0790,in_force,2026-10-05,"Directive (EU) 2019/790, Art. 4(3): TDM reservation «such as machine-readable means»"
+ai-act,eurlex,32024R1689,in_force,2026-10-05,"Regulation (EU) 2024/1689 (AI Act), Arts. 53(1)(c), 101(1), 111(3), 113(b)"
+ai-omnibus-2026-1744,eurlex,32026R1744,in_force,2026-10-05,"Regulation (EU) 2026/1744 (Digital Omnibus on AI): amends Art. 113 of the AI Act, not Art. 53(1)(c) nor Art. 101"
+rfc-9309,url,https://www.rfc-editor.org/rfc/rfc9309,reachable,2026-10-05,"RFC 9309, Robots Exclusion Protocol (comments discarded, s. 2.3.1.x)"
+aipref-vocab-08,url,https://datatracker.ietf.org/doc/html/draft-ietf-aipref-vocab-08,reachable,2026-10-05,"draft-ietf-aipref-vocab-08 (2026-09-14), «the current IETF draft»; datatracker API confirmed rev 08 is still the latest on 2026-10-05"
+aipref-vocab-01,url,https://datatracker.ietf.org/doc/html/draft-ietf-aipref-vocab-01,reachable,2026-10-05,"draft-ietf-aipref-vocab-01 (June 2025), where the training label was «ai»"
+aipref-attach-05,url,https://datatracker.ietf.org/doc/html/draft-ietf-aipref-attach-05,reachable,2026-10-05,"draft-ietf-aipref-attach-05 (2026-08-19): Content-Usage header and robots.txt rule; datatracker API confirmed rev 05 is still the latest on 2026-10-05"
+tdmrep-cg,url,https://www.w3.org/community/reports/tdmrep/CG-FINAL-tdmrep-20240510/,reachable,2026-10-05,"W3C TDMRep Community Group Final Report, 2024-05-10"
+crux-top-lists,url,https://github.com/zakird/crux-top-lists,reachable,2026-10-05,"CrUX country top lists (202608), frame filter (key data source)"
+wikidata-qlever,url,https://qlever.cs.uni-freiburg.de/api/wikidata?query=ASK%7B%7D,reachable,2026-10-05,"QLever Wikidata SPARQL endpoint used for the frame (key data source); the bare endpoint answers 404 without a query and now redirects to qlever.dev, so a trivial ASK query is checked"

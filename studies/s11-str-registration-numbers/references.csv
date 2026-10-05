@@ -1,0 +1,15 @@
+id,kind,identifier,we_say,checked_on,note
+str-reg-2024-1028,eurlex,32024R1028,in_force,2026-10-05,"Regulation (EU) 2024/1028 on short-term accommodation rental data; applies from 20 May 2026 (registration numbers displayed and checked at random by platforms)"
+rd-1312-2024,boe,BOE-A-2024-26931,in_force,2026-10-05,"Real Decreto 1312/2024 (registro único de arrendamientos): in force, but its registration-procedure provisions were annulled by the three Supreme Court judgments below"
+ts-2026-05-19,boe,BOE-A-2026-12300,published,2026-10-05,"Tribunal Supremo, Sala Tercera, judgment of 19 May 2026 (Generalitat Valenciana), published in BOE 8 June 2026"
+ts-2026-05-21,boe,BOE-A-2026-13893,published,2026-10-05,"Tribunal Supremo, judgment of 21 May 2026 and auto of 11 June 2026 (Apartur and ATA), published in BOE 26 June 2026"
+ts-2026-06-01,boe,BOE-A-2026-15677,published,2026-10-05,"Tribunal Supremo, judgment of 1 June 2026 (Región de Murcia), published in BOE 18 July 2026"
+ljca-29-1998,boe,BOE-A-1998-16718,in_force,2026-10-05,"Ley 29/1998 (jurisdicción contencioso-administrativa), art. 72.2: effects of judgments annulling a general provision"
+turismo-cat-13-2002,boe,BOE-A-2002-14081,in_force,2026-10-05,"Ley 13/2002 de turismo de Cataluña, art. 73.5 (number in all advertising) and art. 88 u) ter, quoted as in force and unchanged; art. 50 bis. Ley 11/2026, de 9 de julio (DOGC-f-2026-90190, in force 14 July 2026, after both windows), adds only art. 50 sexies (shared homes: at most four tourist guests); read in the DOGC text on 2026-10-05"
+turismo-cv-15-2018,boe,BOE-A-2018-8950,in_force,2026-10-05,Ley 15/2018 de turismo de la Comunitat Valenciana
+turismo-and-13-2011,boe,BOE-A-2012-876,in_force,2026-10-05,Ley 13/2011 del Turismo de Andalucía
+turismo-mad-1-1999,boe,BOE-A-1999-12089,in_force,2026-10-05,"Ley 1/1999 de Ordenación del Turismo de la Comunidad de Madrid (the study reads that it does not require a number in advertising)"
+insideairbnb,url,https://insideairbnb.com/get-the-data/,reachable,2026-10-05,Inside Airbnb snapshots (listings source; snapshots listed in data/sources.json)
+rtc,url,https://analisi.transparenciacatalunya.cat/d/t2h3-cgys,reachable,2026-10-05,Registre de Turisme de Catalunya (open registry copy)
+gva,url,https://dadesobertes.gva.es/dataset/tur-gestur-vt,reachable,2026-10-05,Viviendas turísticas de la Comunitat Valenciana (open registry)
+openrta,url,https://www.juntadeandalucia.es/datosabiertos/portal/dataset/openrta,reachable,2026-10-05,OpenRTA (Registro de Turismo de Andalucía)

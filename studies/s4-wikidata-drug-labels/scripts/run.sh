@@ -15,4 +15,5 @@ python3 scripts/03_detect.py
 python3 scripts/04_sample.py > data/review_sheet.txt
 python3 scripts/05_metrics.py > /dev/null
 python3 scripts/06_corrections.py
-echo "done: data/flags.csv data/metrics.json data/tables.md corrections.qs corrections.csv"
+python3 scripts/summarize.py           # data/summary.json, the figures claims.csv checks (offline)
+echo "done: data/flags.csv data/metrics.json data/summary.json data/tables.md corrections.qs corrections.csv"

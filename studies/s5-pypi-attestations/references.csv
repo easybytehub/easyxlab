@@ -1,0 +1,10 @@
+id,kind,identifier,we_say,checked_on,note
+pep740,url,https://peps.python.org/pep-0740/,reachable,2026-10-05,"PEP 740, Index support for digital attestations"
+pypi-attestations-docs,url,https://docs.pypi.org/attestations/producing-attestations/,reachable,2026-10-05,when attestations are produced
+pypi-integrity-api,url,https://docs.pypi.org/api/integrity/,reachable,2026-10-05,"Integrity API, publisher identity per file"
+hugovk-top,url,https://hugovk.github.io/top-pypi-packages/,reachable,2026-10-05,"top-15,000 list of 2026-10-01 (pinned commit)"
+npm-high-impact,github,wooorm/npm-high-impact@1.13.0,latest,2026-10-05,npm sample source (lib/top-download.js)
+tob-pep740,url,https://trailofbits.github.io/are-we-pep740-yet/,reachable,2026-10-05,Trail of Bits tracker compared on 360 packages
+gh-action-pypi-publish,url,https://github.com/pypa/gh-action-pypi-publish,reachable,2026-10-05,attestations on by default from v1.11
+uv-docs,url,https://docs.astral.sh/uv/,reachable,2026-10-05,uv publish documentation
+npm-provenance-docs,url,https://docs.npmjs.com/generating-provenance-statements,reachable,2026-10-05,npm provenance; data read from registry.npmjs.org/-/npm/v1/attestations/<pkg>@<version>

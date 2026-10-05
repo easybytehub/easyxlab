@@ -121,7 +121,8 @@ def fragments(m: dict, prior: dict) -> tuple[dict, dict]:
         "some sha": f"{A['repos_with_some_sha']} repositories of A and {B['repos_with_some_sha']}",
         "own": f"{A['own_latest_release_immutable']['text']} in A and {B['own_latest_release_immutable']['text']} in B",
         "sbom": f"{A['own_latest_release_sbom_asset']['text']} and {B['own_latest_release_sbom_asset']['text']}",
-        "movable share": f"go to the movable tag {round(100 * A['H1']['mutable'] / A['H1']['n'])}% of the time",
+        "movable share": f"go to a movable tag {round(100 * A['H1']['mutable'] / A['H1']['n'])}% of the time in A "
+                         f"({A['H1']['mutable']:,} of {A['H1']['n']:,})",
     })
     return readme, paper
 

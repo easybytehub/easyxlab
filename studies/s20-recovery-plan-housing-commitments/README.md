@@ -7,9 +7,11 @@
 
 A Council Implementing Decision (CID) fixes what Spain committed to deliver in exchange for
 EU recovery funds. The Commission proposed 10 versions of Spain's CID between June 2021 and
-August 2026. We extracted every social- and affordable-housing measure, milestone and target
-from each version and diffed the literal texts. That covers four housing measures, ten
-milestones and targets, and the sentence that restates the number of dwellings.
+August 2026. We extracted every measure, milestone and target dedicated to social and
+affordable housing from each version and diffed the literal texts. That covers four housing
+measures, ten milestones and targets, and the sentence that restates the number of dwellings;
+the Regional Resilience Fund, which lists housing among seven priority areas, is tracked as
+context.
 
 **The dwelling target (target 31).** It went from 20,000 to 17,365, then to 15,718: −21.4%,
 "because of inflation". Its wording changed in three steps:
@@ -37,7 +39,7 @@ and the ICO milestone are 2 of the 5, out of 480 milestones and targets, that lo
 
 **Cost estimates.** The Commission's estimate of the dwelling programme's cost went from
 €1,000 million to €1,920 million, then to €1,885 million. No Commission text we read explains
-the change; inflation is the only reason stated for the measure. The ECA found the same
+the change; in those two amendments, inflation is the only reason stated for the measure. The ECA found the same
 pattern, target down and estimated cost up, for a Lithuanian renovation measure.
 
 Between consecutive versions we count 19 item-level changes, 2 of them spacing only, in four

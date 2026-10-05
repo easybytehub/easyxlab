@@ -179,6 +179,37 @@ def main():
                             ("emancipated_pct", "market_tenant_pct", "share_of_young_tenants_pct", "tenants_overburden_pct")
                             if r[k] != ""} for r in sel
                             if r["year"] in ("2008", "2019", "2021", "2025")}
+    # ---- keys the abstracts quote, so that every number the text shows has a key ----
+    # falls as positive points, from the changes above (the text writes «fell by 13.3 points»)
+    S["falls_2021_2025_pp"] = {k: -S[f"{k}_change_2021_2025"]["pp"] for k in ("tenants_35_49", "tenants_50_64", "young_18_34")}
+    S["falls_2021_2025_pp"]["young_composition"] = -S["decomposition"]["young_18_34_2021_2025"]["composition_pp"]
+    # «tenants of every age»: the four adult groups of tenants in data/tenants_by_age.csv (young people living
+    # with their parents and persons under 18 live in tenant households but are not tenants in their own right)
+    tba = load("tenants_by_age.csv")
+    fa = {g: round(F(one(tba, year=2021, age_group=g)["overburden_pct"]) - F(one(tba, year=2025, age_group=g)["overburden_pct"]), 1)
+          for g in ("18-34_emancipated", "35-49", "50-64", "65_plus")}
+    S["falls_2021_2025_pp"]["adult_tenant_groups"] = {**fa, "min": min(fa.values()), "max": max(fa.values()), "n": len(fa)}
+    # Eurostat's own published series (ilc_lvps08, Spain, 18-34), for «the highest in its series»
+    es = [r for r in load("eurostat_series.csv") if r["table"] == "ilc_lvps08" and r["geo"] == "ES" and r["group"] == "Y18-34"]
+    S["living_with_parents"]["eurostat_series_18-34"] = {
+        "first_year": min(int(r["year"]) for r in es), "last_year": max(int(r["year"]) for r in es),
+        "value_2025": F(one(es, year=2025)["value"]),
+        "max_before_2025": max(F(r["value"]) for r in es if int(r["year"]) < 2025)}
+    alone = one(load("young_tenants_breakdown.csv"), year="2025", age_band="18-34", breakdown="household_type", value="alone")
+    S["young_alone_2025"] = {"n": int(alone["n"]), "overburden_pct": F(alone["overburden_pct"])}
+    # the CJE's own ECV figures as numbers (cje_own keeps the table as written)
+    hh070 = [r for r in own if r["measure"].startswith("mean monthly housing cost HH070") and r["households"].startswith("an emancipated member")]
+    S["cje_numbers"] = {"cje_housing_cost": F(hh070[0]["cje"]),
+                        "ours_housing_cost_min": min(F(r["ours"]) for r in hh070), "ours_housing_cost_max": max(F(r["ours"]) for r in hh070),
+                        "cje_overburden": F(one(own, measure="share with 12 x HH070 > 40% of HY020 (CJE definition)",
+                                                variant="age at interview; tenure 3 or 4", households="an emancipated member aged 16-29")["cje"]),
+                        "cje_30": F([r for r in own if r["measure"].startswith("the CJE's 30%")][0]["cje"])}
+    # dates, age bands and parameters (paper §2-§3; data/fieldwork.csv; CJE method)
+    S["text"] = {"age_band": "18–34", "age_band_cje": "16–29", "overburden_threshold": 0.4, "survey_year": 2025,
+                 "cje_chart_years": "2006–2025", "fieldwork_autumn": "2017–2021", "fieldwork_spring": "2023–2025",
+                 "panel_years": "2022–2025", "cje_flat_m2": 80, "cap_ige_until": 2023, "cap_2024_rate": 0.03,
+                 "newtral": "30 September 2026", "eldiario": "29 September 2026", "datosrtve": "2 October 2026",
+                 "fedea": "September 2026"}
     with open(D / "summary.json", "w", encoding="utf-8") as f:
         json.dump(S, f, ensure_ascii=False, indent=1, sort_keys=True)
     print("summary.json written")

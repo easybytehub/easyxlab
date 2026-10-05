@@ -16,7 +16,7 @@ workflow (its Trusted Publisher). Not attesting is the norm. We measured, on 202
 Of the 14,995 projects we could analyse, 11,336 (75.6%) have never uploaded an attested file.
 
 **Adoption.** The latest version is attested for 3,479 of 14,995 projects (23.2%), and for 31.1% of
-those whose latest version was first uploaded after 2024-10-01. By rank band:
+those whose latest version was first uploaded on or after 2024-10-01. By rank band:
 
 | ranks | latest version attested |
 |---|---|
@@ -28,7 +28,7 @@ September 2026). We agree with Trail of Bits' *Are we PEP 740 yet?* on 359 of it
 
 **Projects that stopped.** 148 projects uploaded an attested file and later released without one.
 For 138, the line `pip` installs had attestations and its latest version has none: 3.8% of the
-3,659 projects that ever attested. By cause:
+3,659 projects that ever attested. By probable cause:
 
 | cause | projects |
 |---|---|
@@ -48,11 +48,11 @@ cross repositories or publisher kinds:
 - 16 are consistent with the project's own metadata;
 - 12, in 5 projects, are not confirmed.
 
-**npm.** 30.8% of the top 1,000 publish provenance; 4 of 459 packages that ever did (0.9%) stopped.
+**npm.** 30.8% of the top 1,000 publish provenance; of the 459 packages in the 1,500-package sample that ever did, 4 (0.9%) stopped.
 
 **Prior work.** The closest existing measurement is Trail of Bits' tracker, which covers the top
 360 PyPI packages by latest release. This study adds the distribution beyond those 360, the history,
-the stops and their causes, and the publisher audit ([the paper](https://easybyte.es/lab/studies/s5/paper/) §2).
+the stops and their probable causes, and the publisher audit ([the paper](https://easybyte.es/lab/studies/s5/paper/) §2).
 
 **Automation and review.** AI agents ran the study and wrote the text. An independent AI reviewer
 checked it ([the paper](https://easybyte.es/lab/studies/s5/paper/) §4.1).

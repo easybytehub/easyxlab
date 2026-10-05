@@ -1,0 +1,269 @@
+{
+ "_about": "S18 figures from data/ (scripts/summarize.py, reusing 06_analyse.compute); full precision",
+ "dates": {
+  "ga": "2025-10-28",
+  "public_preview": "2025-08-26",
+  "roadmap": "2026-03-26",
+  "roadmap_preview_window": "3-6 months",
+  "ensure_immutable_actions_since": "2025-11",
+  "datosh_immutability_check": "April 2026",
+  "collection": "2026-10-03"
+ },
+ "population": {
+  "a_cutoff_stars": 29565,
+  "seed": 20261003,
+  "frame_sizes": {
+   "A": 1686,
+   "B": 20553
+  },
+  "population_sizes": {
+   "A": 1000,
+   "B": 500
+  },
+  "pushed_since": "2026-07-05",
+  "recent_days": 90,
+  "b_stars_min": 1000,
+  "b_stars_max": 5000
+ },
+ "A": {
+  "repos": {
+   "with_remote_refs": 891
+  },
+  "uses": {
+   "remote": 58690
+  },
+  "verdicts": {
+   "sha": 32868,
+   "sha_unresolvable": 110,
+   "immutable_tag": 333,
+   "mutable_tag": 23720,
+   "branch": 1632,
+   "unresolved": 27
+  },
+  "immutable_tag_share": 0.005673879706934742,
+  "H1": {
+   "protected": 312,
+   "n": 6898,
+   "share": 0.04523050159466512,
+   "ci95_lo_pct": 2.758511979823455,
+   "ci95_hi_pct": 7.088285229202038,
+   "mutable": 6586,
+   "alt": 3238,
+   "alt_share": 0.4916489523231096,
+   "alt_ci95_lo_pct": 43.200589970501476,
+   "alt_ci95_hi_pct": 55.970149253731336,
+   "top_contributor_protected": 68,
+   "loo_min_pct": 3.6287923854848305,
+   "loo_max_pct": 4.628938330595789,
+   "published_refs": 5329,
+   "mutable_nonmajor_upper_bound": 219,
+   "mutable_major_lower_bound": 6367
+  },
+  "sha_share": {
+   "x": 32978,
+   "n": 58690,
+   "share": 0.5619015164423241,
+   "ci95_lo_pct": 50.69990735281732,
+   "ci95_hi_pct": 61.655374165671915
+  },
+  "sha_share_without_top1": {
+   "x": 31826,
+   "n": 57538,
+   "share": 0.5531301053217005,
+   "dropped_refs": [
+    1152
+   ],
+   "dropped_named": [
+    "PostHog/posthog"
+   ]
+  },
+  "sha_share_per_repo_median": 0.05,
+  "H3": {
+   "all_sha": 263,
+   "n": 891,
+   "share": 0.2951739618406285,
+   "with_unread_local_actions": 89,
+   "lower_bound": 174,
+   "lower_share": 0.19528619528619529
+  }
+ },
+ "B": {
+  "repos": {
+   "with_remote_refs": 398
+  },
+  "uses": {
+   "remote": 10472
+  },
+  "verdicts": {
+   "sha": 4806,
+   "sha_unresolvable": 6,
+   "immutable_tag": 87,
+   "mutable_tag": 5178,
+   "branch": 386,
+   "unresolved": 9
+  },
+  "immutable_tag_share": 0.008307868601986249,
+  "H1": {
+   "protected": 76,
+   "n": 1564,
+   "share": 0.04859335038363171,
+   "ci95_lo_pct": 2.3955147808358817,
+   "ci95_hi_pct": 8.216783216783217,
+   "mutable": 1488,
+   "alt": 743,
+   "alt_share": 0.4993279569892473,
+   "alt_ci95_lo_pct": 42.61119081779053,
+   "alt_ci95_hi_pct": 56.76229508196722,
+   "top_contributor_protected": 18,
+   "loo_min_pct": 3.7516170763260024,
+   "loo_max_pct": 5.149051490514905
+  },
+  "sha_share": {
+   "x": 4812,
+   "n": 10472,
+   "share": 0.459511077158136,
+   "ci95_lo_pct": 28.994929137953452,
+   "ci95_hi_pct": 60.07679111183727
+  },
+  "sha_share_without_top1": {
+   "x": 3421,
+   "n": 9080,
+   "share": 0.37676211453744496,
+   "dropped_refs": [
+    1392
+   ],
+   "dropped_named": [
+    "open-telemetry/opentelemetry-python"
+   ]
+  },
+  "sha_share_per_repo_median": 0.0,
+  "H3": {
+   "all_sha": 65,
+   "n": 398,
+   "share": 0.16331658291457288,
+   "with_unread_local_actions": 10,
+   "lower_bound": 55,
+   "lower_share": 0.13819095477386933
+  }
+ },
+ "H2": {
+  "top": 50,
+  "latest_immutable": 28,
+  "share": 0.56,
+  "action_repos_referenced_A": 1229,
+  "first_party_all_n": 34,
+  "first_party_actions": {
+   "x": 12,
+   "n": 28,
+   "share": 0.42857142857142855,
+   "immutable": [
+    "actions/attest",
+    "actions/attest-build-provenance",
+    "actions/attest-sbom",
+    "actions/create-github-app-token",
+    "actions/labeler",
+    "actions/setup-dotnet",
+    "actions/setup-go",
+    "actions/setup-java",
+    "actions/setup-node",
+    "actions/setup-python",
+    "actions/stale",
+    "actions/upload-code-coverage"
+   ],
+   "mutable": [
+    "actions/add-to-project",
+    "actions/ai-inference",
+    "actions/cache",
+    "actions/checkout",
+    "actions/configure-pages",
+    "actions/create-release",
+    "actions/delete-package-versions",
+    "actions/dependency-review-action",
+    "actions/deploy-pages",
+    "actions/download-artifact",
+    "actions/first-interaction",
+    "actions/github-script",
+    "actions/jekyll-build-pages",
+    "actions/upload-artifact",
+    "actions/upload-pages-artifact",
+    "actions/upload-release-asset"
+   ]
+  },
+  "first_party_github": {
+   "x": 3,
+   "n": 6,
+   "share": 0.5,
+   "immutable": [
+    "github/codeql-action",
+    "github/gh-aw",
+    "github/gh-aw-actions"
+   ],
+   "mutable": [
+    "github/ai-assessment-comment-labeler",
+    "github/ai-moderator",
+    "github/issue-labeler"
+   ]
+  }
+ },
+ "prior": {
+  "koishybayev_usenix22": {
+   "third_party_refs": 601338,
+   "tag_pct": 78.8,
+   "branch_pct": 20,
+   "commit_hash": 6539,
+   "commit_hash_pct_table": 1,
+   "commit_hash_pct_text": 0.1,
+   "repos_following_guideline": "less than 2%"
+  },
+  "decan_icsme22": {
+   "other_repo_steps_version_tag": 258647,
+   "version_tag_pct": 93.0,
+   "branch_or_tag_pct": 5.3,
+   "commit_sha": 4601,
+   "commit_sha_pct": 1.7
+  },
+  "huang_lin_icpc25": {
+   "workflows": 18938,
+   "repositories": 5246,
+   "unverified_unpinned_issues_2024": 16439
+  },
+  "kubo_ndss26": {
+   "repositories": 338812,
+   "p4_target": 233124,
+   "p4_implemented": 37693,
+   "p4_pct": 16.2,
+   "p4_definition": "every third-party action referenced by a full 40-character SHA, or by a tag of a creator with a verified badge"
+  },
+  "chaiwut_secdev25": {
+   "actions": "over 23K",
+   "months": 4
+  },
+  "datosh_page": {
+   "fully_pinned_pct_stated": 7,
+   "top_repos": 10000,
+   "updated": "April 2026"
+  },
+  "datosh_archive_april_2026": {
+   "entries": 9998,
+   "using_actions": 6290,
+   "fully_pinned": 506,
+   "fully_pinned_pct": 8.0,
+   "first_1000_using_actions": 781,
+   "first_1000_fully_pinned": 100,
+   "first_1000_pct": 12.8,
+   "fields": [
+    "actions_pinned",
+    "actions_total",
+    "has_dependabot",
+    "has_renovate",
+    "repository"
+   ],
+   "note": "no immutability field in this archive; pinned = 40-hex SHA or sha256 image digest"
+  }
+ },
+ "prior_derived": {
+  "datosh_share": 0.08044515103338633,
+  "datosh_first_1000_share": 0.12804097311139565,
+  "kubo_ndss26_share": 0.16168648444604589
+ }
+}

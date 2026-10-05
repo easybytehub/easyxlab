@@ -23,4 +23,5 @@ else
 fi
 $PY -m unittest discover -s ../tests -q
 $PY 06_analyse.py          # -> data/metrics.json, data/tables.md (asserts the verdicts are reproduced)
+$PY summarize.py           # -> data/summary.json, the figures of claims.csv at full precision
 $PY check_headline.py      # asserts every headline number in README.md (and paper.md if present)

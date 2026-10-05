@@ -222,5 +222,55 @@
   },
   "added_covered": 51,
   "added_without": 52
- }
+ },
+ "period_long": {
+  "start": "1 January 2025",
+  "end": "30 September 2026"
+ },
+ "period_months": {
+  "start": "January 2025",
+  "end": "September 2026"
+ },
+ "lots_not_covered": 2527,
+ "declared_exemptions_by_scope": {
+  "excluded": 21,
+  "undeterminable": 2
+ },
+ "covered_land_garage_storage": 0,
+ "covered_with_exclusion_category": 0,
+ "lots_shell_premises": 0,
+ "covered_by_seller_lot_type": {
+  "FOGASA": {
+   "residential": 3,
+   "commercial": 2
+  },
+  "GIESE (Interior)": {
+   "building": 12,
+   "residential": 9
+  },
+  "INVIED (Defensa)": {
+   "commercial": 83,
+   "building": 3
+  },
+  "Patrimonio del Estado (DEH)": {
+   "residential": 28,
+   "commercial": 3,
+   "unit_in_building": 2
+  },
+  "Port authorities": {
+   "building": 1
+  },
+  "TGSS": {
+   "commercial": 101,
+   "residential": 36,
+   "unit_in_building": 12,
+   "building": 8,
+   "industrial_agricultural": 3
+  }
+ },
+ "independent_recheck": {
+  "lots": 40,
+  "agreed": 40
+ },
+ "rules_development_year": 2024
 }

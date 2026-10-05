@@ -1,0 +1,8 @@
+id,kind,identifier,we_say,checked_on,note
+mica,eurlex,32023R1114,in_force,2026-10-05,"Regulation (EU) 2023/1114 (MiCA), Arts. 6(10), 6(11), 8(7), 9(1), 19(10), 51(10); consolidated text 02023R1114-20240109"
+esap-2023-2869,eurlex,32023R2869,in_force,2026-10-05,"Regulation (EU) 2023/2869, the only amendment of MiCA (Art. 110a, ESAP, from 10 January 2030)"
+its-2024-2984,eurlex,32024R2984,in_force,2026-10-05,"Commission Implementing Regulation (EU) 2024/2984 (white-paper format: XHTML + Inline XBRL 1.1), applies from 23 December 2025; the paper says it has no amendment"
+esma-register-other,url,https://www.esma.europa.eu/sites/default/files/2024-12/OTHER.csv,reachable,2026-10-05,"ESMA interim MiCA register, OTHER.csv (key data source; EMTWP.csv alongside)"
+esma-taxonomy-2025,url,https://www.esma.europa.eu/sites/default/files/2025-08/mica_taxonomy_2025.zip,reachable,2026-10-05,"ESMA MiCA XBRL taxonomy package, published 5 August 2025"
+arelle-2.46.0,url,https://pypi.org/project/arelle-release/2.46.0/,reachable,2026-10-05,"Arelle version used for validation (arelle-release 2.46.0, pinned in requirements.txt); the study states the version used, not that it is the latest"
+gleif-api,url,https://api.gleif.org/api/v1/lei-records/39120077M9TG0O1FE242,reachable,2026-10-05,"GLEIF LEI records API (data source for LEI status), example record of the main producer"

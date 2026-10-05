@@ -10,9 +10,9 @@ re-reading); the regex-only count is reported next to it.
 Writes data/summary.json, data/by_fact.csv, data/by_area.csv, data/by_age.csv, data/citation_types.csv,
 data/stability.csv, data/f16_case.csv. Stdlib only.
 """
-import csv, json, math
+import csv, json, math, re
 from collections import Counter, defaultdict
-from datetime import date
+from datetime import date, datetime
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -35,6 +35,13 @@ def pct(k, n):
     return round(100 * k / n, 1) if n else None
 
 
+def wilson_share(k, n, z=1.96):
+    """Wilson 95% interval as unrounded fractions (claims.csv rounds them with its fmt)."""
+    p = k / n; den = 1 + z * z / n; c = (p + z * z / (2 * n)) / den
+    h = z * math.sqrt(p * (1 - p) / n + z * z / (4 * n * n)) / den
+    return [max(0.0, c - h), min(1.0, c + h)]
+
+
 def rows(name):
     return list(csv.DictReader(open(D / name, encoding="utf-8")))
 
@@ -51,6 +58,92 @@ def kappa(pairs):
     ca, cb = Counter(a for a, _ in pairs), Counter(b for _, b in pairs)
     pe = sum(ca[k] * cb[k] for k in set(ca) | set(cb)) / (n * n)
     return round((po - pe) / (1 - pe), 3) if pe < 1 else 1.0, round(100 * po, 1)
+
+
+def kappa_exact(pairs):
+    """Cohen's kappa unrounded (the summary also keeps the 3-decimal value of kappa())."""
+    n = len(pairs)
+    po = sum(a == b for a, b in pairs) / n
+    ca, cb = Counter(a for a, _ in pairs), Counter(b for _, b in pairs)
+    pe = sum(ca[k] * cb[k] for k in set(ca) | set(cb)) / (n * n)
+    return (po - pe) / (1 - pe) if pe < 1 else 1.0
+
+
+MONTHS_EN = ("January", "February", "March", "April", "May", "June", "July", "August", "September",
+             "October", "November", "December")
+MONTHS_ES = ("enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre",
+             "octubre", "noviembre", "diciembre")
+
+
+def one(rx, text, what):
+    m = re.search(rx, text)
+    if not m:
+        raise SystemExit(f"aggregate.py: {what} not found (pattern {rx!r})")
+    return m.group(1)
+
+
+def abstract_figures(S, facts, A_all):
+    """Figures the abstracts state that claims.csv checks (added 2026-10-05). Legal values are read
+    from data/facts.json and from the notes of references.csv, never typed here."""
+    S["queries_total"] = len({a["qid"] for a in A_all})
+    S["facts_total"] = len(facts)
+    changed = [f for f in facts.values() if f["since"][:1].isdigit()]
+    S["facts_changed"] = len(changed)
+    scored = {a["fact_id"] for a in A_all if a["fact_id"] != CASE}
+    # «A regex script classified every answer»: every answered response carries a rule verdict
+    S["answered_all"] = sum(a["has_answer"] for a in A_all)
+    S["rule_classified_answers"] = sum(a["has_answer"] and a["rule_verdict"] not in ("", "no_answer") for a in A_all)
+    S["rule_verdict_missing"] = sum(not a["rule_verdict"] for a in A_all)
+    S["facts_scored_changed"] = sum(facts[f]["since"][:1].isdigit() for f in scored)  # 27 scored minus the control F05
+    years = sorted({f["since"][:4] for f in changed})
+    S["changed_years"] = f"{years[0]}–{years[-1]}"
+    days = {a["fetched_at"][:10] for a in A_all}
+    assert len(days) == 1, days
+    d = date.fromisoformat(days.pop())
+    S["readings_date"] = f"{d.day} {MONTHS_EN[d.month - 1]} {d.year}"
+    S["wrong_total"] = S["pooled"]["aio"]["wrong"] + S["pooled"]["mode"]["wrong"]
+    by_fact = Counter(e["fact_id"] for e in S["errors"])
+    S["errors_by_fact"] = dict(by_fact.most_common())
+    S["errors_top3_facts"] = sum(n for _, n in by_fact.most_common(3))
+    f16 = S["f16_case"]
+    S["f16_totals"] = {"outdated": sum(r["outdated"] for r in f16),
+                       "outdated_mode": sum(r["outdated"] for r in f16 if r["surface"] == "mode"),
+                       "given": sum(r[v] for r in f16 for v in ("current", "outdated", "mixed", "not_stated"))}
+    S["reread_total"] = S["review"]["items"] + S["fn_check"]["n"]
+    S["full_review_facts"] = len({r["fact_id"] for r in rows_csv(D / "review_agent.csv") if r["scope"] != "flagged"})
+    header = open(D / "facts_in_force.csv", encoding="utf-8").readline()
+    S["fact_sheet_version"] = int(one(r"v\d+_to_v(\d+)", header, "fact-sheet version (facts_in_force.csv)"))
+    # «repealed on 2 October, before the first reading»: time of the BOE PDF that published the repeal
+    # (facts_in_force.csv, F16) against the first response of reading 1
+    f16_row = next(r for r in rows_csv(D / "facts_in_force.csv") if r["fact_id"] == CASE)
+    f16_cell = next(v for k, v in f16_row.items() if k.startswith("rule_in_force_reading1"))
+    assert f"{d.day}-{MONTHS_ES[d.month - 1][:3]}-{d.year}" in f16_cell, f16_cell
+    hms = one(r"PDF de las (\d{2}:\d{2}:\d{2}) UTC", f16_cell, "F16 repeal time")
+    repeal = datetime.fromisoformat(f"{d.isoformat()}T{hms}+00:00")
+    first = datetime.fromisoformat(min(a["fetched_at"] for a in A_all if str(a["reading"]) == "1"))
+    S["f16_repeal_minutes_before_first_reading"] = (first - repeal).total_seconds() / 60
+    refs = {r["id"]: r for r in rows_csv(ROOT / "references.csv")}
+    order = next(r for r in refs.values() if "(F28)" in r["note"] and "Orden" in r["note"])
+    rdl26 = next(r for r in refs.values() if "RDL 26/2026" in r["note"])
+    f25_old = " ".join(facts["F25"]["old_patterns"])  # regexes the classifier used for the superseded rule
+    f25_cur = " ".join(facts["F25"]["cur_patterns"])
+    old_month, old_year = re.search(r"(" + "|".join(MONTHS_ES) + r") de (\d{4})", f25_old).groups()
+    S["legal"] = {
+        "f05_hours": one(r"(\d+(?:\.\d+)?)h bill", facts["F05"]["topic"], "F05 hours"),
+        "f16_cap_pct": int(one(r"(\d+)% cap", facts["F16"]["topic"], "F16 cap")),
+        "f16_reimposed": one(r"re-imposed (\d{1,2} [A-Z][a-z]+)", rdl26["note"], "RDL 26/2026 re-imposition"),
+        "f16_repealed": one(r"repealed (\d{1,2} [A-Z][a-z]+) \d{4}", rdl26["note"], "RDL 26/2026 repeal"),
+        "f25_months_old": int(one(r"\((\d+)\|veinticuatro\) meses", f25_old, "F25 old months")),
+        "f25_months_new": int(one(r"\((\d+)\|doce\) meses", f25_cur, "F25 new months")),
+        "f25_old_deadline": f"{MONTHS_EN[MONTHS_ES.index(old_month)]} {old_year}",
+        "f28_order": one(r"Orden (HAC/\d+/\d{4})", order["note"], "F28 order"),
+        "f28_order_boe": order["identifier"],
+        "f28_order_published": one(r"published (\d{1,2} [A-Z][a-z]+ \d{4})", order["note"], "F28 publication date"),
+    }
+
+
+def rows_csv(path):
+    return list(csv.DictReader(open(path, encoding="utf-8")))
 
 
 def main():
@@ -88,11 +181,16 @@ def main():
             "wrong_without_invoicing": sum(a["final_verdict"] in WRONG for a in an if a["fact_id"] not in ("F26", "F27", "F28")),
             "answered_without_invoicing": sum(1 for a in an if a["fact_id"] not in ("F26", "F27", "F28")),
             "cites_boe_pct": pct(sum(a["cites_boe"] for a in an), len(an)),
+            "wrong_share": w / len(an), "wrong_ci95_share": wilson_share(w, len(an)),
+            "cites_boe_share": sum(a["cites_boe"] for a in an) / len(an),
             "cites_official_pct": pct(sum(a["cites_official"] for a in an), len(an)),
             "wrong_if_official": [sum(a["final_verdict"] in WRONG for a in an if a["cites_official"]), sum(a["cites_official"] for a in an)],
             "wrong_if_not_official": [sum(a["final_verdict"] in WRONG for a in an if not a["cites_official"]), sum(not a["cites_official"] for a in an)]}
     S["pooled"]["aio"]["presence_range_pct"] = [min(S["readings"][n]["aio"]["presence_pct"] for n in readings),
                                                  max(S["readings"][n]["aio"]["presence_pct"] for n in readings)]
+    S["pooled"]["aio"]["presence_range_share"] = [
+        f(len([a for a in A if a["reading"] == n and a["surface"] == "aio" and a["has_answer"]])
+          / len([a for a in A if a["reading"] == n and a["surface"] == "aio"]) for n in readings) for f in (min, max)]
     S["errors"] = [{k: a[k] for k in ("reading", "qid", "fact_id", "surface", "rule_verdict", "final_verdict", "extract")}
                    for a in sorted(ans, key=lambda a: (a["fact_id"], a["qid"], a["surface"], a["reading"])) if a["final_verdict"] in WRONG]
 
@@ -130,8 +228,11 @@ def main():
         allp = [p for v in pairs.values() for p in v]
         k5, ag = kappa(allp)
         kb, agb = kappa([(a in WRONG, b in WRONG) for a, b in allp])
-        S["second_reader"] = {"n": len(allp), "agreement_pct": ag, "kappa": k5, "binary_wrong_agreement_pct": agb,
+        S["second_reader"] = {"n": len(allp), "categories": len({x for pr in allp for x in pr}),
+                              "agreement_pct": ag, "kappa": k5, "binary_wrong_agreement_pct": agb,
                               "binary_wrong_kappa": kb,
+                              "kappa_exact": kappa_exact(allp),
+                              "binary_wrong_kappa_exact": kappa_exact([(a in WRONG, b in WRONG) for a, b in allp]),
                               "per_stratum": {st: {"n": len(v), "agreement_pct": pct(sum(a == b for a, b in v), len(v)),
                                                    "binary_agreement_pct": pct(sum((a in WRONG) == (b in WRONG) for a, b in v), len(v)),
                                                    "disagreements": dict(Counter(f"{a}->{b}" for a, b in v if a != b))}
@@ -171,6 +272,7 @@ def main():
             ct.append({"surface": s, "type": t, "references": k, "pct": pct(k, len(xs))})
         S["pooled"][s].update({"references": len(xs), "distinct_domains": len({c["domain"] for c in xs}),
                                "forum_social_pct": pct(sum(c["type"] == "forum_social" for c in xs), len(xs)),
+                               "forum_social_share": sum(c["type"] == "forum_social" for c in xs) / len(xs),
                                "yt_fb_ig_pct": pct(sum(c["domain"] in SOCIAL for c in xs), len(xs)),
                                "top_domains": Counter(c["domain"] for c in xs).most_common(8)})
     write("citation_types.csv", ct)
@@ -212,6 +314,7 @@ def main():
                        "control_n": sum(x["group"] == "control" for x in att),
                        "control_strict_in_source": sum(x["group"] == "control" and x["attribution"] == "in_source" for x in att),
                        "control_loose_in_source": sum(x["group"] == "control" and x.get("attribution_loose") == "in_source" for x in att)}
+    abstract_figures(S, facts, A_all)
     (D / "summary.json").write_text(json.dumps(S, ensure_ascii=False, indent=1))
     print(json.dumps(S["pooled"], ensure_ascii=False)[:1800])
 

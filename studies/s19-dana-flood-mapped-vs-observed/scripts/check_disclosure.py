@@ -5,7 +5,8 @@
 
 Checks:
 1. No published table cell represents 1-4 buildings (buildings with dwellings, or all buildings).
-2. summary.json holds no count of 1-4.
+2. summary.json holds no count of 1-4 (its 'text' block of dates, citations and parameters is not
+   counts and is skipped).
 3. No suppressed value ('<5') can be recovered exactly from the published files. The test builds
    every linear relation the files imply, from their meaning (a municipal total is the sum of its
    cells; a province cell is the sum over municipalities; summary totals are sums of by_year
@@ -205,6 +206,8 @@ def main():
     J = json.load(open(D / "summary.json", encoding="utf-8"))
 
     def scan(o, path=""):
+        if path == ".text":  # dates, legal citations and method parameters the text quotes: not counts
+            return
         if isinstance(o, dict):
             for k, v in o.items():
                 scan(v, f"{path}.{k}")

@@ -1,0 +1,16 @@
+id,kind,identifier,we_say,checked_on,note
+lo-1-2025,boe,BOE-A-2025-76,in_force,2026-10-05,"Ley Orgánica 1/2025, de 2 de enero; final provision 21 empties arts. 63–67 of Ley 14/2013 from 3 Apr 2025"
+ley-14-2013,boe,BOE-A-2013-10074,in_force,2026-10-05,"Ley 14/2013, de apoyo a los emprendedores; arts. 63–67 (golden visa) emptied by LO 1/2025, the law itself in force"
+ley-20-2022,boe,BOE-A-2022-17099,in_force,2026-10-05,"Ley 20/2022, de Memoria Democrática, additional provision 8 (paper §2)"
+itp-ajd,boe,BOE-A-1993-25359,in_force,2026-10-05,"Real Decreto Legislativo 1/1993, texto refundido ITP-AJD: no rule on non-EU buyers on 4 Oct 2026"
+rdl-26-2026,boe,BOE-A-2026-20266,repealed,2026-10-05,"Real Decreto-ley 26/2026, de 29 de septiembre (housing decree-law): repealed by the Congress on 2 Oct 2026 (BOE-A-2026-20526)"
+rdl-27-2026,boe,BOE-A-2026-20385,repealed,2026-10-05,"Real Decreto-ley 27/2026, de 29 de septiembre (rental contracts): repealed by the Congress on 2 Oct 2026 (BOE-A-2026-20527)"
+rdl-26-repeal,boe,BOE-A-2026-20526,published,2026-10-05,Resolución de 2 de octubre de 2026 del Congreso: derogación del RDL 26/2026
+rdl-27-repeal,boe,BOE-A-2026-20527,published,2026-10-05,Resolución de 2 de octubre de 2026 del Congreso: derogación del RDL 27/2026
+cat-dleg-1-2024,boe,BOE-A-2024-6951,in_force,2026-10-05,"Decreto Legislativo 1/2024 (Catalonia), Código tributario, libro sexto, art. 641-1 (transfer-tax scale); amended again by Ley 11/2026, de 9 de julio (DOGC-f-2026-90190; DOGC 9706 of 13 Jul 2026, in force 14 Jul 2026), whose art. 37.6 and 37.7 rewrite paragraph 5.a (who counts as a large holder) and paragraph 6 (the 20% rate on whole buildings, and how it is settled when a building is bought in stages) of art. 641-1; the scale of paragraph 1 is unchanged. The same law repeals transitional provision 3 (stamp-duty bonus for housing cooperatives) and art. 684-2, which the study does not cite (the DOGC text places «effects from 1 February 2027» after the repeal of art. 684-2; boe.es's analysis attaches it to transitional provision 3). Errata in DOGC 9763 of 2 Oct 2026 (DOGC-f-2026-90237) corrects other provisions, not art. 37 nor these repeals. Dated in README «Regional tax» and paper §2.5 and §5.6"
+cat-dl-5-2025,boe,BOE-A-2025-10270,published,2026-10-05,"Decreto-ley 5/2025, de 25 de marzo (Catalonia): new transfer-tax scale from 27 Jun 2025 (amending act)"
+pt-dl-14-2021,url,https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=3378&tabela=leis,reachable,2026-10-05,Decreto-Lei n.º 14/2021 (Portugal): real-estate route confined from 1 Jan 2022
+pt-lei-56-2023,url,https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=3709&tabela=leis,reachable,2026-10-05,Lei n.º 56/2023 (Portugal): ended the remaining real-estate route
+com-2019-12,eurlex,52019DC0012,published,2026-10-05,"COM(2019) 12, Investor Citizenship and Residence Schemes in the EU"
+src-mivau,url,https://apps.fomento.gob.es/BoletinOnline2/,reachable,2026-10-05,"MIVAU Transacciones inmobiliarias, table 1.6 (release of 1 Oct 2026, data to 2026Q2)"
+src-ine-calendar,url,https://www.ine.es/normativa/leyes/plan/plan_2025-2028/calendario2026.pdf,reachable,2026-10-05,"INE calendar 2026: PEN 9198 release of 16 Dec 2026 (2026Q3), the out-of-sample test date"

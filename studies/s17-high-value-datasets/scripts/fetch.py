@@ -2,9 +2,14 @@
 """Single fetch helper for S17. Every network request of the study goes through `get()`.
 
 Rules enforced in code (house standard, rule 2):
-  * robots.txt of the host is read BEFORE the first request to that host, and honoured
-    (urllib.robotparser, our User-Agent). A robots.txt served as HTML, or one whose comments
-    forbid robots in natural language, is flagged and the host is skipped.
+  * robots.txt of the host (scheme + host) is read BEFORE the first request to that host, following
+    up to five redirects, and honoured (urllib.robotparser, our User-Agent and `*`). A 4xx answer is
+    read as no robots.txt (allow all); a 5xx answer, or none, skips the host. A robots.txt served
+    as HTML is flagged and read as empty (allow all); one whose comments forbid robots in natural
+    language is flagged and the host is skipped.
+  * Redirects of a request are followed hop by hop (<= 5), each hop checked against the robots.txt
+    of its own host; a hop that robots.txt stops ends the request with `skipped` set, even if
+    earlier hops were already requested.
   * <= 1 request/second per host (the robots.txt fetch counts).
   * Optional Range (<= 2 KB) or HEAD; responses are never read beyond `max_bytes`.
 Every request is logged (timestamp, method, url, status) to work/requests.log.

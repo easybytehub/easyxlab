@@ -435,7 +435,17 @@
     "NO_inn",
     "NO_sjn",
     "NO_vyg"
-   ]
+   ],
+   "valid_by_country": {
+    "FR": 8
+   },
+   "valid_132_only": 7,
+   "netex200_verdict": {
+    "valid-partial": 4,
+    "valid": 1,
+    "invalid": 24,
+    "not-checked": 5
+   }
   }
  },
  "valid_partial_coverage": {
@@ -537,7 +547,9 @@
   "countries": {
    "FR": 11
   },
-  "also_valid_132": 9
+  "also_valid_132": 9,
+  "valid_132": 7,
+  "valid_partial_132": 2
  },
  "fr_profile": {
   "n": 15,
@@ -545,7 +557,9 @@
   "ids_share_le_1pct": 11,
   "ids_share_ge_50pct": 2,
   "refs_unversioned_total": 248286,
-  "refs_unversioned_max_dataset": 200428
+  "refs_unversioned_max_dataset": 200428,
+  "ids_following_threshold_pct": 99,
+  "refs_unversioned_max_share_pct": 80.72464818797677
  },
  "validity_expired_slugs": [
   "NL_avv"
@@ -582,5 +596,56 @@
   "BE_sncb_netex_scheduled_timetable_29b43378_2983_4ee9_a6d0_ad"
  ],
  "download_mb_total": 316.5,
- "uncompressed_mb_total": 12327.2
+ "uncompressed_mb_total": 12327.2,
+ "nl_keyref_only_200_n": 10,
+ "nl_keyref_only_200_timetable_n": 9,
+ "nl_invalid_200_n": 11,
+ "nl_keyref_200_by_type": {
+  "Quay_KeyRef": 8065,
+  "TariffZone_AnyKeyRef": 508,
+  "TypeOfService_AnyKeyRef": 127,
+  "TypeOfFrame_AnyKeyRef": 109,
+  "Authority_KeyRef": 24,
+  "Codespace_AnyKeyRef": 12,
+  "TypeOfResponsibilityRole_AnyKeyRef": 6,
+  "TransportAdministrativeZone_KeyRef": 5,
+  "Organisation_AnyKeyRef": 1
+ },
+ "nl_keyref_200_total": 8857,
+ "nl_keyref_200_stop_registry": 8065,
+ "nl_keyref_200_stop_registry_share": 0.9105792028903692,
+ "valid_partial_coverage_min_pct": 2.4,
+ "valid_partial_coverage_max_pct": 65.9,
+ "validity_expired_to_max": {
+  "NL_avv": "2018-12-08"
+ },
+ "validity_expired_years": [
+  2018
+ ],
+ "census": {
+  "date": "2026-10-02",
+  "naps_excl_DE": 5,
+  "feeds": 266,
+  "files": 621,
+  "ymd": 20261002
+ },
+ "xsd_versions": [
+  "1.3.2",
+  "2.0.0"
+ ],
+ "legal": {
+  "static_deadlines_first_year": 2019,
+  "static_deadlines_last_year": 2025,
+  "static_deadlines_last_ymd": 20251201,
+  "realtime_pt_comprehensive": "1 December 2025",
+  "realtime_pt_comprehensive_ymd": 20251201,
+  "parking_vehicle_sharing": "1 December 2026",
+  "parking_vehicle_sharing_ymd": 20261201,
+  "tsi_timetable_milestone": "14 December 2025",
+  "tsi_timetable_milestone_ymd": 20251214,
+  "tsi_later_milestone_years": [
+   2027,
+   2028
+  ]
+ }
 }

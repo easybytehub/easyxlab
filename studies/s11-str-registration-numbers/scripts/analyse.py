@@ -23,6 +23,15 @@ AREAS = [a for a, *_ in SNAPSHOTS]
 AND_PARTIAL = ("tourist apartments", "rural house", "rural complex")
 
 
+def wilson_full(k, n, z=1.96):
+    """Wilson 95% interval in percent, unrounded (wilson() below rounds to one decimal)."""
+    p = k / n
+    den = 1 + z * z / n
+    c = (p + z * z / (2 * n)) / den
+    h = z * math.sqrt(p * (1 - p) / n + z * z / (4 * n * n)) / den
+    return (100 * max(0.0, c - h), 100 * min(1.0, c + h))
+
+
 def wilson(k, n, z=1.96):
     if n == 0:
         return (None, None)
@@ -650,6 +659,49 @@ def main():
             "five_areas_national_tu_only": row_share(sum(r["cat"] == "national_tu_only" for r in act5), len(act5))}
     S["listings_total"] = sum(len(v) for v in rows_all.values())
     S["listings_total_active"] = sum(sum(r["active"] == "1" for r in v) for v in rows_all.values())
+    # ---------------- figures the abstract quotes (added 2026-10-05; full precision)
+    for period in ("before", "after"):
+        P = S[f"h1_pooled_{period}"]
+        P["not_found_share"] = P["not_found"] / P["shown"]
+        P["not_found_ci95_full"] = list(wilson_full(P["not_found"], P["shown"]))
+        P["wrong_form_expected_by_chance_full"] = sum(rec["wrong_form_expected_by_chance"] for rec in h1
+                                                      if rec["period"] == period)
+    S["spain_after"]["regional_exempt_seasonal"] = sum(int(r["n"]) for r in ex if r["period"] == "after"
+                                                       and r["field"] == "regional" and r["reason"] == "seasonal rental")
+    bcn_after = next(f"{a} {d}" for a, d in snap_label if a == "barcelona" and snap_label[(a, d)] == "after")
+    S["barcelona_after"] = {"snapshot": bcn_after.split()[1], "not_found": S["h1"][bcn_after]["not_found"],
+                            "not_found_private_room": rt[bcn_after].get("not_found | Private room", 0)}
+    pa = [v for v in pair.values() if "h1_not_found_before" in v]
+    S["paired_not_found"] = {"areas": len(pa), "before": sum(v["h1_not_found_before"] for v in pa),
+                             "same_number_still_not_found_after": sum(v["same_number_still_not_found_after"] for v in pa)}
+    spain = [(a, d) for a, d in snap_label if a != "nyc"]
+    before_max = max(d for a, d in spain if snap_label[(a, d)] == "before")
+    after_min = min(d for a, d in spain if snap_label[(a, d)] == "after")
+    after_max = max(d for a, d in spain if snap_label[(a, d)] == "after")
+    after_month = {d[:7] for a, d in spain if snap_label[(a, d)] == "after" and a != "madrid"}
+    assert after_month == {"2026-06"}, after_month
+    S["snapshots"] = {"before_max_ymd": int(before_max.replace("-", "")), "after_min_ymd": int(after_min.replace("-", "")),
+                      "after_month": "June 2026", "after_max_ymd": int(after_max.replace("-", ""))}
+    # legal dates (paper §2) and the New York registry file (data/sources_registries.json, «as of June 25, 2025»)
+    S["dates"] = {"reg_2024_1028_applies": "20 May 2026", "reg_2024_1028_applies_day": "20 May",
+                  "reg_2024_1028_applies_ymd": 20260520, "reg_2024_1028": "2024/1028",
+                  "ts_judgments_months": "May and June 2026", "ts_judgments": ["19 May", "21 May", "1 June 2026"],
+                  "rd_1312_2024_effect": "1 July 2025", "nyc_registry_file": "25 June 2025"}
+    # the date of each Spanish registry copy (data/sources_registries.json): the publisher's
+    # «rows updated» date where it gives one (RTC), else the API's last update (OpenRTA), else the
+    # download (the GVA file is regenerated daily). Added 2026-10-05: «one registry copy serves both
+    # snapshots» is checked against these, not read off the prose.
+    srcs = json.load(open(f"{D}/sources_registries.json"))
+    def copy_ymd(m):
+        if m.get("rows_updated_utc"):
+            t = m["rows_updated_utc"]
+        elif m.get("last_update_endpoint"):
+            t = json.loads(m["last_update_endpoint"])["date"]
+        else:
+            t = m["fetched_utc"]
+        return int(t[:10].replace("-", ""))
+    S["dates"]["registry_copy_ymd"] = {k: copy_ymd(srcs[k]) for k in ("rtc", "gva", "rta")}
+    S["dates"]["registry_copy_min_ymd"] = min(S["dates"]["registry_copy_ymd"].values())
     json.dump(S, open(f"{D}/summary.json", "w"), indent=1, ensure_ascii=False)
     print("ok")
 

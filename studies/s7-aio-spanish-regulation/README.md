@@ -7,7 +7,7 @@
 
 We asked Google, from Spain and in Spanish, 101 questions about 28 Spanish rules: 27 that changed in 2025–2026
 (minimum wage, contributions, pensions, birth leave, consumer, traffic, housing and invoicing rules) and one
-announced change that never happened. Each AI Overview (AIO) and AI Mode answer was judged against the
+announced change that did not happen (the 37.5-hour week). Each AI Overview (AIO) and AI Mode answer was judged against the
 consolidated law in the Boletín Oficial del Estado as in force on 2 October 2026, not against the pages it cites.
 There were three readings on 2 October 2026 in UTC (19:32, 23:05 and 23:42; the last two after midnight in
 Spain), 606 responses, collected through a commercial SERP API. One rule, the 2 %

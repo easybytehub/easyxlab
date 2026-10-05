@@ -1,0 +1,75 @@
+{
+ "_about": "S15 figures from data/rows.csv and data/documents.csv (scripts/summarize.py); full precision",
+ "dates": {
+  "cutoff": "23 December 2025",
+  "taxonomy_published": "5 August 2025",
+  "register_last_update": "30 September 2026",
+  "collection": "2026-10-03"
+ },
+ "constants": {
+  "mica_qas": 51
+ },
+ "register_rows": {
+  "OTHER": 1026,
+  "EMTWP": 50,
+  "excluded_placeholders": 2,
+  "eligible": 1074
+ },
+ "cohort": {
+  "rows": 440,
+  "outcomes": {
+   "ixbrl_esma": 143,
+   "html": 129,
+   "pdf": 69,
+   "http_error": 30,
+   "anti_bot": 24,
+   "xhtml_no_ixbrl": 20,
+   "net_error": 15,
+   "robots": 4,
+   "ixbrl_other": 3,
+   "zip_other": 2,
+   "ixbrl_1_0": 1
+  },
+  "available": 143,
+  "available_share": 0.325,
+  "available_ci95_lo_pct": 28.291354342803217,
+  "available_ci95_hi_pct": 37.011582560812855,
+  "available_distinct_files": 141,
+  "available_files_validated": 141,
+  "not_retrievable": 73,
+  "rows_beyond_one_hop": 0,
+  "valid": 110,
+  "valid_distinct_files": 108,
+  "invalid": 33,
+  "invalid_assertion_only": 16,
+  "invalid_xbrl": 17,
+  "frozen_available": 139,
+  "frozen_share": 0.3159090909090909,
+  "frozen_ci95_lo_pct": 27.422372392513694,
+  "frozen_ci95_hi_pct": 36.07811967492659,
+  "lei_checkable": 103,
+  "lei_match": 103,
+  "dti_checkable": 136,
+  "dti_match": 134,
+  "top_producer": {
+   "domain": "crypto-risk-metrics.com",
+   "valid_rows": 77,
+   "available_rows": 77,
+   "register_lei_is_tagged_offeror": 77,
+   "register_leis": 1,
+   "register_lei_name": "Crypto Risk Metrics GmbH",
+   "register_lei_name_matches_domain": 1
+  },
+  "casp_bitstamp": {
+   "anti_bot": 20,
+   "xhtml_no_ixbrl": 18
+  }
+ },
+ "older": {
+  "rows": 634,
+  "available": 20,
+  "undated": 5,
+  "dated_before_cutoff": 629,
+  "undated_available": 0
+ }
+}

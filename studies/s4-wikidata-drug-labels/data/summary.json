@@ -1,0 +1,164 @@
+{
+ "drug_items": 3768,
+ "drug_items_counts": 3768,
+ "disease_items": 10823,
+ "languages": 20,
+ "detectors": 7,
+ "labels": 34207,
+ "sample": {
+  "flags": 103,
+  "disease_script": 15,
+  "total": 118
+ },
+ "precision": {
+  "a": {
+   "tp": 10,
+   "decided": 14,
+   "precision": 0.7142857142857143,
+   "ci95_low": 0.4535045882751561,
+   "ci95_high": 0.882788120898909
+  },
+  "b": {
+   "tp": 10,
+   "decided": 12,
+   "precision": 0.8333333333333334,
+   "ci95_low": 0.5519636426153274,
+   "ci95_high": 0.9530358523851776
+  },
+  "c": {
+   "tp": 5,
+   "decided": 19,
+   "precision": 0.2631578947368421,
+   "ci95_low": 0.11806238339540162,
+   "ci95_high": 0.48791968441070643
+  },
+  "d": {
+   "tp": 14,
+   "decided": 14,
+   "precision": 1.0,
+   "ci95_low": 0.7846829880728186,
+   "ci95_high": 1.0
+  },
+  "e": {
+   "tp": 3,
+   "decided": 16,
+   "precision": 0.1875,
+   "ci95_low": 0.06591478773586765,
+   "ci95_high": 0.4300935986845823
+  },
+  "f": {
+   "tp": 14,
+   "decided": 15,
+   "precision": 0.9333333333333333,
+   "ci95_low": 0.7018292244757601,
+   "ci95_high": 0.9881334113938051
+  },
+  "g": {
+   "tp": 7,
+   "decided": 12,
+   "precision": 0.5833333333333334,
+   "ci95_low": 0.3195073356553728,
+   "ci95_high": 0.8067425380947535
+  },
+  "disease_script": {
+   "tp": 14,
+   "decided": 15,
+   "precision": 0.9333333333333333,
+   "ci95_low": 0.7018292244757601,
+   "ci95_high": 0.9881334113938051
+  },
+  "icd10_format": {
+   "tp": 13,
+   "decided": 13,
+   "precision": 1.0,
+   "ci95_low": 0.7718981569447083,
+   "ci95_high": 1.0
+  },
+  "g_obsolete": {
+   "tp": 5,
+   "decided": 5,
+   "precision": 1.0,
+   "ci95_low": 0.5655085052479191,
+   "ci95_high": 1.0
+  },
+  "g_dup": {
+   "tp": 0,
+   "decided": 4,
+   "precision": 0.0,
+   "ci95_low": 0.0,
+   "ci95_high": 0.48990002040399916
+  },
+  "f_icd11": {
+   "tp": 1,
+   "decided": 2,
+   "precision": 0.5,
+   "ci95_low": 0.09452865480086614,
+   "ci95_high": 0.9054713451991339
+  },
+  "g_format": {
+   "tp": 2,
+   "decided": 2,
+   "precision": 1.0,
+   "ci95_low": 0.34237195288961925,
+   "ci95_high": 1.0
+  },
+  "g_obsolete_split": {
+   "tp": 0,
+   "decided": 1,
+   "precision": 0.0,
+   "ci95_low": 0.0,
+   "ci95_high": 0.7934567085261071
+  }
+ },
+ "est_errors": 312.171365914787,
+ "est_errors_low": 173.7911060203541,
+ "est_share": 0.00912594983233803,
+ "est_share_low": 0.0050805714041089285,
+ "rate_per_1000": {
+  "en": 8.479648842777335,
+  "es": 2.783400809716599,
+  "fr": 3.2840126820074023,
+  "de": 2.3179653879866624,
+  "it": 3.296508916654606,
+  "pt": 3.5779616518335273,
+  "pl": 2.2187787412367186,
+  "ru": 27.64697488584475,
+  "uk": 10.822872018346438,
+  "tr": 2.9888508910946143,
+  "ar": 4.135987307830909,
+  "fa": 35.103692022640615,
+  "ur": 38.953974082493055,
+  "hi": 24.63456778592444,
+  "bn": 5.439644126393153,
+  "zh": 7.390429134883946,
+  "ja": 5.011515823594642,
+  "ko": 13.159519368862954,
+  "sw": 0.0,
+  "am": 0.0
+ },
+ "rate_named_four_min": 24.63456778592444,
+ "rate_others_max": 13.159519368862954,
+ "rate_latin_major_min": 2.2187787412367186,
+ "rate_latin_major_max": 3.5779616518335273,
+ "fa_script_flags": 109,
+ "fa_script_flags_atc": 92,
+ "shared_label_labels": 168,
+ "shared_label_groups": 62,
+ "icd10_values": 5536,
+ "icd10_invalid": 138,
+ "icd10_invalid_share": 0.024927745664739886,
+ "icd10_doubled": 44,
+ "atc_values": 4459,
+ "atc_obsolete": 149,
+ "atc_obsolete_share": 0.033415564027808924,
+ "corrections_rows": 146,
+ "corrections_proposed": 135,
+ "earlier_check": {
+  "reported": 7,
+  "confirmed": 6,
+  "not_confirmed": 1,
+  "drugs_listed": 59,
+  "diseases_listed": 34,
+  "valproate_last_modified": "2026-09-01"
+ }
+}

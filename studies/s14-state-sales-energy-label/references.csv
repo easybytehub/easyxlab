@@ -1,0 +1,13 @@
+id,kind,identifier,we_say,checked_on,note
+rd-390-2021,boe,BOE-A-2021-9176,in_force,2026-10-05,"Real Decreto 390/2021 (energy-efficiency certification): arts. 2.h, 3, 15.2, 17.3; cited as in force, amended by RD 659/2025"
+rd-659-2025,boe,BOE-A-2025-15230,published,2026-10-05,"Real Decreto 659/2025, de 22 de julio: amends RD 390/2021 with effect from 23 July 2026"
+ley-33-2003,boe,BOE-A-2003-20254,in_force,2026-10-05,"Ley 33/2003, del Patrimonio de las Administraciones Públicas: arts. 137-138 (art. 138.3, BOE publication of sales)"
+rd-1373-2009,boe,BOE-A-2009-14788,in_force,2026-10-05,"Real Decreto 1373/2009, Reglamento General de la Ley 33/2003: arts. 97 and 103"
+trlsru-2015,boe,BOE-A-2015-11723,in_force,2026-10-05,"Real Decreto Legislativo 7/2015 (TRLSRU): additional provisions 12 and 13 (sanctions)"
+ley-34-1988,boe,BOE-A-1988-26156,in_force,2026-10-05,"Ley 34/1988, General de Publicidad: art. 2"
+ley-39-2015,boe,BOE-A-2015-10565,in_force,2026-10-05,"Ley 39/2015: art. 45"
+epbd-2010,eurlex,32010L0031,repealed,2026-10-05,"Directive 2010/31/EU, art. 12(4); the paper says it was repealed from 30 May 2026"
+epbd-2024,eurlex,32024L1275,in_force,2026-10-05,"Directive (EU) 2024/1275, art. 20(4), recital 67; transposition deadline 29 May 2026"
+boe-sumario-api,url,https://www.boe.es/datosabiertos/api/api.php,reachable,2026-10-05,"BOE open-data API (daily summaries /api/boe/sumario/AAAAMMDD, key data source); the endpoint itself answers 400 without Accept: application/xml, so the documentation page is checked"
+boe-reuse-terms,url,https://www.boe.es/informacion/aviso_legal/index.php,reachable,2026-10-05,"AEBOE reuse conditions"
+invied-locales,url,https://www.defensa.gob.es/invied/02-ventas-inmuebles/subastas-en-curso/locales/,reachable,2026-10-05,"INVIED premises on sale (certificate «En tramitación»), quoted in the README abstract"

@@ -16,9 +16,11 @@ departures from the WHO INN, malformed ICD codes and obsolete ATC codes. A strat
 sample of 118 flags was reviewed one by one by the study agent, an LLM-based agent (see
 [the paper](https://easybyte.es/lab/studies/s4/paper/) §4.1).
 
-Script (0.71 drugs, 0.93 diseases), brand (0.83), shared-label (1.00), ICD-10 format
-(13/13) and obsolete-ATC (5/5) flags were mostly correct. INN (0.19), salt/parent (0.26) and
-duplicate-ATC (0/4) flags were not, and ICD-11 is undetermined (1/2).
+Brand (0.83), shared-label (1.00), ICD-10 format (13/13), obsolete-ATC (5/5) and
+disease-script (0.93) flags were mostly correct. INN (0.19), salt/parent (0.26) and
+duplicate-ATC (0/4) flags were not. Script flags on drug labels (0.71, 10 of 14; 95% CI
+0.45–0.88) and ICD-11 (1/2) are undetermined, as are two small ATC strata (format 2/2, split
+codes 0/1; [the paper](https://easybyte.es/lab/studies/s4/paper/) §5.1).
 
 About 0.9% of drug labels are wrong (≈312 of 34,207; 0.5% at the lower 95% CI bounds of
 precision), not counting 168 labels in 62 shared-label groups. This is a lower bound with

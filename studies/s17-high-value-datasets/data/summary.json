@@ -17,7 +17,9 @@
  "de_share_pct": 68.5,
  "portal_total_datasets": 1728744,
  "category_without_eli_total": 13948,
- "category_without_eli_member_states": 12457,
+ "category_without_eli_member_states": 12441,
+ "category_without_eli_no_catalogue": 1499,
+ "category_without_eli_european_level": 8,
  "eli_without_category_census": 1033,
  "eli_datasets_rdf": {
   "0": 1047,
@@ -104,6 +106,19 @@
   301,
   998
  ],
+ "reach_skipped_robots_by_reason": {
+  "robots": 97,
+  "robots-unavailable": 91
+ },
+ "reach_skipped_robots_before_request": 176,
+ "reach_skipped_robots_after_redirect": 12,
+ "reach_skipped_robots_after_redirect_hops": {
+  "1": 12
+ },
+ "reach_skipped_robots_after_redirect_by_reason": {
+  "robots": 2,
+  "robots-unavailable": 10
+ },
  "reach_member_states": 20,
  "reach_hosts": 435,
  "gap_classes_q5": {
@@ -153,10 +168,19 @@
  "half_tagged_twins_of_census": 992,
  "half_tagged_distinct_not_in_census": 12062,
  "govdata_tilde_records": 1111,
- "half_tagged_twins_of_govdata": 255,
+ "half_tagged_twins_of_govdata": 990,
  "half_tagged_twins_of_govdata_by_catalogue": {
-  "gdi-de": 183,
-  "none": 72
+  "gdi-de": 758,
+  "none": 232
+ },
+ "half_tagged_twins_by_census_catalogue": {
+  "govdata": {
+   "gdi-de": 758,
+   "none": 232
+  },
+  "datos-gob-es": {
+   "codsi": 2
+  }
  },
  "robots_redirect_audit": {
   "hosts_robots_3xx": 51,
@@ -166,8 +190,8 @@
  },
  "reach_d5_sensitivity": {
   "hosts_excluded": 7,
-  "requested": 1484,
-  "ok": 1361,
+  "requested": 1482,
+  "ok": 1359,
   "ok_pct": 91.7
  },
  "poland_id_ranges": {
@@ -282,5 +306,24 @@
     "http://purl.org/dc/terms/"
    ]
   ]
- }
+ },
+ "applicable_date": "9 June 2024",
+ "census_date": "2026-10-03",
+ "snapshot_hhmm_utc": "11:12",
+ "days_since_applicable": 846,
+ "months_since_applicable": 27.795231934947328,
+ "whole_months_since_applicable": 27,
+ "member_states_eu": 27,
+ "member_states_without_hvd": 7,
+ "odm_edition": 2025,
+ "hvd_facet_total": 27972,
+ "half_tagged_top5_catalogues": 12343,
+ "half_tagged_top5_in_two_catalogues": 2,
+ "hvd_ms_p12_q5_yes": {
+  "n": 18,
+  "min": 32,
+  "max": 19162
+ },
+ "poland_feed_pages_ec_ids": 7,
+ "review_records_audited": 48
 }

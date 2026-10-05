@@ -8,6 +8,7 @@
 """
 import csv
 import json
+import re
 import math
 import os
 import sys
@@ -214,6 +215,44 @@ def summary():
         p = os.path.join(DATA, name)
         if os.path.exists(p):
             S[name.split(".")[0]] = {k: v for k, v in json.load(open(p)).items() if k not in ("hosts_data_deleted", "request_times_utc")}
+    # --- added 2026-10-05 [after the freeze] for claims.csv: figures the abstract quotes that had no key
+    named480 = [r for r in named(full) if r["class"] != "agnostic_reservation"]
+    nb_comments = {r["host"] for r in named480 if I(r, "nl_reservation") or I(r, "nl_prohibition")}
+    nb_ai_n = {r["host"] for r in named480 if r in ai_n}
+    nb_noai = {r["host"] for r in named480 if I(r, "noai")}
+    S["named_only_breakdown"] = dict(of=len(named480), comments=len(nb_comments), ai_n=len(nb_ai_n), noai=len(nb_noai),
+                                     total=len(nb_comments | nb_ai_n | nb_noai),
+                                     overlaps=len(nb_comments & nb_ai_n) + len(nb_comments & nb_noai) + len(nb_ai_n & nb_noai))
+    S["crux_rank_max"] = json.load(open(os.path.join(DATA, "frame_meta.json")))["rank_max"]
+    S["dates"] = dict(ai_act_gpai_obligations="2 August 2025", ai_act_legacy_models="2 August 2027",
+                      ai_act_fines="2 August 2026", lab_robots_rule="3 October 2026")  # AI Act Arts. 111(3), 113
+    prov = list(csv.DictReader(open(os.path.join(DATA, "providers_panel.csv"))))
+    read = {r["provider"] for r in prov if r["crawler_doc_read"] == "yes"}
+    names = lambda col: len({r["provider"] for r in prov if r["provider"] in read and r[col] == "1"})  # noqa: E731
+    S["providers"] = dict(n=len({r["provider"] for r in prov}), doc_read=len(read),
+                          read_on=sorted({r["fetched_utc"][:10] for r in prov if r["provider"] in read}),
+                          robots_txt=names("robots_txt"), tdmrep=names("tdmrep"), content_signal=names("content_signal"),
+                          content_usage=names("content_usage_aipref"), noai=names("noai_meta"))
+    S["providers"]["read_on"] = S["providers"]["read_on"][0] if len(S["providers"]["read_on"]) == 1 else S["providers"]["read_on"]
+    for name in ("independent_audit_v2.json", "independent_audit_v3.json", "request_audit.json", "deviation_d7.json"):
+        S[name.split(".")[0]] = {k: v for k, v in json.load(open(os.path.join(DATA, name))).items()
+                                 if k not in ("hosts", "evidence", "first_request_not_robots_hosts")}
+    v2s, v3s = S["independent_audit_v2"]["sample"], S["independent_audit_v3"]["sample"]
+    v3p = S["independent_audit_v3"]["prohibition"]
+    S["audit_figures"] = dict(v2_sample_sites=int(re.match(r"(\d+) hosts", v2s).group(1)),
+                              v3_sample_sites=int(re.search(r"(\d+) hosts$", v3s).group(1)),
+                              v3_prohibition_recall_overall=v3p["recall_overall_k"] / v3p["recall_overall_n"])
+    ra, d7 = S["request_audit"], json.load(open(os.path.join(DATA, "deviation_d7.json")))
+    by_dev = {k.split()[0]: v for k, v in ra["breach_requests_by_deviation"].items()}
+    S["access"] = dict(d1_requests=by_dev["D1"], d2_requests=by_dev["D2"], d2_sites=S["deviation_d2"]["n_hosts"],
+                       d4_requests=by_dev["D4"], d4_sites=len(json.load(open(os.path.join(DATA, "deviation_d4.json")))["hosts"]),
+                       d7_requests=by_dev["D7"], d7_sites=d7["n_hosts"],
+                       d7_sites_mediahuis_notice=sum(v.startswith("is not to be used for the purposes of text and data mining")
+                                                     for v in d7["evidence"].values()),
+                       breaches_declared=1 + len(by_dev),  # D0 (the scouting pilot, not in the request log) + the logged ones
+                       logged_beyond_robots=ra["requests_beyond_robots_to_nl_hosts"],
+                       logged_beyond_robots_attributed=sum(ra["requests_beyond_robots_to_nl_hosts_by_deviation"].values()),
+                       logged_before_robots=ra["requests_to_those_hosts"])
     json.dump(S, open(os.path.join(DATA, "summary.json"), "w"), indent=1, ensure_ascii=False)
     print(json.dumps({k: S[k] for k in ["frame_hosts", "robots_obtained", "fully_read", "robots_only", "full", "all",
                                         "tdmrep", "sensitivity", "comments", "llms_txt", "bands"]}, indent=None)[:6000])

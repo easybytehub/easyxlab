@@ -2563,6 +2563,18 @@
   "Salamanca": 36,
   "Burgos": 1
  },
+ "municipalities_with_url_share": 0.8175110673880964,
+ "home_measurable": 6272,
+ "home_ok_share_of_measurable": 0.8362563775510204,
+ "ai_block_any4_top3_regions": 214,
+ "ai_block_top3_regions_entity_share": 0.1305721889554225,
+ "sectxt_pass_each_tested_must": 4,
+ "oaw_in_depth_sites": {
+  "2022": 64,
+  "2023": 62,
+  "2024": 63,
+  "2025": 63
+ },
  "build_meta": {
   "robots_hosts_reread": 8055,
   "robots_reread_2xx_retried": 130,

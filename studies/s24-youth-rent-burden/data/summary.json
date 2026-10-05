@@ -817,6 +817,13 @@
    "value_pct": null
   }
  },
+ "cje_numbers": {
+  "cje_30": 30.0,
+  "cje_housing_cost": 780.0,
+  "cje_overburden": 48.9,
+  "ours_housing_cost_max": 784.8,
+  "ours_housing_cost_min": 770.4
+ },
  "cje_own": [
   {
    "cje": "780.0",
@@ -1422,6 +1429,21 @@
   "EPA|2025Q3": 17.35,
   "EPA|2025Q4": 17.15
  },
+ "falls_2021_2025_pp": {
+  "adult_tenant_groups": {
+   "18-34_emancipated": 11.2,
+   "35-49": 13.3,
+   "50-64": 12.0,
+   "65_plus": 13.9,
+   "max": 13.9,
+   "min": 11.2,
+   "n": 4
+  },
+  "tenants_35_49": 13.3,
+  "tenants_50_64": 12.0,
+  "young_18_34": 11.2,
+  "young_composition": 2.8
+ },
  "fieldwork": {
   "2004": {
    "mean_interview_month": 3.7,
@@ -1975,6 +1997,12 @@
   "18-34_2025": 68.69,
   "18-34_2025_age_end": 67.08,
   "eurostat_18-34_2025": 68.7,
+  "eurostat_series_18-34": {
+   "first_year": 2004,
+   "last_year": 2025,
+   "max_before_2025": 67.2,
+   "value_2025": 68.7
+  },
   "lvps08_exact": 6,
   "lvps08_max_abs_diff": 0.68,
   "lvps08_years": 18
@@ -2555,6 +2583,23 @@
   "pp": -12.0,
   "se": 3.0
  },
+ "text": {
+  "age_band": "18–34",
+  "age_band_cje": "16–29",
+  "cap_2024_rate": 0.03,
+  "cap_ige_until": 2023,
+  "cje_chart_years": "2006–2025",
+  "cje_flat_m2": 80,
+  "datosrtve": "2 October 2026",
+  "eldiario": "29 September 2026",
+  "fedea": "September 2026",
+  "fieldwork_autumn": "2017–2021",
+  "fieldwork_spring": "2023–2025",
+  "newtral": "30 September 2026",
+  "overburden_threshold": 0.4,
+  "panel_years": "2022–2025",
+  "survey_year": 2025
+ },
  "young_18_29_change_2021_2025": {
   "ci95_high": 3.2,
   "ci95_low": -22.1,
@@ -2566,6 +2611,10 @@
   "ci95_low": -20.9,
   "pp": -11.2,
   "se": 4.9
+ },
+ "young_alone_2025": {
+  "n": 227,
+  "overburden_pct": 63.0
  },
  "young_minus_35_49_change": {
   "ci95_high": 13.0,

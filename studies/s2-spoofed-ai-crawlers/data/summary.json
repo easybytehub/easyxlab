@@ -1,0 +1,88 @@
+{
+ "sites": 3,
+ "bots": 23,
+ "operators": 13,
+ "requests": 16548,
+ "sites_declared_bot_requests": 16548,
+ "verdicts": {
+  "verified": 8186,
+  "spoofed": 6498,
+  "unverifiable": 818,
+  "indeterminate": 1046
+ },
+ "share": {
+  "verified": 0.4946821368141165,
+  "spoofed": 0.392675852066715,
+  "unverifiable": 0.049431955523326084,
+  "indeterminate": 0.0632100555958424,
+  "unverifiable_or_indeterminate": 0.11264201111916848
+ },
+ "testable": 14684,
+ "spoofed_of_testable": 0.44252247344047946,
+ "fcrdns_bots": 7,
+ "testable_by_operator_method": 14684,
+ "verified_by_ranges_or_fcrdns": 8186,
+ "spoofed_by_ranges_or_fcrdns": 6127,
+ "spoofed_by_never_a_ua": 371,
+ "purpose_spoofed_share": {
+  "client_side": 0.0,
+  "other": 0.05454545454545454,
+  "search_engine": 0.23917995444191345,
+  "search_index": 0.3802739726027397,
+  "training": 0.43839023287361517,
+  "user_fetch": 0.6784771956275915
+ },
+ "log_days": {
+  "site-a": 68,
+  "site-b": 9,
+  "site-c": 7
+ },
+ "log_days_short_min": 7,
+ "log_days_short_max": 9,
+ "user_fetch": {
+  "bots": 6,
+  "requests": 2653,
+  "spoofed": 1800,
+  "spoofed_share": 0.6784771956275915
+ },
+ "genuine_share": {
+  "Claude-User": 0.03459119496855346,
+  "Perplexity-User": 0.0,
+  "MistralAI-User": 0.0,
+  "DuckAssistBot": 0.04216867469879518
+ },
+ "genuine_testable": {
+  "Claude-User": 318,
+  "Perplexity-User": 309,
+  "MistralAI-User": 146,
+  "DuckAssistBot": 166
+ },
+ "genuine_share_min_four": 0.0,
+ "genuine_share_max_four": 0.04216867469879518,
+ "google_extended": {
+  "requests": 371,
+  "verified": 0,
+  "spoofed": 371,
+  "unverifiable": 0,
+  "indeterminate": 0
+ },
+ "spoofed_ips_upper_bound": 54,
+ "spoofed_requests_by_behaviour": 6498,
+ "spoofed_cloud_share": 0.8113265620190828,
+ "spoofed_top_asn": "396982",
+ "spoofed_top_asn_share": 0.6598953524161281,
+ "spoofed_probe_share": 0.9696829793782702,
+ "spoofed_probe_path_share": 0.5829485995690982,
+ "spoofed_multi_operator_share": 0.9222837796244998,
+ "spoofed_status_total": 6498,
+ "spoofed_4xx_share": 0.8784241305016929,
+ "edge": {
+  "days": 30,
+  "site_a_spoofed_edge": 10454,
+  "site_a_spoofed_origin": 3412,
+  "site_a_ratio": 3.0638921453692847,
+  "site_a_blocked": 72,
+  "site_a_blocked_share": 0.006887315859957911
+ },
+ "published_ip_addresses": 0
+}

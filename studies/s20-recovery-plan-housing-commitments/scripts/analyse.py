@@ -9,7 +9,7 @@
                            categories versus the previous version
   data/summary.json        the headline numbers, recomputed here from the CSVs
 """
-import csv, json
+import csv, datetime, json, re
 from s20lib import DATA, VERSIONS
 import differ
 
@@ -21,9 +21,35 @@ def rows(name):
 
 
 def pct(a, b):
-    """Percentage change, rounded half away from zero to one decimal."""
-    from decimal import Decimal, ROUND_HALF_UP
-    return float((Decimal(100) * (Decimal(b) - Decimal(a)) / Decimal(a)).quantize(Decimal("0.1"), rounding=ROUND_HALF_UP))
+    """Percentage change, at full precision (the text rounds it when it is rendered or quoted)."""
+    return 100 * (b - a) / a
+
+
+def day(iso):
+    d = datetime.date.fromisoformat(iso)
+    return f"{d.day} {d:%B} {d.year}"
+
+
+def month(iso):
+    return f"{datetime.date.fromisoformat(iso):%B %Y}"
+
+
+def timeline(rows, event):
+    """The date of the one timeline row whose event starts with `event`."""
+    hits = {r["date"] for r in rows if r["event"].startswith(event)}
+    assert len(hits) == 1, (event, hits)
+    return hits.pop()
+
+
+# Figures the abstracts quote from outside the study's data (paper §2-§3; references.csv): the
+# legal cut-off of the RRF, a Government statement, a quoted requirement and a press report.
+TEXT = {
+    "rrf_cutoff": "31 August 2026",            # Regulation (EU) 2021/241, art. 18(4)(i)
+    "gov_measures_modified_about": 160,         # Referencia del Consejo de Ministros, 9-12-2025
+    "l6_climate_share_quoted": 0.53,            # «At least 53%», milestone C2.I7 L6 (CID annex)
+    "press_first_report": "6 September 2026",   # El Confidencial, citing AIReF's tracker
+    "press_airef_eur_m": 1301,
+}
 
 
 def main():
@@ -141,6 +167,51 @@ def main():
         "scoreboard_t31": sb[("C2.I2", "31")]["goal"], "scoreboard_t31_status": sb[("C2.I2", "31")]["status"],
         "scoreboard_t31_text_version": sb[("C2.I2", "31")]["cid_versions_with_same_text"],
         "scoreboard_L6_text_version": sb[("C2.I7", "L6")]["cid_versions_with_same_text"],
+    }
+    # unsigned falls, as the text writes them («85.8% below»)
+    S["ico_fall_pct"] = -S["ico_change_pct"]
+    S["ico_dec2025_fall_from_first_pct"] = -pct(icov[first_ico], icov["v7-2025d"])
+    for k in ("first", "dec2025", "last"):
+        if S[f"ico_{k}"] % 10**6 == 0:
+            S[f"ico_{k}_eur_m"] = S[f"ico_{k}"] // 10**6
+    # dates of the versions, the timeline and the scoreboard, written as the text writes them
+    vt = {r["version"]: r for r in rows("adoption.csv")}
+    tl = rows("timeline.csv")
+    council = re.search(r"ST 12355/26 INIT \((\d{4}-\d{2}-\d{2})\)", vt["v9-2026b"]["council_docs"]).group(1)
+    sbd = datetime.datetime.strptime(S["scoreboard_last_refresh"], "%d/%m/%Y").date().isoformat()
+    t31_due = [r["due"] for r in rows("version_table.csv") if r["version"] == labels[-1] and r["measure"] == "C2.I2" and r["number"] == "31"]
+    S["dates"] = {
+        "first_month": month(vt[labels[0]]["proposed"]), "sep2025_month": month(vt["v6-2025c"]["proposed"]),
+        "ico_first_year": first_ico.split("-")[1][:4], "ico_first_adopted_month": month(vt[first_ico]["adopted"]),
+        "dec2025_month": month(vt["v7-2025d"]["proposed"]), "dec2025_proposed": day(vt["v7-2025d"]["proposed"]),
+        "dec2025_adopted": day(vt["v7-2025d"]["adopted"]), "dec2025_adopted_month": month(vt["v7-2025d"]["adopted"]),
+        "aug2026_month": month(vt["v9-2026b"]["proposed"]), "aug2026_proposed": day(vt["v9-2026b"]["proposed"]),
+        "aug2026_council_text": day(council), "aug2026_adopted_reported": day(vt["v9-2026b"]["adopted"]),
+        "gov_statement": day(timeline(tl, "Government (Minister of Economy before the Joint Committee for the EU)")),
+        "last_payment_request": day(timeline(tl, "Government: seventh and last payment request")),
+        "scoreboard_refresh": day(sbd),
+        "road_to_2026": day(timeline(tl, "Commission, NextGenerationEU – The road to 2026")),
+        "dec2025_spain_request": day(timeline(tl, "Spain's request behind COM(2025) 794")),
+        "dec2025_council_of_ministers": day(timeline(tl, "Government: approval of the «Adenda de Simplificación»")),
+        "affordable_housing_plan": day(timeline(tl, "European Affordable Housing Plan, COM(2025) 1025")),
+        "aug2026_spain_request": day(timeline(tl, "Spain's request behind COM(2026) 435")),
+        "target31_due": t31_due[0], "rrf_cutoff": TEXT["rrf_cutoff"],
+    }
+    S["target31_number"] = "31"
+    S["text"] = {k: v for k, v in TEXT.items() if k != "rrf_cutoff"}
+    # the annex-wide base rate (baseline.py), with the shares at full precision
+    B = json.load(open(DATA / "baseline_summary.json", encoding="utf-8"))
+    dm, dt = B["v6-2025c->v7-2025d"]["measures"], B["v6-2025c->v7-2025d"]["milestones_targets"]
+    at = B["v8-2026a->v9-2026b"]["milestones_targets"]
+    S["baseline"] = {
+        "threshold_share_of_words_lost": 0.3,  # baseline.py: a text «lost more than 30%» when new/old < 0.7
+        "dec2025_measures": dm["n"], "dec2025_measures_lost": dm["lost_more_than_30pct"],
+        "dec2025_measures_share_lost": dm["lost_more_than_30pct"] / dm["n"],
+        "housing_measures": len(dm["housing_ratios"]),
+        "dec2025_housing_measures_lost": sum(1 for r in dm["housing_ratios"].values() if r < 0.7),
+        "dec2025_items": dt["n"], "dec2025_target31_rank_from_most_cut": dt["housing_rank_from_most_cut"]["C2.I2 31"],
+        "aug2026_items": at["n"], "aug2026_items_lost": at["lost_more_than_30pct"],
+        "aug2026_housing_items_lost": sum(1 for r in at["housing_ratios"].values() if r < 0.7),
     }
     json.dump(S, open(DATA / "summary.json", "w", encoding="utf-8"), indent=1, ensure_ascii=False)
     for k, v in S.items():

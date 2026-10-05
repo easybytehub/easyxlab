@@ -1,0 +1,14 @@
+id,kind,identifier,we_say,checked_on,note
+rdph,boe,BOE-A-1986-10638,in_force,2026-10-05,"Real Decreto 849/1986, Reglamento del Dominio Público Hidráulico; arts. 9, 9 bis, 9 ter and 14 bis cited (README abstract, paper §2)"
+rd903,boe,BOE-A-2010-11184,in_force,2026-10-05,"Real Decreto 903/2010, evaluación y gestión de riesgos de inundación: the ARPSI hazard maps"
+rd638,boe,BOE-A-2016-12466,published,2026-10-05,"Real Decreto 638/2016, de 9 de diciembre: amended the RDPH (limits on building in flood zones; cut-off 30 Dec 2016); amending act, not consolidated"
+rd665,boe,BOE-A-2023-18806,published,2026-10-05,"Real Decreto 665/2023, de 18 de julio: later amendment of the RDPH cited in paper §2; amending act, not consolidated"
+floods-directive,eurlex,32007L0060,in_force,2026-10-05,Directive 2007/60/EC on the assessment and management of flood risks (transposed by RD 903/2010)
+copernicus-reg,eurlex,32021R0696,in_force,2026-10-05,"Regulation (EU) 2021/696, Union Space Programme: free, full and open access to Copernicus data (README licences)"
+patricova-decree,url,https://dogv.gva.es/es/eli/es-vc/d/2015/10/29/201/,reachable,2026-10-05,"Decreto 201/2015, del Consell, PATRICOVA (DOGV, not in the BOE)"
+src-ems,url,https://rapidmapping.emergency.copernicus.eu/EMSR773,reachable,2026-10-05,Copernicus EMS Rapid Mapping activation EMSR773: the flood extent
+src-catastro,url,https://www.catastro.hacienda.gob.es/INSPIRE/buildings/46/ES.SDGC.bu.atom_46.xml,reachable,2026-10-05,"Catastro INSPIRE Buildings, province 46 (ZIPs dated 21 Aug 2026)"
+src-snczi,url,https://servicios.idee.es/wms-inspire/riesgos-naturales/inundaciones?request=GetCapabilities&service=WMS,reachable,2026-10-05,"ARPSI fluvial hazard maps T10/T100/T500 (MITECO), INSPIRE view service; version of 20 Dec 2024"
+src-patricova,url,https://dadesobertes.gva.es/es/dataset/patricova-peligrosidad-por-inundacion-plan-de-accion-territorial-de-caracter-sectorial-sobre-pr,reachable,2026-10-05,PATRICOVA flood hazard layer (Generalitat Valenciana)
+src-gva,url,https://terramapas.icv.gva.es/00_DANA2024,reachable,2026-10-05,Generalitat Valenciana DANA 2024 layers (HuellaInundacion footprint)
+src-ign,url,https://www.ign.es/wfs-inspire/unidades-administrativas?request=GetCapabilities&service=WFS,reachable,2026-10-05,"IGN INSPIRE administrative units (municipal boundaries)"

@@ -14,7 +14,10 @@ rests on the session's command log.
 
 An independent review followed the freeze (`private/REVIEW.md`). Its corrections are recorded in
 §14, and its additional checks are in `scripts/post_review.py` (§12 below). No frozen file was
-changed.
+changed on 4 October. On 5 October 2026 `scripts/summarize.py` appended one block, `descriptive`, to
+the end of `data/summary.json`: the series levels and other descriptive figures the text quotes, so
+that the claims register can check them. The keys `analyse.py` wrote are unchanged byte for byte (the
+script checks it), and `git diff 321bce1 -- data/summary.json` shows only the appended block.
 
 ## 2. Sources
 
@@ -154,7 +157,9 @@ Listed and dated in `PROTOCOL.md` §14:
 - the weighting of predictions;
 - the descriptive "as fitted" prediction column, dropped before the freeze;
 - after the review: the correction of the documented counting change (protocol §2.3), of the
-  suspension dates and scope (§2.4, §5, §12), and S3 run as registered (with Madrid dropped).
+  suspension dates and scope (§2.4, §5, §12), and S3 run as registered (with Madrid dropped);
+- on 2026-10-05: the `descriptive` block appended to `data/summary.json` by `scripts/summarize.py`
+  (§1). No registered result changes.
 
 ## 11. What was not possible
 

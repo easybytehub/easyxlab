@@ -697,5 +697,60 @@
    "classification_break": "if INE changes the specialisation item, the ETHOS-based scope, the adults-only rule or the reference dates, all values are reported and the verdict is 'not scored (classification break)'",
    "reception_places_dec2024": 56963.0
   }
+ },
+ "ine_chart": {
+  "first_edition": 2006,
+  "last_edition": 2024,
+  "occupied_last": 34145.0,
+  "max_occupied_before_last": 21684.0,
+  "rise_last": 0.57466334624608,
+  "max_rise_before_last": 0.22012153950033753
+ },
+ "per_centre_change_pct": {
+  "GBV": -24.61724137931035,
+  "OTH": 7.929536015605754
+ },
+ "revision": {
+  "first_published_occupied": 33758.0,
+  "added_occupied": 387.0,
+  "added_booked_per_centre": 286.94204158806224,
+  "navarre_places_first": 403.0,
+  "navarre_places_revised": 790.0,
+  "regions_in_table": 19,
+  "regions_changed": 1,
+  "regions_changed_labels": [
+   "Navarra, Comunidad Foral de"
+  ]
+ },
+ "centres_all": {
+  "IMM_0": 235.0,
+  "IMM_1": 360.0,
+  "ALL_0": 1175.0,
+  "ALL_1": 1376.0
+ },
+ "text": {
+  "editions_compared": "2022–2024",
+  "edition_first": 2022,
+  "edition_last": 2024,
+  "edition_base_variant": 2020,
+  "edition_adults_only_from": 2022,
+  "editions_imm_in_methodology": "2020 and 2022",
+  "sapi_years": "From 2020 to 2022",
+  "revision_year": 2025,
+  "revision_date_quoted": "17/10/2025",
+  "first_published_date": "26 September 2025",
+  "revision_date": "17 October 2025",
+  "strategy_period": "2023–2030",
+  "strategy_goal_year": 2030,
+  "epsh_refugee_share": 0.004,
+  "epsh_refugee_share_quoted": "0,4%",
+  "progress_report_quoted": "34.145",
+  "mww_year": 2026,
+  "mww_migrant_share": "59–62%",
+  "mww_rise": 0.43,
+  "next_edition": 2026,
+  "protocol_registered": "4 October 2026",
+  "protocol_clarifications_section": 12,
+  "next_edition_expected": "September 2027"
  }
 }

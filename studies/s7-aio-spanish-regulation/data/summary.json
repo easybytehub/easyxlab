@@ -135,6 +135,12 @@
    "wrong_without_invoicing": 8,
    "answered_without_invoicing": 210,
    "cites_boe_pct": 5.4,
+   "wrong_share": 0.05,
+   "wrong_ci95_share": [
+    0.02883001643094939,
+    0.08534902438899274
+   ],
+   "cites_boe_share": 0.05416666666666667,
    "cites_official_pct": 57.5,
    "wrong_if_official": [
     3,
@@ -148,9 +154,14 @@
     77.3,
     85.6
    ],
+   "presence_range_share": [
+    0.7731958762886598,
+    0.8556701030927835
+   ],
    "references": 1255,
    "distinct_domains": 340,
    "forum_social_pct": 13.2,
+   "forum_social_share": 0.13227091633466134,
    "yt_fb_ig_pct": 11.6,
    "top_domains": [
     [
@@ -214,6 +225,12 @@
    "wrong_without_invoicing": 7,
    "answered_without_invoicing": 258,
    "cites_boe_pct": 15.8,
+   "wrong_share": 0.044673539518900345,
+   "wrong_ci95_share": [
+    0.02629029841199849,
+    0.07492201355483387
+   ],
+   "cites_boe_share": 0.15807560137457044,
    "cites_official_pct": 74.2,
    "wrong_if_official": [
     11,
@@ -226,6 +243,7 @@
    "references": 1148,
    "distinct_domains": 274,
    "forum_social_pct": 1.8,
+   "forum_social_share": 0.018292682926829267,
    "yt_fb_ig_pct": 1.8,
    "top_domains": [
     [
@@ -583,10 +601,13 @@
  },
  "second_reader": {
   "n": 60,
+  "categories": 5,
   "agreement_pct": 83.3,
   "kappa": 0.758,
   "binary_wrong_agreement_pct": 93.3,
   "binary_wrong_kappa": 0.857,
+  "kappa_exact": 0.7582594681708299,
+  "binary_wrong_kappa_exact": 0.8571428571428572,
   "per_stratum": {
    "A": {
     "n": 20,
@@ -641,5 +662,46 @@
   "control_n": 40,
   "control_strict_in_source": 2,
   "control_loose_in_source": 23
+ },
+ "queries_total": 101,
+ "facts_total": 28,
+ "facts_changed": 27,
+ "answered_all": 554,
+ "rule_classified_answers": 554,
+ "rule_verdict_missing": 0,
+ "facts_scored_changed": 26,
+ "changed_years": "2025–2026",
+ "readings_date": "2 October 2026",
+ "wrong_total": 25,
+ "errors_by_fact": {
+  "F28": 10,
+  "F15": 6,
+  "F25": 4,
+  "F13": 2,
+  "F04": 1,
+  "F19": 1,
+  "F21": 1
+ },
+ "errors_top3_facts": 20,
+ "f16_totals": {
+  "outdated": 5,
+  "outdated_mode": 4,
+  "given": 23
+ },
+ "reread_total": 160,
+ "full_review_facts": 6,
+ "fact_sheet_version": 2,
+ "f16_repeal_minutes_before_first_reading": 272.9166666666667,
+ "legal": {
+  "f05_hours": "37.5",
+  "f16_cap_pct": 2,
+  "f16_reimposed": "1 October",
+  "f16_repealed": "2 October",
+  "f25_months_old": 24,
+  "f25_months_new": 12,
+  "f25_old_deadline": "December 2027",
+  "f28_order": "HAC/1028/2026",
+  "f28_order_boe": "BOE-A-2026-20587",
+  "f28_order_published": "5 October 2026"
  }
 }

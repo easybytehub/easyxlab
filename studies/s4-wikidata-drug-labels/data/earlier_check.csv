@@ -1,0 +1,8 @@
+reported_error,verdict,qid,in_snapshot
+warfarin fr «Coumaphène» (pesticide name; INN *warfarine*),confirmed,,"confirmed on Q113368879, rev. 2492907989. A second item for the same racemate exists (Q407431, «(RS)-warfarin»), and the French Wikipedia page linked to Q113368879 is titled «Coumaphène»"
+quetiapine fa «seroquel»,confirmed,,confirmed
+valproate fa «valproato sódico»,not confirmed,Q240642,"not confirmed as reported: the label is «والپروات سدیم» (Persian script, still the sodium salt), and the item had not been edited since 2026-09-01"
+valproate hi «valporic acid»,confirmed,,confirmed
+aspirin ur in Latin script,confirmed,,confirmed («Aspirin»)
+"levothyroxine zh as sodium salt, traditional script",confirmed,,confirmed («左旋甲狀腺素鈉»)
+"ICD-10 «B2424.», «I10-I1515.»",confirmed,,confirmed

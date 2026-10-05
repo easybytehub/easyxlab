@@ -1,0 +1,11 @@
+id,kind,identifier,we_say,checked_on,note
+strategy,url,https://www.dsca.gob.es/sites/default/files/derechos-sociales/servicios-sociales/docs/Estrategia.2_PSH20232030.pdf,reachable,2026-10-05,"Estrategia Nacional para la lucha contra el Sinhogarismo en España 2023-2030 (Council of Ministers agreement; not published in the BOE): coverage indicator, baseline 70.7%, goal 90% in 2030"
+strategy-progress-2024,url,https://www.dsca.gob.es/sites/default/files/derechos-sociales/servicios-sociales/docs/Informe_Progresos_2024_ENIPSH_VF.pdf,reachable,2026-10-05,"Informe de progresos 2024 of the Strategy (June 2026): «estimaba en 34.145 el número de personas sin hogar»"
+strategy-page,url,https://www.dsca.gob.es/es/derechos-sociales/servicios-sociales/personas-sin-hogar,reachable,2026-10-05,Ministry page listing the Strategy and its progress reports
+src-ine-release,url,https://www.ine.es/dyngs/Prensa/es/ECAPSH2024.htm,reachable,2026-10-05,"INE press release ECAPSH 2024 (26 Sep 2025, revised 17 Oct 2025)"
+src-ine-14037,url,https://www.ine.es/jaxi/files/tpx/es/csv_bdsc/14037.csv,reachable,2026-10-05,INEbase ECAPSH table used for the decomposition
+src-ine-25818,url,https://www.ine.es/jaxi/files/tpx/es/csv_bdsc/25818.csv,reachable,2026-10-05,INEbase ECAPSH 2024 table (specialisation)
+src-ine-calendar-2027,url,https://www.ine.es/dynt3/Calendario/calenHTML.htm?q=2027,reachable,2026-10-05,"INE calendar 2027: the 2026 edition is not scheduled (PROTOCOL.md)"
+src-eoh-14,url,https://www.feantsa.org/files/Observatory/Comparative-Studies/14/Feantsa-Studies-14.pdf,reachable,2026-10-05,"EOH Comparative Studies 14 (Dec 2025): no EU state recognises reception as homelessness in law; ETHOS Light"
+src-hogarsi,url,https://www.hogarsi.org/encuesta-ine-centros-2024/,reachable,2026-10-05,HOGAR SÍ statement of 26 Sep 2025 (prior work)
+src-meyer,url,https://doi.org/10.1016/j.jpubeco.2026.105577,reachable,2026-10-05,"Meyer, Wyse and Williams (2026), Journal of Public Economics 105577 (59–62% of a 43% rise)"

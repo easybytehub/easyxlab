@@ -27,3 +27,4 @@ if env_file:
                     "--cache-dir", str(cache), "--exclude-ip-file", str(excl),
                     "--withhold-asn-file", str(withhold)], check=True, stdout=subprocess.DEVNULL)
 subprocess.run([sys.executable, str(ROOT / "scripts" / "aggregate.py")], check=True)
+subprocess.run([sys.executable, str(ROOT / "scripts" / "summarize.py")], check=True)  # data/summary.json (offline)

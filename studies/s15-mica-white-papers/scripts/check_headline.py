@@ -131,6 +131,8 @@ P = {  # required phrases (numbers exactly as they must appear)
     "dti": f"{dti_k} of {dti_n}",
     "producer": f"{prod[1]} of {len(va)} valid rows",
     "context": f"{ctx_av} of {len(ctx)} rows",
+    # closing review 2026-10-05: the rows outside the cohort include undated ones, so they are not all "older"
+    "context scope": f"({len(ctx)} rows dated before 23 December 2025{' or undated' if any(pdate(r['wp_lastupdate']) is None for r in ctx) else ''})",
 }
 CONSTANTS = ["23 December 2025", "5 August 2025", "30 September 2026", "2026-10-03", "(EU) 2024/2984", "(EU) 2023/1114",
              "Inline XBRL 1.1", "51 MiCA Q&As", "Q&A 2845",

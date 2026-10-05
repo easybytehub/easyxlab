@@ -6,14 +6,15 @@
 
 ## Abstract
 
-Many site owners count "GPTBot", "ClaudeBot" or "ChatGPT-User" in their access logs as evidence
+Site owners can count "GPTBot", "ClaudeBot" or "ChatGPT-User" in their access logs as evidence
 that AI systems read or cite them. The User-Agent is free text. We checked every request
 claiming to be one of 23 AI or search crawlers on three small production websites (16,548
 requests in origin logs: one of 68 days and two of 7–9 days; plus a separate 30-day Cloudflare
 edge view) against each
-operator's own published verification method — IP-range JSON files and forward-confirmed
-reverse DNS. **39.3% of the claims were spoofed** (44.3% of those that could be tested), 49.5%
-verified, 11.3% unverifiable or indeterminate. User-initiated fetchers, the names many site owners
+operator's own published verification method — IP-range JSON files, forward-confirmed
+reverse DNS and, for Google-Extended, Google's statement that the token is never a User-Agent.
+**39.3% of the claims were spoofed** (44.3% of those that could be tested), 49.5% verified,
+11.3% unverifiable or indeterminate. User-initiated fetchers, the names site owners may
 read as an "AI citation" signal, were the worst: 67.8% spoofed, and Claude-User,
 Perplexity-User, MistralAI-User and DuckAssistBot were 0–4.2% genuine. Google-Extended, a token
 Google says is never sent as a User-Agent, appeared 371 times. All spoofing came from at most
@@ -37,6 +38,7 @@ publishes `ai-bot-verify`.
 | `scripts/ai_bot_verify.py`, `scripts/ai-bot-verify` | the verifier (Python ≥ 3.10, stdlib only) |
 | `scripts/cf_declared_bots.py` | same checks on Cloudflare GraphQL analytics |
 | `scripts/aggregate.py` | builds the study tables in `data/` |
+| `scripts/summarize.py` | writes `data/summary.json`, the figures `claims.csv` checks (offline, from `data/`) |
 | `scripts/run_study.py` | runs the whole pipeline; reads the private site mapping |
 | `tests/` | 15 offline tests (`python3 -m unittest discover -s tests`) |
 | `data/` | aggregated CSV/JSON only — no IP addresses |

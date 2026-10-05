@@ -1,0 +1,17 @@
+id,kind,identifier,we_say,checked_on,note
+rd1112-2018,boe,BOE-A-2018-12699,in_force,2026-10-05,"Real Decreto 1112/2018 on the accessibility of public-sector websites and apps; art. 15.1 (statement updated at least once a year) quoted as in force"
+rd311-2022-ens,boe,BOE-A-2022-7191,in_force,2026-10-05,Real Decreto 311/2022 (Esquema Nacional de Seguridad) cited in the legal baseline
+stc-100-2019,boe,BOE-A-2019-11912,published,2026-10-05,"Tribunal Constitucional, Sentencia 100/2019, de 18 de julio (not a consolidated norm: existence and date only)"
+nis2,eurlex,32022L2555,in_force,2026-10-05,"Directive (EU) 2022/2555 (NIS2), art. 41 cited in the legal baseline"
+wad,eurlex,32016L2102,in_force,2026-10-05,Directive (EU) 2016/2102 on the accessibility of public-sector websites (transposed by RD 1112/2018)
+rfc9116,url,https://www.rfc-editor.org/rfc/rfc9116,reachable,2026-10-05,RFC 9116 (security.txt): the standard the security.txt checks follow
+rfc9309,url,https://www.rfc-editor.org/rfc/rfc9309,reachable,2026-10-05,RFC 9309 (Robots Exclusion Protocol): the parser rules used
+llmstxt,url,https://llmstxt.org/,reachable,2026-10-05,The /llms.txt proposal used to define a spec-like llms.txt
+boe-api,url,https://www.boe.es/datosabiertos/documentos/APIconsolidada.pdf,reachable,2026-10-05,"BOE open-data API for consolidated legislation, its documentation (queried 2026-10-02); the API root answers 400 without parameters, so the paper cites the documentation and an example query"
+boe-api-example,url,https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2018-12699/metadatos Accept: application/xml,reachable,2026-10-05,"example query of the same API (RD 1112/2018, metadata); the API answers 400 without an Accept header for JSON or XML"
+rel,url,https://registroentidadeslocales.mpt.es/,reachable,2026-10-05,"Registro de Entidades Locales: list of the 8,132 municipalities and their population (export of 2026-10-02)"
+ine-codmun,url,https://www.ine.es/daco/daco42/codmun/diccionario26.xlsx,reachable,2026-10-05,INE municipality codes at 1 January 2026
+oaw-2022-2024,url,https://administracionelectronica.gob.es/PAe/accesibilidad/2024InformeSeguimientoPDF,reachable,2026-10-05,"Observatorio de Accesibilidad Web, monitoring report 2022-2024 (source of the ~63 websites a year in-depth sample)"
+oaw-2025,url,https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/pae_Accesibilidad/Informes-Resultados-Seguimiento-Anuales/Resultados-Seguimiento-2025.html,reachable,2026-10-05,Observatorio de Accesibilidad Web: 2025 simplified and in-depth monitoring reports
+clm-directory,url,https://datosabiertos.castillalamancha.es/,reachable,2026-10-05,Castilla-La Mancha directory of local entities (URL source)
+python-3.14.4,url,https://www.python.org/downloads/release/python-3144/,reachable,2026-10-05,"Python 3.14.4, the interpreter the scanner ran on (a version used, not claimed to be the latest)"

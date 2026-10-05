@@ -1,0 +1,34 @@
+id,kind,identifier,we_say,checked_on,note
+BOE-A-2007-20555,boe,BOE-A-2007-20555,in_force,2026-10-05,TRLGDCU (F21)
+BOE-A-2015-11430,boe,BOE-A-2015-11430,in_force,2026-10-05,"Estatuto de los Trabajadores (F02, F03, F05 control)"
+BOE-A-2015-11724,boe,BOE-A-2015-11724,in_force,2026-10-05,LGSS (F13)
+BOE-A-2021-4194,boe,BOE-A-2021-4194,in_force,2026-10-05,F23 V-16 beacon source norm
+BOE-A-2023-24840,boe,BOE-A-2023-24840,in_force,2026-10-05,"RD 1007/2023, Verifactu (F26, F27)"
+BOE-A-2024-26931,boe,BOE-A-2024-26931,in_force,2026-10-05,RD 1312/2024 (F15; register provisions annulled)
+BOE-A-2025-15424,boe,BOE-A-2025-15424,in_force,2026-10-05,F24 e-scooter insurance source norm
+BOE-A-2025-15741,boe,BOE-A-2025-15741,in_force,2026-10-05,"RDL 9/2025, birth leave (F02)"
+BOE-A-2025-24446,boe,BOE-A-2025-24446,in_force,2026-10-05,"Verifactu deadline amendment (F26, F27)"
+BOE-A-2025-24545,boe,BOE-A-2025-24545,in_force,2026-10-05,Ley 9/2025 (F25 old deadline)
+BOE-A-2025-26698,boe,BOE-A-2025-26698,in_force,2026-10-05,"Ley 10/2025, customer service (F20-F22)"
+BOE-A-2025-76,boe,BOE-A-2025-76,in_force,2026-10-05,"LO 1/2025 (F18, F19)"
+BOE-A-2025-8567,boe,BOE-A-2025-8567,in_force,2026-10-05,"Ley 2/2025, permanent disability (F04)"
+BOE-A-2026-2548,boe,BOE-A-2026-2548,in_force,2026-10-05,2026 pension uprating (F09-F12)
+BOE-A-2026-6544,boe,BOE-A-2026-6544,in_force,2026-10-05,"RDL 7/2026, mobility plans (F25)"
+BOE-A-2026-7295,boe,BOE-A-2026-7295,in_force,2026-10-05,"RD 238/2026, B2B e-invoicing (F28)"
+BOE-A-2026-7296,boe,BOE-A-2026-7296,in_force,2026-10-05,"2026 contribution order (F06-F08, F14)"
+BOE-A-2026-8872,boe,BOE-A-2026-8872,in_force,2026-10-05,State Housing Plan (F17)
+BOE-A-2026-6545,boe,BOE-A-2026-6545,repealed,2026-10-05,"RDL 8/2026 (2% rent-update cap), repealed 30 April 2026 (F16, old rule)"
+BOE-A-2026-20266,boe,BOE-A-2026-20266,repealed,2026-10-05,"RDL 26/2026 (2% cap re-imposed 1 October), repealed 2 October 2026 (F16, old rule)"
+BOE-A-2026-12300,boe,BOE-A-2026-12300,published,2026-10-05,Supreme Court ruling annulling the Single Rental Register provisions (F15)
+BOE-A-2026-13893,boe,BOE-A-2026-13893,published,2026-10-05,Supreme Court ruling on RD 1312/2024 (F15)
+BOE-A-2026-15677,boe,BOE-A-2026-15677,published,2026-10-05,Supreme Court ruling on RD 1312/2024 (F15)
+BOE-A-2026-20526,boe,BOE-A-2026-20526,published,2026-10-05,Congress resolution repealing RDL 26/2026 (F16)
+BOE-A-2026-9359,boe,BOE-A-2026-9359,published,2026-10-05,Congress resolution repealing RDL 8/2026 (F16)
+BOE-A-2026-7125,boe,BOE-A-2026-7125,published,2026-10-05,F25 source norm (RDL 7/2026 follow-up)
+BOE-A-2025-2576,boe,BOE-A-2025-2576,published,2026-10-05,"RD SMI 2025 (F01, superseded value)"
+BOE-A-2025-1560,boe,BOE-A-2025-1560,published,2026-10-05,"2025 pension amounts (F09-F12, superseded values)"
+BOE-A-2025-3780,boe,BOE-A-2025-3780,published,2026-10-05,"2025 contribution order (F06-F08, F14, superseded values)"
+BOE-A-2026-3815,boe,BOE-A-2026-3815,published,2026-10-05,"RD 126/2026, SMI 2026 (F01)"
+BOE-A-2026-20587,boe,BOE-A-2026-20587,published,2026-10-05,"Orden HAC/1028/2026, B2B e-invoicing order, published 5 October 2026 (F28)"
+boe-api,url,https://www.boe.es/datosabiertos/,reachable,2026-10-05,BOE open data (consolidated-legislation API) used for status in force (version 2)
+dataforseo-terms,url,https://dataforseo.com/terms-of-service,reachable,2026-10-05,commercial SERP API used for the readings

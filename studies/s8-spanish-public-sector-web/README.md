@@ -25,7 +25,7 @@ to the accessibility statement that our detector can see; of 1,247 statements re
 audited date extractor, 908 (72.8%) show a preparation or review date and **160 (12.8%) show
 one from the last 365 days**. Spain's official monitoring already checks, by experts on a sample of
 about 63 websites a year, whether a statement is provided and what it says; it does not report
-whether home pages link to it or how old its date is, which is what this census adds. The six most frequent dates each occur in a single province and
+whether home pages link to it or how old its date is, which is what this scan of every entity with a known URL adds. The six most frequent dates each occur in a single province and
 cover 479 of the 908 dated statements (52.8%), which points to statements produced in bulk for
 many municipalities at once; we did not identify by whom. 326 of 6,012 entities (5.4%) block at
 least one of GPTBot, ClaudeBot, Google-Extended or CCBot, concentrated in a few regions; a

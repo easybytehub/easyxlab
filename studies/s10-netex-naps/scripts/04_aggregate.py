@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """S10 step 4 — aggregates: catalogue census, XSD results, consistency findings, tables.md."""
-import csv, glob, json, os, statistics
+import csv, glob, json, os, re, statistics
 from collections import Counter, defaultdict
 from datetime import date
 
@@ -238,11 +238,12 @@ for v in ok:
                        refs_internal=s_.get("refs_internal", 0), refs_internal_unversioned=s_.get("refs_internal_unversioned", 0),
                        share_refs=round(s_.get("refs_internal_unversioned", 0) / s_["refs_internal"], 4) if s_.get("refs_internal") else None,
                        rules_version=r.get("rules_version")))
+IDS_OFF_MAX = 0.01  # a dataset "follows the codification" when at most 1% of its ids do not
 if fr:
     with open(os.path.join(D, "french_profile_shares.csv"), "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=list(fr[0].keys())); w.writeheader(); w.writerows(fr)
 out["fr_profile"] = {"n": len(fr), "n_FR": sum(1 for x in fr if x["slug"].startswith("FR_")),
-                     "ids_share_le_1pct": sum(1 for x in fr if x["share_ids"] is not None and x["share_ids"] <= 0.01),
+                     "ids_share_le_1pct": sum(1 for x in fr if x["share_ids"] is not None and x["share_ids"] <= IDS_OFF_MAX),
                      "ids_share_ge_50pct": sum(1 for x in fr if x["share_ids"] is not None and x["share_ids"] >= 0.5),
                      "refs_unversioned_total": sum(x["refs_internal_unversioned"] for x in fr),
                      "refs_unversioned_max_dataset": max((x["refs_internal_unversioned"] for x in fr), default=0)}
@@ -270,6 +271,54 @@ out["sample_size"] = len(sample)
 out["not_completed"] = [x["slug"] for x in sample if x["slug"] not in done]
 out["download_mb_total"] = round(sum(r.get("download_bytes", 0) for r in res) / 1e6, 1)
 out["uncompressed_mb_total"] = round(sum((r.get("uncompressed_bytes") or 0) for r in res) / 1e6, 1)
+# ---------- figures the abstract quotes (added 2026-10-05) ----------
+tt = [v for v in ok if v["content"] == "timetable"]
+tt_valid = [v for v in tt if v["best_netex_verdict"] == "valid"]
+out["by_content"]["timetable"]["valid_by_country"] = dict(Counter(v["country"] for v in tt_valid))
+out["by_content"]["timetable"]["valid_132_only"] = sum(1 for v in tt_valid if v["netex200_verdict"] != "valid")
+out["nl_keyref_only_200_n"] = len(out["nl_invalid_keyref_only_200"])
+# «Two schema details explain much of this»: «this» is the 34 timetables (closing review, 2026-10-05)
+out["by_content"]["timetable"]["netex200_verdict"] = dict(Counter(v["netex200_verdict"] for v in tt))
+out["nl_keyref_only_200_timetable_n"] = sum(1 for v in tt if v["country"] == "NL"
+                                            and v["slug"] in out["nl_invalid_keyref_only_200"])
+out["nl_invalid_200_n"] = len(out["nl_invalid_200"])
+# unresolved keyrefs under 2.0.0 in the ten Dutch datasets that fail 2.0.0 only on keyrefs, by the
+# referenced type (XSD messages). Until 2026-10-05 this summed all eleven invalid Dutch datasets,
+# NL_pnb (which also has duplicate keys) included: 9,129 of 9,930.
+kr = Counter()
+for r in res:
+    if r["country"] == "NL" and r["slug"] in out["nl_invalid_keyref_only_200"]:
+        for m, c in r.get("xsd", {}).get("netex_2_0_0", {}).get("top_messages", {}).items():
+            k = re.search(r"keyref '(?:\w+:)?([^']+)'", m)
+            if k:
+                kr[k.group(1)] += c
+out["nl_keyref_200_by_type"] = dict(kr.most_common())
+out["nl_keyref_200_total"] = sum(kr.values())
+out["nl_keyref_200_stop_registry"] = sum(c for t, c in kr.items() if t.startswith(("Quay_", "StopPlace_")))
+out["nl_keyref_200_stop_registry_share"] = out["nl_keyref_200_stop_registry"] / out["nl_keyref_200_total"]
+in_tpt = [next(v for v in ok if v["slug"] == s) for s in tpt]
+out["tpt_id_missing_200"]["valid_132"] = sum(1 for v in in_tpt if v["netex132_verdict"] == "valid")
+out["tpt_id_missing_200"]["valid_partial_132"] = sum(1 for v in in_tpt if v["netex132_verdict"] == "valid-partial")
+cov = out["valid_partial_coverage"].values()
+out["valid_partial_coverage_min_pct"] = 100 * min(cov)
+out["valid_partial_coverage_max_pct"] = 100 * max(cov)
+out["validity_expired_to_max"] = {v["slug"]: v["validity_to_max"] for v in ok if v["validity_expired"]}
+out["validity_expired_years"] = sorted({int(str(v["validity_to_max"])[:4]) for v in ok if v["validity_expired"]})
+out["fr_profile"]["ids_following_threshold_pct"] = round(100 * (1 - IDS_OFF_MAX))  # the threshold of ids_share_le_1pct
+out["fr_profile"]["refs_unversioned_max_share_pct"] = (100 * out["fr_profile"]["refs_unversioned_max_dataset"]
+                                                       / out["fr_profile"]["refs_unversioned_total"])
+napx = [c for c in crow if c["country"] != "DE"]
+out["census"] = {"date": sorted({r["snapshot_date"] for r in res})[-1], "naps_excl_DE": len(napx),
+                 "feeds": sum(c["feeds"] for c in napx), "files": sum(c["resources"] for c in napx)}
+out["census"]["ymd"] = int(out["census"]["date"].replace("-", ""))
+out["xsd_versions"] = ["1.3.2", "2.0.0"]
+# legal dates, quoted from the texts in paper §2 (Delegated Regulation (EU) 2024/490 and the TAP/TEL TSI)
+out["legal"] = {"static_deadlines_first_year": 2019, "static_deadlines_last_year": 2025,
+                "static_deadlines_last_ymd": 20251201,
+                "realtime_pt_comprehensive": "1 December 2025", "realtime_pt_comprehensive_ymd": 20251201,
+                "parking_vehicle_sharing": "1 December 2026", "parking_vehicle_sharing_ymd": 20261201,
+                "tsi_timetable_milestone": "14 December 2025", "tsi_timetable_milestone_ymd": 20251214,
+                "tsi_later_milestone_years": [2027, 2028]}
 json.dump(out, open(os.path.join(D, "summary.json"), "w"), indent=1, ensure_ascii=False)
 
 

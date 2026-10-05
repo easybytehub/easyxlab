@@ -1,6 +1,7 @@
 {
  "art32_in_force_from": "20230526",
  "art32_routes": 14,
+ "art32_routes_blocked": 1,
  "art32_versions": 1,
  "barcelona_table": 8520,
  "barcelona_text": 8758,
@@ -13,6 +14,20 @@
  "ceuta_melilla_in_regional_table": 1941,
  "ceuta_melilla_scaled": 3831,
  "ceuta_melilla_scaled_share_pct": 1.2,
+ "counts": {
+  "housing_europe_2019": 250000,
+  "ovs2019": 290000,
+  "ovs2023": 318000,
+  "partial_bde_2023": 47000,
+  "partial_casa47": 816,
+  "partial_sareb": 40000
+ },
+ "counts_national": {
+  "equal_survey": 8,
+  "n": 11,
+  "neither": 1,
+  "round_survey": 2
+ },
  "ecv_25_years": [
   2012,
   2013,
@@ -53,6 +68,9 @@
  "mun_with_data_2023_survey": 62,
  "n_documents": 25,
  "n_eu_rows": 14,
+ "n_eu_rows_averages": 12,
+ "n_eu_rows_named_countries": 2,
+ "n_eu_rows_no_spain_figure": 2,
  "n_quotes_verified": 46,
  "n_reconciliation_rows": 17,
  "n_spain_rows": 32,
@@ -78,6 +96,10 @@
  "ovs2024_eu_table_countries": 27,
  "ovs2024_spain_eu_table_pct": 3.3,
  "population_spain_ovs2024": 47400798,
+ "printed": {
+  "eu_averages": "6–7%, about 7%, 8% or 9%",
+  "shares_es": "1%, 1.1%, 1.5%, 1.6%, 1.7%, less than 2%, 2.5%, 2.5–3.4%, 3.3% or 3.5%"
+ },
  "pub_memoria_titles": 0,
  "pub_titles": 234,
  "ratio_total_to_principal_2024": 1.4,
@@ -131,6 +153,34 @@
   "Asturias",
   "Ceuta"
  ],
+ "text": {
+  "art32_in_force": "26 May 2023",
+  "bde_data": "July 2023",
+  "bde_quote": "1,5 % de las viviendas principales y el 1 % del stock total",
+  "bde_quote_avg": "7 %",
+  "bulletin_2023_survey": "January 2025",
+  "bulletin_2024": 2024,
+  "bulletin_growth_quoted": "5%",
+  "casa47_date": "September 2026",
+  "casa47_name": "CASA 47",
+  "commission_year": 2026,
+  "eu_quoted_9": 0.09,
+  "eu_texts_year": 2025,
+  "factcheck_share": 0.025,
+  "factcheck_year": 2018,
+  "footnote": 4,
+  "housing_europe_year": 2025,
+  "housing_law_year": 2023,
+  "law_article": 32,
+  "ovs2020_eu28": "2020 EU-28",
+  "plan_period": "2026–2030",
+  "plan_quote_9": "9 %",
+  "sareb_year": 2025,
+  "silc_years": "2018–2019",
+  "stc": "190/2025",
+  "survey_2019": 2019,
+  "survey_2023": 2023
+ },
  "text_gap_equals_ceuta_total": true,
  "text_total_2023": 250372,
  "transparency_urls": 3456

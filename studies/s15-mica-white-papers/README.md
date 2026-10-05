@@ -28,7 +28,8 @@ with the register: the register's LEI is in the file in 103 of 103 checkable row
 admission on those rows, serves 77 of 110 valid rows from its own white-paper site.
 
 Under the access and redirect rules frozen before collection (`METHOD.md`), the headline would be 139 of 440 (31.6%;
-95% CI 27.4–36.1%). The rest of the register, older entries, reaches the format in 20 of 634 rows.
+95% CI 27.4–36.1%). The rest of the register (634 rows dated before 23 December 2025 or undated)
+reaches the format in 20 of 634 rows.
 
 ESMA's 51 MiCA Q&As do not say whether the copy published on the website must itself be the Inline XBRL file, and
 the closest legal link (MiCA Art. 6(11), which ties the format standards to the duty of Art. 6(10)) does not say so
@@ -47,7 +48,7 @@ the format at the registered URLs (CCRI's MiCA-Monitor, a JavaScript application
 - `data/rows.csv` (one line per register row: registered URL, URL of the document classified, outcome under the
   current and the frozen rules, validity, identifier matches; no personal data), `data/documents.csv` (one line per
   distinct Inline XBRL file validated), `data/entities.csv` (GLEIF legal names of the LEIs used),
-  `data/metrics.json`, `data/tables.md`, `data/cohort_check.json`, `data/sources.csv`.
+  `data/metrics.json`, `data/summary.json` (the figures of `claims.csv`, written by `scripts/summarize.py`), `data/tables.md`, `data/cohort_check.json`, `data/sources.csv`.
 - `scripts/` — the fetcher (RFC 9309 `robots.txt`), the collector, the checker (`mica_wp_check.py`, usable on its own:
   `python scripts/mica_wp_check.py <file-or-url>` prints a JSON verdict that cites the rule), `run.sh` and
   `check_headline.py`. `tests/` covers the classification logic. `requirements.txt` pins Arelle.

@@ -150,7 +150,7 @@ def main():
     with open(os.path.join(DATA, "art32_search.csv"), "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=list(rows[0])); w.writeheader(); w.writerows(rows)
     S = json.load(open(os.path.join(DATA, "summary.json"), encoding="utf-8"))
-    S.update({"art32_routes": len(rows), "boe_days": days, "boe_issues": issues, "boe_items": items, "boe_title_hits": len(hits),
+    S.update({"art32_routes": len(rows), "art32_routes_blocked": sum(r["result"].startswith("HTTP 403") for r in rows), "boe_days": days, "boe_issues": issues, "boe_items": items, "boe_title_hits": len(hits),
               "boe_memoria_hits": len(memoria), "pub_titles": len(seen), "pub_memoria_titles": len(mem),
               "transparency_urls": len(locs), "art32_in_force_from": vs[0][1], "art32_versions": len(vs)})
     json.dump(S, open(os.path.join(DATA, "summary.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1, sort_keys=True)

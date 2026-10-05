@@ -6,7 +6,7 @@
 
 ## Abstract
 
-Commission Implementing Regulation (EU) 2023/138 has applied since 9 June 2024. It requires the listed high-value datasets (HVD) to be denoted as HVD in their metadata (Art. 3(5)), offered via APIs (Art. 3(1)) and licensed under CC0, CC BY 4.0 or an equivalent or less restrictive open licence (Art. 4(3)). Twenty-eight months later, on 2026-10-03, we read every record the European portal flags as HVD (snapshot 11:12 UTC). We then compared the result with each Member State's answers to the Open Data Maturity (ODM) 2025 questionnaire.
+Commission Implementing Regulation (EU) 2023/138 has applied since 9 June 2024. It requires the listed high-value datasets (HVD) to be denoted as HVD in their metadata (Art. 3(5)), offered via APIs (Art. 3(1)) and licensed under CC0, CC BY 4.0 or an equivalent or less restrictive open licence (Art. 4(3)). Almost twenty-eight months later, on 2026-10-03, we read every record the European portal flags as HVD (snapshot 11:12 UTC). We then compared the result with each Member State's answers to the Open Data Maturity (ODM) 2025 questionnaire.
 
 **Member States with none identified.** For 7 of the 27 Member States (Bulgaria, Cyprus, Hungary, Poland, Romania, Slovenia and Slovakia), the European portal does not identify any dataset as HVD. 20 of 27 have at least one. The portal flags 27,972 records in all, which are 27,526 distinct datasets once the portal's `~~n` duplicates are merged. Record counts depend heavily on how finely a country catalogues, so they do not tell how many HVDs it holds. 10,032 of the 27,972 records come from one Rhineland-Palatinate municipal geoportal.
 
@@ -25,13 +25,13 @@ The questionnaire describes 2025 and the census 2026-10-03, so the gaps lie betw
 
 **Where Polish records are lost.** dane.gov.pl flags 120 datasets as HVD from the EU list. We found 96 of them on the European portal, and none carries an HVD property or a licence. We read the national DCAT-AP feed pages that hold 7 of these datasets: they carry no HVD property, and they put licences under `dcat:license`, which DCAT does not define. The 24 not found all have IDs of 18,216 or more, while all 96 found have IDs of 9,156 or less. The feed advertises a last page of 500 × 20 = 10,000 items out of 28,132. This is consistent with the harvest stopping at the feed's advertised last page; we have not confirmed it with the operators (we contacted no one).
 
-**Half-tagged.** 13,948 records carry an HVD category but not the regulation's ELI, so the portal does not count them. They are 12,062 distinct datasets not already counted as HVD under another record. 12,345 of the 13,948 come from five catalogues in Germany, Ireland, Austria and Sweden. In the other direction, 1,033 of 27,972 (3.7%) carry the ELI without a category.
+**Half-tagged.** 13,948 records carry an HVD category but not the regulation's ELI, so the portal does not count them. They are 12,062 distinct datasets not already counted as HVD under another record. 12,343 of the 13,948 come from five catalogues in Germany, Ireland, Austria and Sweden. In the other direction, 1,033 of 27,972 (3.7%) carry the ELI without a category.
 
 **Licence (Art. 4(3)).** All distributions are under CC0, CC BY 4.0 or an equivalent open licence in 17,104 of 27,972 records (61.1%). Under our frozen rule, 7,483 (26.8%) have at least one distribution with a share-alike, non-commercial, or closed/catch-all licence value. 5,855 of those 7,483 fail only because of the German value `other-closed`, a catch-all that the portal itself types as "unknown IPR". With that value counted as unclear, 1,628 (5.8%) fail. 1,456 (5.2%) have no licence and no rights statement anywhere in their RDF.
 
 **API (Art. 3(1)).** 5,146 of 27,972 records (18.4%) have a Data Service modelled as DCAT-AP HVD requires. Another 18,145 have a distribution whose URL or format looks like an API. The count is per portal record, not per dataset listed in the Annex.
 
-**Reachability.** 1,387 of 1,510 sampled distribution URLs (91.9%) answered with a 2xx status. We did not request another 188, because robots.txt disallowed them or could not be read.
+**Reachability.** 1,387 of 1,510 sampled distribution URLs (91.9%) answered with a 2xx status. Another 188 were stopped by robots.txt, because it disallowed them or could not be read: 176 before any request, and 12 after one request, at the address they redirected to.
 
 **Prior work.** The European portal shows HVD counts. ODM publishes what countries self-report. An ETC DI report analyses environmental HVDs in three subdomains. In the indexes we could reach, we found no work that checks every HVD record against Arts. 3 and 4, or compares the census with each country's ODM answer.
 

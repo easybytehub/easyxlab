@@ -1,0 +1,100 @@
+{
+ "list_date": "2026-10-01",
+ "projects_in_list": 15000,
+ "analysed": 14995,
+ "first_attested_month": "October 2024",
+ "never_attested": 11336,
+ "never_share": 0.7559853284428143,
+ "ever_attested": 3659,
+ "latest_attested": 3479,
+ "latest_share": 0.2320106702234078,
+ "eligibility_cutoff": "2024-10-01",
+ "eligible_n": 11176,
+ "eligible_recount_on_or_after": 11176,
+ "eligible_on_cutoff_day": 4,
+ "eligible_share": 0.31120257695060843,
+ "bands": [
+  {
+   "label": "1–100",
+   "n": 100,
+   "share": 0.59
+  },
+  {
+   "label": "101–500",
+   "n": 400,
+   "share": 0.3775
+  },
+  {
+   "label": "501–1,000",
+   "n": 500,
+   "share": 0.326
+  },
+  {
+   "label": "1,001–2,500",
+   "n": 1500,
+   "share": 0.266
+  },
+  {
+   "label": "2,501–5,000",
+   "n": 2499,
+   "share": 0.25290116046418565
+  },
+  {
+   "label": "5,001–10,000",
+   "n": 4999,
+   "share": 0.21264252850570114
+  },
+  {
+   "label": "10,001–15,000",
+   "n": 4997,
+   "share": 0.20252151290774464
+  }
+ ],
+ "trend": {
+  "first_month": "November 2024",
+  "last_month": "September 2026",
+  "first_share": 0.03972706595905989,
+  "last_share": 0.2320106702234078,
+  "first_projects": 13190
+ },
+ "tob": {
+  "total": 360,
+  "disagree": 1,
+  "agree": 359
+ },
+ "stopped_newest": 148,
+ "stopped_pip_default": 138,
+ "stopped_pip_default_latest_attested": 0,
+ "stopped_other": 10,
+ "stopped_prerelease_or_secondary": 10,
+ "stopped_share_of_ever": 0.03771522273845313,
+ "reviewed_classes": {
+  "tool_or_workflow_change": 96,
+  "indeterminate": 26,
+  "restored_at_head": 1,
+  "isolated_upload": 15
+ },
+ "reviewed_total": 138,
+ "uv_publish": 53,
+ "workflow_at_head_attesting": 7,
+ "publishers": {
+  "attested_projects": 3659,
+  "kinds_total": 3659,
+  "projects_with_change": 307,
+  "changes": 382,
+  "cross": 188,
+  "cross_confirmed": 160,
+  "cross_confirmed_by_rules": 160,
+  "cross_metadata": 16,
+  "not_confirmed": 12,
+  "not_confirmed_projects": 5
+ },
+ "npm": {
+  "sample": 1500,
+  "top_n": 1000,
+  "top_share": 0.308,
+  "ever": 459,
+  "stopped": 4,
+  "stopped_share": 0.008714596949891068
+ }
+}

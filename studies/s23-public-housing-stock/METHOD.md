@@ -58,7 +58,8 @@ disabled. By 5 October 2026, 1,792 requests were logged, 1,253 of them to the BO
 
 ## 2. The figures table
 
-`scripts/figures.py` holds one row per figure: 32 for Spain and 14 EU averages, from the
+`scripts/figures.py` holds one row per figure: 32 for Spain and 14 comparison figures (12
+averages for the EU or Europe and 2 shares for named countries, EU-13 and EU-14), from the
 documents above. Each row gives:
 - the publisher and the document;
 - the document date and the reference year, as stated or as traced;
@@ -74,7 +75,15 @@ quotation is missing. Output: `data/figures.csv` and `data/eu_averages.csv`.
 
 Inclusion rule: a figure is included if an official Spanish or EU text gives it for the size of
 Spain's public, social or protected housing stock or for the EU average it is compared with,
-or if an official text cites it (OECD, Housing Europe, Banco de España, INE, Eurostat).
+or if an official text cites it (OECD, Housing Europe, Banco de España, INE, Eurostat). Two
+EU averages (EU-05, EU-09) come from the EU's 2025 housing texts, COM(2025) 1025 and SWD(2025)
+1053, in which we found no figure for Spain's public housing stock. They are included because
+they give the same 6–7% that the Commission's 2026 country report for Spain (EU-10) later sets
+beside Spain's figure. The table also holds the two shares for named
+countries that the 2023 housing law (EU-13) and the 2026–2030 Plan (EU-14) set beside Spain's
+figure; shares for named countries in other documents (for example the Banco de España's 14%
+for France) are not collected. EU-04 is the Banco de España's average for «economías
+europeas» and the OECD, not for the EU.
 Statements without a number (2022–2024 country reports, 2023 recommendation) are included as
 concept H, because they show when numbers entered the EU texts.
 

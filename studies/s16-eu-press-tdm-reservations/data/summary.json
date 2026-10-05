@@ -946,5 +946,182 @@
   "extra_host_robots_only": "login.mediahuis.com (robots.txt only, a redirect target of www.gva.be)",
   "rule_change": "D5 changed, after collection, which comment texts count as a general prohibition (coordinator's decision); the fetch mechanics were unchanged",
   "later_correction": "D7: 24 of the 98 (23 Mediahuis, fd.nl) carry a general prohibition; their data were deleted"
+ },
+ "named_only_breakdown": {
+  "of": 480,
+  "comments": 60,
+  "ai_n": 17,
+  "noai": 6,
+  "total": 83,
+  "overlaps": 0
+ },
+ "crux_rank_max": 100000,
+ "dates": {
+  "ai_act_gpai_obligations": "2 August 2025",
+  "ai_act_legacy_models": "2 August 2027",
+  "ai_act_fines": "2 August 2026",
+  "lab_robots_rule": "3 October 2026"
+ },
+ "providers": {
+  "n": 14,
+  "doc_read": 8,
+  "read_on": "2026-10-03",
+  "robots_txt": 8,
+  "tdmrep": 0,
+  "content_signal": 0,
+  "content_usage": 0,
+  "noai": 0
+ },
+ "independent_audit_v2": {
+  "auditor": "independent AI reviewer (EasyxLab review role), 2026-10-03",
+  "detector": "v2 as used in the scan (v1 or v2 flags)",
+  "sample": "44 hosts not in the author's sample, seed 777: 22 of the 168 flagged and 22 of the 525 unflagged hosts with comments",
+  "reservation": {
+   "precision_k": 20,
+   "precision_n": 20,
+   "recall_k": 20,
+   "recall_n": 21,
+   "miss": "nd.nl (borderline)"
+  },
+  "prohibition": {
+   "precision_k": 15,
+   "precision_n": 21,
+   "recall_k": 15,
+   "recall_n": 15,
+   "false_positives": "purpose-specific Finnish group text x4, a section label, an Austrian s. 42h(6) AI-training notice"
+  },
+  "structural_weakness": "per-block detection misses list-style notices whose forbid phrase and agent words sit in different comment blocks (actu.fr); addressed by detector v3",
+  "note": "figures from the reviewer's report; the labelled hosts are listed there; v3 will be re-audited on a fresh sample"
+ },
+ "independent_audit_v3": {
+  "auditor": "independent AI re-reviewer (EasyxLab review role), 2026-10-03",
+  "detector": "v3",
+  "sample": "seed 4242 over 617 frame hosts with comment blocks, excluding the author's sample, the D5 change list and hosts named in the first review: 15 of 100 v3 prohibition flags, 3 reservation-only flags, 25 of 514 unflagged; 43 hosts",
+  "prohibition": {
+   "precision_k": 15,
+   "precision_n": 15,
+   "recall_sample_k": 15,
+   "recall_sample_n": 15,
+   "recall_overall_k": 130,
+   "recall_overall_n": 154,
+   "note": "the 24 misses are the D7 hosts (purpose words in a ban that ends 'or otherwise' / an open list); fixed in v4"
+  },
+  "reservation": {
+   "precision_k": 15,
+   "precision_n": 16,
+   "recall_k": 15,
+   "recall_n": 15,
+   "false_positive": "a heading over a per-agent group; fixed in v4"
+  },
+  "v4": "v4 changes exactly these two failure modes (RB1); no further audit is claimed for v4"
+ },
+ "request_audit": {
+  "requests": 6255,
+  "hosts_contacted": 1548,
+  "first_request_not_robots": 1,
+  "requests_to_those_hosts": 7,
+  "nl_prohibition_hosts": 154,
+  "requests_beyond_robots_to_nl_hosts": 314,
+  "requests_beyond_robots_to_nl_hosts_by_deviation": {
+   "D2": 239,
+   "D4": 3,
+   "D7": 72
+  },
+  "status_removed_lines": 320,
+  "breach_requests_by_deviation": {
+   "D1 (before that host's robots.txt)": 7,
+   "D2": 245,
+   "D4": 3,
+   "D7": 72
+  },
+  "max_requests_one_host": 10,
+  "status_counts": {
+   "2xx": 3108,
+   "4xx": 2588,
+   "3xx": 213,
+   "": 320,
+   "5xx": 15,
+   "timeout": 10,
+   "URLError:SSLCertVerificationError": 1
+  },
+  "deviation_d2": {
+   "n_hosts": 92,
+   "requests_beyond_robots_to_them": 245,
+   "note": "TDMRep file, home page and llms.txt requests made under detector v1 to hosts that detector v2 finds to prohibit automated access in robots.txt comments; their data were deleted and not used."
+  },
+  "deviation_d4": {
+   "hosts": [
+    "actu.fr"
+   ],
+   "requests_beyond_robots": 3,
+   "note": "read in the scan although robots.txt comments prohibit automated access (missed by detectors v1 and v2: list-style notice); data deleted, response status removed from the log."
+  },
+  "deviation_d5": {
+   "n_hosts": 98,
+   "first_check_utc": "2026-10-03T11:55:54+00:00",
+   "last_check_utc": "2026-10-03T11:56:15+00:00",
+   "robots_states": {
+    "ok": 98
+   },
+   "note": "targeted re-scan (frozen fetch rules: robots.txt first, 1 request/s/host) of the hosts that detector v3 no longer flags as a general prohibition"
+  },
+  "deviation_d7": {
+   "hosts": [
+    "fd.nl",
+    "www.aachener-zeitung.de",
+    "www.contacto.lu",
+    "www.crimeworld.com",
+    "www.dvhn.nl",
+    "www.flevopost.nl",
+    "www.frieschdagblad.nl",
+    "www.gooieneemlander.nl",
+    "www.gva.be",
+    "www.haarlemsdagblad.nl",
+    "www.hbvl.be",
+    "www.ijmuidercourant.nl",
+    "www.independent.ie",
+    "www.lc.nl",
+    "www.leidschdagblad.nl",
+    "www.limburger.nl",
+    "www.nieuwsblad.be",
+    "www.noordhollandsdagblad.nl",
+    "www.nrc.nl",
+    "www.standaard.be",
+    "www.steenwijkercourant.nl",
+    "www.telegraaf.nl",
+    "www.virgule.lu",
+    "www.wort.lu"
+   ],
+   "n_hosts": 24,
+   "requests_in_rescan": 96,
+   "requests_beyond_robots": 72,
+   "note": "read in the D5 re-scan although their robots.txt comments prohibit automated collection (general prohibition with an open clause); the study's instructions classed the notice as purpose-specific; data deleted, response status removed from the log, URL and time kept."
+  },
+  "note": "'requests_beyond_robots_to_nl_hosts' counts, by URL and time, every request beyond robots.txt to a host that is robots-only in the final records (detector v4), including those whose response status was removed; each is a breach of the study's access rule, declared as D2, D4 or D7."
+ },
+ "deviation_d7": {
+  "n_hosts": 24,
+  "requests_in_rescan": 96,
+  "requests_beyond_robots": 72,
+  "note": "read in the D5 re-scan although their robots.txt comments prohibit automated collection (general prohibition with an open clause); the study's instructions classed the notice as purpose-specific; data deleted, response status removed from the log, URL and time kept."
+ },
+ "audit_figures": {
+  "v2_sample_sites": 44,
+  "v3_sample_sites": 43,
+  "v3_prohibition_recall_overall": 0.8441558441558441
+ },
+ "access": {
+  "d1_requests": 7,
+  "d2_requests": 245,
+  "d2_sites": 92,
+  "d4_requests": 3,
+  "d4_sites": 1,
+  "d7_requests": 72,
+  "d7_sites": 24,
+  "d7_sites_mediahuis_notice": 23,
+  "breaches_declared": 5,
+  "logged_beyond_robots": 314,
+  "logged_beyond_robots_attributed": 314,
+  "logged_before_robots": 7
  }
 }

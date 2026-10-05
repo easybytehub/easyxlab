@@ -1,0 +1,25 @@
+id,kind,identifier,we_say,checked_on,note
+cid-v0-2021,eurlex,52021PC0322,published,2026-10-05,COM(2021) 322: Commission proposal for a Council Implementing Decision on Spain's recovery and resilience plan (version v0-2021)
+cid-v1-2023,eurlex,52023PC0576,published,2026-10-05,COM(2023) 576: Commission proposal for a Council Implementing Decision on Spain's recovery and resilience plan (version v1-2023)
+cid-v2-2024a,eurlex,52024PC0185,published,2026-10-05,COM(2024) 185: Commission proposal for a Council Implementing Decision on Spain's recovery and resilience plan (version v2-2024a)
+cid-v3-2024b,eurlex,52024PC0592,published,2026-10-05,COM(2024) 592: Commission proposal for a Council Implementing Decision on Spain's recovery and resilience plan (version v3-2024b)
+cid-v4-2025a,eurlex,52025PC0177,published,2026-10-05,COM(2025) 177: Commission proposal for a Council Implementing Decision on Spain's recovery and resilience plan (version v4-2025a)
+cid-v5-2025b,eurlex,52025PC0271,published,2026-10-05,COM(2025) 271: Commission proposal for a Council Implementing Decision on Spain's recovery and resilience plan (version v5-2025b)
+cid-v6-2025c,eurlex,52025PC0556,published,2026-10-05,COM(2025) 556: Commission proposal for a Council Implementing Decision on Spain's recovery and resilience plan (version v6-2025c)
+cid-v7-2025d,eurlex,52025PC0794,published,2026-10-05,COM(2025) 794: Commission proposal for a Council Implementing Decision on Spain's recovery and resilience plan (version v7-2025d)
+cid-v8-2026a,eurlex,52026PC0257,published,2026-10-05,COM(2026) 257: Commission proposal for a Council Implementing Decision on Spain's recovery and resilience plan (version v8-2026a)
+cid-v9-2026b,eurlex,52026PC0435,published,2026-10-05,COM(2026) 435: Commission proposal for a Council Implementing Decision on Spain's recovery and resilience plan (version v9-2026b)
+council-st-10150-2021-init,url,https://data.consilium.europa.eu/doc/document/ST-10150-2021-INIT/en/pdf,reachable,2026-10-05,Council text prepared for adoption (ST 10150-2021-INIT)
+council-st-13695-2023-init,url,https://data.consilium.europa.eu/doc/document/ST-13695-2023-INIT/en/pdf,reachable,2026-10-05,Council text prepared for adoption (ST 13695-2023-INIT)
+council-st-9303-2024-init,url,https://data.consilium.europa.eu/doc/document/ST-9303-2024-INIT/en/pdf,reachable,2026-10-05,Council text prepared for adoption (ST 9303-2024-INIT)
+council-st-17099-2024-init,url,https://data.consilium.europa.eu/doc/document/ST-17099-2024-INIT/en/pdf,reachable,2026-10-05,Council text prepared for adoption (ST 17099-2024-INIT)
+council-st-8053-2025-init,url,https://data.consilium.europa.eu/doc/document/ST-8053-2025-INIT/en/pdf,reachable,2026-10-05,Council text prepared for adoption (ST 8053-2025-INIT)
+council-st-9583-2025-init,url,https://data.consilium.europa.eu/doc/document/ST-9583-2025-INIT/en/pdf,reachable,2026-10-05,Council text prepared for adoption (ST 9583-2025-INIT)
+council-st-13075-2025-init,url,https://data.consilium.europa.eu/doc/document/ST-13075-2025-INIT/en/pdf,reachable,2026-10-05,Council text prepared for adoption (ST 13075-2025-INIT)
+council-st-9518-2026-init,url,https://data.consilium.europa.eu/doc/document/ST-9518-2026-INIT/en/pdf,reachable,2026-10-05,Council text prepared for adoption (ST 9518-2026-INIT)
+council-st-12355-2026-init,url,https://data.consilium.europa.eu/doc/document/ST-12355-2026-INIT/en/pdf,reachable,2026-10-05,Council text prepared for adoption (ST 12355-2026-INIT)
+rrf-reg,eurlex,32021R0241,in_force,2026-10-05,"Regulation (EU) 2021/241, Recovery and Resilience Facility; art. 18(4)(i): 31 Aug 2026 deadline for all milestones and targets"
+road-2026,eurlex,52025DC0310,published,2026-10-05,"COM(2025) 310, NextGenerationEU – The road to 2026 (4 June 2025): plan revisions by the end of 2025"
+housing-plan,eurlex,52025DC1025,published,2026-10-05,"COM(2025) 1025, European Affordable Housing Plan (16 Dec 2025)"
+src-scoreboard,url,https://ec.europa.eu/economy_finance/recovery-and-resilience-scoreboard/milestones_and_targets.html,reachable,2026-10-05,"Recovery and Resilience Scoreboard, milestones and targets (refreshed 4 Oct 2026)"
+src-cellar,url,https://publications.europa.eu/webapi/rdf/sparql,reachable,2026-10-05,Cellar SPARQL endpoint used to list the CID versions

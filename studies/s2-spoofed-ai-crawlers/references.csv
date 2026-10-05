@@ -1,0 +1,28 @@
+id,kind,identifier,we_say,checked_on,note
+openai-gptbot-ranges,url,https://openai.com/gptbot.json,reachable,2026-10-05,IP-range file applied as of 2026-10-02 (data/range_files_used.csv)
+openai-searchbot-ranges,url,https://openai.com/searchbot.json,reachable,2026-10-05,IP-range file applied as of 2026-10-02 (data/range_files_used.csv)
+openai-chatgpt-user-ranges,url,https://openai.com/chatgpt-user.json,reachable,2026-10-05,IP-range file applied as of 2026-10-02 (data/range_files_used.csv)
+anthropic-bots-ranges,url,https://claude.com/crawling/bots.json,reachable,2026-10-05,IP-range file applied as of 2026-10-02 (data/range_files_used.csv)
+perplexity-bot-ranges,url,https://www.perplexity.ai/perplexitybot.json,reachable,2026-10-05,IP-range file applied as of 2026-10-02 (data/range_files_used.csv)
+perplexity-user-ranges,url,https://www.perplexity.ai/perplexity-user.json,reachable,2026-10-05,IP-range file applied as of 2026-10-02 (data/range_files_used.csv)
+google-common-ranges,url,https://developers.google.com/static/crawling/ipranges/common-crawlers.json,reachable,2026-10-05,IP-range file applied as of 2026-10-02 (data/range_files_used.csv)
+google-special-ranges,url,https://developers.google.com/static/crawling/ipranges/special-crawlers.json,reachable,2026-10-05,IP-range file applied as of 2026-10-02 (data/range_files_used.csv)
+google-user-fetchers-ranges,url,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers.json,reachable,2026-10-05,IP-range file applied as of 2026-10-02 (data/range_files_used.csv)
+google-user-fetchers-google-ranges,url,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json,reachable,2026-10-05,IP-range file applied as of 2026-10-02 (data/range_files_used.csv)
+google-user-agents-ranges,url,https://developers.google.com/static/crawling/ipranges/user-triggered-agents.json,reachable,2026-10-05,IP-range file applied as of 2026-10-02 (data/range_files_used.csv)
+bing-ranges,url,https://www.bing.com/toolbox/bingbot.json,reachable,2026-10-05,IP-range file applied as of 2026-10-02 (data/range_files_used.csv)
+apple-ranges,url,https://search.developer.apple.com/applebot.json,reachable,2026-10-05,IP-range file applied as of 2026-10-02 (data/range_files_used.csv)
+commoncrawl-ranges,url,https://index.commoncrawl.org/ccbot.json,reachable,2026-10-05,IP-range file applied as of 2026-10-02 (data/range_files_used.csv)
+duckduckbot-ranges,url,https://duckduckgo.com/duckduckbot.json,reachable,2026-10-05,IP-range file applied as of 2026-10-02 (data/range_files_used.csv)
+duckassistbot-ranges,url,https://duckduckgo.com/duckassistbot.json,reachable,2026-10-05,IP-range file applied as of 2026-10-02 (data/range_files_used.csv)
+mistral-user-ranges,url,https://mistral.ai/mistralai-user-ips.json,reachable,2026-10-05,IP-range file applied as of 2026-10-02 (data/range_files_used.csv)
+doc-openai,url,https://platform.openai.com/docs/bots,reachable,2026-10-05,OpenAI verification method
+doc-anthropic,url,https://support.claude.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler,reachable,2026-10-05,Anthropic verification method
+doc-perplexity,url,https://docs.perplexity.ai/guides/bots,reachable,2026-10-05,Perplexity verification method
+doc-google-common,url,https://developers.google.com/search/docs/crawling-indexing/google-common-crawlers,reachable,2026-10-05,Google method; the statement that Google-Extended is never sent as a User-Agent
+doc-apple,url,https://support.apple.com/en-us/119829,reachable,2026-10-05,Apple method; Applebot-Extended does not crawl
+doc-commoncrawl,url,https://commoncrawl.org/ccbot,reachable,2026-10-05,Common Crawl method
+doc-duckduckgo,url,https://duckduckgo.com/duckduckgo-help-pages/results/duckduckbot,reachable,2026-10-05,DuckDuckGo method
+doc-mistral,url,https://docs.mistral.ai/robots/,reachable,2026-10-05,Mistral method
+doc-yandex,url,https://yandex.com/support/webmaster/robot-workings/check-yandex-robots.html,reachable,2026-10-05,Yandex FCrDNS method
+doc-amazon,url,https://developer.amazon.com/amazonbot,reachable,2026-10-05,"Amazon lists (JavaScript-rendered, verdict indeterminate)"

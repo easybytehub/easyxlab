@@ -57,8 +57,19 @@ eid = {r["id"]: r for r in E}
 
 # 1. the corpus
 need("Spain figure rows", f"{len(F)} figures for Spain")
-need("EU-average rows", f"{len(E)} EU averages")
+need("comparison rows", f"{len(E)} comparison figures")
+# a comparison row is an average when its scope names the EU, Europe or the OECD; otherwise it is
+# a share for named countries (EU-13, EU-14). Two averages sit in documents with no Spain row.
+avg = [r for r in E if re.search(r"\bEU\b|OECD|europe", r["scope"], re.I)]
+need("average rows", f"{len(avg)} averages for the EU or Europe")
+need("named-country rows", f"{len(E) - len(avg)} shares for named countries")
+alone = [r["id"] for r in E if r["url"] not in {f["url"] for f in F}]
+need("averages without a Spain figure", "Two of the averages come from EU housing texts in which we found no figure for Spain's public housing stock",
+     where=("paper.md",))
+assert len(alone) == 2 and all(r["id"] in {a["id"] for a in avg} for r in E if r["id"] in alone), alone
 assert len(F) == S["n_spain_rows"] and len(E) == S["n_eu_rows"]
+assert len(avg) == S["n_eu_rows_averages"] and len(E) - len(avg) == S["n_eu_rows_named_countries"]
+assert len(alone) == S["n_eu_rows_no_spain_figure"]
 need("quotations verified", f"{S['n_quotes_verified']} quotations")
 need("documents", f"{S['n_documents']} documents")
 st = S["reconciliation_status"]

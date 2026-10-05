@@ -44,10 +44,12 @@ bash scripts/transform_cli.sh "$S" "$OUT" "${IMG[@]}" "${AV[@]}"
 
 # ---------- 3. detection -> data/matrix.csv ----------
 .venv/bin/python scripts/detect.py "$S" "$OUT"
-.venv/bin/python scripts/summarize.py "$S"
 
 # ---------- 4. remote/sidecar follow-up -> data/remote_followup.csv ----------
 NODE_PATH="$S/node_modules" bash scripts/remote_followup.sh "$S"
+
+# ---------- 4b. summaries -> data/summary.md, summary_compact.md, summary.json (offline) ----------
+.venv/bin/python scripts/summarize.py "$S"
 
 # ---------- 5. derived fixtures (before/after pairs for ai-mark-lint --before/--after) ----------
 DER=fixtures/derived; rm -rf "$DER"; mkdir -p "$DER"

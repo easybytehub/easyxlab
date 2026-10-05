@@ -1,0 +1,11 @@
+id,kind,identifier,we_say,checked_on,note
+mmtis-2017-1926,eurlex,32017R1926,in_force,2026-10-05,"Delegated Regulation (EU) 2017/1926 (MMTIS), cited as in force as amended; its static and real-time deadlines are quoted from Art. 4(3) and 5(3)"
+mmtis-2024-490,eurlex,32024R0490,in_force,2026-10-05,"Delegated Regulation (EU) 2024/490 amending 2017/1926: source of the 2019-2025 static deadlines and the 1 December 2025/2026/2028 dates"
+tel-tsi-2026-253,eurlex,32026R0253,in_force,2026-10-05,"Implementing Regulation (EU) 2026/253 of 6 February 2026 (TEL TSI): names CEN/TS 16614-4:2025 (EPIP); Appendix G milestones 14.12.2025, 12.12.2027, 10.12.2028; Art. 25 repeals the TAP TSI"
+netex-xsd-2.0.0,github,TransmodelEcosystem/NeTEx@v2.0.0,latest,2026-10-05,"NeTEx XSD release 2.0.0 (commit a94e5e1), the newer of the two public releases tested; v1.3.2 (commit 4f42794) is the other"
+nap-fr,url,https://transport.data.gouv.fr/api/datasets,reachable,2026-10-05,French NAP API (dataset catalogue)
+nap-nl,url,https://data.ndovloket.nl/netex/,reachable,2026-10-05,Dutch NAP (NDOV Loket) NeTEx directory
+nap-be,url,https://www.transportdata.be/api/3/action/package_search?q=netex,reachable,2026-10-05,"Belgian NAP CKAN API (package_search?q=netex). 2026-10-05: freshness.py got HTTP 503 after its retries; the same hour 1 of 5 urllib requests and 0 of 9 curl requests failed, so the outage is transient and the reference is kept"
+nap-lu,url,https://data.public.lu/api/1/datasets/,reachable,2026-10-05,Luxembourg open-data portal API
+nap-no,url,https://storage.googleapis.com/storage/v1/b/marduk-production/o?prefix=outbound/netex/&maxResults=1,reachable,2026-10-05,"Norwegian NAP (Entur): public bucket listing marduk-production/outbound/netex/, the catalogue source (METHOD, table of NAPs)"
+fr-profile,url,https://normes.transport.data.gouv.fr,reachable,2026-10-05,Profil NeTEx France (Éléments communs): the codification and version rules checked

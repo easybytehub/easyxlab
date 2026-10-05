@@ -8,8 +8,9 @@
 **The question.** How many dwellings lay inside the observed extent of the DANA of 29 October 2024
 in the province of Valencia? How many of them lay outside the official flood maps? And how many
 were built after Real Decreto 638/2016 limited building in flood zones?
-- **The official maps.** The State's hazard maps for the areas of significant potential flood
-  risk (ARPSI, RD 903/2010; 10, 100 and 500 years) and the Generalitat's PATRICOVA.
+- **The official maps.** The State's fluvial hazard maps for the areas of significant potential
+  flood risk (ARPSI, RD 903/2010; 10, 100 and 500 years) and the Generalitat's PATRICOVA. The
+  coastal hazard maps were not used.
 
 **The answer.** Of the 84,789 dwellings inside the flood extent mapped by Copernicus EMS, the
 EU's emergency management service, 43,359 (51.1%) lay outside every official flood zone under the
@@ -31,7 +32,7 @@ versions, edge buffers and the building's centroid tested against the extent.
 - **The ARPSI maps alone.** 67.4% of the Copernicus-extent dwellings were outside them under the
   reference rule. 8,435 lay inside the 100-year zone.
 
-**The extent matters most.**
+**The extent matters about as much as the rule.**
 - **Coverage.** The Copernicus extent was delineated from satellite and aerial images. The
   Generalitat's footprint covers only the Magro and the Poyo, Saleta and Picassent ravines, yet
   holds 1.6 times as many dwellings. With their union (158,044 dwellings) the reference share is

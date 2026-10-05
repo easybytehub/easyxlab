@@ -251,6 +251,14 @@ def main():
     fig_es, fig_eu = rows("figures.csv"), rows("eu_averages.csv")
     OUT["n_spain_rows"] = len(fig_es)
     OUT["n_eu_rows"] = len(fig_eu)
+    # The 14 comparison rows are not all EU averages: a row whose scope names neither the EU,
+    # Europe nor the OECD is a share for named countries (EU-13, EU-14).
+    avg = [r for r in fig_eu if re.search(r"\bEU\b|OECD|europe", r["scope"], re.I)]
+    OUT["n_eu_rows_averages"] = len(avg)
+    OUT["n_eu_rows_named_countries"] = len(fig_eu) - len(avg)
+    # rows whose document gives no figure for Spain's public housing stock, i.e. no row of figures.csv (EU-05, EU-09)
+    es_docs = {r["url"] for r in fig_es}
+    OUT["n_eu_rows_no_spain_figure"] = sum(1 for r in fig_eu if r["url"] not in es_docs)
     OUT["n_documents"] = len({r["raw"] for r in fig_es + fig_eu})   # one raw source per document
     OUT["n_quotes_verified"] = sum(1 for r in fig_es + fig_eu if r["quote_verified"] == "yes")
 
@@ -323,6 +331,38 @@ def main():
         stat[r["status"]] = stat.get(r["status"], 0) + 1
     OUT["reconciliation_categories"] = cats
     OUT["reconciliation_status"] = stat
+    # ---- figures the abstracts quote, so that every number the text shows has a key ----
+    figs = {r["id"]: r for r in csv.DictReader(open(os.path.join(DATA, "figures.csv"), encoding="utf-8"))}
+    eus = list(csv.DictReader(open(os.path.join(DATA, "eu_averages.csv"), encoding="utf-8")))
+    first = lambda fid: int(re.match(r"[\d,]+", figs[fid]["value"]).group(0).replace(",", ""))
+    OUT["counts"] = {"ovs2019": first("ES-03"), "ovs2023": first("ES-06"), "housing_europe_2019": first("ES-13"),
+                     "partial_bde_2023": first("ES-29"), "partial_sareb": first("ES-30"), "partial_casa47": first("ES-31")}
+    # the national counts (unit «dwellings», partial figures of concept I left out), against the two surveys:
+    # equal to one of them, equal to one of them rounded to the hundred thousand, or neither
+    nat = [first(k) for k, r in figs.items() if k.startswith("ES-") and r["unit"].startswith("dwellings") and r["concept"] != "I"]
+    srv = (OUT["counts"]["ovs2019"], OUT["counts"]["ovs2023"])
+    OUT["counts_national"] = {"n": len(nat), "equal_survey": sum(v in srv for v in nat),
+                              "round_survey": sum(v not in srv and v in {round(x, -5) for x in srv} for v in nat),
+                              "neither": sum(v not in srv and v not in {round(x, -5) for x in srv} for v in nat)}
+    # the lists of printed shares, as the abstract writes them; each number must be printed in the documents
+    printed = {"shares_es": "1%, 1.1%, 1.5%, 1.6%, 1.7%, less than 2%, 2.5%, 2.5–3.4%, 3.3% or 3.5%",
+               "eu_averages": "6–7%, about 7%, 8% or 9%"}
+    seen = {"shares_es": " ".join(r["value"] for k, r in figs.items() if k.startswith("ES-")),
+            "eu_averages": " ".join(r["value"] for r in eus)}
+    for k, txt in printed.items():
+        have = set(re.findall(r"\d+(?:\.\d+)?", seen[k].replace(",", ".")))
+        missing = [n for n in re.findall(r"\d+(?:\.\d+)?", txt) if n not in have and n + ".0" not in have]
+        assert not missing, (k, missing)
+    OUT["printed"] = printed
+    # dates, citations and quoted figures (references.csv; data/figures.csv quote column)
+    OUT["text"] = {"survey_2019": 2019, "survey_2023": 2023, "bulletin_2023_survey": "January 2025",
+                   "housing_law_year": 2023, "plan_period": "2026–2030", "bulletin_2024": 2024,
+                   "commission_year": 2026, "housing_europe_year": 2025, "eu_quoted_9": 0.09, "plan_quote_9": "9 %",
+                   "ovs2020_eu28": "2020 EU-28", "silc_years": "2018–2019", "eu_texts_year": 2025, "footnote": 4,
+                   "bde_quote": "1,5 % de las viviendas principales y el 1 % del stock total", "bde_quote_avg": "7 %",
+                   "law_article": 32, "art32_in_force": "26 May 2023", "stc": "190/2025", "bde_data": "July 2023",
+                   "sareb_year": 2025, "casa47_date": "September 2026", "factcheck_year": 2018, "factcheck_share": 0.025,
+                   "casa47_name": "CASA 47", "bulletin_growth_quoted": "5%"}
     json.dump(OUT, open(os.path.join(DATA, "summary.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1, sort_keys=True)
     for k, v in OUT.items():
         print(k, v)

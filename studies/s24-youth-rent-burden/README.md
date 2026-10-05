@@ -56,7 +56,10 @@ cannot be ruled out.**
     rules nothing out.
 - **Within income groups, too.** Among young tenants the change in their position in the young
   income distribution accounts for 2.8 of their 11.2-point fall. That is a floor on selection, not
-  an estimate: the largest falls within groups are where leaving home collapsed.
+  an estimate: the largest fall within a group, from 75.7% to 47.3% in the lowest income quarter,
+  is where leaving home collapsed (19.5% to 9.6% living away from their parents); among those
+  without income overburden fell almost as much, 70.6% to 43.1%, while the share living away
+  barely changed (17.8% to 18.0%).
 
 **What else moved.** The median disposable income of market-rent households rose 43.5% between the
 2021 and 2025 surveys (incomes of 2020 and 2024); their median housing costs, measured at interview,

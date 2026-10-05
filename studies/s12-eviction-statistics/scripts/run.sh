@@ -24,6 +24,7 @@ case "${1:-all}" in
     "$PY" scripts/dq.py           # -> data/dq_*.csv, data/dq_summary.json
     "$PY" scripts/analyse.py      # -> data/tests.csv, sensitivity.csv, summary.json, predictions_q2_2026.csv …
     "$PY" scripts/post_review.py  # -> data/review_checks.json, review_slopes.csv (post-review, exploratory)
+    "$PY" scripts/summarize.py    # -> the `descriptive` block of data/summary.json (after the freeze)
     "$PY" scripts/check_headlines.py
     ;;
   *) echo "usage: scripts/run.sh [all|fetch|check]" >&2; exit 2 ;;

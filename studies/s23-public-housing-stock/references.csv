@@ -1,0 +1,18 @@
+id,kind,identifier,we_say,checked_on,note
+ley-12-2023,boe,BOE-A-2023-12203,in_force,2026-10-05,"Ley 12/2023, por el derecho a la vivienda: preamble (290,000; 1.6%) and art. 32 (inventory of the State's own stock, in force since 26 May 2023)"
+rd-326-2026,boe,BOE-A-2026-8872,in_force,2026-10-05,"Real Decreto 326/2026, Plan Estatal de Vivienda 2026-2030: preamble (318,000; 3.5% vs «la media de la Unión Europea del 9 %»)"
+stc-190-2025,boe,BOE-A-2026-1756,published,2026-10-05,"STC 190/2025 (Constitutional Court) on Ley 12/2023: art. 32 concerns «el parque público de vivienda de titularidad estatal»"
+stc-79-2024,boe,BOE-A-2024-12808,published,2026-10-05,"STC 79/2024, de 21 de mayo, on Ley 12/2023 (paper §2)"
+swd-2025-209,eurlex,52025SC0209,published,2026-10-05,"SWD(2025) 209, 2025 Country Report Spain: «just 1.5% … EU average of 9%»"
+csr-2025,eurlex,32025H03983,published,2026-10-05,Council Recommendation of 8 July 2025 on Spain (repeats the 1.5% / 9% claim)
+swd-2026-209,eurlex,52026SC0209,published,2026-10-05,"SWD(2026) 209, 2026 Country Report Spain (318,000; 2.5–3.4%)"
+csr-2026,eurlex,32026H03922,published,2026-10-05,"Council Recommendation of 10 July 2026 on Spain («less than 2 %», EU average «roughly 7 %»)"
+housing-plan,eurlex,52025DC1025,published,2026-10-05,"COM(2025) 1025, European Affordable Housing Plan (EU average)"
+src-ovs-2020,url,https://publicaciones.transportes.gob.es/observatorio-de-vivienda-y-suelo-boletin-especial-vivienda-social-2020,reachable,2026-10-05,"OVS Boletín Especial Vivienda Social 2020 (290,000; EU-28 «en el entorno del 9%»)"
+src-ovs-2024,url,https://publicaciones.transportes.gob.es/observatorio-de-vivienda-y-suelo-boletin-especial-alquiler-residencial-2024,reachable,2026-10-05,"OVS Boletín Especial 2024 (318,000; Tabla 2.3; EU-27 8.0%)"
+src-ine-ecv,url,https://www.ine.es/jaxiT3/Tabla.htm?t=76845,reachable,2026-10-05,"INE ECV table 76845, households by tenure (below-market rent 2.5%–3.5%)"
+src-oecd-ph42,url,https://webfs.oecd.org/Els-com/Affordable_Housing_Database/PH4-2-Social-rental-housing-stock.pdf,reachable,2026-10-05,"OECD Affordable Housing Database PH4.2 (7% and 8% means; Spain 1.13%)"
+src-eurostat,url,https://ec.europa.eu/eurostat/databrowser/view/ilc_lvho02/default/table,reachable,2026-10-05,"Eurostat EU-SILC ilc_lvho02 (reduced price or free, EU 9.3% in 2018)"
+src-bde-do2432,url,https://www.bde.es/f/webbe/SES/Secciones/Publicaciones/PublicacionesSeriadas/DocumentosOcasionales/24/Fich/do2432.pdf,reachable,2026-10-05,"Banco de España, Documento Ocasional 2432 (~300,000; 1.5% / 1%; «en torno al 7 %»)"
+src-he-2019,url,https://www.housingeurope.eu/wp-content/uploads/2024/11/Publication%202019%20for%20WEB.pdf,reachable,2026-10-05,"Housing Europe, State of Housing in the EU 2019 (Spain: 250,000 / 2.5%)"
+src-casa47,url,https://www.casa47.es/traspaso-vivienda-y-suelo,reachable,2026-10-05,"CASA 47: 40,000 dwellings identified for transfer from Sareb"

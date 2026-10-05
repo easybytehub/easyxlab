@@ -39,6 +39,27 @@ LV = ["0-150k", "150-300k", "300-450k"]
 BUYERS = ["nres_fx", "res_fx", "nres_es", "res_es", "total"]
 
 
+# Dates, legal citations, thresholds and quoted figures that the abstracts quote from the sources
+# in paper §2-§3 and references.csv, so that every number the text shows has a key in summary.json.
+TEXT = {
+    "repeal_date": "3 April 2025", "repeal_day_month": "3 April",          # LO 1/2025, final provision 21
+    "lo_1_2025": "1/2025", "lo_final_provision": 21, "ley_14_2013": "14/2013",
+    "articles": "63–67", "articles_quoted": "63, 64, 65, 66 y 67",
+    "announcement_date": "8 April 2024", "property_threshold_eur": 500000,  # Ley 14/2013, art. 63
+    "permits_share_six": 0.9,                                              # Referencia del Consejo de Ministros, 9-4-2024
+    "exposure_years": "2019–2023", "exposure_before_year": 2024, "share_step_pp": 10,
+    "high_value_band_eur": 600000,                                          # MIVAU value table, top band
+    "portugal_deadline": "1 January 2022", "portugal_growth_years": "2022 and 2023",
+    "tax_announced": "13 January 2025", "tax_quoted_rate": 1.0,             # «hasta el 100%»
+    "boe_checked": "4 October 2026", "housing_decree_law": "29 September 2026",
+    "madrid_rate": 0.06, "madrid_rate_since": 2014,                         # DLeg 1/2010 (Madrid), art. 28
+    "catalonia_threshold_eur": 600000, "catalonia_from": "27 June 2025", "catalonia_published": "26 March 2025",
+    "catalonia_ley_11_2026": "9 July 2026",                                # Ley 11/2026 (Catalonia)
+    "press_months": "April and May 2026", "press_year": 2026,
+    "share_baseline_years": "2018–2019", "count_year": 2019, "sample_years": "2007–2026",
+    "release_date": "16 December 2026",                                    # INE calendar, PEN 9198
+}
+
 def load():
     d = {}
     for r in csv.DictReader(open(os.path.join(D, "province_quarter.csv"), encoding="utf-8")):
@@ -104,6 +125,8 @@ def main():
             cities[name][g] = {
                 "B": r["B"], "A": r["A"], "P": r["P"],
                 "rush_pct": round(100 * (r["A_B"] - 1), 1),
+                # despite its name, net_fall_pct is the SIGNED change P/B (negative = fall), like the
+                # other *_pct keys here; net_fall_full_pct below is the fall as a positive number
                 "net_fall_pct": round(100 * (r["P_B"] - 1), 1),
                 "fall_from_rush_pct": round(100 * (r["P_A"] - 1), 1),
                 "rest_rush_pct": round(100 * (rr["A_B"] - 1), 1),
@@ -112,6 +135,9 @@ def main():
                 "rel_rush_pct": round(rel(s, rest[g], A, B), 1),
                 "rel_net_pct": round(rel(s, rest[g], P, B), 1),
                 "rel_from_rush_pct": round(rel(s, rest[g], P, A), 1),
+                # the same at full precision, as the text quotes them (falls as positive numbers)
+                "net_fall_full_pct": 100 * (1 - r["P_B"]), "rest_net_fall_full_pct": 100 * (1 - rr["P_B"]),
+                "rel_net_full_pct": rel(s, rest[g], P, B), "rel_net_fall_full_pct": -rel(s, rest[g], P, B),
             }
             if g == "nres_fx":
                 c = cities[name][g]
@@ -215,6 +241,10 @@ def main():
             es_sum[f"{ex}_w{weighted}"] = {"mean_beta_A": round(sum(anti) / 4, 4),
                                            "mean_beta_P": round(sum(post) / 4, 4),
                                            "max_abs_pre": round(max(abs(x) for x in pre), 4)}
+            if ex == "core2" and weighted == 1:  # the ranges the abstract quotes, full precision
+                mid = [bb for k, bb in zip(evq, beta) if "2020Q3" <= k <= "2022Q4"]
+                es_sum["core2_w1"]["range_2020Q3_2022Q4"] = [max(mid), min(mid)]
+                es_sum["core2_w1"]["range_P"] = [max(post), min(post)]
     with open(os.path.join(D, "event_study.csv"), "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
         w.writerow(["exposure", "weighted", "quarter", "beta", "se_cluster_unit"])
@@ -240,7 +270,7 @@ def main():
                     p2 = rank_p(b0, perms, "two")
                     did_rows.append([contrast, outcome, ex, weighted, round(b0, 4), round(se[0], 4),
                                      round(p2, 4), len(U)])
-                    did[f"{contrast}|{outcome}|{ex}|w{weighted}"] = {"slope": round(b0, 4),
+                    did[f"{contrast}|{outcome}|{ex}|w{weighted}"] = {"slope": round(b0, 4), "slope_per_10pp_full": b0 * 0.1,
                                                                       "se_hc1": round(se[0], 4),
                                                                       "perm_p_two_sided": round(p2, 4)}
     with open(os.path.join(D, "did_windows.csv"), "w", newline="", encoding="utf-8") as f:
@@ -330,6 +360,13 @@ def main():
     S["portugal"] = portugal()
     S["post_review"] = post_review(d, core, rs, pl, fx if os.path.exists(fxp) else None, psd)
 
+    # falls of foreign non-resident purchases, B to P, at full precision from the window counts
+    wrows = list(csv.DictReader(open(os.path.join(D, "windows.csv"), encoding="utf-8")))
+    wn = {r["territory"]: r for r in wrows if r["group"] == "nres_fx"}
+    S["falls_P_vs_B_pct"] = {t: 100 * (1 - float(wn[t]["P"]) / float(wn[t]["B"])) for t in ("00", "six", "rest6", "46", "29", "03")}
+    S["n_provinces"] = len({r["territory"] for r in wrows if r["territory"].isdigit() and r["territory"] != "00"})
+    S["n_provinces_outside_six"] = S["n_provinces"] - 6
+    S["text"] = dict(TEXT)
     json.dump(S, open(os.path.join(D, "summary.json"), "w"), indent=1, ensure_ascii=False)
     c = cities["core2"]["nres_fx"]
     print("core two nres_fx: B %d A %d P %d | rush %+.1f%% net %+.1f%% from rush %+.1f%% | rel net %+.1f%%"
@@ -387,6 +424,7 @@ def additions(d, core, rs, pl):
     steps = [relq[allq[i]] - relq[allq[i - 1]] for i in range(1, len(allq)) if allq[i] <= LAST_DEF]
     real_b = br[2025]
     out["break_2025Q2"] = {"log_change": round(real_b, 4), "pct": round(100 * (math.exp(real_b) - 1), 1),
+                           "fall_full_pct": -100 * (math.exp(real_b) - 1), "first_year": min(br),
                            "rank_among_Q1_to_Q2_2007_2025": sorted(br.values()).index(real_b) + 1,
                            "n_years": len(br),
                            "p_vs_other_Q1_to_Q2": round(rank_p(real_b, [v for y, v in br.items() if y != 2025], "lower"), 4),
@@ -458,7 +496,12 @@ def post_review(d, core, rs, pl, fx, psd):
         "core_share_change_vs_2018_2019_pct": round(100 * (shr(CORE_TWO, P) / shr(CORE_TWO, y1819) - 1), 1),
         "core_share_change_vs_B_pct": round(100 * (shr(CORE_TWO, P) / shr(CORE_TWO, B) - 1), 1),
         "madrid_share_change_vs_2018_2019_pct": round(100 * (shr(["28"], P) / shr(["28"], y1819) - 1), 1),
-        "barcelona_share_change_vs_2018_2019_pct": round(100 * (shr(["08"], P) / shr(["08"], y1819) - 1), 1)}
+        "barcelona_share_change_vs_2018_2019_pct": round(100 * (shr(["08"], P) / shr(["08"], y1819) - 1), 1),
+        # the same at full precision, as the text quotes them (the two cities' falls as positive numbers)
+        "core_share_fall_vs_2018_2019_full_pct": -100 * (shr(CORE_TWO, P) / shr(CORE_TWO, y1819) - 1),
+        "core_share_fall_vs_B_full_pct": -100 * (shr(CORE_TWO, P) / shr(CORE_TWO, B) - 1),
+        "madrid_share_change_vs_2018_2019_full_pct": 100 * (shr(["28"], P) / shr(["28"], y1819) - 1),
+        "barcelona_share_change_vs_2018_2019_full_pct": 100 * (shr(["08"], P) / shr(["08"], y1819) - 1)}
     # within-territory price contrast: (>= 600k change) - (< 450k change), Madrid against the rest
     m, r_ = psd["28"], psd["rest"]
     dm = float(m[14]) - float(m[15])
@@ -493,6 +536,7 @@ def portugal_2022():
     return {"first_quarter": qs[0], "quarters": {q: {"nonEU": pt[(q, "nonEU")], "EU": pt[(q, "EU")]}
                                                 for q in qrange("2021Q2", "2022Q3")},
             "step_2021Q4": round(steps["2021Q4"], 3), "step_2022Q1": round(steps["2022Q1"], 3),
+            "fall_2022Q1_full_log": -steps["2022Q1"],
             "most_negative_steps": [[q, round(steps[q], 3)] for q in low[:3]],
             "most_positive_steps": [[q, round(steps[q], 3)] for q in high[:3]],
             "n_steps": len(steps), "years": years,

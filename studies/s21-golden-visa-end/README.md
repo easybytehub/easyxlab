@@ -10,7 +10,8 @@
 los artículos 63, 64, 65, 66 y 67».
 - Applications filed before that date are decided under the old rules.
 - Permits already granted keep their validity.
-- The route most used was buying property worth €500,000 or more.
+- One of its routes, the one the Government named when it announced the end, was buying
+  property worth €500,000 or more.
 - The Prime Minister announced the end on 8 April 2024.
 
 **The data.** The Ministry of Housing's (MIVAU) open quarterly count of home purchases by the
@@ -75,7 +76,9 @@ short; exploratory: chosen after a pilot showed they fell most).**
   cities fell 3.7% and all buyers 1.3%.
 - **Regional tax.** Madrid's transfer tax has been 6% since 2014. Catalonia raised it on
   second-hand homes over €600,000, for all buyers, from 27 June 2025 (decree-law published 26
-  March 2025).
+  March 2025). A Catalan law of 9 July 2026 (Ley 11/2026), in force after window P, changed who
+  counts as a large holder and the rules for whole buildings in the article that sets the scale,
+  not the scale itself.
 - **EU and non-EU buyers.** MIVAU does not separate them. The Notariado and the Registradores
   publish national EU/non-EU figures in press releases, but their sites restrict reuse, and we did
   not use them.
@@ -131,7 +134,7 @@ of the schemes, not their end. What this study adds is narrow:
 | `scripts/s21lib.py` | provinces, quarters, window sums, relative changes, rank p-values, WLS with absorbed fixed effects and clustered errors, permutations |
 | `tests/test_s21lib.py` | unit tests on synthetic numbers (`python3 -m unittest discover -s tests`) |
 | `scripts/fetch.py`, `scripts/fetch_portugal.py` | every public source (MIVAU, Internet Archive, ECB, BOE, La Moncloa, INE, portugal.gov.pt, Statistics Portugal) |
-| `scripts/polite.py`, `scripts/robots9309.py`, `scripts/htmltext.py` | fetcher copied from S13: fixed User-Agent, ≤ 1 request/s per host, robots.txt (RFC 9309), every request logged |
+| `scripts/polite.py`, `scripts/robots9309.py`, `scripts/htmltext.py` | fetcher shared with other EasyxLab studies: fixed User-Agent, ≤ 1 request/s per host, robots.txt (RFC 9309), every request logged |
 | `scripts/build.py` | MIVAU workbooks and ECB files → `data/province_quarter.csv`, `vintages.csv`, `value_bands.csv`, `value_quarter.csv`, `fx_quarter.csv` |
 | `scripts/analyse.py` | every published table (§1 of METHOD and the additions of §9) |
 | `scripts/predict.py` | the 2026Q3 model; writes the frozen CSV once and never again; `evaluate` scores it after the release |

@@ -28,4 +28,5 @@ else
   python3 08_npm_analyse.py
 fi
 python3 09_tables.py > /dev/null
+python3 summarize.py > /dev/null      # data/summary.json, the figures claims.csv checks (offline)
 python3 10_check_headlines.py

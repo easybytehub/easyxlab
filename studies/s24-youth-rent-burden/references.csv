@@ -1,0 +1,12 @@
+id,kind,identifier,we_say,checked_on,note
+lau,boe,BOE-A-1994-26003,in_force,2026-10-05,"Ley 29/1994, de Arrendamientos Urbanos: art. 18 and additional provision 11 (INE index as «límite de referencia» for updates since 2025)"
+rdl-6-2022,boe,BOE-A-2022-4972,in_force,2026-10-05,"Real Decreto-ley 6/2022, art. 46: update of existing rents limited to the Índice de Garantía de Competitividad until 31 Dec 2023 and to 3% in 2024. Real Decreto-ley 18/2026, de 29 de junio (BOE-A-2026-14112), repeals from 1 Jan 2027 chapter V of title I (arts. 10–14, greenhouse-gas intensity of fuels), not art. 46: the study's text is unaffected"
+rdl-18-2026,boe,BOE-A-2026-14112,in_force,2026-10-05,"Real Decreto-ley 18/2026, de 29 de junio: its sole repealing provision (2) repeals chapter V of title I of RDL 6/2022 from 1 Jan 2027; listed so that a later change to it is seen"
+rdl-26-2026,boe,BOE-A-2026-20266,repealed,2026-10-05,"Real Decreto-ley 26/2026, de 29 de septiembre: would have limited updates to 2% until the end of 2027; repealed by the Congress on 2 Oct 2026"
+rdl-27-2026,boe,BOE-A-2026-20385,repealed,2026-10-05,"Real Decreto-ley 27/2026, de 29 de septiembre (stability of rental contracts): repealed by the Congress on 2 Oct 2026"
+rdl-26-repeal,boe,BOE-A-2026-20526,published,2026-10-05,Resolución del Congreso de 2 de octubre de 2026: derogación del RDL 26/2026
+rdl-27-repeal,boe,BOE-A-2026-20527,published,2026-10-05,Resolución del Congreso de 2 de octubre de 2026: derogación del RDL 27/2026
+src-eurostat-lvho07c,url,https://ec.europa.eu/eurostat/databrowser/view/ilc_lvho07c/default/table,reachable,2026-10-05,"Eurostat housing cost overburden rate by tenure (40.9% in 2021, 26.8% in 2025 for market-rent tenants)"
+src-eurostat-lvps08,url,https://ec.europa.eu/eurostat/databrowser/view/ilc_lvps08/default/table,reachable,2026-10-05,Eurostat share of young adults living with their parents (68.7% at 18–34 in 2025)
+src-ine-ecv,url,https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736176807&menu=resultados&idp=1254735976608,reachable,2026-10-05,"INE Encuesta de Condiciones de Vida (ECV), microdata downloaded on 4 Oct 2026"
+src-cje,url,https://www.cje.org/observatorio-de-emancipacion/,reachable,2026-10-05,"CJE Observatorio de Emancipación (98.7%, 33.6%, chart 2006–2025)"

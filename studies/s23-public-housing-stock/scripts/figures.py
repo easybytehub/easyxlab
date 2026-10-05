@@ -1,15 +1,17 @@
 #!/usr/bin/env python3
 """S23: the figures table. Every official (or officially cited) figure for the size of Spain's
-public/social/protected housing stock, and every EU-average figure used next to it, with the
-literal quotation, the source, the dates, the definition and the unit.
+public/social/protected housing stock, and the comparison figures we collected: averages for the
+EU or Europe (two of them, EU-05 and EU-09, from EU housing texts with no figure for Spain's
+public housing stock) and two shares for named countries (EU-13, EU-14). Each row has the literal quotation, the source, the dates,
+the definition and the unit.
 
 The rows are written by hand from the downloaded sources; this script checks that every
 quotation occurs literally (after whitespace normalisation) in the raw source text and writes
-data/figures.csv (Spain) and data/eu_averages.csv (EU averages). Exit 1 if a quotation is not
-found.
+data/figures.csv (Spain) and data/eu_averages.csv (the comparison figures). Exit 1 if a
+quotation is not found.
 
 Columns
-  id            stable id (ES-nn for Spain, EU-nn for EU averages)
+  id            stable id (ES-nn for Spain, EU-nn for comparison figures)
   publisher     who published the document
   document      the document
   doc_date      date of the document (ISO)
@@ -228,7 +230,7 @@ add(id="ES-32", publisher="CASA 47", document="Plan Anual de Actuación 2026", d
     raw="casa47/plan_anual_2026.pdf", url="https://www.casa47.es/planificacion-actuaciones-y-resultados", locator="Programa de Actuación Plurianual",
     notes="The plan refers to a «parque estatal de vivienda» and budgets for it, but gives no count of the dwellings in it.")
 
-# ------------------------------------------------------------------ EU averages
+# ------------------------------------------------------------------ comparison figures (EU-13, EU-14: named countries)
 E = []
 
 
@@ -320,7 +322,7 @@ def main():
         with open(os.path.join(DATA, name), "w", newline="", encoding="utf-8") as f:
             w = csv.DictWriter(f, fieldnames=fields)
             w.writeheader(); w.writerows(rows)
-    print(f"{len(F)} Spain figures, {len(E)} EU averages; {len(bad)} quotations not found")
+    print(f"{len(F)} Spain figures, {len(E)} comparison figures; {len(bad)} quotations not found")
     for b in bad:
         print(" -", b)
     sys.exit(1 if bad else 0)

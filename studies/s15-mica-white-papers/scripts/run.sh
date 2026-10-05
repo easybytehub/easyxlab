@@ -11,4 +11,5 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 PY="${PYTHON:-python3}"
 "$PY" scripts/06_analyse.py
+"$PY" scripts/summarize.py   # data/summary.json, the figures of claims.csv
 "$PY" scripts/check_headline.py

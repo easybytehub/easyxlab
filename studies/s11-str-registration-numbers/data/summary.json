@@ -3602,7 +3602,13 @@
   "in_registry_other_municipality_ci95": [
    1.5,
    1.8
-  ]
+  ],
+  "not_found_share": 0.06375321336760925,
+  "not_found_ci95_full": [
+   6.09124290855555,
+   6.6717071410621305
+  ],
+  "wrong_form_expected_by_chance_full": 34.800000000000004
  },
  "h1_pooled_after": {
   "shown": 31222,
@@ -3634,7 +3640,13 @@
   "in_registry_other_municipality_ci95": [
    1.6,
    1.9
-  ]
+  ],
+  "not_found_share": 0.06617128947536993,
+  "not_found_ci95_full": [
+   6.346695078049273,
+   6.898237285919421
+  ],
+  "wrong_form_expected_by_chance_full": 44.5
  },
  "spain_before": {
   "areas": "barcelona girona valencia malaga sevilla madrid",
@@ -3700,8 +3712,45 @@
    "pct": 0.9,
    "ci95_low": 0.8,
    "ci95_high": 1.0
-  }
+  },
+  "regional_exempt_seasonal": 9601
  },
  "listings_total": 227224,
- "listings_total_active": 133505
+ "listings_total_active": 133505,
+ "barcelona_after": {
+  "snapshot": "2026-06-24",
+  "not_found": 642,
+  "not_found_private_room": 388
+ },
+ "paired_not_found": {
+  "areas": 6,
+  "before": 1653,
+  "same_number_still_not_found_after": 1579
+ },
+ "snapshots": {
+  "before_max_ymd": 20260331,
+  "after_min_ymd": 20260620,
+  "after_month": "June 2026",
+  "after_max_ymd": 20260630
+ },
+ "dates": {
+  "reg_2024_1028_applies": "20 May 2026",
+  "reg_2024_1028_applies_day": "20 May",
+  "reg_2024_1028_applies_ymd": 20260520,
+  "reg_2024_1028": "2024/1028",
+  "ts_judgments_months": "May and June 2026",
+  "ts_judgments": [
+   "19 May",
+   "21 May",
+   "1 June 2026"
+  ],
+  "rd_1312_2024_effect": "1 July 2025",
+  "nyc_registry_file": "25 June 2025",
+  "registry_copy_ymd": {
+   "rtc": 20260731,
+   "gva": 20261003,
+   "rta": 20261003
+  },
+  "registry_copy_min_ymd": 20260731
+ }
 }

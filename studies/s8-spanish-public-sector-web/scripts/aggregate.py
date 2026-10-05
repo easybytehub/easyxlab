@@ -486,6 +486,30 @@ def main():
         n = sum(1 for a in au if a["verdict"] in ("correct", "wrong"))
         out["date_audit_v2"] = dict(k=k, n=n, ci95=wilson(k, n), unjudged=len(au) - n)
     out["other_body_page_by_province"] = dict(Counter(r["province"] for r in rows if r["site_check"] == "other_body_page"))
+    # derived figures the abstract quotes (added 2026-10-05, full precision)
+    hc = out["home_outcome_counts_all"]
+    out["municipalities_with_url_share"] = out["municipalities_with_url"] / out["municipalities"]
+    out["home_measurable"] = (out["measured"] - hc.get("robots_5xx", 0) - hc.get("robots_disallow", 0)
+                              - hc.get("robots_unverifiable", 0))
+    out["home_ok_share_of_measurable"] = hc.get("ok", 0) / out["home_measurable"]
+    # added 2026-10-05 (closing review): «concentrated in a few regions» and «every requirement
+    # of RFC 9116 we can test», each checked against data rather than read off the prose
+    top3 = Counter(r["region"] for r in rows if r.get("ai_block_any4")).most_common(3)
+    out["ai_block_any4_top3_regions"] = sum(k for _, k in top3)
+    # base rate for «concentrated»: the share of entities with a robots.txt read (the indicator's
+    # denominator) that lie in those same three regions
+    out["ai_block_top3_regions_entity_share"] = (
+        sum(1 for r in rows if r.get("robots_known") and r["region"] in {g for g, _ in top3})
+        / sum(1 for r in rows if r.get("robots_known")))
+    musts = ("present", "https", "contact", "contact_all_uri", "web_uris_https", "expires_once",
+             "expires_parse", "expires_rfc3339", "text_plain", "utf8", "body_utf8", "pref_lang_once",
+             "lines_ok")
+    out["sectxt_pass_each_tested_must"] = sum(
+        1 for r in rows if r.get("sectxt_answered")
+        and all(recs.get(r["entity_id"], {}).get("sectxt_" + m) for m in musts)
+        and recs.get(r["entity_id"], {}).get("sectxt_expired") is False)
+    # external: websites in the OAW's in-depth monitoring by year (paper §2; the OAW's reports)
+    out["oaw_in_depth_sites"] = {"2022": 64, "2023": 62, "2024": 63, "2025": 63}
     mp = os.path.join(D, "build_meta.json")
     if os.path.exists(mp):
         out["build_meta"] = json.load(open(mp))

@@ -22,9 +22,9 @@ land, plus random samples, and an independent AI agent re-read 40 of them (40 of
 **144 of 306 covered lots announced in the BOE in the period (47.1%, 95% CI 41.5–52.7%) did not
 include the energy rating.** With the lot parser as frozen, before a fix to how lots were split,
 the figure is 92 of 255 (36.1%). The fix added 52 lots without the rating, all of them INVIED
-premises that the frozen parser had merged. The other 2,527 lots were land, garages, low-demand
-industrial buildings, lots the seller declared exempt, or lots whose scope the notice does not let
-us determine.
+premises that the frozen parser had merged. The other 2,527 lots were land, garages or storage
+rooms, low-demand industrial buildings, lots the seller declared exempt, or lots whose scope the
+notice does not let us determine.
 
 By seller (notice content only; see the caveat below):
 
@@ -48,9 +48,10 @@ the notice's nature as a mandatory publication of an administrative act.
 
 Other points:
 
-- **Exemptions.** Land, garages, storage rooms, shell premises and low-demand industrial
-  buildings are outside the Royal Decree's scope and are not counted. So are 23 lots that the
-  seller declared exempt. 9 of them invoke the demolition-or-reform exclusion (art. 3.2.e), 7 of
+- **Exemptions.** Land and low-demand industrial buildings are outside the Royal Decree's scope,
+  and garages, storage rooms and shell premises are outside it in the ministry's non-binding FAQ;
+  none of them is counted. Nor are 23 lots that the seller declared exempt (21 excluded, 2 whose
+  scope the notice does not let us determine). 9 of them invoke the demolition-or-reform exclusion (art. 3.2.e), 7 of
   them for a flat or part of a building. The regulation gives that declaration to «el propietario
   del edificio o de parte del edificio», so we accept it. The ministry's non-binding FAQ reads it
   as whole buildings only.

@@ -53,9 +53,9 @@ reference documents it. These figures describe the state before it ships.
 added a latest-release immutability check in April 2026; joshjohanning/ensure-immutable-actions
 (since 2025-11) checks whether workflow references use immutable releases. Papers measured SHA pinning
 at 1–2% of references in 2022; NDSS 2026 found 16.2% of repositories referencing every third-party
-action by SHA or by a tag of a verified creator. Our 29.5% differs from datosh's 8.0% mainly by
-population (top 1,000 with recent activity, not top 10,000) and date; datosh's own first 1,000 entries
-give 100 of 781 (12.8%). As far as we can find, H1 (how many tag references immutable releases protect)
+action by SHA or by a tag of a verified creator. Our 29.5% and datosh's 8.0% differ in population
+(top 1,000 with recent activity, not top 10,000), date and unit (datosh also counts container images);
+datosh's own first 1,000 entries give 100 of 781 (12.8%), and we cannot apportion the rest of the gap. As far as we can find, H1 (how many tag references immutable releases protect)
 and the 49.2% with an immutable tag at the same commit had not been measured. Paper and sources:
 https://easybyte.es/lab/studies/s18/paper/.
 
@@ -80,7 +80,7 @@ reports for each movable tag the immutable release tag at the same commit.
 | `data/references.csv` | one row per remote reference from an organisation repository to an organisation action |
 | `data/actions.csv` | one row per action repository: latest release, immutable or not, usage in A and B |
 | `data/ref_resolution.csv` | for every (organisation action repository, ref): tag, branch, release immutability, immutable tag at the same commit, SHA is a commit |
-| `data/metrics.json`, `data/tables.md` | every figure and table |
+| `data/metrics.json`, `data/tables.md`, `data/summary.json` | every figure and table; `summary.json` (written by `scripts/summarize.py`) holds the figures of `claims.csv` at full precision |
 | `data/frame_queries.csv`, `data/population.json` | every search query with its `total_count`; frame sizes, seed, frame hashes |
 | `data/extractor_check.json` | extractor against a full YAML parse of all 12,764 workflow files |
 | `data/sources/` | literal excerpts of GitHub's documentation, changelog and roadmap with dates; prior-work search log and figures |

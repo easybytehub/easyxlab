@@ -31,9 +31,11 @@ both = [f"{la['yes']:,} of {la['n']:,}", f"({pct(la['yes'], la['n'])})", f"{neve
         f"| tool or workflow change | {cls['tool_or_workflow_change']} |", f"| {cls['isolated_upload']} |", f"| {cls['restored_at_head']} |", f"| unknown | {cls['indeterminate']} |",
         f"At least {pub['projects_with_change_at_least']}", f"{pub['cross_repo_or_kind']} changes", f"{pub['cross_confirmed']}", f"{pub['cross_metadata']}",
         f"{rules.get('not confirmed by public data', 0)}, in {len(pub['projects_not_confirmed'])} projects",
-        pct(na["latest_attested_top1000"]["yes"], na["latest_attested_top1000"]["n"]), f"{na['regression']} of {na['attested_packages']}", f"({pct(na['regression'], na['attested_packages'])})",
+        pct(na["latest_attested_top1000"]["yes"], na["latest_attested_top1000"]["n"]), f"{na['attested_packages']} packages", f"({pct(na['regression'], na['attested_packages'])})",
         f"{sum(m['tob_comparison']['matrix'].get(k, 0) for k in ('success|attested', 'warning|not', 'default|not', 'unsupported|not'))} of its {m['tob_comparison']['tob_total']}"]
-paper_only = [f"{uv} publishing workflows now run `uv publish`", f"{uv} workflows at `HEAD` run `uv publish`", f"{wf['missing']} attesting workflows were deleted",
+# the README names the npm population in its own words (closing review S5-c2), the paper keeps "4 of 459"
+readme_only = [f"of the {na['attested_packages']} packages in the {na['n']:,}-package sample that ever did, {na['regression']} ({pct(na['regression'], na['attested_packages'])}) stopped"]
+paper_only = [f"{na['regression']} of {na['attested_packages']} packages", f"{uv} publishing workflows now run `uv publish`", f"{uv} workflows at `HEAD` run `uv publish`", f"{wf['missing']} attesting workflows were deleted",
               f"{wf['attestations_disabled']} set `attestations: false`", f"{wf['token_auth']} authenticate with an API token", f"{other} use other uploaders",
               f"{override} are agent overrides", f"{unk['repo_unreadable']} have publishing repositories that are not publicly readable",
               f"{unk['upload_step_not_recognised']} have upload steps our patterns do not recognise",
@@ -61,8 +63,9 @@ if "paper.md" not in docs:  # the public package on GitHub ships without the pap
     print("paper.md is not in the public package: the paper is at https://easybyte.es/lab/studies/s5/paper/")
     paper_only = []
 txt = {f: re.sub(r"\s+", " ", open(os.path.join(ROOT, f)).read()) for f in docs}
-bad = [(f, s) for s in both for f in txt if s not in txt[f]] + [("paper.md", s) for s in paper_only if s not in txt["paper.md"]]
+bad = ([(f, s) for s in both for f in txt if s not in txt[f]] + [("paper.md", s) for s in paper_only if s not in txt["paper.md"]]
+       + [("README.md", s) for s in readme_only if s not in txt["README.md"]])
 for f, s in bad:
     print("MISSING in", f, ":", s)
-print(f"headline check: {len(both) * len(txt) + len(paper_only) - len(bad)} passed, {len(bad)} failed")
+print(f"headline check: {len(both) * len(txt) + len(paper_only) + len(readme_only) - len(bad)} passed, {len(bad)} failed")
 sys.exit(1 if bad else 0)

@@ -13,10 +13,57 @@ Reads only data/*.csv written by build.py. Writes:
 from __future__ import annotations
 
 import csv
+import gzip
 import json
 import math
+import re
 
 from s22lib import DATA
+
+
+
+# Dates, editions, quotations and prior-work figures that the abstracts quote (paper §2-§3,
+# PROTOCOL.md), so that every number the text shows has a key in summary.json.
+TEXT = {
+    "editions_compared": "2022–2024", "edition_first": 2022, "edition_last": 2024, "edition_base_variant": 2020,
+    "edition_adults_only_from": 2022, "editions_imm_in_methodology": "2020 and 2022",
+    "sapi_years": "From 2020 to 2022",
+    "revision_year": 2025, "revision_date_quoted": "17/10/2025",           # INE results page
+    "first_published_date": "26 September 2025", "revision_date": "17 October 2025",
+    "strategy_period": "2023–2030", "strategy_goal_year": 2030, "epsh_refugee_share": 0.004,
+    "epsh_refugee_share_quoted": "0,4%",                                    # INE, EPSH 2022 release
+    "progress_report_quoted": "34.145",                                     # Ministry, progress report 2024
+    "mww_year": 2026, "mww_migrant_share": "59–62%", "mww_rise": 0.43,      # Meyer, Wyse and Williams (2026)
+    "next_edition": 2026, "protocol_registered": "4 October 2026", "protocol_clarifications_section": 12,
+    "next_edition_expected": "September 2027",
+}
+
+def region_places(html, label="Navarra, Comunidad Foral de"):
+    """Mean daily places of a region in the regional table embedded in an INE press release:
+    a JSON block with the row labels, then 'ids', 'col', 'row' and 'data' (three values per row)."""
+    i = html.index('"table_1_' + re.sub(r"[^A-Za-z]+", "_", label.replace("í", "i")).strip("_") + '"')
+    k = html.rfind('"ids"', 0, i)
+    end = html.rfind(']', 0, k)
+    start = html.rfind('[', 0, end)
+    labels = json.loads(html[start:end + 1])
+    d = html.index('"data"', i)
+    data = json.loads(html[html.index('[', d):html.index(']', d) + 1])
+    rows = labels[len(labels) - len(data) // 3:]  # the labels start with the three column headers
+    assert len(data) == 3 * len(rows) and rows[0].upper() == "TOTAL", (len(data), rows[:2])
+    return float(re.sub(r"<[^>]+>", "", data[3 * rows.index(label)]).replace(".", "").replace(",", "."))
+
+def region_table(html):
+    """Every row of the regional table embedded in an INE press release, as label -> its three cells
+    (the same JSON block that region_places reads); used to count the regions a revision changed."""
+    k = html.index('"ids"')
+    end = html.rfind(']', 0, k)
+    start = html.rfind('[', 0, end)
+    labels = json.loads(html[start:end + 1])
+    d = html.index('"data"', k)
+    data = json.loads(html[html.index('[', d):html.index(']', d) + 1])
+    rows = labels[len(labels) - len(data) // 3:]
+    assert len(data) == 3 * len(rows) and rows[0].upper() == "TOTAL", (len(data), rows[:2])
+    return {r: [re.sub(r"<[^>]+>", "", str(x)) for x in data[3 * j:3 * j + 3]] for j, r in enumerate(rows)}
 
 
 def load(name):
@@ -373,6 +420,35 @@ def main():
         json.dump(spec, f, ensure_ascii=False, indent=1)
     print("wrote data/predictions_2026_spec.json")
     summary["predictions"] = spec
+
+    # keys the abstracts quote: the INE chart, the per-centre changes, the 2025 revision
+    chart = {int(r["edition"]): float(r["occupied_chart"]) for r in csv.DictReader(open(DATA / "ine_chart_2006_2024.csv", encoding="utf-8"))}
+    eds = sorted(chart)
+    rises = {b: chart[b] / chart[a] - 1 for a, b in zip(eds, eds[1:])}
+    summary["ine_chart"] = {"first_edition": eds[0], "last_edition": eds[-1], "occupied_last": chart[eds[-1]],
+                            "max_occupied_before_last": max(chart[e] for e in eds[:-1]),
+                            "rise_last": rises[eds[-1]], "max_rise_before_last": max(v for e, v in rises.items() if e != eds[-1])}
+    hh = summary["headline"]
+    summary["per_centre_change_pct"] = {
+        g: 100 * ((hh[f"{g}_1"] / hh[f"{g}_centres_1"]) / (hh[f"{g}_0"] / hh[f"{g}_centres_0"]) - 1) for g in ("GBV", "OTH")}
+    rv = {r["indicator"]: r for r in csv.DictReader(open(DATA / "revision_2024.csv", encoding="utf-8"))}
+    raw = DATA / "raw"
+    orig = gzip.decompress((raw / "wayback" / "ECAPSH2024_20250926132524.htm").read_bytes()).decode("utf-8", "replace")
+    revd = (raw / "ine_press" / "ECAPSH2024.htm").read_text(encoding="utf-8")
+    summary["revision"] = {"first_published_occupied": float(rv["occupied_mean"]["original_2025_09_26"]),
+                           "added_occupied": float(rv["occupied_mean"]["revised_2025_10_17"]) - float(rv["occupied_mean"]["original_2025_09_26"]),
+                           "added_booked_per_centre": summary["revision_split"]["added_to_per_centre_term"],
+                           "navarre_places_first": region_places(orig), "navarre_places_revised": region_places(revd)}
+    t_orig, t_revd = region_table(orig), region_table(revd)
+    assert list(t_orig) == list(t_revd), "the two vintages list different regions"
+    changed = [r for r in t_orig if r.upper() != "TOTAL" and t_orig[r] != t_revd[r]]
+    summary["revision"].update({"regions_in_table": sum(1 for r in t_orig if r.upper() != "TOTAL"),
+                                "regions_changed": len(changed), "regions_changed_labels": changed})
+    # all centres (with or without accommodation), by specialisation: the homogeneous base for
+    # «most of the new centres» against the change in all centres (long.rows.*.centres)
+    summary["centres_all"] = {f"{seg}_{i}": SPEC[(ed, seg)]["centres"]
+                              for seg in ("IMM", "ALL") for i, ed in ((0, 2022), (1, 2024))}
+    summary["text"] = dict(TEXT)
 
     with open(DATA / "summary.json", "w", encoding="utf-8") as f:
         json.dump(summary, f, ensure_ascii=False, indent=1, default=float)

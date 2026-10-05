@@ -1,5 +1,5 @@
 # S23 — How large is Spain's public housing stock? Tracing the official figures and the EU averages they are compared with (2019–2026)
-*EasyxLab · study S23 · 32 figures for Spain and 14 EU averages from 25 documents, read on 4–5 October 2026 · status: working draft, not peer-reviewed*
+*EasyxLab · study S23 · 32 figures for Spain and 14 comparison figures from 25 documents, read on 4–5 October 2026 · status: working draft, not peer-reviewed*
 
 **Paper:** [easybyte.es/lab/studies/s23/paper/](https://easybyte.es/lab/studies/s23/paper/) · [PDF](https://easybyte.es/lab/studies/s23/paper.pdf)
 
@@ -7,18 +7,20 @@
 
 Official texts give Spain's public or social housing stock as 290,000 or 318,000 dwellings, and
 as 1%, 1.1%, 1.5%, 1.6%, 1.7%, less than 2%, 2.5%, 2.5–3.4%, 3.3% or 3.5%. They set it against an
-EU average of 6–7%, about 7%, 8% or 9%. We collected 32 figures for Spain and 14 EU averages from
-25 documents: Spanish law, state housing plans, the Ministry's statistical bulletins, the State
-housing entity CASA 47, INE, Eurostat, the OECD, Housing Europe, the Banco de España, the
-Commission and the Council. We checked all 46 quotations literally against the downloaded
+EU average of 6–7%, about 7%, 8% or 9%. We collected 32 figures for Spain and 14 comparison
+figures (12 averages for the EU or Europe and 2 shares for named countries) from 25 documents:
+Spanish law, state housing plans, the Ministry's statistical bulletins, the State housing entity
+CASA 47, INE, Eurostat, the OECD, Housing Europe, the Banco de España, the Commission and the
+Council. We checked all 46 quotations literally against the downloaded
 sources and traced each figure as far back as the documents allow.
 
-**The counts come from two Ministry surveys.** Every national count of Spain's public stock comes from
-the Ministry's Observatorio de Vivienda y Suelo, which surveyed the dwellings that regions and
-municipalities own and let:
+**The counts.** All but one of the national counts of Spain's public stock that we found equal,
+or round, the figures of two surveys by the Ministry's Observatorio de Vivienda y Suelo, of the
+dwellings that regions and municipalities own and let:
 - **290,000**: the 2019 survey. The 2023 housing law, the OECD and the Banco de España reuse it.
 - **318,000**: the 2023 survey, in a bulletin dated January 2025. The 2026–2030 State Housing
   Plan, Housing Europe and the Commission reuse it.
+- **250,000**, in Housing Europe's 2019 profile, names no source and matches neither survey.
 
 **Most shares follow from the denominator, the year or the concept.**
 - **Denominator.** 318,000 is 1.7% of households and 1.2% of all dwellings.

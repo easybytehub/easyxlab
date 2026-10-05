@@ -112,7 +112,7 @@ vals = [share(*k) for k in two]
 same("headline range = summary.json", [round(min(vals), 6), round(max(vals), 6)], S["ranges"]["headline_dwellings"])
 need("headline range, two extents and three rules, whole percent", f"{100 * min(vals):.0f}–{100 * max(vals):.0f}%")
 need("root row: reference figure first", f"Of {f(n)} dwellings inside the EU's Copernicus outline", ROW)
-need("root row: outside every zone", f"{f(out)} ({pct(out / n)}) lay outside every official flood zone", ROW)
+need("root row: outside every zone", f"{f(out)} ({pct(out / n)}) lay outside every official river-flood zone", ROW)
 need("root row: range over two extents and three rules",
      f"Across two flood outlines and three counting rules, the share outside is {100 * min(vals):.0f}–{100 * max(vals):.0f}%", ROW)
 need("root row: caveat", "Counts of exposure, not of illegality.", ROW)
