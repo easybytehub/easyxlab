@@ -6,8 +6,9 @@
 
 ## Abstract
 
-Wikidata is a CC0 knowledge graph whose multilingual labels are reused by Wikipedia
-infoboxes, identifier-translation services and multilingual term search. We froze the
+Wikidata is a CC0 knowledge graph designed for reuse: French and Spanish Wikipedia drug
+infoboxes pull its ATC codes, and an anatomy browser can use its multilingual synonyms for term
+search. We froze the
 labels of all 3,768 Wikidata items that carry an ATC code (P267) in 20 languages
 (34,207 labels), plus 10,823 items with ICD-10/ICD-11 codes. Seven rule-based detectors
 flag labels in the wrong script, brand names, salt/parent mismatches, shared labels,
@@ -23,7 +24,8 @@ About 0.9% of drug labels are wrong (≈312 of 34,207; 0.5% at the lower 95% CI 
 precision), not counting 168 labels in 62 shared-label groups. This is a lower bound with
 respect to recall. Errors concentrate in Urdu (39 per
 1,000 labels), Persian (35), Russian (28) and Hindi (25), against 2–4 per 1,000 in the major
-Latin-script languages (excluding English). They include:
+Latin-script languages (excluding English). In Persian, 92 of the 109 script flags
+are English labels on ATC class items («ATC code R03»), not drug names. The errors include:
 
 - brand names (Seroquel, Lyrica, Arcoxia);
 - English text and misspellings;
@@ -34,8 +36,10 @@ In ICD-10 (P494), 2.5% of values are invalid, ranges excluded; 44 show the same 
 corruption («B2424.» for HIV/AIDS, «I10-I1515.» for hypertension). In ATC, 3.3% of statements
 are codes replaced (WHO alterations list) but still ranked normal.
 
-Six of the seven errors from our earlier review (an exploratory check of 59 chronic-treatment
-drugs and 34 chronic diseases) were still present; the seventh was only partly fixed.
+Six of the seven errors reported by our exploratory check earlier the same day (59
+chronic-treatment drugs, 34 chronic diseases) are confirmed in the snapshot; the seventh was not
+confirmed as reported: the Persian label of valproic acid is «والپروات سدیم», Persian script but
+still the sodium salt, and the item had not been edited since 2026-09-01.
 
 We propose 135 corrections, reviewed one by one by the study agent, as a QuickStatements
 proposal (`corrections.qs`). The proposal **has not been applied**: re-check each `lastrevid`

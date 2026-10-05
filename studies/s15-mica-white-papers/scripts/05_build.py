@@ -167,7 +167,8 @@ def main():
             "register": r["_register"], "csv_line": r["_row"], "cohort": int(r["_cohort"]), "wayback_label": label,
             "excluded_placeholder": int(placeholder), "home_ms": r.get("ae_homeMemberState", ""),
             "wp_lastupdate": r.get("wp_lastupdate", ""), "wp_lastupdate_iso": r.get("_date", ""),
-            "wp_url": r.get("wp_url", "").replace("\n", " ").replace("\r", " "),
+            # download tokens in signed storage links (e.g. GitBook/Firebase "token=") are redacted, as in doc_url
+            "wp_url": re.sub(r"(?i)(token=)[^&#]+", r"\1REDACTED", r.get("wp_url", "").replace("\n", " ").replace("\r", " ")),
             "lei": r.get("ae_lei", "").upper() if lei_checksum_ok(r.get("ae_lei", "")) else "",
             "lei_casp": r.get("ae_lei_casp", "").upper() if lei_checksum_ok(r.get("ae_lei_casp", "")) else "",
             "casp_named": int(bool(r.get("ae_lei_casp") or r.get("ae_lei_name_casp"))),

@@ -11,10 +11,12 @@ were built after Real Decreto 638/2016 limited building in flood zones?
 - **The official maps.** The State's hazard maps for the areas of significant potential flood
   risk (ARPSI, RD 903/2010; 10, 100 and 500 years) and the Generalitat's PATRICOVA.
 
-**The answer, as a range.** About **39–62% of the dwellings inside the observed extent were
-outside every official flood zone** across the two flood extents and the three rules, and up to 66%
-with the Copernicus product versions, edge buffers and the building's centroid tested against the
-extent.
+**The answer.** Of the 84,789 dwellings inside the flood extent mapped by Copernicus EMS, the
+EU's emergency management service, 43,359 (51.1%) lay outside every official flood zone under the
+reference rule. The figure depends on which extent and which rule is used, so we also give it as a
+range: about **39–62% of the dwellings inside the observed extent were outside every official flood
+zone** across the two flood extents and the three rules, and up to 66% with the Copernicus product
+versions, edge buffers and the building's centroid tested against the extent.
 
 | | Copernicus EMS extent | Generalitat's footprint |
 |---|---|---|
@@ -94,7 +96,7 @@ first delineation (the pilot had 11,986) and 624 dwellings in 99 buildings dated
 | `scripts/check_disclosure.py` | tests the published files: no cell under 5 buildings, no small count in `summary.json`, no withheld value recoverable from the published relations (null-space test) |
 | `scripts/run.sh` | `run.sh` (fetches first if there is no local copy), `run.sh fetch`, `run.sh check` |
 | `tests/test_s19lib.py` | tests of the building parser, year bands, classes, cell formatting, masks, hole filling and the disclosure engine (synthetic inputs) |
-| `data/flooded_dwellings.csv` | municipality × map status (ARPSI 10- and 100-year zones merged) × year band (2016 or earlier, 2017–2024, 2025 or later): buildings with dwellings and dwellings, reference scenario |
+| `data/dwellings_in_extent.csv` | municipality × map status (ARPSI 10- and 100-year zones merged) × year band (2016 or earlier, 2017–2024, 2025 or later): buildings with dwellings and dwellings inside the extent, reference scenario |
 | `data/municipalities.csv` | per municipality: flooded area, Catastro dwellings, dwellings in the extent and outside every zone (reference and centroid-in-envelope rules), built 2017–2024, and the same for the Generalitat's footprint |
 | `data/by_year.csv`, `data/by_use.csv`, `data/zone_overlap.csv` | province: year band × status; use × status; ARPSI × PATRICOVA overlap |
 | `data/sensitivity.csv`, `data/leave_one_out.csv`, `data/extent_variants.csv`, `data/extent_comparison.csv` | every extent × building rule × zone rule × unit; the headline without each municipality; extent areas; Copernicus against the Generalitat's footprint |

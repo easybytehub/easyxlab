@@ -6,9 +6,9 @@ This file holds the analysis plan, frozen before any of its measures were comput
 sources (§2), access (§3) and every later deviation (§9). The plan was written after the scout's
 pilot (report K1) was known: the four-quarter sums for Madrid, Barcelona, Valencia, Málaga,
 Alicante, Baleares and Spain, and the Madrid and Barcelona quarterly counts for 2023–2026. We
-recomputed those and they match (STATUS.md, phase 1). Nothing else in §1.3–§1.9 had been
-computed. The in-sample tests are therefore not blind. The only blind test is the
-pre-registered prediction for the third quarter of 2026 (§1.9, `PREDICTIONS.md`).
+recomputed those and they match. Nothing else in §1.3–§1.9 had been computed. The in-sample
+tests are therefore not blind. The only blind test is the pre-registered prediction for the third
+quarter of 2026 (§1.9, `PREDICTIONS.md`).
 
 <!-- FROZEN-PLAN:BEGIN -->
 ## 1. Analysis plan (frozen)
@@ -147,10 +147,11 @@ checks the header and the identities (groups add up to totals, provinces add up 
 the current release they hold everywhere except two cells of 2009Q4: the national total and
 Toledo's total. Neither is used. Sheets marked «(**)» are provisional; only 2026Q2 is.
 
-**Revisions.** The release of 30 May 2023 and that of 6 October 2025 differ from the current one
-only in a few cells, mostly in their last, provisional quarter. For example, 2025Q2's national
-count of foreign non-resident purchases went from 13,545 to 13,536. Over 2021Q1–2025Q2, Madrid's
-and Barcelona's sums differ by at most 4 purchases (`data/vintages.csv`).
+**Revisions.** In the quarters kept in `data/vintages.csv` (from 2021Q1), the releases of 30 May
+2023 and 6 October 2025 differ from the current one only in their last, provisional quarter
+(2022Q4 and 2025Q2). For example, 2025Q2's national count of foreign non-resident purchases went
+from 13,545 to 13,536. Over 2021Q1–2025Q2, Madrid's and Barcelona's sums of foreign non-resident
+purchases differ by at most 4.
 
 ## 3. Access: User-Agent, rate, robots.txt
 
@@ -171,7 +172,8 @@ and Barcelona's sums differ by at most 4 purchases (`data/vintages.csv`).
   extranjeros.inclusion.gob.es, data-api.ecb.europa.eu, www.portugal.gov.pt).
 - **Blocked, not bypassed.** These hosts answered 403 to our User-Agent: www.mivau.gob.es,
   www.inclusion.gob.es and extranjeros.inclusion.gob.es (the investor-permit statistics),
-  elpais.com, www.eleconomista.es and www.transparency.org. html.duckduckgo.com answered with a
+  www.congreso.es (the bills; this check is not in `work/fetch_log.jsonl`), elpais.com,
+  www.eleconomista.es and www.transparency.org. html.duckduckgo.com answered with a
   challenge page. We used neither archived copies of these hosts nor any other route around them.
 - **www.ine.pt** answers 403 to robots.txt itself. RFC 9309 treats a 4xx as "no restrictions", and
   the JSON API answered normally.
@@ -209,7 +211,8 @@ and Barcelona's sums differ by at most 4 purchases (`data/vintages.csv`).
 
 ## 9. Deviations from the frozen plan, and additions
 
-All were made on 2026-10-04, after the frozen plan's measures had been computed.
+§9.1–§9.8 were made on 2026-10-04 and §9.9–§9.10 on 2026-10-05, all after the frozen plan's
+measures had been computed.
 
 ### 9.1 History of the two cities' share (added)
 
@@ -346,6 +349,16 @@ text changes are in [the paper](https://easybyte.es/lab/studies/s21/paper/) and 
 - process notes the reader cannot check were removed (session budget, the internal review file),
   and a typo inside a quotation, an artefact of the page's markup, was corrected.
 
+### 9.10 Changes after a further review (2026-10-05)
+
+No number changed, and the plan block and `PREDICTIONS.md` are untouched:
+- README and paper say where they present the group that Madrid and Barcelona are the provinces,
+  called "the two cities" for short;
+- the heading on the other buyer groups in paper §5.2 gives their largest relative fall (Spanish
+  residents, −3.7%) instead of «moved roughly like the rest», which §9.9 had missed, and so do
+  the paper's abstract and the README;
+- two more process notes the reader cannot check were removed or reworded in this file.
+
 ## 10. What was not possible
 
 - **EU and non-EU buyers in Spain.** MIVAU table 1.6 does not separate them, and neither does
@@ -366,8 +379,9 @@ text changes are in [the paper](https://easybyte.es/lab/studies/s21/paper/) and 
   not 2023Q1 or 2024Q1.
 - **The tax announcement.** It cannot be separated from the repeal with quarterly data. Its legal
   status was checked: no rule in the BOE.
-- **Press data journalism.** WebSearch was exhausted, and El País and elEconomista block us. The
-  press items in paper §3 come from search snippets found by the reviewer:
+- **Press data journalism.** Open web search was not available to us, and El País and
+  elEconomista block us. The press items in paper §3 come from search snippets found by the
+  reviewer:
   - El Periódico answers 406;
   - La Razón's robots.txt reserves its content against AI crawlers;
   - the Notariado's site carries «Content-Signal: ai-train=no, search=yes, ai-input=no».

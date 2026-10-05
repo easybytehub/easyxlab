@@ -34,13 +34,14 @@ and Barcelona. The tests fixed in advance do not support attributing it to the r
   10 percentage points of share, permutation p = 0.13. Their share of homes sold for €600,000 or
   more does not predict the fall either.
 
-**What the data show for Madrid and Barcelona (exploratory: chosen after a pilot showed they fell
-most).**
+**What the data show for Madrid and Barcelona (the provinces, called "the two cities" below for
+short; exploratory: chosen after a pilot showed they fell most).**
 - **Size.** Foreign non-resident purchases went from 2,651 in B to 1,699 in P, −35.9%, against
   −8.5% in the rest of Spain: −30.0% relative to the rest. Madrid fell 36.3% and Barcelona 35.7%.
   Valencia, also one of the six, fell 26.9%. Málaga fell 5.5% and Alicante 5.2%.
-- **Only these buyers.** In the same two provinces, against the rest of Spain, purchases by
-  foreign residents rose 4.6%, by Spanish non-residents 13.0%, and all purchases moved −1.3%.
+- **Only these buyers.** In the same two provinces, against the rest of Spain, no other buyer
+  group fell by more than 3.7%: foreign residents +4.6%, Spanish non-residents +13.0%, Spanish
+  residents −3.7%, all purchases −1.3%.
 - **Against history.** Over the 58 planned placebo dates the relative fall has p = 0.051, and over
   a spaced subset of 15 dates p = 0.125. Placebo windows overlap. With fully non-overlapping
   windows there are only five dates, so no p below about 0.17 is attainable; the real fall is the
@@ -49,15 +50,14 @@ most).**
 - **The baseline year was high.** Madrid's 614 purchases in P are about its 2019 count (609).
   - Against 2018–2019, the two cities' share of Spain's foreign non-resident purchases is 22%
     lower (Madrid −13%, Barcelona −26%); against B it is 29% lower.
-  - In the event study, their deviations in 2020–2022 (−0.28 to −0.53 log points) are as large as
+  - In the event study, their deviations in 2020Q3–2022Q4 (−0.28 to −0.53 log points) are as large as
     the post-repeal ones (−0.22 to −0.45).
 - **Timing.** The two cities' level relative to the rest fell 42.7% from 2025Q1 to 2025Q2, the
   largest such fall since 2007. Two other readings fit that quarter:
-  - it is also the quarter of the euro's largest quarterly rise of the sample against the dollar
+  - it is also the quarter of the euro's largest quarterly rise of 2007–2026 against the dollar
     (+7.7%) and the yuan (+7.1%);
   - a deadline makes buyers bring purchases forward, so a sharp drop just after it cannot tell
-    "the rush ended" from "demand fell". Portugal shows the pattern: when it closed Lisbon,
-    Porto and the coast to its real-estate route on 1 January 2022, purchases by buyers domiciled
+    "the rush ended" from "demand fell". Portugal shows the pattern: when it closed homes in Lisbon, Porto and the coast to its real-estate route on 1 January 2022, purchases by buyers domiciled
     outside the EU spiked in 2021Q4, fell 0.49 log points against EU buyers in 2022Q1, and grew
     again in 2022 and 2023 (in 2022 less than purchases by EU buyers: −11.8% relative).
 - **The rush.** Madrid rose 38.7% in A and the two cities 24.8%, against 6.1% in the rest. The
@@ -71,8 +71,8 @@ most).**
 - **Currency.** A regression in levels gives a −10% relative change from the euro's rise, but it is
   close to spurious (Durbin–Watson 0.49). Regressions in differences give about zero. **The
   currency effect cannot be bounded with these data.**
-- **The general market** did not fall: Spanish residents and all buyers in the two cities moved
-  like the rest.
+- **The general market** fell little: against the rest of Spain, Spanish residents in the two
+  cities fell 3.7% and all buyers 1.3%.
 - **Regional tax.** Madrid's transfer tax has been 6% since 2014. Catalonia raised it on
   second-hand homes over €600,000, for all buyers, from 27 June 2025 (decree-law published 26
   March 2025).

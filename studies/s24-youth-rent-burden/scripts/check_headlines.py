@@ -47,7 +47,17 @@ else:
     print("paper.md not present: checking README.md only")
 S = json.load(open(D / "summary.json", encoding="utf-8"))
 bad = []
-BOTH, PAPER, README = ("README.md", "paper.md"), ("paper.md",), ("README.md",)
+BOTH, PAPER, README, ROW = ("README.md", "paper.md"), ("paper.md",), ("README.md",), ("root row",)
+# The study's row in the repository's README (the headline the site shows), when the study sits in it.
+ROOT = R.parent.parent / "README.md"
+if ROOT.exists():
+    row = [ln for ln in ROOT.read_text(encoding="utf-8").splitlines() if ln.startswith("| [S24](")]
+    if len(row) != 1:
+        bad.append(f"repository README: {len(row)} rows for S24")
+    else:
+        docs["root row"] = flat(row[0])
+else:
+    print("not inside the studies repository: the root-table row is not checked")
 
 
 def need(label, text, where=BOTH):
@@ -73,6 +83,12 @@ need("change interval", f"{pts(ch['ci95_low'])} to {pts(ch['ci95_high'])}")
 alone = [x for x in csvrows("young_tenants_breakdown.csv") if x["year"] == "2025" and x["age_band"] == "18-34"
          and x["breakdown"] == "household_type" and x["value"] == "alone"][0]
 need("living alone overburdened", f"{pct(alone['overburden_pct'])} were overburdened (n = {num(alone['n'])})", where=README)
+need("root row: overburden 2025", f"In 2025, {pct(y25['overburden_pct'])} of people aged 18–34 in Spain who had left home and rented at market price lived in households that spent over 40% of their disposable income on housing", ROW)
+need("root row: overburden 2021", f"against {pct(y21['overburden_pct'])} in 2021", ROW)
+need("root row: median rent", f"their median rent was €{num(y25['median_rent'])} a month", ROW)
+need("root row: older tenants", "Older tenants' overburden fell about as much", ROW)
+need("root row: selection caveat", "for the young, that the fall reflects who leaves home cannot be ruled out.", ROW)
+need("abstract: selection caveat", "for young tenants it cannot be ruled out", README)
 need("living alone overburdened, paper", f"{pct(alone['overburden_pct'])} of them are overburdened (n = {num(alone['n'])})", where=PAPER)
 yr = S["young_ref_households_18-34_2025"]
 need("reference-person households", f"{pct(yr['overburden_pct'])} ({num(yr['n'])} households)", where=PAPER)
@@ -102,6 +118,10 @@ dec = S["decomposition"]
 need("35-49 fall", f"{abs(dec['within_35-49_2021_2025']['change_pp']):.1f} points at ages 35–49", where=README)
 need("50-64 fall", f"{abs(dec['within_50-64_2021_2025']['change_pp']):.1f} points at ages 50–64", where=README)
 need("young fall", f"{abs(dec['young_18_34_2021_2025']['change_pp']):.1f} points among young tenants", where=README)
+# root row, «Older tenants' overburden fell about as much»: every older band within 3 points of the young
+for a in ("35-49", "50-64", "65_plus"):
+    if abs(dec[f"within_{a}_2021_2025"]["change_pp"] - dec["young_18_34_2021_2025"]["change_pp"]) > 3:
+        bad.append(f"root row: the fall at ages {a} is not about as large as the young tenants' fall")
 d = S["young_minus_35_49_change"]
 need("age comparison power", f"{d['pp']:.1f} points with a 95% interval of {pts(d['ci95_low'])} to {d['ci95_high']:.1f}", where=README)
 need("age comparison power, paper", f"{d['pp']:.1f} points, with a 95% interval of {pts(d['ci95_low'])} to {d['ci95_high']:.1f}", where=PAPER)

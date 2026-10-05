@@ -17,8 +17,9 @@ beside the measured burden.
 rented at market price (n = 1,048 people in 783 households):
 - the median rent paid was 630 € a month, 24.7% of household disposable income;
 - the median housing cost burden (rent, utilities and fees, Eurostat's definition) was 30.8%;
-- 31.5% were overburdened, spending more than 40% of disposable income on housing (95% interval
-  26.8–36.1, household bootstrap). For ages 18–29 the figure is 34.0% (n = 438);
+- 31.5% were overburdened: they lived in households spending more than 40% of their disposable
+  income on housing (95% interval 26.8–36.1, household bootstrap). For ages 18–29 the figure is
+  34.0% (n = 438);
 - among those who live alone, 63.0% were overburdened (n = 227).
 
 In 2021 the same group's overburden was 42.7% (n = 852). The fall, −11.2 points, is imprecise:

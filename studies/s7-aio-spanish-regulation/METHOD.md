@@ -62,7 +62,7 @@ for Spain, at one reading. Each query targets one **fact**, a Spanish rule. Answ
 - **Prices.** The price table (`/v3/appendix/user_data`) lists USD 0.002 per SERP request. The observed AIO
   requests cost USD 0.00285–0.00301 because of the asynchronous AI Overview; AI Mode cost USD 0.004 (measured on a
   2-query pilot).
-- **Spend.** USD 2.120 in total (`data/spend.json`), within a budget of USD 4.50. No calls were made after reading 3.
+- **Spend.** USD 2.12 in total (`data/spend.json`), within a budget of USD 4.50. No calls were made after reading 3.
 - **Storage.** Raw responses and full answer texts stay in `data/raw/`, git-ignored and not redistributed.
 - **Client.** `probe.py` uses EasyByte's private client if present, otherwise a minimal stdlib client with
   credentials from the environment.
@@ -86,7 +86,7 @@ an extract of at most 300 characters):
   F16, F21, F25, F28; 81 more).
 
 The agent added `incorrect`: a fixed date or value that neither the current nor the superseded text contains. For
-F28, firm calendar dates for a deadline that runs from an unpublished order are `incorrect`; with the dependency
+F28, firm calendar dates for a deadline that ran from an order not published at the readings are `incorrect`; with the dependency
 stated they are `mixed`; labelled as estimates they are `current`.
 
 **False-negative check.** The agent re-read 40 random unflagged answers (seed 20261003) from the facts not fully

@@ -44,6 +44,20 @@ bci = lambda x: f"{x['k']} of {x['n']} ({x['pct']}%, CI {x['ci95'][0]}–{x['ci9
 LB, MB, SB = band("large (n>=100)"), band("medium (30-99)"), band("small (n<30)")
 fr, pl = S["country_full"]["FR"], S["country_full"]["PL"]
 agf = F["classes"]["agnostic_reservation"]
+# Named blockers with no agnostic reservation that state one only in a form not counted as one:
+# robots.txt comments, Content-Usage ai=n (vocab-01 label) or noai. Counted from data/records.csv.
+rec = list(csv.DictReader(open(os.path.join(D, "records.csv"))))
+nbo = [r for r in rec if r["class"] == "named_bots_only"]
+sig = {"comments": [r for r in nbo if r["nl_reservation"] == "1"],
+       "ai_n": [r for r in nbo if r["content_usage_values"] == "ai=n"],
+       "noai": [r for r in nbo if r["noai"] == "1"]}
+sig_any = {r["host"] for v in sig.values() for r in v}
+sig_ok = len(sig_any) == sum(len(v) for v in sig.values()) and len(nbo) == F["named_no_agnostic"]["k"]
+# Agnostic sites whose only agnostic channel is a `*` group disallowing `/` (a total block, not a TDM-specific reservation).
+# Fully read sites only (the 154 read on robots.txt alone include 11 more agnostic hosts).
+star_only = sum(r["partial"] == "0" and r["class"] == "agnostic_reservation"
+                and r["agnostic_channels"] == "robots_star_disallow_root" for r in rec)
+NOT_COUNTED = "state no reservation in a form we count as addressed to any crawler"
 d1 = RA["breach_requests_by_deviation"]["D1 (before that host's robots.txt)"]
 claims = {
     "frame": f"{S['frame_hosts']:,} news websites",
@@ -55,6 +69,11 @@ claims = {
     "named_no_agn_full": kn(F["named_no_agnostic"]),
     "named_no_agn_full_ci": ci(F["named_no_agnostic"]),
     "none_full": kn(F["classes"]["none_stated"]),
+    "named_no_agn_signal": f"{len(sig_any)} of the {len(nbo)} state one only" if sig_ok else "MISMATCH",
+    "named_no_agn_wording": f"{kn(F['named_no_agnostic'])}, CI {ci(F['named_no_agnostic'])}, {NOT_COUNTED}",
+    "agnostic_star_only": f"{star_only} of them through a `robots.txt` that disallows the whole site",
+    "named_no_agn_signal_split": f"`robots.txt` comments ({len(sig['comments'])}), which an RFC 9309 parser discards, as `Content-Usage: ai=n`, a label the current IETF draft dropped ({len(sig['ai_n'])}), or as the non-standard `noai` ({len(sig['noai'])})"
+    if sig_ok else "MISMATCH",
     "agnostic_all_min": "at least " + kn(A["agnostic_min"]),
     "named_no_agn_all_max": f"at most {A['named_no_agnostic_max']['k']:,} of {A['named_no_agnostic_max']['n']:,} ({A['named_no_agnostic_max']['pct']}%)",
     "band_large": f"large countries {LB['k']} of {LB['n']} ({LB['pct']}%)",
@@ -90,7 +109,7 @@ claims = {
     "providers_other": f"None of the {len(read)} names TDMRep, Content-Signal, Content-Usage or `noai`"
     if all(p[k] == "0" for p in read for k in ("tdmrep", "content_signal", "content_usage_aipref", "noai_meta")) else "MISMATCH",
 }
-PAPER = ["frame", "agnostic_full", "agnostic_full_ci", "named_full", "named_no_agn_full", "none_full", "tdmrep_full",
+PAPER = ["frame", "agnostic_full", "agnostic_full_ci", "named_full", "named_no_agn_full", "named_no_agn_signal", "none_full", "tdmrep_full",
          "tdmrep_full_ci", "tdmrep_split", "tdmrep_not_file", "sens_ai_n", "comments", "providers"]
 named_all = A["named_any"]
 PAPER_EXTRA = {
@@ -119,7 +138,15 @@ PAPER_EXTRA = {
     "p_d7": f"{D7['requests_in_rescan']} requests ({D7['requests_beyond_robots']} beyond `robots.txt`) went to {D7['n_hosts']} sites",
     "p_d2": f"{D2['requests_beyond_robots_to_them']} requests went to {D2['n_hosts']} sites",
     "p_robots_only": f"{S['robots_only']} sites were read on `robots.txt` alone, and {S['fully_read']:,} in full",
+    "p_abs_named_no_agn": f"{kn(F['named_no_agnostic'])} of those {NOT_COUNTED}",
+    "p_abs_star_only": f"({star_only} of them through a `robots.txt` that disallows the whole site",
+    "p_61_split": f"{len(sig['comments'])} of them state a reservation only in comments, and {len(sig['ai_n']) + len(sig['noai'])} only in a label the headline does not count (`Content-Usage: ai=n`, {len(sig['ai_n'])}; `noai`, {len(sig['noai'])})"
+    if sig_ok else "MISMATCH",
+    "p_d8": f"at least {kn(A['agnostic_min'])}",
 }
+# Wording the third review (2026-10-05) found false for 23 of the 480 (6 `noai`, 17 `Content-Usage: ai=n`): it must not return.
+BANNED = ["would meet no machine-readable reservation", "a crawler with a new name would meet no",
+          "text-and-data-mining reservation addressed to any crawler"]
 
 
 def norm(s):
@@ -156,5 +183,37 @@ if os.path.exists(pp):
         print(("ok   " if ok else "FAIL ") + f"paper  {k}: {s}")
 else:
     print("paper.md is not in the public package: the paper is at https://easybyte.es/lab/studies/s16/paper/")
+# The study's row in the repository's README (the headline the site shows), when the study sits in it.
+rp = os.path.join(os.path.dirname(os.path.dirname(ROOT)), "README.md")
+if os.path.exists(rp):
+    rows_ = [ln for ln in open(rp, encoding="utf-8").read().splitlines() if ln.startswith("| [S16](")]
+    nm, nn = F["named_any"], F["named_no_agnostic"]
+    ROW = {
+        "row_frame": f"Of {S['fully_read']:,} EU news sites read in full",
+        "row_named": f"{nm['k']} block at least one AI crawler by name",
+        "row_named_no_agn": f"but {nn['k']} of those ({nn['pct']}%) {NOT_COUNTED}",
+        "row_named_no_agn_signal": f"{len(sig_any)} of the {nn['k']} state one only in `robots.txt` comments, in a label the current IETF draft dropped or in the non-standard `noai`" if sig_ok else "MISMATCH",
+        "row_agnostic": f"Only {agf['k']} ({agf['pct']}%) state a reservation addressed to any crawler, whatever its name, {star_only} of them by closing the whole site to unnamed crawlers",
+    }
+    if len(rows_) != 1 or nm["n"] != S["fully_read"] or nn["n"] != nm["k"]:
+        fail += 1
+        print(f"FAIL root row: {len(rows_)} rows for S16, or the denominators of the row do not chain")
+    else:
+        for k, s in ROW.items():
+            ok = present(s, rows_[0])
+            fail += not ok
+            print(("ok   " if ok else "FAIL ") + f"root   {k}: {s}")
+else:
+    print("not inside the studies repository: the root-table row is not checked")
+texts = {"README.md": readme}
+if os.path.exists(pp):
+    texts["paper.md"] = open(pp).read()
+if os.path.exists(rp):
+    texts["root row"] = "\n".join(ln for ln in open(rp, encoding="utf-8").read().splitlines() if ln.startswith("| [S16]("))
+for name, text in texts.items():
+    for b in BANNED:
+        if b in norm(text):
+            fail += 1
+            print(f"FAIL banned wording in {name}: {b}")
 print("MISMATCHES:", fail)
 sys.exit(1 if fail else 0)

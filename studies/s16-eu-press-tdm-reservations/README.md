@@ -19,9 +19,14 @@ header, `<meta>`), Content-Signal, the IETF `Content-Usage` rule, `noai` and `ll
 requested a URL only where `robots.txt` allowed it.
 
 **On the 1,356 sites we could read in full, 99 of 1,356 (7.3%), 95% CI 6.0–8.8%, state a
-reservation addressed to any crawler, whatever its name.**
+reservation addressed to any crawler, whatever its name (11 of them through a `robots.txt` that
+disallows the whole site to every crawler it does not name).**
 - 558 of 1,356 (41.2%) block at least one named AI crawler at the root. Of those, 480 of 558
-  (86.0%), CI 82.9–88.7%, state nothing that a crawler with a new name would read.
+  (86.0%), CI 82.9–88.7%, state no reservation in a form we count as addressed to any crawler
+  (TDMRep, Content-Signal `ai-train=no`, `Content-Usage` `train-ai=n`, or a `robots.txt` closed to
+  unnamed crawlers). 83 of the 480 state one only in `robots.txt` comments (60), which an RFC 9309
+  parser discards, as `Content-Usage: ai=n`, a label the current IETF draft dropped (17), or as the
+  non-standard `noai` (6).
 - 777 of 1,356 (57.3%) state no reservation in any channel we read.
 - Across all 1,510 sites that answered for `robots.txt`, the agnostic count is at least
   110 of 1,510 (7.3%). Named blockers without an agnostic reservation are at most 621 of 699 (88.8%).
@@ -46,7 +51,8 @@ reservation addressed to any crawler, whatever its name.**
 
 **Access, and what we got wrong.** For 154 sites we read `robots.txt` only, because a deliberately
 conservative detector flags their comments as a general prohibition of automated access. The
-study broke its own access rule five times; every breach is declared and its data deleted:
+study broke its own access rule five times. Every breach is declared, and the data of D0, D2, D4
+and D7 were deleted (D1's 7 requests reached a host whose `robots.txt` sets no restriction):
 - D0: the scouting pilot.
 - D1: 7 requests to a host before its `robots.txt`.
 - D2: 245 requests to 92 sites.
@@ -106,6 +112,11 @@ the free tool `optout-lint`.
   - The study's instructions had wrongly classed the Mediahuis notice as purpose-specific.
   - The re-scan sent them 96 requests, 72 beyond `robots.txt`. Data and statuses were deleted.
   - Detector v4 classes such notices as general.
+- **D8 (headline denominator, logged at the third review, 2026-10-05).** The frozen rule (METHOD
+  §5) puts the 1,510 sites that answered for `robots.txt` in the headline denominator. We headline
+  the 1,356 sites read in full instead, because the 154 read on `robots.txt` alone have unknown
+  TDMRep, headers and `<meta>`. Under the frozen denominator the agnostic count is at least 110 of
+  1,510 (7.3%).
 - **Other limits.** We read only the home page. Channels we did not read: `ai.txt` pointers in
   comments, the `notdm` directive and Content-Signal `use=`. The frame depends on Wikidata and
   Chrome popularity, and we give no country shares below n = 30. The figures are a snapshot. Whether
@@ -128,7 +139,7 @@ detector errors behind D5. A second independent AI reviewer audited v3 and found
 
 | file | |
 |---|---|
-| `METHOD.md` | sources, frame, access rules, channels, frozen classification, audit plan, deviations D0–D7 |
+| `METHOD.md` | sources, frame, access rules, channels, frozen classification, audit plan, deviations D0–D8 |
 | `VERIFICATION.md` | what `check_headline.py` checks, and how to recompute each figure by hand |
 | `run.sh` | rebuilds every figure from `data/`, runs the tests and the headline check (offline) |
 | `scripts/optout_check.py` | the per-site checker: `python3 scripts/optout_check.py example.org` → JSON |
@@ -159,5 +170,6 @@ detector errors behind D5. A second independent AI reviewer audited v3 and found
   own. Attribution: Chrome UX Report, Google.
 - `data/providers_panel.csv` quotes at most 220 characters of each provider document as evidence.
   `data/d5_status_changes.csv` quotes at most 120 characters of the detector evidence from each
-  site's public `robots.txt`. No `robots.txt` bodies, page content or third-party documents are
+  site's public `robots.txt` (`old_evidence`), plus the terms detector v3 matched
+  (`v3_reservation_evidence`, at most 32 characters). No `robots.txt` bodies, page content or third-party documents are
   published.

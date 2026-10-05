@@ -270,8 +270,8 @@ def main():
                 g = ("c", ine, s, band)
                 if reg.value(g, "b") or reg.groups[g]["supp"]:
                     rows.append([ine, names[ine], s, band, F(g, "b"), F(g, "d")])
-    write_csv("flooded_dwellings.csv", ["ine_code", "municipality", "map_status", "year_band",
-                                        "buildings_with_dwellings", "dwellings"], rows)
+    write_csv("dwellings_in_extent.csv", ["ine_code", "municipality", "map_status", "year_band",
+                                          "buildings_with_dwellings", "dwellings"], rows)
 
     def share(num, den, var="d"):
         if not (reg.published(num) and reg.published(den)) or not reg.value(den, var):

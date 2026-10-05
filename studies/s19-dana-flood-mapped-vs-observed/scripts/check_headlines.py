@@ -40,7 +40,17 @@ if (R / "paper.md").exists():
 else:
     print(f"paper.md is not in the public package: the paper is at {PAPER_URL}")
 bad = []
-BOTH, PAPER = ("README.md", "paper.md"), ("paper.md",)
+BOTH, PAPER, ROW = ("README.md", "paper.md"), ("paper.md",), ("root row",)
+# The study's row in the repository's README (the headline the site shows), when the study sits in it.
+ROOT = R.parent.parent / "README.md"
+if ROOT.exists():
+    row = [ln for ln in ROOT.read_text(encoding="utf-8").splitlines() if ln.startswith("| [S19](")]
+    if len(row) != 1:
+        bad.append(f"repository README: {len(row)} rows for S19")
+    else:
+        docs["root row"] = flat(row[0])
+else:
+    print("not inside the studies repository: the root-table row is not checked")
 
 
 def need(label, text, where=BOTH):
@@ -101,6 +111,13 @@ two = [(v, "fp", zr) for v in ("all", "gva_footprint") for zr in ("envfp", "envc
 vals = [share(*k) for k in two]
 same("headline range = summary.json", [round(min(vals), 6), round(max(vals), 6)], S["ranges"]["headline_dwellings"])
 need("headline range, two extents and three rules, whole percent", f"{100 * min(vals):.0f}–{100 * max(vals):.0f}%")
+need("root row: reference figure first", f"Of {f(n)} dwellings inside the EU's Copernicus outline", ROW)
+need("root row: outside every zone", f"{f(out)} ({pct(out / n)}) lay outside every official flood zone", ROW)
+need("root row: range over two extents and three rules",
+     f"Across two flood outlines and three counting rules, the share outside is {100 * min(vals):.0f}–{100 * max(vals):.0f}%", ROW)
+need("root row: caveat", "Counts of exposure, not of illegality.", ROW)
+need("abstract lead: reference figure first", f"Of the {f(n)} dwellings inside the flood extent mapped by Copernicus EMS")
+need("abstract lead: outside every zone", f"{f(out)} ({pct(out / n)}) lay outside every official flood zone under the reference rule")
 main2 = [(v, er, zr) for v in COP + ["gva_footprint", "all_or_gva"] for er in ("fp", "ct") for zr in ("envfp", "envct", "fp")]
 vals2 = [share(*k) for k in main2]
 same("range with variants = summary.json", [round(min(vals2), 6), round(max(vals2), 6)], S["ranges"]["with_variants_dwellings"])
@@ -135,6 +152,7 @@ else:
     sn = ("SNCZI T100 or T10", "SNCZI T500 (not T100)")
     b17, b25 = band("2017-2024"), band("2025 or later")
     need("built 2017-2024", f"{f(b17)} dwellings")
+    need("root row: built 2017-2024", f"and {f(b17)} were in buildings dated 2017–2024", ROW)
     need("built 2025 or later", f(b25))
     need("2017-2024 outside every zone", f(band("2017-2024", ("outside every official zone",))))
     need("2017-2024 in an SNCZI zone", f(band("2017-2024", sn)))

@@ -26,6 +26,17 @@ if (R / "paper.md").exists():
 else:
     print(f"paper.md is not in the public package: the paper is at {PAPER_URL}")
 bad = []
+# The study's row in the repository's README (the headline the site shows), when the study sits in it.
+ROOT = R.parent.parent / "README.md"
+if ROOT.exists():
+    row = [ln for ln in ROOT.read_text(encoding="utf-8").splitlines() if ln.startswith("| [S23](")]
+    if len(row) != 1:
+        bad.append(f"repository README: {len(row)} rows for S23")
+    else:
+        docs["root row"] = flat(row[0])
+else:
+    print("not inside the studies repository: the root-table row is not checked")
+ROW = ("root row",)
 
 
 def need(label, text, where=("README.md", "paper.md")):
@@ -68,6 +79,13 @@ need("share of households, 2023 (plan)", "1.7%")
 need("OECD share of all dwellings", f"{S['oecd_spain_pct']}%", ("paper.md",))
 need("318,000 over all dwellings 2024", f"{S['share_318k_total_2024']}%")
 need("ECV below-market rent 2025", f"{S['ecv_below_market']['2025']}%")
+need("root row: the 2023 survey count", f"Spain's regions and municipalities let {fid['ES-06']['value']} dwellings in the Ministry's 2023 survey, {S['share_318k_census_households']:.1f}% of households", ROW)
+ecv = S["ecv_below_market"]
+lo, hi = ecv["2016"], ecv["2025"]  # 2.5% (every year 2012-2016) and 3.5% (2025), the ends of the quoted shares
+assert all(ecv[y] == lo for y in ("2012", "2013", "2014", "2015")) and min(ecv.values()) == lo and max(ecv.values()) == hi
+need("root row: the quoted shares", f"Official texts' {lo}–{hi}% shares equal the share of households renting below market price, whoever the landlord", ROW)
+need("root row: the State's own stock", "no legally required inventory of the State's own stock was found by any route open to us", ROW)
+need("abstract: the search for it", "We found no such report or inventory by any route open to us", ("README.md",))
 need("ECV below-market rent 2023", f"{S['ecv_below_market']['2023']}%")
 need("EU-SILC Spain reduced or free 2025", f"{S['silc_es_rent_fr']['2025']}%", ("paper.md",))
 need("EU-SILC EU-27 reduced or free 2025", f"{S['silc_eu_rent_fr']['2025']}%", ("paper.md",))

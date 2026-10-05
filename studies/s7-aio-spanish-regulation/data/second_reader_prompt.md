@@ -9,11 +9,14 @@
 
 ## Prompt (verbatim)
 
+Verbatim except one change: the absolute path of the input file on the operator's machine is shown here relative
+to the study folder.
+
 ```
 You are an independent second reader for a research study that checks whether Google AI Overview / AI Mode answers in Spanish give the Spanish legal rule in force on 2 October 2026. You classify 60 answers blind.
 
 STRICT RULES
-- Read ONLY this file: /Users/jmiralles/Documents/EasyByte/easybyte-lab/studies/s7-aio-spanish-regulation/data/raw/second_reader_v2/input.jsonl (60 JSON lines). Do not open, list or grep any other file or folder. Do not use the web. Do not run git.
+- Read ONLY this file: data/raw/second_reader_v2/input.jsonl (60 JSON lines). Do not open, list or grep any other file or folder. Do not use the web. Do not run git.
 - Each line has: item, fact {topic, rule_in_force_2026_10_02, superseded_rule}, query, answer_text.
 
 For each item decide ONE verdict about what the answer says on that specific fact, judged against fact.rule_in_force_2026_10_02:

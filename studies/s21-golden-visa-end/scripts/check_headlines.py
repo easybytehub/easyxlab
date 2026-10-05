@@ -121,7 +121,7 @@ for g, where in (("nres_fx", BOTH), ("res_fx", BOTH), ("nres_es", BOTH), ("res_e
          f"{sp(rel(t[2], t[0], c[2], c[0]))} | {sp(rel(t[2], t[1], c[2], c[1]))} |", where)
 t = [tot(CORE, x, "total") for x in (B, A, P)]
 c = [tot(REST, x, "total") for x in (B, A, P)]
-need("all buyers", f"all purchases moved {sp(rel(t[2], t[0], c[2], c[0]))}", RD)
+need("all buyers", f"all purchases {sp(rel(t[2], t[0], c[2], c[0]))}", RD)
 
 # ---------------------------------------------------------------- tests fixed in advance
 did = {(r["contrast"], r["outcome"], r["exposure"], r["weighted"]): r

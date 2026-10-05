@@ -11,16 +11,16 @@ August 2026. We extracted every social- and affordable-housing measure, mileston
 from each version and diffed the literal texts. That covers four housing measures, ten
 milestones and targets, and the sentence that restates the number of dwellings.
 
-**The ICO loan line for social housing.** It went from €4,000 million (2023) to €750 million
-(proposal of 17 December 2025), then to €567,854,983 (proposal of 7 August 2026): −85.8%.
-Both times the stated reason was "lack of demand".
-
 **The dwelling target (target 31).** It went from 20,000 to 17,365, then to 15,718: −21.4%,
 "because of inflation". Its wording changed in three steps:
 - "New dwellings built", whose "construction shall be completed", "as attested by a
   certificate or proof of completion and use of the dwellings by the competent authority";
-- "Provision of dwellings";
-- "Construction or rehabilitation of dwellings", with no completion requirement stated.
+- "Provision of dwellings", with no completion requirement stated;
+- "Construction or rehabilitation of dwellings", still with no completion requirement stated.
+
+**The ICO loan line for social housing.** It went from €4,000 million (2023) to €750 million
+(proposal of 17 December 2025), then to €567,854,983 (proposal of 7 August 2026): −85.8%.
+Both times the stated reason was "lack of demand".
 
 **Context.** The December 2025 amendment rewrote the whole annex: in 109 of 234 measure
 descriptions (46.6%), the text lost more than 30% of its words. The Spanish Government
@@ -53,7 +53,7 @@ the December 2025 version was adopted on 20 January 2026. For the August 2026 pr
   with target 31 "Not Assessed".
 
 We found no EU record of that adoption. Where we could compare them, the Council's texts
-match the Commission's in 206 of 206 field comparisons.
+match the Commission's on every core housing item: 206 of 206 field comparisons.
 
 **Dates** (no inference drawn from their order):
 - 4 June 2025: the Commission "urges Member States to undertake such plan revisions as soon as

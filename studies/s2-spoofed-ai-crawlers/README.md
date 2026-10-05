@@ -4,26 +4,26 @@
 
 **Paper:** [easybyte.es/lab/studies/s2/paper/](https://easybyte.es/lab/studies/s2/paper/) · [PDF](https://easybyte.es/lab/studies/s2/paper.pdf)
 
-**How much traffic claiming to be an AI or search bot is real?**
-
 ## Abstract
 
-Site owners count "GPTBot", "ClaudeBot" or "ChatGPT-User" in their access logs as evidence
+Many site owners count "GPTBot", "ClaudeBot" or "ChatGPT-User" in their access logs as evidence
 that AI systems read or cite them. The User-Agent is free text. We checked every request
 claiming to be one of 23 AI or search crawlers on three small production websites (16,548
-requests; one 68-day log, two 7–9-day logs, plus a 30-day Cloudflare edge view) against each
+requests in origin logs: one of 68 days and two of 7–9 days; plus a separate 30-day Cloudflare
+edge view) against each
 operator's own published verification method — IP-range JSON files and forward-confirmed
 reverse DNS. **39.3% of the claims were spoofed** (44.3% of those that could be tested), 49.5%
-verified, 11.2% unverifiable or indeterminate. User-initiated fetchers, the names most often
+verified, 11.3% unverifiable or indeterminate. User-initiated fetchers, the names many site owners
 read as an "AI citation" signal, were the worst: 67.8% spoofed, and Claude-User,
 Perplexity-User, MistralAI-User and DuckAssistBot were 0–4.2% genuine. Google-Extended, a token
 Google says is never sent as a User-Agent, appeared 371 times. All spoofing came from at most
-54 addresses, 81% in cloud/hosting networks (one cloud provider's customer space alone: 66%);
+54 addresses; 81% of spoofed requests came from cloud/hosting networks (one cloud provider's
+customer space alone: 66%);
 97% of spoofed requests came from sources that also probed for credentials (`.env`,
 `config.json`, `service-account.json`) and 92% from sources that rotated through several operators'
-identities. On the main site, at the CDN edge, the spoofed volume was at least 3.1× what the origin logged; free-plan
-defaults blocked 0.7% of it. We release `ai-bot-verify`, a dependency-free verifier for any
-access log that outputs aggregates only and refuses to write IP addresses.
+identities. On the main site, at the CDN edge, the spoofed volume was at least three times what the origin logged; free-plan
+defaults blocked 0.7% of it. We release `ai-bot-verify`, a dependency-free verifier for
+nginx/Apache-style access logs that outputs aggregates only and refuses to write IP addresses.
 
 **Competing interests:** the three sites are run by the authors' organisation, which also
 publishes `ai-bot-verify`.

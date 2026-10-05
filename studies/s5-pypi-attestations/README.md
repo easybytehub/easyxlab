@@ -6,8 +6,8 @@
 
 ## Abstract
 
-PEP 740 attestations let anyone check that a PyPI file was built by a named repository and
-workflow. Not attesting is the norm. We measured, on 2026-10-02:
+PEP 740 attestations let anyone check that a PyPI file was published by a named repository and
+workflow (its Trusted Publisher). Not attesting is the norm. We measured, on 2026-10-02:
 
 - the full upload history of the 15,000 most-downloaded PyPI projects (hugovk's list of 2026-10-01);
 - the publisher identity of every attested project (PyPI Integrity API);

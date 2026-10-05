@@ -7,7 +7,11 @@ the buildings that meet them had been selected (so the number of municipalities 
 involved was known), and **before any building was compared with an official flood map**. The
 scouting pilot for Paiporta (11,986 of 11,988 dwellings inside the extent, 624 built in 2017 or
 later) and one rendered SNCZI tile over Paiporta (the T100 zone there is the ravine channel)
-were known. The plan's SHA-256 is recorded in `STATUS.md`. Later changes are listed in §9.
+were known. The plan's SHA-256, over the bytes from the line `<!-- FROZEN-PLAN-START -->` to the
+end of the line `<!-- FROZEN-PLAN-END -->` (both marker lines included, no final newline), is
+`b4f783173a0f20a1248850c1c3b5e906e40d702ed987dc5b6bcf0354a40e537b`. It was recorded on
+2026-10-04 in an internal log that is not published; the first commit of this file is later, so
+the hash has no external timestamp. Later changes are listed in §9.
 
 <!-- FROZEN-PLAN-START -->
 ## 1. Analysis plan (frozen)
@@ -142,7 +146,7 @@ request in under a second (six such pairs in the log). Access exceptions and ref
 All counts are for the reference scenario (Copernicus extent `all`, footprint intersects the
 extent, footprint touches the 2-ha zone envelope) unless the column says otherwise.
 
-- `flooded_dwellings.csv`: municipality × map status (5 classes: ARPSI 100-year zone including
+- `dwellings_in_extent.csv`: municipality × map status (5 classes: ARPSI 100-year zone including
   the 10-year zone; 500-year zone; PATRICOVA levels 1–6 only; PATRICOVA geomorphological only;
   outside every zone) × year band (2016 or earlier, or unknown; 2017–2024; 2025 or later):
   buildings with dwellings and dwellings.
@@ -307,3 +311,5 @@ No table has addresses, cadastral references or building rows.
     which also includes the 0.5 and 5 ha envelopes (38.9–70.1%), is now
     `all_envelope_thresholds_dwellings`. No flag or count changed; the values were derived from
     `sensitivity.csv`, as `analyse.py` now does.
+11. **File name (2026-10-05).** `flooded_dwellings.csv` is now `dwellings_in_extent.csv`: it
+    counts dwellings inside the extent, not flooded dwellings. Its contents did not change.

@@ -7,7 +7,7 @@
 | Drugs | items with ≥1 ATC statement (P267), any rank | 3,768 (4,459 ATC statements; 363 items hold only class-level codes) |
 | ICD items | items with ICD-10 (P494) or ICD-11 MMS (P7329), any rank | 10,823 (5,536 ICD-10 and 8,193 ICD-11 values) |
 | Diseases (for label analysis) | ICD items whose P31 is a disease-like class (type of disease, rare disease, symptom, syndrome…) | 5,212 |
-| Chronic subset | 34 chronic diseases named in the earlier review, resolved by English label (highest sitelink count) | 29 resolved (5 names no longer match any English label exactly) |
+| Chronic subset | 34 chronic diseases named in the earlier review, resolved by English label (highest sitelink count) | 29 resolved (5 names do not match any English label exactly) |
 
 We excluded 799 taxa (Latin binomials are correct in every language), 161 Wikimedia templates and
 categories, and 4,651 other items from the disease-label analysis. The other items are mostly
@@ -82,8 +82,11 @@ in the measured precision.
   in practice the drug item, a label naming the parent is acceptable (FP).
 - **Precision** = TP/(TP+FP), with a Wilson 95% CI. A conservative variant counts DOUBT as FP.
 - **Error estimates.** The per-language estimate is Σ over detectors a, b, c and e of (flags ×
-  precision). d (ambiguity) is reported separately. These are **lower bounds on the error count**:
-  recall was not measured.
+  precision). Twelve labels are flagged by two of these detectors (a+b 6, a+c 4, a+e 2) and enter
+  the sum once for each; counting each of them only once, at the higher of its two precisions,
+  would lower the total estimate by 5.7 (≈306 instead of ≈312, still 0.9%). d (ambiguity) is
+  reported separately. These are **lower bounds with respect to recall**, which was not measured; with respect to precision they are estimates (≈174 errors, 0.5%, at the
+  lower 95% CI bounds).
 
 ## 5. Corrections (`data/corrections_reviewed.csv` → `scripts/06_corrections.py`)
 

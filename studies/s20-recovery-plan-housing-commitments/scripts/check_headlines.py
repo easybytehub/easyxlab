@@ -44,6 +44,17 @@ if (R / "paper.md").exists():
 else:
     print(f"paper.md is not in the public package: the paper is at {PAPER_URL}")
 bad = []
+# The study's row in the repository's README (the headline the site shows), when the study sits in it.
+ROOT = R.parent.parent / "README.md"
+if ROOT.exists():
+    row = [ln for ln in ROOT.read_text(encoding="utf-8").splitlines() if ln.startswith("| [S20](")]
+    if len(row) != 1:
+        bad.append(f"repository README: {len(row)} rows for S20")
+    else:
+        docs["root row"] = flat(row[0])
+else:
+    print("not inside the studies repository: the root-table row is not checked")
+ROW = ("root row",)
 
 
 def need(label, text, where=("README.md", "paper.md")):
@@ -97,6 +108,20 @@ need("ICO change", pct(i[first], i[labels[-1]]))
 need("ICO change Dec-2025", pct(i["v6-2025c"], i["v7-2025d"]), ("paper.md",))
 need("ICO change Aug-2026", pct(i["v8-2026a"], i["v9-2026b"]), ("paper.md",))
 assert i[labels[-1]] == S["ico_last"]
+
+# 3b. the root-table row: first and last wording of target 31, and the ICO line
+t31 = {v: [r for r in hr if r["version"] == v and r["measure"] == "C2.I2" and r["number"] == "31"][0] for v in labels}
+w0, w9 = t31[labels[0]], t31[labels[-1]]
+if not (w0["name"].startswith("New dwellings built for social rental or at affordable prices")
+        and "construction shall be completed" in w0["description"]):
+    bad.append("target 31, first version: not «New dwellings built … construction shall be completed»")
+if not w9["description"].startswith("Construction or rehabilitation") or "complet" in w9["description"]:
+    bad.append("target 31, last version: not «Construction or rehabilitation» without a completion requirement")
+if not ad[labels[-1]]["proposed"].startswith("2026-08"):
+    bad.append("the last version is not the proposal of August 2026")
+need("root row: first target", f"Spain first committed to the EU to complete {n(t[labels[0]])} new dwellings for social rental or at affordable prices", ROW)
+need("root row: last target", f"the August 2026 proposal asks for {n(t[labels[-1]])} under «Construction or rehabilitation», with no completion requirement stated", ROW)
+need("root row: ICO line", f"social-housing loan line at the state bank ICO fell {pct(i[first], i[labels[-1]]).lstrip('−')}", ROW)
 
 # 4. dates of the two cutting proposals, the requests behind them, adoption
 for v in ("v7-2025d", "v9-2026b"):

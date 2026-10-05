@@ -1,11 +1,13 @@
 """Tests for scripts/strnum.py (run: python3 -m unittest discover -s tests). The numbers below
-are synthetic: they follow the published formats and were not taken from any listing, but
-some round or sequential ones may coincide with real registered numbers."""
+are synthetic: they follow the published formats, were not taken from any listing, and none of
+the Catalan, Valencian, Andalusian or New York numbers is in the registry copies the study used
+(data/raw/registries/, checked on 5 October 2026). Madrid's registry cannot be downloaded, so its
+numbers could not be checked and may coincide with registered ones."""
 import os, sys, unittest
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "scripts"))
 from strnum import split_license, parse_regional, parse_national, exempt_reason
 
-NAT_TU = "ESFCTU" + "0000" + "08" + "0" * 12 + "1" * 0 + "0" * 18 + "HUTB-000001"
+NAT_TU = "ESFCTU" + "0000" + "08" + "0" * 12 + "1" * 0 + "0" * 18 + "HUTB-024680"
 
 
 class Split(unittest.TestCase):
@@ -24,9 +26,9 @@ class Split(unittest.TestCase):
         self.assertIsNone(s["national"])
 
     def test_unlabelled(self):
-        s = split_license("OSE-STRREG-0000123")
+        s = split_license("OSE-STRREG-0098765")
         self.assertFalse(s["labelled"])
-        self.assertEqual(s["unlabelled"], ["OSE-STRREG-0000123"])
+        self.assertEqual(s["unlabelled"], ["OSE-STRREG-0098765"])
 
     def test_empty(self):
         self.assertEqual(split_license("")["unlabelled"], [])
@@ -38,17 +40,17 @@ class Catalonia(unittest.TestCase):
         return parse_regional(v, "catalonia")
 
     def test_variants_same_key(self):
-        for v in ("HUTB-012345", "HUTB012345", "hutb 12345", "HUTB-0012345", "HUTB–012345", "Nº HUTB-012345"):
+        for v in ("HUTB-024680", "HUTB024680", "hutb 24680", "HUTB-0024680", "HUTB–024680", "Nº HUTB-024680"):
             r = self.p(v)
-            self.assertEqual((r.status, r.key, r.kind), ("ok", "HUTB-012345", "tourist dwelling"), v)
+            self.assertEqual((r.status, r.key, r.kind), ("ok", "HUTB-024680", "tourist dwelling"), v)
 
     def test_control_digit_joined(self):
-        r = self.p("HUTG-00432107")
-        self.assertEqual((r.status, r.key, r.extra), ("ok", "HUTG-004321", "07"))
+        r = self.p("HUTG-09642007")
+        self.assertEqual((r.status, r.key, r.extra), ("ok", "HUTG-096420", "07"))
 
     def test_control_digit(self):
-        r = self.p("HUTG-004321-07")
-        self.assertEqual((r.status, r.key, r.extra, r.province), ("ok", "HUTG-004321", "07", "G"))
+        r = self.p("HUTG-096420-07")
+        self.assertEqual((r.status, r.key, r.extra, r.province), ("ok", "HUTG-096420", "07", "G"))
 
     def test_other_types(self):
         self.assertEqual(self.p("HB-001234").kind, "hotel")
@@ -100,20 +102,20 @@ class Andalucia(unittest.TestCase):
         return parse_regional(v, "andalucia")
 
     def test_series(self):
-        for v in ("VFT/MA/12345", "VUT/MA/12345", "VFT-MA-12345", "VTF/MA/12345", "vft/ma/012345", "VFT / MA / 12345"):
+        for v in ("VFT/MA/86420", "VUT/MA/86420", "VFT-MA-86420", "VTF/MA/86420", "vft/ma/086420", "VFT / MA / 86420"):
             r = self.p(v)
-            self.assertEqual((r.status, r.key, r.tourist_dwelling), ("ok", "VUT/MA/12345", True), v)
-        self.assertEqual(self.p("VFT/MA/12345").extra, "renamed-VFT")
+            self.assertEqual((r.status, r.key, r.tourist_dwelling), ("ok", "VUT/MA/86420", True), v)
+        self.assertEqual(self.p("VFT/MA/86420").extra, "renamed-VFT")
         self.assertEqual(self.p("A/SE/00123").key, "A/SE/123")
-        self.assertEqual(self.p("H/SE/1234").kind, "hotel")
+        self.assertEqual(self.p("H/SE/4680").kind, "hotel")
 
     def test_bad(self):
         self.assertEqual(self.p("VFT/XX/12345").status, "malformed")
         self.assertEqual(self.p("VFT/MA/00000").status, "placeholder")
         r = self.p("CTC-2020123456")
         self.assertEqual((r.status, r.kind, r.registry_open), ("ok", "CTC code", False))
-        self.assertEqual(self.p("VUTMA12345").key, "VUT/MA/12345")
-        self.assertEqual(self.p("VFT/MA12345").key, "VUT/MA/12345")
+        self.assertEqual(self.p("VUTMA86420").key, "VUT/MA/86420")
+        self.assertEqual(self.p("VFT/MA86420").key, "VUT/MA/86420")
 
 
 class Madrid(unittest.TestCase):
@@ -131,15 +133,15 @@ class Madrid(unittest.TestCase):
 class NYC(unittest.TestCase):
     def test(self):
         p = lambda v: parse_regional(v, "nyc")
-        self.assertEqual(p("OSE-STRREG-0000123").key, "OSE-STRREG-0000123")
-        self.assertEqual(p("ose-strreg-0000123").key, "OSE-STRREG-0000123")
+        self.assertEqual(p("OSE-STRREG-0098765").key, "OSE-STRREG-0098765")
+        self.assertEqual(p("ose-strreg-0098765").key, "OSE-STRREG-0098765")
         self.assertEqual(p("Exempt").status, "exempt")
         self.assertEqual(p("STR-123").status, "malformed")
 
 
 class National(unittest.TestCase):
     def test(self):
-        tu = "ESFCTU" + "0" * 36 + "HUTB-000001"
+        tu = "ESFCTU" + "0" * 36 + "HUTB-024680"
         self.assertEqual(len(tu), 53)
         self.assertEqual(parse_national(tu).kind, "national-TU")
         nt = "ESHFNT" + "1" * 47

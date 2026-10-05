@@ -57,6 +57,17 @@ else:
     print("paper.md not present: checking README.md only")
 raw_docs = {k: (R / k).read_text(encoding="utf-8") for k in docs}
 bad = []
+# The study's row in the repository's README (the headline the site shows), when the study sits in it.
+ROOT = R.parent.parent / "README.md"
+if ROOT.exists():
+    row = [ln for ln in ROOT.read_text(encoding="utf-8").splitlines() if ln.startswith("| [S12](")]
+    if len(row) != 1:
+        bad.append(f"repository README: {len(row)} rows for S12")
+    else:
+        docs["root row"] = flat(row[0])
+else:
+    print("not inside the studies repository: the root-table row is not checked")
+ROW = ("root row",)
 
 
 def need(label, text, where=("README.md", "paper.md")):
@@ -76,6 +87,10 @@ for sid, label in (("P-TOT", "practised"), ("SC-REC", "received by common servic
     need(f"{label} Q1-2026", num(a))
     need(f"{label} change", pct(a / b - 1))
 need("practised Q1-2025", num(V[("P-TOT", "TOTAL", t0)]))
+a, b = V[("P-TOT", "TOTAL", t1)], V[("P-TOT", "TOTAL", t0)]
+need("root row: practised Q1-2026", f"reported {num(a)} evictions carried out in January–March 2026", ROW)
+need("root row: change", f"{100 * abs(a / b - 1):.1f}% fewer than a year earlier", ROW)
+need("root row: counting change", "The fall coincides with a change in who counts them, documented in its own forms", ROW)
 
 # 2. Phases --------------------------------------------------------------------------------------
 dist = load("districts.csv")
@@ -102,6 +117,10 @@ need("H5 effect", pct(math.exp(H5["delta1"]) - 1, 0))
 h5 = {r["year"]: float(r["delta1"]) for r in load("h5_years.csv")}
 need("H5 placebo 2024", pct(math.exp(h5["2024"]) - 1, 0))
 verdicts = S["verdicts"]
+if verdicts["H1a"] == "inconclusive" and verdicts["H1b"] == "inconclusive":  # the main test (H1)
+    need("root row: main test", "a test registered before it was run is inconclusive on whether that change explains it", ROW)
+else:
+    bad.append(f"root row says the main test is inconclusive, but H1a/H1b are {verdicts['H1a']}/{verdicts['H1b']}")
 for doc, text in raw_docs.items():
     for h, v in verdicts.items():
         rows = [ln for ln in text.splitlines() if ln.startswith(f"| {h} |")]

@@ -44,7 +44,8 @@ the intervals, and requires every number of the README abstract to sit inside a 
    `wp_lastupdate` on or after 23/12/2025, in any of its formats (`dd/mm/yyyy`, `dd.mm.yyyy`), dropping the two
    copies of the header line inside `OTHER.csv` and the `EMT_NO_WP`/`EMT_CRIN` placeholders: 414 + 26. `csv_line` in
    `data/rows.csv` is the line in the CSV (header = 1); `wp_url` is the registered URL, so rows can be re-checked after
-   ESMA overwrites the file. The capture of 2025-12-23 is
+   ESMA overwrites the file; download tokens in signed storage links (`token=…`) are redacted, in `wp_url` (4 rows)
+   as in `doc_url` (23 rows). The capture of 2025-12-23 is
    `https://web.archive.org/web/20251223101326id_/https://www.esma.europa.eu/sites/default/files/2024-12/OTHER.csv`.
 2. **A row's outcome.** Open `wp_url` (or `doc_url`, the document we classified); if it is a landing page, look for a
    linked `.xhtml` file. `doc_sha256` is the sha256 of the file we classified (it changes if the publisher updates it).

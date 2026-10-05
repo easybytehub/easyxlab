@@ -99,7 +99,7 @@ class System:
         return out
 
 
-ZERO_OK = {"c"}     # absent rows of flooded_dwellings.csv are true zeros
+ZERO_OK = {"c"}     # absent rows of dwellings_in_extent.csv are true zeros
 
 
 def small(v):
@@ -109,12 +109,12 @@ def small(v):
 def main():
     S = System()
     # 1. cells
-    fd = rows("flooded_dwellings.csv")
+    fd = rows("dwellings_in_extent.csv")
     munis = sorted({r["ine_code"] for r in fd} | {r["ine_code"] for r in rows("municipalities.csv")})
     for r in fd:
         k = ("c", r["ine_code"], r["map_status"], r["year_band"])
         if small(r["buildings_with_dwellings"]):
-            bad.append(f"flooded_dwellings.csv: {k} has {r['buildings_with_dwellings']} buildings")
+            bad.append(f"dwellings_in_extent.csv: {k} has {r['buildings_with_dwellings']} buildings")
         S.put("b", k, r["buildings_with_dwellings"])
         S.put("d", k, r["dwellings"])
     for i in munis:          # absent cells are zeros

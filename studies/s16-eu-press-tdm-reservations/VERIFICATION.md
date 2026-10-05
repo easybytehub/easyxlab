@@ -13,10 +13,13 @@ EasyxLab's private copy, `data/records.csv` from the raw scan), runs the unit te
 (counts with denominators and percentages, Wilson intervals, fully-read and all-site denominators,
 "at least"/"at most" figures, the frozen-rule sensitivity, contradictions under each rule, the TDMRep
 channel split, band figures, breach counts D1/D2/D4/D7, the three detector audits, the provider
-panel) and about 40 for [the paper](https://easybyte.es/lab/studies/s16/paper/) when present (the same headline phrases plus the class table
+panel) and about 45 for [the paper](https://easybyte.es/lab/studies/s16/paper/) when present (the same headline phrases plus the class table
 rows, all-site figures, frozen-rule figures, France and Poland with CIs, the three bands with CIs,
-"403 sites block all four", llms.txt, `noai`, CrUX buckets, comment counts, D2/D5/D7). Each phrase
-must occur in the text. Matching respects number boundaries, so "0
+"403 sites block all four", llms.txt, `noai`, CrUX buckets, comment counts, D2/D5/D7/D8). Each phrase
+must occur in the text. Inside the studies repository it also checks five phrases of the study's row
+in the root `README.md`, and it fails if any of three phrases that the third review (2026-10-05)
+found false returns to the README, the paper or that row ("would meet no machine-readable
+reservation" and its variants: 23 of the 480 state a reservation in `noai` or `Content-Usage: ai=n`). Matching respects number boundaries, so "0
 contradictions" cannot match "10 contradictions". The script exits 1 if any phrase is missing.
 
 It does **not** check numbers in the text that are not on its list, nor whether the words around
@@ -44,6 +47,10 @@ named = lambda L: [r for r in L if int(r['ai_blocked_root_n']) > 0]
 print('frame', len(R), 'ok', len(ok), 'full', len(full))
 print('classes (full)', collections.Counter(r['class'] for r in full))
 print('named (full)', len(named(full)), 'of them without agnostic', sum(r['class'] != 'agnostic_reservation' for r in named(full)))
+N = [r for r in full if r['class'] == 'named_bots_only']
+print('named only: comments', sum(r['nl_reservation'] == '1' for r in N), 'ai=n', sum(r['content_usage_values'] == 'ai=n' for r in N),
+      'noai', sum(r['noai'] == '1' for r in N), 'none of the three', sum(r['nl_reservation'] != '1' and r['content_usage_values'] != 'ai=n' and r['noai'] != '1' for r in N))
+print('agnostic (full) only through a * group disallowing /', sum(r['class'] == 'agnostic_reservation' and r['agnostic_channels'] == 'robots_star_disallow_root' for r in full))
 print('all sites: agnostic at least', sum(r['class'] == 'agnostic_reservation' for r in ok),
       '; named', len(named(ok)), 'without agnostic at most', sum(r['class'] != 'agnostic_reservation' for r in named(ok)))
 T = [r for r in full if 'tdmrep' in r['agnostic_channels']]

@@ -119,7 +119,7 @@ effects, these slopes give no usable size: H1a's interval spans −95% to +80%. 
 verdict rest on this fit. They are reported in `data/decomposition.json` and the paper, flagged as
 unreliable. An exploratory, unregistered counterfactual using H1a alone is reported next to them.
 
-## 8. Out-of-sample test (pending)
+## 8. Out-of-sample test, due after the CGPJ's Q2-2026 release (scheduled for 16 October 2026)
 
 `data/predictions_q2_2026.csv` holds, for each province, the predicted deviation of `Δg(2026-Q2)`
 from the weighted national mean under a transient reading (the effect lasts one quarter) and a

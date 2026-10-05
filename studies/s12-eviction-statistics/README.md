@@ -1,4 +1,4 @@
-# S12 — Spain's record low of evictions in early 2026 and the court reform: a pre-registered test
+# S12 — Recorded evictions in Spain in early 2026, the lowest first quarter since the series began in 2013, and the court reform: a pre-registered test
 *EasyxLab · study S12 · CGPJ data to Q1-2026, protocol registered 4 October 2026 · status: working draft, not peer-reviewed*
 
 **Paper:** [easybyte.es/lab/studies/s12/paper/](https://easybyte.es/lab/studies/s12/paper/) · [PDF](https://easybyte.es/lab/studies/s12/paper.pdf)
@@ -30,18 +30,19 @@ district: 315 districts on 1 July 2025, 16 on 1 October and 100 on 31 December, 
   the change.
 
 We registered a protocol on 4 October 2026, before the CGPJ's next release. The in-sample tests were
-designed after the national Q1-2026 figure was public; only the Q2-2026 test is blind. The protocol
-tests whether the fall follows this change district phase by phase. The study measures the effect of a documented change in
-who reports the series.
+designed after the national Q1-2026 figure, a pilot's per-province medians and the regional rent
+figures had been seen (`PROTOCOL.md`, preamble); only the Q2-2026 test is blind. The protocol tests
+whether the fall follows this change district phase by phase. The study tests for the effect of a
+documented change in who reports the series.
 
-**The data neither establish that the record low is an artefact of that change nor rule it out.**
+**The data neither establish that the Q1-2026 low is an artefact of that change nor rule it out.**
 
 - **The main test is inconclusive (H1).** Provinces with more of their evictions in phase-3
   districts fell more in Q1-2026 than in the quarter before: b3 = −1.23, Holm-adjusted p = 0.18,
   permutation p = 0.047. The registered sensitivity analysis S3, run after the review, gives −1.18
   (p 0.088). Phase 1 left no detectable mark in Q3-2025 (b1 = −0.13, p = 0.34). One quarter earlier,
-  before phase 3, the same regression already gives −0.755 (two-sided p 0.024). That pre-reform
-  slope is an exploratory check, and it weakens H1a.
+  before phase 3, the same regression already gives −0.755 (two-sided p 0.024). That slope, from
+  before phase 3 was transformed, is an exploratory check, and it weakens H1a.
 - **The service-side tests rest on Q4-2025 (H2 inconclusive, H3 supported).** The ratio of
   court-recorded to service-completed evictions fell more where phase 3 weighed more (b3 = −2.28,
   Holm-adjusted p = 0.026). The signal comes from the quarter *before* phase 3: in phase-3-heavy
@@ -172,8 +173,8 @@ from the CGPJ. Outputs are deterministic (fixed seeds).
   their publishers.
 - None of these bodies endorses this study.
 
-Cite as: EasyxLab (2026). Spain's record low of evictions in early 2026 and the court reform: a
-pre-registered test. Study S12. EasyByte Hub S. Coop. Mad. https://github.com/easybytehub/easyxlab
+Cite as: EasyxLab (2026). Recorded evictions in Spain in early 2026, the lowest first quarter since the
+series began in 2013, and the court reform: a pre-registered test. Study S12. EasyByte Hub S. Coop. Mad. https://github.com/easybytehub/easyxlab
 
 ---
 EasyxLab · a research lab by [EasyByte](https://easybyte.es)

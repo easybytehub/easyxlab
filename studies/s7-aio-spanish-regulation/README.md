@@ -19,12 +19,13 @@ superseded rule as current, mixed it with the current one, or stated a fixed dat
 of the 25 errors concern three rules that moved in 2026: the state register for short-term lets, which the Supreme
 Court annulled in May–June, still presented as mandatory; the workplace mobility-plan deadline, which a decree-law
 cut from 24 to 12 months, given as December 2027; and B2B e-invoicing, given calendar dates although its deadlines
-run from an order not yet published. In the rent-cap case study, 5 of 23 answers, 4 of them AI Mode, presented the repealed
+ran from an order not yet published when the answers were read (it was published on 5 October 2026 as Orden
+HAC/1028/2026, BOE-A-2026-20587). In the rent-cap case study, 5 of 23 answers, 4 of them AI Mode, presented the repealed
 2 % cap as law.
 
 The BOE was cited in 5.4 % of AIO answers and 15.8 % of AI Mode answers. Forums and social networks made up 13.2 %
-of AIO references. A regex script flagged 31 answers (16 AIO, 15 AI Mode); an AI agent re-read every flag and every answer of the six
-facts whose ground truth we corrected. A blind second AI reader agreed on whether an answer was wrong with κ 0.86
+of AIO references. A regex script flagged 31 answers (16 AIO, 15 AI Mode); an AI agent re-read every flag and every answer of six
+facts whose ground truth changed in version 2 or needs judgment (F14, F15, F16, F21, F25, F28). A blind second AI reader agreed on whether an answer was wrong with κ 0.86
 (κ 0.76 over all categories). In a random sample of unflagged answers, the agent found 0 of 40 missed errors.
 
 Our own first fact sheet had the same failure. Checking quotations in the original BOE texts missed a Supreme
@@ -55,7 +56,7 @@ agent found it; the review is kept in the lab's private records, and its fixes a
 | `data/second_reader_sample.csv`, `data/second_reader.csv`, `data/second_reader_prompt.md` | blind second reader: strata, verdicts, prompt |
 | `data/page_checks_r*.csv`, `data/error_attribution_r*.csv` | cited pages of wrong answers and controls, checked by script; six pages reserved by `robots.txt` removed (`METHOD.md` §8) |
 | `data/summary.json` and `by_*.csv`, `citation_types.csv`, `stability.csv`, `f16_case.csv` | all tables |
-| `data/spend.json` | DataForSEO ledger (USD 2.120) |
+| `data/spend.json` | DataForSEO ledger (USD 2.12) |
 | `scripts/run.sh` | `boe`, `status`, `reading N`, `classify`, `pages`, `analyse`; `scripts/check_headline.py` asserts every headline number |
 | `data/raw/`, `private/` | git-ignored: full answer texts, raw API responses, BOE downloads, logs. Not redistributed. |
 

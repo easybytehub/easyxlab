@@ -263,3 +263,8 @@ Applied to the stored bodies, v4 changes the status of exactly these 25 hosts. E
 `robots.txt` of the 24 was deleted from `data/`, and the response status of the 72 requests was
 removed from the log, keeping URL and time. The 24 are classified on `robots.txt` alone
 (`data/deviation_d7.json`). Fully read sites go from 1,380 to 1,356.
+
+**D8 — headline denominator (found by the third review, logged 2026-10-05).** The frozen rule (§5)
+puts the 1,510 sites that answered for `robots.txt` in the headline denominator. We headline the
+1,356 sites read in full instead, because the 154 read on `robots.txt` alone have unknown TDMRep,
+headers and `<meta>`. Under the frozen denominator the agnostic count is at least 110 of 1,510 (7.3%).

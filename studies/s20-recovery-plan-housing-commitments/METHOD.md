@@ -174,5 +174,5 @@ of 2025») alongside. We report dates and the order of events and make no claim 
   31 December 2026 to pay.
 - **The press search is limited to Bing News RSS.** WebSearch was exhausted, GDELT answered
   HTTP 429 to most queries, and Google News's robots.txt disallows our client. Bing found the
-  coverage listed in the paper, §4. Older or paywalled coverage may be missing.
+  coverage listed in the paper, §2. Older or paywalled coverage may be missing.
 - **AIReF's site disallows our client in robots.txt.** We could not grep its pages.

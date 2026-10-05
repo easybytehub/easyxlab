@@ -8,8 +8,9 @@
 Spain's Royal Decree 390/2021 requires that the energy-efficiency label «se incluirá en toda
 oferta, promoción y publicidad dirigida a la venta o arrendamiento del edificio o de parte del
 mismo» (art. 15.2). Anyone who publishes information on a sale «estará obligada a incluir la
-información relativa a su calificación de eficiencia energética» (art. 17.3). Public bodies that
-sell property must announce the sale in the Boletín Oficial del Estado (BOE).
+información relativa a su calificación de eficiencia energética» (art. 17.3). The General State
+Administration must publish the call for the sale of its property in the Boletín Oficial del
+Estado (BOE) (Ley 33/2003, art. 138.3); other public sellers also announce sales there.
 
 We read every candidate property-sale notice the BOE published between 1 January 2025 and
 30 September 2026: 361 candidate notices from its open-data summaries. We kept the 254 sale notices that

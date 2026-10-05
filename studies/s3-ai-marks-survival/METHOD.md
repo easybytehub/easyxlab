@@ -12,7 +12,7 @@ For each kind of machine-readable AI mark (embedded C2PA manifest, XMP IPTC `Dig
 | ExifTool | 13.55 | `brew install exiftool` (no dependencies) | – |
 | Pillow | 12.3.0 (AVIF and WebP built in) | `.venv` | – |
 | c2pa-python | 0.38.0 | `.venv` (installed, not needed in the end: c2patool covered signing and reading) | – |
-| sharp | 0.35.5, bundling libvips 8.18.7 | local `node_modules` | sharp *is* the libvips most web stacks run, so no separate vips CLI was installed (the brew `vips` formula pulls poppler, gnupg and ~25 other dependencies) |
+| sharp | 0.35.5, bundling libvips 8.18.7 | local `node_modules` | sharp bundles libvips, so no separate vips CLI was installed (the brew `vips` formula pulls poppler, gnupg and ~25 other dependencies) |
 | ImageMagick | 7.1.2-32 Q8, official `@imagemagick/magick-wasm` 0.0.44 (wasm32) | local `node_modules` | the brew formula would have upgraded `x265`, whose soname the installed ffmpeg links against |
 | ffmpeg | 8.1.2 | pre-installed (Homebrew) | – |
 
@@ -90,9 +90,9 @@ We read the Next.js image optimizer from the published package `next@16.3.8/dist
   - **survived:** the tag parses.
   - **residue:** the tag does not parse, but the namespace or property string is still in the bytes.
   - **removed:** neither.
-- **Network.** c2patool tries to fetch remote manifests. The only URL in our corpus is under `.invalid` (RFC 2606), so the fetch fails at DNS and nothing leaves the machine. We did not use `ta_url` (TSA) or OCSP.
+- **Network.** c2patool tries to fetch remote manifests. The only URL in our corpus is under `.invalid` (RFC 2606), so the fetch fails at name resolution and no request is sent to it. We did not use `ta_url` (TSA) or OCSP.
 
-## 6. Documentary evidence (section 5 of the report)
+## 6. Documentary evidence (section 6 of the report)
 
 We fetched official pages with `curl` on 2026-10-02 into `work/docs/` (not versioned), converted them to text with a minimal HTML stripper, and copied quotes **literally** from that text. Each page was requested once, between 17:30 and 17:32 CEST, with curl's default User-Agent (`curl/8.7.1`):
 - Cloudflare Images "Preserve Content Credentials" and "Transform via URL → metadata".

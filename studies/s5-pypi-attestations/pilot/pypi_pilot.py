@@ -1,5 +1,5 @@
 import json, random, time, urllib.request, urllib.parse, re, sys
-UA={"User-Agent":"easybyte-lab-pilot/0.1 (research; research@easybyte.es)"}
+UA={"User-Agent":"easybyte-lab-pilot/0.1 (research; contact@easybyte.es)"}
 def get(url, accept=None):
     h=dict(UA); 
     if accept: h["Accept"]=accept

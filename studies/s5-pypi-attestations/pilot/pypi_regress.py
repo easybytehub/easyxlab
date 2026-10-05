@@ -4,7 +4,7 @@ rows=json.load(open("top.json"))["rows"][:500]
 def one(r):
     p=r["project"]
     try:
-        s=json.loads(urllib.request.urlopen(urllib.request.Request(f"https://pypi.org/simple/{p}/",headers={"Accept":"application/vnd.pypi.simple.v1+json","User-Agent":"easybyte-lab-pilot/0.1 (research@easybyte.es)"}),timeout=30).read())
+        s=json.loads(urllib.request.urlopen(urllib.request.Request(f"https://pypi.org/simple/{p}/",headers={"Accept":"application/vnd.pypi.simple.v1+json","User-Agent":"easybyte-lab-pilot/0.1 (contact@easybyte.es)"}),timeout=30).read())
     except Exception as e: return p,None
     fs=[f for f in s["files"] if not f.get("yanked")]
     if not fs: return p,None
