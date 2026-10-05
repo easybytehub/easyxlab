@@ -94,8 +94,8 @@ in December, 40.5% of the national June–December gap.
 - The Ministry's 2024 progress report reads the survey as having «estimaba en 34.145 el número de
   personas sin hogar en España».
 
-**People in reception centres need shelter, and under the ETHOS typology adopted by the Strategy and
-by INE in 2024 they are houseless.** The European Observatory on Homelessness notes that no EU state
+**People in reception centres need shelter, and under the ETHOS typology adopted by the Strategy and,
+in 2024, by INE they are houseless.** The European Observatory on Homelessness notes that no EU state
 recognises this classification in law or administration, and that ETHOS Light excludes them. Either
 way, the record is real: more shelter places were occupied than in any year INE charts since 2006. What it does not show
 is a comparable rise outside immigrant-specialised centres. We measure what the statistic counts.
